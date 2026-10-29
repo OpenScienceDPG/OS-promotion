@@ -1,0 +1,153 @@
+schema_version: 1.0
+id: doi-10-1002-jcv2-70177
+doi: 10.1002/jcv2.70177
+bibliography:
+  title: Categories or dimensions? A critical systematic review of taxometric evidence in autism, ADHD,
+    and language disorders
+  authors: Enrico Toffalini; Margherita Calderan; Riccardo Pagan; Valentina Tobia; Edmund Sonuga-Barke
+  year: 2026
+  journal: JCPP Advances
+  pages: e70177
+dpg:
+  authors:
+  - Enrico Toffalini
+  - Margherita Calderan
+  verified: true
+  verification_source: 'Final PDF p.1 affiliation 1: Enrico Toffalini and Margherita Calderan, Department
+    of General Psychology, University of Padua.'
+source:
+  pdf_file: extra2026-T06.pdf
+  pdf_path: .na.character
+  md5: 2272cc5974e81c24ab1fcd1d8e10a491
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 22:51:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida (richiesta Enrico 20/10/2026, lavori Toffalini 2025-2026 fuori corpus):
+    dichiarazione esplicita + link; controllo manuale Enrico pending. Il piano dello studio, reso pubblico
+    prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; L''articolo, gratuito
+    sul sito della rivista.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026 (Toffalini works outside the 100-PDF corpus, Enrico request 2026-10-20)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1002/jcv2.70177
+  preregistration:
+  - https://osf.io/65y9g/?view_only=91e97c6b00dc444abb83fefcf67cbac0
+  data:
+  - https://doi.org/10.17605/OSF.IO/YS5AD
+  code:
+  - https://doi.org/10.17605/OSF.IO/YS5AD
+  - https://github.com/EnricoToffalini/Taxometrics-Neurodevelopmental-Disorders
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.10, Registration details; p.1 Abstract; p.3 Methods
+  passage: Review protocol explicitly stated preregistered on 31 March 2025 in OSF Registries (65Y9G)
+    with printed view-only link; search to April 2025; supplementary search January 2026 reported as deviation.
+    Timing not checked in registry. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://osf.io/65y9g/?view_only=91e97c6b00dc444abb83fefcf67cbac0
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.10, Data availability statement; pp.5 and 7
+  passage: All data supporting the review and the simulation explicitly stated openly available on OSF
+    (DOI 10.17605/OSF.IO/YS5AD); data extraction table and simulation data also at printed OSF view-only
+    link https://osf.io/ys5ad/?view_only=0e2812acfabf43fc8af01f883c7331ba. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/YS5AD
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.10, Data availability statement; p.7
+  passage: All code (review and simulation) explicitly stated openly available on OSF and on GitHub. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://github.com/EnricoToffalini/Taxometrics-Neurodevelopmental-Disorders
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: 'Open access article under CC BY (Wiley, JCPP Advances). Not in ../list.xlsx (published after
+    the IRIS export): publisher licence printed in the final PDF, Crossref licence metadata and publisher-hosted
+    full text without login used as separate evidence of publisher access; Enrico to confirm.'
+  url: https://doi.org/10.1002/jcv2.70177
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice
+    usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Autismo, ADHD e disturbi del linguaggio: si è «dentro» o «fuori», come suggerisce una diagnosi,
+    oppure sono l’estremo di caratteristiche che tutti abbiamo in misura diversa? Esistono metodi
+    statistici pensati proprio per rispondere, e questa revisione ha raccolto i 14 studi che li
+    hanno applicati. Per ADHD e disturbi del linguaggio le prove indicano una scala continua, senza
+    un confine netto. Per l’autismo, invece, molti studi trovavano categorie distinte. Ma gli autori
+    scoprono un inganno: quegli studi spesso mettevano insieme persone già diagnosticate e persone
+    reclutate altrove, e simulazioni al computer mostrano che questa mescolanza fa comparire
+    «categorie» anche dove non ce ne sono. Una lezione importante su quanto il modo di scegliere i
+    partecipanti possa plasmare le conclusioni.
+  topics:
+  - autismo
+  - ADHD
+  - psicometria
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: JCPP Advances 2026 e70177; received 27 Jan, accepted 21 Sep 2026; Toffalini and Calderan
+      DPG; CC BY; abstract.'
+    - 'PDF pp.3-4: preregistered review, four databases to April 2025, supplementary search Jan 2026 as
+      deviation; 126 records, 14 articles, 85 taxometric analyses (ADHD 6, ASD 6, dyslexia 1, SLI 2).'
+    - 'PDF pp.5-7: ADHD/SLI dimensional, ASD and subtypes taxonic; admixture common; Monte Carlo: admixture
+      yields false taxonic results, no admixture dimensional.'
+    - 'PDF pp.8-10: autism evidence stronger but frustrated by sampling biases; limits geography/ethnicity/age;
+      p.10 data, code, registration statements.'
+    review_note: 'Separate scientific reread pp.1-10: preregistered review, 14 articles, ADHD/SLI dimensional,
+      ASD taxonic with admixture, simulation, cautious autism conclusion. Editorial reread: taxometrics
+      and admixture explained, OSF/GitHub.'
+  scientific_notes: Several view-only and DOI links printed; resource fields use the DOI, GitHub and the
+    printed registration view-only link.
+publication:
+  published: false
+  featured: false

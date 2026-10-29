@@ -1,0 +1,162 @@
+schema_version: 1.0
+id: doi-10-1162-jocn-a-02330
+doi: 10.1162/jocn_a_02330
+bibliography:
+  title: 'The Impact of Auditory Distraction on Visual Memory Encoding in Middle-aged and Older Adults:
+    A High-density Electroencephalography Study'
+  year: 2025
+  journal: Journal of Cognitive Neuroscience
+  authors: Fiorella Del Popolo Cristaldi; Maria Silvia Saccani; Giulio Contemori; Vincenzo Livoti; Mario
+    Bonato
+  volume: '37'
+  issue: '9'
+  pages: 1449–1478
+  publication_date: '2025-09-01'
+dpg:
+  authors:
+  - Fiorella Del Popolo Cristaldi
+  - Maria Silvia Saccani
+  - Giulio Contemori
+  - Vincenzo Livoti
+  - Mario Bonato
+  verified: true
+  verification_source: PDFp1:all author superscripts1,Department of General Psychology. PubMed40136269
+    confirms final2025Sep1,37(9):1449–1478. Identity/scope checks retained from completed B008 local review;
+    resources not reopened in rapid resumption.
+source:
+  pdf_file: dpg2025-P024.pdf
+  pdf_path: selected/dpg2025-P024.pdf
+  md5: ec0007e0f8f6b8b5ee5c02d969d81e41
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:14:49 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano pubblici su OSF dati e analisi dello studio; la presenza di codice eseguibile resta
+    da verificare.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1162/jocn_a_02330
+  preregistration: []
+  data:
+  - https://osf.io/a4e5c/?view_only=56522cac971042428393f85bf40fc92a
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.27 (printed p.1475), Data Availability Statement
+  passage: Paper explicitly declares supporting study data publicly available on OSF. Declaration and
+    complete published view-only link read locally; resource not opened in this rapid unit. External access/content
+    and data aggregation remain unverified; manual Enrico check pending. Canonical/public URL points to
+    this article and the precise section above to avoid copying the access token. Data reuse in the paper
+    is not represented as new collection.
+  url: https://doi.org/10.1162/jocn_a_02330
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, article licensing statement
+  passage: Article explicitly declares Creative Commons open-access publication and gives its DOI. Declaration/link
+    read locally; external article access not checked in this rapid unit. Manual Enrico check pending.
+  url: https://doi.org/10.1162/jocn_a_02330
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf
+  location: PDF p.27 (printed p.1475), Data Availability Statement
+  passage: Public data and analyses are explicitly declared, but analyses does not specify executable
+    code. open_code remains unknown; no code badge or uninspected material/protocol claim. Correct location
+    is PDF p.27, printed p.1475, rather than p.26/1474 in the earlier held checkpoint.
+  url: https://doi.org/10.1162/jocn_a_02330
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.27, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/a4e5c/?view_only=56522cac971042428393f85bf40fc92a
+  verification: unverified
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Provate a memorizzare delle immagini mentre qualcuno vi detta delle lettere da contare: non è
+    facile. Lo studio ha messo alla prova 38 adulti tra i 52 e i 72 anni, registrandone l’attività
+    cerebrale mentre memorizzavano immagini ascoltando una serie di lettere, a volte ignorandole, a
+    volte contando quante volte compariva una lettera precisa. Quando l’attenzione era divisa,
+    ricordare le immagini diventava più difficile. Con l’età la memoria era un po’ meno precisa in
+    generale, ma la distrazione non pesava in modo evidente di più sulle persone più anziane. E il
+    cervello rispondeva alla sfida: sotto distrazione aumentavano alcuni segnali elettrici legati
+    alla memorizzazione, come se mettesse in campo più risorse.
+  topics:
+  - memoria visiva
+  - attenzione divisa
+  - invecchiamento
+  - elettroencefalografia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.4–7: 50 recruited (48–72 years); final analyzed N=38 (52–72 years) after 10 EEG, 1 technical
+      and 1 behavioral exclusion. Prior held metadata gave recruitment age, not final analyzed age.'
+    - 'PDF pp.5/7: within-person single/dual task, perceptually identical image/audio streams; count auditory
+      X only in dual task; 128-channel EEG; subsequent four-choice image recognition.'
+    - 'PDF pp.8–10: recognition accuracy .920 single vs .844 dual; age worsens overall accuracy, performance-cost
+      age association nonsignificant p=.235, not proof of exact age invariance; larger encoding-related
+      ERP and theta synchronization in dual task.'
+    - 'PDF pp.16–17: resource-recruitment/compensation interpretation tentative; source localization speculative,
+      exploratory age/neural associations not diagnostic validation; cross-sectional comparison, no longitudinal
+      decline tracked.'
+    - 'PDF p.27 (printed 1475), Data Availability Statement: all data and analyses publicly available
+      on OSF via full anonymous view-only link. Corrects previous held checkpoint location p.26/1474.
+      Analyses does not establish executable analysis code.'
+    review_note: 'Scientific reread against pp.4–10,16–17,27: analyzed sample 38 aged52–72, nonsignificant
+      cost/age relation not exact invariance, compensation tentative and age cross-sectional. Editorial
+      reread: chronological task description and selective results, no diagnostic or longitudinal claim.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

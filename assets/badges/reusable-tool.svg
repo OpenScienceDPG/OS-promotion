@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 151" role="img" aria-label="REUSABLE TOOL (draft badge)">
+  <!-- DRAFT badge drawn in the style of the COS Open Science badges; replace when an official version is adopted. -->
+  <g stroke-linejoin="round" stroke-width="18">
+    <polygon points="77.5,10 13,45 13,100 77.5,135" fill="#5B7085" stroke="#5B7085"/>
+    <polygon points="77.5,10 142,45 142,100 77.5,135" fill="#2C3A48" stroke="#2C3A48"/>
+    <polygon points="77.5,27 119,51 119,93 77.5,117 36,93 36,51" fill="#fff" stroke="#fff" stroke-width="20"/>
+  </g>
+  <g fill="none" stroke="#5B7085" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="60" y1="88" x2="86" y2="60" stroke-width="10"/>
+    <circle cx="91" cy="54" r="12" stroke-width="6"/>
+    <line x1="93" y1="52" x2="102" y2="43" stroke="#fff" stroke-width="7"/>
+  </g>
+  <polygon points="12,108 1,121 12,134" fill="#414142"/>
+  <polygon points="143,108 154,121 143,134" fill="#414142"/>
+  <rect x="11" y="108" width="133" height="26" fill="#414142"/>
+  <text x="77.5" y="121" dy="0.36em" fill="#fff" font-family="Oswald, 'Arial Narrow', Arial, sans-serif" font-size="13.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">REUSABLE TOOL</text>
+</svg>

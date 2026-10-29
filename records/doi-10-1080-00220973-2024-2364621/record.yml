@@ -1,0 +1,130 @@
+schema_version: 1.0
+id: doi-10-1080-00220973-2024-2364621
+doi: 10.1080/00220973.2024.2364621
+bibliography:
+  title: The Relation Between Soft Skills and Arithmetic Performance
+  authors: Tommaso Feraco; Irene C. Mammarella; Chiara Meneghetti
+  journal: The Journal of Experimental Education
+  volume: '93'
+  issue: '3'
+  pages: 502–521
+  publication_date: null
+  year: 2025
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Chiara Meneghetti
+  verified: true
+  verification_source: PDF p.2 assigns Feraco and Meneghetti affiliation a Department of General Psychology;
+    Mammarella Department of Developmental and Social Psychology. Citation (2025) 93:3, 502–521; published
+    online 22 June 2024 (p.1).
+source:
+  pdf_file: dpg2025-P034.pdf
+  pdf_path: selected/dpg2025-P034.pdf
+  md5: aadfe51607adee46e8966dc462de1b2a
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:33:29 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano i dati disponibili pubblicamente su figshare; materiali e codice restano su richiesta.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: false
+  open_materials: false
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1080/00220973.2024.2364621
+  preregistration: []
+  data:
+  - https://doi.org/10.6084/m9.figshare.16974280
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.15, Data, materials and/or code availability
+  passage: Paper explicitly declares the data supporting the findings openly available on figshare 16974280.
+    Declaration and link read locally; resource not opened in rapid mode. External contents/access unverified;
+    manual Enrico check pending.
+  url: https://doi.org/10.6084/m9.figshare.16974280
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  - open_materials
+  source: pdf
+  location: PDF p.15, Data, materials and/or code availability
+  passage: Materials and code are available from the corresponding authors on request only; no public
+    link.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti"
+  public_summary: >-
+    Curiosità e perseveranza aiutano anche in matematica? Sì, ma per una strada indiretta. Lo studio
+    ha coinvolto 551 studenti italiani tra gli 11 e i 18 anni, che in classe hanno svolto prove di
+    calcolo e di ragionamento e raccontato le proprie soft skills, il modo di studiare, la
+    motivazione e le emozioni legate alla scuola. Per il calcolo contavano soprattutto la capacità
+    di ragionamento, poi la motivazione e il provare meno emozioni negative. Le soft skills non si
+    legavano direttamente ai risultati, ma andavano di pari passo con più motivazione, migliori
+    strategie di studio, più emozioni positive e meno emozioni negative: ed è proprio attraverso
+    motivazione ed emozioni che si collegavano, un poco, alla bravura nei calcoli. Un quadro che
+    aiuta a capire come il carattere entra in classe.
+  topics:
+  - soft skills
+  - matematica
+  - motivazione scolastica
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1–2: Feraco and Meneghetti DPG, Mammarella DPSS; J Exp Educ 93(3):502–521 (2025), online
+      22 Jun 2024; no open-access licence.'
+    - 'PDF pp.6–9: 551 Italian students aged 11–18, data collected Jan–Feb 2020; six soft skills, SRL
+      strategies, motivation, achievement emotions, fluid reasoning, standardized arithmetic tasks; path
+      analysis.'
+    - 'PDF pp.10–12: arithmetic related to fluid reasoning b=.29, motivation .11, negative emotions -.13;
+      no direct soft-skill link; soft skills related to motivation/SRL/positive emotions (.56–.57) and
+      negative emotions (-.15); indirect effects via motivation .06 and negative emotions .02 only.'
+    - 'PDF p.14 limitations: cross-sectional, mediation causality not established, no prior achievement/SES.'
+    - 'PDF p.15 Data availability: data openly on figshare 16974280; materials and code only on request.'
+    review_note: 'Separate scientific reread against pp.6–14: 551 students aged 11–18, path-model coefficients,
+      no direct soft-skill link, indirect effects only via motivation and negative emotions, cross-sectional
+      limits; data public vs code/materials on request. Editorial reread: plain terms for fluid reasoning
+      and SRL.'
+publication:
+  published: false
+  featured: false

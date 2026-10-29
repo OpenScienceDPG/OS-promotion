@@ -1,0 +1,72 @@
+schema_version: 1
+id: doi-10-1136-bmjebm-2021-111670
+doi: 10.1136/bmjebm-2021-111670
+bibliography:
+  title: "Publication by association: how the COVID-19 pandemic has shown relationships between authors and editorial board members in the field of infectious diseases"
+  authors: Clara Locher; David Moher; Ioana A. Cristea; Florian Naudet
+  year: 2022
+  journal: BMJ Evidence-Based Medicine
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: Locher et al - 2022 - Publication by association- how the COVID-19 pandemic.pdf
+  pdf_path: selected/Locher et al - 2022 - Publication by association- how the COVID-19 pandemic.pdf
+  md5: b9e5b6b678662d60d0eb206d165da914
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Codice R per riprodurre estrazione PubMed e analisi
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: true
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1136/bmjebm-2021-111670]
+  preregistration: []
+  data: []
+  code: [https://osf.io/dqvea/]
+  materials: []
+  protocol: []
+evidence:
+  - claims: [open_code]
+    source: pdf
+    location: pages 1 and 7
+    passage: The paper links the code used for PubMed extraction and states that the analysis can be reproduced from it.
+    url: https://osf.io/dqvea/
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "Il codice usato per le analisi"
+  public_summary: >-
+    Nei primi mesi della pandemia, uno studio molto discusso sull’idrossiclorochina fu accettato
+    dopo una revisione durata un solo giorno, su una rivista il cui direttore lavorava nell’istituto
+    degli autori e figurava tra i firmatari. Partendo da questo caso, gli autori hanno passato al
+    setaccio le riviste di malattie infettive con un indicatore semplicissimo: quanta parte degli
+    articoli di ciascuna rivista è firmata dal suo autore più prolifico. Su oltre duecento riviste,
+    una spicca nettamente: in cinque anni, più di un terzo dei suoi articoli portava la firma della
+    stessa persona. Gli autori propongono di chiamare queste testate «riviste di autopromozione»:
+    sedi che rischiano di servire soprattutto a gonfiare gli indicatori su cui si decidono carriere
+    e finanziamenti. Un campanello d’allarme semplice ed efficace per proteggere la qualità della
+    ricerca medica.
+  topics: []
+publication:
+  published: false
+  featured: false
+

@@ -1,0 +1,169 @@
+schema_version: 1.0
+id: doi-10-1111-bmsp-70013
+doi: 10.1111/bmsp.70013
+bibliography:
+  title: Reliability measures in knowledge structure theory
+  year: 2025
+  journal: British Journal of Mathematical and Statistical Psychology
+  authors: Debora de Chiusole; Andrea Spoto; Umberto Granziol; Luca Stefanutti
+  publication_status: Early View
+  online_first_date: '2025-11-01'
+dpg:
+  authors:
+  - Andrea Spoto
+  - Umberto Granziol
+  verified: true
+  verification_source: PDF p1, author superscripts2 and Department of General Psychology; publisher full
+    text https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bmsp.70013 and PubMed41175028 confirm2025/affiliations.
+    Identity/scope checks retained from completed B008 local review; resources not reopened in rapid resumption.
+source:
+  pdf_file: dpg2025-P022.pdf
+  pdf_path: selected/dpg2025-P022.pdf
+  md5: bc0c2b247bddec4d791be87c487b4071
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:14:49 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano condivisi su OSF i dati a supporto dei risultati e funzioni MATLAB per calcolare
+    accuratezza e discrepanza.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1111/bmsp.70013
+  preregistration: []
+  data:
+  - https://osf.io/nr2ug/?view_only=ea8b0914f6a74ed28a84e60547c72b2d
+  code:
+  - https://osf.io/nr2ug/overview
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.21, Data Availability Statement
+  passage: Paper explicitly declares supporting study data publicly available on OSF. Declaration and
+    complete published view-only link read locally; resource not opened in this rapid unit. External access/content
+    and data aggregation remain unverified; manual Enrico check pending. Canonical/public URL points to
+    this article and the precise section above to avoid copying the access token. Data reuse in the paper
+    is not represented as new collection.
+  url: https://doi.org/10.1111/bmsp.70013
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.10, section 4.2 Methods
+  passage: Paper explicitly makes available study-specific MATLAB implementations of the accuracy-rate
+    and expected-discrepancy algorithms and provides a direct OSF link. Declaration/link read locally;
+    resource not opened in rapid mode. Availability, contents and operation remain unverified; manual
+    Enrico check pending. This claim concerns the new functions and is not inferred from the pre-existing
+    kst toolbox.
+  url: https://osf.io/nr2ug/overview
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - reusable_tool
+  source: pdf
+  location: PDF p.10, section 4.2 Methods
+  passage: Paper explicitly makes available reusable MATLAB functions for calculating the proposed accuracy
+    and discrepancy measures and provides a direct OSF link. Declaration/link read locally; resource not
+    opened in rapid mode. Availability, contents and operation remain unverified; manual Enrico check
+    pending. This claim concerns the new functions and is not inferred from the pre-existing kst toolbox.
+  url: https://osf.io/nr2ug/overview
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, article licensing statement
+  passage: Article explicitly declares Creative Commons open-access publication and gives its DOI. Declaration/link
+    read locally; external article access not checked in this rapid unit. Manual Enrico check pending.
+  url: https://doi.org/10.1111/bmsp.70013
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.21, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/nr2ug/?view_only=ea8b0914f6a74ed28a84e60547c72b2d
+  verification: unverified
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Un test non dice solo quanti punti hai preso: può provare a ricostruire che cosa sai davvero e
+    che cosa ti manca. Ma quanto possiamo fidarci di questa ricostruzione? Questo lavoro propone
+    nuove misure per rispondere: la probabilità di avere individuato esattamente le conoscenze di
+    una persona e, se ci si è sbagliati, di quanto. Con simulazioni al computer, gli autori mostrano
+    come queste misure cambiano con il numero di domande e con la complessità delle conoscenze in
+    gioco. Poi le applicano alle risposte di 286 studenti a domande di statistica: in questo
+    esempio, la probabilità di ricostruire esattamente ciò che uno studente sapeva era dell’87%. Uno
+    strumento utile per valutazioni più trasparenti sul proprio margine di errore.
+  topics:
+  - psicometria
+  - affidabilità
+  - valutazione delle conoscenze
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - reusable_tool
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.9–10/16: two simulation studies manipulate item count, structure cardinality, error and
+      sample size; Study 1 9000 conditions, Study 2 108 conditions with 100 samples each.'
+    - 'PDF pp.17/19: reused 2018 dataset of 286 students/24 questions; analysis reduces to 16 items and
+      60 states for computational feasibility. Accuracy estimate rho=.87 is model-based, not externally
+      validated diagnostic accuracy.'
+    - 'PDF pp.19–20: larger item counts benefit accuracy in complex structures; estimated reliability
+      can be biased upward with increasing error/structure size; model assumptions limit generalization.'
+    - PDF p.10 section 4.2 explicitly supplies study-specific MATLAB functions for accuracy and expected
+      discrepancy. Do not confuse these new functions with the pre-existing kst toolbox cited on p.17.
+    - PDF p.21 Data Availability Statement declares openly available supporting data and publishes a full
+      view-only OSF link; token verified locally, never copied to canonical/public output.
+    review_note: 'Scientific reread against pp.9–10,16–20: model-estimated .87 is not external accuracy;
+      empirical reuse and 16 selected items explicit. Editorial reread: coherent problem/method/result/caution/sharing
+      paragraph.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

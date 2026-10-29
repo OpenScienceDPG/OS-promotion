@@ -1,0 +1,143 @@
+schema_version: 1
+id: doi-10-1038-s41598-025-94361-y
+doi: 10.1038/s41598-025-94361-y
+bibliography:
+  title: Characterization of contrast-mediated collinear interactions in the human visual system
+  authors: Luca Battaglini; Giulio Contemori; Gianluca Campana; Marco Bertamini; Gianluca Ruffato;
+    Marcello Maniglia
+  year: 2025
+  journal: Scientific Reports
+  volume: '15'
+  issue: '1'
+  article_number: '11877'
+  publication_date: '2025-04-07'
+dpg:
+  authors:
+  - Luca Battaglini
+  - Giulio Contemori
+  - Gianluca Campana
+  - Marco Bertamini
+  verified: true
+  verification_source: 'Final article PDF page 1: author superscripts link these four authors to
+    Department of General Psychology, Universita di Padova.'
+source:
+  pdf_file: dpg2025-P001.pdf
+  pdf_path: selected/dpg2025-P001.pdf
+  md5: 2c40a2f55ed74cf20c3449b28e5ccfd0
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 12:33:16 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Accepted under the 2025-2026 corpus and published-view-only accessibility criteria;
+    substantive resource evidence verified.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41598-025-94361-y
+  preregistration: []
+  data:
+  - https://osf.io/fepbt/?view_only=42d6cc1d2a3c43588adf3dc1fb6b9a97
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF page 1, citation and affiliations
+  passage: Scientific Reports 15:11877 (2025); four authors explicitly DPG-affiliated.
+  url: https://doi.org/10.1038/s41598-025-94361-y
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-repository
+  location: PDF page 11, Data availability; publisher data-availability heading; OSF workbook data
+    sheet
+  passage: 'The final article publishes a view-only link to OSF fepbt. Opening that exact link and
+    downloading Contrast_Ratio_dataset.xlsx both returned HTTP 200 without login. The project is
+    marked public=false; access nevertheless works via the printed link, accepted under Enrico criterion
+    of 20 October 2026. Workbook contains 1280 participant-by-condition threshold rows, four groups
+    of 20 subject codes: 12-cpd central, 1-cpd central, and two 1-cpd peripheral groups, consistent
+    with the paper three experiments and the two peripheral samples. These are condition-level thresholds,
+    not trial-level raw responses. Repository token is not reproduced here; resource URL points to
+    its public publisher source.'
+  url: https://www.nature.com/articles/s41598-025-94361-y#data-availability
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher
+  location: Publisher full article
+  passage: Full article HTML freely retrieved with HTTP 200.
+  url: https://www.nature.com/articles/s41598-025-94361-y
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.11, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/fepbt/?view_only=42d6cc1d2a3c43588adf3dc1fb6b9a97
+  verification: unverified
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un oggetto vicino può aiutarci a vedere qualcosa, oppure nasconderlo. Dipende anche da quanto è
+    contrastato. In tre esperimenti, 80 persone dovevano scovare una piccola trama a righe, al
+    centro o ai margini del campo visivo, affiancata da altre trame allineate più o meno vicine e
+    più o meno contrastate. Al centro della vista, i vicini poco contrastati facilitavano il
+    compito, quelli molto contrastati lo ostacolavano; a distanze maggiori tornavano ad aiutare. Ai
+    margini del campo visivo, invece, i vicini ostacolavano soprattutto. Un risultato utile per chi
+    studia gli allenamenti della vista: per interpretarne gli effetti conta anche il contrasto degli
+    stimoli.
+  topics:
+  - percezione visiva
+  - sensibilità al contrasto
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: year 2025 and four DPG authors verified.'
+    - 'PDF pp.3-5: 80 normal/corrected observers; 20/20/40 across experiments; task, manipulated
+      contrast/distance/eccentricity.'
+    - 'PDF pp.5-9: central short-distance low-contrast facilitation, high-contrast inhibition; peripheral
+      inhibition without observed facilitation.'
+    - 'PDF pp.9-10: indirect clinical implications, no patient sample, no eye tracking, variability.'
+    - 'PDF p.11: exact published view-only link; API and workbook download 200 without login. Workbook
+      has 1280 condition-level rows, four groups of 20 subject codes; two central spatial frequencies
+      and two peripheral groups. No trial-level claim.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

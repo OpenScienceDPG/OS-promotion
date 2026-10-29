@@ -1,0 +1,142 @@
+schema_version: 1.0
+id: doi-10-1038-s41562-025-02115-7
+doi: 10.1038/s41562-025-02115-7
+bibliography:
+  title: A meta-analysis of the association of death anxiety with psychological distress and psychopathology
+  authors: Elisa P. Dumitru; Roxana A. I. Cardoș; Ion Milea; Filippo Gambarota; Gianmarco Altoè; Daniel
+    O. David; Ioana A. Cristea
+  journal: Nature Human Behaviour
+  volume: '9'
+  issue: '5'
+  publication_date: '2025-03-03'
+  year: 2025
+  pages: 933–943
+dpg:
+  authors:
+  - Ioana A. Cristea
+  verified: true
+  verification_source: PDF p.11 explicitly assigns Cristea affiliation6 DPG; Gambarota and Altoè affiliation4
+    DPSS. Publisher https://www.nature.com/articles/s41562-025-02115-7 and PubMed40033136 verify final2025,9(5):933–943,
+    online3March2025/issueMay2025; local proof has missing online-date placeholder.
+source:
+  pdf_file: dpg2025-P027.pdf
+  pdf_path: selected/dpg2025-P027.pdf
+  md5: a4782420a68ec4b4ac9861602eb7d514
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:21:44 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano condivisi preregistrazione, dati meta-analitici e script R, con modifiche al piano
+    documentate.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41562-025-02115-7
+  preregistration:
+  - https://osf.io/a2yeh/
+  data:
+  - https://osf.io/a2yeh/
+  code:
+  - https://osf.io/a2yeh/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.7, Methods
+  passage: Paper explicitly declares preregistered meta-analysis on7June2022, updates22Nov2023 and28Feb2024
+    with deviations documented and supplies OSF a2yeh link. Declaration/link read locally; resource not
+    opened in rapid mode. External contents/access and registration chronology remain unverified; manual
+    Enrico check pending.
+  url: https://osf.io/a2yeh/
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.9, Data availability; p.8 meta-analytic procedures
+  passage: Paper explicitly declares public meta-analytic datasets and supplies OSF a2yeh link. Declaration/link
+    read locally; resource not opened in rapid mode. External contents/access and registration chronology
+    remain unverified; manual Enrico check pending.
+  url: https://osf.io/a2yeh/
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.9, Code availability
+  passage: Paper explicitly declares public R codebooks and scripts for data analysis and supplies OSF
+    a2yeh link. Declaration/link read locally; resource not opened in rapid mode. External contents/access
+    and registration chronology remain unverified; manual Enrico check pending.
+  url: https://osf.io/a2yeh/
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi"
+  public_summary: >-
+    La paura della morte riguarda tutti, ma in alcune persone pesa più che in altre. Questa grande
+    meta-analisi ha riunito 129 studi e oltre 34.000 partecipanti per capire quanto questa ansia
+    vada di pari passo con il disagio psicologico. La risposta è netta: chi ha più paura della morte
+    tende a soffrire di più di ansia, depressione e malessere in generale, con legami di intensità
+    consistente. Un risultato che mette al centro della scena una paura antichissima. Il prossimo
+    passo, per gli autori, sarà capire che cosa venga prima: se la paura della morte alimenti il
+    disagio, o il contrario.
+  topics:
+  - ansia di morte
+  - disagio psicologico
+  - meta-analisi
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF pp.1–3:129 studies/158 independent samples/34147 participants; pooled r=.42 anxiety,.41 depression,.36
+      distress; substantial heterogeneity.
+    - PDF pp.6–8:most studies poor quality; observational/pre-manipulation baseline correlations, mostly
+      cross-sectional; causality/reverse causality/confounding unresolved; possible small-study/publication
+      effects.
+    - 'PDF p.7 Methods: preregistration7June2022, updates22Nov2023/28Feb2024; multiple deviations disclosed.
+      Rapid acceptance does not independently establish prospective chronology.'
+    - 'PDF pp.8–9: public meta-analytic datasets/codebooks/R scripts declared atOSF a2yeh; not individual-participant
+      raw data.'
+    review_note: 'Separate scientific reread against pp.1–3,6–9:129studies/158samples/34147participants,
+      correlation magnitudes and directions checked; quality/heterogeneity/reverse causality retained.
+      Editorial reread: observed association separated from causation, open data scoped to meta-analysis.'
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,176 @@
+schema_version: 1
+id: doi-10-1080-1359432x-2024-2415127
+doi: 10.1080/1359432x.2024.2415127
+bibliography:
+  title: 'They don''t really care about us: the impact of perceived vertical pay disparity on employee
+    well-being'
+  authors: Silvia Filippi; Bruno Gabriel Salvador Casara; Kim Peters; Anne Maass; Tommaso Feraco; Caterina
+    Suitner
+  year: 2025
+  journal: European Journal of Work and Organizational Psychology
+  volume: '34'
+  issue: '1'
+  pages: 42–57
+dpg:
+  authors:
+  - Tommaso Feraco
+  verified: true
+  verification_note: PDF p.2 assigns Feraco to DPSS, not DPG. Independent dated CV places him in DPG Aug
+    2024–May 2026, covering online publication 1 Nov 2024 and issue 2025; contemporary DPG council roster
+    20 Feb 2025 independently lists him. Do not rewrite the printed affiliation.
+  sources:
+  - https://feracotommaso.github.io/cv/cv.html
+  - https://dpg.unipd.it/sites/dpg.unipd.it/files/BIRD%20criteri%20distribuzione_CdD%2020.02.2025.pdf
+source:
+  pdf_file: Filippi 2025 They don t really care about us  the impact of perceived vertical pay disparity
+    on employee well-being.pdf
+  pdf_path: selected/Filippi 2025 They don t really care about us  the impact of perceived vertical pay
+    disparity on employee well-being.pdf
+  md5: 3c028d9cbbf6eede7e528f9bbfefb95d
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-10-20'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: null
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Reassessment
+    of existing record; original summary and source preserved; independent dated DPG affiliation evidence.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    citation_year: 2025
+    reason: year-and-DPG-affiliation-verified
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: false
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1080/1359432x.2024.2415127
+  preregistration:
+  - https://osf.io/9vtcd/?view_only=29db24599f694fa488a1a2ad08f934eb
+  data:
+  - https://osf.io/9vtcd/?view_only=29db24599f694fa488a1a2ad08f934eb
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.10 / printed p.50, Studies 2a and 2b
+  passage: Both experiments explicitly described as preregistered; full view-only OSF link locally confirmed
+    in PDF. Token omitted; see named article section. Declaration and link read locally; resource not
+    opened; external access/content unverified, manual Enrico check pending.
+  url: https://doi.org/10.1080/1359432x.2024.2415127
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.15 / printed p.55, Data availability statement
+  passage: Authors explicitly declare data supporting this line of studies openly available on OSF, with
+    full view-only link locally confirmed. Token omitted; see named article section. Declaration and link
+    read locally; resource not opened; external access/content unverified, manual Enrico check pending.
+  url: https://doi.org/10.1080/1359432x.2024.2415127
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.2 / printed p.42, copyright
+  passage: Open-access CC BY-NC-ND license stated, article DOI printed. Declaration and link read locally;
+    resource not opened; external access/content unverified, manual Enrico check pending.
+  url: https://doi.org/10.1080/1359432x.2024.2415127
+  verification: unverified
+- claims: []
+  source: web
+  location: Author CV, Past work experience; DPG council roster 20 Feb 2025
+  passage: Author CV dates Feraco DPG researcher position Aug 2024–May 2026; official 2025 council roster
+    independently identifies him as DPG researcher. This resolves eligibility despite DPSS affiliation
+    printed in this paper.
+  url: https://feracotommaso.github.io/cv/cv.html
+  verification: agent-verified
+- claims:
+  - open_access
+  source: spreadsheet
+  location: list.xlsx, sheet -, '-'!G176; DOI column I
+  passage: Local workbook classifies this DOI as green. Under Enrico's 2026-10-20 publisher-access criterion, gold/hybrid/bronze/diamond qualify; green/closed do not. Badge corrected using the workbook, not a new live-access check. Earlier PDF/repository evidence is retained as historical provenance; it does not override this badge criterion.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.10,15, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/9vtcd/?view_only=29db24599f694fa488a1a2ad08f934eb
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.10,15, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/9vtcd/?view_only=29db24599f694fa488a1a2ad08f934eb
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti"
+  public_summary: >-
+    Nel 2018 un amministratore delegato statunitense guadagnava in media 265 volte più del
+    lavoratore medio. Che effetto fa, a chi lavora, sapere che i vertici guadagnano tanto di più? In
+    due indagini con oltre 1.300 lavoratrici e lavoratori negli Stati Uniti e in Italia, chi
+    percepiva un divario retributivo più ampio nella propria azienda sentiva anche che l’azienda si
+    curava poco del suo benessere, era meno soddisfatto del lavoro e si identificava meno con
+    l’organizzazione. Due esperimenti con circa 800 partecipanti, che presentavano aziende
+    ipotetiche con differenze di stipendio grandi o piccole, hanno confermato il quadro: davanti a
+    un divario ampio, le persone si aspettavano di sentirsi meno considerate, meno soddisfatte e
+    meno legate all’azienda. Le disuguaglianze di stipendio, insomma, sono anche un messaggio:
+    dicono ai dipendenti quanto contano.
+  topics:
+  - divario retributivo
+  - benessere lavorativo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.4–8: N1003+332 workers, US/Italy, cross-sectional associations.'
+    - 'PDF pp.9–11: N396+389, preregistered hypothetical Bimboola experiments, fixed participant salary;
+      differences in expected welfare/satisfaction/identification/interference.'
+    - 'PDF p.14: hypothetical organization limits ecological validity, no observed real-workplace causal
+      effect.'
+    - 'PDF p.15: public data declaration; p.2 opening CEO comparison.'
+    review_note: Existing summary preserved exactly. Scientific reread of methods/results/limitations
+      confirms N and direction, associations distinguished from experiments and anticipated outcomes.
+      Editorial reread passes; rhetorical opening and closing retained under preservation rule.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - preregistration
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

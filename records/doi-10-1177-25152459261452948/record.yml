@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-1177-25152459261452948
+doi: 10.1177/25152459261452948
+bibliography:
+  title: 'Musicians, Memory, and General Cognitive Ability: A Commentary on Grassi et al. (2025)'
+  authors: Enrico Toffalini; Tommaso Feraco
+  year: 2026
+  journal: Advances in Methods and Practices in Psychological Science
+  volume: '9'
+  issue: '3'
+dpg:
+  authors:
+  - Enrico Toffalini
+  - Tommaso Feraco
+  verified: true
+  verification_source: 'Final PDF p.1: both authors affiliated with Department of General Psychology,
+    University of Padova.'
+source:
+  pdf_file: extra2026-T01.pdf
+  pdf_path: .na.character
+  md5: 146d65eebd7bd4bcd2af743f63d36911
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 22:51:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida (richiesta Enrico 20/10/2026, lavori Toffalini 2025-2026 fuori corpus):
+    dichiarazione esplicita + link; controllo manuale Enrico pending. Il codice usato per le analisi;
+    L''articolo, gratuito sul sito della rivista.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026 (Toffalini works outside the 100-PDF corpus, Enrico request 2026-10-20)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1177/25152459261452948
+  preregistration: []
+  data: []
+  code:
+  - https://github.com/EnricoToffalini/musicians-commentary
+  - https://doi.org/10.5281/zenodo.19626948
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_code
+  source: pdf
+  location: PDF pp.4-5, Transparency/Acknowledgments
+  passage: 'All R code and project files to reproduce the reanalyses explicitly stated available on GitHub
+    and archived on Zenodo (DOI printed). Data are the public dataset released with Grassi et al. (2025):
+    not counted as a practice of this work. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.'
+  url: https://github.com/EnricoToffalini/musicians-commentary
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.5, Zenodo archive DOI
+  passage: Zenodo archive of the same code/project files. Declaration and actual link read locally; resource
+    not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.5281/zenodo.19626948
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: 'Article distributed under CC BY-NC 4.0 (SAGE open access). Not in ../list.xlsx (published
+    after the IRIS export): publisher licence printed in the final PDF, Crossref licence metadata and
+    publisher-hosted full text without login used as separate evidence of publisher access; Enrico to
+    confirm.'
+  url: https://doi.org/10.1177/25152459261452948
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    I musicisti ricordano meglio perché fanno musica, o perché in generale se la cavano un po’
+    meglio in molte prove? Questo commento rianalizza i dati di un grande studio internazionale sui
+    musicisti, partendo da un principio classico della ricerca sull’intelligenza: quando i punteggi
+    di prove diverse vanno di pari passo, prima di interpretare le singole differenze bisogna
+    considerare ciò che hanno in comune. Il risultato cambia la prospettiva: il vantaggio dei
+    musicisti sta soprattutto in questa abilità comune, dove è moderato. Resta un vantaggio
+    specifico chiaro solo nella memoria per le melodie e, al più, uno piccolo nel vocabolario. Un
+    esempio di come rileggere gli stessi dati con occhi nuovi possa arricchire una scoperta.
+  topics:
+  - musica
+  - intelligenza
+  - psicometria
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: AMPPS 9(3) July-Sept 2026, pp.1-5; both authors DPG; CC BY-NC; abstract.'
+    - 'PDF pp.2-3: one-factor model on six tasks (vocabulary, Raven, n-back, digit, spatial, melody span);
+      manifold weak (~.20); g pragmatic; SES adjustment; multigroup invariance and multilevel SEM.'
+    - 'PDF pp.3-4: latent g difference 0.51 SD (multigroup) and 0.44 SD (multilevel); residual melody
+      span ~0.86 SD; vocabulary ~0.14 SD.'
+    - 'PDF pp.4-5: R code/project files on GitHub, archived Zenodo; data public from Grassi et al. 2025.'
+    review_note: 'Separate scientific reread pp.1-5: six tasks, latent g 0.51/0.44 SD, melody residual,
+      vocabulary small; data from Grassi et al. not claimed. Separate editorial reread: g explained plainly,
+      GitHub/Zenodo code only.'
+  scientific_notes: 'Commentary/reanalysis of public data from Grassi et al. 2025: open_data not claimed
+    for this work.'
+publication:
+  published: false
+  featured: false

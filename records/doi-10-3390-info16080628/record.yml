@@ -1,0 +1,125 @@
+schema_version: 1.0
+id: doi-10-3390-info16080628
+doi: 10.3390/info16080628
+bibliography:
+  title: Fine-Tuning BirdNET for the Automatic Ecoacoustic Monitoring of Bird Species in the Italian Alpine
+    Forests
+  authors: Giacomo Schiavo; Alessia Portaccio; Alberto Testolin
+  journal: Information
+  volume: '16'
+  issue: '8'
+  article_number: '628'
+  year: 2025
+dpg:
+  authors:
+  - Alberto Testolin
+  verified: true
+  verification_source: Final PDF p.1 author affiliations explicitly identify listed authors with Department
+    of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P083.pdf
+  pdf_path: selected/dpg2025-P083.pdf
+  md5: 944d58ca0ff4d5a2ca23a744074d9389
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:33:53 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Codice
+    sorgente per riprodurre la metodologia dichiarato su GitHub con link; articolo OA. Non inferita condivisione
+    di registrazioni o pesi del modello. Risorsa non aperta in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3390/info16080628
+  preregistration: []
+  data: []
+  code:
+  - https://github.com/giacomoschiavo/finetuning-BirdNET
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: CC BY open-access article declaration and DOI read locally. Article not externally opened;
+    external access/content unverified; manual Enrico check pending.
+  url: https://doi.org/10.3390/info16080628
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.12, Data Availability Statement
+  passage: All source code used to reproduce the methodology of the present study stated available at
+    the linked GitHub repository. Declaration and actual link read locally; resource not opened; external
+    content/access unverified; manual Enrico check pending.
+  url: https://github.com/giacomoschiavo/finetuning-BirdNET
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Riconoscere gli uccelli dal canto, in automatico, per sapere quali specie vivono in un bosco: è
+    ciò che fa BirdNET, un sistema di intelligenza artificiale. Ma funziona bene ovunque? Gli autori
+    l’hanno «addestrato» con circa 18 ore di registrazioni raccolte in una foresta delle Alpi
+    italiane, arricchite con suoni di un archivio pubblico per le specie più rare. Il risultato: la
+    versione adattata ai suoni locali riconosceva più canti dell’originale e batteva anche una rete
+    più semplice costruita da zero, per 16 specie diverse. Un piccolo ritocco con esempi locali,
+    insomma, rende l’orecchio artificiale più fine. Uno strumento prezioso per monitorare la
+    biodiversità delle nostre montagne.
+  topics:
+  - ecoacustica
+  - apprendimento automatico
+  - monitoraggio degli uccelli
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF p.1:Information2025,16,628; Alberto Testolin DPG,CC BY.
+    - PDF pp.3-5:282 annotated files approximately18h,16 bird species,3 noise classes;independent20 recordings
+      test subset. Tovanella forest2019/2020 plus Xeno-canto for scarce species. Fine-tuned BirdNET versus
+      original and CNN from scratch.
+    - PDF pp.6-8,10-11:micro F1 .647 fine-tuned+augmentation vs .278 original,.626 fine-tuned,.440 CNN.
+      Class imbalance,rare species poor recognition,restricted habitat/species/duration; no demonstrated
+      conservation benefit or deployment efficiency.
+    - PDF p.12:all study methodology source code explicitly available at linked giacomoschiavo/finetuning-BirdNET
+      GitHub. Not opened; no dataset/weights sharing inferred.
+    review_note: 'Scientific reread PDF pp.3-8,10-12:16 species,18h,independent20 test recordings; recall
+      gain vs original,augmentation modest F1 gain,.647 vs .626;some species poorly classified,class imbalance.
+      No universal recognition or demonstrated conservation impact. Editorial reread: fine-tuning explained
+      as local retraining,performance scope and limitations clear;only source code declared shared.'
+publication:
+  published: false
+  featured: false

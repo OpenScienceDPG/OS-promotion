@@ -1,0 +1,140 @@
+schema_version: 1.0
+id: doi-10-1007-s11218-025-10095-9
+doi: 10.1007/s11218-025-10095-9
+bibliography:
+  title: 'Soft skills in high schools: integrating self-regulated learning and social, emotional, and
+    behavioral skills frameworks'
+  authors: Tommaso Feraco; Roberta Bonelli; Lorenza Da Re; Chiara Meneghetti
+  journal: Social Psychology of Education
+  volume: '28'
+  publication_date: null
+  year: 2025
+  article_number: '134'
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Chiara Meneghetti
+  verified: true
+  verification_source: PDF p.24 assigns Feraco and Meneghetti affiliation1 Dipartimento di Psicologia
+    Generale; Bonelli and Da Re FISPPA. Citation Social Psychology of Education (2025) 28:134 on p.1.
+source:
+  pdf_file: dpg2025-P033.pdf
+  pdf_path: selected/dpg2025-P033.pdf
+  md5: 637d7e56605747b16683f68de57b481b
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:30:40 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano disponibili su OSF dati, codice di analisi e materiali.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: false
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1007/s11218-025-10095-9
+  preregistration: []
+  data:
+  - https://doi.org/10.17605/OSF.IO/2H4FM
+  code:
+  - https://doi.org/10.17605/OSF.IO/2H4FM
+  materials:
+  - https://doi.org/10.17605/OSF.IO/2H4FM
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.13 section2.4; p.19 Data availability
+  passage: Paper explicitly declares all study data available on OSF 2H4FM. Declaration and link read
+    locally; resource not opened in rapid mode. External contents/access unverified; manual Enrico check
+    pending.
+  url: https://doi.org/10.17605/OSF.IO/2H4FM
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.13 section2.4; p.19 Data availability
+  passage: Paper explicitly declares the analytical code available on OSF 2H4FM. Declaration and link
+    read locally; resource not opened in rapid mode. External contents/access unverified; manual Enrico
+    check pending.
+  url: https://doi.org/10.17605/OSF.IO/2H4FM
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.19, Data availability
+  passage: Paper explicitly declares materials available on OSF 2H4FM. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/2H4FM
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli"
+  public_summary: >-
+    Le cosiddette soft skills contano a scuola? Sì, ma il loro legame con i voti sembra passare
+    soprattutto dal modo in cui si studia. Lo studio ha coinvolto oltre 5.000 studenti delle
+    superiori del Veneto, interrogati su abilità sociali ed emotive, metodo di studio, fiducia in
+    sé, voti, soddisfazione per la vita e rapporti con i compagni. Sapersi organizzare e avere idee
+    nuove andava di pari passo con un buon metodo di studio, più fiducia in sé e voti migliori. Ma
+    il legame più forte con i voti era quello della fiducia nelle proprie capacità di studio. Altre
+    abilità brillavano altrove: resilienza emotiva e capacità di relazionarsi si legavano a una vita
+    più soddisfacente, cooperazione e relazione a una migliore accettazione da parte dei compagni.
+    Un ritratto ricco di ciò che serve per stare bene a scuola, non solo per avere buoni voti.
+  topics:
+  - abilità socio-emotive
+  - apprendimento autoregolato
+  - scuola secondaria
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1/24: Feraco and Meneghetti DPG (affiliation1); Soc Psychol Educ (2025) 28:134; exclusive
+      licence, no open-access statement.'
+    - 'PDF p.7: 5075 Veneto high-school students after careless exclusion; hypotheses explicitly not preregistered.'
+    - 'PDF pp.13–16: broad correlations; self-management/innovation predict SRL strategies, self-efficacy,
+      grades; with SRL factors no SEB skill directly predicts self-reported grades, self-efficacy strongest;
+      emotional resilience/social engagement life satisfaction; cooperation/social engagement peer acceptance.'
+    - 'PDF p.17 limitations: cross-sectional, self-report only, mediation untested.'
+    - 'PDF pp.13/19: data, analytic code and materials on OSF 2H4FM.'
+    review_note: 'Separate scientific reread against pp.7,13–17: 5075 students, correlational vs multivariate
+      results, no direct SEB-grade link with SRL factors, self-efficacy strongest, non-academic links
+      retained, cross-sectional self-report and untested mediation. Editorial reread: SRL factors expressed
+      in plain words.'
+publication:
+  published: false
+  featured: false

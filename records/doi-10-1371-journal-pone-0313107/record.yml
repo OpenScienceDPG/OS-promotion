@@ -1,0 +1,188 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0313107
+doi: 10.1371/journal.pone.0313107
+bibliography:
+  title: 'Life satisfaction around the world: Measurement invariance of the Satisfaction With Life Scale
+    (SWLS) across 65 nations, 40 languages, gender identities, and age groups'
+  authors: Viren Swami; Stefan Stieger; Martin Voracek; Toivo Aavik; Hamed Abdollahpour Ranjbar; Sulaiman
+    Olanrewaju Adebayo; Reza Afhami; Oli Ahmed; Annie Aimé; Marwan Akel; Hussam Al Halbusi; George Alexias;
+    Khawla F. Ali; Nursel Alp-Dal; Anas B. Alsalhani; Sara Álvarez-Solas; Ana Carolina Soares Amaral;
+    Sonny Andrianto; Trefor Aspden; Marios Argyrides; John Jamir Benzon R. Aruta; Stephen Atkin; Olusola
+    Ayandele; Migle Baceviciene; Radvan Bahbouh; Andrea Ballesio; David Barron; Ashleigh Bellard; Sóley
+    Sesselja Bender; Kerime Derya Beydaǧ; Gorana Birovljević; Marie-Ève Blackburn; Teresita Borja-Alvarez;
+    Joanna Borowiec; Miroslava Bozogáňová; Solfrid Bratland-Sanda; Matthew H. E. M. Browning; Anna Brytek-Matera;
+    Marina Burakova; Yeliz Çakır-Koçak; Pablo Camacho; Vittorio Emanuele Camilleri; Valentina Cazzato;
+    Silvia Cerea; Apitchaya Chaiwutikornwanich; Trawin Chaleeraktrakoon; Tim Chambers; Qing-Wei Chen;
+    Xin Chen; Chin-Lung Chien; Phatthanakit Chobthamkit; Bovornpot Choompunuch; Emilio J. Compte; Jennifer
+    Corrigan; Getrude Cosmas; Richard G. Cowden; Kamila Czepczor-Bernat; Marcin Czub; Wanderson Roberto
+    da Silva; Mahboubeh Dadfar; Simon E. Dalley; Lionel Dany; Jesus Alfonso D. Datu; Pedro Henrique Berbert
+    de Carvalho; Gabriel Lins de Holanda Coelho; Avila Odia S. De Jesus; Sonia Harzallah Debbabi; Sandesh
+    Dhakal; Francesca Di Bernardo; Donka D. Dimitrova; Jacinthe Dion; Barnaby Dixson; Stacey M. Donofrio;
+    Marius Drysch; Hongfei Du; Angel M. Dzhambov; Claire El-Jor; Violeta Enea; Mehmet Eskin; Farinaz Farbod;
+    Lorleen Farrugia; Leonie Fian; Maryanne L. Fisher; Michał Folwarczny; David A. Frederick; Matthew
+    Fuller-Tyszkiewicz; Adrian Furnham; Antonio Alías García; Shulamit Geller; Marta Ghisi; Alireza Ghorbani;
+    Maria Angeles Gomez Martinez; Sarah Gradidge; Sylvie Graf; Caterina Grano; Gyöngyvér Gyene; Souheil
+    Hallit; Motasem Hamdan; Jonathan E. Handelzalts; Paul H. P. Hanel; Steven R. Hawks; Issa Hekmati;
+    Mai Helmy; Tetiana Hill; Farah Hina; Geraldine Holenweger; Martina Hřebíčková; Olasupo Augustine Ijabadeniyi;
+    Asma Imam; Başak İnce; Natalia Irrazabal; Rasa Jankauskiene; Ding-Yu Jiang; Micaela Jiménez-Borja;
+    Verónica Jiménez-Borja; Evan M. Johnson; Veljko Jovanović; Marija Jović; Marko Jović; Alessandra Costa
+    Pereira Junqueira; Lisa-Marie Kahle; Adam Kantanista; Ahmet Karakiraz; Ayşe Nur Karkin; Erich Kasten;
+    Salam Khatib; Nuannut Khieowan; Patricia Joseph Kimong; Litza Kiropoulos; Joshua Knittel; Neena Kohli;
+    Mirjam Koprivnik; Aituar Kospakov; Magdalena Król-Zielińska; Isabel Krug; Garry Kuan; Yee Cheng Kueh;
+    Omar Kujan; Miljana Kukić; Sanjay Kumar; Vipul Kumar; Nishtha Lamba; Mary Anne Lauri; Maria Fernanda
+    Laus; Liza April LeBlanc; Hyejoo J. Lee; Małgorzata Lipowska; Mariusz Lipowski; Caterina Lombardo;
+    Andrea Lukács; Christophe Maïano; Sadia Malik; Mandar Manjary; Lidia Márquez Baldó; Martha Martinez-Banfi;
+    Karlijn Massar; Camilla Matera; Olivia McAnirlin; Moisés Roberto Mebarak; Anwar Mechri; Juliana Fernandes
+    Filgueiras Meireles; Norbert Mesko; Jacqueline Mills; Maya Miyairi; Ritu Modi; Adriana Modrzejewska;
+    Justyna Modrzejewska; Kate E. Mulgrew; Taryn A. Myers; Hikari Namatame; Mohammad Zakaria Nassani;
+    Amanda Nerini; Félix Neto; Joana Neto; Angela Nogueira Neves; Siu-Kuen Ng; Devi Nithiya; Jiaqing O;
+    Sahar Obeid; Camila Oda-Montecinos; Peter Olamakinde Olapegba; Tosin Tunrayo Olonisakin; Salma Samir
+    Omar; Brynja Örlygsdóttir; Emrah Özsoy; Tobias Otterbring; Sabine Pahl; Maria Serena Panasiti; Yonguk
+    Park; Muhammad Mainuddin Patwary; Tatiana Pethö; Nadezhda Petrova; Jakob Pietschnig; Sadaf Pourmahmoud;
+    Vishnunarayan Girishan Prabhu; Vita Poštuvan; Pavol Prokop; Virginia L. Ramseyer Winter; Magdalena
+    Razmus; Taotao Ru; Mirjana Rupar; Reza N. Sahlan; Mohammad Salah Hassan; Anđela Šalov; Saphal Sapkota;
+    Jacob Owusu Sarfo; Yoko Sawamiya; Katrin Schaefer; Michael Schulte-Mecklenbeck; Veya Seekis; Kerim
+    Selvi; Mehdi Sharifi; Anita Shrivastava; Rumana Ferdousi Siddique; Valdimar Sigurdsson; Vineta Silkane;
+    Ana Šimunić; Govind Singh; Alena Slezáčková; Christine Sundgot-Borgen; Gill Ten Hoor; Passagorn Tevichapong;
+    Arun Tipandjan; Jennifer Todd; Constantinos Togas; Fernando Tonini; Juan Camilo Tovar-Castro; Lise
+    Katrine Jepsen Trangsrud; Pankaj Tripathi; Otilia Tudorel; Tracy L. Tylka; Anar Uyzbayeva; Zahir Vally;
+    Edmunds Vanags; Luis Diego Vega; Aitor Vicente-Arruebarrena; Jose Vidal-Mollón; Roosevelt Vilar; Hyxia
+    Villegas; Mona Vintilă; Christoph Wallner; Mathew P. White; Simon Whitebridge; Sonja Windhager; Kah
+    Yan Wong; Eric Kenson Yau; Yuko Yamamiya; Victoria Wai Lan Yeung; Marcelo Callegari Zanetti; Magdalena
+    Zawisza; Nadine Zeeni; Martina Zvaríková; Ulrich S. Tran
+  year: 2025
+  journal: PLOS ONE
+  volume: '20'
+  issue: '1'
+  article_number: e0313107
+  publication_date: '2025-01-22'
+dpg:
+  authors:
+  - Silvia Cerea
+  - Marta Ghisi
+  verified: true
+  verification_source: Final PDF pp.1-2 affiliation 47 explicitly identifies Silvia Cerea and Marta Ghisi
+    with Department of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P088.pdf
+  pdf_path: selected/dpg2025-P088.pdf
+  md5: de4dc0ec9edb8c410c73fe57aa19c72e
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:53:40 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    BINS, codebook e codice di analisi dichiarati su OSF; articolo OA. Protocollo BINS pubblicato in un
+    articolo precedente: non conteggiato. Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0313107
+  preregistration: []
+  data:
+  - https://osf.io/kzq7w/
+  code:
+  - https://osf.io/kzq7w/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.1, Data Availability Statement; p.13
+  passage: BINS data and codebook explicitly stated available on OSF at printed link. Declaration and
+    actual link read locally; resource not opened; external content/access unverified, manual Enrico check
+    pending.
+  url: https://osf.io/kzq7w/
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.1, Data Availability Statement
+  passage: Analytic codes explicitly stated available on the same OSF project; separate from data claim.
+    Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://osf.io/kzq7w/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Copyright
+  passage: Open access article under Creative Commons Attribution License; article DOI printed. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1371/journal.pone.0313107
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Quanto siamo soddisfatti della nostra vita? Per confrontare la risposta tra paesi, lingue e
+    gruppi bisogna prima essere sicuri che il questionario misuri la stessa cosa ovunque. Gli autori
+    l’hanno verificato con i dati di un grande progetto internazionale: quasi 57.000 persone in 65
+    paesi e 40 lingue hanno compilato la Satisfaction With Life Scale, un breve questionario molto
+    diffuso. Il questionario ha la stessa struttura ovunque e funziona allo stesso modo tra generi e
+    fasce d’età, mentre tra paesi e lingue i confronti vanno fatti con più attenzione. Le differenze
+    tra nazioni erano ampie, quelle tra generi ed età piccole; e in generale chi aveva più sicurezza
+    economica e una relazione stabile era più soddisfatto della propria vita. Una guida preziosa per
+    chi vuole confrontare la soddisfazione di vita nel mondo.
+  topics:
+  - benessere
+  - misurazione psicologica
+  - ricerca interculturale
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PLOS ONE 20(1) e0313107, 22/01/2025; 253 authors, Cerea and Ghisi DPG (affiliation 47);
+      CC BY; OSF data statement.'
+    - 'PDF pp.3-5: BINS 253 scientists, 65 nations, 40 languages, N=56968, data 2020-2022, opportunistic
+      samples; analysis plan in published BINS protocol.'
+    - 'Abstract/pp.8-20: configural and metric invariance everywhere; full scalar for gender and age;
+      partial scalar for all but three nations and all languages; large national differences, negligible-small
+      gender/age; financial security and relationship associations.'
+    - 'PDF pp.23-24: nonrepresentative samples, pandemic period, self-report; recommendation against raw
+      mean comparisons across nations/languages.'
+    review_note: 'Separate scientific reread against pp.1-24: N=56968, 65 nations, 40 languages; configural/metric
+      everywhere, full scalar gender/age, partial scalar except three nations; raw national mean comparisons
+      discouraged; associations only overall; nonrepresentative pandemic-period samples. Separate editorial
+      reread: invariance explained as comparability, declared OSF resources only.'
+  scientific_notes: Author list (253) rebuilt from PDF text; broken diacritics resolved against the identical
+    names printed in P089 or by manual NFC repair; spellings kept as printed in P088 (e.g. Nogueira).
+    Published BINS protocol (Body Image 2022) not credited as this paper practice.
+publication:
+  published: false
+  featured: false

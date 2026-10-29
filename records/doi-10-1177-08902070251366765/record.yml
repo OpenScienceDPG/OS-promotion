@@ -1,0 +1,187 @@
+schema_version: 1.0
+id: doi-10-1177-08902070251366765
+doi: 10.1177/08902070251366765
+bibliography:
+  title: 'Bridges over troubled water: A meta-analysis of the associations of character strengths with
+    well-being and common mental health disorders'
+  authors: Nicole Casali; Tommaso Feraco
+  year: 2025
+  journal: European Journal of Personality
+  volume: '39'
+  publication_date: '2025-08-12'
+  issue: '6'
+  pages: 878–896
+dpg:
+  authors:
+  - Tommaso Feraco
+  verified: true
+  verification_source: Final PDF page 1 explicitly identifies Tommaso Feraco with Department of General
+    Psychology, University of Padova. Nicole Casali is affiliated to the Max Planck Institute, Freiburg.
+source:
+  pdf_file: dpg2025-P014.pdf
+  pdf_path: selected/dpg2025-P014.pdf
+  md5: 423ed6ee169fca9a5d5018cde16de913
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:34:38 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 5
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Sono pubblici i dati estratti e il dizionario, gli script R, il protocollo dettagliato della
+    revisione e i sorgenti dell’app Shiny per esplorare le stime meta-analitiche.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: true
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1177/08902070251366765
+  data:
+  - https://github.com/feracotommaso/CSmetaAnalysis/tree/main/Data_and_code/metaData
+  code:
+  - https://github.com/feracotommaso/CSmetaAnalysis/tree/main/Data_and_code
+  - https://github.com/feracotommaso/CSmetaAnalysis/tree/main/Shiny_app_code
+  materials: []
+  protocol:
+  - https://github.com/feracotommaso/CSmetaAnalysis#direct-links-of-interest
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-bibliographic-metadata
+  location: PDF p.1, citation/affiliation; Crossref metadata
+  passage: European Journal of Personality 39(6):878–896, 2025, first online 12 August 2025. Feraco is
+    the sole explicitly affiliated DPG author.
+  url: https://doi.org/10.1177/08902070251366765
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF pp.4–6 and p.17, open-science statement; GitHub Data_and_code/metaData
+  passage: Anonymous GitHub metadata and downloads HTTP 200. finalMetaData.xlsx contains 284 outcome-level
+    rows, 50 columns, 130 study IDs, 154 unique combined sample identifiers and 4995 nonmissing correlations
+    across 24 strength columns. Study/sample/outcome/scale/reliability variables and an XLSX dictionary
+    were inspected. These are extracted aggregate study data, not original participant-level responses.
+    The reported N275007 corresponds to summing first records per study ID; summing distinct combined
+    sample IDs gives 292944. Summary therefore avoids presenting a unique-person total as independently
+    established.
+  url: https://github.com/feracotommaso/CSmetaAnalysis/tree/main/Data_and_code/metaData
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-resource
+  location: PDF pp.4/8/17; GitHub Data_and_code, R and Shiny_app_code
+  passage: 'Study-specific R files downloaded anonymously HTTP 200 and read: 1.metaAnalisis.R, 0.Prisma.R,
+    2.Figures.R and Shiny sources/modules. Code loads the actual workbook, handles strength columns and
+    outcomes, and implements metafor models and plots. The repository includes helper functions and result
+    objects. Source availability and pertinence are verified; no execution of the full meta-analysis or
+    exact regeneration of every published estimate is claimed.'
+  url: https://github.com/feracotommaso/CSmetaAnalysis/tree/main/Data_and_code
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_protocol
+  source: pdf-and-resource
+  location: PDF p.4, Method; archived PROSPERO protocol, pp.3–7
+  passage: The public repository provides a 12-page PROSPERO-form protocol matching Casali/Feraco, the
+    24 strengths, mental health and well-being review. Anonymous HTTP 200 download and local reading verified
+    explicit questions, databases/languages, eligibility, two-coder screening/extraction rules, extracted
+    variables, random-effects synthesis and moderator minimums. This is a substantive study-specific review
+    protocol; its availability is verified separately from prospective timing.
+  url: https://github.com/feracotommaso/CSmetaAnalysis#direct-links-of-interest
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: public-author-manuscript
+  location: Repository README, Author version of the paper link
+  passage: The linked author manuscript downloaded anonymously HTTP 200 (55 pages); title, author affiliations
+    and study content match the final article. Open access here refers to the freely readable author version,
+    not an assertion about publisher subscription access or a reuse license.
+  url: https://github.com/feracotommaso/CSmetaAnalysis#direct-links-of-interest
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - reusable_tool
+  source: pdf-and-resource
+  location: PDF p.8 Shiny app; repository Shiny_app_code/app.R and result modules
+  passage: A concrete Shiny results explorer is supplied as downloadable source, with controls for strength,
+    outcome/moderator and prediction intervals and forest/funnel plotting. app.R, plotting modules and
+    associated result-file inventory were inspected. This supports source-based reuse with R/dependencies;
+    the hosted endpoint returned HTTP 202/front-end and interactive function was not tested because browser
+    access was unavailable. No successful live-app test is claimed.
+  url: https://github.com/feracotommaso/CSmetaAnalysis/tree/main/Shiny_app_code
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-resource
+  location: PDF p.4 preregistration claim; PROSPERO live app and archived protocol; supplement p.3
+  passage: Article identifies CRD42023488089 and reports deviations. Archived form is an updated version
+    with analyses completed; it does not expose original registration date/history. Live registry request
+    returned only a JavaScript shell. Prospective timing is therefore unverified, preregistration remains
+    null and receives no badge. Public supplement explicitly identifies reliability correction, PET and
+    leave-one-out as deviations; the public protocol claim does not imply all analyses were prospectively
+    specified.
+  url: https://github.com/feracotommaso/CSmetaAnalysis#direct-links-of-interest
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Speranza e vitalità sono le qualità del carattere che vanno più a braccetto con il benessere. Lo
+    mostra questa meta-analisi, che ha riunito 130 studi su 24 punti di forza, come curiosità,
+    gratitudine e autocontrollo, sintetizzando quasi cinquemila correlazioni. La maggior parte delle
+    qualità si lega, in misura piccola o moderata, a più benessere e meno disagio psicologico;
+    speranza e vitalità spiccano su tutte, con legami particolarmente forti. In generale, i punti di
+    forza si legano più al sentirsi bene che all’assenza di sintomi, mentre l’umiltà mostra legami
+    deboli. Una mappa preziosa delle qualità che accompagnano una buona salute mentale.
+  topics:
+  - personalità
+  - benessere
+  - meta-analisi
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1/4–8: Feraco DPG; 2025 issue 39(6); 130 citations, 154 samples and 4995 correlations, three-level
+      models with reliability correction.'
+    - 'PDF pp.9–10: hope/zest overall r=.52; most effects .10–.30, humility .07; associations generally
+      stronger for well-being than symptom outcomes.'
+    - 'PDF pp.15–16: high heterogeneity, self-report and limited clinical samples; observational associations
+      do not establish intervention effects.'
+    - Public dataset has 130 study IDs/154 unique sample identifiers/4995 nonmissing strength correlations.
+      Reported N275007 sums first row per study, whereas sample-level sum is 292944; summary omits an
+      independently unique participant total.
+    - Public supplement p.3 documents nonpreregistered reliability correction, leave-one-out and PET analyses;
+      archived protocol content verified, original registration timing not independently confirmed.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - article
+    note: 'PDF pp.1,4,17: restored article DOI as article destination; GitHub project belongs to protocol/tool resources and is retained there. Scientific decisions and previous verification preserved.'
+publication:
+  published: false
+  featured: false

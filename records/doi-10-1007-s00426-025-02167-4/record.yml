@@ -1,0 +1,172 @@
+schema_version: 1.0
+id: doi-10-1007-s00426-025-02167-4
+doi: 10.1007/s00426-025-02167-4
+bibliography:
+  title: 'Temporal momentum: an online replication and beyond'
+  authors: Manuel Vencato; Marco Zorzi; Mario Bonato
+  year: 2025
+  journal: Psychological Research
+  volume: '89'
+  article_number: '164'
+  publication_date: '2025-11-05'
+dpg:
+  authors:
+  - Manuel Vencato
+  - Marco Zorzi
+  - Mario Bonato
+  verified: true
+  verification_source: Final PDF p.1 affiliation 1 explicitly identifies these authors with Department
+    of General Psychology (and Padova Neuroscience Center), University of Padova.
+source:
+  pdf_file: dpg2025-P095.pdf
+  pdf_path: selected/dpg2025-P095.pdf
+  md5: eaab5bdfd637dfef0e4bbd7bd2c95bf9
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:59:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Due
+    esperimenti preregistrati su OSF e dati dichiarati in archivio OSF (link view-only, non aperti); articolo
+    OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1007/s00426-025-02167-4
+  preregistration:
+  - https://osf.io/7hcaf?view_only=516f0334a02541a9a783676cc3023133
+  - https://osf.io/967y3?view_only=516f0334a02541a9a783676cc3023133
+  - https://osf.io/wes78?view_only=516f0334a02541a9a783676cc3023133
+  data:
+  - https://osf.io/4r2kh/?view_only=516f0334a02541a9a783676cc3023133
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.3 Methods; p.13 Data availability
+  passage: Both experiments explicitly stated pre-registered on OSF; preregistration links for global
+    project, Experiment 1 and Experiment 2 printed as view-only links. Complete links confirmed locally;
+    tokens omitted, see article Data availability. Chronology not checked. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s00426-025-02167-4
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.13, Data availability
+  passage: All data of the study explicitly stated available in a permanent OSF archive at printed view-only
+    link. Complete link confirmed locally; token omitted. Declaration and actual link read locally; resource
+    not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s00426-025-02167-4
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.13, Open Access
+  passage: Article licensed CC BY 4.0; article DOI printed p.1. Declaration and actual link read locally;
+    resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s00426-025-02167-4
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.13, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/4r2kh/?view_only=516f0334a02541a9a783676cc3023133
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: 'PDF p.13, Data availability: global project, Experiment 1, Experiment 2 preregistrations'
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/7hcaf?view_only=516f0334a02541a9a783676cc3023133
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: 'PDF p.13, Data availability: global project, Experiment 1, Experiment 2 preregistrations'
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/967y3?view_only=516f0334a02541a9a783676cc3023133
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: 'PDF p.13, Data availability: global project, Experiment 1, Experiment 2 preregistrations'
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/wes78?view_only=516f0334a02541a9a783676cc3023133
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Se sommi la durata di due suoni e poi provi a riprodurre il risultato, tenderai ad allungarlo;
+    se le sottrai, ad accorciarlo. Anche quando la risposta giusta è identica. È lo «slancio
+    temporale»: come se la mente, facendo i conti con il tempo, prendesse la rincorsa nella
+    direzione dell’operazione. Finora era stato osservato solo in laboratorio. Questo studio lo
+    replica per la prima volta in modo diretto, online, con due esperimenti, e trova un effetto
+    praticamente identico all’originale. Il secondo esperimento chiarisce anche che la tendenza ad
+    accorciare dopo una sottrazione non dipendeva dall’ordine in cui comparivano i suoni. Un
+    fenomeno solido, che ricorda il modo in cui la mente tratta spazio e numeri.
+  topics:
+  - percezione del tempo
+  - cognizione numerica
+  - replicazione
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Psychological Research 89:164, online 05/11/2025; all three authors DPG; abstract; CC
+      BY.'
+    - 'PDF pp.3-4: online jsPsych experiments, both pre-registered on OSF; 32 participants per experiment;
+      addition/subtraction of sound durations, time reproduction.'
+    - 'PDF pp.4-9: Exp1 direct replication, temporal momentum virtually indistinguishable from lab; Exp2
+      underestimation in subtraction independent of operand order; order anchoring effect.'
+    - 'PDF pp.10-13: spatial-like features of time processing; p.13 OSF data and preregistrations (view-only).'
+    review_note: 'Separate scientific reread against pp.1-13: two preregistered online experiments (32
+      each), direct replication matching lab effect, Exp2 order control; spatial analogy kept as authors
+      interpretation. Separate editorial reread: task explained, declared OSF data/preregistrations only.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - preregistration
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

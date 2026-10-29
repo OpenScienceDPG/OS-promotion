@@ -1,0 +1,10 @@
+reports/decisions.csv
+reports/screening.csv
+inbox/**/*.xml
+archive/
+/.quarto/
+*.RData
+.Rhistory
+
+# PDFs are never stored in the repository; inbox/ holds them only until finalized
+*.pdf

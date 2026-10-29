@@ -1,0 +1,122 @@
+schema_version: 1.0
+id: doi-10-1098-rsos-250128
+doi: 10.1098/rsos.250128
+bibliography:
+  title: Artificial intelligence can emulate human normative judgments on emotional visual scenes
+  authors: Zaira Romeo; Alberto Testolin
+  journal: Royal Society Open Science
+  volume: '12'
+  article_number: '250128'
+  year: 2025
+dpg:
+  authors:
+  - Alberto Testolin
+  verified: true
+  verification_source: Final PDF p.1 explicitly affiliates listed authors to Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P077.pdf
+  pdf_path: selected/dpg2025-P077.pdf
+  md5: 3180d58b848f90938f068022e87b8523
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:23:31 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    associati alla ricerca dichiarati scaricabili da OSF, link nel riferimento22; articolo OA. Immagini
+    NAPS solo su richiesta: nessun badge materiali inferito. Risorsa non aperta in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1098/rsos.250128
+  preregistration: []
+  data:
+  - https://osf.io/ds67h/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6, Data accessibility; p.7 reference22
+  passage: Data associated with this research explicitly available to download from OSF through reference22
+    with actual project link. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://osf.io/ds67h/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1098/rsos.250128
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un’intelligenza artificiale può capire che effetto ci fa un’immagine? Gli autori hanno mostrato
+    a tre dei sistemi più noti, GPT-4o, Gemini 1.5 Pro e Claude 3.5 Sonnet, oltre 1.300 fotografie
+    usate nella ricerca sulle emozioni, chiedendo quanto fossero piacevoli, quanto invitassero ad
+    avvicinarsi o ad allontanarsi e quanto fossero emozionanti. Poi hanno confrontato le risposte
+    con le valutazioni medie già raccolte su persone in carne e ossa. Il risultato sorprende: i
+    giudizi delle macchine coincidevano in larga parte con quelli umani, soprattutto per GPT-4o,
+    anche quando si trattava di singole emozioni. Le macchine non provano emozioni, ma sanno
+    riprodurre sorprendentemente bene il giudizio medio delle persone.
+  topics:
+  - intelligenza artificiale
+  - emozioni
+  - valutazione delle immagini
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Royal Society Open Science12:250128,2025; Alberto Testolin DPG, Zaira Romeo CNR; CC BY.'
+    - 'PDF pp.2-3: GPT4o,Gemini1.5Pro,Claude3.5Sonnet;1356 NAPS images dimensional ratings,510 subset
+      discrete emotions; ten model queries per stimulus; previously collected human mean norms, not newly
+      sampled human participants.'
+    - 'PDF pp.3-5: GPT Spearman .77-.91 affective,.79-.90 discrete; lower response variation, intensity
+      overestimation, some mismatches/safety refusals; correlations not identity/equivalence.'
+    - 'PDF p.6: mostly European human norms and Western-trained models; no claim AI feels emotions; data
+      download on OSF via ref22 p.7 ds67h. NAPS images only upon request; no open stimulus badge.'
+    review_note: 'Scientific reread pp.2-6:1356 images,510 subset,three named model versions; high association
+      with mean historical norms not individual equivalence; lower variability and overestimation retained;
+      no machine subjective emotions inferred. Editorial reread: dimensional scales plain, European/cultural
+      limits and request-only NAPS distinguished from declared study data.'
+publication:
+  published: false
+  featured: false

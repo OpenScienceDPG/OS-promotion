@@ -1,0 +1,169 @@
+schema_version: 1.0
+id: doi-10-1089-cyber-2024-0517
+doi: 10.1089/cyber.2024.0517
+bibliography:
+  title: 'Attitudes Toward the Use of Conditional Automated Vehicles in the Technology Acceptance Model
+    Framework: Evidence from an Italian Sample'
+  authors: Giovanni Bruno; Alex Marson; Federica Nenna; Carolina Diaz-Piedra; Andrea Spoto
+  year: 2025
+  journal: Cyberpsychology, Behavior, and Social Networking
+  volume: '28'
+  issue: '7'
+  publication_date: '2025-05-12'
+  pages: 469–477
+  issue_date: 2025-07
+dpg:
+  authors:
+  - Giovanni Bruno
+  - Federica Nenna
+  - Andrea Spoto
+  verified: true
+  verification_source: PDF page 1 superscript 1 explicitly identifies DPG for Giovanni Bruno, Federica
+    Nenna and Andrea Spoto; publisher affiliations confirm these three. Marson is PNC and Diaz-Piedra
+    is Granada.
+source:
+  pdf_file: dpg2025-P010.pdf
+  pdf_path: selected/dpg2025-P010.pdf
+  md5: f3336b375566dd2f94f0c9c8840509a6
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:20:12 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Dati individuali e tre script R di analisi supplementari sono accessibili senza login tramite
+    il link view-only pubblicato nella sezione Data Availability Statement dell’articolo.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1089/cyber.2024.0517
+  data:
+  - https://bit.ly/3TxwYKH
+  code:
+  - https://bit.ly/3TxwYKH
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF p.1 citation/affiliations; publisher citation and history
+  passage: Final issue 28(7), pages 469–477, July 2025; publisher gives first online 12 May 2025. Crossref
+    metadata gives 30 June 2025, but neither date changes the verified 2025 citation. Three DPG authors
+    explicitly identified.
+  url: https://journals.sagepub.com/doi/10.1089/cyber.2024.0517
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.3 (printed 471), Data analysis; PDF p.7 (475), Data Availability Statement; public publisher
+    Data availability statement
+  passage: 'The exact short link printed in the final article resolves to the study-specific OSF view-only
+    project. Anonymous requests with the published link return HTTP 200 for metadata and files, although
+    tokenless API access returns 401 and public=false. SUPPLEMENTARY_dataset.csv was downloaded and read:
+    201 participant rows and 101 demographic/questionnaire/retest variables, including AV-TAM item responses.
+    Title and participant count match the paper. Access is via the published view-only link; the public
+    resource field deliberately points to the precise article section that publishes it, without copying
+    its access token.'
+  url: https://journals.sagepub.com/doi/10.1089/cyber.2024.0517
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-resource
+  location: PDF p.7 (475), Data Availability Statement; linked OSF files
+  passage: 'Three R source files downloaded anonymously HTTP 200 using the published view-only link and
+    read locally: SUPPLEMENTARY_TestRetest_Chisq_BackgroundVars.R, SUPPLEMENTARY_BI_corrs.R, SUPPLEMENTARY_CFA_finalAVTAM.R.
+    They implement supplemental background/retest comparisons, score correlations and a six-factor CFA
+    with alpha estimates. They require local path adaptation and some model/item choices differ from the
+    final article model. Public source availability is verified; complete reproduction of the reported
+    SEM is not claimed. Public URL points to the article Data availability statement to avoid redistributing
+    the token.'
+  url: https://journals.sagepub.com/doi/10.1089/cyber.2024.0517
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: publisher-access-check
+  location: Publisher access panel and Supplementary Material; PDF p.3 questionnaire items
+  passage: Publisher explicitly marks the article Restricted access. A questionnaire appendix is linked,
+    but anonymous shell download returned HTTP 403; actual item-list access/reuse could not be confirmed.
+    No open-access, materials or reusable-tool badge is inferred from that link alone. Supplemental OSF
+    model descriptions are not treated as the questionnaire itself.
+  url: https://journals.sagepub.com/doi/10.1089/cyber.2024.0517
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF pp.3,7, Data analysis and Data Availability Statement; exact published short link to the OSF project
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://bit.ly/3TxwYKH
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF pp.3,7, Data analysis and Data Availability Statement; exact published short link to the OSF project
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://bit.ly/3TxwYKH
+  verification: unverified
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi"
+  public_summary: >-
+    Saliresti su un’auto che guida da sola? Dipende soprattutto da quanto pensi che ti sarebbe
+    utile. Lo studio ha chiesto a 201 adulti italiani di immaginare un’auto a guida automatizzata
+    «condizionale», che guida da sé ma chiede al conducente di riprendere il volante quando serve, e
+    di valutarne utilità, facilità d’uso, affidabilità e rischi. Il legame più forte era chiaro: più
+    l’auto sembrava utile, più le persone erano disposte a usarla. I timori su come vengono gestiti
+    i dati personali, invece, frenavano la disponibilità. Per conquistare i guidatori di domani,
+    insomma, contano i vantaggi percepiti e la fiducia nella gestione dei propri dati.
+  topics:
+  - accettazione della tecnologia
+  - veicoli automatizzati
+  - psicometria
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1–3: 2025 final citation and DPG superscripts; 201 Italian-speaking adults resident in Italy,
+      convenience online sample.'
+    - 'PDF pp.3–4: acceptable model fit, strong perceived-utility/intention association; privacy association
+      weaker; unconfirmed paths do not establish absence of effects.'
+    - 'PDF pp.4–6: intentions after a description, no real driving or controlled cross-cultural comparison;
+      observational model paths are not causal effects.'
+    - 'PDF pp.3/7 and inspected view-only resource: 201-row dataset and three R scripts; not a demonstrated
+      complete reproduction of final SEM.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - code
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

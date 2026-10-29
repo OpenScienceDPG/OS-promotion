@@ -1,0 +1,132 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0322859
+doi: 10.1371/journal.pone.0322859
+bibliography:
+  title: 'Asymmetrical distribution of supports affect pea plants movement and shape: Evidence of quantity
+    discrimination?'
+  authors: Silvia Guerra; Umberto Castiello; Valentina Simonetti; Bianca Bonato; Koleen McCrink
+  year: 2025
+  journal: PLOS ONE
+  volume: '20'
+  issue: '5'
+  article_number: e0322859
+  publication_date: '2025-05-19'
+dpg:
+  authors:
+  - Silvia Guerra
+  - Umberto Castiello
+  - Valentina Simonetti
+  - Bianca Bonato
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P046.pdf
+  pdf_path: selected/dpg2025-P046.pdf
+  md5: 6fabc796cee11e31225444ef032c281d
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 16:01:45 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Tutti
+    i dati alla base dello studio dichiarati disponibili su Zenodo senza restrizioni; articolo OA. Deposito
+    non aperto in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0322859
+  preregistration: []
+  data:
+  - https://doi.org/10.5281/zenodo.13270599
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.1, Data availability statement
+  passage: All data underlying the study explicitly stated available in Zenodo with no restrictions; DOI
+    link printed. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.5281/zenodo.13270599
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Copyright
+  passage: Open access article under Creative Commons Attribution License; article DOI printed. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1371/journal.pone.0322859
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Una pianta di pisello sa contare i sostegni? Per arrampicarsi deve trovare un appoggio, e le
+    occasioni non sono sempre distribuite in modo uniforme. Gli autori hanno coltivato 24 piante in
+    vasi con quattro sostegni: in metà dei casi due per lato, nell’altra metà tre da un lato e uno
+    dall’altro. Telecamere a infrarossi hanno registrato ogni tre minuti la crescita della pianta e
+    i movimenti dei viticci, i sottili «fili» con cui si avvolge al sostegno. Con la distribuzione
+    sbilanciata, 9 piante su 12 si sono dirette verso il lato con tre sostegni; con due per lato la
+    direzione era casuale. E con i sostegni sbilanciati anche i movimenti cambiavano, più lenti e
+    misurati. Per gli autori, un segno che anche le piante possano distinguere le quantità.
+  topics:
+  - comportamento vegetale
+  - cognizione numerica
+  - piante rampicanti
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PLOS ONE 20(5) e0322859, 19/05/2025; Guerra/Castiello/Simonetti/Bonato DPG; Zenodo data
+      statement; CC BY.'
+    - 'PDF pp.3-7: 24 snow peas, ED 2vs2 vs UD 3vs1, three replications, infrared stereo cameras every
+      3 min, 3D kinematics.'
+    - 'PDF pp.8-10: UD 9/12 toward three-support side, ED random; shorter tendrils; apex movement time
+      and circumnutation longer; tendril velocity, aperture and contact variability lower.'
+    - 'PDF pp.11-13: quantity-discrimination interpretation; limits single variety, isolated lab setting,
+      mechanism unknown.'
+    review_note: 'Separate scientific reread against pp.3-13: 24 plants, 2vs2 vs 3vs1, 9/12 toward three-support
+      side, tendril/apex kinematic differences in stated direction; quantity discrimination kept as authors
+      interpretation with single-variety, lab and mechanism limits. Separate editorial reread: tendrils
+      explained, no anthropomorphic claim, Zenodo data only.'
+  scientific_notes: Quantity-discrimination reading is the authors interpretation (title framed as question);
+    total number of supports held constant, only their side distribution varied. Single cultivar, lab
+    isolation, n=12 per condition.
+publication:
+  published: false
+  featured: false

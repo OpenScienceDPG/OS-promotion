@@ -1,0 +1,138 @@
+schema_version: 1.0
+id: doi-10-3758-s13428-025-02705-3
+doi: 10.3758/s13428-025-02705-3
+bibliography:
+  title: 'Enhancing the quality and reproducibility of research: Preferred Evaluation of Cognitive and
+    Neuropsychological Studies - The PECANS statement for human studies'
+  authors: C. Costa; R. Pezzetta; E. Toffalini; M. Grassi; G. Cona; C. Miniussi; P. J. Bauer; S. Borgomaneri;
+    M. Brysbaert; C. D. Chambers; N. Edelstyn; A. Eerland; S. J. Gilbert; M. A. Nitsche; R. A. Poldrack;
+    A. Puce; K. R. Ridderinkhof; T. Y. Swaab; C. Umiltà; M. Wiener; C. Scarpazza; PECANS Extended Working
+    Group
+  year: 2025
+  journal: Behavior Research Methods
+  volume: '57'
+  publication_date: '2025-05-30'
+  issue: '7'
+  article_number: '182'
+dpg:
+  authors:
+  - C. Costa
+  - E. Toffalini
+  - M. Grassi
+  - G. Cona
+  - C. Umiltà
+  - C. Scarpazza
+  verified: true
+  verification_source: 'PDF pp1,14: affiliation1 Department of General Psychology, University of Padua,
+    attached to the six named DPG authors. Group collaborators are not exhaustively attributed.'
+source:
+  pdf_file: dpg2025-P019.pdf
+  pdf_path: selected/dpg2025-P019.pdf
+  md5: 152f2b3ebd247e5fad9957b63b5e2065
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:50:54 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: La checklist PECANS completa è uno strumento riutilizzabile disponibile nella Tabella 1
+    dell’articolo aperto; l’inclusione non dipende dall’accesso al deposito OSF o all’app.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.3758/s13428-025-02705-3
+  data: []
+  code: []
+  materials:
+  - https://link.springer.com/article/10.3758/s13428-025-02705-3#Tab1
+  protocol: []
+  preregistration: []
+evidence:
+- claims:
+  - reusable_tool
+  source: pdf-and-resource
+  location: PDF pp6–9, The final checklist and Table1; public publisher article/Table1
+  passage: The developed checklist is reproduced in full, including conditional subitems and Yes/No/Not
+    applicable response instructions. Actual items read locally; matching final publisher PDF publicly
+    fetched via web. This is the reusable reporting instrument itself, not merely a recommendation to
+    share resources.
+  url: https://link.springer.com/article/10.3758/s13428-025-02705-3#Tab1
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: PDF pp1,11–12 licence; publisher full text
+  passage: Publisher article and final PDF accessible without login; CC BY licence. Open access accompanies
+    the reusable checklist.
+  url: https://link.springer.com/article/10.3758/s13428-025-02705-3
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-access-attempt
+  location: PDF p11 Availability of data and materials; Methods p3 and Results p6
+  passage: 'Authors declare anonymized raw/preprocessed voting and usability data and survey materials
+    at OSF JVZE5. OSF page returned403 and API inaccessible via web; shell network blocked WinError10013
+    and escalation disallowed. File contents not inspected: open_data/open_materials/open_code remain
+    unknown. Shiny app also inaccessible; no operational app verification or badge inferred from its mention.
+    Preregistration items and a short Registered Reports checklist do not establish preregistration/Registered
+    Report status of this development study.'
+  url: https://osf.io/jvze5/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Per ripetere un esperimento non basta conoscerne il risultato: bisogna sapere esattamente chi vi
+    ha partecipato, quali compiti ha svolto, come sono state misurate le risposte e analizzati i
+    dati. PECANS mette ordine in tutto questo: è una lista di controllo pensata per la ricerca
+    cognitiva e neuropsicologica. Gli autori l’hanno costruita interpellando esperti in due turni di
+    consultazione e poi provandola su articoli pubblicati e manoscritti. La versione finale
+    comprende 51 voci principali e 42 sottovoci, da scegliere secondo le caratteristiche dello
+    studio. La prova sul campo ha mostrato quanto serva: negli articoli già pubblicati, molte
+    informazioni essenziali sul metodo mancavano. Uno strumento concreto e liberamente utilizzabile
+    per scrivere e valutare studi più completi e ripetibili.
+  topics:
+  - Metodologia della ricerca
+  - Riproducibilità
+  - Neuropsicologia
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp3–6 Methods/Results: due turni Delphi, prova di utilizzo, 35 valutazioni (17 articoli,18
+      manoscritti),51 voci e42 sottovoci finali.'
+    - PDF p6 Proof of concept:17 voci riportate in almeno80% delle17 valutazioni di articoli pubblicati;
+      non17 studi sperimentali o17 partecipanti.
+    - 'PDF pp6,9–10 Discussion: consenso e prova di utilizzo, nessun confronto sperimentale dell’efficacia
+      sulla replicabilità; pp7–9 Tabella1 contiene le voci effettive.'
+    review_note: 'Same agent, separate passes: checked each substantive statement against local methods/results/limitations
+      and public output/correction, then reread for Italian clarity and removed unsupported resource claims.
+      No replication improvement or patient diagnostic accuracy asserted; P021 correction explicitly included.'
+publication:
+  published: false
+  featured: false

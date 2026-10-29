@@ -1,0 +1,147 @@
+schema_version: 1.0
+id: doi-10-1016-j-physbeh-2025-115072
+doi: 10.1016/j.physbeh.2025.115072
+bibliography:
+  title: 'In the heart of time: investigating the link between cardiac activity and interoception in explicit
+    and implicit timing'
+  year: 2025
+  journal: Physiology & Behavior
+  authors: Fiorella Del Popolo Cristaldi; Luigi Micillo; Nicola Cellini; Giovanna Mioni
+  volume: '301'
+  article_number: '115072'
+  publication_date: '2025-11-01'
+  online_first_date: '2025-08-19'
+dpg:
+  authors:
+  - Fiorella Del Popolo Cristaldi
+  - Luigi Micillo
+  - Nicola Cellini
+  - Giovanna Mioni
+  verified: true
+  verification_source: PDFp1 assigns all authors affiliationa Department of General Psychology. PubMed40840849
+    and publisher ScienceDirect result verify final2025Nov1,volume301,115072. Identity/scope checks retained
+    from completed B008 local review; resources not reopened in rapid resumption.
+source:
+  pdf_file: dpg2025-P023.pdf
+  pdf_path: selected/dpg2025-P023.pdf
+  md5: e810c48846c5eb63fcbe4b6cfde5a8a8
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:14:49 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano disponibili su OSF i dati a supporto dei due studi.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.physbeh.2025.115072
+  preregistration: []
+  data:
+  - https://osf.io/t9xcf/?view_only=90a78ed371304f7787c52b7d11a5785f
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.9, Data availability
+  passage: Paper explicitly declares supporting study data publicly available on OSF. Declaration and
+    complete published view-only link read locally; resource not opened in this rapid unit. External access/content
+    and data aggregation remain unverified; manual Enrico check pending. Canonical/public URL points to
+    this article and the precise section above to avoid copying the access token. Data reuse in the paper
+    is not represented as new collection.
+  url: https://doi.org/10.1016/j.physbeh.2025.115072
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, article licensing statement
+  passage: Article explicitly declares Creative Commons open-access publication and gives its DOI. Declaration/link
+    read locally; external article access not checked in this rapid unit. Manual Enrico check pending.
+  url: https://doi.org/10.1016/j.physbeh.2025.115072
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.9, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/t9xcf/?view_only=90a78ed371304f7787c52b7d11a5785f
+  verification: unverified
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Il cuore batte il tempo, ma ci aiuta anche a misurarlo? Due studi con giovani adulti hanno
+    cercato legami tra il battito, la capacità di percepire i segnali del proprio corpo e il senso
+    del tempo. I partecipanti dovevano distinguere durate brevi e lunghe, reagire a segnali comparsi
+    dopo attese variabili oppure battere un tasto al proprio ritmo preferito. Il quadro è più
+    sottile del previsto: chi contava meglio i propri battiti reagiva più in fretta dopo attese
+    brevi, mentre chi si fidava di più delle proprie sensazioni cardiache era meno preciso nel
+    giudicare le durate. E un indice del ritmo cardiaco a riposo si legava alla velocità con cui si
+    batteva il tasto. Il dialogo tra cuore e tempo esiste, ma non è quello di un semplice metronomo.
+  topics:
+  - percezione del tempo
+  - interocezione
+  - attività cardiaca
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1/3/5: healthy young adults; final analyzed N=31 and N=51; heartbeat counting and resting
+      ECG precede timing tasks; sensors removed for timing.'
+    - 'PDF p.6 sections 3.1.2/3.2.2: counting accuracy associated with faster short-foreperiod responses;
+      response confidence with higher JND (less precise duration judgments); resting HF power with shorter
+      inter-tap intervals. No causal cardiac manipulation.'
+    - 'PDF p.9: small/moderate samples, power concerns, HCT construct limitations, no respiration or ECG
+      during timing. Discussion describes Bayesian caution that differs from reported BF10 values on p.6;
+      avoid claims of robust Bayesian support.'
+    - 'PDF p.9 Data availability: supporting data available on OSF, full view-only link published across
+      lines; no code/material-sharing inference from software use.'
+    review_note: 'Scientific reread against pp.3,5–6,8–9: analyzed samples 31/51, directions of all three
+      associations checked, no causal claim or general timing superiority; limited samples and absent
+      concurrent ECG retained. Editorial reread: task descriptions and interoception expressed in plain
+      terms.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

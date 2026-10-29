@@ -1,0 +1,105 @@
+schema_version: 1.0
+id: doi-10-1093-ptj-pzae148
+doi: 10.1093/ptj/pzae148
+bibliography:
+  title: 'Modeling Upper Limb Rehabilitation-Induced Recovery After Stroke: The Role of Attention as a
+    Clinical Confounder'
+  authors: Silvia Salvalaggio; Simone Gambazza; Martina Andò; Ilaria Parrotta; Francesca Burgio; Laura
+    Danesin; Pierpaolo Busan; Sara Zago; Dante Mantini; Daniela D’Imperio; Marco Zorzi; Nicola Filippini;
+    Andrea Turolla
+  journal: Physical Therapy
+  volume: '105'
+  issue: '2'
+  article_number: pzae148
+  year: 2025
+dpg:
+  authors:
+  - Marco Zorzi
+  verified: true
+  verification_source: Final PDF p.1 author affiliations explicitly identify listed authors with Department
+    of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P082.pdf
+  pdf_path: archive/rejected/dpg2025-P082.pdf
+  md5: 680ad9b2ad81dfeb17662f33ab67e070
+screening:
+  status: screened-reject
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:33:53 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: reject
+  final_note: 'Esclusione semantica in modalità rapida: dati su richiesta (p.8); registrazione NCT05423119
+    dichiarata senza collegamento e senza cronologia prospettica esplicita. Supplemento metodologico e
+    tesi collegata non dichiarano un rilascio qualificante di dati, codice, materiali o protocollo. Solo
+    OA accertato nel PDF; nessuna risorsa aperta.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: false
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1093/ptj/pzae148
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: CC BY open-access article declaration and DOI read locally. Article not externally opened;
+    external access/content unverified; manual Enrico check pending.
+  url: https://doi.org/10.1093/ptj/pzae148
+  verification: unverified
+curation:
+  status: curated
+  why_open: 'Esclusione semantica in modalità rapida: dati su richiesta (p.8); registrazione NCT05423119
+    dichiarata senza collegamento e senza cronologia prospettica esplicita. Supplemento metodologico e
+    tesi collegata non dichiarano un rilascio qualificante di dati, codice, materiali o protocollo. Solo
+    OA accertato nel PDF; nessuna risorsa aperta.'
+  public_summary: null
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: not-applicable
+    editorial_check: not-applicable
+    fact_sources:
+    - PDF p.1:final citation Physical Therapy2025,105(2),pzae148; Marco Zorzi DPG. Online-first2024 does
+      not change final2025 citation.
+    - PDF pp.2-3,8:clinical observational rehabilitation study; supplementary neuroimaging processing
+      description, third-party assessment/software citations; dissertation link describes related thesis,
+      not explicit reusable data/code/material release.
+    - PDF p.8:Data available upon request to hospital, ethical approval/consent may be required. ClinicalTrials.gov
+      NCT05423119 registration stated, no actual registration link in printed text or embedded links on
+      page. Prospective timing not stated. No qualifying linked substantive practice identified after
+      alternative-wording and URL review; OA alone insufficient.
+publication:
+  published: false
+  featured: false

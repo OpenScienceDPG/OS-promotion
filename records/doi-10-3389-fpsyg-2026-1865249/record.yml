@@ -1,0 +1,137 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1865249
+doi: 10.3389/fpsyg.2026.1865249
+bibliography:
+  title: 'Communication across autism, ADHD, and non-clinical groups: examining autistic and ADHD traits
+    from a dimensional perspective'
+  authors: Ramona Cardillo; Rachele Lievore; Enrico Toffalini; Giulia Crisci; Irene Cristina Mammarella
+  year: 2026
+  journal: Frontiers in Psychology
+  volume: '17'
+  pages: '1865249'
+  publication_date: '2026-08-28'
+dpg:
+  authors:
+  - Enrico Toffalini
+  verified: true
+  verification_source: 'Final PDF p.1 affiliation 2: Enrico Toffalini, Department of General Psychology,
+    University of Padua (other authors: Department of Developmental Psychology and Socialisation).'
+source:
+  pdf_file: extra2026-T04.pdf
+  pdf_path: .na.character
+  md5: e67ce0552b2b2e52a5f8de61605758d7
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 22:51:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida (richiesta Enrico 20/10/2026, lavori Toffalini 2025-2026 fuori corpus):
+    dichiarazione esplicita + link; controllo manuale Enrico pending. I dati raccolti; Il codice usato
+    per le analisi; L''articolo, gratuito sul sito della rivista.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026 (Toffalini works outside the 100-PDF corpus, Enrico request 2026-10-20)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: false
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3389/fpsyg.2026.1865249
+  preregistration: []
+  data:
+  - https://osf.io/u7r4t/overview?view_only=a74a3595d44749799a44b3072dc65641
+  code:
+  - https://osf.io/u7r4t/overview?view_only=a74a3595d44749799a44b3072dc65641
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.4, Method/Analytical strategy; p.9 Data availability statement
+  passage: Data explicitly stated available via the OSF repository at the printed view-only link; clinical
+    materials explicitly not shareable (copyright). Declaration and actual link read locally; resource
+    not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/u7r4t/overview?view_only=a74a3595d44749799a44b3072dc65641
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.4, Method/Analytical strategy
+  passage: Analysis codes explicitly stated available via the same OSF view-only link. Declaration and
+    actual link read locally; resource not opened; external content/access unverified, manual Enrico check
+    pending.
+  url: https://osf.io/u7r4t/overview?view_only=a74a3595d44749799a44b3072dc65641
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, copyright
+  passage: 'Open-access article under CC BY (Frontiers). Not in ../list.xlsx (published after the IRIS
+    export): publisher licence printed in the final PDF, Crossref licence metadata and publisher-hosted
+    full text without login used as separate evidence of publisher access; Enrico to confirm.'
+  url: https://doi.org/10.3389/fpsyg.2026.1865249
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Autismo e ADHD: per capire le difficoltà di comunicazione conta di più l’etichetta della
+    diagnosi o l’intensità dei tratti? Gli autori hanno chiesto ai genitori di quasi 500 bambini e
+    ragazzi italiani tra i 7 e i 16 anni, alcuni autistici, alcuni con ADHD e altri senza diagnosi,
+    di descrivere le loro capacità comunicative e i loro tratti. Entrambi i gruppi con diagnosi
+    mostravano difficoltà più marcate dei coetanei, soprattutto nell’autismo. Ma la vera chiave era
+    un’altra: le difficoltà di comunicazione erano descritte meglio dall’intensità dei tratti, che
+    varia con continuità in tutti i bambini, che dalla sola diagnosi. Un invito a guardare ogni
+    bambino per le sue caratteristiche, oltre l’etichetta.
+  topics:
+  - autismo
+  - ADHD
+  - comunicazione
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Front Psychol 17:1865249, published 28 Aug 2026; Toffalini DPG; CC BY; abstract N=493
+      (147 ASD, 105 ADHD, 241 ND), d ASD-ND -1.67, ADHD-ND -1.00.'
+    - 'PDF pp.3-4: parent-report CCC-2 GCC, ADI-R, Conners ADHD index; GAM model comparison with BIC;
+      not a taxometric test; OSF data/code statement, materials not shareable.'
+    - 'PDF pp.5-7: categorical BIC 4324.75 vs trait-only 4151.39; best hybrid 4159.74; ADHD association
+      weaker; model recovery simulation.'
+    - 'PDF pp.7-8: limitations: clinical tools skewed, overlapping rating content, all behavioural ratings;
+      conclusion.'
+    review_note: 'Separate scientific reread pp.1-9: N=493 groups, d values, BIC comparison, ADHD weaker,
+      no latent-structure claim, parent ratings. Editorial reread: dimensional vs categorical explained,
+      OSF data/code, materials not shared.'
+  scientific_notes: 'Model comparison explicitly not a latent-structure test: summary avoids claiming
+    autism/ADHD are dimensions. Materials explicitly not shared: open_materials=false.'
+publication:
+  published: false
+  featured: false

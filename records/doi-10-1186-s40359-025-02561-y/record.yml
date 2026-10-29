@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-1186-s40359-025-02561-y
+doi: 10.1186/s40359-025-02561-y
+bibliography:
+  title: 'The hidden route: an exploratory study on autonomic influences in early phases of information
+    processing'
+  authors: Elisa Cainelli; Stefano Vicentin; Giulia Stramucci; Sara Guglielmi; Maria Devita; Luca Vedovelli;
+    Patrizia Bisiacchi
+  year: 2025
+  journal: BMC Psychology
+  volume: '13'
+  issue: '1'
+  publication_date: '2025-03-13'
+  article_number: '241'
+dpg:
+  authors:
+  - Elisa Cainelli
+  - Stefano Vicentin
+  - Giulia Stramucci
+  - Sara Guglielmi
+  - Maria Devita
+  - Patrizia Bisiacchi
+  verified: true
+  verification_source: Final PDF page 1 explicitly maps affiliation 1 (DPG) to six named authors; Vedovelli
+    has affiliation 2 in a different department.
+source:
+  pdf_file: dpg2025-P011.pdf
+  pdf_path: selected/dpg2025-P011.pdf
+  md5: 639c050142592c3c575b6bcb0e263460
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:20:12 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Un supplemento editoriale pubblico contiene le misure derivate individuali di 31 partecipanti:
+    risposte sensoriali, variabilità cardiaca, stima respiratoria e variabili demografiche.'
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-025-02561-y
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11905487/
+  data:
+  - https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs40359-025-02561-y/MediaObjects/40359_2025_2561_MOESM1_ESM.xlsx
+  code: []
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF p.1 citation and affiliation superscripts; publisher publication date
+  passage: BMC Psychology 13:241, 13 March 2025. Six authors explicitly affiliated with DPG; final analytical
+    sample confirmed as 31 by Methods/Table 1 and supplement, despite abstract N32.
+  url: https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-025-02561-y
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.9, Data availability; publisher Supplementary Material 1
+  passage: 'All three publisher supplements anonymously downloaded HTTP 200. The XLSX workbook has one
+    sheet, header plus 31 participant rows and ten columns: ID, sex, age, smoker, S1_size, S2_size, SG_Ratio,
+    LFlog, HFlog, EDR. No missing cells in this table; locally recomputed LFlog/SG_Ratio Spearman rho=-0.49788
+    matches the reported association. These are derived individual measures, not raw EEG/ECG recordings.
+    Two DOCX files contain descriptives and Boruta outputs (31 rows/215 variables summarized), not analysis
+    source code or study stimuli.'
+  url: https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs40359-025-02561-y/MediaObjects/40359_2025_2561_MOESM1_ESM.xlsx
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher-full-text
+  location: PDF p.1 Open Access license; publisher complete HTML and Europe PMC full XML
+  passage: Complete publisher article HTML and Europe PMC11905487 XML retrieved anonymously HTTP 200 with
+    matching DOI/title and CC BY 4.0 license.
+  url: https://bmcpsychology.biomedcentral.com/articles/10.1186/s40359-025-02561-y
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Il cuore può influenzare il modo in cui il cervello filtra i suoni? Quando sentiamo due clic uno
+    dopo l’altro, il cervello risponde al secondo con meno forza: è un filtro naturale che ci evita
+    di essere sommersi dagli stimoli ripetuti. Gli autori hanno registrato l’attività del cuore e
+    del cervello di 31 giovani adulti, prima a riposo e poi durante l’ascolto di coppie di clic. Il
+    risultato: chi aveva oscillazioni più ampie del ritmo cardiaco a bassa frequenza attenuava di
+    più la risposta al secondo clic. Un primo indizio di una «via nascosta» tra la regolazione del
+    corpo e le prime fasi in cui il cervello elabora ciò che sentiamo.
+  topics:
+  - psicofisiologia
+  - filtraggio sensoriale
+  - variabilità cardiaca
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1–3: 2025 citation and six DPG authors; Methods and Table 1 specify 31 healthy young adults,
+      contrasting with abstract N32.'
+    - 'PDF pp.3–5: resting ECG/EEG and paired-click auditory paradigm; S2/S1 response ratio; negative
+      LF association with S2 and ratio (rho about -.50).'
+    - PDF p.5 Table 3 reports FDR p=.020 while p.4 specifies .01 for correlations; summary describes the
+      observed association without emphasizing statistical certainty.
+    - 'PDF pp.6–8: correlational design, no direction/clinical validation, small sample, respiration estimated
+      from ECG.'
+    - PDF p.9 Data availability; public workbook read locally, 31 complete individual rows; raw EEG/ECG
+      not in this supplement.
+publication:
+  published: false
+  featured: false

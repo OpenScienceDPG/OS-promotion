@@ -1,0 +1,117 @@
+# Open Science badges shown on the site: the single place to edit them.
+# One entry per controlled practice, in display order. The key (e.g. open_data)
+# is the practice key used in records/*/record.yml: do not rename it without
+# migrating the records.
+#   label:       name shown on the site
+#   short_description: fixed brief phrase used in curation.why_open ("Che cosa
+#                è aperto"); a short Italian noun phrase for a general audience,
+#                shown as one list item per badge, without semicolons
+#   badge:       image file in assets/badges/
+#   description: plain-language Italian text of the pop-up opened by clicking
+#                the badge on a card (no technical terms)
+#   link:        page describing the badge, linked at the bottom of the pop-up
+#   link_text:   text of that link
+#
+# COS badges (CC BY 4.0) are defined on the OSF wiki "1. View the Badges".
+# Open Materials uses the supplied COS vector with a subtle palette adjustment;
+# the other .svg badges are drafts in the same style.
+
+preregistration:    # COS official badge
+  label: Preregistered
+  short_description: "Il piano dello studio, reso pubblico prima di raccogliere i dati"
+  badge: preregistered.png
+  description: >-
+    Prima di raccogliere i dati, i ricercatori hanno scritto e reso pubblico il
+    loro piano: quali domande si ponevano, come avrebbero svolto lo studio e
+    come avrebbero analizzato i risultati. Il piano viene depositato con una
+    data certa e non può più essere modificato. Così chiunque può verificare
+    che lo studio abbia seguito quanto annunciato e che le conclusioni non
+    siano state adattate a posteriori.
+  link: https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/
+  link_text: Scheda ufficiale del badge su OSF (in inglese)
+
+registered_report:  # draft badge; COS describes the format on its own page
+  label: Registered Report
+  short_description: "Il progetto, approvato dalla rivista prima di conoscere i risultati"
+  badge: registered-report.svg
+  description: >-
+    È un modo diverso di pubblicare una ricerca. La rivista valuta la domanda e
+    il piano dello studio prima che venga svolto e, se li approva, si impegna a
+    pubblicare l'articolo qualunque sia il risultato. Così conta la qualità
+    della domanda e del metodo, non il fatto che i risultati siano
+    sorprendenti. Lo stesso vale per le repliche registrate, che ripetono uno
+    studio già pubblicato per verificarne i risultati.
+  link: https://www.cos.io/initiatives/registered-reports
+  link_text: Approfondisci sul sito del Center for Open Science (in inglese)
+
+open_data:          # COS official badge
+  label: Open Data
+  short_description: "I dati raccolti"
+  badge: open-data.png
+  description: >-
+    I dati raccolti nello studio, per esempio le risposte ai questionari o le
+    misure registrate durante un esperimento, sono pubblicati online e si
+    possono scaricare liberamente, senza chiedere il permesso agli autori.
+    Chiunque può così controllare i risultati, rifare i calcoli o usare gli
+    stessi dati per nuove ricerche, nel rispetto della riservatezza dei
+    partecipanti.
+  link: https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/
+  link_text: Scheda ufficiale del badge su OSF (in inglese)
+
+open_code:          # draft image; COS defines the Open Analytic Code badge
+  label: Open Code
+  short_description: "Il codice usato per le analisi"
+  badge: open-code.svg
+  description: >-
+    I ricercatori hanno reso pubblici i programmi e le istruzioni usati per
+    elaborare i dati e ottenere i risultati. È come pubblicare la ricetta oltre
+    al piatto finito: chiunque può ripetere gli stessi passaggi, controllare
+    che non ci siano errori e riutilizzarli nei propri studi.
+  link: https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/
+  link_text: Scheda ufficiale del badge su OSF (in inglese)
+
+open_materials:     # COS vector badge; subtly adjusted palette
+  label: Open Materials
+  short_description: "I materiali dello studio, come questionari e stimoli"
+  badge: open-materials.svg
+  description: >-
+    Sono disponibili online i materiali usati per svolgere lo studio: per
+    esempio questionari, immagini, suoni, compiti al computer o le istruzioni
+    date ai partecipanti. Altri ricercatori possono così capire esattamente
+    come è stato condotto lo studio e ripeterlo nello stesso modo.
+  link: https://osf.io/tvyxz/wiki/1.%20View%20the%20Badges/
+  link_text: Scheda ufficiale del badge su OSF (in inglese)
+
+open_protocol:      # draft badge, no official COS definition
+  label: Open Protocol
+  short_description: "Il protocollo dettagliato dello studio"
+  badge: open-protocol.svg
+  description: >-
+    Il protocollo è la descrizione dettagliata, passo per passo, di come si
+    svolge lo studio: chi partecipa, che cosa si fa e in quale ordine.
+    Pubblicarlo permette a chiunque di sapere come è stata condotta la ricerca
+    e ad altri gruppi di ripeterla fedelmente.
+  link: https://osf.io/tvyxz/
+  link_text: I badge di Open Science su OSF (in inglese)
+
+open_access:        # draft badge, no official COS definition
+  label: Open Access
+  short_description: "L'articolo, gratuito sul sito della rivista"
+  badge: open-access.svg
+  description: >-
+    Il badge di accesso aperto indica che l'articolo è
+    accessibile online senza paywall dal sito dell'editore. Sebbene rientri tra le azioni di open science, l'accesso aperto dipende in genere solo in parte dall'autore. In questa vetrina un articolo ad accesso aperto deve dimostrare sempre almeno un'altra pratica, come dati o codici pubblici, per essere riportato.
+  link: https://osf.io/tvyxz/
+  link_text: I badge di Open Science su OSF (in inglese)
+
+reusable_tool:      # draft badge, no official COS definition
+  label: Reusable Tool
+  short_description: "Uno strumento che altri possono riutilizzare, come un programma o un test"
+  badge: reusable-tool.svg
+  description: >-
+    Lo studio ha prodotto uno strumento che altre persone possono usare
+    liberamente, per esempio un programma, un questionario o una raccolta di
+    stimoli. Così il lavoro fatto non serve solo a questa ricerca, ma diventa
+    una risorsa per tutta la comunità.
+  link: https://osf.io/tvyxz/
+  link_text: I badge di Open Science su OSF (in inglese)

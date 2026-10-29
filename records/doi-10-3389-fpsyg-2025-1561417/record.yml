@@ -1,0 +1,140 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2025-1561417
+doi: 10.3389/fpsyg.2025.1561417
+bibliography:
+  title: 'Web-based assessment of dual-task costs at different ages: an analysis across cognitive domains'
+  authors: Vincenzo Livoti; Fiorella Del Popolo Cristaldi; Giulio Contemori; Maria Silvia Saccani; Mario
+    Bonato
+  year: 2025
+  journal: Frontiers in Psychology
+  volume: '16'
+  article_number: '1561417'
+  publication_date: '2025-05-14'
+dpg:
+  authors:
+  - Vincenzo Livoti
+  - Fiorella Del Popolo Cristaldi
+  - Giulio Contemori
+  - Maria Silvia Saccani
+  - Mario Bonato
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P055.pdf
+  pdf_path: selected/dpg2025-P055.pdf
+  md5: e356b4534938001c55818034b0027706
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:48:49 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dataset
+    dichiarati su OSF; link view-only pubblicato nel paper, non aperto. Articolo OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3389/fpsyg.2025.1561417
+  preregistration: []
+  data:
+  - https://osf.io/e5gy8/?view_only=caa298d059214257af699c2989c7bf26
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.12, Data availability statement
+  passage: Datasets presented in the study explicitly stated available in online repositories at printed
+    OSF view-only link. Complete link confirmed locally; token omitted, see article Data availability
+    statement. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.3389/fpsyg.2025.1561417
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Copyright
+  passage: Open-access article under CC BY; article DOI printed. Declaration and actual link read locally;
+    resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.3389/fpsyg.2025.1561417
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.12, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/e5gy8/?view_only=caa298d059214257af699c2989c7bf26
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Fare due cose insieme costa fatica a qualunque età. Ma il costo cresce con gli anni? Lo studio
+    ha coinvolto 419 adulti italiani sani tra i 18 e i 76 anni, che hanno svolto online, da casa,
+    tre prove al computer in cui gestire due richieste insieme: alternare numeri e lettere, dividere
+    l’attenzione tra immagini e suoni, ricordare elementi visivi. Con l’età e con la difficoltà le
+    prestazioni calavano in tutti i compiti, ma il costo specifico del fare due cose insieme
+    cresceva poco. E soprattutto, i costi nei tre compiti erano quasi indipendenti tra loro: chi se
+    la cavava bene in uno non era per forza bravo negli altri. Il multitasking, insomma, non è
+    un’abilità unica, ma tante abilità diverse.
+  topics:
+  - invecchiamento cognitivo
+  - attenzione
+  - valutazione online
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Front. Psychol. 16:1561417, 14/05/2025; all five authors DPG; CC BY; abstract N419, 18-76
+      years.'
+    - 'PDF pp.3-5: 780 initially recruited, exclusions; web-based self-administered digital TMT A+B, TAP
+      divided attention adapted online, MEMO visuo-mnestic dual task.'
+    - 'PDF pp.8-11: performance declines with age and load; small non-linear DTC increase for TMT/MEMO;
+      weak associations with Auto-GEMS and cognitive reserve; very weak cross-task DTC correlations.'
+    - 'PDF p.11-12: cross-sectional, uncontrolled web conditions, no counterbalancing; p.12 OSF data statement.'
+    review_note: 'Separate scientific reread against pp.1-12: 419 adults 18-76 online, three dual tasks,
+      age/load declines, small non-linear DTC increase TMT/MEMO, weak links with efficiency/reserve, near-independent
+      DTCs; cross-sectional and web limits. Separate editorial reread: tasks described plainly, OSF data
+      declared only.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

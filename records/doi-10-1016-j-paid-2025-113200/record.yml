@@ -1,0 +1,164 @@
+schema_version: 1.0
+id: doi-10-1016-j-paid-2025-113200
+doi: 10.1016/j.paid.2025.113200
+bibliography:
+  title: Differences in change goals between personality traits and social, emotional, and behavioral
+    skills
+  authors: Tommaso Feraco; Nathan W. Hudson; Christopher J. Soto
+  journal: Personality and Individual Differences
+  volume: '241'
+  publication_date: '2025-04-05'
+  year: 2025
+  article_number: '113200'
+dpg:
+  authors:
+  - Tommaso Feraco
+  verified: true
+  verification_source: PDF p.1 assigns Tommaso Feraco affiliation a Department of General Psychology,
+    University of Padova; co-authors at SMU and Colby College. Volume 241 (2025), online 5 April 2025
+    on p.1.
+source:
+  pdf_file: dpg2025-P030.pdf
+  pdf_path: selected/dpg2025-P030.pdf
+  md5: eda65309da54a4968bed6b347e584c67
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:27:08 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano preregistrati disegno e analisi, e disponibili su OSF dati, codice di analisi e
+    materiali.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.paid.2025.113200
+  preregistration:
+  - https://doi.org/10.17605/OSF.IO/BGKEA
+  data:
+  - https://doi.org/10.17605/OSF.IO/SWDC2
+  code:
+  - https://doi.org/10.17605/OSF.IO/SWDC2
+  materials:
+  - https://doi.org/10.17605/OSF.IO/SWDC2
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.2, sections1.3 and2.1 Transparency and openness
+  passage: Paper explicitly declares that study design and analysis were preregistered at OSF BGKEA, including
+    the general feasibility hypothesis. Declaration and link read locally; resource not opened in rapid
+    mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/BGKEA
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.2 section2.1; p.6 Data availability
+  passage: Paper explicitly declares all data available on OSF SWDC2. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/SWDC2
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.2 section2.1; p.3 section3 Results
+  passage: Paper explicitly declares analysis code and full model estimates available on OSF SWDC2. Declaration
+    and link read locally; resource not opened in rapid mode. External contents/access unverified; manual
+    Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/SWDC2
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.2 section2.1; p.3 section2.3.1
+  passage: Paper explicitly declares research materials available on OSF SWDC2 and points there for the
+    survey items. Declaration and link read locally; resource not opened in rapid mode. External contents/access
+    unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/SWDC2
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, CC BY open access statement
+  passage: Paper declares CC BY open access and supplies its DOI. External access not checked; manual
+    Enrico check pending.
+  url: https://doi.org/10.1016/j.paid.2025.113200
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Se potessi cambiare qualcosa di te, preferiresti diventare una persona più estroversa o imparare
+    a fare amicizia più facilmente? La distinzione è sottile: il carattere descrive come tendiamo a
+    comportarci, le abilità ciò che sappiamo fare quando serve. Lo studio ha chiesto a 264
+    universitari statunitensi e italiani quanto desiderassero cambiare cinque grandi tratti di
+    personalità e le abilità corrispondenti, quanto lo ritenessero possibile, quanto si sentissero
+    motivati e che effetti si aspettassero sulla propria vita. Le abilità hanno sempre ottenuto
+    punteggi pari o superiori ai tratti, soprattutto la capacità di entrare in relazione con gli
+    altri e quella di gestire impegni e obiettivi. Un messaggio incoraggiante: agli occhi dei
+    giovani, puntare su ciò che si può imparare sembra più fattibile e motivante che voler cambiare
+    chi si è.
+  topics:
+  - personalità
+  - abilità socio-emotive
+  - cambiamento volontario
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Feraco DPG affiliation a; PAID 241(2025)113200, online 5 April 2025; CC BY.'
+    - 'PDF p.2: within-person experiment, 265 recruited, 1 excluded, 264 US/Italian students; preregistered
+      general feasibility hypothesis; design and analysis preregistered BGKEA.'
+    - 'PDF pp.3–5: ordinal multilevel models; skills never lower on average; social engagement and self-management
+      > extraversion/conscientiousness for amount, motivation, impact; feasibility also cooperation; differences
+      0.18–0.54 small-to-medium, consistent US/Italy.'
+    - 'PDF p.5 limitations: students only, single items, beliefs not observed change.'
+    - 'PDF pp.2/3/6: data, analysis code, research materials SWDC2; survey items at SWDC2.'
+    review_note: 'Separate scientific reread against pp.2–5: 264 students, within-person design, skills
+      never lower on average, small-to-medium differences for social engagement/self-management, beliefs
+      not observed change. Editorial reread: trait/skill distinction explained once, single-item limitation
+      retained.'
+publication:
+  published: false
+  featured: false

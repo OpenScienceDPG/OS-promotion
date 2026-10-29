@@ -1,0 +1,163 @@
+schema_version: 1.0
+id: doi-10-1007-s00426-025-02118-z
+doi: 10.1007/s00426-025-02118-z
+bibliography:
+  title: 'Money counts: effects of monetary vs. purely numerical values on the mental representation of
+    quantities'
+  authors: Gianluca Grimalda; Giovanni Ottoboni; Alessandro Cappellini; Mario Bonato; Mariagrazia Ranzini
+  year: 2025
+  journal: Psychological Research
+  volume: '89'
+  article_number: '85'
+  publication_date: '2025-04-11'
+dpg:
+  authors:
+  - Mario Bonato
+  - Mariagrazia Ranzini
+  verified: true
+  verification_source: Final PDF p.1 affiliation 5 explicitly identifies these authors with Department
+    of General Psychology (DPG), University of Padova.
+source:
+  pdf_file: dpg2025-P045.pdf
+  pdf_path: selected/dpg2025-P045.pdf
+  md5: 2614b1f2d69c7a54dcfa73963dd67665
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:57:21 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dataset
+    e codici di riproduzione dichiarati su OSF; domande e questionari nei materiali supplementari dell’articolo
+    OA. Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1007/s00426-025-02118-z
+  preregistration: []
+  data:
+  - https://osf.io/8h7jr/
+  code:
+  - https://osf.io/8h7jr/
+  materials:
+  - https://link.springer.com/article/10.1007/s00426-025-02118-z#MOESM1
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.7 Statistical analyses; p.17 Data availability
+  passage: Dataset explicitly stated available at the printed OSF repository. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/8h7jr/
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.7 Statistical analyses; p.17 Data availability
+  passage: Reproduction codes explicitly stated available at the same printed OSF repository; separate
+    from data claim. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://osf.io/8h7jr/
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF pp.6-7 Experimental procedure; p.16 Supplementary Information
+  passage: Numerical-ability questions and socioeconomic/spending questionnaire explicitly presented in
+    Supplementary Information Sections A-C; supplementary DOI link printed p.16. Scope limited to questionnaire
+    items; survey software not inferred. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s00426-025-02118-z
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.17 Open Access
+  passage: Article explicitly licensed CC BY 4.0; article DOI printed p.1. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s00426-025-02118-z
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF pp.6-7,16, Supplementary Information sections A-C; publisher electronic supplementary material
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://link.springer.com/article/10.1007/s00426-025-02118-z#MOESM1
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Cinquanta euro e il numero 50 sono la stessa cosa? Per la nostra mente, non sempre. In un
+    esperimento online, 271 adulti dovevano collocare su una linea numeri oppure banconote da 5 a
+    500 euro. Quando gli estremi della linea erano numeri precisi, numeri e soldi venivano sistemati
+    in modo regolare. Con estremi vaghi, come «poco» e «tanto», il denaro invece si «comprimeva»: le
+    somme grandi finivano più vicine tra loro, come se oltre una certa cifra ogni euro in più
+    contasse un po’ meno. È proprio ciò che prevede una classica idea degli economisti. E un
+    dettaglio curioso: chi era abituato a spendere cifre più alte ragionava sul denaro in modo più
+    regolare. I soldi, insomma, non sono numeri come gli altri.
+  topics:
+  - cognizione numerica
+  - denaro
+  - economia comportamentale
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Psychological Research 89:85 (2025), Bonato/Ranzini DPG, abstract.'
+    - 'PDF pp.5-7: 272 took part, one over-75 excluded, 271 analysed; four between-subject conditions;
+      stimuli 5-500, fixed 2/503 or fuzzy word bounds; online, highly educated volunteers; no a priori
+      power analysis.'
+    - 'PDF pp.7-15: linear best fit except Money-Fuzzy; larger PAE for money in fixed and fuzzy; shopping
+      scale related to linearity in both formats; math score only numbers.'
+    - 'PDF pp.15-17: diminishing marginal utility interpretation, banknote size confound discussed; p.7/p.17
+      OSF data/code, SI questionnaires, CC BY.'
+    review_note: 'Separate scientific reread against pp.5-7/12-17: 271 analysed, fixed/fuzzy bounds, linear
+      except Money-Fuzzy, larger money errors, spending habits in both formats, maths only numbers, consistency
+      with diminishing utility not proof; sample limits. Separate editorial reread: logarithmic compression
+      explained, quotes preserved, declared OSF and SI only.'
+  scientific_notes: Abstract N=272; p.5 one participant over 75 excluded, Table 1 and condition counts
+    sum to 271 analysed. Volunteer online, highly educated sample; no a priori power analysis; banknote
+    size larger than digits discussed as possible perceptual confound.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - materials
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

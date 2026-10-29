@@ -1,0 +1,156 @@
+schema_version: 1
+id: doi-10-1111-jsr-70253
+doi: 10.1111/jsr.70253
+bibliography:
+  title: 'Differential Nap-To-Nap Stability of Sleep Spindles, Slow Waves, and their Temporal Coupling:
+    An Exploratory Study'
+  authors: Damiana Bergamo; Antonino Visalli; Angie Baldassarri; Nicola Cellini
+  year: 2026
+  journal: Journal of Sleep Research
+  volume: '35'
+  issue: '3'
+  article_number: e70253
+  online_first_date: '2025-11-25'
+  issue_date: 2026-06
+dpg:
+  authors:
+  - Damiana Bergamo
+  - Antonino Visalli
+  - Angie Baldassarri
+  - Nicola Cellini
+  verified: true
+  verification_source: 'Local article, PDF page 1: author superscripts explicitly identify Department
+    of General Psychology, University of Padova/Padua.'
+source:
+  pdf_file: dpg2025-P002.pdf
+  pdf_path: selected/dpg2025-P002.pdf
+  md5: ada71c03bf5d965fffc5afa5a75b1895
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 12:33:16 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Reassessed after Enrico expanded eligibility to 2025-2026; previous year-only exclusion
+    superseded, substantive accessible resources verified.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1111/jsr.70253
+  preregistration: []
+  data:
+  - https://osf.io/z5r2j/files/osfstorage/685bb54452fc4150da5cfc95/
+  code:
+  - https://osf.io/z5r2j/files/osfstorage/68d52fe7e5dbea81c1e8ccea/
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: publisher
+  location: Current official issue citation, volume 35(3), June 2026
+  passage: Wiley cites this work as Bergamo et al. (2026), 35(3), e70253. First online publication
+    was 25 November 2025; PubMed and Crossref print date confirm the 2026 issue. Eligible under the
+    user-expanded 2025-2026 criterion of 20 October 2026.
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/jsr.70253
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf
+  location: PDF page 1, affiliations
+  passage: 'All four authors carry affiliation 1: Department of General Psychology, University of
+    Padova, Padova, Italy.'
+  url: https://doi.org/10.1111/jsr.70253
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-repository
+  location: PDF page 14, Data Availability Statement; OSF Dataset / RAW DATA / Session 1
+  passage: The article identifies OSF z5r2j as the data deposit. Public API returns 200 and public=true
+    for the matching project. File listing includes individual EEG recordings (.eeg), BrainVision
+    headers/markers (.vhdr/.vmrk), two session folders, and hypnograms. File inventory checked; raw
+    participant signals were not downloaded or audited.
+  url: https://osf.io/z5r2j/files/osfstorage/685bb54452fc4150da5cfc95/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: repository
+  location: OSF Matlab Scripts folder
+  passage: 'Public project contains ten MATLAB analysis scripts. C_powerspect.m and E_spindle.m downloaded
+    without login and inspected locally: code computes N2 spectral power and detects sleep spindles
+    with EEG data, matching the article methods. No claim of end-to-end reproducibility.'
+  url: https://osf.io/z5r2j/files/osfstorage/68d52fe7e5dbea81c1e8ccea/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher
+  location: Wiley article page
+  passage: Publisher provides an Open Access article with full-text link.
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/jsr.70253
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: user-instruction
+  location: Enrico instruction, 20 October 2026
+  passage: The corpus eligibility was explicitly expanded to official citation years 2025 and 2026.
+    Previous year-only exclusion is superseded; qualifying resources independently verified by the
+    agent.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Ognuno di noi dorme a modo suo, e alcune «firme» del sonno si riconoscono anche da un pisolino
+    all’altro. Gli autori hanno registrato l’attività cerebrale di 19 giovani adulti durante due
+    sonnellini pomeridiani, a una settimana di distanza. Si sono concentrati su due segnali del
+    sonno non REM: le onde lente e i «fusi», brevi raffiche di attività elettrica legate
+    all’apprendimento. I fusi si sono rivelati sorprendentemente costanti: frequenza, durata e
+    quantità restavano simili da un pisolino all’altro, soprattutto per i fusi più rapidi. Le onde
+    lente e la loro sincronia con i fusi cambiavano invece di più. Alcune caratteristiche del sonno,
+    insomma, sembrano un tratto personale; altre dipendono di più dal momento.
+  topics:
+  - sonno
+  - affidabilità delle misure
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.2: final sample 19 healthy adults 20-27 years from 34 recruited; two 90-minute nap opportunities
+      one week apart.'
+    - 'PDF pp.3-4: N2 stage, automated spindle/slow-wave detection and intraclass correlation reliability.'
+    - 'PDF results pp.5-11 and discussion p.11: spindle properties relatively stable, especially
+      fast; slow-wave features less stable; coupling phase correlations did not survive correction.'
+    - 'PDF pp.12-14: small healthy-young sample, inability to sleep exclusions, uncontrolled prior
+      sleep/wake factors; exploratory findings.'
+    - 'PDF p.14 and OSF z5r2j: public EEG file inventory, hypnograms, relevant MATLAB scripts verified
+      in previous stage.'
+publication:
+  published: false
+  featured: false

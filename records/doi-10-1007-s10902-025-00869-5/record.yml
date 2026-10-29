@@ -1,0 +1,150 @@
+schema_version: 1.0
+id: doi-10-1007-s10902-025-00869-5
+doi: 10.1007/s10902-025-00869-5
+bibliography:
+  title: '20 Years of Character Strengths: A Bibliometric Review'
+  authors: Tommaso Feraco; Nicole Casali
+  journal: Journal of Happiness Studies
+  volume: '26'
+  publication_date: null
+  year: 2025
+  article_number: '34'
+dpg:
+  authors:
+  - Tommaso Feraco
+  verified: true
+  verification_source: PDF p.1 assigns Tommaso Feraco affiliation1 Department of General Psychology, University
+    of Padova; Nicole Casali affiliation2 Max Planck Institute. Citation J Happiness Stud (2025) 26:34
+    on p.1.
+source:
+  pdf_file: dpg2025-P029.pdf
+  pdf_path: selected/dpg2025-P029.pdf
+  md5: 216d48006ec04c17950ddfb616f64409
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:27:08 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 14
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano preregistrate raccolta e analisi dei dati, con deviazioni documentate, e condivisi
+    su OSF dati e codice.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1007/s10902-025-00869-5
+  preregistration:
+  - https://doi.org/10.17605/OSF.IO/Z3XEC
+  data:
+  - https://doi.org/10.17605/OSF.IO/F4P7B
+  code:
+  - https://doi.org/10.17605/OSF.IO/F4P7B
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.4 section2 Method; p.5 section2.2 Data Analysis; p.19 Declarations
+  passage: Paper explicitly declares that data collection and analyses were preregistered, with deviations
+    detailed in Table S1. The analysis preregistration link is Z3XEC (p.5, p.19); p.4 cites project F4P7B
+    for the same statement. Declaration and link read locally; resource not opened in rapid mode. External
+    contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/Z3XEC
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.19, Data and Code Availability
+  passage: Paper explicitly declares that data are available on OSF F4P7B. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/F4P7B
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.19, Data and Code Availability
+  passage: Paper explicitly declares that code is available on OSF F4P7B. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/F4P7B
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.19, Open Access statement
+  passage: Paper declares CC BY 4.0 open access and supplies its DOI. External access not checked; manual
+    Enrico check pending.
+  url: https://doi.org/10.1007/s10902-025-00869-5
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Gratitudine, speranza, perseveranza: in vent’anni lo studio dei punti di forza del carattere è
+    passato da curiosità di nicchia a campo con oltre cento pubblicazioni l’anno. Gli autori hanno
+    ripercorso questa crescita analizzando 914 articoli, rassegne e capitoli dal 2004 al 2023: hanno
+    contato pubblicazioni, citazioni e paesi e hanno mappato i temi ricorrenti. Le pubblicazioni
+    sono cresciute di circa il 24% l’anno. Gli Stati Uniti guidano ancora, ma il contributo dei
+    paesi non occidentali è in aumento. Al centro di tutto c’è il benessere, con gratitudine e
+    speranza tra i filoni più solidi e la salute mentale sempre più presente; lavoro e moralità sono
+    invece territori ancora poco collegati al resto. Una mappa preziosa di dove va questa ricerca e
+    di dove può ancora crescere.
+  topics:
+  - punti di forza del carattere
+  - psicologia positiva
+  - bibliometria
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Feraco DPG affiliation1, Casali Max Planck; J Happiness Stud 2025,26:34; accepted 30 Jan
+      2025; no online date in local PDF.'
+    - 'PDF pp.4/6–9: 914 WoS documents 2004–2023, downloaded 1 Dec 2023; growth +24.52%/year, >100/year
+      since 2020; US 34% first authors, rising non-WEIRD contributions.'
+    - 'PDF pp.13–18: well-being most important keyword; measurement/validity, gratitude/hope basic themes;
+      mental health/resilience/spirituality integrated; work/morality niche; need for cross-fertilization.'
+    - 'PDF p.18 limitation: single database (WoS), English-only inclusion, search string character strength*.'
+    - 'PDF pp.4–5/19: preregistration (p.4 link F4P7B, p.5 and p.19 Z3XEC) with deviations Table S1; data
+      and code F4P7B; CC BY.'
+    review_note: 'Separate scientific reread against pp.4–9,13–19: 914 WoS documents 2004–2023, growth
+      ~24%/year, US/non-WEIRD trend, well-being central, thematic-map roles and WoS/English limits checked.
+      Editorial reread: plain-language description of bibliometric method, no claim beyond indexed literature.'
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,176 @@
+schema_version: 1.0
+id: doi-10-1016-j-cortex-2024-11-024
+doi: 10.1016/j.cortex.2024.11.024
+bibliography:
+  title: 'Putting things into perspective: Which visual cues facilitate automatic extraretinal symmetry
+    representation?'
+  authors: Elena Karakashevska; Marco Bertamini; Alexis D.J. Makin
+  year: 2025
+  journal: Cortex
+  volume: '184'
+  pages: 131-149
+  publication_date: '2025-01-06'
+dpg:
+  authors:
+  - Marco Bertamini
+  verified: true
+  verification_source: Final PDF p.1 affiliation b explicitly identifies this author with Department of
+    General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P054.pdf
+  pdf_path: selected/dpg2025-P054.pdf
+  md5: 68deb550b2220b90c5b555b0355c8428
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:42:36 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 13
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Registered
+    Report con Stage 1 registrato su OSF dopo l’accettazione in principio; dati grezzi e processati, codice
+    di analisi e materiali dichiarati pubblici su OSF; badge Open Data, Open Materials e Preregistered.
+    Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: true
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.cortex.2024.11.024
+  preregistration:
+  - https://osf.io/6uae2/
+  data:
+  - https://osf.io/9pmrh/
+  - https://osf.io/2sncj/
+  code:
+  - https://osf.io/9pmrh/
+  materials:
+  - https://osf.io/9pmrh/
+  protocol: []
+evidence:
+- claims:
+  - registered_report
+  source: pdf
+  location: PDF p.1 article type; p.5 §2 Methods; p.8 footnotes
+  passage: Article labelled Registered Report; Stage 1 manuscript received in-principle acceptance and
+    was formally registered on OSF; footnotes document corrections accepted after IPA. Declaration and
+    actual link read locally; resource not opened; external content/access unverified, manual Enrico check
+    pending.
+  url: https://osf.io/6uae2/
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.5 §2; pp.17-18 Open practices and badges
+  passage: Stage 1 manuscript explicitly registered on OSF after IPA and before the reported study; article
+    states it earned the Preregistered badge; registration link printed. Chronology not checked in registry.
+    Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://osf.io/6uae2/
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.17 Open practices statement; p.18 badges
+  passage: All raw and processed data explicitly stated publicly available at the main OSF repository
+    and the SPN catalogue project; Open Data badge. Declaration and actual link read locally; resource
+    not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/9pmrh/
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.17 Open practices statement; pp.5/11 linked simulation and pipeline code
+  passage: All analysis code explicitly stated publicly available at the main OSF repository; separate
+    links to power-simulation code and planned analysis pipeline printed. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/9pmrh/
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.17 Open practices statement; p.8 Stimuli
+  passage: All study materials explicitly stated publicly available at the main OSF repository; PsychoPy
+    stimulus-generation and experiment scripts linked on OSF; Open Materials badge. Declaration and actual
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/9pmrh/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open access article under CC BY 4.0; article DOI printed. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.cortex.2024.11.024
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; Il progetto, approvato dalla rivista prima di conoscere i risultati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un disegno simmetrico visto di sbieco non è più simmetrico nell’immagine che arriva all’occhio,
+    eppure lo riconosciamo come tale. Il cervello, però, paga un prezzo: quando guardiamo in
+    prospettiva e pensiamo ad altro, il suo segnale di simmetria si indebolisce. Si può ridurre
+    questo «costo della prospettiva» aiutando il cervello a cogliere la profondità? Centoventi
+    persone hanno osservato figure simmetriche e non, di fronte o inclinate, giudicandone solo la
+    luminosità. Gli autori hanno provato tre aiuti: guardare con un occhio solo, inserire le figure
+    in una cornice che suggerisce una superficie, oppure farla oscillare per dare un effetto
+    tridimensionale. Il risultato è netto: il costo restava lo stesso. Quando non ci facciamo caso,
+    questi indizi di profondità non bastano perché il cervello tratti la simmetria in prospettiva
+    come quella vista di fronte.
+  topics:
+  - percezione visiva
+  - simmetria
+  - elettroencefalografia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - registered_report
+    - open_data
+    - open_code
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Cortex 184 (2025) 131-149, online 06/01/2025; Bertamini DPG; Registered Report; CC BY;
+      abstract.'
+    - 'PDF pp.4-5: hypotheses 3-4 on perspective cost; 120 participants 18-43; power for dz=.34; Stage
+      1 IPA registered OSF.'
+    - 'PDF pp.8-11: luminance task, frontoparallel vs perspective, four blocks baseline/monocular/static
+      frame/moving frame.'
+    - 'PDF pp.14-17: perspective cost similar in all blocks, contrary to preregistered hypotheses; cues
+      not sufficient; pp.17-18 open data/code/materials and badges.'
+    review_note: 'Separate scientific reread against pp.1-17: 120 participants, luminance task, four depth-cue
+      blocks, perspective cost similar across blocks contrary to preregistered hypotheses; no claim of
+      demonstrated equivalence beyond authors conclusion. Separate editorial reread: SPN explained as
+      EEG signal, RR and declared OSF resources stated without inspection claims.'
+  scientific_notes: Null result for the key preregistered hypotheses; exploratory pairwise differences
+    not significant but not shown equivalent to zero. Possible 2D regularity account discussed by authors
+    and judged unlikely.
+publication:
+  published: false
+  featured: false

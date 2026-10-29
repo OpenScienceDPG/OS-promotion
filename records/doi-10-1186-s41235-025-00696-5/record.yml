@@ -1,0 +1,163 @@
+schema_version: 1.0
+id: doi-10-1186-s41235-025-00696-5
+doi: 10.1186/s41235-025-00696-5
+bibliography:
+  title: '“Freely explore this environment”: individual differences in exploration behavior and survey
+    knowledge'
+  authors: Veronica Muffato; Laura Miola; Sara Errigo; Francesca Pazzaglia; Chiara Meneghetti
+  year: 2025
+  journal: 'Cognitive Research: Principles and Implications'
+  volume: '10'
+  article_number: '86'
+dpg:
+  authors:
+  - Veronica Muffato
+  - Laura Miola
+  - Sara Errigo
+  - Francesca Pazzaglia
+  - Chiara Meneghetti
+  verified: true
+  verification_source: Final PDF p.1 author affiliation markers and p.12 Author details explicitly identify
+    Department of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P064.pdf
+  pdf_path: selected/dpg2025-P064.pdf
+  md5: 331c5270209cd3b58e6d10b2b4e501d6
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:04:36 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    dichiarati su OSF; lista completa degli item della scala SEPE dichiarata nel supplemento collegato
+    all’articolo OA. Altri materiali solo su richiesta; studio non preregistrato. Risorse non aperte in
+    modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: false
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1186/s41235-025-00696-5
+  preregistration: []
+  data:
+  - https://osf.io/8evu2/overview
+  code: []
+  materials:
+  - https://link.springer.com/article/10.1186/s41235-025-00696-5#MOESM1
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.11, Availability of data and materials
+  passage: Data explicitly stated available on OSF. Declaration and actual link read locally; resource
+    not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/8evu2/overview
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.4, SEPE scale; p.11, Supplementary Information
+  passage: 'Complete list of the 22-item SEPE questionnaire explicitly referred to the supplementary material
+    linked at article DOI. Other materials on request: only explicitly shared SEPE items accepted. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.'
+  url: https://doi.org/10.1186/s41235-025-00696-5
+  verification: unverified
+- claims:
+  - reusable_tool
+  source: pdf
+  location: PDF pp.4-5, Self-efficacy and pleasure in exploring scale; p.11 supplementary link
+  passage: New SEPE questionnaire developed and evaluated in this paper; full items stated in linked supplement.
+    Validation is preliminary, not a diagnostic instrument. Declaration and actual link read locally;
+    resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1186/s41235-025-00696-5
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY 4.0. Declaration and actual link read locally; resource not
+    opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1186/s41235-025-00696-5
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF pp.4,11, SEPE scale items in Supplementary Information; publisher electronic supplementary material
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://link.springer.com/article/10.1186/s41235-025-00696-5#MOESM1
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Esplorare una città nuova: meglio girare dappertutto o tornare sui propri passi? In questo
+    studio 234 giovani adulti hanno esplorato liberamente per cinque minuti una città virtuale, con
+    l’obiettivo di imparare dove si trovavano edifici e strade, e poi ne hanno disegnato la mappa.
+    Sorpresa: chi tornava più spesso nei luoghi già visti, coprendo meno territorio, disegnava mappe
+    più accurate. Anche saper ricomporre mentalmente un puzzle si legava a mappe migliori. E un
+    dettaglio curioso: le persone più sicure di sé e più amanti dell’esplorazione tendevano a
+    ripassare meno dagli stessi luoghi. Per imparare bene un posto nuovo in poco tempo, insomma, a
+    volte conviene rivedere ciò che si è già visto.
+  topics:
+  - navigazione spaziale
+  - esplorazione
+  - memoria di lavoro
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+    - open_access
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: 2025, volume 10 article 86, five authors; p.12 all five affiliation 1 DPG.'
+    - 'PDF pp.4-5: 234 adults 19-36, virtual city CAVE free exploration five minutes, map drawing; independent
+      questionnaire validation sample 372, distinct from navigation sample.'
+    - 'PDF pp.8-10: more revisiting and less diffusion associated with higher map accuracy; VSWM Jigsaw
+      directly positive; no causal interpretation of mediation.'
+    - 'PDF p.11: virtual city, explicit landmark learning goal, five-minute limit, single map task; SEPE
+      validation preliminary. Study not preregistered; data OSF. General materials on request, but p.4
+      explicitly complete SEPE items in supplementary material, linked p.11.'
+    review_note: 'Scientific reread pp.4-5,8-11: final navigation N234, distinct validation N372, five-minute
+      exploration; revisiting positive and diffusion negative, puzzle positive, confidence negative for
+      revisiting; associations only. Editorial reread: no causal generalization, plain map and task language,
+      explicit declared resources. General materials on request distinguished from explicitly shared questionnaire
+      items.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - materials
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

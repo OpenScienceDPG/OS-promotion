@@ -1,0 +1,166 @@
+schema_version: 1
+id: doi-10-1038-s42003-025-08074-z
+doi: 10.1038/s42003-025-08074-z
+bibliography:
+  title: Susceptibility to multitasking in stroke is associated to multiple-demand system damage and leads
+    to lateralized visuospatial deficits
+  authors: Elvio Blini; Daniela D’Imperio; Zaira Romeo; Michele De Filippo De Grazia; Laura Passarini;
+    Cristina Pilosio; Francesca Meneghello; Mario Bonato; Marco Zorzi
+  year: 2025
+  journal: Communications Biology
+  volume: '8'
+  article_number: '734'
+  publication_date: '2025-05-12'
+dpg:
+  authors:
+  - Elvio Blini
+  - Zaira Romeo
+  - Mario Bonato
+  - Marco Zorzi
+  verified: true
+  verification_source: 'Final article PDF page 1: author superscripts link these four authors to Department
+    of General Psychology and Padova Neuroscience Center, University of Padova; publisher affiliations
+    agree.'
+source:
+  pdf_file: dpg2025-P004.pdf
+  pdf_path: selected/dpg2025-P004.pdf
+  md5: 8410c5da12dbcca6360b421c7b79f53c
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 12:49:24 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Dati del compito per partecipante e condizione, mappe aggregate, codice di visualizzazione
+    e compito E-Prime con stimoli sono pubblici. I dati clinici e le scansioni individuali restano riservati.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1038/s42003-025-08074-z
+  preregistration: []
+  data:
+  - https://github.com/CCNL-UniPD/Multitasking
+  code:
+  - https://github.com/CCNL-UniPD/Multitasking/blob/main/multitasking_figure_lesion.py
+  - https://github.com/CCNL-UniPD/Multitasking/blob/main/multitasking_figure_disconn.py
+  - https://github.com/CCNL-UniPD/Multitasking/blob/main/Load%20task.zip
+  materials:
+  - https://github.com/CCNL-UniPD/Multitasking/blob/main/Load%20task.zip
+  protocol: []
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF page 1, citation and affiliations
+  passage: Communications Biology 8:734 (2025), published 12 May 2025. Four explicitly DPG-affiliated
+    authors verified.
+  url: https://www.nature.com/articles/s42003-025-08074-z
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-repository
+  location: PDF page 12, Data availability; GitHub README and downloaded workbooks/NIfTI files
+  passage: 'Public repository identifies this paper and provides condition-level behavioral accuracy and
+    aggregated brain maps. Anonymous downloads returned HTTP 200. Fig2 workbook has 414 observations:
+    46 subject codes by nine load/location conditions, with cluster and lesion side. Fig3 has 12 cluster-level
+    means/SEM. Four valid NIfTI files contain lesion/disconnection overlays and multivariate Z maps (91x109x91).
+    These are condition-level summaries and group maps, not trial-level responses or individual clinical/neuroimaging
+    records, whose public archiving is explicitly excluded by ethics conditions.'
+  url: https://github.com/CCNL-UniPD/Multitasking
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-repository
+  location: PDF page 12, Code availability; downloaded MRIcroGL Python scripts and Load task archive
+  passage: Two inspected Python scripts load the study lesion/disconnection maps, set display thresholds,
+    and select mosaic slices. Load task archive also contains E-Prime source files. Anonymous downloads
+    HTTP 200. This establishes task and visualization code availability, not the full behavioral or lesion-analysis
+    pipeline. Display scripts contain author-specific paths requiring local adaptation; no end-to-end
+    rerun claimed.
+  url: https://github.com/CCNL-UniPD/Multitasking/blob/main/multitasking_figure_lesion.py
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf-and-repository
+  location: PDF page 3, Computerized task; page 12, Code availability; Load task archive contents
+  passage: 'Public Load task.zip downloaded HTTP 200 and inspected: four E-Prime experiment/source pairs
+    (practice, single, visual dual, auditory dual), three WAV sound stimuli and a noise-mask bitmap. These
+    are materials for the reported computerized task.'
+  url: https://github.com/CCNL-UniPD/Multitasking/blob/main/Load%20task.zip
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - reusable_tool
+  source: pdf-and-repository
+  location: PDF pages 3 and 12; Load task archive
+  passage: The work makes the concrete single/dual-task assessment paradigm available as editable E-Prime
+    2 experiment source and stimuli, usable by researchers with the required E-Prime software. This is
+    a reusable task implementation; no claim that it is a standalone free application or externally validated
+    diagnostic instrument.
+  url: https://github.com/CCNL-UniPD/Multitasking/blob/main/Load%20task.zip
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher
+  location: Publisher full article and PDF page 14, Open Access
+  passage: Publisher full article freely retrieved without login; article licensed CC BY 4.0.
+  url: https://www.nature.com/articles/s42003-025-08074-z
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Dopo un ictus si possono superare i test di routine e avere, allo stesso tempo, difficoltà
+    nascoste. Lo mostra questo studio con 46 pazienti che ai test tradizionali non avevano problemi
+    di attenzione nello spazio. Dovevano indicare dei punti sullo schermo, a volte facendo nel
+    frattempo un’altra cosa, come riconoscere una forma o un suono. In 15 di loro il doppio compito
+    faceva emergere forti difficoltà a notare ciò che compariva sul lato opposto alla lesione; gli
+    altri se la cavavano bene. Queste difficoltà si associavano a danni in una rete di aree frontali
+    e parietali che il cervello usa in moltissime attività. Un messaggio chiaro: mettere alla prova
+    i pazienti con compiti più impegnativi può rivelare ciò che i test semplici lasciano sfuggire.
+  topics:
+  - ictus
+  - attenzione spaziale
+  - multitasking
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1,3: year, DPG affiliation, 46 unilateral subacute/chronic stroke patients with normal BIT;
+      40 usable scans for mapping (pp.4,7).'
+    - 'PDF pp.3-6: single/visual/auditory dual tasks; 31/15 cluster sizes and contralesional deterioration
+      under dual task.'
+    - 'PDF pp.7-11: lesion/disconnection associations involving multiple-demand network; limited heterogeneous
+      sample, no external diagnostic validation or treatment effect asserted.'
+    - 'PDF p.12 and inspected GitHub downloads: condition-level behavior, aggregated brain maps, visualization
+      code and E-Prime task/stimuli; individual clinical scans excluded.'
+publication:
+  published: false
+  featured: false

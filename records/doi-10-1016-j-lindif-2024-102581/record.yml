@@ -1,0 +1,151 @@
+schema_version: 1.0
+id: doi-10-1016-j-lindif-2024-102581
+doi: 10.1016/j.lindif.2024.102581
+bibliography:
+  title: Social, emotional, and behavioral skills in students with or without specific learning disabilities
+  authors: Tommaso Feraco; Gerardo Pellegrino; Nicole Casali; Barbara Carretti; Chiara Meneghetti
+  journal: Learning and Individual Differences
+  volume: '117'
+  publication_date: null
+  year: 2025
+  article_number: '102581'
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Gerardo Pellegrino
+  - Barbara Carretti
+  - Chiara Meneghetti
+  verified: true
+  verification_source: PDF p.1 assigns Feraco, Pellegrino, Carretti and Meneghetti affiliation a Department
+    of General Psychology; Casali Max Planck. Volume 117 (2025) 102581; available online 11 November 2024.
+source:
+  pdf_file: dpg2025-P032.pdf
+  pdf_path: selected/dpg2025-P032.pdf
+  md5: d466dd5a94d7d7f3a32612505f9d6fd3
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:30:40 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano disponibili su OSF dati, codice di analisi e materiali, compreso il questionario.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.lindif.2024.102581
+  preregistration: []
+  data:
+  - https://doi.org/10.17605/OSF.IO/KTPF4
+  code:
+  - https://doi.org/10.17605/OSF.IO/KTPF4
+  materials:
+  - https://doi.org/10.17605/OSF.IO/KTPF4
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.3 section2.1; p.10 Data availability
+  passage: Paper explicitly declares data available on OSF KTPF4. Declaration and link read locally; resource
+    not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/KTPF4
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.5 section2.4; p.10 Data availability
+  passage: Paper explicitly declares analysis code available on OSF KTPF4. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/KTPF4
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.4 section2.2.2; p.10 Data availability
+  passage: Paper explicitly declares the questionnaire, all items and materials available on OSF KTPF4.
+    Declaration and link read locally; resource not opened in rapid mode. External contents/access unverified;
+    manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/KTPF4
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, CC BY open access statement
+  passage: Paper declares open access under CC BY and supplies its DOI. External access not checked; manual
+    Enrico check pending.
+  url: https://doi.org/10.1016/j.lindif.2024.102581
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Avere un disturbo dell’apprendimento non significa soltanto faticare con lettura, scrittura o
+    calcolo. Questo studio ha confrontato quasi 3.000 studenti italiani di medie e superiori, 359
+    dei quali con una diagnosi, su un ventaglio di abilità per la vita: organizzarsi, collaborare,
+    gestire le emozioni, relazionarsi, avere idee nuove. Gli studenti con un disturbo si
+    descrivevano un po’ meno forti nell’organizzarsi, nel relazionarsi e nell’innovare, ma le
+    differenze erano piccole, e nella gestione delle emozioni non c’erano affatto. Anche creatività
+    e abilità artistiche erano le stesse: il divario riguardava il pensiero astratto e
+    l’elaborazione delle informazioni. E il legame tra queste abilità e la soddisfazione per la
+    propria vita era simile nei due gruppi. Un ritratto che va oltre la diagnosi.
+  topics:
+  - disturbi specifici dell’apprendimento
+  - abilità socio-emotive
+  - rendimento scolastico
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Feraco, Pellegrino, Carretti, Meneghetti DPG; Casali Max Planck; Learn Individ Differ
+      117 (2025) 102581, online 11 Nov 2024; CC BY.'
+    - 'PDF pp.3–4: 2965 students (33 schools, 11 regions), 359 self-reported SLD, BESSI-192; teacher report
+      matched in 96% of a 408 subset; matched samples.'
+    - 'PDF pp.5–7: SLD lower self-management d=-.28, innovation -.25, social engagement -.19; cooperation
+      not robust; emotional resilience 0; innovation gap in abstract thinking/information processing,
+      not creative/artistic; SEB-grade slopes weaker in SLD; life satisfaction similar.'
+    - 'PDF p.9 limitations: SLD type unknown, self-report only, interaction power, cross-sectional.'
+    - 'PDF pp.3–5/10: data, code, materials and questionnaire items on OSF KTPF4.'
+    review_note: 'Separate scientific reread against pp.3–9: 2965/359 counts, small lower self-management/innovation/social-engagement
+      scores, null resilience, non-robust cooperation omitted, facet-level creativity result, weaker grade
+      associations in SLD, cross-sectional self-report limits. Editorial reread: skill labels in plain
+      words.'
+publication:
+  published: false
+  featured: false

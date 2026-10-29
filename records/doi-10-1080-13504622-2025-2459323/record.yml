@@ -1,0 +1,141 @@
+schema_version: 1.0
+id: doi-10-1080-13504622-2025-2459323
+doi: 10.1080/13504622.2025.2459323
+bibliography:
+  title: The role of social, emotional, and behavioral skills for nature connectedness, action competence,
+    and proenvironmental behaviors in adolescence
+  authors: Tommaso Feraco; Elena Carbone; Giulia Cramarossa; Chiara Meneghetti
+  journal: Environmental Education Research
+  volume: '31'
+  issue: '6'
+  pages: 1224–1239
+  publication_date: '2025-01-31'
+  year: 2025
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Elena Carbone
+  - Giulia Cramarossa
+  - Chiara Meneghetti
+  verified: true
+  verification_source: PDF p.2 assigns all four authors to the Department of General Psychology, Università
+    degli Studi di Padova. Citation 2025, 31(6):1224–1239; published online 31 January 2025.
+source:
+  pdf_file: dpg2025-P035.pdf
+  pdf_path: selected/dpg2025-P035.pdf
+  md5: 417ea57be81627849a2822be2c845999
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:33:29 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano disponibili su OSF dati, script di analisi e materiali.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1080/13504622.2025.2459323
+  preregistration: []
+  data:
+  - https://doi.org/10.17605/OSF.IO/U3MNY
+  code:
+  - https://doi.org/10.17605/OSF.IO/U3MNY
+  materials:
+  - https://doi.org/10.17605/OSF.IO/U3MNY
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.8 Data analysis; p.14 Data availability
+  passage: Paper explicitly declares study data available on OSF U3MNY. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/U3MNY
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8 Data analysis; p.14 Data availability
+  passage: Paper explicitly declares the R script used for the analyses available on OSF U3MNY. Declaration
+    and link read locally; resource not opened in rapid mode. External contents/access unverified; manual
+    Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/U3MNY
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.14, Data availability
+  passage: Paper explicitly declares materials available on OSF U3MNY. Declaration and link read locally;
+    resource not opened in rapid mode. External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/U3MNY
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli"
+  public_summary: >-
+    Che cosa spinge un adolescente a prendersi cura del pianeta? Sentirsi parte della natura e
+    sentirsi capaci di fare qualcosa per l’ambiente sono due premesse importanti. Questo studio, con
+    702 studenti italiani tra i 12 e i 20 anni, ha cercato quali abilità personali vadano di pari
+    passo con questi atteggiamenti. Spicca la capacità di innovare, che comprende curiosità e
+    pensiero astratto: era la più legata sia al sentirsi vicini alla natura sia al sentirsi in grado
+    di agire. Seguivano la capacità di collaborare e quella di organizzarsi. E queste abilità
+    sembravano collegarsi ai comportamenti a favore dell’ambiente proprio attraverso quegli
+    atteggiamenti. Curiosità e collaborazione, insomma, vanno a braccetto con l’amore per la natura.
+  topics:
+  - abilità socio-emotive
+  - educazione ambientale
+  - adolescenza
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1–2: all four authors DPG; Environ Educ Res 31(6):1224–1239 (2025), online 31 Jan 2025;
+      no open-access licence.'
+    - 'PDF pp.6–8: 702 Italian students aged 12–20 after exclusions; BESSI-45, CNS, SPACS, single-item
+      proenvironmental behavior; CFA validation of CNS/SPACS.'
+    - 'PDF pp.9–11: correlations modest 0.06–0.34; innovation strongest (b=.38 CNS, .27 SPACS), then cooperation
+      and self-management; social engagement slight negative; exploratory path model with indirect associations
+      and direct self-management link.'
+    - 'PDF p.12 limitations: cross-sectional, single-item behavior, causal inference precluded.'
+    - 'PDF pp.8/14: data, R script and materials on OSF U3MNY.'
+    review_note: 'Separate scientific reread against pp.6–12: 702 students aged 12–20, modest correlations,
+      innovation strongest then cooperation/self-management, exploratory mediation only, cross-sectional
+      single-item behavior. Editorial reread: constructs explained without technical scale names.'
+publication:
+  published: false
+  featured: false

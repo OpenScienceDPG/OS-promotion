@@ -1,0 +1,138 @@
+schema_version: 1.0
+id: doi-10-1002-ijop-70040
+doi: 10.1002/ijop.70040
+bibliography:
+  title: 'Manipulation of Intensive Longitudinal Data: A Tutorial in R With Applications on the Job Demand-Control
+    Model'
+  authors: Luca Menghini; Enrico Perinelli; Cristian Balducci
+  year: 2025
+  journal: International Journal of Psychology
+  issue: '2'
+dpg:
+  authors:
+  - Luca Menghini
+  verified: true
+  verification_source: Final PDF p.1 affiliation 1 explicitly identifies this author with Department of
+    General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P061.pdf
+  pdf_path: selected/dpg2025-P061.pdf
+  md5: 7b8109cea02d074481cb482c188b277c
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:55:01 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 5
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Codice
+    R del tutorial dichiarato su OSF (link view-only, non aperto); articolo OA. Dataset dell’esempio pubblicato
+    con uno studio precedente (Menghini et al. 2023): non conteggiato come pratica di questo lavoro.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1002/ijop.70040
+  preregistration: []
+  data: []
+  code:
+  - https://osf.io/sxh4q/?view_only=b74d2e84b5b04017b46e578570058e76
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8, Data Availability Statement; p.1 Abstract; p.5
+  passage: 'R code implementing all data manipulation steps and analyses explicitly stated available from
+    an anonymized public OSF repository at printed view-only link (abstract: open-source R code). Complete
+    link confirmed locally; token omitted, see article Data Availability Statement. Declaration and actual
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.'
+  url: https://doi.org/10.1002/ijop.70040
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open access article under Creative Commons Attribution License; article DOI printed. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1002/ijop.70040
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/sxh4q/?view_only=b74d2e84b5b04017b46e578570058e76
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Chiedere a qualcuno come si sente più volte al giorno, per giorni, restituisce un film della
+    vita quotidiana invece di una semplice fotografia. Ma prima di guardarlo, quel film va montato:
+    migliaia di risposte da leggere, unire, ripulire e organizzare. Questo tutorial accompagna i
+    ricercatori passo dopo passo, con codice R pronto per ogni fase, compreso il modo di separare
+    gli alti e bassi di ciascuno dalle differenze stabili tra persone. Come banco di prova, 211
+    impiegati che hanno risposto fino a 18 volte in tre giornate di lavoro. E il risultato parla a
+    chiunque lavori in ufficio: nei momenti di carico più pesante l’umore scende, mentre sentirsi
+    padroni del proprio lavoro va di pari passo con un umore migliore. Una guida pratica per rendere
+    questo tipo di ricerca più accessibile e trasparente.
+  topics:
+  - metodologia
+  - dati longitudinali intensivi
+  - stress lavorativo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Int J Psychol 2025 issue 2, DOI 10.1002/ijop.70040; Menghini DPG; CC BY; tutorial abstract.'
+    - 'PDF p.2: example data from Menghini et al. 2023, 211 back-office workers, up to 18 ESM surveys
+      over three workdays; dataset public with that study.'
+    - 'PDF pp.3-6: steps reading, merging, cleaning, reliability, centering, lagging; R code.'
+    - 'PDF pp.6-8: negative valence higher with demands, lower with control; interaction only in Model
+      2 (lower average control); pre-processing choices to justify/pre-register; p.8 OSF code statement.'
+    review_note: 'Separate scientific reread against pp.1-8: tutorial steps, 211 workers up to 18 surveys,
+      strain effects and partial cross-level buffer only; example data from 2023 study not claimed as
+      this work practice. Separate editorial reread: ILD explained plainly, declared OSF R code only.'
+  scientific_notes: 'Tutorial; substantive JDC results illustrative only. Abstract says buffer partially
+    supported, discussion says within-individual buffer not supported: summary limits it to the cross-level
+    moderation in Model 2. Example dataset shared with Menghini et al. 2023, not counted here.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - code
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

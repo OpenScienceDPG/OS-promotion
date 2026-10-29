@@ -1,0 +1,77 @@
+schema_version: 1
+id: doi-10-1038-s41598-018-20462-6
+doi: 10.1038/s41598-018-20462-6
+bibliography:
+  title: Covert lie detection using keyboard dynamics
+  authors: Merylin Monaro; Chiara Galante; Riccardo Spolaor; Qian Qian Li; Luciano Gamberini; Mauro Conti; Giuseppe Sartori
+  year: 2018
+  journal: Scientific Reports
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: s41598-018-20462-6.pdf
+  pdf_path: selected/s41598-018-20462-6.pdf
+  md5: 2c3a6e5977e0d512098a10dcd583eb58
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Dati e codice del task e delle analisi pubblici
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1038/s41598-018-20462-6]
+  preregistration: []
+  data: [https://github.com/SPRITZ-Research-Group/Covert_lie_detection_using_keyboard_dynamics]
+  code: [https://github.com/SPRITZ-Research-Group/Covert_lie_detection_using_keyboard_dynamics]
+  materials: [https://github.com/SPRITZ-Research-Group/Covert_lie_detection_using_keyboard_dynamics]
+  protocol: []
+evidence:
+  - claims: [open_data, open_code]
+    source: pdf
+    location: pages 2 and 4
+    passage: The paper states that the data, task code, R analysis code, and machine-learning procedure are available in the linked GitHub repository.
+    url: https://github.com/SPRITZ-Research-Group/Covert_lie_detection_using_keyboard_dynamics
+    verification: agent-verified
+  - claims: [open_materials]
+    source: pdf
+    location: page 2
+    passage: The experimental online task and its source code are linked directly from the paper.
+    url: https://github.com/SPRITZ-Research-Group/Covert_lie_detection_using_keyboard_dynamics
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli"
+  public_summary: >-
+    Come si smaschera chi mente sulla propria identità, quando non ci sono documenti o impronte
+    digitali da controllare? Guardando come scrive sulla tastiera. Quaranta persone hanno risposto
+    per iscritto a domande sui propri dati personali: metà dicendo la verità, metà fingendo di
+    essere qualcun altro. Tra le domande c’erano alcune trappole, come l’età da ricavare dalla data
+    di nascita: chi dice la verità la conosce già, chi mente deve calcolarla, e quello sforzo lascia
+    tracce nel modo di battere i tasti. Analizzando tempi, pause ed errori con algoritmi di
+    apprendimento automatico, il sistema ha riconosciuto chi mentiva in circa il 95% dei casi, e ha
+    funzionato bene anche con nuovi partecipanti e con 151 persone reclutate online. Un primo passo
+    verso controlli di identità a distanza.
+  topics: []
+publication:
+  published: false
+  featured: false
+

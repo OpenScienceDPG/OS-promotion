@@ -1,0 +1,160 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-025-95717-0
+doi: 10.1038/s41598-025-95717-0
+bibliography:
+  title: Attentional load impacts multisensory integration, without leading to spatial processing asymmetries
+  authors: M. S. Saccani; G. Contemori; F. Del Popolo Cristaldi; M. Bonato
+  journal: Scientific Reports
+  volume: '15'
+  article_number: '16240'
+  year: 2025
+dpg:
+  authors:
+  - M. S. Saccani
+  - G. Contemori
+  - F. Del Popolo Cristaldi
+  - M. Bonato
+  verified: true
+  verification_source: Final PDF p.1 author/affiliation block explicitly identifies listed authors with
+    Department of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P080.pdf
+  pdf_path: selected/dpg2025-P080.pdf
+  md5: 7f983c51bdc63ac8cbfff79925d8e5ee
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:28:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Razionale
+    del progetto dichiarato preregistrato prima dello studio; dataset dichiarati su OSF con link view-only
+    pubblicato. Articolo OA. Risorsa non aperta in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41598-025-95717-0
+  preregistration:
+  - https://osf.io/enpjt/?view_only=892930ac0c9a40da96aefc09702c49c7
+  data:
+  - https://osf.io/enpjt/?view_only=892930ac0c9a40da96aefc09702c49c7
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.16, Data availability
+  passage: Study datasets explicitly stated available at linked OSF project. Declaration and actual published
+    view-only link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending. Full token retained locally only; article DOI and section locate link.
+  url: https://doi.org/10.1038/s41598-025-95717-0
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.4, Aim and hypothesis
+  passage: Project rationale explicitly stated preregistered beforehand; actual OSF view-only link supplied.
+    Resource contents/date not externally checked; no broader full-protocol claim. Declaration and actual
+    published view-only link read locally; resource not opened; external content/access unverified, manual
+    Enrico check pending. Full token retained locally only; article DOI and section locate link.
+  url: https://doi.org/10.1038/s41598-025-95717-0
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.19, Open Access
+  passage: Open-access article under CC BY; declaration and article DOI read locally. Article/resource
+    not externally opened; external access/content unverified, manual Enrico check pending.
+  url: https://doi.org/10.1038/s41598-025-95717-0
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.4,16, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/enpjt/?view_only=892930ac0c9a40da96aefc09702c49c7
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.4,16, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/enpjt/?view_only=892930ac0c9a40da96aefc09702c49c7
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un lampo di luce, due bip: e all’improvviso ci sembra di vedere due lampi. È un’illusione in cui
+    l’udito inganna la vista, e questo studio mostra che diventa più forte quando la mente è
+    impegnata. In due esperimenti online, circa 200 adulti dovevano contare i lampi comparsi a
+    destra o a sinistra dello schermo, a volte svolgendo intanto un altro compito, come tenere a
+    mente delle informazioni. Con la mente più carica l’illusione cresceva: i suoni condizionavano
+    di più ciò che si vedeva. E questo valeva allo stesso modo per entrambi i lati dello schermo.
+    Quando l’attenzione è occupata, insomma, vista e udito si mescolano di più.
+  topics:
+  - attenzione
+  - integrazione multisensoriale
+  - percezione spaziale
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF p.1:2025 Scientific Reports15:16240; all four authors DPG using initials as printed; p.19 CC
+      BY.
+    - PDF pp.1,4-8:two separate web experiments101/98 healthy adults. Count lateralized flashes with congruent/incongruent
+      sounds; load memory before primary task or simultaneous visual discrimination.
+    - PDF pp.10-16:high load increases sound-induced flash illusion in both experiments; predicted load-by-side
+      modulation not significant, not proof of no asymmetries in all healthy systems. Alternative modality-specific
+      resource account remains.
+    - PDF p.4:project rationale explicitly preregistered beforehand with actual OSF view-only link; p.16
+      datasets declared available at same project. Full plan timing/content not externally inspected.
+      No code/materials sharing inferred.
+    review_note: 'Scientific reread pp.1,4-8,10-16:101/98 two web experiments; memory vs online discrimination
+      load, sound-induced fission/fusion examples accurate; high-load illusion increase, no significant
+      predicted load-by-side effect. Existing main side differences do not contradict absent differential
+      load modulation. Editorial reread: scope limited to this task/adults, rationale preregistration
+      only; no universal no-asymmetry claim.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - preregistration
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

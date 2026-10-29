@@ -1,0 +1,147 @@
+schema_version: 1.0
+id: doi-10-1111-psyp-70002
+doi: 10.1111/psyp.70002
+bibliography:
+  title: 'Mapping 60 Years of Psychophysiology: A Bibliometric Analysis of Journal Performance, Authorship
+    Trends, and Thematic Evolution'
+  authors: Christian Panitz; Carola Dell'Acqua
+  journal: Psychophysiology
+  volume: '62'
+  article_number: e70002
+  year: 2025
+dpg:
+  authors:
+  - Carola Dell'Acqua
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies listed authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P069.pdf
+  pdf_path: selected/dpg2025-P069.pdf
+  md5: 90db9d0c8a333fd4b2f398f574db0e47
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:08:56 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    bibliometrici grezzi, data frame R, script di analisi/grafici e dizionario dei termini dichiarati
+    su OSF; articolo OA. Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1111/psyp.70002
+  preregistration: []
+  data:
+  - https://osf.io/6t4u5/
+  code:
+  - https://osf.io/6t4u5/
+  materials:
+  - https://osf.io/6t4u5/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.16, Data Availability Statement
+  passage: Raw bibliometric data and R data frames explicitly stated available on OSF. Declaration and
+    actual link read locally; resource not opened; external content/access unverified, manual Enrico check
+    pending.
+  url: https://osf.io/6t4u5/
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.16, Data Availability Statement
+  passage: R scripts for statistical analyses and plotting explicitly stated available on OSF. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://osf.io/6t4u5/
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.3, Preprocessing of Title Key Terms; p.16, Data Availability Statement
+  passage: Extracted term list and dictionary of synonyms and excluded key terms created for this study
+    explicitly shared on OSF. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://osf.io/6t4u5/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under Creative Commons Attribution licence. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1111/psyp.70002
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Come cambia una scienza in sessant’anni? Gli autori l’hanno raccontato attraverso i 5.869
+    articoli pubblicati dalla rivista Psychophysiology tra il 1964 e il 2023. Analizzando autori,
+    citazioni e parole dei titoli, emerge un ritratto vivace. I gruppi di ricerca sono diventati più
+    numerosi e internazionali, anche se Europa e Nord America restano protagonisti. La quota di
+    donne come prime autrici o autrici di riferimento si è avvicinata alla metà negli anni recenti.
+    E i temi si sono spostati: dalle risposte fisiologiche del corpo all’attività del cervello, con
+    un intreccio sempre più stretto tra pensiero ed emozioni. Un viaggio nella storia di una
+    disciplina che studia il dialogo tra mente e corpo.
+  topics:
+  - bibliometria
+  - psicofisiologia
+  - collaborazione scientifica
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: 2025, Psychophysiology 62:e70002; DPG Carola Dell’Acqua; Panitz Bremen; CC BY.'
+    - 'PDF pp.2-3: 5869 publications in 1964-2023 from Web of Science; editorial gender/submission data
+      and impact factors are additional sources with shorter coverage. Key terms from titles, manual dictionary
+      then co-occurrence analyses.'
+    - 'PDF p.4: mean team size 1.83 to 4.95; first/corresponding author gender nearly 50% recently, not
+      senior-author parity. Pp.13-15 Europe/North America dominance and thematic shift peripheral to EEG/ERP,
+      cognition/emotion.'
+    - 'PDF pp.14-15: single journal, incomplete gender/country history, title-only themes with subjective
+      dictionary decisions. P.16 raw bibliometric data, dictionary, R data frames and scripts explicitly
+      available OSF 6t4u5; p.3 dictionary sharing.'
+    review_note: 'Scientific reread against pp.2-4,13-16: 5869 publications 1964-2023, title/citation
+      analyses, larger and more international teams, near-half female first/corresponding authors not
+      senior parity. Single-journal and incomplete history limits retained. Editorial reread: EEG/ERP
+      rendered as brain activity, descriptive result and resource scope clear.'
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,136 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuroimage-2024-120986
+doi: 10.1016/j.neuroimage.2024.120986
+bibliography:
+  title: 'Emotional pictures in the brain and their interaction with the task: A fine-grained fMRI coordinate-based
+    meta-analysis study'
+  authors: Serafino Paolo Mansueto; Zaira Romeo; Alessandro Angrilli; Chiara Spironelli
+  year: 2025
+  journal: NeuroImage
+  volume: '305'
+  article_number: '120986'
+dpg:
+  authors:
+  - Serafino Paolo Mansueto
+  - Zaira Romeo
+  - Alessandro Angrilli
+  - Chiara Spironelli
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P060.pdf
+  pdf_path: selected/dpg2025-P060.pdf
+  md5: d74324a71b0478a504b2c5faf3788f81
+screening:
+  status: screened-reject
+  first_screened_at: '2026-10-20'
+  last_screened_at: '2026-10-20'
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: reject
+  final_note: 'Escluso da Enrico il 2026-10-20: preregistrazione PROSPERO dichiarata solo con identificativo,
+    senza URL; resta solo Open Access, non sufficiente.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: reject
+  by: Enrico
+  at: '2026-10-20'
+  note: PROSPERO number without URL not accepted as a linked preregistration in rapid mode; no other substantive
+    practice beyond open access.
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.neuroimage.2024.120986
+  preregistration:
+  - https://doi.org/10.1016/j.neuroimage.2024.120986
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.3, §2 Methods
+  passage: Methodology and analysis strategy explicitly stated preregistered on PROSPERO with printed
+    protocol number CRD42022307555; no URL printed, registry identifier used as pointer (article section
+    given). Search period began January 2022; registration timing not checked in registry. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1016/j.neuroimage.2024.120986
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open access article under CC BY-NC-ND; article DOI printed. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.neuroimage.2024.120986
+  verification: unverified
+curation:
+  status: curated
+  why_open: 'Metodo e analisi dichiarati preregistrati su PROSPERO (CRD42022307555, identificativo senza
+    URL); articolo OA. Coordinate dei singoli studi solo su richiesta: open data non assegnato.'
+  public_summary: >-
+    Le immagini dell’International Affective Picture System, una raccolta standardizzata di foto piacevoli,
+    neutre e spiacevoli, sono tra gli strumenti più usati per studiare le emozioni nel cervello. Questa
+    meta-analisi ha riunito 97 studi di risonanza magnetica funzionale pubblicati tra il 2000 e il 2023,
+    per 152 esperimenti: 106 confrontavano immagini spiacevoli e neutre, 46 piacevoli e neutre. Le coordinate
+    delle attivazioni riportate dagli studi sono state combinate per individuare le aree che rispondono
+    in modo convergente, distinguendo se i partecipanti guardavano soltanto le immagini o svolgevano un
+    compito semplice o impegnativo. Le immagini spiacevoli coinvolgono, come già noto, regioni limbiche
+    e paralimbiche, ma anche altre aree frontali e parietali. Con la sola visione o con compiti semplici
+    emergeva un’asimmetria: più attività frontale destra per le immagini spiacevoli e, nella sola visione,
+    frontale sinistra per quelle piacevoli. Con compiti impegnativi rispondevano alle immagini spiacevoli
+    diverse aree dell’emisfero destro; per quelle piacevoli gli studi erano troppo pochi. Gli autori dichiarano
+    metodo e analisi preregistrati su PROSPERO; le coordinate dei singoli studi sono disponibili solo
+    su richiesta.
+  topics:
+  - emozioni
+  - neuroimmagine
+  - meta-analisi
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+    note: Record excluded by Enrico; no pending resource check.
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: NeuroImage 305 (2025) 120986, online 21/12/2024; all four authors DPG; CC BY-NC-ND; abstract.'
+    - 'PDF p.3: PROSPERO CRD42022307555 preregistration; PRISMA; search January 2022-January 2024, studies
+      2000-2023.'
+    - 'PDF pp.3-6: 97 papers, 152 experiments (106 negative, 46 positive vs neutral); ALE by load: no
+      load, low load, high load.'
+    - 'PDF abstract/pp.20-24: limbic/paralimbic plus frontal-parietal areas; right frontal for unpleasant
+      in passive/low load, left for pleasant in passive only; high-load right lateralization; task heterogeneity
+      limit; coordinates on request.'
+    review_note: 'Separate scientific reread against pp.1-6 and abstract: 97 papers/152 experiments, load
+      categories, limbic/paralimbic plus additional areas, frontal asymmetries by load, high-load right
+      lateralization, positive high-load not estimable. Separate editorial reread: ALE described plainly;
+      PROSPERO declaration and request-only coordinates stated accurately.'
+  scientific_notes: 'Rapid-mode borderline: preregistration accepted on explicit statement plus PROSPERO
+    identifier without URL; Enrico to confirm that a registry number counts as link. Registration number
+    dated 2022 while search began January 2022: prospective timing unverified.'
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,152 @@
+schema_version: 1.0
+id: doi-10-1111-jnp-12420
+doi: 10.1111/jnp.12420
+bibliography:
+  title: 'Digit span and Bisyllabic non-word span: Italian norms'
+  authors: Konstantinos Priftis; Daphne Gasparre; Denyse Carazzolo; Valeria Vaccaro; Roberta Toffano;
+    Marco Pitteri; Massimo Grassi
+  journal: Journal of Neuropsychology
+  pages: 1-21
+  year: 2025
+dpg:
+  authors:
+  - Konstantinos Priftis
+  - Daphne Gasparre
+  - Denyse Carazzolo
+  - Valeria Vaccaro
+  - Roberta Toffano
+  - Massimo Grassi
+  verified: true
+  verification_source: Final PDF p.1 explicitly affiliates listed authors to Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P075.pdf
+  pdf_path: selected/dpg2025-P075.pdf
+  md5: 8b7a3547c46c8dd79843584f2328c9c7
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:18:19 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati,
+    istruzioni e fogli di risposta dichiarati disponibili su OSF; fogli di calcolo per punteggi corretti/equivalenti
+    e video esplicativo disponibili come strumenti riutilizzabili. Sequenze audio solo su richiesta, nessuna
+    condivisione aperta inferita; articolo senza licenza OA nel PDF.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1111/jnp.12420
+  preregistration: []
+  data:
+  - https://osf.io/mna92/
+  code: []
+  materials:
+  - https://osf.io/mna92/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.10, Descriptive statistics; p.19, Data availability
+  passage: All raw scores stated available as Supplemental Data 3 and 4; study-supporting data explicitly
+    openly available on OSF. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://osf.io/mna92/
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.6, Stimuli
+  passage: Response sheet and all instructions explicitly available on OSF. Audio sequences only upon
+    request; not counted as open materials. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/mna92/
+  verification: unverified
+- claims:
+  - reusable_tool
+  source: pdf
+  location: PDF pp.15-16, Adjusted and equivalent scores
+  passage: Supplemental Data 6 spreadsheets explicitly usable to calculate adjusted scores and classify
+    equivalent scores; linked instructional video. Analysis code not inferred. Declaration and actual
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/mna92/
+  verification: unverified
+- claims:
+  - open_access
+  source: spreadsheet
+  location: list.xlsx, sheet -, '-'!G1141; DOI column I
+  passage: Local workbook classifies this DOI as hybrid. Under Enrico's 2026-10-20 publisher-access criterion, gold/hybrid/bronze/diamond qualify; green/closed do not. Badge corrected using the workbook, not a new live-access check. Earlier PDF/repository evidence is retained as historical provenance; it does not override this badge criterion.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: curated
+  why_open: "I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Ripetere una serie di numeri o una serie di parole senza senso di due sillabe: sembrano prove
+    simili, ma non misurano la memoria nello stesso modo. Gli autori hanno costruito valori di
+    riferimento italiani per entrambe le prove, su 225 adulti senza problemi neurologici, con
+    sequenze registrate e presentate al computer perché tutti le ascoltassero allo stesso modo. In
+    media le persone ricordavano circa il doppio delle cifre rispetto alle parole inventate. Età e
+    istruzione contavano per le cifre, mentre per le parole inventate contava solo l’età: per gli
+    autori, un segno che questa prova risente meno delle strategie apprese. Due strumenti
+    standardizzati, con norme italiane, per chi valuta la memoria.
+  topics:
+  - memoria a breve termine
+  - norme italiane
+  - valutazione neuropsicologica
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: 2025 Journal of Neuropsychology (online-first 00:1-21); DPG Priftis, Gasparre, Carazzolo,
+      Vaccaro, Toffano, Grassi; Pitteri London. BPS copyright, no OA licence.'
+    - 'PDF pp.4-6: 225 neurologically healthy Italian adults, computerized audio presentation forward/backward
+      digits/nonwords, preliminary perception/articulation check. Norming sample, not patient diagnostic
+      validation.'
+    - 'PDF pp.10-17: digit span approximately twice non-word span; age/education predict digits, age only
+      nonwords. Test-retest learning effects matter.'
+    - 'PDF pp.6,10,15-16,19: raw scores public OSF mna92, response sheet/instructions, scoring spreadsheets
+      and video available. Audio sequences explicitly only on request: no claim full audio stimuli openly
+      shared. Spreadsheets are reusable scoring tool, not executable analysis code.'
+    - 'PDF pp.17-18: nonword construction not controlled for syllable frequencies; few >85; clinical diagnostic
+      utility requires patient validation.'
+    review_note: 'Scientific reread pp.4,6,10-12,15-19: N225 healthy, age/education digit effects and
+      age nonword; learning effects, patient validation pending, strategy-free interpretation qualified;
+      audio request-only distinguished from public instructions/scoring tools. Editorial reread: no complete-test/audio-sharing
+      or diagnostic-performance claim.'
+publication:
+  published: false
+  featured: false

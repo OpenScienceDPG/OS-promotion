@@ -1,0 +1,76 @@
+schema_version: 1
+id: doi-10-1371-journal-pone-0297954
+doi: 10.1371/journal.pone.0297954
+bibliography:
+  title: "How previous experience shapes future affective subjective ratings: A follow-up study investigating implicit learning and cue ambiguity"
+  authors: Fiorella Del Popolo Cristaldi; Giulia Buodo; Filippo Gambarota; Suzanne Oosterwijk; Giovanni Mento
+  year: 2024
+  journal: PLOS ONE
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: journal.pone.0297954.pdf
+  pdf_path: selected/journal.pone.0297954.pdf
+  md5: a5beb5d4addbb49ab350ceabe6d11f7b
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Due esperimenti preregistrati; materiali, dati e codice di analisi pubblici
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: true
+  registered_report: ~
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1371/journal.pone.0297954]
+  preregistration: [https://osf.io/gdr3b/, https://osf.io/z5esb/]
+  data: [https://osf.io/gdr3b/, https://osf.io/z5esb/]
+  code: [https://osf.io/gdr3b/, https://osf.io/z5esb/]
+  materials: [https://osf.io/gdr3b/, https://osf.io/z5esb/]
+  protocol: []
+evidence:
+  - claims: [open_data, open_code, open_materials]
+    source: pdf
+    location: page 1
+    passage: The data availability statement says that all reported materials, data, and analysis code are publicly available on OSF.
+    url: https://osf.io/gdr3b/
+    verification: agent-verified
+  - claims: [preregistration]
+    source: pdf
+    location: pages 4-5
+    passage: The paper identifies both experiments as preregistered and gives their OSF links.
+    url: https://osf.io/gdr3b/
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli"
+  public_summary: >-
+    Se il cane del vicino ringhia ogni volta che passiamo, impariamo presto ad aspettarci un
+    incontro sgradevole: il passato ci aiuta a prevedere come ci faranno sentire gli eventi futuri.
+    Ma che cosa succede quando i segnali diventano ambigui? In due esperimenti, circa 240 persone
+    vedevano cerchi colorati seguiti da immagini neutre o spiacevoli: per alcune il colore
+    annunciava sempre il tipo di immagine, per altre solo metà delle volte. Poi, con regole nuove,
+    dovevano dire che cosa si aspettavano e come si sentivano. Il risultato è sorprendente: quando
+    il segnale era ambiguo, le attese erano meno negative e le immagini risultavano meno spiacevoli.
+    L’incertezza, insomma, sembra attutire le emozioni negative.
+  topics: []
+publication:
+  published: false
+  featured: false
+

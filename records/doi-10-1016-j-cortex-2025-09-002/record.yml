@@ -1,0 +1,140 @@
+schema_version: 1.0
+id: doi-10-1016-j-cortex-2025-09-002
+doi: 10.1016/j.cortex.2025.09.002
+bibliography:
+  title: Unveiling contralesional omissions six years after stroke. Effects of top-down and bottom-up
+    manipulations
+  authors: Maria Silvia Saccani; Giulio Contemori; Mario Bonato
+  journal: Cortex
+  volume: '192'
+  pages: 271-284
+  year: 2025
+dpg:
+  authors:
+  - Maria Silvia Saccani
+  - Giulio Contemori
+  - Mario Bonato
+  verified: true
+  verification_source: Final PDF p.1 author/affiliation block explicitly identifies listed authors with
+    Department of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P081.pdf
+  pdf_path: selected/dpg2025-P081.pdf
+  md5: f3938f46b6d6e24892c72eecdc259924
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:28:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dataset
+    completo dichiarato disponibile su OSF tramite link view-only nella sezione Analysis; articolo OA.
+    Risorsa non aperta in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.cortex.2025.09.002
+  preregistration: []
+  data:
+  - https://osf.io/nyphu/?view_only=bbb4365b4bf048379c965855a1a0aa76
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6 (printed p.276), Analysis
+  passage: Full study dataset explicitly declared available. Declaration and actual published view-only
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+    Full token retained locally only; article DOI and section locate link.
+  url: https://doi.org/10.1016/j.cortex.2025.09.002
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY; declaration and article DOI read locally. Article/resource
+    not externally opened; external access/content unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.cortex.2025.09.002
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/nyphu/?view_only=bbb4365b4bf048379c965855a1a0aa76
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un ictus può lasciare tracce nascoste anche per anni. Lo racconta questo studio su un uomo di 65
+    anni, colpito sei anni prima da una lesione all’emisfero destro. Nei normali test su carta
+    sembrava tutto a posto: nessuna difficoltà a notare ciò che stava alla sua sinistra. Al
+    computer, però, la storia cambiava. Quando doveva segnalare piccoli bersagli ai lati dello
+    schermo, quelli a sinistra gli sfuggivano. E con bersagli più grandi bastava chiedergli di fare
+    contemporaneamente un’altra cosa, come classificare figure o suoni, perché le dimenticanze
+    tornassero a galla. Un caso che mostra quanto servano prove abbastanza impegnative per scovare
+    le difficoltà che restano dopo un ictus.
+  topics:
+  - ictus
+  - neglect spaziale
+  - doppio compito
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF p.1:2025 Cortex192:271-284; all three DPG; CC BY.
+    - PDF pp.4-6:single65-year-old man6years after right-hemisphere stroke,additional pontine stroke3months
+      later; four controls; paper-pencil tests vs computerized spatial target detection with secondary
+      categorization. Targets before secondary stimuli, duration100ms.
+    - PDF pp.10-12:large targets omissions mainly with dual task; smaller targets omissions already single
+      task, no extra systematic dual-task worsening. Right/left asymmetries subtle and dependent on demands;
+      one case, limited comprehensive assessment, generalization uncertain.
+    - PDF p.6 Analysis explicitly full dataset available OSF view-only. No code/material or preregistration
+      sharing inferred.
+    review_note: 'Scientific reread pp.4-6,10-12:one65-year-old man6years poststroke and4 controls; no
+      temporal overlap;large-target load omissions vs small-target single-task omissions, no uniform additive
+      worsening. Paper-pencil tests negative, not globally normal cognition. Editorial reread: left side/contralesional
+      explained, single-case and limited assessment constrain clinical generalization; OSF full dataset
+      declaration only.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

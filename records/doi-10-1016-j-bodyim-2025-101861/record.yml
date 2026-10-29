@@ -1,0 +1,166 @@
+schema_version: 1.0
+id: doi-10-1016-j-bodyim-2025-101861
+doi: 10.1016/j.bodyim.2025.101861
+bibliography:
+  title: 'Italian adolescents’ body image and sociocultural influences: An investigation using the Sociocultural
+    Attitudes Towards Appearance Questionnaire-4-Revised'
+  authors: Sara Iannattone; Silvia Cerea; Marco Lauriola; Camilla Matera; Amanda Nerini; Gioia Bottesi
+  year: 2025
+  journal: Body Image
+  volume: '53'
+  article_number: '101861'
+dpg:
+  authors:
+  - Sara Iannattone
+  - Silvia Cerea
+  - Gioia Bottesi
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P052.pdf
+  pdf_path: selected/dpg2025-P052.pdf
+  md5: 713efa050c4abfb13e1c1679471f422a
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:42:36 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dataset
+    anonimizzato e script R dichiarati su OSF; link view-only pubblicato nel paper, non aperto. Articolo
+    OA. Item del questionario non pubblicati: nessun badge strumento.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: false
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.bodyim.2025.101861
+  preregistration: []
+  data:
+  - https://osf.io/4x69n/?view_only=c08f1b421de44b3098df876938b74d90
+  code:
+  - https://osf.io/4x69n/?view_only=c08f1b421de44b3098df876938b74d90
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6 §2.4 Statistical analyses; p.12 Data Availability
+  passage: Anonymized dataset explicitly stated available at printed OSF view-only link. Complete link
+    confirmed locally; token omitted, see article Data Availability. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.bodyim.2025.101861
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.6 §2.4 Statistical analyses
+  passage: R script explicitly stated available at the same OSF view-only link; separate from data claim.
+    Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://doi.org/10.1016/j.bodyim.2025.101861
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, copyright line
+  passage: Open access article under CC BY-NC-ND; article DOI printed. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.bodyim.2025.101861
+  verification: unverified
+- claims:
+  - open_access
+  source: spreadsheet
+  location: list.xlsx, sheet -, '-'!G874; DOI column I
+  passage: Local workbook classifies this DOI as green. Under Enrico's 2026-10-20 publisher-access criterion, gold/hybrid/bronze/diamond qualify; green/closed do not. Badge corrected using the workbook, not a new live-access check. Earlier PDF/repository evidence is retained as historical provenance; it does not override this badge criterion.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6,12, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/4x69n/?view_only=c08f1b421de44b3098df876938b74d90
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.6,12, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/4x69n/?view_only=c08f1b421de44b3098df876938b74d90
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi"
+  public_summary: >-
+    Magri, muscolosi, attraenti: gli adolescenti sono circondati da ideali di bellezza che arrivano
+    da famiglia, amici e media. Per capire quanto pesano servono strumenti di misura affidabili, e
+    questo studio ne mette alla prova uno per i ragazzi italiani. Quasi 1.150 studenti tra i 13 e i
+    17 anni hanno compilato il SATAQ-4R, un questionario che misura quanto si fanno propri gli
+    ideali di bellezza e quanta pressione si sente dalle persone vicine e dai media. Il risultato:
+    lo strumento funziona bene sia per le ragazze sia per i ragazzi, mantiene la stessa struttura
+    dalla prima alla media adolescenza e si collega come previsto ad autostima, insoddisfazione per
+    il corpo e sintomi alimentari. Ricercatori e clinici hanno ora un metro affidabile per studiare
+    queste pressioni negli adolescenti italiani.
+  topics:
+  - immagine corporea
+  - adolescenza
+  - misurazione psicologica
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Body Image 53 (2025) 101861; Iannattone/Cerea/Bottesi DPG; CC BY-NC-ND; 692 girls and
+      450 boys 13-17.'
+    - 'PDF pp.3-4: SATAQ-4R Male 28/Female 31 items, seven subscales, Italian version Stefanile 2019;
+      other self-report measures.'
+    - 'PDF pp.6-10: original 7-factor model best fit, invariant across early/middle adolescence, omega
+      .79-.93, construct/criterion validity.'
+    - 'PDF pp.11-12: no test-retest or known-groups validity, cross-sectional, adolescents not involved
+      in adaptation; p.6/p.12 OSF data and R script.'
+    review_note: 'Separate scientific reread against pp.1,3-12: 692 girls/450 boys 13-17, seven-factor
+      structure best and age-invariant, reliability and validity as reported; limits on test-retest, clinical
+      discrimination and adolescent involvement. Separate editorial reread: subscales explained plainly;
+      declared OSF data and R script only; no tool badge because items not supplied.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - code
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,149 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-024-83338-y
+doi: 10.1038/s41598-024-83338-y
+bibliography:
+  title: 'No significant relationship found between spontaneous motor tempo, heartbeat, and individual
+    alpha frequency: an analysis of internal tempos'
+  authors: Tamaka Harada; Giovanna Mioni; Nicola Cellini; Yuko Yotsumoto
+  year: 2025
+  journal: Scientific Reports
+  volume: '15'
+  article_number: '2310'
+dpg:
+  authors:
+  - Giovanna Mioni
+  - Nicola Cellini
+  verified: true
+  verification_source: Final PDF p.1 affiliation 2 explicitly identifies these authors with Department
+    of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P048.pdf
+  pdf_path: selected/dpg2025-P048.pdf
+  md5: 70afd638b677f0ecfff24496cfc7b510
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 16:01:45 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Ipotesi,
+    metodi e script preregistrati su OSF prima della raccolta dati; dati e script di analisi dichiarati
+    su OSF; articolo OA. Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41598-024-83338-y
+  preregistration:
+  - https://osf.io/xp9hv
+  data:
+  - https://osf.io/evnkf/
+  code:
+  - https://osf.io/evnkf/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.1 Abstract; p.2 Introduction
+  passage: Authors explicitly state all hypotheses, experimental methods and analysis scripts were pre-registered
+    on OSF Preregistration prior to data collection; registration link printed. Chronology taken from
+    paper, not checked in registry. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://osf.io/xp9hv
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.8, Data availability
+  passage: Reported data explicitly stated available on OSF at printed project link. Declaration and actual
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/evnkf/
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8, Data availability
+  passage: Analysis scripts explicitly stated available on OSF at the same printed link; separate from
+    data claim. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://osf.io/evnkf/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.10, Open Access
+  passage: Article licensed CC BY-NC-ND 4.0; article DOI printed. Declaration and actual link read locally;
+    resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1038/s41598-024-83338-y
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Abbiamo un «orologio interno» che batte con un ritmo tutto nostro? Molte teorie lo immaginano, e
+    questo studio è andato a cercarlo in tre ritmi misurati sulle stesse persone: la velocità
+    spontanea con cui battiamo un dito, il battito del cuore a riposo e il ritmo naturale delle onde
+    elettriche del cervello. Se esistesse un unico metronomo interno, questi ritmi dovrebbero andare
+    d’accordo. Analizzando 32 giovani universitari, gli autori non hanno trovato legami
+    significativi tra le tre misure, nemmeno tenendo conto di età, orario della prova, abitudini da
+    mattinieri o nottambuli ed esperienza musicale. Un risultato prezioso proprio perché «nullo»:
+    pubblicarlo aiuta a non costruire teorie su collegamenti che, almeno qui, non si vedono.
+  topics:
+  - percezione del tempo
+  - ritmi fisiologici
+  - elettroencefalografia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-2: Sci Rep 15:2310 (2025), Mioni/Cellini DPG; preregistration OSF before data collection;
+      null results to counter publication bias.'
+    - 'PDF pp.2-3: power for r=0.5 needs 29; 39 recruited aged 18-21, 7 excluded for movement, 32 analysed;
+      resting EEG PO3/PO4 and ECG 5 min, tapping 2x45 taps.'
+    - 'PDF pp.4-6: no significant correlations among SMT, IBI, IAF; Bayes factors anecdotal; regressions
+      with controls and stepwise none significant.'
+    - 'PDF pp.7-8: limits students 18-21, no localized neural measures; p.8 OSF data/scripts; p.10 CC
+      BY-NC-ND.'
+    review_note: 'Separate scientific reread against pp.1-8: 39 recruited, 32 analysed, no significant
+      correlations or regression effects, anecdotal Bayes factors, power for large correlations only;
+      null not overstated as absence. Separate editorial reread: IAF and SMT explained, preregistration
+      and OSF data/scripts stated as declared.'
+  scientific_notes: 'Null result: nonsignificant correlations with anecdotal Bayes factors, not strong
+    evidence of absence; sample powered for r=0.5 only. Two posterior EEG electrodes, healthy students
+    18-21.'
+publication:
+  published: false
+  featured: false

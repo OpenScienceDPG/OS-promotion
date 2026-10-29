@@ -1,0 +1,133 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2025-1546418
+doi: 10.3389/fpsyg.2025.1546418
+bibliography:
+  title: 'The portrait of Dorian Gray: spontaneous expression of happiness is an invariant kinematic marker'
+  authors: Elisa Straulino; Cristina Scarpazza; Alessio Miolla; Andrea Spoto; Sonia Betti; Luisa Sartori
+  journal: Frontiers in Psychology
+  volume: '16'
+  article_number: '1546418'
+  year: 2025
+dpg:
+  authors:
+  - Elisa Straulino
+  - Cristina Scarpazza
+  - Alessio Miolla
+  - Andrea Spoto
+  - Sonia Betti
+  - Luisa Sartori
+  verified: true
+  verification_source: Final PDF p.1 author/affiliation block explicitly identifies listed authors with
+    Department of General Psychology, University of Padova/Padua.
+source:
+  pdf_file: dpg2025-P086.pdf
+  pdf_path: selected/dpg2025-P086.pdf
+  md5: c109796349fc3d4a6a4526eb929451fb
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:46:20 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Tutti
+    i dati dichiarati disponibili nei Supplementary materials (p.6), con collegamento ai supplementi pubblicato
+    p.12; articolo OA. Risorsa non aperta in modalità rapida. Nessun codice o materiale sperimentale inferito
+    dalla sola disponibilità dei dati.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3389/fpsyg.2025.1546418
+  preregistration: []
+  data:
+  - https://www.frontiersin.org/articles/10.3389/fpsyg.2025.1546418/full#supplementary-material
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY. Declaration and actual article/resource link read locally;
+    resource not opened; external contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.3389/fpsyg.2025.1546418
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6, Statistical analysis;p.12 Data availability and Supplementary material
+  passage: All data explicitly stated available in Supplementary materials section;p.12 supplies the actual
+    supplement URL. Data availability statement points to article/supplement for repository details;no
+    repository address or level of aggregation inferred. Declaration and actual article/resource link
+    read locally; resource not opened; external contents/access unverified; manual Enrico check pending.
+  url: https://www.frontiersin.org/articles/10.3389/fpsyg.2025.1546418/full#supplementary-material
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un sorriso spontaneo si riconosce da come si muove il viso. Gli autori hanno applicato piccoli
+    marcatori agli angoli della bocca e sulle sopracciglia di alcuni volontari, registrandone i
+    movimenti in tre dimensioni mentre guardavano scene comiche o volti che ridevano, e poi mentre
+    sorridevano su richiesta. I sorrisi «a comando» erano diversi: la bocca si muoveva in modo più
+    ampio e veloce e le sopracciglia si allontanavano di più. I sorrisi spontanei, invece, si
+    somigliavano qualunque cosa li avesse fatti nascere. E chi si immedesimava di più nei personaggi
+    delle scene comiche sorrideva in modo più ampio e rapido. Come nel ritratto di Dorian Gray, il
+    volto custodisce una traccia della felicità vera.
+  topics:
+  - espressioni facciali
+  - sorriso spontaneo
+  - cinematica
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF p.1:Frontiers in Psychology2025,16:1546418,CC BY;all6authors DPG.
+    - PDF pp.3-6,8:45recruited;Exp1 20recruited3excluded tracking=17analysed;Exp2 25,independent groups;58separate
+      validation sample. Four facial markers,3D motion and professional FACS;comedy vs laughing-face videos
+      then posed smiles.
+    - PDF pp.6-12:posed smiles wider/faster,larger eyebrow distance;no detected spontaneous differences
+      across induction methods;fantasy empathy correlation only comedy. Fixed spontaneous-before-posed
+      order,young/limited sample;no individual identification classifier or proof immutable signature/neural
+      circuitry.
+    - PDF p.6 Statistical analysis explicitly all data available in Supplementary materials;p.12 Data
+      availability plus actual supplementary-material URL. No repository URL needed/inferred;linked supplement
+      is stated data destination.
+    review_note: Scientific reread pp.3,6,8-12:20recruited minus3tracking failures=17analysed Exp1;25Exp2;58stimulus
+      validation separate. Posed wider/faster and eyebrow distance greater;no significant spontaneous
+      between-method differences;fantasy correlation comedy only. Fixed order/limited groups prevent immutable
+      fingerprint or sincerity-detection claim. Editorial reread:lay marker/motion explanation,results
+      bounded,only stated supplement data;no repository/code invented.
+publication:
+  published: false
+  featured: false

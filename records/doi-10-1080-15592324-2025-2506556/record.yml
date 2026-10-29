@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1080-15592324-2025-2506556
+doi: 10.1080/15592324.2025.2506556
+bibliography:
+  title: 'Sizing up competition with strigolactones: the case of pea plants'
+  authors: Bianca Bonato; Tom Bennett; Emanuele Cannizzo; Sara Avesani; Silvia Guerra; Umberto Castiello
+  year: 2025
+  journal: Plant Signaling & Behavior
+  volume: '20'
+  article_number: '2506556'
+  publication_date: '2025-05-19'
+  issue: '1'
+dpg:
+  authors:
+  - Bianca Bonato
+  - Emanuele Cannizzo
+  - Sara Avesani
+  - Silvia Guerra
+  - Umberto Castiello
+  verified: true
+  verification_source: Final PDF page 2 author superscripts and explicit Department of General Psychology
+    affiliation; Tom Bennett is affiliated to Leeds and is not counted as DPG.
+source:
+  pdf_file: dpg2025-P007.pdf
+  pdf_path: selected/dpg2025-P007.pdf
+  md5: 2f69d87bd5491060ba21a182d738cc65
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 13:02:35 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Zenodo rende pubbliche le traiettorie tridimensionali delle piante e le misure individuali
+    della superficie delle radici, con licenza CC BY 4.0.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1080/15592324.2025.2506556
+  preregistration: []
+  data:
+  - https://zenodo.org/records/15172295
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf-and-bibliographic-metadata
+  location: PDF pp.1–2, citation and affiliations; Crossref metadata
+  passage: Plant Signaling & Behavior 20(1):2506556 (2025), published 19 May. Five named authors have
+    DPG affiliation.
+  url: https://doi.org/10.1080/15592324.2025.2506556
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-repository
+  location: PDF p.11 (printed e2506556-10), Data availability statement; Zenodo 15172295 files
+  passage: 'Anonymous metadata/archive/CSV retrieval HTTP 200, CC BY 4.0. trajectories.zip contains 99
+    MATLAB trajectory files across 32 plant folders in eight genotype-by-condition groups. All 99 files
+    were opened locally: finite numeric three-coordinate matrices, including tendrils and support markers.
+    dataset_rsa.csv contains 32 individual root-surface measurements matching the four-by-eight design;
+    condition spelling varies slightly. These are actual study measurements, not only a repository mention.'
+  url: https://zenodo.org/records/15172295
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: article-full-text
+  location: PDF p.2 license; Europe PMC full article XML PMC12091921
+  passage: Full article XML anonymously retrieved HTTP 200, with matching title and DOI and CC BY license.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12091921/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Le piante di pisello «sentono» la concorrenza? Questo studio indaga il ruolo degli
+    strigolattoni, ormoni vegetali coinvolti anche nei rapporti tra piante vicine. Gli autori hanno
+    seguito in tre dimensioni i movimenti dei viticci di 32 piante, da sole o in coppia,
+    confrontando piante comuni con piante mutanti che non producono questi ormoni o non riescono a
+    percepirli. In coppia, le piante che non producevano gli ormoni acceleravano i movimenti, quelle
+    che non li percepivano rallentavano. E una varietà comune, capace di afferrare il sostegno da
+    sola, non ci riusciva più accanto alla pianta «sorda» agli ormoni, e sviluppava più radici. Un
+    indizio che questi ormoni entrino in gioco quando una pianta si misura con una vicina.
+  topics:
+  - comportamento vegetale
+  - strigolattoni
+  - analisi del movimento
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.3–5, Methods: 32 plants; four plants per genotype per solitary/social condition; stereo
+      recording and root measurements.'
+    - 'PDF pp.5–10, Results/Discussion: opposite mutant velocity responses, neither mutant grasps; wild-type
+      Torsdag fails socially with rms3 and has larger root surface.'
+    - 'PDF pp.9–11: interpretation of hormone exchange is indirect; small sample. Abstract overgeneralizes
+      wild-type grasping; summary follows detailed results.'
+    - PDF p.11 Data availability; Zenodo archive and RSA CSV inspected anonymously.
+publication:
+  published: false
+  featured: false

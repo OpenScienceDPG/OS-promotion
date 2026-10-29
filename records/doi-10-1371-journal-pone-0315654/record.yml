@@ -1,0 +1,118 @@
+schema_version: 1
+id: doi-10-1371-journal-pone-0315654
+doi: 10.1371/journal.pone.0315654
+bibliography:
+  title: Symbolic and non-symbolic numbers differently affect center identification in a number-line bisection
+    task
+  authors: Annamaria Porru; Lucia Ronconi; Daniela Lucangeli; Lucia Regolin; Silvia Benavides-Varela;
+    Rosa Rugani
+  year: 2025
+  journal: PLOS ONE
+dpg:
+  authors:
+  - Lucia Regolin
+  - Rosa Rugani
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: journal.pone.0315654.pdf
+  pdf_path: selected/journal.pone.0315654.pdf
+  md5: 05588a2cac79149ac7cd00a2ce307ac9
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-10-20'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: null
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Dataset, script e stimoli pubblici
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0315654
+  preregistration: []
+  data:
+  - https://osf.io/hr8sz/
+  code:
+  - https://osf.io/hr8sz/
+  materials:
+  - https://osf.io/hr8sz/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: page 2
+  passage: The data availability statement says that the datasets, script, and stimuli are available in
+    the linked OSF project.
+  url: https://osf.io/hr8sz/
+  verification: agent-verified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Copyright
+  passage: Open access article under Creative Commons Attribution License; article DOI printed.
+  url: https://doi.org/10.1371/journal.pone.0315654
+  verification: agent-verified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Nella nostra mente i numeri sembrano disposti lungo una linea: i piccoli a sinistra, i grandi a
+    destra. Lo si vede con un compito semplice: indicare il centro di una linea che ha un numero a
+    ciascuna estremità. Il centro scelto tende a spostarsi, come se i numeri piegassero lo spazio.
+    Ma conta come il numero è presentato, in cifre o come gruppi di puntini? In quattro esperimenti
+    i due formati hanno spinto in direzioni diverse: i puntini spostavano la stima soprattutto verso
+    sinistra, in particolare quando la quantità maggiore stava a sinistra; le cifre la spostavano
+    soprattutto verso destra, anche quando i due numeri erano identici. Le quantità che vediamo e i
+    numeri che leggiamo influenzano dunque la nostra percezione dello spazio, ma per strade diverse.
+  topics:
+  - cognizione numerica
+  - spazio e numeri
+  - attenzione spaziale
+  scientific_notes: 'Paper internally inconsistent on Experiment 2 non-symbolic flankers: abstract says
+    no bias with equivalent symmetrical flankers, discussion reports the expected leftward bias. Summary
+    avoids the dots claim and keeps only the explicit rightward symbolic deviation in Exp2 (p.10).'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    review_note: 'Correzione della sintesi esistente decisa dall’agente su delega esplicita di Enrico
+      (2026-10-20); sorgente e decisione preservate. Reread abstract and discussion: four experiments,
+      non-symbolic leftward bias with larger/denser left flankers, symbolic mostly rightward; Exp2 symbolic
+      rightward deviations (p.10). Other sentences verified.'
+publication:
+  published: false
+  featured: false

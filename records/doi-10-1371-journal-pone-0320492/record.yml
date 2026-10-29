@@ -1,0 +1,104 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0320492
+doi: 10.1371/journal.pone.0320492
+bibliography:
+  title: 'Neural correlates of frailty in cognitively healthy adults: A multimodal imaging study'
+  authors: Ilaria Parrotta; Lorenza Maistrello; Giorgio Arcara; Dante Mantini; Giovanni Lazzaro; Sonia
+    Montemurro; Nicola Filippini
+  journal: PLOS ONE
+  volume: '20'
+  issue: '3'
+  article_number: e0320492
+  year: 2025
+dpg:
+  authors: []
+  verified: false
+  verification_source: 'Final PDF p.1 affiliation block: IRCCS San Camillo, Leuven and FISPPA Padova only;
+    no DPG author.'
+source:
+  pdf_file: dpg2025-P070.pdf
+  pdf_path: archive/rejected/dpg2025-P070.pdf
+  md5: 36f10e3d5fbe541188ada49e2028fa82
+screening:
+  status: screened-reject
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:12:43 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: reject
+  final_note: 'Fuori perimetro DPG/2025-2026 (verifica affiliazioni PDF finale p.1). Modalità rapida:
+    dichiarazione esplicita + link; controllo manuale Enrico pending. Fuori perimetro DPG: il PDF finale
+    p.1 riporta solo IRCCS San Camillo, Leuven e FISPPA Padova. Nessun autore affiliato DPG. Dati dichiarati
+    su OSF e articolo OA: esclusione per affiliazione, non per assenza di pratiche aperte.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: false
+    reason: no-DPG-affiliation-in-final-PDF
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0320492
+  preregistration: []
+  data:
+  - https://osf.io/gk8vd/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.1, Data availability statement
+  passage: Study data explicitly declared available at linked OSF project. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/gk8vd/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1371/journal.pone.0320492
+  verification: unverified
+curation:
+  status: curated
+  why_open: 'Fuori perimetro DPG: il PDF finale p.1 riporta solo IRCCS San Camillo, Leuven e FISPPA Padova.
+    Nessun autore affiliato DPG. Dati dichiarati su OSF e articolo OA: esclusione per affiliazione, non
+    per assenza di pratiche aperte.'
+  public_summary: null
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  scope_review:
+    by: agent
+    at: '2026-10-20'
+    fact_sources:
+    - 'PDF p.1: 2025 PLOS ONE 20(3):e0320492; Parrotta/Mantini Leuven, Parrotta/Maistrello/Arcara/Lazzaro/Filippini
+      IRCCS San Camillo, Montemurro FISPPA Padova. No author DPG affiliation.'
+    - PDF p.1 Data availability explicitly links study data OSF gk8vd; CC BY article. Exclusion is scope,
+      not lack of open-science practice. Abstract and affiliations reviewed; no public summary needed.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,148 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0331566
+doi: 10.1371/journal.pone.0331566
+bibliography:
+  title: Visual enumeration remains challenging for multimodal generative AI
+  authors: Alberto Testolin; Kuinan Hou; Marco Zorzi
+  year: 2025
+  journal: PLOS ONE
+  volume: '20'
+  issue: '9'
+  article_number: e0331566
+  publication_date: '2025-09-12'
+dpg:
+  authors:
+  - Alberto Testolin
+  - Kuinan Hou
+  - Marco Zorzi
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P091.pdf
+  pdf_path: selected/dpg2025-P091.pdf
+  md5: 4c84a7ab4493b47fb339ae141dbe725f
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:56:23 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    e codice completo del benchmark dichiarati su GitHub; benchmark riutilizzabile per valutare futuri
+    sistemi di IA; articolo OA. Repository non aperto in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0331566
+  preregistration: []
+  data:
+  - https://github.com/CCNL-UniPD/Numbersense-AI
+  code:
+  - https://github.com/CCNL-UniPD/Numbersense-AI
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.1, Data availability statement
+  passage: Data used in the study explicitly stated freely available on GitHub at printed link. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://github.com/CCNL-UniPD/Numbersense-AI
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.1, Data availability statement; p.3
+  passage: Complete code of the benchmark explicitly stated freely available on the same GitHub repository;
+    separate from data claim. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://github.com/CCNL-UniPD/Numbersense-AI
+  verification: unverified
+- claims:
+  - reusable_tool
+  source: pdf
+  location: PDF p.1 Abstract; p.3 Introduction
+  passage: Authors propose two cognitive-science-inspired benchmark tasks (enumeration by image-to-text
+    models and generation of target numerosities by text-to-image models) and release the full benchmark
+    code to evaluate future AI systems. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://github.com/CCNL-UniPD/Numbersense-AI
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Copyright
+  passage: Open access article under Creative Commons Attribution License; article DOI printed. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1371/journal.pone.0331566
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Una persona capisce a colpo d’occhio se in una foto ci sono tre o quattro mele, e sa contarne
+    con precisione anche di più. Le intelligenze artificiali che vedono e scrivono ci riescono? Gli
+    autori le hanno messe alla prova con due compiti ispirati alla psicologia: dire quanti oggetti
+    compaiono in un’immagine semplice, oppure disegnarne un numero preciso. Hanno esaminato molti
+    sistemi, dai più diffusi ai più avanzati come Gemini e GPT, fino ai generatori di immagini come
+    DALL-E e Stable Diffusion. La sorpresa: anche i migliori sbagliano spesso, a volte vistosamente,
+    appena gli oggetti superano i pochi che si colgono con un’occhiata, e gli errori cambiano con il
+    tipo di oggetto. Contare, insomma, resta una sfida per le macchine, e per gli autori non basterà
+    renderle più grandi.
+  topics:
+  - intelligenza artificiale
+  - cognizione numerica
+  - benchmark
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PLOS ONE 20(9) e0331566, 12/09/2025; Testolin/Hou/Zorzi DPG; CC BY; GitHub data and code.'
+    - 'PDF pp.3-8: two benchmark tasks, image-to-text enumeration and text-to-image generation; VQA models
+      BLIP/LLaVA/ViLT, Gemini/GPT/Qwen, DALL-E/FLUX/Stable Diffusion; NAE and counting level.'
+    - 'Abstract/results: low accuracy, large errors beyond subitizing range, category-dependent errors
+      unlike humans, striking small-number mistakes.'
+    - 'Discussion: scaling alone may not produce systematic counting; benchmark code released.'
+    review_note: 'Separate scientific reread against pp.1-20: two benchmark tasks, model families as listed,
+      low accuracy, errors beyond subitizing and category-dependent, small-number mistakes; scaling claim
+      kept as authors suggestion. Separate editorial reread: subitizing explained, GitHub data/code/benchmark
+      declared only.'
+publication:
+  published: false
+  featured: false

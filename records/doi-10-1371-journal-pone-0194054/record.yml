@@ -1,0 +1,72 @@
+schema_version: 1
+id: doi-10-1371-journal-pone-0194054
+doi: 10.1371/journal.pone.0194054
+bibliography:
+  title: Decoding rule search domain in the left inferior frontal gyrus
+  authors: Michele Furlan; Laura Babcock; Antonino Vallesi
+  year: 2018
+  journal: PLOS ONE
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: FurlanBabcockVallesiPlosOne2018.pdf
+  pdf_path: selected/FurlanBabcockVallesiPlosOne2018.pdf
+  md5: 0d331d124fe2200838b8de2bdc466458
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Tutti i dati rilevanti dichiarati disponibili
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: true
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1371/journal.pone.0194054]
+  preregistration: []
+  data: [https://osf.io/xjngr/files/]
+  code: []
+  materials: []
+  protocol: []
+evidence:
+  - claims: [open_data]
+    source: pdf
+    location: page 1
+    passage: The data availability statement says that all relevant data are available from the linked Open Science Framework repository.
+    url: https://osf.io/xjngr/files/
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "I dati raccolti"
+  public_summary: >-
+    Per scoprire una regola nascosta, come lo schema dietro una sequenza, il cervello si affida alla
+    corteccia prefrontale. Una sua regione, il giro frontale inferiore sinistro, a lungo associata
+    soprattutto al linguaggio, si attiva anche quando la regola è spaziale. Ma tratta allo stesso
+    modo parole e forme, o sa distinguerle? Tredici partecipanti, dentro una risonanza magnetica,
+    osservavano lettere che comparivano in punti diversi dello schermo e dovevano scoprire la
+    regola: a volte le lettere formavano parole, altre volte le loro posizioni disegnavano figure
+    geometriche. Dall’attività di quella regione si riusciva a capire quale tipo di regola la
+    persona stesse cercando. E ripetendo l’esperimento sugli stessi partecipanti due anni dopo, il
+    risultato si è confermato, anche se i singoli schemi di attività erano cambiati: il segno di un
+    cervello flessibile.
+  topics: []
+publication:
+  published: false
+  featured: false
+

@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-1177-10731911241245792
+doi: 10.1177/10731911241245792
+bibliography:
+  title: Investigating the Functioning of Rating Scales With Rasch Models
+  authors: Daiana Colledani; Adriana P. González Pizzio; Maria Devita; Pasquale Anselmi
+  year: 2025
+  journal: Assessment
+  volume: '32'
+  publication_date: '2024-04-24'
+  issue: '3'
+  pages: 434–446
+  issue_date: 2025-04
+dpg:
+  authors:
+  - Maria Devita
+  verified: true
+  verification_source: Target PDFp.1 gives generic University of Padova for Devita; her contemporaneous
+    primary publication published19April2024, doi10.1007/s12311-024-01695-w, author information explicitly
+    places Maria Devita in DPG (affiliation1). Independently consistent September2024 publication doi10.3390/biology13100754.
+    Only Devita is verified as DPG here; Anselmi correspondence explicitly FISPPA.
+source:
+  pdf_file: dpg2025-P017.pdf
+  pdf_path: selected/dpg2025-P017.pdf
+  md5: 2d2199729d46d55c89ee68f8555bb91c
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:43:48 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Tre file XLS pubblici contengono le risposte individuali ai nove item PHQ-9 nelle due versioni
+    e ai quattro item BRS.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://journals.sagepub.com/doi/10.1177/10731911241245792
+  data:
+  - https://osf.io/8z45t/
+  code: []
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-resource
+  location: Target PDFp.1 and publisher issue information; Crossref metadata
+  passage: Online-first24April2024, definitive Assessment32(3):434–446 in April2025, eligible citation
+    year2025. DOI/title/authors match. Target PDF only names university; no department inferred.
+  url: https://journals.sagepub.com/doi/10.1177/10731911241245792
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: primary-affiliation-source
+  location: Contemporaneous primary publication, Authors and affiliations, published19April2024
+  passage: Maria Devita explicitly affiliated to Department of General Psychology (DPG), University of
+    Padua. This is primary contemporaneous affiliation evidence supporting target paper author with matching
+    name/ORCID. Other target authors are not assigned DPG without evidence.
+  url: https://link.springer.com/article/10.1007/s12311-024-01695-w
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.11 Data availability; OSF three XLS files
+  passage: 'Published view-only link verified anonymously without login; project also marked public. Actual
+    downloaded XLS parsed with Rreadxl: data_PHQ-9_4point437x10 and data_PHQ-9_8point437x10 (ID plus9
+    numeric items), data_BRS412x5(ID plus4items). Counts and variables match studies. Public resource
+    URL omits token. No analysis code or registration found in inspected OSF. Publisher lists DOCX supplementary
+    psychometric tables; direct download403, so contents not independently inspected and no materials
+    badge based on it. Publisher full article restricted; no open-access badge assigned.'
+  url: https://osf.io/8z45t/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti"
+  public_summary: >-
+    Più opzioni di risposta significano una misura più precisa? Non necessariamente. Chi compila un
+    questionario si trova spesso a scegliere tra «mai», «a volte», «spesso» e così via: ma le
+    persone usano davvero tutte quelle sfumature nell’ordine previsto? Due studi lo hanno
+    verificato, uno con 874 adulti su un questionario per i sintomi depressivi, con quattro o otto
+    opzioni di risposta, l’altro con 412 adulti su una scala di comportamenti religiosi a dieci
+    opzioni. Con modelli statistici capaci di vedere dove passa il confine tra una risposta e la
+    successiva, gli autori mostrano che con otto o dieci opzioni quei confini risultavano spesso
+    fuori ordine. Più scelte, insomma, non vogliono sempre dire più informazione: conviene
+    verificarlo caso per caso.
+  topics:
+  - psicometria
+  - scale di risposta
+  - modelli di Rasch
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.2–4: 874 adults, 437 per PHQ-9 version; Rasch threshold interpretation and disorder despite
+      internal consistency.'
+    - 'PDF pp.7–10: 412 BRS respondents; 10categories with disordered thresholds; recoding to5 yields
+      ordered thresholds with slight reliability reduction.'
+    - 'PDF pp.10–11: category merging creates a new scale requiring empirical testing; two frequency scales,
+      no direct reports of response difficulty; no universal optimum established.'
+    - 'PDF p.11 and actual OSF XLS inspected: 437x10 for each PHQ-9 version,412x5 BRS; individual item
+      data.'
+    - 'Publisher/Crossref: online24April2024, final April2025 issue32(3):434–446. DPG verified for Devita
+      from contemporaneous primary publication, not inferred from University of Padova alone.'
+    review_note: Scientific claims checked against methods/results/limitations and resource contents;
+      subsequent editorial reading checked clarity, selectivity and no overstatement. Same agent, separate
+      passes.
+publication:
+  published: false
+  featured: false

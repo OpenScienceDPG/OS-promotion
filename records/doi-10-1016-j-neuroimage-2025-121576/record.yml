@@ -1,0 +1,143 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuroimage-2025-121576
+doi: 10.1016/j.neuroimage.2025.121576
+bibliography:
+  title: 'Unveiling the sensorimotor basis of numerical processing: A functional near-infrared spectroscopy
+    (fNIRS) study'
+  authors: Mariagrazia Ranzini; Sabrina Brigadoi; Yeliz Dinç; Pietro Scatturin; Antonino Vallesi; Carlo
+    Semenza; Umberto Castiello; Marco Zorzi; Simone Cutini
+  journal: NeuroImage
+  volume: '324'
+  article_number: '121576'
+  year: 2025
+dpg:
+  authors:
+  - Mariagrazia Ranzini
+  - Umberto Castiello
+  - Marco Zorzi
+  verified: true
+  verification_source: Final PDF p.1 explicitly affiliates listed authors to Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P076.pdf
+  pdf_path: selected/dpg2025-P076.pdf
+  md5: 3ff45d85157b2a96f10731a5a12fca37
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:23:31 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    fNIRS e comportamentali associati dichiarati su OSF con link view-only; articolo OA. Informazioni
+    aggiuntive e codice solo su richiesta. Risorsa non aperta in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: false
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.neuroimage.2025.121576
+  preregistration: []
+  data:
+  - https://osf.io/ue25p/?view_only=903f8f704f464099a14072f7dc341b1c
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.11, Data availability
+  passage: fNIRS and associated behavioral data explicitly available on OSF through published view-only
+    link; full link verified locally, token retained only locally, article DOI locates section. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1016/j.neuroimage.2025.121576
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.neuroimage.2025.121576
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.11, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/ue25p/?view_only=903f8f704f464099a14072f7dc341b1c
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Contare e afferrare un oggetto: che cosa hanno in comune? Più di quanto sembri. Trenta adulti
+    hanno svolto quattro compiti, tra cui confrontare quantità numeriche e afferrare un oggetto,
+    mentre una luce nel vicino infrarosso, una tecnica non invasiva, misurava l’ossigenazione della
+    superficie del loro cervello. Il risultato: numeri e presa fanno lavorare in parte le stesse
+    aree, soprattutto una regione parietale posteriore a sinistra e, in misura minore, zone vicine
+    alle aree motorie e sensoriali a destra. E in una porzione di quella regione sinistra, una
+    maggiore differenza tra le risposte ai due compiti si associava a calcoli più accurati. Un
+    indizio affascinante che il nostro senso dei numeri abbia radici nel corpo e nei movimenti delle
+    mani.
+  topics:
+  - cognizione numerica
+  - azioni della mano
+  - neuroimmagini
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: NeuroImage324:121576,2025; DPG Ranzini/Castiello/Zorzi; CC BY.'
+    - 'PDF pp.1-3: N30 healthy adults, four separately performed tasks number comparison, color naming,
+      grasping and hand squeezing; fNIRS hemodynamic activity.'
+    - 'PDF pp.8-11: overlap left posterior superior parietal/precuneus and small right pre/postcentral
+      region, not control tasks; absolute grasp-number activity difference in left parietal subarea relates
+      positively to calculation accuracy, uncorrected exploratory correlations.'
+    - 'PDF pp.10-11: general magnitude vs numerical-specific sensorimotor process unresolved; fNIRS superficial
+      cortical measurement only, no developmental/causal training inference.'
+    - 'PDF p.11: fNIRS/associated behavioral data OSF view-only; code explicitly upon request. Token local
+      only.'
+    review_note: 'Scientific reread pp.1-3,8-11: N30, four separate tasks, control-task overlap distinction,
+      exploratory uncorrected absolute activity-difference association, no training causation or specific-number
+      mechanism established. Editorial reread: removed confusing control-task ordering; cortex-only and
+      resource scope explicit, code request-only.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,143 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2024-1433339
+doi: 10.3389/fpsyg.2024.1433339
+bibliography:
+  title: 'SEMbeddings: how to evaluate model misfit before data collection using large-language models'
+  authors: Tommaso Feraco; Enrico Toffalini
+  journal: Frontiers in Psychology
+  volume: '15'
+  publication_date: '2025-02-04'
+  year: 2025
+  article_number: '1433339'
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Enrico Toffalini
+  verified: true
+  verification_source: PDF p.1 assigns both authors to the Department of General Psychology, University
+    of Padova; published 4 February 2025, citation Feraco and Toffalini (2025) Front. Psychol. 15:1433339.
+source:
+  pdf_file: dpg2025-P031.pdf
+  pdf_path: selected/dpg2025-P031.pdf
+  md5: 3f70e10e32adbd9842908496c2ee3886
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:30:40 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 13
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano disponibili su OSF i dati elaborati e il codice della procedura; i dati grezzi non
+    sono pubblici per vincoli di privacy.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3389/fpsyg.2024.1433339
+  preregistration: []
+  data:
+  - https://doi.org/10.17605/OSF.IO/7WEHN
+  code:
+  - https://doi.org/10.17605/OSF.IO/7WEHN
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.10, Data availability statement
+  passage: Paper explicitly declares processed data available on OSF 7WEHN; raw VIA data are not public
+    because of privacy policies. Declaration and link read locally; resource not opened in rapid mode.
+    External contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/7WEHN
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.10, Data availability statement and section4.4 footnote2; p.4 section2.2
+  passage: Paper explicitly declares code and the scripts implementing the SEMbeddings steps available
+    on OSF 7WEHN; footnote2 also publishes a view-only link to the same project, read locally and not
+    copied. Declaration and link read locally; resource not opened in rapid mode. External contents/access
+    unverified; manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/7WEHN
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Open access/CC BY copyright statement
+  passage: Paper declares open access under CC BY and supplies its DOI. External access not checked; manual
+    Enrico check pending.
+  url: https://doi.org/10.3389/fpsyg.2024.1433339
+  verification: unverified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Mettere a punto un questionario psicologico richiede di raccogliere le risposte di centinaia o
+    migliaia di persone; e se il questionario non funziona, si ricomincia da capo. Gli autori
+    propongono SEMbeddings, un modo per anticipare parte di questo controllo prima ancora di
+    raccogliere i dati: un modello linguistico, simile a quelli che fanno funzionare i chatbot,
+    legge il testo delle domande e misura quanto si somigliano. L’idea è stata messa alla prova su
+    96 domande di un questionario sui punti di forza del carattere, confrontando le previsioni con
+    le risposte reali di oltre 31.000 persone. I modelli chiaramente sbagliati venivano riconosciuti
+    quasi sempre, e le scale promosse dalla procedura funzionavano anche con i dati veri. Un aiuto
+    prezioso per costruire questionari migliori.
+  topics:
+  - psicometria
+  - modelli linguistici
+  - validazione di questionari
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Feraco and Toffalini DPG; Front Psychol 15:1433339, published 4 Feb 2025, citation (2025);
+      CC BY open access.'
+    - 'PDF pp.4–5: 96 English VIA-IS-P items, embeddings with mpnet-personality, comparison with anonymized
+      data from 31,697 VIA respondents.'
+    - 'PDF pp.5–9: cosine similarity vs empirical correlations r=.67; 276 wrong two-strength models detected
+      except some SRMR values; 11/24 scales fitting with SEMbeddings fit empirically, 6/13 flagged scales
+      misfit empirically; modification indices often match.'
+    - 'PDF p.10 limitations: one questionnaire, four-item scales, English only, imperfect correspondence;
+      not a substitute for data collection.'
+    - 'PDF p.10: processed data and code at OSF 7WEHN, raw data not public for VIA privacy; footnote2
+      view-only link to same project (token not copied); p.4 open materials demo on OSF.'
+    review_note: 'Separate scientific reread against pp.4–10: 96 items vs 31,697 respondents, r=.67, wrong-model
+      detection, 11/24 and 6/13 counts, modification-index agreement with exceptions, single English questionnaire.
+      Editorial reread: embedding procedure explained plainly; tool framed as item revision aid, not data
+      substitute.'
+publication:
+  published: false
+  featured: false

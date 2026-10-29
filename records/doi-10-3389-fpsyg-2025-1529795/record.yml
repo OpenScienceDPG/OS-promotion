@@ -1,0 +1,130 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2025-1529795
+doi: 10.3389/fpsyg.2025.1529795
+bibliography:
+  title: Social connections combat loneliness and promote wellbeing among college students coming out
+    of the COVID-19 pandemic
+  authors: Sabrina Cipolletta; Lucia Ronconi; Silvia Caterina Maria Tomaino
+  year: 2025
+  journal: Frontiers in Psychology
+  volume: '16'
+  publication_date: '2025-02-19'
+  article_number: '1529795'
+dpg:
+  authors:
+  - Sabrina Cipolletta
+  - Lucia Ronconi
+  - Silvia Caterina Maria Tomaino
+  verified: true
+  verification_source: PDF page1 explicitly assigns all three authors to Department of General Psychology,
+    University of Padua.
+source:
+  pdf_file: dpg2025-P016.pdf
+  pdf_path: selected/dpg2025-P016.pdf
+  md5: 027595a21586bbf01c20ac6a76d6301b
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:43:48 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Il deposito OSF contiene le risposte individuali dei 268 studenti analizzati, con variabili
+    delle attività sociali e item delle scale psicologiche.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1529795/full
+  data:
+  - https://osf.io/4h8vn/
+  code: []
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-resource
+  location: PDF p.1 citation and affiliations
+  passage: 2025 Frontiers in Psychology16:1529795; Cipolletta, Ronconi and Tomaino share explicit DPG
+    affiliation.
+  url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1529795/full
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.9 Data availability; OSF root workbook
+  passage: 'Anonymous download HTTP200, actual XLSX parsed: Italian198x62 and International70x65. Individual
+    survey rows contain demographics/activity variables and ULS-6/MSPSS/GAD-7/PHQ-9/SWLS/COV19-QoL item
+    responses with question labels. Row totals match268 analysed. Item labels are not treated as a separately
+    verified complete reusable survey package. No code/protocol or registration identified in the inspected
+    project; unknown practices remain null.'
+  url: https://osf.io/4h8vn/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: Publisher complete HTML; PDF p.1 copyright
+  passage: Full article available anonymously with Methods/Results and CC BY license.
+  url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1529795/full
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Uscire, partecipare ad attività, incontrarsi: dopo gli anni della pandemia, chi passa più tempo
+    con gli altri sta meglio. Lo studio ha raccolto le risposte di quasi 270 studenti
+    dell’Università di Padova tra il 2022 e il 2023, interrogandoli su ansia, depressione,
+    soddisfazione per la vita, solitudine e sostegno ricevuto dagli altri. Chi partecipava più
+    spesso ad attività con altre persone si sentiva meno solo, riferiva meno ansia e depressione ed
+    era più soddisfatto della propria vita. Anche sentirsi sostenuti si accompagnava a meno
+    solitudine e depressione, mentre chi aveva vissuto la pandemia come più pesante mostrava il
+    quadro opposto. Un messaggio semplice e importante per le università: le relazioni vanno di pari
+    passo con il benessere degli studenti.
+  topics:
+  - solitudine
+  - supporto sociale
+  - studenti universitari
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1,3–4: three DPG authors; 291 recruited, 268 analysed; survey September2022–January2023,
+      single university and retrospective activity reports.'
+    - 'PDF pp.5–7 Table4/Figure1: shared activities correlate with less loneliness/anxiety/depression
+      and more life satisfaction; social support and perceived pandemic impact show opposing associations
+      with loneliness/depression/life satisfaction.'
+    - 'PDF p.8: cross-sectional design precludes causality/direction; online self-selection and 75% women
+      restrict generalization.'
+    - 'PDF p.9, actual OSF workbook: Italian198 and International70 rows, individual item responses; no
+      claim of complete analysis reproduction.'
+    review_note: Scientific claims checked against methods/results/limitations and resource contents;
+      subsequent editorial reading checked clarity, selectivity and no overstatement. Same agent, separate
+      passes.
+publication:
+  published: false
+  featured: false

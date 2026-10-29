@@ -1,0 +1,111 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-025-18246-w
+doi: 10.1038/s41598-025-18246-w
+bibliography:
+  title: A quasi-randomised pilot study on the efficacy and perceived usefulness of adding chemosignals
+    to mindfulness practice for women with social anxiety
+  authors: Emma T. Eliasson; Elisa Vigna; Elisa Dal Bò; Cinzia Cecchetto; Letizia Zurlo; Claudio Gentili;
+    Enzo Pasquale Scilingo; Alberto Greco; Fabio Di Francesco; Luca Citi; Nicola Vanello; Johan N. Lundström;
+    Gergö Hadlaczky; Vladimir Carli
+  journal: Scientific Reports
+  volume: '15'
+  publication_date: null
+  year: 2025
+  article_number: '32459'
+dpg:
+  authors:
+  - Elisa Dal Bò
+  - Cinzia Cecchetto
+  - Letizia Zurlo
+  - Claudio Gentili
+  verified: true
+  verification_source: PDF p.1 assigns affiliation2 Department of General Psychology, University of Padua
+    to Dal Bò, Cecchetto, Zurlo and Gentili. Citation Scientific Reports (2025) 15:32459 on p.1.
+source:
+  pdf_file: dpg2025-P028.pdf
+  pdf_path: archive/rejected/dpg2025-P028.pdf
+  md5: e82a7500ec586ee17d7efeb9247612c0
+screening:
+  status: screened-reject
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:27:08 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: reject
+  final_note: 'Revisione semantica: dati soltanto su richiesta (p.13); registrazione ISRCTN dichiarata
+    retrospettiva, avviata dopo il reclutamento e senza link (p.5); supplemento con soli risultati; Open
+    Access da solo non sufficiente.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: false
+  registered_report: false
+  open_data: false
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41598-025-18246-w
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.5, Trial registration; p.14 Funding
+  passage: Trial explicitly registered retrospectively (ISRCTN 98675422, 16/11/2022) after recruitment
+    began on 17/10/2022; registry number only, no link. Not a prospective preregistration.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.13, Data availability
+  passage: Datasets available from the corresponding author on reasonable request only; no public data
+    link.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.15, Open Access statement
+  passage: Article licensed CC BY 4.0; open access alone does not qualify for inclusion.
+  url: https://doi.org/10.1038/s41598-025-18246-w
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: not-applicable
+  why_open: null
+  public_summary: null
+  topics: []
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    fact_sources:
+    - 'PDF p.1/13: Scientific Reports 2025,15:32459; DPG affiliation2 for Dal Bò, Cecchetto, Zurlo, Gentili.'
+    - 'PDF p.5 Trial registration: ISRCTN 98675422 registered 16/11/2022 after recruitment began 17/10/2022,
+      explicitly retrospective; registry number only, no link; LSAS threshold changed after start.'
+    - 'PDF p.13 Data availability: datasets only on reasonable request. Supplement reports emotion ratings
+      and model outputs, not public study data/materials. Only CC BY open access remains.'
+publication:
+  published: false
+  featured: false

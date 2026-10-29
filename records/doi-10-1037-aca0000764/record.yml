@@ -1,0 +1,187 @@
+schema_version: 1
+id: doi-10-1037-aca0000764
+doi: 10.1037/aca0000764
+bibliography:
+  title: Cognitive and Historical Information Can Spark Interest in Modern and Contemporary Art
+  authors: Ivana Bianchi; Roberto Burro; Ian Verstegen; Erika Branchini; Marco Bertamini
+  year: 2026
+  journal: Psychology of Aesthetics, Creativity, and the Arts
+  volume: '20'
+  issue: '5'
+  pages: 1292-1311
+  online_first_date: '2025-04-17'
+  issue_date: 2026-10
+dpg:
+  authors:
+  - Marco Bertamini
+  verified: true
+  verification_source: 'Local article, PDF page 1: author superscripts explicitly identify Department
+    of General Psychology, University of Padova/Padua.'
+source:
+  pdf_file: dpg2025-P003.pdf
+  pdf_path: selected/dpg2025-P003.pdf
+  md5: 94535f0e7424b325b909e07a6bcb1e1c
+screening:
+  status: screened-reject
+  first_screened_at: '2026-10-20'
+  last_screened_at: '2026-10-20'
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: reject
+  final_note: 'Escluso da Enrico il 2026-10-20: questionario e testi nelle sole appendici dell''articolo
+    (accessibili solo via copia green) non accettati come Open Materials; dati su OSF aq2dt non accessibili
+    (401); nessuna altra pratica sostanziale.'
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: reject
+  by: Enrico
+  at: '2026-10-20'
+  note: Appendix-only questionnaire/intervention texts in a non-OA article (green copy only), without
+    image stimuli or a materials repository, not accepted as Open Materials; OSF data project private;
+    no other substantive practice.
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: false
+  reusable_tool: null
+resources:
+  article:
+  - https://u-pad.unimc.it/handle/11393/354970
+  - https://doi.org/10.1037/aca0000764
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: publisher-and-crossref
+  location: APA supplemental landing page and current Crossref metadata
+  passage: Publisher supplemental page gives volume 20, issue 5, pages 1292-1311. Current publisher-deposited
+    Crossref citation date is October 2026; the 2025 advance-online citation in the local PDF is
+    superseded. Eligible under the user-expanded 2025-2026 criterion of 20 October 2026.
+  url: https://supp.apa.org/psycarticles/supplemental/aca0000764/aca0000764_supp.html
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: crossref
+  location: Current publisher-deposited issue metadata
+  passage: Crossref identifies DOI 10.1037/aca0000764 as volume 20(5), 1292-1311, issued October
+    2026.
+  url: https://api.crossref.org/works/10.1037/aca0000764
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf
+  location: Local PDF page 1, affiliation 4
+  passage: 'Marco Bertamini carries affiliation 4: Department of General Psychology, University of
+    Padua.'
+  url: https://doi.org/10.1037/aca0000764
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-repository
+  location: Local PDF pages 16-19, Appendices A/B; public repository version PDF pages 17-20 (extra
+    cover), printed pages 16-19
+  passage: Not accepted as Open Materials by Enrico (human override, 2026-10-20). Appendix A supplies the questionnaire in Italian with English translations; Appendix B
+    supplies the artwork list and actual historical/cognitive intervention texts. The institutional
+    repository provides the publisher version without login (HTTP 200); downloaded locally and appendices
+    checked. No claim that a complete image stimulus pack or editable experiment is available.
+  url: https://u-pad.unimc.it/handle/11393/354970
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: repository
+  location: Institutional repository, publisher-version attachment
+  passage: The full publisher-version article was freely downloaded (HTTP 200), including appendices.
+  url: https://u-pad.unimc.it/handle/11393/354970
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-repository
+  location: Local PDF page 1, data statement; OSF API access check
+  passage: Article points to OSF aq2dt for its dataset. Anonymous node and file-list API requests
+    returned HTTP 401 on 20 October 2026. Data availability remains unknown; open_data is null, not
+    false.
+  url: https://osf.io/aq2dt/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: user-instruction
+  location: Enrico instruction, 20 October 2026
+  passage: The corpus eligibility was explicitly expanded to official citation years 2025 and 2026.
+    Previous year-only exclusion is superseded; qualifying resources independently verified by the
+    agent.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: spreadsheet
+  location: list.xlsx, sheet -, '-'!G6099; DOI column I
+  passage: Local workbook classifies this DOI as green. Under Enrico's 2026-10-20 publisher-access criterion, gold/hybrid/bronze/diamond qualify; green/closed do not. Badge corrected using the workbook, not a new live-access check. Earlier PDF/repository evidence is retained as historical provenance; it does not override this badge criterion.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: curated
+  why_open: 'Escluso: questionario e testi degli interventi solo nelle appendici dell''articolo (non OA,
+    copia green); dati OSF aq2dt non accessibili. Open Materials non assegnato.'
+  public_summary: >-
+    Una spiegazione può cambiare il modo di guardare l’arte contemporanea, soprattutto l’interesse
+    che suscita. In un esperimento online, oltre 270 adulti italiani osservavano 15 opere, assegnati
+    casualmente a tre condizioni: informazioni essenziali, spiegazioni storiche oppure testi che
+    invitavano a riconoscere come l’opera rovesciasse un’aspettativa comune. Dopo ogni immagine esprimevano
+    giudizi di piacere e interesse; alla fine valutavano l’esperienza complessiva. L’invito a ragionare
+    per opposti aumentava l’interesse rispetto alle sole informazioni essenziali. Entrambi i tipi
+    di spiegazione accrescevano la sensazione di arricchimento personale e di saper apprezzare meglio
+    quelle opere, riducendo la noia. Non emergeva invece un miglioramento chiaro del piacere estetico.
+    Il contributo delle spiegazioni sembra quindi riguardare soprattutto il coinvolgimento e la comprensione
+    percepita. Resta da verificare se i partecipanti imparino a usare autonomamente questa prospettiva
+    davanti a opere nuove. Il questionario e i testi dei due interventi sono consultabili nelle appendici
+    pubbliche dell’articolo.
+  topics:
+  - estetica
+  - arte
+  - interesse
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.4-5: online randomized between-groups experiment, 15 artworks, historical/cognitive/no-additional-information
+      conditions; questionnaire judgments.'
+    - PDF p.4/abstract reports 279; p.6 group counts 90+93+90=273 despite only two incomplete questionnaires
+      described. Summary deliberately uses 'oltre 270' rather than inventing reconciliation; discrepancy
+      documented privately.
+    - 'PDF p.7 and discussion p.11: cognitive versus control interest difference; historical versus
+      control interest not significant, no asserted superiority cognitive versus historical.'
+    - 'PDF pp.7-8: both interventions greater enrichment/self-perceived mastery, reduced boredom;
+      pleasure/overall aesthetic judgments not significant.'
+    - 'PDF p.12: transfer to novel artworks proposed, not tested.'
+    - 'PDF pp.16-19: actual questionnaire and intervention texts; public institutional publisher-version
+      download verified.'
+  review_note: Paper reports 279 participants in abstract/methods but 90+93+90=273 in group counts,
+    while mentioning only two incomplete questionnaires. Public summary uses over 270; no invented
+    reconciliation. The central experimental comparison remains described as reported.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - materials
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

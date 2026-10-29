@@ -1,0 +1,195 @@
+schema_version: 1.0
+id: doi-10-3758-s13423-025-02703-8
+doi: 10.3758/s13423-025-02703-8
+bibliography:
+  title: Spatial regularities in a closed-loop audiovisual search task bias subsequent free-viewing behavior
+  authors: Sebastiano Cinetto; Elvio Blini; Andrea Zangrossi; Maurizio Corbetta; Marco Zorzi
+  year: 2025
+  journal: Psychonomic Bulletin & Review
+  volume: '32'
+  publication_date: '2025-07-07'
+  issue: '6'
+  pages: 2977–2989
+dpg:
+  authors:
+  - Sebastiano Cinetto
+  - Andrea Zangrossi
+  - Marco Zorzi
+  verified: true
+  verification_source: Final PDF page 1 assigns DPG/PNC affiliation 1 to Cinetto, Zangrossi and Zorzi.
+    Blini is Florence affiliation 2; Corbetta is Department of Neuroscience affiliation 3, not DPG in
+    this paper.
+source:
+  pdf_file: dpg2025-P015.pdf
+  pdf_path: selected/dpg2025-P015.pdf
+  md5: 4e992e48daa870e20d52aaab890990d2
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:34:38 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 8
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: OSF rende disponibili preregistrazione con piano di arresto intermedio, protocollo operativo,
+    dati comportamentali e oculometrici, codice delle analisi e compiti OpenSesame con stimoli.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: true
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://link.springer.com/article/10.3758/s13423-025-02703-8
+  data:
+  - https://osf.io/ws5dx/
+  code:
+  - https://osf.io/ws5dx/
+  materials:
+  - https://osf.io/ws5dx/
+  protocol:
+  - https://osf.io/fyu7e/
+  preregistration:
+  - https://osf.io/fyu7e/
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF p.1 citation and affiliations; publisher final citation
+  passage: Publisher confirms 7 July 2025, volume 32 issue 6 pages 2977–2989. Three explicit DPG authors;
+    other affiliations not conflated with DPG.
+  url: https://link.springer.com/article/10.3758/s13423-025-02703-8
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - preregistration
+  source: pdf-and-resource
+  location: PDF p.3 sampling/stopping and p.13 Open practices statement; OSF registration fyu7e
+  passage: Public OSF Open-Ended Registration accepted and not withdrawn, registered 6 May 2022. Frozen
+    DOCX downloaded anonymously HTTP 200; SHA256 exactly matches the registration response and current
+    project file, whose sole version is dated 4 May 2022. Plan specifies directional transfer hypotheses,
+    main sample 40 interim/60 final, corrected p=.0329 and stop if two of three transfer tasks support
+    the directional effect. Sample raw behavioral logs are dated May–July 2022; a previous 24-person pilot
+    is explicitly acknowledged. Claim pertains to the planned main study, not the already-run pilot or
+    every exploratory/reviewer-requested analysis.
+  url: https://osf.io/fyu7e/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.11 Availability of data/materials and p.13 Open practices; OSF data folders
+  passage: 'Public OSF metadata and selected downloads anonymously HTTP 200. bio_performance.csv has 40
+    rows; free/image-viewing exploratory tables have 40 subjects each; landmark behavioral table and raw
+    image-task exports contain actual condition/subject/trial data. A raw TOBII TSV sample was downloaded
+    and read after its seven-line report header: timestamps, left/right gaze coordinates, validity and
+    pupil channels, with actual numerical samples. Multi-GB preprocessed eye tables are listed but were
+    not fully downloaded. Both derived behavior and a substantive raw-eye sample were inspected, without
+    claiming full-data reanalysis.'
+  url: https://osf.io/ws5dx/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-resource
+  location: PDF p.11 Code availability; OSF scripts and experiment/OpenSesameScripts
+  passage: 'Anonymous HTTP 200 downloads read: Rmd preprocessing and analyses for audiovisual search,
+    blank/image viewing and landmark judgments; Python figure source and OpenSesame task sources. Analysis
+    code uses the linked data and includes gaze transfer comparisons and search models. README gives processing
+    order and version caveats. No complete execution or clinical validation is claimed.'
+  url: https://osf.io/ws5dx/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf-and-resource
+  location: PDF pp.3–5 Stimuli and procedure; OSF experiment/OpenSesameScripts/Stimuli
+  passage: Four actual OpenSesame tasks (EyeBiofeedback, FreeViewing, ImagesViewing, LandmarkTask) downloaded
+    and read. Public stimulus directories list the 30 selected natural scenes, image-order workbook and
+    mask; one scene anonymously downloaded HTTP 200 and visually inspected, matching the natural-image
+    task. These are study-specific task materials rather than mere mentions of third-party software.
+  url: https://osf.io/ws5dx/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_protocol
+  source: pdf-and-resource
+  location: OSF frozen plan, Methods sections; PDF pp.3–5 methods
+  passage: 'The publicly downloaded registered document supplies a detailed operational protocol: recruitment/exclusions,
+    apparatus/calibration, target matrix/probability, gaze-distance-to-sound mapping, timing, pre/search/post
+    task order, instructions, awareness assessment, data indices and analysis/stopping steps. Open-protocol
+    claim is supported by that substantive procedural content and not assigned merely because a registration
+    exists.'
+  url: https://osf.io/fyu7e/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher-full-text
+  location: Publisher complete HTML and PDF p.11 license
+  passage: Complete publisher HTML anonymously retrieved HTTP 200 with matching title/DOI, Methods/Results
+    and CC BY 4.0 statement; final 2025 citation verified.
+  url: https://link.springer.com/article/10.3758/s13423-025-02703-8
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - reusable_tool
+  source: pdf-and-resource
+  location: PDF methods and OSF EyeBiofeedback.osexp with experiment README
+  passage: 'Actual gaze-contingent auditory search tool source downloaded and inspected: Python within
+    OpenSesame, TOBII/PyGaze gaze acquisition, variable stat_learn for lateral bias, target-distance mapping
+    to audio and on-target termination. Companion assessment sources/stimuli and setup instructions enable
+    research reuse with compatible legacy software and eye-tracking hardware. Availability and concrete
+    implementation are verified; execution in this environment and rehabilitation efficacy are not.'
+  url: https://osf.io/ws5dx/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Se cerchiamo spesso qualcosa sempre dallo stesso lato, i nostri occhi se ne ricordano. Quaranta
+    adulti hanno cercato su uno schermo bersagli invisibili, guidati da un suono che cambiava man
+    mano che lo sguardo si avvicinava al punto giusto. Senza che quasi nessuno se ne accorgesse, i
+    bersagli comparivano più spesso a destra o a sinistra. Con l’esercizio la ricerca migliorava. E
+    dopo, guardando liberamente uno schermo vuoto o delle fotografie, lo sguardo si spostava
+    leggermente verso il lato «fortunato». Un’abitudine imparata senza saperlo, che sopravvive anche
+    quando il gioco è finito, e che potrebbe un giorno essere sfruttata per aiutare chi, dopo un
+    danno cerebrale, trascura un lato dello spazio.
+  topics:
+  - apprendimento statistico
+  - attenzione spaziale
+  - movimenti oculari
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 and publisher: 2025 volume 32(6):2977–2989; DPG authors Cinetto, Zangrossi and Zorzi.'
+    - 'PDF pp.3–5: 40 healthy adults, 180 gaze-guided invisible targets, asymmetric target frequency,
+      planned interim stop; 38/40 did not report noticing the bias.'
+    - 'PDF pp.6–8: small coherent free-viewing shifts (blank .49 degrees, images .20 degrees, d about
+      .3); no significant landmark transfer. One-sided interim threshold .0329.'
+    - 'PDF pp.9–10: immediate gaze-barycenter transfer only; duration and patient rehabilitation not tested.'
+    - OSF fyu7e registered 6 May 2022; frozen plan hash matches current document/version 1 from 4 May.
+      Sample task logs May–July 2022; main-study plan distinct from prior 24-person pilot.
+    - Public OSF task sources, stimulus sample, raw eye sample, behavioral exports, 40-row summaries and
+      analysis source inspected.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,138 @@
+schema_version: 1.0
+id: doi-10-3758-s13414-025-03012-x
+doi: 10.3758/s13414-025-03012-x
+bibliography:
+  title: A SNARC-like effect for visual speed
+  authors: Michele Vicovaro; Riccardo Boscariol; Mario Dalmaso
+  year: 2025
+  journal: Attention, Perception, & Psychophysics
+  publication_status: online first
+dpg:
+  authors:
+  - Michele Vicovaro
+  - Riccardo Boscariol
+  verified: true
+  verification_source: Final PDF p.1 affiliation 1 explicitly identifies these authors with Department
+    of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P098.pdf
+  pdf_path: selected/dpg2025-P098.pdf
+  md5: e873deaa7f6dcb86aeffb2e5c8588e88
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 21:03:41 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 7
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Ipotesi
+    e metodi preregistrati su AsPredicted e dati grezzi dichiarati su OSF; codice solo su richiesta; articolo
+    OA. Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: null
+  open_data: true
+  open_code: false
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3758/s13414-025-03012-x
+  preregistration:
+  - https://aspredicted.org/W13_NJ6
+  data:
+  - https://doi.org/10.17605/OSF.IO/WNM9S
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.15, Data availability; p.5 analyses
+  passage: Hypotheses and methods explicitly stated preregistered with printed AsPredicted link; analyses
+    described as following the preregistered plan. Chronology not checked. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://aspredicted.org/W13_NJ6
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.15, Data availability
+  passage: Raw data explicitly stated available on OSF with printed DOI. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/WNM9S
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.15, Code availability
+  passage: Paper explicitly states code will be made available upon request; open code recorded as false.
+  url: https://doi.org/10.3758/s13414-025-03012-x
+  verification: agent-verified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.15, Open Access
+  passage: Article licensed CC BY 4.0; article DOI printed p.1. Declaration and actual link read locally;
+    resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.3758/s13414-025-03012-x
+  verification: unverified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Nella nostra mente le quantità piccole stanno a sinistra e quelle grandi a destra: rispondiamo
+    più in fretta ai numeri piccoli con la mano sinistra e a quelli grandi con la destra. Vale anche
+    per la velocità? Gli autori l’hanno verificato in quattro esperimenti: le persone guardavano una
+    nuvola di puntini in movimento e dovevano dire, premendo un tasto a sinistra o a destra, se
+    fosse più lenta o più veloce di un riferimento. Il risultato: le velocità basse andavano
+    d’accordo con la sinistra e quelle alte con la destra, qualunque fosse la direzione del
+    movimento. L’effetto spariva solo quando la direzione cambiava di continuo da una prova
+    all’altra. Anche la velocità, insomma, trova posto sulla nostra linea mentale.
+  topics:
+  - cognizione numerica
+  - percezione del movimento
+  - spazio e grandezze
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Attention, Perception, & Psychophysics, online 2025 (accepted 02/01/2025), DOI 10.3758/s13414-025-03012-x;
+      Vicovaro/Boscariol DPG; abstract.'
+    - 'PDF pp.3-5: sample size planned for 1600 data points/condition (27 participants), about 30 per
+      experiment; random dot kinematograms, lateralised slower/faster keys.'
+    - 'PDF pp.5-13: left-to-right speed association in Exp1-3 regardless of motion direction; absent with
+      mixed horizontal directions in Exp4.'
+    - 'PDF p.15: OSF raw data, AsPredicted preregistration, code on request, CC BY.'
+    review_note: 'Separate scientific reread against pp.1-15: four experiments, left-to-right speed association
+      in Exp1-3, lost in Exp4; preregistered; code on request. Separate editorial reread: SNARC explained
+      plainly, declared OSF data and AsPredicted only.'
+  scientific_notes: 'Code explicitly on request: open_code false. Online-first article, no volume in PDF.'
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,164 @@
+schema_version: 1.0
+id: doi-10-1525-collabra-140750
+doi: 10.1525/collabra.140750
+bibliography:
+  title: Isolating Working Memory Gating Processes Under Stress
+  authors: Margherita Calderan; Bryant J. Jongkees; Filippo Gambarota; Massimiliano Pastore; Nicola Cellini;
+    Roberta Sellaro
+  year: 2025
+  journal: 'Collabra: Psychology'
+  volume: '11'
+  issue: '1'
+  publication_date: '2025-06-25'
+  article_number: '140750'
+dpg:
+  authors:
+  - Margherita Calderan
+  - Nicola Cellini
+  verified: true
+  verification_source: PDF page 1 and publisher author affiliation panels explicitly assign DPG affiliation
+    2 to Margherita Calderan and Nicola Cellini. Other Padova authors are DPSS/PNC; they are not inferred
+    to be DPG.
+source:
+  pdf_file: dpg2025-P012.pdf
+  pdf_path: selected/dpg2025-P012.pdf
+  md5: 020ea7276016c40ad0d717f23c0e7499
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:20:12 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: OSF rende pubblici dati individuali e script R dell’esperimento, dati estratti e codice
+    della meta-analisi, insieme ai dizionari delle variabili.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://online.ucpress.edu/collabra/article/11/1/140750/212195/Isolating-Working-Memory-Gating-Processes-Under
+  - https://doi.org/10.1525/collabra.140750
+  data:
+  - https://osf.io/d43vs/
+  code:
+  - https://osf.io/d43vs/
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF p.1 author/citation and p.25 history; publisher author panels
+  passage: 'Collabra: Psychology 11(1):140750, published 25 June 2025. DPG affiliation explicitly belongs
+    to Calderan and Cellini.'
+  url: https://online.ucpress.edu/collabra/article/11/1/140750/212195/Isolating-Working-Memory-Gating-Processes-Under
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.7 Data analysis and p.25 Data Accessibility Statement; public OSF d43vs EXP/DATA and
+    META/DATA folders
+  passage: OSF Working Memory Under Stress is public; node/folder metadata and selected resource downloads
+    anonymously HTTP 200. Experimental raw_rt_acc.csv contains 82944 trial-level rows for 96 distinct
+    participants, groups PAN/PAS 48 each, with phase, trial type, transition, accuracy and reaction time.
+    A variable dictionary and sample participant exports were read. Meta-analysis RAW workbook, dictionary
+    and derived df_r03/05/07 tables were also downloaded/read; derived table has 210 effects from 42 study
+    IDs and the author-year participant aggregation totals 2008, matching the paper. Large fitted-model
+    binaries were inventoried, not downloaded or executed. Study-specific behavioral and extracted meta-analytic
+    data are verified; physiological stress recordings are not inferred.
+  url: https://osf.io/d43vs/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-resource
+  location: PDF pp.7/25; OSF EXP/SCRIPT and META/SCRIPT folders
+  passage: 'Anonymous HTTP 200 downloads inspected locally: experimental data loading/preparation, brms
+    accuracy/RT fitting, drift-diffusion analysis, posterior contrasts and plots; meta-analysis preprocessing,
+    functions, descriptive counts, model fitting and hypothesis checks. Code uses the linked data, Bayesian
+    models, component classifications and sensitivity correlations reported in the paper. Some fitting
+    source expects a Matching column absent in the aggregate eight-column raw_rt_acc.csv and requires
+    path/data preparation; complete turnkey reproduction has not been verified. Only availability and
+    substantive study-specific source content are certified.'
+  url: https://osf.io/d43vs/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher-full-text
+  location: PDF p.25 CC BY statement; complete publisher web article
+  passage: Complete publisher text was accessible without login through the web reader, with matching
+    title, DOI, full Methods/Results and CC BY 4.0 statement. Direct shell request returned 403; shell
+    failure is not interpreted as lack of access.
+  url: https://online.ucpress.edu/collabra/article/11/1/140750/212195/Isolating-Working-Memory-Gating-Processes-Under
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-registry-access-check
+  location: PDF p.17 footnote 2, Study 2 search dates; PROSPERO landing page and Pavlovia task links
+  passage: Paper reports PROSPERO CRD42022366946 first registration 24 October 2022 for the meta-analysis
+    only, after its initial 13–21 October 2022 search, and notes not all registered analyses were performed.
+    Registry request returned HTTP 200 but only a JavaScript application shell; actual plan, review stage
+    and registration history could not be verified. Preregistration remains unknown, not a confirmed badge;
+    the experiment is not assumed preregistered. The cited Pavlovia refback_a project redirects to sign-in
+    and its API returns 404; task source/material access is not verified or inferred from R analysis code.
+  url: https://www.crd.york.ac.uk/PROSPERO/view/CRD42022366946
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Sotto stress la mente fatica a fare ordine. Pensate a quando dovete tenere a mente
+    un’informazione e, al momento giusto, sostituirla con una nuova: la memoria di lavoro deve
+    decidere che cosa tenere e che cosa lasciar entrare. Gli autori hanno diviso a sorte 96 giovani
+    adulti in due gruppi: uno affrontava una situazione stressante, fatta di calcoli veloci sotto lo
+    sguardo di un valutatore, l’altro no. Intanto tutti svolgevano un compito con lettere da
+    ricordare o da aggiornare. Chi era tranquillo migliorava con la pratica; chi era sotto stress
+    non mostrava lo stesso progresso, soprattutto quando doveva mantenere l’informazione. Una
+    meta-analisi di 42 studi, condotta dagli stessi autori, indica piccoli svantaggi nella stessa
+    direzione: lo stress sembra mettere in difficoltà proprio questa regia della memoria.
+  topics:
+  - memoria di lavoro
+  - stress
+  - meta-analisi
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1/25 and publisher: 2025 article, DPG affiliation only Calderan and Cellini.'
+    - 'PDF pp.5–7: 96 participants randomized 48/48; repeated reference-back task before/during stress
+      versus control; arithmetic plus social-evaluative pressure online.'
+    - 'PDF pp.10–14/23: impaired relative maintenance accuracy primarily reflects no practice improvement
+      in stress versus improved controls; no compelling stress effect on reaction-time patterns.'
+    - 'PDF pp.17–24: meta-analysis 42 studies/2008 participants/210 effects; small plausible negative
+      accuracy effect for maintenance+updating, HPDI/ROPE criterion inconclusive.'
+    - 'PDF pp.23–24: cognitive load of stressor and lack of objective physiological stress measures limit
+      interpretation.'
+    - 'PDF pp.7/25 and OSF files: experimental CSV 82944 trial rows, 96 IDs with 48 per group; derived
+      meta-analysis CSV 210 effects/42 studies/2008 participants; source scripts read.'
+publication:
+  published: false
+  featured: false

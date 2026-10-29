@@ -1,0 +1,138 @@
+schema_version: 1
+id: doi-10-1038-s41598-025-20198-0
+doi: 10.1038/s41598-025-20198-0
+bibliography:
+  title: Revealing synchrony in pea plants using wavelet coherence analysis
+  authors: Bianca Bonato; Valentina Simonetti; Umberto Castiello
+  year: 2025
+  journal: Scientific Reports
+  volume: '15'
+  article_number: '36226'
+  publication_date: '2025-10-16'
+dpg:
+  authors:
+  - Bianca Bonato
+  - Valentina Simonetti
+  - Umberto Castiello
+  verified: true
+  verification_source: Final article PDF page 1 gives the shared Department of General Psychology, University
+    of Padova affiliation; publisher affiliations confirm all three authors.
+source:
+  pdf_file: dpg2025-P006.pdf
+  pdf_path: selected/dpg2025-P006.pdf
+  md5: 6411f125d61c3a78481671032bee17b0
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 12:49:24 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Zenodo rende disponibili le serie delle posizioni dei viticci e lo script MATLAB dell'analisi
+    di coerenza, oltre al dataset di traiettorie precedente riutilizzato nello studio.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41598-025-20198-0
+  preregistration: []
+  data:
+  - https://zenodo.org/records/15606745
+  - https://zenodo.org/records/10400719
+  code:
+  - https://zenodo.org/records/15606745/files/script.zip?download=1
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF page 1, citation and affiliation; publisher citation
+  passage: Scientific Reports 15:36226 (2025), published 16 October 2025. All three authors explicitly
+    affiliated to DPG.
+  url: https://www.nature.com/articles/s41598-025-20198-0
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-repository
+  location: PDF page 7, Data availability; Zenodo records 15606745 and 10400719
+  passage: 'The paper-specific public Zenodo dataset contains data csv.zip: 48 numeric position series,
+    eight dyads by handler/grasper role by x/y/z axis, matching the reported 16 plants. Anonymous archive
+    and metadata downloads HTTP 200, CC BY 4.0. The separately linked older dataset 10400719 contains
+    MAT-format tendril trajectories explicitly reused by the current paper; inclusion is supported by
+    the current dataset and its own resources, not merely by citing unrelated older data.'
+  url: https://zenodo.org/records/15606745
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-repository
+  location: PDF page 7, Data availability; Zenodo 15606745 description and script archive
+  passage: 'The study-specific Zenodo deposit identifies dataset and script for WTC analysis. script.zip
+    downloaded anonymously HTTP 200 and inspected: analysis.m loads handler/grasper trajectories, computes
+    wcoherence, creates shuffled pseudo-dyads with seed 42, calculates rank-sum comparisons/Cliff delta
+    and plots average coherence. MATLAB and toolboxes plus local path/file-name adaptation are required;
+    end-to-end execution has not been claimed.'
+  url: https://zenodo.org/records/15606745/files/script.zip?download=1
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher
+  location: Publisher full article; PDF page 9, Open Access
+  passage: Complete publisher HTML freely retrieved without login; article licensed CC BY 4.0.
+  url: https://www.nature.com/articles/s41598-025-20198-0
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Le piante di pisello ballano insieme? Quasi. Quando due piantine crescono nello stesso vaso e
+    intrecciano i viticci, i loro movimenti mostrano una coordinazione misurabile. Gli autori hanno
+    filmato otto coppie di piante, registrando ogni tre minuti le traiettorie dei viticci mentre si
+    avvicinavano. Poi hanno confrontato i ritmi dei movimenti con un’analisi matematica che misura
+    quanto due segnali vanno a tempo. Le coppie vere erano più coordinate di coppie «finte»,
+    costruite al computer abbinando piante cresciute con altri partner, soprattutto all’inizio e
+    alla fine del movimento. Ogni coppia, però, aveva il suo stile. Una finestra affascinante sul
+    modo in cui le piante, senza cervello né occhi, sembrano accordarsi con chi hanno accanto.
+  topics:
+  - comportamento vegetale
+  - coordinazione
+  - analisi del movimento
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-3: DPG authors and 2025 citation; 16 pea plants in eight co-potted dyads, no external
+      supports, camera frames every three minutes.'
+    - 'PDF pp.2-5: pseudo-dyads recombine trajectories from different real pairs; wavelet coherence compares
+      time/frequency structure and real-dyad average exceeds shuffled-pair average on x and z.'
+    - 'PDF pp.6-7: early/late elevations in averaged coherence, substantial inter-dyad heterogeneity and
+      limited generalizability; mechanical/chemical mechanisms are hypotheses, not tested causal explanations.'
+    - 'PDF p.7 and inspected Zenodo archives: 48 coordinate series and study MATLAB analysis script public;
+      no inference of human-like intentions or neural mechanisms.'
+publication:
+  published: false
+  featured: false

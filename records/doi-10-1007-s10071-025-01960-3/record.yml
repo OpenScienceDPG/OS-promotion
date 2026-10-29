@@ -1,0 +1,135 @@
+schema_version: 1.0
+id: doi-10-1007-s10071-025-01960-3
+doi: 10.1007/s10071-025-01960-3
+bibliography:
+  title: Uncertainty monitoring in Eurasian jays (Garrulus glandarius)
+  authors: Maria Loconsole; A. K. Schnell; E. Garcia-Pelegrin; N. S. Clayton
+  year: 2025
+  journal: Animal Cognition
+  volume: '28'
+  article_number: '37'
+dpg:
+  authors:
+  - Maria Loconsole
+  verified: true
+  verification_source: Final PDF p.1 affiliation 1 explicitly identifies M. Loconsole (corresponding e-mail
+    maria.loconsole@unipd.it) with Department of General Psychology, University of Padua.
+source:
+  pdf_file: dpg2025-P057.pdf
+  pdf_path: selected/dpg2025-P057.pdf
+  md5: cdbbbdda5f4b996a2c6dea6d30dd45ce
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:48:49 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    grezzi dichiarati nel materiale supplementare elettronico; link al supplemento nel paper, non aperto.
+    Articolo OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1007/s10071-025-01960-3
+  preregistration: []
+  data:
+  - https://link.springer.com/article/10.1007/s10071-025-01960-3#MOESM1
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.9, Data availability; Supplementary Information
+  passage: Raw data generated during the study explicitly stated provided in electronic supplementary
+    material; supplementary DOI link printed. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s10071-025-01960-3
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.9, Open Access
+  passage: Article licensed CC BY 4.0; article DOI printed p.1. Declaration and actual link read locally;
+    resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1007/s10071-025-01960-3
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.9, Data availability; publisher electronic supplementary material, CSV data
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://link.springer.com/article/10.1007/s10071-025-01960-3#MOESM1
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Sapere di non sapere è una dote preziosa: permette di rinunciare quando si rischia di sbagliare.
+    Ce l’hanno anche le ghiandaie? Sette di questi uccelli, cugini dei corvi, guardavano nascondere
+    un bocconcino prelibato sotto uno di due bicchieri, che poi venivano mescolati una volta sola
+    oppure più volte. A quel punto potevano tentare la sorte o accontentarsi di un terzo bicchiere,
+    con un cibo meno buono ma sicuro. Quando il gioco si faceva difficile, rinunciavano più spesso.
+    E le ghiandaie più «prudenti» erano anche quelle che, quando decidevano di cercare, indovinavano
+    il bicchiere giusto più spesso del caso: segno, per gli autori, che sceglievano in base a quanto
+    si fidavano della propria memoria. Un indizio affascinante di metacognizione in un cervello di
+    uccello.
+  topics:
+  - cognizione animale
+  - metacognizione
+  - uccelli
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Animal Cognition 28:37 (2025); Loconsole DPG; CC BY; abstract.'
+    - 'PDF pp.3-5: 9 jays tested, 2 excluded, final 7; two cups shuffled once or 3-4 times; opt-out blue
+      cup with second-preferred food; 88 trials each.'
+    - 'PDF pp.6-8: group opt-out higher in difficult trials; easy accuracy above chance in all; only Dolci,
+      Jaylo, Poe opted out above chance and were accurate when engaging in difficult trials.'
+    - 'PDF pp.8-9: metacognitive interpretation, individual differences; p.9 raw data in ESM.'
+    review_note: 'Separate scientific reread against pp.3-9: 7 jays, easy vs difficult shuffles, group
+      opt-out effect, only 3 of 7 birds with full metacognitive pattern; small sample and variability
+      stated. Separate editorial reread: paradigm explained without jargon, ESM raw data declared only.'
+  scientific_notes: Small sample (7 birds) with strong individual variability; metacognitive interpretation
+    supported in 3 birds only. Author names printed with initials except corresponding DPG author.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

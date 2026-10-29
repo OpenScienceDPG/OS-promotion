@@ -1,0 +1,82 @@
+schema_version: 1
+id: doi-10-1016-j-jrp-2024-104542
+doi: 10.1016/j.jrp.2024.104542
+bibliography:
+  title: "Agentic collective narcissism and communal collective narcissism: Do they predict COVID-19 pandemic-related beliefs and behaviors?"
+  authors: "Magdalena Żemojtel-Piotrowska; Artur Sawicki; Jarosław Piotrowski; Uri Lifshin; Mabelle Kretchner; John J. Skowronski; Constantine Sedikides; Peter K. Jonason; Mladen Adamovic; Attiso M.G. Agada; Oli Ahmed; Laith Al-Shawaf; Seth Christopher Yaw Appiah; Rahkman Ardi; Uzma Azam; Zana Babakr; Einar Baldvin Baldursson; Sergiu Băltătescu; Tomasz Baran; Konstantin Bochaver; Aidos Bolatov; Mario Bonato; Harshalini Y. Bundhoo; Trawin Chaleeraktrakoon; Phatthanakit Chobthamkit; Richard G. Cowden; Victor Counted; Gisela de Clunie; Sonya Dragova-Koleva; Carla Sofia Esteves; Valdiney V. Gouveia; Katherine Gundolf; Salima Hamouda; Carmen Haretche; Evelyn Hye Kyung Jeong; Dzintra Iliško; Najma Iqbal Malik; John Jamir Benzon Aruta; Fanli Jia; Veljko Jovanović; Tomislav Jukić; Doroteja Pavan Jukić; Shanmukh V. Kamble; Narine Khachatryan; Martina Klicperova-Baker; Christoph Kogler; Emil Knezović; Metodi Koralov; Monika Kovacs; Walaa Labib M. Eldesoki; Aitor Larzabal Fernandez; Kadi Liik; Sadia Malik; Karine Malysheva; John Maltby; Agim Mamuti; Jasmina Mangafic; Chanki Moon; Taciano Milfont; Stephan Muehlbacher; Reza Najafi; Emrah Özsoy; Joonha Park; Pablo Pérez de León; Iva Polackova Solcova; Jano Ramos-Diaz; Goran Ridic; Ognjen Riđić; Adil Samekin; Andrej Starc; Delia Stefenel; Kiêu Thi Thanh Trà; Habib Tiliouine; Robert Tomšik; Jorge Torres-Marín; Charles S. Umeh; Eduardo Wills-Herrera; Anna Wlodarczyk; Zahir Vally; Christin-Melanie Vauclair; Illia Yahiiaiev; Somayeh Zand"
+  year: 2024
+  journal: Journal of Research in Personality
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: MAGDA et al JRPe 2024 Agentic and Communal Collective Narcisism.pdf
+  pdf_path: selected/MAGDA et al JRPe 2024 Agentic and Communal Collective Narcisism.pdf
+  md5: 9a1e4db46218ca1a1bc0c9c3fe54a422
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Preregistrazione; dataset, codici e supplementi pubblici
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: true
+  registered_report: ~
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: true
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1016/j.jrp.2024.104542]
+  preregistration: [https://osf.io/fdgwt/]
+  data: [https://osf.io/m9atn/]
+  code: [https://osf.io/m9atn/]
+  materials: [https://osf.io/m9atn/]
+  protocol: [https://osf.io/m9atn/]
+evidence:
+  - claims: [preregistration]
+    source: pdf
+    location: page 4
+    passage: The paper states that the project was preregistered and supplies the OSF registration link.
+    url: https://osf.io/fdgwt/
+    verification: agent-verified
+  - claims: [open_data, open_code, open_materials]
+    source: pdf
+    location: page 12
+    passage: The paper states that datasets, code, and supplementary material can be found in the linked OSF project.
+    url: https://osf.io/m9atn/
+    verification: agent-verified
+  - claims: [open_protocol]
+    source: pdf
+    location: page 4
+    passage: The linked supplementary material is explicitly described as including the research protocol.
+    url: https://osf.io/m9atn/
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; Il protocollo dettagliato dello studio"
+  public_summary: >-
+    «Il mio paese è speciale, ma il mondo non glielo riconosce»: è il narcisismo collettivo. Ne
+    esistono due versioni: una rivendica la superiorità e il potere del proprio gruppo, l’altra lo
+    vede come il più buono e generoso. Come si sono comportate queste persone durante la pandemia?
+    Uno studio con oltre 15.000 partecipanti in 61 paesi ha cercato la risposta, e il quadro è
+    sorprendente. Chi aveva livelli più alti di narcisismo collettivo credeva di più alle teorie del
+    complotto, ma allo stesso tempo dichiarava di proteggersi di più dal virus, di fare più scorte e
+    di aiutare di più gli altri. Non un rifiuto delle regole, quindi, ma una reazione più intensa su
+    tutti i fronti.
+  topics: []
+publication:
+  published: false
+  featured: false
+

@@ -1,0 +1,143 @@
+schema_version: 1.0
+id: doi-10-7554-elife-106356
+doi: 10.7554/elife.106356
+bibliography:
+  title: Prenatal light exposure affects number sense and the mental number line in young domestic chicks
+  authors: Rosa Rugani; Matteo Macchinizzi; Yujia Zhang; Lucia Regolin
+  journal: eLife
+  volume: '14'
+  article_number: RP106356
+  year: 2025
+dpg:
+  authors:
+  - Rosa Rugani
+  - Matteo Macchinizzi
+  - Lucia Regolin
+  verified: true
+  verification_source: Final PDF p.1 explicitly affiliates listed authors to Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P078.pdf
+  pdf_path: selected/dpg2025-P078.pdf
+  md5: d4d2139d52ae3b23e4aef110c5c81590
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:23:31 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    e script di analisi dichiarati nel deposito Research Data UniPD con DOI; articolo OA. Nessun badge
+    materiali inferito da metadata/output. Deposito non aperto in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.7554/elife.106356
+  preregistration: []
+  data:
+  - https://doi.org/10.25430/researchdata.cab.unipd.it.00001424
+  code:
+  - https://doi.org/10.25430/researchdata.cab.unipd.it.00001424
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.17, Data availability
+  passage: All data in text/supplement; additional raw data and metadata explicitly available in named
+    UniPD deposit with DOI. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.25430/researchdata.cab.unipd.it.00001424
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.7554/elife.106356
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.17, Data availability; p.13, Subjects
+  passage: Analysis scripts and outputs explicitly available in linked UniPD deposit; p.13 additionally
+    declares full regression code/results. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.25430/researchdata.cab.unipd.it.00001424
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    La luce che arriva nell’uovo prima della schiusa cambia il modo in cui un pulcino ragiona con i
+    numeri. Gli autori hanno confrontato 100 pulcini: alcuni incubati al buio, altri esposti alla
+    luce negli ultimi giorni nell’uovo, un’esperienza che influenza il modo in cui i due lati del
+    cervello si dividono i compiti. I pulcini imparavano a scegliere il quarto oggetto di una fila;
+    poi la fila veniva ruotata, così da poter contare sia da sinistra sia da destra. Quando gli
+    oggetti erano a distanze regolari, i pulcini esposti alla luce erano più precisi e preferivano
+    contare da sinistra, come se anche per loro i numeri scorressero da sinistra a destra.
+    Un’esperienza prima della nascita, insomma, può plasmare la linea mentale dei numeri.
+  topics:
+  - cognizione numerica animale
+  - lateralizzazione cerebrale
+  - sviluppo prenatale
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: eLife14:RP106356,2025; version of record09/09/2025; DPG Rugani/Macchinizzi/Regolin; CC
+      BY.'
+    - PDF pp.3-5,13:100 male domestic chicks,48 exp1/52 exp2; eggs light vs darkness days18-21; learn4th
+      of10 objects sagittal, transfer rotated array; binocular/monocular tests.
+    - 'PDF pp.7-12: light-incubated chicks outperform when ordinal/spatial cues reliable; binocular left4th
+      preference only light exp1, no bias exp2 with unreliable spacing. Monocular asymmetries support
+      hemisphere interpretation, not direct brain measurement in this study.'
+    - 'PDF p.13: selected male strain; generalization beyond chick ordinal task limited; random condition
+      assignment.'
+    - 'PDF p.17: all data text/supplement plus UniPD repository DOI10.25430/researchdata.cab.unipd.it.00001424
+      with metadata,raw data,analysis scripts/outputs; p.13 additional regression code/results. Other
+      materials not inferred from generic repository wording.'
+    review_note: 'Scientific reread pp.3-9,12-13,17:100 male chicks,48/52; last-incubation light manipulation,4th-of10
+      transfer; binocular left preference with reliable spatial cues only, no generalized all-conditions
+      bias. Hemisphere contribution inferred via monocular tests, no direct neural measurement. Editorial
+      reread: animal-task boundary, prenatal exposure, raw data/scripts declared only.'
+  scientific_notes: Local Poppler screening emitted Invalid Font Weight warnings, but completed. Independent
+    local PyMuPDF extraction readable across all relevant pages and corroborates identity, methods, results
+    and resource statements. No scientific evidence inferred from failed extraction. Publication is 2025
+    version of record, not a Registered Report.
+publication:
+  published: false
+  featured: false

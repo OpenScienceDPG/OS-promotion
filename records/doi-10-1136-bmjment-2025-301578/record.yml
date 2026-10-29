@@ -1,0 +1,148 @@
+schema_version: 1
+id: doi-10-1136-bmjment-2025-301578
+doi: 10.1136/bmjment-2025-301578
+bibliography:
+  title: 'Access to treatment protocols and manuals for evidence-based psychological interventions for
+    severe mental disorders: a survey of randomised trials included in network meta-analyses'
+  authors: Chrysanthi Blithikioti; Giuliano Tomei; Fabrizio Visconti; Lorena Pizzocri; Camilla Cadorin;
+    Irene Gómez-Gómez; Ioana Alina Cristea
+  year: 2025
+  journal: BMJ Mental Health
+  volume: '28'
+  issue: '1'
+  article_number: e301578
+  publication_date: '2025-04-20'
+dpg:
+  authors:
+  - Chrysanthi Blithikioti
+  - Giuliano Tomei
+  - Fabrizio Visconti
+  - Lorena Pizzocri
+  - Camilla Cadorin
+  - Ioana Alina Cristea
+  verified: true
+  verification_source: 'Final article PDF page 1: superscript 1 identifies these six authors with Dipartimento
+    di Psicologia Generale, Universita degli Studi di Padova; PubMed affiliations confirm.'
+source:
+  pdf_file: dpg2025-P005.pdf
+  pdf_path: selected/dpg2025-P005.pdf
+  md5: 2279f3d305bd71ac973016ca41443dcb
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 12:49:24 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Sono pubblici i dati estratti sui trial e sull'accessibilità dei manuali, insieme al dizionario
+    delle variabili. La disponibilità dei manuali clinici esaminati è un risultato dell'indagine, non
+    una pratica aperta attribuita automaticamente a questo lavoro.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1136/bmjment-2025-301578
+  - https://europepmc.org/articles/PMC12010291
+  preregistration: []
+  data:
+  - https://zenodo.org/records/14567988
+  code: []
+  materials:
+  - https://zenodo.org/records/14567988#files
+  protocol: []
+evidence:
+- claims: []
+  source: pdf-and-bibliographic-database
+  location: PDF page 1, citation and affiliations; PubMed record 40254333
+  passage: BMJ Mental Health 28(1):e301578, 20 April 2025; six DPG-affiliated authors verified. This is
+    the published survey, not the later DECOMPOSE atlas.
+  url: https://pubmed.ncbi.nlm.nih.gov/40254333/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-repository
+  location: PDF page 6, Data availability statement; Zenodo version 14567988 and downloaded workbooks
+  passage: The cited DOI 10.5281/zenodo.14543414 resolves through the API to version record 14567988.
+    Landing page, metadata and all four files were anonymously downloaded HTTP 200, CC BY 4.0. Three workbooks
+    cover manual access by trial/arm, retrieval outcomes and source-trial registrations. Manual_Info_Final
+    summary totals are 260 trials, 422 arms, 364 accessible, 106 public, 191 commercial-only and 67 obtained
+    from authors, matching the paper. The article excludes contacted-author names/email addresses from
+    the shared dataset. Registry entries concern included trials and do not establish survey preregistration.
+  url: https://zenodo.org/records/14567988
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_materials
+  source: pdf-and-repository
+  location: PDF page 6, Data availability statement; downloaded DECOMPOSE codebook, pages 1-20
+  passage: The public codebook describes the worksheets, variables, data types and coding categories for
+    retrieval and availability of manuals/protocols. Relevant definitions include access from any source,
+    free/public access, commercial availability and author sharing. Text inspected locally and page 11
+    rendered and visually checked. This is reusable extraction/coding documentation for the survey, not
+    a claim that all clinical manuals reviewed are openly licensed or supplied.
+  url: https://zenodo.org/records/14567988#files
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: public-fulltext-repository
+  location: PDF page 6, Open access; Europe PMC fullTextXML for PMC12010291
+  passage: The complete journal article XML was anonymously retrieved from Europe PMC with HTTP 200 (82152
+    bytes), and contains this paper's title, DOI, methods, results and CC BY licence. Publisher web access
+    returned 403 in the shell; the repository copy provides the full text.
+  url: https://europepmc.org/articles/PMC12010291
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Sappiamo che molte psicoterapie funzionano. Ma se qualcuno volesse sapere esattamente come si
+    svolgono, riuscirebbe a trovarne le istruzioni? Gli autori hanno fatto la prova, cercando i
+    manuali e i protocolli di 422 trattamenti psicologici studiati in 260 sperimentazioni sui
+    disturbi mentali gravi: hanno setacciato articoli e registri, scritto agli autori, cercato le
+    edizioni in commercio. Alla fine, dopo un lavoro lungo e paziente, un manuale saltava fuori per
+    l’86% dei trattamenti. Ma solo uno su quattro era liberamente accessibile, e quasi metà era
+    disponibile solo a pagamento. Un’indagine che mette in luce un ostacolo concreto: per studiare e
+    riprodurre le terapie che funzionano, le loro istruzioni dovrebbero essere a portata di mano.
+  topics:
+  - metaricerca
+  - psicoterapia
+  - trasparenza
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-3: 2025 citation, DPG authors, survey of 260 RCTs from six network meta-analyses, 422
+      active psychological arms, multipronged retrieval January 2024-February 2025.'
+    - 'PDF pp.3-5: 364/422 accessible (86%), 106/422 public (25%), 191/422 commercial-only (45%); resource-intensive
+      retrieval, not estimates of clinical efficacy.'
+    - 'PDF p.5: focus on severe disorders, no grouping into unique interventions, shared manuals across
+      trials; percentages are arm-level, not unique-manual counts.'
+    - 'PDF p.6 and downloaded Zenodo workbooks/codebook: survey data and variable dictionary public; no
+      assertion that all underlying treatment manuals are open.'
+publication:
+  published: false
+  featured: false

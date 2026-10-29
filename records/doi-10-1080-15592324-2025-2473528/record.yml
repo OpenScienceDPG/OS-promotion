@@ -1,0 +1,131 @@
+schema_version: 1.0
+id: doi-10-1080-15592324-2025-2473528
+doi: 10.1080/15592324.2025.2473528
+bibliography:
+  title: 'When two become one: perceptual completion in pea plants'
+  authors: Silvia Guerra; Bianca Bonato; Laura Ravazzolo; Marco Dadda; Umberto Castiello
+  year: 2025
+  journal: Plant Signaling & Behavior
+  volume: '20'
+  issue: '1'
+  article_number: e2473528
+  publication_date: '2025-03-13'
+dpg:
+  authors:
+  - Silvia Guerra
+  - Bianca Bonato
+  - Marco Dadda
+  - Umberto Castiello
+  verified: true
+  verification_source: Final PDF p.2 affiliation a explicitly identifies these authors with Department
+    of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P047.pdf
+  pdf_path: selected/dpg2025-P047.pdf
+  md5: ce0e9a00bda5e41bebaee0d5293a3b4f
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 16:01:45 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    dello studio dichiarati apertamente disponibili su Zenodo; articolo OA. Deposito non aperto in modalità
+    rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1080/15592324.2025.2473528
+  preregistration: []
+  data:
+  - https://doi.org/10.5281/zenodo.14164665
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.11, Data and materials availability
+  passage: All data presented in the study explicitly stated openly available in Zenodo; DOI link printed.
+    No materials beyond data claimed. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.5281/zenodo.14164665
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.2, licence note
+  passage: Open Access article under CC BY 4.0; article DOI printed. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1080/15592324.2025.2473528
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Una pianta di pisello può «ricomporre» un sostegno spezzato in due? Per arrampicarsi deve
+    trovare un appoggio, e a quanto pare usa anche le radici per percepirlo. Gli autori hanno diviso
+    un sostegno in due pezzi, ai lati opposti del vaso: uno sottoterra, che solo le radici potevano
+    raggiungere, e uno sospeso in aria, accessibile solo alla parte che cresce fuori dal terreno.
+    Con il solo pezzo sospeso, 10 piante su 13 non lo trovavano e cadevano. Con entrambi i pezzi,
+    invece, 8 piante su 13 si dirigevano verso quello in aria, anche se con movimenti più lenti e
+    lunghi che con un sostegno intero. Come se la pianta mettesse insieme ciò che «sentono» radici e
+    fusto: per gli autori, una forma di completamento percettivo. Le piante percepiscono il mondo in
+    modi ancora tutti da scoprire.
+  topics:
+  - comportamento vegetale
+  - percezione
+  - piante rampicanti
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-2: Plant Signaling & Behavior 20(1) e2473528, online 13/03/2025; Guerra/Bonato/Dadda/Castiello
+      DPG; CC BY.'
+    - 'PDF pp.3-5: 52 snow peas, 13 per condition: undivided, lifted, in-ground, split support at opposite
+      sides; 3D kinematics.'
+    - 'PDF p.6: US 13/13 clasp; LS 10/13 fell; IS 8/13 toward buried part; DS 8/13 toward lifted part,
+      3/13 toward grounded, 2 fell. DS vs US longer movement time, lower velocity.'
+    - 'PDF pp.9-10: perceptual completion interpreted with great caution; root location qualitative; mechanism
+      hypothesised. p.11 Zenodo data.'
+    review_note: 'Separate scientific reread against pp.3-10: four conditions 13 plants each, US 13/13,
+      LS 10/13 fell, DS 8/13 toward lifted part with slower longer movements; perceptual completion presented
+      as cautious interpretation, qualitative roots. Separate editorial reread: setup clear, numbers verified,
+      Zenodo data only.'
+  scientific_notes: Split-support outcome reported as direction of movement (8/13 toward lifted part);
+    no inferential test on the proportions across conditions reported in the summary. Perceptual completion
+    interpreted by authors with great caution; root location qualitative only.
+publication:
+  published: false
+  featured: false

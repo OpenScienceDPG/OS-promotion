@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 151" role="img" aria-label="OPEN PROTOCOL (draft badge)">
+  <!-- DRAFT badge drawn in the style of the COS Open Science badges; replace when an official version is adopted. -->
+  <g stroke-linejoin="round" stroke-width="18">
+    <polygon points="77.5,10 13,45 13,100 77.5,135" fill="#1BA39F" stroke="#1BA39F"/>
+    <polygon points="77.5,10 142,45 142,100 77.5,135" fill="#0C5957" stroke="#0C5957"/>
+    <polygon points="77.5,27 119,51 119,93 77.5,117 36,93 36,51" fill="#fff" stroke="#fff" stroke-width="20"/>
+  </g>
+  <g fill="none" stroke="#1BA39F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="57" y="46" width="41" height="48" rx="4" stroke-width="6"/>
+    <rect x="67" y="40" width="21" height="11" rx="3" fill="#fff" stroke-width="5"/>
+    <line x1="66" y1="64" x2="89" y2="64" stroke-width="5"/>
+    <line x1="66" y1="74" x2="89" y2="74" stroke-width="5"/>
+    <line x1="66" y1="84" x2="80" y2="84" stroke-width="5"/>
+  </g>
+  <polygon points="12,108 1,121 12,134" fill="#414142"/>
+  <polygon points="143,108 154,121 143,134" fill="#414142"/>
+  <rect x="11" y="108" width="133" height="26" fill="#414142"/>
+  <text x="77.5" y="121" dy="0.36em" fill="#fff" font-family="Oswald, 'Arial Narrow', Arial, sans-serif" font-size="13.5" font-weight="700" letter-spacing="0.6" text-anchor="middle">OPEN PROTOCOL</text>
+</svg>

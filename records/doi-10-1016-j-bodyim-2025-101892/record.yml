@@ -1,0 +1,148 @@
+schema_version: 1.0
+id: doi-10-1016-j-bodyim-2025-101892
+doi: 10.1016/j.bodyim.2025.101892
+bibliography:
+  title: 'Behind the mirror: An exploration of the Tripartite Influence Model among Italian adolescent
+    boys and girls'
+  authors: Sara Iannattone; Silvia Cerea; Marco Lauriola; Marta Ghisi; Gioia Bottesi
+  year: 2025
+  journal: Body Image
+  volume: '53'
+  article_number: '101892'
+  publication_date: '2025-04-18'
+dpg:
+  authors:
+  - Sara Iannattone
+  - Silvia Cerea
+  - Marta Ghisi
+  - Gioia Bottesi
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P050.pdf
+  pdf_path: selected/dpg2025-P050.pdf
+  md5: fe4fea634e0410b2ebf6ad309fc365a6
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 16:07:06 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dataset
+    anonimizzato dichiarato su OSF; link view-only pubblicato nel paper, non aperto. Articolo OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: false
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.bodyim.2025.101892
+  preregistration: []
+  data:
+  - https://osf.io/wg3z5/?view_only=ce9a35b590ca480bbee6a474c8943c89
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6 §2.2 Procedure; p.12 Data availability
+  passage: Anonymized dataset explicitly stated available at printed OSF view-only link (both sections).
+    Complete link confirmed locally; token omitted, see article Data availability. Declaration and actual
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.bodyim.2025.101892
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, copyright line
+  passage: Open access article under CC BY-NC-ND; article DOI printed. Declaration and actual link read
+    locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.bodyim.2025.101892
+  verification: unverified
+- claims:
+  - open_access
+  source: spreadsheet
+  location: list.xlsx, sheet -, '-'!G1147; DOI column I
+  passage: Local workbook classifies this DOI as green. Under Enrico's 2026-10-20 publisher-access criterion, gold/hybrid/bronze/diamond qualify; green/closed do not. Badge corrected using the workbook, not a new live-access check. Earlier PDF/repository evidence is retained as historical provenance; it does not override this badge criterion.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.6,12, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/wg3z5/?view_only=ce9a35b590ca480bbee6a474c8943c89
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti"
+  public_summary: >-
+    Da dove nasce il disagio per il proprio corpo negli adolescenti? Non tutte le pressioni
+    funzionano allo stesso modo. Lo studio ha coinvolto 788 studenti italiani tra i 13 e i 19 anni e
+    ha seguito le tracce di tre fonti: famiglia, amici e media. Il dato più sorprendente riguarda la
+    famiglia: le pressioni sull’aspetto respirate in casa si legavano direttamente alla vergogna per
+    il proprio corpo, e attraverso questa ai sintomi dei disturbi alimentari, senza passare dal
+    confronto con gli altri. Le pressioni dei coetanei si collegavano alla vergogna proprio tramite
+    i confronti, quelle dei media in entrambi i modi. Un segnale da non sottovalutare: ciò che si
+    dice sul corpo in famiglia conta, per le ragazze come per i ragazzi.
+  topics:
+  - immagine corporea
+  - adolescenza
+  - disturbi alimentari
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Body Image 53 (2025) 101892, online 18/04/2025; Iannattone/Cerea/Ghisi/Bottesi DPG; CC
+      BY-NC-ND; abstract paths.'
+    - 'PDF pp.5-6: two pooled school studies, 873 to 788 after ED/BMI exclusions, 465 girls, 13-19 years,
+      self-report online survey.'
+    - 'PDF pp.7-9: path model and sex multigroup; family pressure to body shame and ED via shame, no internalization/comparison
+      mediation; peers via comparisons; media direct and via comparisons; girls extra paths.'
+    - 'PDF p.12: cross-sectional, no causal direction, White Italian sample; data availability OSF view-only.'
+    review_note: 'Separate scientific reread against pp.1,5-9,12: 788 students 13-19, 59% girls, family/peer/media
+      paths and sex differences as reported, statistical indirect paths only, cross-sectional limit. Separate
+      editorial reread: model explained in plain words, internalization rendered as adesione agli ideali,
+      declared OSF dataset only.'
+  scientific_notes: Cross-sectional path model; mediation language reflects statistical indirect paths
+    only. Two pooled studies, White Italian school sample, self-report.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

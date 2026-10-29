@@ -1,0 +1,140 @@
+schema_version: 1.0
+id: doi-10-1016-j-tele-2025-102262
+doi: 10.1016/j.tele.2025.102262
+bibliography:
+  title: Similarity attracts, or does it? Studying personality-based convergence and sense of engagement
+    with a digital health assistant
+  authors: Anna Spagnolli; Enrico D’Agostini; Mariavittoria Masotina; Giulia Cenzato; Luciano Gamberini
+  journal: Telematics and Informatics
+  volume: '98'
+  article_number: '102262'
+  year: 2025
+dpg:
+  authors:
+  - Anna Spagnolli
+  - Mariavittoria Masotina
+  - Luciano Gamberini
+  verified: true
+  verification_source: Final PDF p.1 author/affiliation block explicitly identifies listed authors with
+    Department of General Psychology, University of Padova/Padua.
+source:
+  pdf_file: dpg2025-P085.pdf
+  pdf_path: selected/dpg2025-P085.pdf
+  md5: f8ab696d2614e483b0674ee50069017c
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:46:20 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Materiali
+    concreti nelle appendici dell’articolo OA: caratteristiche linguistiche e script delle conversazioni
+    in tre varianti, tradotto in inglese. Dati non condivisibili per esplicita dichiarazione. Link articolo
+    non aperto in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: false
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.tele.2025.102262
+  preregistration: []
+  data: []
+  code: []
+  materials:
+  - https://doi.org/10.1016/j.tele.2025.102262
+  protocol: []
+evidence:
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open-access article under CC BY-NC-ND. Declaration and actual article/resource link read locally;
+    resource not opened; external contents/access unverified; manual Enrico check pending.
+  url: https://doi.org/10.1016/j.tele.2025.102262
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF pp.11-14, Appendices1-2;pp.4-5 methods/table2
+  passage: Appendix1 lists implemented linguistic features;Appendix2 explicitly publishes the study conversation
+    script in3variants,translated to English from Italian. Concrete materials read directly within final
+    OA PDF;not executable assistant/source code. Article DOI supplies material destination. Declaration
+    and actual article/resource link read locally; resource not opened; external contents/access unverified;
+    manual Enrico check pending.
+  url: https://doi.org/10.1016/j.tele.2025.102262
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Ci piace chi ci somiglia: vale anche per un assistente digitale? Gli autori hanno dato a un
+    assistente sanitario tre «personalità» diverse: scrupolosa, estroversa o emotivamente stabile.
+    Poi due gruppi di persone, quasi 280 in tutto, hanno conversato online con l’assistente
+    immaginando di avere un’emicrania, e ne hanno valutato la personalità e quanto le coinvolgesse.
+    Le personalità scrupolosa ed estroversa venivano riconosciute bene. La sorpresa è arrivata dopo:
+    chi aveva un carattere simile a quello dell’assistente non si sentiva più coinvolto degli altri.
+    Il proverbio «chi si somiglia si piglia», insomma, non basta per progettare assistenti digitali
+    più coinvolgenti: per personalizzarli bisognerà esplorare altre strade.
+  topics:
+  - assistenti conversazionali
+  - personalità
+  - coinvolgimento degli utenti
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF p.1:2025 Telematics and Informatics98:102262,CC BY-NC-ND;Anna Spagnolli,Mariavittoria Masotina,Luciano
+      Gamberini DPG.
+    - PDF pp.3-6:two independent online samples142/133;Italian healthy adults role-play severe migraine;Qualtrics
+      predefined-response conversations,three personality styles;each sees two variants possibly identical.
+    - PDF pp.8-10:conscientious/extravert validated,emotional stability not distinct;convergence analysis
+      restricted124participants;Spearman .06/.03,no support for greater engagement with similar personality.
+      Short interaction,generic users not migraine patients,predefined responses;not universal absence
+      of personalization effects.
+    - PDF pp.11-14:Appendix1 implemented linguistic features;Appendix2 explicitly the conversation script
+      used in study,English translation of Italian original,in3variants;concrete materials in OA article
+      linked by DOI. p.14 permission to share data denied;no open_data.
+    review_note: Scientific reread pp.3-10,12-14:142/133 final samples;124restricted convergence analysis
+      only conscientious/extravert styles;emotional stability not distinct. Correlations .06/.03 do not
+      support convergence;not universal null personalization. Healthy adults role-play migraine,no patient
+      outcomes. Appendix2 explicitly translated study dialogues. Editorial reread:sample/analysis distinction
+      and short simulated interaction clear;materials not code,data sharing explicitly denied.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - materials
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+  article_resources:
+    materials: 'PDF pp.11-14, Appendices 1-2: linguistic features and conversation scripts in three variants are printed in the article itself.'
+publication:
+  published: false
+  featured: false

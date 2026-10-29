@@ -1,0 +1,77 @@
+schema_version: 1
+id: doi-10-1044-2024-jslhr-24-00227
+doi: 10.1044/2024_jslhr-24-00227
+bibliography:
+  title: Cortical Tracking of Speech Is Reduced in Adults Who Stutter When Listening for Speaking
+  authors: Simone Gastaldon; Pierpaolo Busan; Nicola Molinaro; Mikel Lizarazu
+  year: 2024
+  journal: Journal of Speech, Language, and Hearing Research
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: 2024_JSLHR-24-00227.pdf
+  pdf_path: selected/2024_JSLHR-24-00227.pdf
+  md5: 829597dc3fd4a3d8181479bfc516c826
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Dati e script principali; ulteriori repository per stimoli e dati collegati
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1044/2024_JSLHR-24-00227]
+  preregistration: []
+  data: [https://osf.io/7gpyb/]
+  code: [https://osf.io/7gpyb/]
+  materials: [https://osf.io/7gpyb/, https://osf.io/tcbsh/]
+  protocol: []
+evidence:
+  - claims: [open_data, open_code]
+    source: pdf
+    location: page 15
+    passage: Data and scripts for the main analyses are available at the Open Science Framework repository.
+    url: https://osf.io/7gpyb/
+    verification: agent-verified
+  - claims: [open_materials]
+    source: pdf
+    location: pages 4-5
+    passage: The article links the stimuli and described experimental materials to dedicated OSF repositories.
+    url: https://osf.io/7gpyb/
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli"
+  public_summary: >-
+    Quando ascoltiamo qualcuno parlare, l’attività elettrica del nostro cervello segue il ritmo
+    delle sillabe. Partecipano anche le aree che controllano i movimenti della parola? Per
+    scoprirlo, gli autori hanno confrontato adulti che balbettano e adulti con un eloquio fluente,
+    registrandone l’attività cerebrale mentre ascoltavano delle frasi: a volte solo per ascoltarle,
+    altre volte sapendo che avrebbero dovuto completarle ad alta voce. La differenza è emersa
+    proprio nel secondo caso: mentre si preparavano a parlare, le persone che balbettano seguivano
+    meno il ritmo delle sillabe, in regioni parietali e motorie. La balbuzie, quindi, non sembra
+    riguardare solo il modo in cui si parla, ma anche il modo in cui si ascolta quando ci si prepara
+    a rispondere, come accade di continuo in una conversazione.
+  topics: []
+publication:
+  published: false
+  featured: false
+

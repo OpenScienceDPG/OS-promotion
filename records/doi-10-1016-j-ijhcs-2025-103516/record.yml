@@ -1,0 +1,142 @@
+schema_version: 1.0
+id: doi-10-1016-j-ijhcs-2025-103516
+doi: 10.1016/j.ijhcs.2025.103516
+bibliography:
+  title: Understanding workers’ psychological states and physiological responses during human–robot collaboration
+  authors: Egle Maria Orlando; Federica Nenna; Davide Zanardi; Giulia Buodo; Michele Mingardi; Michela
+    Sarlo; Luciano Gamberini
+  journal: International Journal of Human-Computer Studies
+  volume: '200'
+  article_number: '103516'
+  year: 2025
+dpg:
+  authors:
+  - Egle Maria Orlando
+  - Federica Nenna
+  - Giulia Buodo
+  - Michele Mingardi
+  - Luciano Gamberini
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies listed authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P068.pdf
+  pdf_path: selected/dpg2025-P068.pdf
+  md5: ada3028122ea1a992d2d9d7067af9c73
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:08:56 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dataset
+    generati e analizzati dichiarati su OSF con link view-only nel paper. Link non aperto; nessuna licenza
+    OA indicata nel PDF. Codice e materiali non inferiti dalla descrizione delle procedure.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: false
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.ijhcs.2025.103516
+  preregistration: []
+  data:
+  - https://osf.io/k6t3x/?view_only=c55aa1896d9d42c89262b923373790cc
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.17, Data availability
+  passage: Datasets generated and analyzed in current study explicitly available on OSF through published
+    view-only link. Full hyperlink verified locally in PDF, token not copied; article DOI and this section
+    locate it. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.ijhcs.2025.103516
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.17, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/k6t3x/?view_only=c55aa1896d9d42c89262b923373790cc
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti"
+  public_summary: >-
+    Lavorare fianco a fianco con un robot: quando diventa troppo? In laboratorio, 34 persone hanno
+    assemblato dei componenti insieme a un braccio robotico, una volta concentrandosi solo su
+    quello, un’altra facendo nel frattempo sottrazioni a voce alta. Mentre lavoravano, i ricercatori
+    ne registravano battito cardiaco e dilatazione delle pupille, oltre a chiedere come si
+    sentivano. Il doppio compito faceva salire la fatica mentale percepita e rallentava il lavoro,
+    ma senza aumentare gli errori; e un compito più impegnativo non voleva dire per forza più
+    stress. Il dato più interessante: combinare cuore e pupille diceva di più che guardarli
+    separatamente, soprattutto su sforzo e attivazione. Un primo passo verso sistemi capaci di
+    «leggere» lo stato di chi lavora accanto ai robot.
+  topics:
+  - collaborazione uomo-robot
+  - carico mentale
+  - psicofisiologia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: 2025, International Journal of Human-Computer Studies 200:103516; DPG Orlando, Nenna,
+      Buodo, Mingardi, Gamberini. Zanardi DPSS; Sarlo Urbino. No OA licence in PDF.'
+    - 'PDF pp.5-6: 34 final participants (39 recruited), mainly students, mostly cobot novices; assembly
+      alone vs simultaneous aloud serial subtraction; six trials within participant, order balanced. HRV
+      and pupil measures.'
+    - 'PDF pp.11-13,15: dual task higher workload, longer duration without significant error difference;
+      HRV increased, pupil diameter higher overall, dependent on order. Combining signals helpful for
+      effort/arousal, not uniformly across constructs.'
+    - 'PDF p.16: short laboratory session vs workday, student novices not workers, restricted N; no validated
+      real-time production monitoring system.'
+    - 'PDF p.17: datasets generated/analyzed declared on OSF via view-only link; full token local only.
+      P.7 says coding-development approaches detailed on OSF; does not clearly declare sharing reusable
+      full coding scheme or code.'
+    review_note: 'Scientific reread against pp.5-6,11-13,15-16: final N34 mainly novice students, subtraction
+      dual task, longer times with no significant error difference, HRV higher rather than lower, pupillary
+      order dependence, combination useful for effort/arousal only. Editorial reread: actual workers and
+      validated monitoring system not claimed; resource declaration only, no hidden token.'
+  scientific_notes: 'Sample mostly students and cobot novices, not representative industrial workers.
+    HRV increased in dual-task condition; no generic low-HRV stress interpretation. P.7 refers coding-development
+    approaches to OSF but does not explicitly declare reusable full coding scheme, analysis code or detailed
+    study protocol: no additional badges inferred. Published view-only token retained only in local PDF/extraction.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

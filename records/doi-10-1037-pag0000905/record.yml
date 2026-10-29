@@ -1,0 +1,163 @@
+schema_version: 1.0
+id: doi-10-1037-pag0000905
+doi: 10.1037/pag0000905
+bibliography:
+  title: 'Adapting Cognitive Control to Local–Global Implicit Temporal Predictability: A Lifespan Investigation
+    From 5 to 88 Years Old'
+  authors: Giovanni Mento; Irene Bariletti; Lisa Toffoli; Umberto Granziol; Erika Borella; Fiorella Del
+    Popolo Cristaldi
+  year: 2025
+  journal: Psychology and Aging
+  publication_status: online first
+  publication_date: '2025-05-12'
+dpg:
+  authors:
+  - Giovanni Mento
+  - Irene Bariletti
+  - Lisa Toffoli
+  - Umberto Granziol
+  - Erika Borella
+  - Fiorella Del Popolo Cristaldi
+  verified: true
+  verification_source: Final PDF p.2 affiliation 1 explicitly identifies these authors with Department
+    of General Psychology, University of Padova.
+source:
+  pdf_file: dpg2025-P062.pdf
+  pdf_path: selected/dpg2025-P062.pdf
+  md5: dd3ee906ed6a2d8194123da0ad1b2765
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:55:01 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    deidentificati e codice di analisi dichiarati su OSF (link view-only, non aperto). Studio dichiarato
+    non preregistrato; articolo APA non OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: false
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1037/pag0000905
+  preregistration: []
+  data:
+  - https://osf.io/t4za9/?view_only=f769d28ef0484acdbe4bc7174954ab76
+  code:
+  - https://osf.io/t4za9/?view_only=f769d28ef0484acdbe4bc7174954ab76
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.8, Transparency and Openness
+  passage: All deidentified data explicitly stated publicly available on OSF at printed view-only link.
+    Complete link confirmed locally; token omitted, see article Transparency and Openness section. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1037/pag0000905
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8, Transparency and Openness
+  passage: All analysis code explicitly stated publicly available at the same OSF view-only link; separate
+    from data claim. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.1037/pag0000905
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.8, Transparency and Openness
+  passage: Paper explicitly states that study design, hypotheses and analytic plan were not preregistered;
+    preregistration recorded as false.
+  url: https://doi.org/10.1037/pag0000905
+  verification: agent-verified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.8, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/t4za9/?view_only=f769d28ef0484acdbe4bc7174954ab76
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/t4za9/?view_only=f769d28ef0484acdbe4bc7174954ab76
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi"
+  public_summary: >-
+    Quando sappiamo per esperienza quanto dura un semaforo rosso, ci prepariamo a ripartire senza
+    pensarci. Come cambia nel corso della vita questa capacità di anticipare i tempi degli eventi
+    senza rendercene conto? Lo studio ha coinvolto 608 persone dai 5 agli 88 anni, che dovevano
+    rispondere il più in fretta possibile a un bersaglio comparso dopo un’attesa breve, media o
+    lunga; senza preavviso, in alcuni momenti prevalevano le attese brevi, in altri quelle lunghe.
+    Ci si può regolare su due indizi: il tempo già trascorso in quella prova e la tendenza generale
+    del momento. Entrambe le capacità ci sono già a 5-6 anni, migliorano fino ai 30-39 anni e poi
+    calano, la prima da circa 40 anni, la seconda da circa 60. Un ritratto completo, dall’infanzia
+    alla vecchiaia, di come la mente impara a giocare d’anticipo.
+  topics:
+  - controllo cognitivo
+  - arco di vita
+  - percezione del tempo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1-2: Psychology and Aging online first 12/05/2025, DOI 10.1037/pag0000905; all six authors
+      DPG; APA copyright, no OA.'
+    - 'PDF pp.3-4: 641 tested, 608 analysed, 5-88 years, online or lab, mostly 2020 plus 23 over-70s in
+      2024.'
+    - 'PDF pp.4-8: Dynamic Temporal Prediction task, short/medium/long intervals, blocks biased fast/uniform/slow;
+      local and global adaptation.'
+    - 'Abstract/pp.12-14: both forms present at 5-6, improve to 30-39, decline from 40 (local) and 60
+      (global); cross-sectional limit; p.8 OSF data/code, not preregistered.'
+    review_note: 'Separate scientific reread against pp.1-14: 608 participants 5-88, local/global adaptation
+      trajectories and decline onsets as in abstract; cross-sectional limit; explicit non-preregistration.
+      Separate editorial reread: task and local/global explained, OSF data/code declared only, no OA.'
+  scientific_notes: Cross-sectional lifespan comparison; mixed online/lab collection; explicit non-preregistration.
+    Not OA.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - code
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,35 @@
+project:
+  type: website
+  # Rendered into docs/ for GitHub Pages
+  # (Settings > Pages > Deploy from a branch > main, /docs).
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - assets/
+
+website:
+  title: "Open Science al DPG"
+  description: "Pubblicazioni del Dipartimento di Psicologia Generale dell'Università di Padova con pratiche di Open Science documentate."
+  search: false
+  favicon: assets/favicon.svg
+  # Link previews (WhatsApp, social networks): Open Graph/Twitter tags need
+  # an absolute image URL, hence site-url.
+  site-url: https://enricotoffalini.github.io/OS-promotion/
+  image: assets/social-card.png
+  image-alt: "Open Science al DPG: pubblicazioni con dati, codice, materiali e preregistrazioni aperti"
+  open-graph:
+    locale: it_IT
+  twitter-card:
+    card-style: summary_large_image
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    page-layout: custom
+    lang: it
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
+    link-external-newwindow: true
+    link-external-icon: false

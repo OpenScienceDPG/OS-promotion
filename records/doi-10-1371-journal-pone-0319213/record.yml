@@ -1,0 +1,141 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0319213
+doi: 10.1371/journal.pone.0319213
+bibliography:
+  title: 'Prestimulus functional connectivity reflects attention orientation in a prospective memory task:
+    A magnetoencephalographic (MEG) study'
+  authors: Stefano Vicentin; Giorgia Cona; Marco Marino; Patrizia Bisiacchi; Dante Mantini; Giorgio Arcara
+  year: 2025
+  journal: PLOS ONE
+  volume: '20'
+  issue: '2'
+  article_number: e0319213
+  publication_date: '2025-02-25'
+dpg:
+  authors:
+  - Stefano Vicentin
+  - Giorgia Cona
+  - Marco Marino
+  - Patrizia Bisiacchi
+  - Giorgio Arcara
+  verified: true
+  verification_source: Final PDF p.1 affiliation 1 explicitly identifies these authors with Department
+    of General Psychology, University of Padua.
+source:
+  pdf_file: dpg2025-P096.pdf
+  pdf_path: selected/dpg2025-P096.pdf
+  md5: 5df0defdd81a5e0f3b1a132fecdf4256
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:59:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Matrici
+    di connettività per partecipante e condizione e paradigma sperimentale dichiarati su OSF; dati MEG
+    grezzi non dichiarati; articolo OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0319213
+  preregistration: []
+  data:
+  - https://osf.io/5whb7/
+  code: []
+  materials:
+  - https://osf.io/5whb7/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.2, Data availability statement
+  passage: Functional connectivity matrices for each participant and condition explicitly stated available
+    in OSF repository. Derived connectivity data, not raw MEG recordings. Declaration and actual link
+    read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/5whb7/
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.2, Data availability statement
+  passage: Experimental paradigm applied in the study explicitly stated available in the same OSF repository.
+    Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://osf.io/5whb7/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, Copyright
+  passage: Open access article under Creative Commons Attribution License; article DOI printed. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1371/journal.pone.0319213
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Ricordarsi di fare qualcosa al momento giusto, come imbucare una lettera passando davanti alla
+    posta, richiede di tenere a mente l’intenzione e, insieme, di tenere d’occhio ciò che ci
+    circonda. Che cosa fa il cervello in quell’attesa? Gli autori hanno analizzato l’attività
+    cerebrale di 21 giovani adulti, registrata con la magnetoencefalografia, nel secondo che precede
+    ogni stimolo, in due versioni di un compito di questo tipo: una richiedeva più sorveglianza,
+    l’altra più memoria. Quando bisognava sorvegliare di più, si rafforzavano i collegamenti di una
+    rete dell’attenzione guidata dagli obiettivi. Quando pesava di più la memoria, a dialogare erano
+    invece altre reti, legate al controllo e all’attività a riposo. Il cervello, insomma, si prepara
+    in modo diverso a seconda di che cosa ci serve per non dimenticare.
+  topics:
+  - memoria prospettica
+  - attenzione
+  - neuroimmagine
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PLOS ONE 20(2) e0319213, 25/02/2025; DPG authors affiliation 1; CC BY; abstract.'
+    - 'PDF pp.4-6: 21 young adults, dataset from previous study; baseline, monitoring-load and maintenance-load
+      PM conditions; 1 s prestimulus FC.'
+    - 'Abstract/results: monitoring load increases DAN inter-network alpha FC; maintenance load increases
+      VAN with FPCN/DMN; RT correlations differ by condition.'
+    - 'PDF p.17: epoch length may be too short for slower bands; p.2 OSF FC matrices and paradigm.'
+    review_note: 'Separate scientific reread against pp.1-17: 21 participants reanalysed, prestimulus
+      alpha FC DAN vs VAN-FPCN/DMN by load, RT correlations, epoch-length limitation. Separate editorial
+      reread: networks named plainly, open data limited to FC matrices plus paradigm.'
+  scientific_notes: Reanalysis of a previously collected MEG dataset (21 participants); open data limited
+    to derived FC matrices.
+publication:
+  published: false
+  featured: false

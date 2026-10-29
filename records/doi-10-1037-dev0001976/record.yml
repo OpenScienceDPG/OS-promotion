@@ -1,0 +1,178 @@
+schema_version: 1.0
+id: doi-10-1037-dev0001976
+doi: 10.1037/dev0001976
+bibliography:
+  title: Can I Afford One More Candy? How Motivational Contexts Shape Adaptive Cognitive Control in Children
+  authors: Lisa Toffoli; Margherita Calderan; Fiorella Del Popolo Cristaldi; Gian Marco Duma; Antonio
+    Calcagnì; Massimiliano Pastore; Vincenza Tarantino; Giovanni Mento
+  year: 2025
+  journal: Developmental Psychology
+  publication_status: online first
+  publication_date: '2025-05-05'
+dpg:
+  authors:
+  - Lisa Toffoli
+  - Fiorella Del Popolo Cristaldi
+  - Giovanni Mento
+  verified: true
+  verification_source: Final PDF p.2 affiliation 1 explicitly identifies these authors with Department
+    of General Psychology, NeuroDev Lab, University of Padua.
+source:
+  pdf_file: dpg2025-P093.pdf
+  pdf_path: selected/dpg2025-P093.pdf
+  md5: 9dd6fe6df212a9f187a53519cae44fbc
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:56:23 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 5
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati,
+    codice e materiali dichiarati su OSF (link view-only, non aperto). Studio dichiarato non preregistrato;
+    articolo APA non OA.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: false
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1037/dev0001976
+  preregistration: []
+  data:
+  - https://osf.io/shuq2/?view_only=d782e9a30df643dd8e73f445354d74de
+  code:
+  - https://osf.io/shuq2/?view_only=d782e9a30df643dd8e73f445354d74de
+  materials:
+  - https://osf.io/shuq2/?view_only=d782e9a30df643dd8e73f445354d74de
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.8, Transparency and Openness; p.2 author note
+  passage: Data necessary to reproduce the analyses explicitly stated publicly accessible on OSF at printed
+    view-only link. Complete link confirmed locally; token omitted, see article Transparency and Openness.
+    Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://doi.org/10.1037/dev0001976
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.8, Transparency and Openness
+  passage: Code necessary to reproduce the analyses explicitly stated publicly accessible at the same
+    OSF view-only link. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.1037/dev0001976
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.8, Transparency and Openness
+  passage: Materials necessary to attempt replication explicitly stated publicly accessible at the same
+    OSF view-only link. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.1037/dev0001976
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.8, Transparency and Openness; p.2 author note
+  passage: Paper explicitly states that study design, hypotheses and analysis plan were not preregistered;
+    preregistration recorded as false.
+  url: https://doi.org/10.1037/dev0001976
+  verification: agent-verified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.2,8, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/shuq2/?view_only=d782e9a30df643dd8e73f445354d74de
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.2,8, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/shuq2/?view_only=d782e9a30df643dd8e73f445354d74de
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.2,8, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/shuq2/?view_only=d782e9a30df643dd8e73f445354d74de
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli"
+  public_summary: >-
+    Gonfiare ancora il palloncino o fermarsi? Più si gonfia, più caramelle si vincono, ma se scoppia
+    si perde tutto. A questo gioco hanno giocato 170 bambini tra i 4 e i 7 anni. Il segreto era nel
+    colore: senza che nessuno lo dicesse, alcuni palloncini reggevano più di altri. E i bambini
+    l’hanno capito da soli, usando quell’informazione per vincere di più. Quando le regole
+    cambiavano a metà gioco, si adattavano soprattutto se la situazione diventava più favorevole.
+    Già da piccoli, insomma, impariamo senza accorgercene quando vale la pena rischiare. E il modo
+    in cui ciascun bambino si adattava si legava anche alle eventuali difficoltà di comportamento
+    segnalate dai genitori.
+  topics:
+  - controllo cognitivo
+  - età prescolare
+  - decisione e rischio
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-2: Developmental Psychology online first 05/05/2025, DOI 10.1037/dev0001976; Toffoli/Del
+      Popolo Cristaldi/Mento DPG; APA copyright.'
+    - 'PDF pp.3-8: 170 children 4-7 years; modified BART with candies, balloon colour signalling advantageous/disadvantageous
+      contexts, reversal blocks.'
+    - 'Abstract/results: children infer regularities; block-level reversal ambiguous with general risk
+      increase; sub-block asymmetric adaptation low-to-high only; profiles predict parent-reported difficulties.'
+    - 'Limitations: no direct hot-cold comparison, first-block colours not randomized, possible explicit
+      awareness; p.8 OSF data/code/materials, not preregistered.'
+    review_note: 'Separate scientific reread against pp.1-14: 170 children, BART colour contingencies,
+      regularities exploited, ambiguous block reversal with risk increase, asymmetric sub-block adaptation,
+      profile associations; limits. Separate editorial reread: task explained, explicit non-preregistration
+      and declared OSF resources.'
+  scientific_notes: Reversal-learning evidence ambiguous at block level; profile-behaviour associations
+    correlational. Explicit non-preregistration; not OA.
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - code
+    - materials
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

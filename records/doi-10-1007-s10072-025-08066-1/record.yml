@@ -1,0 +1,160 @@
+schema_version: 1.0
+id: doi-10-1007-s10072-025-08066-1
+doi: 10.1007/s10072-025-08066-1
+bibliography:
+  title: 'The Montreal cognitive assessment (MoCA) 8.1 version, including the memory index score (MoCA-MIS):
+    Italian norms'
+  authors: Caterina Dapor; Maria Devita; Pamela Iannizzi; Elisa Arbia; Angela Bruzzano; Martina Dessì;
+    Domiziana Lupi; Giulia Massa Rolandino; Margherita Rossi; Arianna Saccomano; Elisa Siccardi; Alessia
+    Simonetto; Giulia Vuerich; Sara Zuliani; Konstantinos Priftis
+  year: 2025
+  journal: Neurological Sciences
+  volume: '46'
+  publication_date: '2025-03-17'
+  issue: '6'
+  pages: 2581–2589
+  issue_date: 2025-06
+  correction_doi: 10.1007/s10072-026-09241-8
+dpg:
+  authors:
+  - Caterina Dapor
+  - Maria Devita
+  - Elisa Arbia
+  - Angela Bruzzano
+  - Martina Dessì
+  - Domiziana Lupi
+  - Giulia Massa Rolandino
+  - Margherita Rossi
+  - Arianna Saccomano
+  - Elisa Siccardi
+  - Alessia Simonetto
+  - Giulia Vuerich
+  - Sara Zuliani
+  - Konstantinos Priftis
+  verified: true
+  verification_source: 'PDF p1 author superscripts1 and affiliation Department of General Psychology,
+    University of Padua: all listed authors except Pamela Iannizzi. PubMed40095163 confirms.'
+source:
+  pdf_file: dpg2025-P021.pdf
+  pdf_path: selected/dpg2025-P021.pdf
+  md5: 72403a285f5e24740850c1d98304ff52
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:50:54 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Equazioni di correzione e tabelle normative MoCA 8.1/MoCA-MIS sono disponibili nell’articolo
+    aperto, con la correzione del 2026 alla Tabella 5, e costituiscono un riferimento riutilizzabile.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: true
+resources:
+  article:
+  - https://doi.org/10.1007/s10072-025-08066-1
+  - https://doi.org/10.1007/s10072-026-09241-8
+  data: []
+  code: []
+  materials:
+  - https://link.springer.com/article/10.1007/s10072-025-08066-1#Tab4
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13388425/
+  protocol: []
+  preregistration: []
+evidence:
+- claims:
+  - reusable_tool
+  source: pdf-and-resource
+  location: PDF pp5–6(print2585–2586),Tables4–5; July2026 correction Correct Table5
+  passage: 'Study provides explicit regression equations for adjusted MoCA8.1/MIS scores and equivalent-score
+    norms for reuse. Equations inspected in full locally and public publisher PDF fetched without login.
+    Correction inspected in public full text: highest equivalent-score thresholds for language/executive
+    scores are≥4.567/≥2.652 respectively. Qualifying output is the normative scoring reference itself;
+    no claim that the pre-existing MoCA test or third-party tolLimits software was created/opened by this
+    work.'
+  url: https://link.springer.com/article/10.1007/s10072-025-08066-1#Tab4
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - reusable_tool
+  source: pdf-and-resource
+  location: Correction2026,Correct Table5; original PDF p6 Table5 has incorrect final-row language/executive
+    values
+  passage: Corrected equivalent-score reference table publicly available. Correct row4 MoCA-A≥5.492,MoCA-L≥4.567,MoCA-E≥2.652.
+    Correction remains linked to the2025 article; no separate corpus publication counted.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13388425/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: PDF p8 Open Access; publisher full text and correction
+  passage: Original article and correction publicly readable under CC BY. Original2025 citation retained.
+  url: https://link.springer.com/article/10.1007/s10072-025-08066-1
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-access-attempt
+  location: PDF pp3–6 Supplemental data1–5 and video links
+  passage: Study describes OSF files containing interview, individual scores/analyses, scoring spreadsheets
+    and instruction video. OSF b2eqn returns403 and API inaccessible via web; shell network blocked10013
+    and escalation unavailable. No files downloaded or contents verified; no open_data/open_code/open_materials
+    badge assigned. Normative scoring tables independently accessible in the public article suffice for
+    reusable_tool. No spreadsheet usability or patient diagnostic accuracy claimed.
+  url: https://osf.io/b2eqn/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "L'articolo, gratuito sul sito della rivista; Uno strumento che altri possono riutilizzare, come un programma o un test"
+  public_summary: >-
+    Lo stesso punteggio a un test di memoria non significa la stessa cosa per un trentenne laureato
+    e per un novantenne che ha fatto le elementari. Per interpretarlo servono valori di riferimento,
+    e questo studio li fornisce per la versione 8.1 del Montreal Cognitive Assessment, un test breve
+    per valutare le funzioni cognitive, compreso un indice che misura anche quanto un suggerimento
+    aiuta a ricordare. Gli autori hanno esaminato 668 adulti italiani senza problemi cognitivi, dai
+    18 ai 99 anni, in diverse regioni. Come atteso, età e istruzione pesano sulla maggior parte dei
+    punteggi. Il risultato è uno strumento concreto: equazioni che permettono a medici e psicologi
+    di correggere i punteggi e capire se una persona è nella norma per la sua età e la sua storia.
+  topics:
+  - Neuropsicologia
+  - Valutazione cognitiva
+  - Norme italiane
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - PDF pp1–3 Methods:668 volontari italiani,18–99 anni,344 donne,MMSE corretto>26; raccolta febbraio–settembre2023,488
+      Nord/30 Centro/150 Sud.
+    - 'PDF pp4–6 Results/Table4: età/istruzione predittori tranne orientamento(solo età); sesso biologico
+      nelle regressioni solo attenzione eMIS; riserva incremento minimo/non sistematico.'
+    - 'PDF pp5–8 Tabelle4–5,Discussione/Limiti: taratura su sani, nessuna stima diagnostica pazienti-controlli;
+      norme aperte riutilizzabili, test preesistente.'
+    - Correzione2026 DOI10.1007/s10072-026-09241-8,Correct Table5:ES4 MoCA-L≥4.567 eMoCA-E≥2.652; non
+      usare la riga errata del PDF locale.
+    review_note: 'Same agent, separate passes: checked each substantive statement against local methods/results/limitations
+      and public output/correction, then reread for Italian clarity and removed unsupported resource claims.
+      No replication improvement or patient diagnostic accuracy asserted; P021 correction explicitly included.'
+publication:
+  published: false
+  featured: false

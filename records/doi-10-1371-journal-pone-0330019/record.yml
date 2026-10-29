@@ -1,0 +1,158 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0330019
+doi: 10.1371/journal.pone.0330019
+bibliography:
+  title: Metacontrast masking of symmetric stimuli
+  authors: Giulio Contemori; Marianna Musa; Carolina Maria Oletto; Stefano Vicentin; Luca Battaglini;
+    Giorgia Cona; Marco Bertamini
+  year: 2025
+  journal: PLOS One
+  volume: '20'
+  publication_date: '2025-08-07'
+  issue: '8'
+  article_number: e0330019
+dpg:
+  authors:
+  - Giulio Contemori
+  - Marianna Musa
+  - Carolina Maria Oletto
+  - Stefano Vicentin
+  - Luca Battaglini
+  - Giorgia Cona
+  - Marco Bertamini
+  verified: true
+  verification_source: PDF p.1 assigns affiliation1 Department of General Psychology, University of Padova
+    to all7authors; Cona additionally Padua Neuroscience Center.
+source:
+  pdf_file: dpg2025-P018.pdf
+  pdf_path: selected/dpg2025-P018.pdf
+  md5: 20f11b88834bc56f2c165fcec203bcc1
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:43:48 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Il repository OSF rende disponibili dati delle14400prove nei quattro esperimenti e lo script
+    R di analisi/visualizzazione. Disponibilità e pertinenza verificate; discrepanze modello/campione
+    documentate senza dichiarare riproduzione esatta.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330019
+  data:
+  - https://osf.io/yg75j/
+  code:
+  - https://osf.io/yg75j/
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-resource
+  location: PDFp.1 citation and affiliations
+  passage: PLOS One20(8):e0330019,7August2025; all7authors explicitly DPG.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330019
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDFp.1 Data availability; actual OSF data.csv
+  passage: Published view-only link anonymously accessible, OSF project public. Actual CSV14400rowsx15columns,3600rows/experiment,18IDs
+    per experiment before exclusions. Trial-level variables include participant,SOA,accuracy,RT,target,mask
+    and experiment. Applying documented baseline>=.65 gives12/9/16/14, whereas paper reports12/9/15/14;
+    do not claim exact sample reproduction. Descriptive baseline accuracy .846/.750/.828/.796 versus simultaneous
+    .958/.850/.719/.711 preserves qualitative direction.
+  url: https://osf.io/yg75j/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-resource
+  location: PDFp.1 Data availability and pp.7–8 analysis; actual analysis.R
+  passage: Anonymous HTTP200 download; actual Rsource reads data.csv, excludes participants by baseline,
+    fits binomial glm(Accuracy~SOA), computes emmeans comparisons/polynomial trends and plots. The paper
+    describes GLMM with participant random intercept, absent in deposited model. This is pertinent open
+    analysis code but not verified exact reproducibility of the reported inference. No experimental task/stimulus
+    code found; third-party PsychoPy alone not open materials.
+  url: https://osf.io/yg75j/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf-and-resource
+  location: PDFpp.7–8 versus actual OSF Rsource and data
+  passage: 'Reproducibility limitations: model mismatch(GLM vs declared GLMM) and experiment3retained
+    N16 vs15. Scientific summary restricts claims to recruited36, experimental design and descriptive
+    direction; warns of discrepancies. No full script execution claimed. Other practices unknown; no registration
+    linked in article or returned by inspected OSF registration list.'
+  url: https://osf.io/yg75j/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: Publisher complete HTML and PDFp.1 copyright
+  passage: Full publisher article freely accessible with CC BY license and matching DOI/title.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330019
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Una figura che compare per un istante può diventare difficile da riconoscere, se subito dopo
+    appare un contorno vicino. È un’illusione nota come mascheramento, e questo studio la usa per
+    capire come il cervello costruisce le forme. In quattro esperimenti, gli autori hanno mostrato
+    per appena 20 millesimi di secondo dischi incompleti o figure di cui giudicare la simmetria,
+    seguiti dopo un intervallo variabile da una «maschera». Le persone sbagliavano di più
+    soprattutto con intervalli intermedi. E quando figura e maschera comparivano insieme, il
+    risultato dipendeva da come si combinavano: se formavano un’immagine coerente il riconoscimento
+    migliorava, con forme irregolari peggiorava. Ciò che vediamo, insomma, dipende anche da come il
+    cervello organizza i pezzi in un tutto.
+  topics:
+  - percezione visiva
+  - simmetria
+  - mascheramento visivo
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1,5–7: all7 authors DPG; 36 recruited in two groups18, same group experiments1/2/4; targets20ms,9SOAs0–200ms
+      and no-mask baseline.'
+    - 'PDF pp.8–14 Results/Discussion: intermediate-SOA masking in all experiments; simultaneous facilitation1/2
+      versus suppression3/4. Actual descriptive means preserve direction.'
+    - 'PDF pp.14–16: limited SOA resolution and sampling; behavioural experiments do not directly measure
+      recurrent neural communication.'
+    - 'OSF14400trial rows/15columns and actual Rsource: availability verified; glm versus declared GLMM,
+      threshold leaves16experiment3participants versus15reported. Summary uses recruited sample and qualitative
+      findings rather than conflicted final counts or inferential estimates.'
+    review_note: Scientific claims checked against methods/results/limitations and resource contents;
+      subsequent editorial reading checked clarity, selectivity and no overstatement. Same agent, separate
+      passes.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,154 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-024-83251-4
+doi: 10.1038/s41598-024-83251-4
+bibliography:
+  title: A symmetry-based mechanism for perceptual grouping in preverbal infants
+  authors: Alessandra Geraci; Maria Loconsole; Lucia Regolin
+  year: 2025
+  journal: Scientific Reports
+  volume: '15'
+  article_number: '5035'
+dpg:
+  authors:
+  - Maria Loconsole
+  - Lucia Regolin
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padua.
+source:
+  pdf_file: dpg2025-P042.pdf
+  pdf_path: selected/dpg2025-P042.pdf
+  md5: d6784c52175342f55ecb54a4e1f894d6
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:45:20 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    dichiarati nel manoscritto o supplementi (data S1); filmato degli stimoli di familiarizzazione movie
+    S2 indicato nei supplementi. Link DOI supplementi nel paper, non aperto.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1038/s41598-024-83251-4
+  preregistration: []
+  data:
+  - https://www.nature.com/articles/s41598-024-83251-4#MOESM1
+  code: []
+  materials:
+  - https://www.nature.com/articles/s41598-024-83251-4#MOESM1
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.7 Data availability; p.4 Coding; p.9 Supplementary Information
+  passage: Data explicitly provided within manuscript or supplementary files; data S1 named in coding
+    agreement section. Supplementary DOI link supplied p.9. Does not establish full raw-video or participant-level
+    dataset availability. Declaration and actual link read locally; resource not opened; external content/access
+    unverified, manual Enrico check pending.
+  url: https://doi.org/10.1038/s41598-024-83251-4
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.4 Stimuli and procedure, Familiarization phase; p.9 Supplementary Information
+  passage: Familiarization stimulus sequence explicitly provided as movie S2 in supplementary information,
+    with supplementary DOI link p.9. Scope is the supplied familiarization movie; not all experimental
+    software or stimuli inferred. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1038/s41598-024-83251-4
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.9 Open Access
+  passage: Article explicitly CC BY-NC-ND, DOI printed. Declaration and actual link read locally; resource
+    not opened; external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1038/s41598-024-83251-4
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF pp.4,7,9, data S1 and movie S2; publisher electronic supplementary material
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://www.nature.com/articles/s41598-024-83251-4#MOESM1
+  verification: unverified
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF pp.4,7,9, data S1 and movie S2; publisher electronic supplementary material
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://www.nature.com/articles/s41598-024-83251-4#MOESM1
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    A otto mesi un bambino non sa ancora contare, eppure nota qualcosa di speciale in certi gruppi
+    di punti. Quarantotto bambini hanno prima guardato insiemi di 4, 6, 10 e 12 punti, poi coppie di
+    insiemi nuovi: 7 contro 9, oppure 9 contro 11. Osservando dove si dirigeva il loro sguardo, i
+    ricercatori hanno visto che i piccoli si giravano più spesso verso il 7 e verso l’11. Perché?
+    Secondo gli autori, questi insiemi non si possono suddividere in sottogruppi uguali, mentre
+    tutti gli altri sì, e questo li rende diversi da quelli già visti. Una preferenza simile era già
+    stata osservata nei pulcini: un indizio di un meccanismo della percezione che potremmo
+    condividere con altre specie.
+  topics:
+  - sviluppo percettivo
+  - cognizione numerica
+  - infanzia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1/3: Loconsole/Regolin DPG, N48 analyzed +9 excluded, age8months, two groups24.'
+    - 'PDF p.4: familiarization4/6/10/12, comparisons7vs9 or9vs11, two gaze measures.'
+    - 'PDF p.5: orienting preference prime p=.002, fixation-time difference p=.058 nonsignificant.'
+    - 'PDF pp.2–3: perceptual-grouping interpretation, alternative novelty accounts, replication needed;
+      pp.4/7/9 named data/movie and access statement.'
+    review_note: 'Separate scientific reread against pp.3–5/7/9: N48 analyzed +9 excluded, even-set familiarization,
+      7vs9/9vs11, orienting significant p=.002 while total duration p=.058; grouping hypothesis not mathematical
+      prime recognition. Separate editorial reread: simple description of comparison and gaze outcomes,
+      replication limit, specific familiarization movie and declared data only.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - materials
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

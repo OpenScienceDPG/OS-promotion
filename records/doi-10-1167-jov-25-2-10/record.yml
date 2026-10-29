@@ -1,0 +1,130 @@
+schema_version: 1.0
+id: doi-10-1167-jov-25-2-10
+doi: 10.1167/jov.25.2.10
+bibliography:
+  title: 'The CRIP effect: How a pattern in central vision interferes with perception of a pattern in
+    the periphery'
+  authors: Carolina Maria Oletto; Giulio Contemori; Esma Dilara Yavuz; Luca Battaglini; Michael Herzog;
+    Marco Bertamini
+  journal: Journal of Vision
+  volume: '25'
+  issue: '2'
+  article_number: '10'
+  pages: 1-18
+  year: 2025
+dpg:
+  authors:
+  - Carolina Maria Oletto
+  - Giulio Contemori
+  - Esma Dilara Yavuz
+  - Luca Battaglini
+  - Marco Bertamini
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies listed authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P067.pdf
+  pdf_path: selected/dpg2025-P067.pdf
+  md5: bc240060019c59f1d69a6788d9a3c469
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 20:08:56 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Stimoli
+    originali e versioni animate degli esperimenti 1–4 dichiarati su OSF; articolo OA. Nessuna condivisione
+    di dati o codice inferita. Risorse non aperte in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1167/jov.25.2.10
+  preregistration: []
+  data: []
+  code: []
+  materials:
+  - https://osf.io/sy64w/
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.4, Stimuli and Procedure
+  passage: Original study stimuli and animated versions for experiments 1-4 explicitly stated available
+    on OSF. Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://osf.io/sy64w/
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Article licensed CC BY 4.0. Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://doi.org/10.1167/jov.25.2.10
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Ciò che guardiamo al centro può nascondere ciò che sta ai margini. Gli autori descrivono un
+    fenomeno della vista che hanno chiamato CRIP: un disegno al centro del campo visivo può
+    ostacolare il riconoscimento di ciò che compare in periferia. In cinque esperimenti le persone,
+    tenendo lo sguardo fisso su un punto, dovevano dire come fossero inclinate delle piccole linee
+    ai lati, mentre al centro comparivano altri disegni. Il riconoscimento peggiorava quando il
+    disegno centrale conteneva linee con inclinazioni simili, e quando le due zone erano più vicine.
+    A sorpresa, persino linee centrali identiche a quelle da riconoscere potevano disturbare. Una
+    scoperta che svela un’interferenza inattesa tra visione centrale e periferica.
+  topics:
+  - percezione visiva
+  - visione periferica
+  - interferenza visiva
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: 2025, Journal of Vision 25(2):10 pp.1-18; five DPG authors plus Herzog at EPFL; CC BY.'
+    - 'PDF pp.3-5: five psychophysical experiments; experiment 1 recruited 30, excluded 11 ceiling performers,
+      final N19; experiments 2-5 N12 each. Patterns briefly shown, peripheral tilt discrimination.'
+    - 'PDF pp.15-17: central similar patterns impair peripheral orientation, smaller gap worse; same-orientation
+      central diagonal lines worse. Spatial gap and distractor number confounded; simplified displays,
+      mechanism still open.'
+    - 'PDF pp.2,4: original stimuli, animated versions experiments 1-4 and higher-resolution figures declared
+      at OSF sy64w; no own data/code sharing declaration or preregistration found.'
+    review_note: 'Scientific reread against pp.3-5,15-17: five experiments, orientation discrimination,
+      same-orientation interference and fixed-eccentricity gap effect correct. Distractor count confounded
+      with gap, simple displays; no universal scene-perception claim. Editorial reread: CRIP explained
+      in plain Italian, declared stimuli only; no data/code inferred.'
+publication:
+  published: false
+  featured: false

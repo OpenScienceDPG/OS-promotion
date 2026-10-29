@@ -1,0 +1,89 @@
+schema_version: 1.0
+id: doi-10-1016-j-jns-2025-123507
+doi: 10.1016/j.jns.2025.123507
+bibliography:
+  title: Effects of virtual reality cognitive training on executive function and prospective memory in
+    Parkinson’s disease and healthy aging
+  authors: Eleonora Fiorenzato; Silvia Zabberoni; Maria Stefania De Simone; Alberto Costa; Gaetano Tieri;
+    Sara Taglieri; Antonella Peppe; Giovanni Augusto Carlesimo; Carlo Caltagirone; Angelo Antonini; Giorgia
+    Cona
+  year: 2025
+  journal: Journal of the Neurological Sciences
+  volume: '473'
+  article_number: '123507'
+dpg:
+  authors:
+  - Eleonora Fiorenzato
+  - Giorgia Cona
+  verified: true
+source:
+  pdf_file: dpg2025-P039.pdf
+  pdf_path: archive/rejected/dpg2025-P039.pdf
+  md5: 2526583a108021f80516ce498fd6eafa
+screening:
+  status: screened-reject
+  first_screened_at: '2026-10-20'
+  last_screened_at: '2026-10-20'
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: reject
+  final_note: 'Revisione semantica rapida: solo Open Access; supplemento generico per dettagli sui questionari,
+    nessuna dichiarazione qualificante con link a dati, codice, materiali, protocollo o preregistrazione.
+    Risorse esterne non aperte.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    citation_year: 2025
+    reason: year-and-DPG-affiliation-verified
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1016/j.jns.2025.123507
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1 copyright
+  passage: Article explicitly states open access under CC BY; DOI supplied. Declaration and link read
+    locally; resource not opened; external access/content unverified, manual Enrico check pending.
+  url: https://doi.org/10.1016/j.jns.2025.123507
+  verification: unverified
+- claims: []
+  source: pdf
+  location: Full PDF pp.1–15; especially p.6 section 2.4.2 and p.13 Appendix A
+  passage: Manual semantic review and alternative-term/URL search found no explicit public dataset, code,
+    materials, reusable training software, preregistration or open protocol declaration. Appendix A supplies
+    a generic supplementary-data DOI link; p.6 describes the appendix as further details on questionnaires,
+    not shared instruments or datasets. Generic supplement alone is insufficient; its external content
+    was not opened in rapid mode. Open access alone does not qualify.
+  url: https://doi.org/10.1016/j.jns.2025.123507
+  verification: agent-verified
+curation:
+  status: not-applicable
+  why_open: null
+  public_summary: null
+  topics: []
+publication:
+  published: false
+  featured: false

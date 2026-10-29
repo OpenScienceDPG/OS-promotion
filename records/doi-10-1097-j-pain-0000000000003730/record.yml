@@ -1,0 +1,145 @@
+schema_version: 1.0
+id: doi-10-1097-j-pain-0000000000003730
+doi: 10.1097/j.pain.0000000000003730
+bibliography:
+  title: Learning the time of pain in the human motor system
+  authors: Daniela Dalbagno; Sonia Betti; Sara Garofalo; Vanessa Mannari; Giuseppe di Pellegrino; Francesca
+    Starita
+  year: 2025
+  journal: PAIN
+  volume: '166'
+  issue: '12'
+  pages: e715–e731
+  publication_date: '2025-12-01'
+  online_first_date: '2025-08-06'
+dpg:
+  authors:
+  - Sonia Betti
+  verified: true
+  verification_source: 'PDF p.1: Sonia Betti is explicitly assigned affiliation b, Department of General
+    Psychology, University of Padova. Final 2025 issue metadata retained from the completed B007 identity
+    check (PubMed 40758554); PDF p.15 gives online date 6 August 2025.'
+source:
+  pdf_file: dpg2025-P020.pdf
+  pdf_path: selected/dpg2025-P020.pdf
+  md5: e662d688f21181f6f892c177b067e804
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:08:02 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Il paper
+    dichiara preregistrato il compito di condizionamento (p.3, OSF z26a4); dati/codice/materiali solo
+    su richiesta (p.15).'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: false
+  open_data: false
+  open_code: false
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1097/j.pain.0000000000003730
+  preregistration:
+  - https://osf.io/z26a4/
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.3, section 2.1.2.1 Pavlovian threat conditioning task
+  passage: The paper explicitly declares this task preregistered and supplies the OSF z26a4 link. Declaration
+    and actual link read locally; accepted in rapid mode. Resource not opened during this unit; external
+    content, identity and prospective chronology remain unverified, with manual check assigned to Enrico.
+    This does not certify preregistration of all experiments or analyses. Earlier technical access failures
+    do not contradict the declaration.
+  url: https://osf.io/z26a4/
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, copyright and licensing statement
+  passage: The paper explicitly identifies itself as open access under CC BY 4.0 and provides the article
+    DOI. Declaration/link read locally; external article access not rechecked in this rapid unit.
+  url: https://doi.org/10.1097/j.pain.0000000000003730
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims: []
+  source: pdf
+  location: PDF p.15, Acknowledgments and Supplemental digital content
+  passage: Data, analysis code and research materials are offered upon request, which does not establish
+    public sharing. A supplement is linked but was not opened in rapid mode; no public materials or protocol
+    inferred from its presence. Research Paper format, not a Registered Report.
+  url: https://doi.org/10.1097/j.pain.0000000000003730
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Aspettare un dolore cambia il modo in cui il cervello prepara i movimenti. In due esperimenti,
+    adulti sani hanno imparato che certi cerchi colorati annunciavano una stimolazione dolorosa sul
+    braccio, dopo un’attesa breve o lunga. Con impulsi magnetici sulla corteccia motoria, gli autori
+    hanno misurato quanto il sistema dei movimenti fosse «pronto a scattare» durante l’attesa. Il
+    risultato: il sistema motorio si «frenava» già prima del dolore, restava frenato durante
+    l’attesa e si riattivava dopo il momento previsto, anche quando il dolore alla fine non
+    arrivava. E chi si frenava di più all’inizio tendeva a pensare che il dolore arrivasse prima. Il
+    nostro corpo, insomma, impara i tempi del dolore e si prepara ad affrontarlo.
+  topics:
+  - dolore
+  - aspettative temporali
+  - sistema motorio
+  - condizionamento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.2/7: separate healthy adult groups, 30 recruited/28 analyzed in experiment 1; 28 recruited
+      in experiment 2, one MEP recording excluded. Avoid an ambiguous pooled sample count.'
+    - 'PDF pp.3–5/7: colored cues predict painful forearm shocks at 1750 or 5500 ms; single-pulse motor-cortex
+      TMS probes muscle MEPs at selected times; experiment 2 separates early/late conditioning blocks.'
+    - 'PDF pp.8–10/13: Bayesian hypothesis comparisons favor sustained inhibition during anticipation
+      and recovery after expected pain time; recovery also in non-shocked trials. No continuous recording
+      of the inhibition trajectory.'
+    - 'PDF pp.12–13/15: exploratory pooled correlation in late condition between early MEP amplitude and
+      time-reproduction error, r=-0.385 (n=53 after exclusions); association, not a causal effect on subjective
+      timing.'
+    - 'PDF pp.2/7/15: healthy participants, discrete TMS timepoints, central/spinal mechanisms unresolved;
+      clinical implications not tested.'
+    - PDF p.3 section 2.1.2.1 explicitly calls this task preregistered and gives https://osf.io/z26a4.
+      Only this declared scope is accepted; no inference that every analysis or experiment was preregistered.
+    - 'PDF p.15 Acknowledgments: data, analysis code and materials upon request; no public-sharing badges.
+      PDF p.1 explicitly declares open access CC BY 4.0.'
+publication:
+  published: false
+  featured: false

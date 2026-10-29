@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155 151" role="img" aria-label="REGISTERED REPORT (draft badge)">
+  <!-- DRAFT badge drawn in the style of the COS Open Science badges; replace when an official version is adopted. -->
+  <g stroke-linejoin="round" stroke-width="18">
+    <polygon points="77.5,10 13,45 13,100 77.5,135" fill="#8E5BB5" stroke="#8E5BB5"/>
+    <polygon points="77.5,10 142,45 142,100 77.5,135" fill="#4B2A6B" stroke="#4B2A6B"/>
+    <polygon points="77.5,27 119,51 119,93 77.5,117 36,93 36,51" fill="#fff" stroke="#fff" stroke-width="20"/>
+  </g>
+  <g fill="none" stroke="#8E5BB5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58,44 H86 L98,56 V92 H58 Z" stroke-width="6"/>
+    <polyline points="67,72 75,80 90,63" stroke-width="7"/>
+  </g>
+  <polygon points="12,108 1,121 12,134" fill="#414142"/>
+  <polygon points="143,108 154,121 143,134" fill="#414142"/>
+  <rect x="11" y="108" width="133" height="26" fill="#414142"/>
+  <text x="77.5" y="121" dy="0.36em" fill="#fff" font-family="Oswald, 'Arial Narrow', Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0.6" text-anchor="middle">REGISTERED REPORT</text>
+</svg>

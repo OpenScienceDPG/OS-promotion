@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-3390-brainsci16020249
+doi: 10.3390/brainsci16020249
+bibliography:
+  title: 'Sense of Time in Neurodevelopmental Disorders: ADHD and Developmental Dyscalculia from a Dimensional
+    and Transdiagnostic Perspective'
+  authors: Federica Cortesi; Sara Eralda Santirocchi; Rachele Montanelli; Lisa Toffoli; Andrea Gambarini;
+    Gian Marco Marzocchi; Giovanna Mioni; Giovanni Mento; Anna Lucia Ogliari; Enrico Toffalini; Valentina
+    Tobia
+  year: 2026
+  journal: Brain Sciences
+  volume: '16'
+  issue: '2'
+  pages: '249'
+  publication_date: '2026-02-23'
+dpg:
+  authors:
+  - Lisa Toffoli
+  - Giovanna Mioni
+  - Giovanni Mento
+  - Enrico Toffalini
+  verified: true
+  verification_source: 'Final PDF p.1: Toffoli and Mento affiliation 3 (NeuroDev Lab, Department of General
+    Psychology, University of Padua); Mioni and Toffalini affiliation 5 (Department of General Psychology,
+    University of Padua).'
+source:
+  pdf_file: extra2026-T05.pdf
+  pdf_path: .na.character
+  md5: d8d579a1e2bf4aa60e601cf5e8da7354
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 22:51:32 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida (richiesta Enrico 20/10/2026, lavori Toffalini 2025-2026 fuori corpus):
+    dichiarazione esplicita + link; controllo manuale Enrico pending. I dati raccolti; L''articolo, gratuito
+    sul sito della rivista.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026 (Toffalini works outside the 100-PDF corpus, Enrico request 2026-10-20)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3390/brainsci16020249
+  preregistration: []
+  data:
+  - https://osf.io/nhe52/overview?view_only=7a44e7de56b149f1812d47d7879716a6
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.16, Data Availability Statement
+  passage: Data explicitly stated available on OSF at the printed view-only link (accessed 22 January
+    2026). No code statement. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://osf.io/nhe52/overview?view_only=7a44e7de56b149f1812d47d7879716a6
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, copyright
+  passage: 'Open-access article under CC BY (MDPI). Not in ../list.xlsx (published after the IRIS export):
+    publisher licence printed in the final PDF, Crossref licence metadata and publisher-hosted full text
+    without login used as separate evidence of publisher access; Enrico to confirm.'
+  url: https://doi.org/10.3390/brainsci16020249
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Stimare quanto dura un’attesa, riprodurre un intervallo, organizzare il proprio tempo: abilità
+    quotidiane che possono essere fragili nei bambini con ADHD o con discalculia, cioè con
+    difficoltà specifiche in matematica. Questo studio ha coinvolto 811 bambini dai 6 ai 13 anni, a
+    scuola e in centri clinici di Milano e Padova, con giochi al computer sul tempo, questionari per
+    bambini, genitori e insegnanti e prove di matematica e attenzione. Il senso del tempo era legato
+    sia all’attenzione e all’iperattività sia alla matematica. E i gruppi formati in base alle
+    difficoltà effettive mostravano differenze più nette di quelli basati sulle diagnosi, con un
+    peso maggiore delle difficoltà di attenzione. Un invito a guardare alle difficoltà reali di ogni
+    bambino, al di là delle etichette.
+  topics:
+  - percezione del tempo
+  - ADHD
+  - discalculia evolutiva
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Brain Sci 2026, 16, 249, published 23 Feb 2026; DPG authors Toffoli, Mento (aff. 3), Mioni,
+      Toffalini (aff. 5); CC BY; abstract N=811.'
+    - 'PDF pp.4-6: participants 6-13 years, Milan and Padua schools and clinics; TE/TR/TD computerized
+      tasks, TMOQ self/parent/teacher; math tests; attention/hyperactivity measures; diagnoses parent-reported.'
+    - 'PDF pp.6-7: dimensionally derived groups AH/IMP n=47, MATH/IMP n=32, combined n=6, controls n=70;
+      ANCOVAs with KBIT-2.'
+    - 'PDF pp.13-16: dimensional contrasts clearer than diagnostic; attention/hyperactivity stronger than
+      math alone; no interaction; limitations cross-sectional, parent-reported diagnoses, small groups;
+      p.16 OSF data statement.'
+    review_note: 'Separate scientific reread pp.1-16: N=811 6-13 years, measures, dimensional vs diagnostic
+      groups, attention stronger than math, cross-sectional, small groups (n=6). Editorial reread: dyscalculia
+      explained, OSF data only.'
+  scientific_notes: Only data declared (no code statement). Diagnoses parent-reported, groups small.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,136 @@
+schema_version: 1.0
+id: doi-10-1111-nyas-70063
+doi: 10.1111/nyas.70063
+bibliography:
+  title: Crossmodal Pitch−Luminance Association in Tortoises
+  authors: Maria Loconsole; Beatrice Malaman; Gionata Stancher; Elisabetta Versace
+  year: 2025
+  journal: Annals of the New York Academy of Sciences
+dpg:
+  authors:
+  - Maria Loconsole
+  - Beatrice Malaman
+  verified: true
+  verification_source: Final PDF p.1 explicitly identifies these authors with Department of General Psychology,
+    University of Padova.
+source:
+  pdf_file: dpg2025-P056.pdf
+  pdf_path: selected/dpg2025-P056.pdf
+  md5: c22cd288fa38e60bc906ea3d60d23a74
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 19:48:49 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Dati
+    grezzi dichiarati nei materiali supplementari dell’articolo OA. Risorsa non aperta in modalità rapida.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1111/nyas.70063
+  preregistration: []
+  data:
+  - https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/nyas.70063#support-information-section
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.4 Statistical analysis; p.6 Data Availability Statement; p.7 Supporting Information
+  passage: Raw data explicitly stated available as Supporting Information of the article; supplementary
+    spreadsheet named in Supporting Information section. Link is the article supporting-information section.
+    Declaration and actual link read locally; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://doi.org/10.1111/nyas.70063
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Open access article under Creative Commons Attribution License; article DOI printed. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://doi.org/10.1111/nyas.70063
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF pp.4,6-7, Supporting Information; publisher lists nyas70063-sup-0001-SuppMatt.xlsx
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://nyaspubs.onlinelibrary.wiley.com/doi/10.1111/nyas.70063#support-information-section
+  verification: unverified
+curation:
+  status: curated
+  why_open: "I dati raccolti; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Un suono acuto «sa» di chiaro, uno grave di scuro: molte persone fanno spontaneamente questa
+    associazione, e lo fanno anche gli scimpanzé. E una tartaruga? Lo studio l’ha chiesto a 18
+    testuggini di Hermann, rettili che non comunicano con la voce. Dopo aver imparato a trovare il
+    cibo seguendo un suono, le testuggini sentivano un suono acuto o grave e potevano entrare in uno
+    scomparto bianco o in uno nero, mai visti prima. Il risultato: sceglievano il bianco con il
+    suono acuto e il nero con quello grave più spesso di quanto atteso dal caso. Una scoperta che
+    suggerisce che queste curiose associazioni tra i sensi non dipendano dal linguaggio, e che apre
+    la domanda su quanto siano antiche.
+  topics:
+  - cognizione animale
+  - corrispondenze crossmodali
+  - rettili
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Ann. N.Y. Acad. Sci. 2025 (early view), DOI 10.1111/nyas.70063; Loconsole/Malaman DPG;
+      CC BY; abstract.'
+    - 'PDF pp.2-4: 18 adult male Hermann tortoises; training to sound source; 16 unrewarded test trials,
+      white vs black compartments first seen at test, 700 vs 450 Hz.'
+    - 'PDF p.4: congruent choice probability .612, p<.001; nonsignificant decline over trials.'
+    - 'PDF pp.4-6: interpretation language-independent, homology vs convergence open; baboons/chicks discrepancies
+      discussed; p.6 data in Supporting Information.'
+    review_note: 'Separate scientific reread against pp.2-6: 18 male tortoises, unrewarded test, congruent
+      choice about 61% above chance, nonsignificant decline; language-independent interpretation and open
+      homology/convergence question kept. Separate editorial reread: procedure clear, modest effect stated
+      with number, supplementary raw data declared only.'
+  scientific_notes: 'Early-view PDF without volume (2025; 1:1-7). Congruence rate about 61%: above chance
+    but modest. Only males tested; single sound pair.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

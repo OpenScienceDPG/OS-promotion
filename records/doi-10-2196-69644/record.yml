@@ -1,0 +1,132 @@
+schema_version: 1.0
+id: doi-10-2196-69644
+doi: 10.2196/69644
+bibliography:
+  title: 'World Health Organization Evidence-Based Self-Help Plus Intervention for Stress Management via
+    Chatbot: Protocol for Adaptation to a Tech-Enabled Model'
+  authors: Valentina Fietta; Silvia Rizzi; Lorenzo Gios; Maria Chiara Pavesi; Chiara De Luca; Silvia Gabrielli;
+    Merylin Monaro; Nicolò Navarin; Erik Gadotti; Oscar Mayora-Ibarra; Marianna Purgato; Corrado Barbui;
+    Stefano Forti
+  year: 2025
+  journal: JMIR Research Protocols
+  volume: '14'
+  article_number: e69644
+dpg:
+  authors:
+  - Valentina Fietta
+  - Merylin Monaro
+  verified: true
+source:
+  pdf_file: dpg2025-P037.pdf
+  pdf_path: selected/dpg2025-P037.pdf
+  md5: d7b60601b9d761fe2513657f7525937d
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: '2026-10-20'
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Protocollo
+    di adattamento pubblicato OA; dati solo su richiesta.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    citation_year: 2025
+    reason: year-and-DPG-affiliation-verified
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: false
+  registered_report: false
+  open_data: false
+  open_code: null
+  open_materials: null
+  open_protocol: true
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.2196/69644
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol:
+  - https://www.researchprotocols.org/2025/1/e69644
+evidence:
+- claims:
+  - open_protocol
+  source: pdf
+  location: PDF pp.1,3–9; Protocol, Methods, Results; p.13 citation
+  passage: Article explicitly presents and publishes the protocol for adapting SH+ to ALBA, detailing
+    content, facilitator replacement, populations, sessions and engagement; article URL printed throughout.
+    Public article itself is the protocol; supplementary adaptation description is listed p.10 but not
+    inspected. Declaration and link read locally; resource not opened; external access/content unverified,
+    manual Enrico check pending.
+  url: https://www.researchprotocols.org/2025/1/e69644
+  verification: unverified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.13, copyright and citation
+  passage: Article identifies itself as open access under CC BY and prints the article URL. Declaration
+    and link read locally; resource not opened; external access/content unverified, manual Enrico check
+    pending.
+  url: https://www.researchprotocols.org/2025/1/e69644
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.10, Data Availability
+  passage: Data available from corresponding author on reasonable request, aggregated and anonymized before
+    disclosure; not public open data.
+  url: null
+  verification: agent-verified
+curation:
+  status: curated
+  why_open: "Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Come si trasforma un programma psicologico di gruppo in una conversazione con un’app? Questo
+    articolo racconta come Self-Help Plus, un programma dell’Organizzazione mondiale della sanità
+    per gestire lo stress, è stato adattato al chatbot ALBA, pensato per donne con tumore al seno e
+    donne in gravidanza. Psicologi, informatici ed esperti di progettazione dei servizi hanno
+    lavorato insieme per ripensare contenuti, tempi e modi del sostegno. Le sessioni di gruppo
+    diventano incontri individuali digitali di circa 40 minuti, divisibili in due parti,
+    accompagnati da audio, video, esercizi, promemoria e un diario. Il chatbot segue dialoghi
+    preparati con cura, che rispondono alle scelte della persona. Un esempio concreto di come
+    portare un aiuto validato nella vita quotidiana.
+  topics:
+  - salute digitale
+  - gestione dello stress
+  - chatbot
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_protocol
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1–3: adaptation protocol, two target populations, multidisciplinary user/service design.'
+    - 'PDF pp.4–7: prewritten scripts, 40-minute sessions divisible in two, audio/video/exercises/diary
+      and reminders; no generative chatbot.'
+    - 'PDF pp.7–9: prototype and adaptation work; future usability and efficacy trials, no clinical benefit
+      demonstrated.'
+    - 'PDF pp.10/13: request-only data; published protocol and CC BY.'
+    review_note: 'Separate scientific reread of Methods/Results/limitations: adaptation process, not efficacy
+      study; claims checked against pp.3–10. Separate editorial reread: plain language, no predicted efficacy
+      presented as result.'
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,146 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuropsychologia-2025-109210
+doi: 10.1016/j.neuropsychologia.2025.109210
+bibliography:
+  title: Sleep and script-based memory distortions
+  authors: Margherita Calderan; Enrico Toffalini; Chiara Mirandola; Nicola Cellini
+  year: 2025
+  journal: Neuropsychologia
+  volume: '217'
+  publication_date: '2025-06-19'
+  article_number: '109210'
+  issue_date: '2025-10-10'
+dpg:
+  authors:
+  - Margherita Calderan
+  - Enrico Toffalini
+  - Nicola Cellini
+  verified: true
+  verification_source: Final PDF page 1 assigns DPG affiliation a to Calderan, Toffalini and Cellini.
+    Mirandola is IUL Telematic University. Citation volume 217 is 2025; publisher distinguishes online
+    19 June and issue 10 October.
+source:
+  pdf_file: dpg2025-P013.pdf
+  pdf_path: selected/dpg2025-P013.pdf
+  md5: 3c9a2c3c5b188a84a8f99e6056759ccf
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 14:34:38 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: OSF rende disponibili le risposte individuali di riconoscimento, i dati descrittivi dei
+    partecipanti e gli script R di preparazione, modellazione e visualizzazione.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://www.sciencedirect.com/science/article/pii/S0028393225001459
+  data:
+  - https://osf.io/kwycq/
+  code:
+  - https://osf.io/kwycq/
+  materials: []
+  protocol: []
+  preregistration: []
+evidence:
+- claims: []
+  source: pdf-and-publisher
+  location: PDF p.1 citation/affiliations; publisher and Crossref issue metadata
+  passage: Neuropsychologia 217:109210 (2025); online 19 June, issue 10 October 2025. Three DPG authors
+    explicitly identified.
+  url: https://www.sciencedirect.com/science/article/pii/S0028393225001459
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf-and-resource
+  location: PDF p.9, Data and code availability statement; public OSF kwycq DATA folder
+  passage: 'Public Sleep and script-based memory project metadata and files downloaded anonymously HTTP
+    200. DatiFS_2.05.23.xlsx has 13824 recognition-trial rows, 13 variables and 72 participant IDs (36
+    Sleep/36 Wake). demo.xlsx has 72 rows with demographic, questionnaire and sleep measures; dictionaries
+    describe trial/session/stimulus/response variables. These are recruited-participant data, not an assertion
+    that all 72 were retained in published analyses: the final paper analyzes 68 (34/34). No raw EEG availability
+    inferred from derived sleep measures.'
+  url: https://osf.io/kwycq/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf-and-resource
+  location: PDF p.9, Data and code availability statement; OSF SCRIPT folder
+  passage: prep_analysis.Rmd and plot.R anonymously downloaded HTTP 200 and read. Source includes response
+    coding, sensitivity screening, gap/causal summaries, brms signal-detection models and plots; large
+    fitted model files are listed. Some exclusion IDs and descriptive-data subsets do not transparently
+    align with the final article, and fit calls are commented for reuse of stored models. Code availability
+    is verified; no complete reproduction or validation of the published estimates is claimed.
+  url: https://osf.io/kwycq/
+  verification: agent-verified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: publisher-access-check
+  location: PDF p.1 CC BY statement; public ScienceDirect article landing page
+  passage: Publisher page identifies the matching article/DOI and explicitly marks Open access under a
+    Creative Commons license; final local article bears CC BY. Web reader exposed the publisher article
+    information without login. Direct shell requests hit redirect/access responses, so no successful full-text
+    shell download is claimed.
+  url: https://www.sciencedirect.com/science/article/pii/S0028393225001459
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Molti ricordi quotidiani seguono un copione: se vediamo qualcuno entrare al ristorante e poi
+    uscire, ci sembra di ricordare anche il pasto. Il sonno, che aiuta la memoria, rafforza anche
+    questi «riempitivi»? Lo studio ha messo alla prova l’idea con 72 adulti, che guardavano
+    fotografie di otto piccole storie e dovevano poi riconoscerle subito e dodici ore dopo: metà
+    dopo una notte di sonno, metà dopo una giornata da svegli. Alcune immagini mai viste
+    completavano la storia in modo plausibile, altre suggerivano una causa del finale. Con il tempo
+    tutti confondevano un po’ di più immagini viste e non viste, ma il sonno non rendeva questi
+    falsi ricordi chiaramente più o meno frequenti. Un tassello utile per capire come la memoria
+    ricostruisce gli eventi.
+  topics:
+  - sonno
+  - falsi ricordi
+  - memoria episodica
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1–3: DPG authors and 2025 citation; 72 recruited, randomized sleep/wake, eight photographic
+      narratives.'
+    - 'PDF pp.4–5: immediate and 12-hour recognition, gap-filling versus causal errors; final sample 68
+      (34/34).'
+    - 'PDF pp.5–9: sensitivity falls over time; no convincing differential sleep effect; Bayes factors
+      only weakly support absence for key sleep interactions, not equivalence.'
+    - 'PDF pp.8–9: few stimuli, immediate testing, daytime naps not monitored and one monitored night
+      limit interpretation.'
+    - 'PDF p.9 and OSF files inspected: 13824 trial rows/72 recruited IDs, demographics, code and dictionaries
+      public.'
+publication:
+  published: false
+  featured: false

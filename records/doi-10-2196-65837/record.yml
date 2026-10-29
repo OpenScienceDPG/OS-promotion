@@ -1,0 +1,150 @@
+schema_version: 1.0
+id: doi-10-2196-65837
+doi: 10.2196/65837
+bibliography:
+  title: 'Chatbot-Based Version of a World Health Organization–Validated Intervention for Stress Management
+    in Patients With Breast Cancer (Self-Help Plus): Protocol for a Pilot Feasibility Study'
+  authors: Valentina Fietta; Silvia Rizzi; Lorenzo Gios; Silvana Selmi; Chiara De Luca; Lucia Pederiva;
+    Stefania Poggianella; Maria Chiara Pavesi; Monica Campregher; Silvia Lazzeri; Sara Cantarelli; Marianna
+    Purgato; Corrado Barbui; Nicolò Navarin; Silvia Gabrielli; Merylin Monaro; Stefano Forti; Antonella
+    Ferro
+  journal: JMIR Research Protocols
+  volume: '14'
+  publication_date: '2025-08-26'
+  year: 2025
+  article_number: e65837
+dpg:
+  authors:
+  - Valentina Fietta
+  - Merylin Monaro
+  verified: true
+  verification_source: PDF p.1 assigns Fietta and Monaro affiliation1 Department of General Psychology,
+    University of Padova; Navarin is in the Department of Mathematics. Citation JMIR Res Protoc 2025;14:e65837,
+    published 26 August 2025 (p.18).
+source:
+  pdf_file: dpg2025-P036.pdf
+  pdf_path: selected/dpg2025-P036.pdf
+  md5: 9a93a71201739b5737212a1f719e1f72
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:33:29 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Il protocollo
+    dettagliato dello studio pilota è pubblicato ad accesso aperto; i dati saranno disponibili solo su
+    richiesta.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: false
+  open_code: null
+  open_materials: null
+  open_protocol: true
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.2196/65837
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol:
+  - https://doi.org/10.2196/65837
+evidence:
+- claims:
+  - open_protocol
+  source: pdf
+  location: Whole article (protocol paper); PDF p.2 IRRID PRR1-10.2196/65837; p.18 CC BY publication note
+  passage: The article is itself the detailed study protocol (design, eligibility, intervention sessions,
+    outcomes, sample size, analysis plan) published open access under CC BY before any results are reported.
+    Accepted as open protocol in rapid mode; no separate registry entry declared. Manual Enrico check
+    pending.
+  url: https://doi.org/10.2196/65837
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.18, CC BY open-access statement
+  passage: Paper declares open-access publication under CC BY and supplies its DOI. External access not
+    checked; manual Enrico check pending.
+  url: https://doi.org/10.2196/65837
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.14, Data Availability
+  passage: Datasets will be available from the corresponding author on reasonable request only.
+  url: null
+  verification: agent-verified
+  checked_at: '2026-10-20'
+curation:
+  status: reviewed
+  why_open: "Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Le donne in cura per un tumore al seno vivono spesso livelli alti di stress, ma un aiuto
+    psicologico non è sempre a portata di mano. E se arrivasse direttamente sul telefono? Questo
+    articolo presenta il piano di uno studio pilota su ALBA, un assistente virtuale inserito in
+    un’app sanitaria trentina, che propone in forma digitale Self-Help Plus, un programma per
+    gestire lo stress validato dall’Organizzazione mondiale della sanità. Per sei settimane circa 50
+    pazienti della Breast Unit di Trento riceveranno sessioni settimanali con testi, audio, video ed
+    esercizi. Lo studio verificherà soprattutto quanto l’app sia facile da usare e coinvolgente, ed
+    esplorerà stress, benessere e qualità della vita. Un primo passo per portare un aiuto validato
+    nelle mani delle pazienti.
+  topics:
+  - salute digitale
+  - tumore al seno
+  - gestione dello stress
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_protocol
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Fietta and Monaro DPG affiliation1; Navarin Mathematics; JMIR Res Protoc 2025;14:e65837,
+      published 26 Aug 2025; CC BY.'
+    - 'PDF pp.1–9: protocol for single-arm pilot proof-of-concept, about 50 Breast Unit Trento patients,
+      ALBA chatbot delivering Self-Help Plus over 6 weeks; ethics approval 17 Jul 2024.'
+    - 'PDF pp.9–10: primary outcomes usability/user experience (UES-SF, SUS, BUS B, uMARS); secondary
+      K-10, PSS, MPFI, SF-36 pre/post and 4-month follow-up.'
+    - 'PDF pp.1/13: no results reported; expected benefits only; no control group, self-report limits.'
+    - 'PDF pp.1/14/18: detailed protocol published open access (submitted Aug 2024); datasets only on
+      reasonable request.'
+    review_note: 'Separate scientific reread against pp.1–14: protocol only, single-arm pilot, about 50
+      patients, 6 weeks, primary usability/engagement and exploratory well-being outcomes, 4-month follow-up,
+      no control group; expectations not presented as findings. Editorial reread: intervention and ACT
+      explained plainly.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - protocol
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+  article_resources:
+    protocol: The article is itself the open study protocol; Methods details the design, eligibility, intervention, outcomes, sample size and analysis plan.
+publication:
+  published: false
+  featured: false

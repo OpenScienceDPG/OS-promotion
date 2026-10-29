@@ -1,0 +1,108 @@
+---
+pagetitle: "Open Science al DPG"
+description: "Pubblicazioni del Dipartimento di Psicologia Generale dell'Università di Padova che rendono pubblici dati, codice, materiali e preregistrazioni."
+---
+
+```{=html}
+<div class="os-header" role="banner">
+  <div class="os-wrap os-header-inner">
+    <!-- To use the official logo, put it in assets/ and replace the text below with an <img>. -->
+    <a class="os-brand" href="https://www.unipd.it/" target="_blank" rel="noopener">
+      <span class="os-brand-uni">Università degli Studi di Padova</span>
+    </a>
+    <a class="os-dept" href="https://www.dpg.unipd.it/" target="_blank" rel="noopener">Dipartimento di Psicologia Generale</a>
+  </div>
+</div>
+
+<div class="os-hero">
+  <div class="os-wrap">
+    <p class="os-eyebrow">Dipartimento di Psicologia Generale</p>
+    <h1>Open Science al DPG</h1>
+    <p class="os-lead">Una vetrina di pubblicazioni con autrici e autori del DPG che rendono pubblici dati, codice, materiali e preregistrazioni. Ogni pratica è verificata nel testo dell'articolo e collegata direttamente alla risorsa.</p>
+    <p class="os-scope">Sono riportate le pubblicazioni dal 2025 in poi; la vetrina è in progressivo aggiornamento.</p>
+  </div>
+</div>
+
+<div class="os-main" role="main">
+<div class="os-wrap">
+```
+
+{{< include data/listing.md >}}
+
+```{=html}
+</div>
+</div>
+
+<div class="os-footer" role="contentinfo">
+  <div class="os-wrap">
+    <p class="os-footer-title">Università degli Studi di Padova &middot; Dipartimento di Psicologia Generale</p>
+    <p>Sono incluse solo pratiche sostanziali documentate dalla pubblicazione stessa (preregistrazione, Registered Report, dati, codice, materiali o protocolli pubblici). L'accesso aperto da solo non è sufficiente e non viene calcolato alcun punteggio complessivo.</p>
+    <p class="os-credits">Badge Open Data, Open Materials e Preregistered: <a href="https://www.cos.io/initiatives/badges" target="_blank" rel="noopener">Center for Open Science</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Gli altri badge sono elaborazioni grafiche nello stesso stile.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".os-chip"));
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".os-card"));
+  var search = document.getElementById("os-search");
+  var count = document.getElementById("os-count");
+  var empty = document.getElementById("os-empty");
+  if(!cards.length) return;
+  var active = [];
+
+  function update(){
+    var q = search.value.trim().toLowerCase();
+    var n = 0;
+    cards.forEach(function(card){
+      var has = card.getAttribute("data-practices").split(" ");
+      var ok = active.every(function(p){ return has.indexOf(p) >= 0; }) &&
+        (!q || card.getAttribute("data-search").indexOf(q) >= 0);
+      card.hidden = !ok;
+      if(ok) n++;
+    });
+    count.textContent = n;
+    empty.hidden = n > 0;
+    chips.forEach(function(chip){
+      var f = chip.getAttribute("data-filter");
+      var on = f === "all" ? active.length === 0 : active.indexOf(f) >= 0;
+      chip.classList.toggle("is-active", on);
+      chip.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+
+  chips.forEach(function(chip){
+    chip.addEventListener("click", function(){
+      var f = chip.getAttribute("data-filter");
+      if(f === "all") active = [];
+      else if(active.indexOf(f) >= 0) active.splice(active.indexOf(f), 1);
+      else active.push(f);
+      update();
+    });
+  });
+  search.addEventListener("input", update);
+
+  // Dialogs: plain-language summaries (one per card, linkable as #sintesi-<id>)
+  // and badge explanations (#badge-<key>, opened from card or summary badges).
+  // Only summaries are reflected in the URL hash.
+  function isSummary(id){ return id.indexOf("sintesi-") === 0; }
+  function openDialog(id){
+    var d = document.getElementById(id);
+    if(!d || d.open || !d.showModal) return;
+    d.showModal();
+    if(isSummary(id)) history.replaceState(null, "", "#" + id);
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("[data-dialog]"), function(btn){
+    btn.addEventListener("click", function(){ openDialog(btn.getAttribute("data-dialog")); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".os-dialog"), function(d){
+    d.querySelector(".os-dialog-close").addEventListener("click", function(){ d.close(); });
+    d.addEventListener("click", function(e){ if(e.target === d) d.close(); });
+    d.addEventListener("close", function(){
+      if(isSummary(d.id)) history.replaceState(null, "", location.pathname + location.search);
+    });
+  });
+  if(location.hash.indexOf("#sintesi-") === 0) openDialog(location.hash.slice(1));
+})();
+</script>
+```

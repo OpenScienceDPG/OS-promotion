@@ -1,0 +1,140 @@
+schema_version: 1
+id: doi-10-1098-rsos-220497
+doi: 10.1098/rsos.220497
+bibliography:
+  title: How strong is the rhythm of perception? A registered replication of Hickok et al. (2015)
+  authors: Molly J. Henry; Jonas Obleser; Maria R. Crusey; Emily R. Fuller; Yune Sang Lee; Martin Meyer;
+    Elizabeth A. M. Acosta; Stephen C. Van Hedger; Maya Inbar; Chantal Oderbolz; Sienna A. Dunham; Yathida
+    Anankul; Lauren E. Sabo; Christian Keitel; Ross K. Maddox; Kendra Mehl; Gizem Aslan; Peter A. Martens;
+    Sebastian Sauppe; Meir Horovitz; Elizabeth E. Kinghorn; Stratos Koukouvinis; Hans Rutger Bosker; Mert
+    Huviyetli; Carole Leung; Ashley Elizabeth Symons; Antje Strauß; Maria Chait; Mingyue Hu; Carsten Eulitz;
+    Cailey A. Salagovic; Chris Davis; Giulio Glauco Adriaan Severijnen; Alexandra I. Kosachenko; Claude
+    Alain; Jeesun Kim; Jessica A. Grahn; Riya K. Sidhu; Carlo Megighian; Blake E. Butler; David R. W.
+    Sears; Björn Herrmann; Megan Louise Griffiths; Ayelet N. Landau; Raha Razin; Massimo Grassi; Andrew
+    Levitsky; Lori L. Holt; Amy M. Belfi; Hannah J. Stewart; Barbara G. Shinn-Cunningham; Christi Gomez;
+    Faye Brookes; Erin D. Smith; Ethan Axler; Karin Bakardjian; Daniel Hochstrasser; Lucrezia Guiotto
+    Nai Fovino; Sarah Tune; Yuri G. Pavlov; Kalysta A. Lee; Ashlynne G. Xavier; Anne Keitel; Chad S. Rogers;
+    Ann Maltseva; Julia L. Strauss; Facundo F. Lodol; Naeem Arsiwala; Jonathan E. Peelle
+  year: 2025
+  journal: Royal Society Open Science
+dpg:
+  authors:
+  - Massimo Grassi
+  - Carlo Megighian
+  - Lucrezia Guiotto Nai Fovino
+  verified: true
+  verification_source: Final PDF p.2 affiliation 36 explicitly identifies these authors with Department
+    of General Psychology, University of Padua.
+source:
+  pdf_file: henry-et-al-how-strong-is-the-rhythm-of-perception-a-registered-replication-of-hickok-et-al-(2015).pdf
+  pdf_path: selected/henry-et-al-how-strong-is-the-rhythm-of-perception-a-registered-replication-of-hickok-et-al-(2015).pdf
+  md5: 14eee94d86819ebe16acaa336dd0b0aa
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-10-20'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: null
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Registered Replication con Stage 1 preregistrato prima di raccolta e analisi
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: true
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: true
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1098/rsos.220497
+  preregistration:
+  - https://osf.io/vygwk/
+  data:
+  - https://osf.io/aytez/
+  code:
+  - https://osf.io/aytez/
+  materials:
+  - https://doi.org/10.6084/m9.figshare.c.7772196
+  protocol:
+  - https://osf.io/vygwk/
+evidence:
+- claims:
+  - preregistration
+  - registered_report
+  - open_protocol
+  source: pdf
+  location: page 5
+  passage: Following in-principle acceptance, the accepted Stage 1 manuscript was preregistered on OSF
+    before data collection and analysis.
+  url: https://osf.io/vygwk/
+  verification: agent-verified
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: page 17
+  passage: The authors state that all stimuli, presentation scripts, data, and analysis code were made
+    publicly available.
+  url: https://osf.io/aytez/
+  verification: agent-verified
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, licence
+  passage: Article published under the Creative Commons Attribution License (CC BY 4.0); article DOI printed.
+  url: https://doi.org/10.1098/rsos.220497
+  verification: agent-verified
+curation:
+  status: curated
+  why_open: "Il piano dello studio, reso pubblico prima di raccogliere i dati; Il progetto, approvato dalla rivista prima di conoscere i risultati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli; Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Il ticchettio di un orologio, il rumore dei passi, il moto delle onde: il mondo è pieno di
+    ritmi, e si pensa che il cervello li usi per anticipare ciò che sta per accadere. Nel 2015 uno
+    studio aveva mostrato che, dopo aver ascoltato un rumore pulsante, si coglie meglio un suono
+    debole se arriva «a tempo» con quel ritmo. Ma i partecipanti erano appena cinque. Così numerosi
+    laboratori nel mondo hanno unito le forze e ripetuto l’esperimento con 149 persone. Il verdetto:
+    l’effetto è solido, anche se varia molto da persona a persona. Un risultato che conta anche
+    fuori dal laboratorio: la stimolazione ritmica è usata nella riabilitazione dopo un ictus o nel
+    Parkinson, e capire quanto il ritmo aiuti ciascuno può dire a chi possa servire di più.
+  topics:
+  - percezione uditiva
+  - ritmo
+  - replicazione multi-laboratorio
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - registered_report
+    - open_data
+    - open_code
+    - open_materials
+    - open_protocol
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    review_note: 'Correzione della sintesi esistente decisa dall’agente su delega esplicita di Enrico
+      (2026-10-20); sorgente e decisione preservate. Reread PDF pp.2-5,7-17: only one non-direct failed
+      replication (Sun et al.) plus one reanalysis (p.5); other sentences verified (N149, five original
+      participants, IPA/Stage 1, individual variability, rehabilitation context p.2).'
+publication:
+  published: false
+  featured: false

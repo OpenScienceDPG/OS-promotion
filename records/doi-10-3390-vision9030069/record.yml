@@ -1,0 +1,163 @@
+schema_version: 1.0
+id: doi-10-3390-vision9030069
+doi: 10.3390/vision9030069
+bibliography:
+  title: Form and Temporal Integration in the Perception of Simple Glass Patterns
+  authors: Rita Donato; Michele Vicovaro; Massimo Nucci; Marco Roccato; Gianluca Campana; Andrea Pavan
+  journal: Vision
+  volume: '9'
+  issue: '3'
+  publication_date: '2025-08-04'
+  year: 2025
+  article_number: '69'
+dpg:
+  authors:
+  - Rita Donato
+  - Michele Vicovaro
+  - Massimo Nucci
+  - Marco Roccato
+  - Gianluca Campana
+  verified: true
+  verification_source: PDF p.1 author superscripts1 explicitly identify five DPG authors; Andrea Pavan
+    only affiliation3 Bologna. Citation/date p.1.
+source:
+  pdf_file: dpg2025-P026.pdf
+  pdf_path: selected/dpg2025-P026.pdf
+  md5: 0c4edec5b588cc6193282150cb3bdd69
+screening:
+  status: ready
+  first_screened_at: '2026-10-20'
+  last_screened_at: 2026-10-20 15:21:44 +0200
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Modalità rapida: dichiarazione esplicita + link; controllo manuale Enrico pending. Gli
+    autori dichiarano pubblici lo script delle analisi e soltanto il dataset di Donato et al.; i dati
+    di Nankoo et al. restano su richiesta.'
+  review_mode: rapid
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3390/vision9030069
+  preregistration: []
+  data:
+  - https://osf.io/azynh/?view_only=a259e898898c4a6fa1bee3014defef5c
+  code:
+  - https://osf.io/azynh/?view_only=a259e898898c4a6fa1bee3014defef5c
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF pp.11–12, Data Availability Statement
+  passage: Paper explicitly declares public sharing of only the Donato etal dataset used in the reanalysis;
+    Nankoo etal data are explicitly not public. Declaration/full published view-only link read locally;
+    resource not opened. External content/access unverified; manual Enrico check pending. Public URL points
+    to the article and this precise section, avoiding token copying.
+  url: https://doi.org/10.3390/vision9030069
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_code
+  source: pdf
+  location: PDF pp.11–12, Data Availability Statement
+  passage: Paper explicitly declares public sharing of the complete statistical analysis script. Declaration/full
+    published view-only link read locally; resource not opened. External content/access unverified; manual
+    Enrico check pending. Public URL points to the article and this precise section, avoiding token copying.
+  url: https://doi.org/10.3390/vision9030069
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_access
+  source: pdf
+  location: PDF p.1, CC BY/open access statement
+  passage: Paper declares open access under CC BY and supplies its DOI. Declaration/link read locally;
+    external access not checked; manual Enrico check pending.
+  url: https://doi.org/10.3390/vision9030069
+  verification: unverified
+  checked_at: '2026-10-20'
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.5,11,12, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/azynh/?view_only=a259e898898c4a6fa1bee3014defef5c
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.5,11,12, published OSF resource link
+  passage: 'Resource-link correction requested by Enrico on 2026-10-20: recovered the actual published destination from the original local PDF (or its explicitly named publisher supplement section), replacing the article placeholder. This checks the destination and its stated purpose, not new external access or file contents; existing manual-review status is unchanged. Earlier token-omission notes describe the superseded link policy.'
+  url: https://osf.io/azynh/?view_only=a259e898898c4a6fa1bee3014defef5c
+  verification: unverified
+curation:
+  status: reviewed
+  why_open: "I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista"
+  public_summary: >-
+    Per riconoscere una forma nascosta tra tanti puntini, conta di più quante immagini diverse
+    vediamo o quanto velocemente si susseguono? Gli autori hanno rianalizzato due esperimenti con 29
+    adulti, che dovevano distinguere disposizioni di coppie di punti orientate in modo coerente da
+    disposizioni casuali, presentate come brevi sequenze di immagini. Il risultato: vedere più
+    immagini diverse rendeva la forma più facile da riconoscere, anche quando il segnale era debole.
+    La velocità con cui le immagini si alternavano sembrava aiutare a sua volta, ma molto meno. Il
+    cervello, insomma, raccoglie indizi sulla forma nel tempo, sommando ciò che vede in istanti
+    diversi.
+  topics:
+  - percezione visiva
+  - integrazione temporale
+  - rianalisi
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_access
+  summary_review:
+    by: agent
+    at: '2026-10-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.4–5: reanalysis of29 adults from two studies, no new data; Glass patterns, threshold task,
+      mixed models.'
+    - 'PDF pp.6–7: more unique frames predicts lower thresholds; weaker update-rate effect p=.022 pooled,
+      nonsignificant within fixed frame counts.'
+    - 'PDF pp.8–11: temporal form integration interpretation, not direct neural recording; designs have
+      partly collinear predictors and differing threshold procedures.'
+    - 'PDF pp.11–12 Data Availability: full analysis script and only Donato etal dataset shared; Nankoo
+      data explicitly not public, contact original authors.'
+    review_note: 'Separate scientific reread against pp.4–8,10–12:29 participants, no new collection,
+      stronger frame effect, weak pooled-only update effect, limited dataset sharing explicit. Editorial
+      reread: Glass-pattern task explained without assuming motion recordings.'
+  resource_link_review:
+    by: agent
+    at: '2026-10-20'
+    fields:
+    - data
+    - code
+    note: Destination correction from published PDF links; prior scientific decisions, access verification and pending manual review preserved.
+publication:
+  published: false
+  featured: false

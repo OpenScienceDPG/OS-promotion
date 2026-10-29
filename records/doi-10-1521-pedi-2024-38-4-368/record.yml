@@ -1,0 +1,71 @@
+schema_version: 1
+id: doi-10-1521-pedi-2024-38-4-368
+doi: 10.1521/pedi.2024.38.4.368
+bibliography:
+  title: "Comparing the DSM-5 dimensional trait and triarchic model conceptions of psychopathy: an external validity analysis"
+  authors: Claudio Sica; Corrado Caudek; Ilaria Colpizzi; Gioia Bottesi; Sara Iannattone; Christopher J. Patrick
+  year: 2024
+  journal: Journal of Personality Disorders
+dpg:
+  authors: []
+  verified: false
+source:
+  pdf_file: Sica et al 2024_JPD.pdf
+  pdf_path: selected/Sica et al 2024_JPD.pdf
+  md5: 083885d7cae1dd7685e4ad9a79d7c88e
+screening:
+  status: ready
+  first_screened_at: '2026-09-30'
+  last_screened_at: '2026-09-30'
+  algorithm_version: legacy-initial-selection
+  algorithm_score: ~
+  algorithm_suggestion: candidate
+  agent_reviewed: true
+  final_decision: keep
+  final_note: Dati de-identificati elaborati e codici analitici pubblici
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: false
+  registered_report: ~
+  open_data: true
+  open_code: true
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: [https://doi.org/10.1521/pedi.2024.38.4.368]
+  preregistration: []
+  data: [https://osf.io/pfgwa/]
+  code: [https://osf.io/pfgwa/]
+  materials: []
+  protocol: []
+evidence:
+  - claims: [open_data, open_code]
+    source: pdf
+    location: page 15
+    passage: The paper states that all de-identified processed data supporting its conclusions and the analytic code are available on OSF.
+    url: https://osf.io/pfgwa/
+    verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: "I dati raccolti; Il codice usato per le analisi"
+  public_summary: >-
+    Che cos’è, esattamente, la psicopatia? Manipolazione, freddezza emotiva e impulsività ne fanno
+    parte, ma non c’è pieno accordo su come descriverla. Il manuale diagnostico di riferimento in
+    psichiatria, il DSM-5, propone di definirla attraverso tratti come antagonismo, disinibizione,
+    ricerca di attenzione e bassa ansia. Un altro modello, detto triarchico, la scompone in tre
+    dimensioni: disinibizione, cattiveria e audacia. Questo studio ha messo a confronto i due
+    approcci su quasi 1.700 adulti, chiedendosi quale descriva meglio aspetti come l’uso di
+    sostanze, l’ansia, la depressione, il benessere e l’empatia. Il risultato: nessuno dei due
+    vince. Il modello triarchico spiega meglio l’uso di sostanze, il benessere e l’empatia, quello
+    del DSM-5 l’ansia e la depressione. Più che rivali, i due modelli si completano.
+  topics: []
+publication:
+  published: false
+  featured: false
+
