@@ -1,0 +1,131 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1740985
+doi: 10.3389/fpsyg.2026.1740985
+bibliography:
+  title: 'Fire safety training for workers: an investigation into how learning modalities
+    in VR relate to performance and self-evaluations'
+  authors: Veronica Muffato; Marta Mazzella di Bosco; Sara Zuzzi; Daniela Pellegrini;
+    Chiara Meneghetti
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1740985'
+  year: 2026
+dpg:
+  authors:
+  - Veronica Muffato
+  - Marta Mazzella di Bosco
+  - Chiara Meneghetti
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (Muffato, Mazzella di Bosco, Meneghetti); Zuzzi and Pellegrini
+    at Piazza Copernico srl, Rome. Published 10 February 2026; Front. Psychol. 17:1740985.'
+source:
+  pdf_file: fpsyg.2026.1740985.pdf
+  pdf_path: .na.character
+  md5: ae14f58ab3c3dfea3d3445a7b3179a07
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1740985/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:13:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): datasets declared on Zenodo
+    16607753; resource not opened, Enrico check pending. Muffato, Mazzella di Bosco,
+    Meneghetti DPG; Front Psychol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1740985
+  preregistration: []
+  data: https://zenodo.org/records/16607753
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 10
+  passage: 'Data availability statement: datasets presented in the study declared
+    in online repositories, Zenodo record 16607753. No code or materials declared.
+    Declaration and link read; resource not opened.'
+  url: https://zenodo.org/records/16607753
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2026.1740985
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Come si impara a reagire a un incendio sul lavoro senza correre
+    rischi? Le ricercatrici e i ricercatori hanno confrontato tre modi di insegnare
+    le procedure antincendio a 111 giovani adulti: un video con diapositive e spiegazioni,
+    una realtà virtuale in cui un personaggio digitale dava le istruzioni, e la stessa
+    realtà virtuale arricchita da pannelli informativi. Poi tutti hanno affrontato
+    un incendio simulato, sempre in realtà virtuale. Chi aveva imparato con la realtà
+    virtuale ha completato le procedure più in fretta e con punteggi migliori di chi
+    aveva visto il video. L''esperienza è risultata coinvolgente e poco faticosa,
+    ma chi si sentiva più stressato durante la simulazione otteneva risultati peggiori.
+    Un piccolo gruppo di 16 lavoratori ha ottenuto risultati simili agli studenti.
+    Secondo gli autori, una formazione virtuale ben progettata può rendere la sicurezza
+    più facile da imparare.'
+  topics:
+  - apprendimento
+  - realtà virtuale
+  - stress
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: Study 1a, 111 participants aged 20-28 assigned to video-slide
+      learning, basic VR with avatar instructions, or dual-mode VR with panel information;
+      all tested in a VR fire scenario.'
+    - 'PDF p.1 abstract: both VR groups outperformed video-slide in execution time
+      and total score; low cognitive load, high immersiveness, presence and motivation;
+      higher perceived stress associated with lower performance.'
+    - 'PDF p.1 abstract: Study 1b, 16 workers vs students with dual-mode VR, no significant
+      differences; authors conclude well-designed active VR can enhance procedural
+      safety learning.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

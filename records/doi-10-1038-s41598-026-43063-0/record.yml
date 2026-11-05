@@ -1,0 +1,149 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-026-43063-0
+doi: 10.1038/s41598-026-43063-0
+bibliography:
+  title: 'Inhibitory control training and unhealthy behaviours: a meta-analysis testing
+    short and long-term effects in clinical and at-risk populations'
+  authors: Elisa Di Rosa; Lucia Ronconi; Beatrice Del Carlo; Giulia Giordano; Eleonora
+    Macchia; Valentina Cardi; Claudio Gentili; Fabio Masina; Claudia Guarrera; Daniela
+    Mapelli; Nicky Edelstyn
+  journal: Scientific Reports
+  volume: '16'
+  pages: '13928'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Di Rosa
+  - Beatrice Del Carlo
+  - Valentina Cardi
+  - Claudio Gentili
+  - Fabio Masina
+  - Claudia Guarrera
+  - Daniela Mapelli
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova. Ronconi printed at Statistical Services, Multifunctional
+    Pole of Psychology (not DPG). Online 7 March 2026.'
+source:
+  pdf_file: s41598-026-43063-0.pdf
+  pdf_path: .na.character
+  md5: fed08ae88f212538ca9d369eef3543da
+  article_url: https://europepmc.org/articles/PMC13133358?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:31:15 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data and R scripts declared
+    on OSF 7sdvj; meta-analysis stated pre-registered on PROSPERO CRD42021232571 (date
+    not printed); resources not opened, Enrico check pending. Di Rosa, Del Carlo,
+    Cardi, Gentili, Masina, Guarrera, Mapelli DPG; Sci Rep 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: yes
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1038/s41598-026-43063-0
+  preregistration:
+  - https://www.crd.york.ac.uk/PROSPERO/view/CRD42021232571
+  data: https://osf.io/7sdvj/
+  code: https://osf.io/7sdvj/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: PDF page 4
+  passage: 'Statistical analysis (p.4) and Data availability (p.12): all relevant
+    data and R scripts declared available at OSF 7sdvj. Declaration read; resource
+    not opened.'
+  url: https://osf.io/7sdvj/
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.3, Methods
+  passage: Meta-analysis stated as pre-registered on PROSPERO (CRD42021232571) with
+    link; registration date not printed. Declaration read; record not opened, Enrico
+    check pending.
+  url: https://www.crd.york.ac.uk/PROSPERO/view/CRD42021232571
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; Creative Commons open
+    access licence printed in the final PDF.
+  url: https://doi.org/10.1038/s41598-026-43063-0
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati
+    raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della
+    rivista
+  public_summary: 'Resistere a una sigaretta, a un bicchiere in più o a uno snack
+    fuori pasto: e se bastasse allenare il cervello a dire «no»? Esistono semplici
+    esercizi al computer pensati proprio per questo, in cui si impara a trattenere
+    la risposta quando sullo schermo compaiono, per esempio, immagini di cibo, alcol
+    o sigarette. Un gruppo di ricercatori ha raccolto gli studi controllati su questi
+    allenamenti condotti con adulti che fumano, bevono troppo o hanno un rapporto
+    difficile con il cibo: quindici articoli, con oltre mille partecipanti in tutto.
+    Mettendo insieme i risultati, gli autori non hanno trovato differenze tra chi
+    si allenava e chi svolgeva attività di confronto, né subito dopo né a distanza
+    di tempo. Un risultato prezioso: secondo gli autori, da soli questi esercizi non
+    bastano, e conviene studiarli insieme ad altri trattamenti.'
+  topics:
+  - abitudini alimentari
+  - alcol e fumo
+  - autocontrollo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 and pp.3-4: meta-analysis of 16 randomized studies (15 articles, over
+      1,000 adults) on inhibitory control training for eating, alcohol and smoking
+      in clinical or at-risk adults.'
+    - 'PDF p.6: no significant effect after training or at follow-up.'
+    - 'PDF abstract/discussion: authors conclude stand-alone training is insufficient
+      and suggest combining it with other treatments.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-1186-s40462-026-00680-8
+doi: 10.1186/s40462-026-00680-8
+bibliography:
+  title: Temporal dynamics of plant movement under task constraints
+  authors: Silvia Guerra; Valentina Simonetti; Emanuele Cannizzo; Umberto Castiello
+  journal: Movement Ecology
+  volume: '14'
+  issue: .na
+  pages: '67'
+  year: 2026
+dpg:
+  authors:
+  - Silvia Guerra
+  - Valentina Simonetti
+  - Emanuele Cannizzo
+  - Umberto Castiello
+  verified: yes
+  verification_source: 'Final PDF p.1: single affiliation 1, Department of General
+    Psychology (DPG), University of Padova, for all authors. Movement Ecology (2026)
+    14:67.'
+source:
+  pdf_file: s40462-026-00680-8.pdf
+  pdf_path: .na.character
+  md5: 64614aa8e2644bf4240798f153f17ba6
+  article_url: https://europepmc.org/articles/PMC13647748?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:43:11 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): all data declared openly available
+    on Zenodo 10.5281/zenodo.18784260; resource not opened, Enrico check pending.
+    All four authors DPG; Mov Ecol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1186/s40462-026-00680-8
+  preregistration: []
+  data: https://doi.org/10.5281/zenodo.18784260
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 15
+  passage: 'Data availability: all data presented in the study declared openly available
+    in Zenodo at 10.5281/zenodo.18784260. No code declared. Declaration and link read;
+    resource not opened.'
+  url: https://doi.org/10.5281/zenodo.18784260
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the read version.
+  url: https://doi.org/10.1186/s40462-026-00680-8
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Quando allunghiamo la mano verso un oggetto lontano o piccolo impieghiamo
+    più tempo: è una regola ben nota nei movimenti di persone e animali. Succede qualcosa
+    di simile anche alle piante rampicanti? Il gruppo di ricerca ha osservato piante
+    di pisello mentre cercavano un sostegno a cui aggrapparsi, posto a 5 o a 10 centimetri
+    e largo 1,1 oppure 2 centimetri. Con un sistema di telecamere hanno ricostruito
+    in tre dimensioni i movimenti circolari con cui i viticci esplorano lo spazio,
+    misurando quanto tempo serviva per raggiungere e afferrare il sostegno. Il tempo
+    cresceva sia con la distanza sia con la larghezza del sostegno, come se le due
+    caratteristiche si sommassero in un''unica sfida. Un risultato affascinante, che
+    mostra come anche le piante regolino i tempi dei loro movimenti in base all''ambiente.'
+  topics:
+  - piante
+  - movimento
+  - comportamento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: pea plants tested with supports differing in width (1.1 vs
+      2 cm) and distance (5 vs 10 cm); movement time, circumnutation kinematics and
+      morphology analysed.'
+    - 'PDF pp.4-5: three-dimensional trajectories of tendrils reconstructed from camera
+      recordings.'
+    - 'PDF p.1 abstract: movement time increased with both support distance and width,
+      acting as cumulative spatial constraints; Fitts''s law introduced for animals
+      in the introduction.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

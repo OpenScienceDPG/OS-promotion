@@ -1,0 +1,136 @@
+schema_version: 1.0
+id: doi-10-1186-s12915-025-02441-2
+doi: 10.1186/s12915-025-02441-2
+bibliography:
+  title: Visual working memory prioritization modulates serial dependence beyond simple
+    attentional effects
+  authors: Ekaterina Andriushchenko; Andrey Chetverikov; Gianluca Campana
+  journal: BMC Biology
+  volume: '23'
+  pages: '339'
+  year: 2025
+dpg:
+  authors:
+  - Ekaterina Andriushchenko
+  - Gianluca Campana
+  verified: yes
+  verification_source: 'Final PDF p.1 affiliation 1: Andriushchenko and Campana, Department
+    of General Psychology, University of Padova (Chetverikov: University of Bergen).'
+source:
+  pdf_file: s12915-025-02441-2.pdf
+  pdf_path: ~
+  md5: 9b5900467e962bb12f2f081d42d8a6d9
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 11:17:41 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data publicly available on
+    OSF via published view-only link; power-analysis code on OSF; resource not opened,
+    Enrico check pending. Andriushchenko and Campana DPG; BMC Biology 2025; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1186/s12915-025-02441-2
+  preregistration: []
+  data:
+  - https://osf.io/wunf8/?view_only=3ddc35f3c3ac4ffc8947a56200ffe4c5
+  code:
+  - https://osf.io/wunf8/?view_only=3ddc35f3c3ac4ffc8947a56200ffe4c5
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.17, Data availability
+  passage: All data generated or analysed declared included in the article, supplementary
+    files and publicly available repositories (OSF), with the published view-only
+    link. Declaration and actual link read locally; resource not opened; external
+    content/access unverified, manual Enrico check pending.
+  url: https://osf.io/wunf8/?view_only=3ddc35f3c3ac4ffc8947a56200ffe4c5
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.16, Methods, power analysis
+  passage: Code used for the simulation-based power analysis declared available on
+    OSF via the printed view-only link (power-analysis code only; no statement on
+    main analysis code). Declaration and actual link read locally; resource not opened;
+    external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/wunf8/?view_only=3ddc35f3c3ac4ffc8947a56200ffe4c5
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; open access article
+    under CC BY printed in the final PDF.
+  url: https://doi.org/10.1186/s12915-025-02441-2
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: 'Ciò che vediamo adesso è sempre un po'' influenzato da ciò che
+    abbiamo appena visto: la percezione di un oggetto tende ad avvicinarsi a quella
+    del precedente, un effetto chiamato «dipendenza seriale». Ekaterina Andriushchenko,
+    Andrey Chetverikov e Gianluca Campana si sono chiesti quale ruolo abbia la memoria.
+    In tre esperimenti, con 90 partecipanti in tutto, le persone osservavano piccole
+    immagini a strisce inclinate e dovevano riprodurne l''inclinazione. Quando dovevano
+    tenere a mente un''immagine per riportarla di nuovo più tardi, la sua influenza
+    sulla risposta successiva cresceva. Invece, indicare semplicemente quale immagine
+    guardare non cambiava l''effetto. Secondo gli autori, conta lo sforzo di mantenere
+    attiva un''informazione in memoria, non la sola attenzione. Un tassello prezioso
+    per capire come passato e presente si intrecciano in ciò che vediamo.'
+  topics:
+  - percezione visiva
+  - memoria di lavoro
+  - dipendenza seriale
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: BMC Biology (2025) 23:339; Andriushchenko and Campana DPG; abstract.'
+    - 'PDF Methods: Exp. 1 N=18 (report-and-hold-in-memory vs standard report of Gabor
+      orientation); Exps. 2-3 N=36 each with pre-/post-cues.'
+    - 'PDF Results/Discussion: active memory maintenance increased serial dependence;
+      cueing (attentional prioritization) did not change it; authors interpret role
+      of memory maintenance.'
+    review_note: Scientific and editorial passes completed.
+publication:
+  published: no
+  featured: no

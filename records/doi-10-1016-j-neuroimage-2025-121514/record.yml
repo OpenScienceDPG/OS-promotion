@@ -1,0 +1,76 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuroimage-2025-121514
+doi: 10.1016/j.neuroimage.2025.121514
+bibliography:
+  title: 'Contentopic mapping in ventral and dorsal association cortex: The topographical
+    organization of manipulable object information'
+  authors: Jorge Almeida; Stephanie Kristensen; Zohar Tal; Alessio Fracasso
+  journal: NeuroImage
+  volume: '321'
+  pages: '121514'
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Europe PMC full-text XML (PMC12586957) front matter: Almeida,
+    Kristensen, Tal at University of Coimbra; Fracasso only at School of Psychology
+    and Neuroscience, University of Glasgow. No Padova affiliation printed; inventory
+    listing reflects later/current affiliation.'
+source:
+  pdf_file: .na
+  pdf_path: .na
+  md5: .na
+  article_url: https://europepmc.org/article/PMC/PMC12586957
+  note: Full text read as Europe PMC XML on 2026-11-05; Europe PMC PDF render unavailable,
+    ScienceDirect PDF 403 (not circumvented). No PDF hash.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: .na
+  algorithm_score: .na
+  algorithm_suggestion: .na
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject (out of scope): no author has a DPG or any Padova affiliation
+    printed (Fracasso listed only at University of Glasgow; others University of Coimbra);
+    full text read as Europe PMC XML (no PDF obtainable). Codes and data declared
+    on OSF, irrelevant given scope. NeuroImage 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2025
+human_override:
+  decision: .na
+  by: .na
+  at: .na
+  note: .na
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1016/j.neuroimage.2025.121514
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na
+  public_summary: .na
+  topics: []
+publication:
+  published: no
+  featured: no

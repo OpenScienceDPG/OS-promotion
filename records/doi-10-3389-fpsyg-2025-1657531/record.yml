@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2025-1657531
+doi: 10.3389/fpsyg.2025.1657531
+bibliography:
+  title: Sustained posterior negativity (SPN) elicited by brief (20ms) symmetrical
+    stimuli
+  authors: Giulio Contemori; Marianna Musa; Deniz Demirkapi; Martina Passaggi; Carolina
+    Maria Oletto; Luca Battaglini; Marco Bertamini
+  journal: Frontiers in Psychology
+  volume: '16'
+  issue: .na
+  pages: '1657531'
+  year: 2026
+dpg:
+  authors:
+  - Giulio Contemori
+  - Marianna Musa
+  - Deniz Demirkapi
+  - Martina Passaggi
+  - Carolina Maria Oletto
+  - Luca Battaglini
+  - Marco Bertamini
+  verified: yes
+  verification_source: 'Final PDF p.1: single affiliation Department of General Psychology,
+    University of Padova for all authors. Published 13 February 2026; printed citation
+    Front. Psychol. 16:1657531 (2026) (volume 16 is the 2025 volume; citation year
+    printed as 2026).'
+source:
+  pdf_file: fpsyg.2025.1657531.pdf
+  pdf_path: .na.character
+  md5: 1b9ef90d4bb12582d7cd0b500364b52a
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1657531/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:53:48 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): datasets declared in OSF repository
+    10.17605/OSF.IO/BQGSC; resource not opened, Enrico check pending. All authors
+    DPG; Front Psychol 2026 (vol. 16); gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2025.1657531
+  preregistration: []
+  data: https://doi.org/10.17605/OSF.IO/BQGSC
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 12
+  passage: 'Data availability statement: datasets presented in the study declared
+    in online repositories, OSF DOI 10.17605/OSF.IO/BQGSC. Preprocessing scripts mentioned
+    but not declared shared. Declaration and link read; resource not opened.'
+  url: https://doi.org/10.17605/OSF.IO/BQGSC
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2025.1657531
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Basta un istante perché il cervello si accorga che una forma è
+    simmetrica? I ricercatori hanno mostrato a 24 giovani adulti delle figure a otto
+    lati, simmetriche oppure irregolari, per appena 20 millesimi di secondo, mentre
+    una cuffia di elettrodi registrava l''attività elettrica del cervello. Per evitare
+    che la mente si preparasse in anticipo a premere un tasto, il tasto per rispondere
+    veniva indicato solo dopo, cambiando a ogni prova. Nonostante l''immagine fosse
+    poco più di un lampo, nella parte posteriore della testa, dove il cervello elabora
+    ciò che vediamo, è comparsa la tipica firma elettrica della simmetria, che durava
+    per centinaia di millesimi di secondo. Secondo gli autori, uno sguardo fugace
+    basta ad avviare un lavoro che il cervello porta avanti anche senza continuare
+    a guardare: un tassello importante per capire come cogliamo l''ordine intorno
+    a noi.'
+  topics:
+  - percezione
+  - simmetria
+  - elettroencefalografia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: irregular octagons, symmetric or asymmetric, presented for
+      20 ms; delayed trial-wise randomized response mapping to prevent premotor preparation;
+      64-channel EEG.'
+    - 'PDF pp.4, 6: 24 participants recruited, 23 in final ERP sample.'
+    - 'PDF p.1 abstract and discussion: posterior negativity characteristic of SPN
+      over the established time course; authors interpret brief evidence as sufficient
+      to initiate symmetry-selective activity without sustained viewing.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

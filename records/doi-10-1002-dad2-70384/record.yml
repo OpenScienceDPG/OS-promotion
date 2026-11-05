@@ -1,0 +1,77 @@
+schema_version: 1.0
+id: doi-10-1002-dad2-70384
+doi: 10.1002/dad2.70384
+bibliography:
+  title: Glymphatic clearance as revealed by diffusion tensor imaging along the perivascular
+    space (DTI-ALPS) is associated with Alzheimer's disease neuropathology and periodic
+    rsEEG alpha rhythms in mild cognitive impairment participants
+  authors: Susanna Lopez; Claudio Del Percio; Roberta Lizio; Giuseppe Noce; et al.
+    (39 authors); Roberta Biundo; Filippo Carducci; Claudio Babiloni
+  journal: 'Alzheimer''s & Dementia: Diagnosis, Assessment & Disease Monitoring'
+  volume: '18'
+  issue: .na
+  pages: e70384
+  year: 2026
+dpg:
+  authors:
+  - Roberta Biundo
+  verified: yes
+  verification_source: 'Final PDF p.10, affiliation 22: Department of General Psychology,
+    University of Padua (Biundo, also affiliation 21 CESNE). Accepted 15 May 2026;
+    Alzheimers Dement (Amst) 2026;18:e70384.'
+source:
+  pdf_file: dad2.70384.pdf
+  pdf_path: .na.character
+  md5: 66b5ac50e7798ebb2c0c08f25db8b062
+  article_url: https://europepmc.org/articles/PMC13254685?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:47:22 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: no data, code or materials availability statement; GitHub link
+    is a third-party EEGLAB plugin; no preregistration. Biundo DPG; Alzheimers Dement
+    (Amst) 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

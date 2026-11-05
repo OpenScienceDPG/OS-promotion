@@ -1,0 +1,133 @@
+schema_version: 1.0
+id: doi-10-1016-j-bodyim-2025-102019
+doi: 10.1016/j.bodyim.2025.102019
+bibliography:
+  title: 'Not just bodies to be viewed, but bodies that do: A study on the Functionality
+    Appreciation Scale (FAS) in Italian adolescents'
+  authors: Sara Iannattone; Gioia Bottesi; Michela Gatta; Marta Ghisi; Andrea Spoto;
+    Silvia Cerea
+  journal: Body Image
+  volume: '56'
+  issue: .na
+  pages: '102019'
+  year: 2026
+dpg:
+  authors:
+  - Sara Iannattone
+  - Gioia Bottesi
+  - Marta Ghisi
+  - Andrea Spoto
+  - Silvia Cerea
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation a: Department of General Psychology,
+    University of Padova (Iannattone, Bottesi, Ghisi, Spoto, Cerea); Gatta at Department
+    of Women''s and Children''s Health. Accepted 8 December 2025; Body Image 56 (2026)
+    102019.'
+source:
+  pdf_file: j.bodyim.2025.102019.pdf
+  pdf_path: .na.character
+  md5: 1224875b00bf170029bf0a01ab2ca512
+  article_url: OpenAlex open-access pdf_url for the DOI (cached by scripts/00-shortlist.R
+    on 2026-11-05)
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:53:48 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): anonymized dataset declared
+    publicly available on OSF qne49 (published view-only link); resource not opened,
+    Enrico check pending. Iannattone, Bottesi, Ghisi, Spoto, Cerea DPG; Body Image
+    2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1016/j.bodyim.2025.102019
+  preregistration: []
+  data: https://osf.io/qne49/?view_only=faa39cee91944ec58ff84f34f4b99280
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 4, 12
+  passage: 'Section 2.2 and Data availability: anonymized dataset declared publicly
+    available via the published OSF view-only link. No code or materials declared.
+    Declaration and link read; resource not opened.'
+  url: https://osf.io/qne49/?view_only=faa39cee91944ec58ff84f34f4b99280
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY-NC-ND 4.0 open
+    access licence printed in the final PDF.
+  url: https://doi.org/10.1016/j.bodyim.2025.102019
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Il corpo non è solo qualcosa da guardare allo specchio: ci permette
+    di correre, abbracciare, ridere, respirare. Apprezzarlo per ciò che sa fare, e
+    non solo per come appare, è associato secondo molte ricerche a un rapporto più
+    sereno con sé stessi. Per studiarlo negli adolescenti italiani, però, mancava
+    uno strumento affidabile. Il gruppo di ricerca ha proposto un breve questionario
+    di sette frasi a 1.289 ragazze e ragazzi tra i 13 e i 17 anni, insieme ad altre
+    domande sull''immagine del corpo, sull''alimentazione e sulla stima di sé. Il
+    questionario si è rivelato solido e funziona allo stesso modo per maschi e femmine,
+    per i più giovani e i più grandi; i ragazzi hanno riportato in media un apprezzamento
+    più alto delle ragazze. La ricerca ha ora uno strumento in più per studiare un''immagine
+    positiva del corpo.'
+  topics:
+  - immagine
+  - adolescenza
+  - psicometria
+  - benessere
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 1289 Italian adolescents aged 13-17 completed the 7-item
+      FAS with measures of body appreciation, surveillance, dissatisfaction, eating
+      disorder symptoms and self-esteem.'
+    - 'PDF p.1 abstract: unidimensional structure, invariance across sex and age groups,
+      boys reported significantly higher scores; good validity and reliability.'
+    - 'PDF p.4: data collected in 2 middle and 11 high schools across Italian regions.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

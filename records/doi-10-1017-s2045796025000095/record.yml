@@ -1,0 +1,130 @@
+schema_version: 1.0
+id: doi-10-1017-s2045796025000095
+doi: 10.1017/s2045796025000095
+bibliography:
+  title: 'Self-reports vs clinician ratings of efficacies of psychotherapies for depression:
+    a meta-analysis of randomized trials'
+  authors: Clara Miguel; Mathias Harrer; Eirini Karyotaki; Constantin Yves Plessen;
+    Marketa Ciharova; Toshi A. Furukawa; Ioana A. Cristea; Pim Cuijpers
+  journal: Epidemiology and Psychiatric Sciences
+  volume: '34'
+  pages: e15
+  year: 2025
+dpg:
+  authors:
+  - Ioana A. Cristea
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 7: Department of General Psychology,
+    University of Padova (Cristea). Published online 6 March 2025, vol. 34 e15.'
+source:
+  pdf_file: s2045796025000095.pdf
+  pdf_path: .na.character
+  md5: 7bb805908e45b602ce97216d3380bfb9
+  article_url: https://europepmc.org/articles/PMC11886967?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:21:28 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data and analysis code declared
+    on OSF jfwkr; registered protocol osf.io/c9tbz not counted (prospective timing
+    not stated); resource not opened, Enrico check pending. Cristea DPG; Epidemiol
+    Psychiatr Sci 2025; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1017/s2045796025000095
+  preregistration: []
+  data: https://osf.io/jfwkr/
+  code: https://osf.io/jfwkr/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: PDF page 7
+  passage: 'Availability of data and materials: data and analysis code declared available
+    at the OSF project https://osf.io/jfwkr/. Protocol registered on OSF (osf.io/c9tbz),
+    timing not stated: not counted. Broader metapsy database is another project''s
+    resource. Declaration read; resource not opened.'
+  url: https://osf.io/jfwkr/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.1017/s2045796025000095
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: 'Quando si vuole sapere se una psicoterapia contro la depressione
+    ha funzionato, a chi conviene chiedere: al paziente o a un esperto? Da tempo si
+    teme che i pazienti, sapendo di essere stati curati, tendano a dichiararsi migliorati
+    più del dovuto. Per verificarlo, il gruppo di ricerca ha riunito 91 studi sperimentali,
+    con oltre 7.000 partecipanti, nei quali la depressione era stata misurata in due
+    modi: con questionari compilati dai pazienti e con valutazioni fatte da clinici.
+    Nel complesso è emerso che i questionari dei pazienti non gonfiano i benefici
+    della terapia: anzi, mostrano miglioramenti leggermente più modesti di quelli
+    registrati dai clinici, e negli studi sugli adulti in generale le due misure coincidono.
+    Una conclusione preziosa: secondo gli autori, il modo in cui i pazienti giudicano
+    il proprio miglioramento non va considerato per principio meno attendibile.'
+  topics:
+  - depressione
+  - psicoterapia
+  - meta-analisi
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1-3: meta-analysis of randomized trials of psychotherapy for adult depression
+      measuring outcome with both self-report and clinician-rated scales.'
+    - 'PDF pp.3-4: 91 trials, 7,250 participants; self-report effects slightly smaller
+      than clinician ratings (difference 0.12), no difference in general adult samples.'
+    - 'PDF p.1, p.7: authors conclude self-reports do not overestimate effects and
+      should not be considered less valid by default.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

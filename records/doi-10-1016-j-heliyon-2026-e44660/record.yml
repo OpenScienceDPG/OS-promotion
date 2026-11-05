@@ -1,0 +1,131 @@
+schema_version: 1.0
+id: doi-10-1016-j-heliyon-2026-e44660
+doi: 10.1016/j.heliyon.2026.e44660
+bibliography:
+  title: 'Stress effects on cognition: Evidence for stress-related disruption of attention
+    and inhibitory control'
+  authors: Mohammad Ahsan Khodami; Giulio Contemori; Luca Battaglini; Maryam Jansarvatan
+  journal: Heliyon
+  volume: '12'
+  issue: '4'
+  pages: e44660
+  year: 2026
+dpg:
+  authors:
+  - Mohammad Ahsan Khodami
+  - Giulio Contemori
+  - Luca Battaglini
+  - Maryam Jansarvatan
+  verified: yes
+  verification_source: 'Final PDF p.1: single affiliation Department of General Psychology,
+    University of Padua for all four authors (Contemori printed ''Contemory''). Online
+    10 March 2026.'
+source:
+  pdf_file: heliyon.2026.e44660.pdf
+  pdf_path: .na.character
+  md5: f382047896490e7bf285abe9f8cf71e9
+  article_url: https://doi.org/10.1016/j.heliyon.2026.e44660
+  note: Final published PDF (OA copy located via OpenAlex) downloaded 2026-11-05,
+    candidate found by local keyword screen of open full texts; read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:40:35 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 5
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data and related materials
+    declared accessible on OSF ndp83; resource not opened, Enrico check pending. All
+    four authors DPG; Heliyon 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: yes
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1016/j.heliyon.2026.e44660
+  preregistration: []
+  data: https://osf.io/ndp83
+  code: []
+  materials: https://osf.io/ndp83
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_materials
+  source: pdf
+  location: PDF page 10
+  passage: 'Data availability: the data and related materials declared accessible
+    at https://osf.io/ndp83. Declaration read; resource not opened.'
+  url: https://osf.io/ndp83
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.1016/j.heliyon.2026.e44660
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; I materiali dello studio, come questionari e stimoli;
+    L'articolo, gratuito sul sito della rivista
+  public_summary: 'Quando siamo sotto pressione da settimane, anche un compito semplice
+    può sembrare più faticoso. Un gruppo di ricercatori ha provato a misurarlo in
+    91 giovani adulti: alcuni seguiti da psicologi clinici per un forte stress, altri
+    studenti universitari. Dopo un questionario sullo stress percepito, tutti hanno
+    svolto online due prove di attenzione: indicare il colore dell''inchiostro di
+    una parola, ignorando ciò che c''è scritto, e premere un tasto per certe frecce
+    trattenendosi per altre. In due versioni successive comparivano anche brevi suoni
+    o lampi di disturbo. Le persone più stressate davano meno risposte corrette, soprattutto
+    in presenza dei disturbi: con i lampi, circa 14 risposte giuste contro 26 di chi
+    era poco stressato. Per gli autori, questo legame aiuta a capire quanto uno stress
+    prolungato possa pesare sulla concentrazione di tutti i giorni.'
+  topics:
+  - stress
+  - attenzione
+  - autocontrollo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-3: 91 young adults grouped by perceived stress; online colour-word
+      and go/no-go tasks; later versions with sound or flash distractors.'
+    - 'PDF pp.4-8: higher-stress participants gave fewer correct responses, especially
+      with distractors (about 14 vs 26 correct with flashes, Table 4).'
+    - 'PDF Discussion: authors interpret results as stress-related disruption of attention
+      and inhibitory control (cross-sectional).'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

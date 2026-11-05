@@ -1,0 +1,119 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pmen-0000524
+doi: 10.1371/journal.pmen.0000524
+bibliography:
+  title: 'Association between Problematic Internet and Mobile Phone Use, autistic traits, and psychological
+    distress among adults: A cross-sectional survey'
+  authors: Matilda Floris; Claudio Gentili
+  journal: PLOS Mental Health
+  volume: '3'
+  pages: e0000524
+  year: 2026
+dpg:
+  authors:
+  - Matilda Floris
+  - Claudio Gentili
+  verified: true
+  verification_source: 'Final PDF p.1: both authors affiliated with (2) Department of General Psychology,
+    University of Padova.'
+source:
+  pdf_file: pmen.0000524.pdf
+  pdf_path: null
+  md5: 609328f39237ac763c5422d89503f235
+screening:
+  status: ready
+  first_screened_at: '2026-10-31'
+  last_screened_at: 2026-10-31 13:53:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 8
+  algorithm_suggestion: review
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Keep: public dataset and analysis script on OSF verified; Floris and Gentili DPG (affiliation
+    2); PLOS Ment Health 2026.'
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pmen.0000524
+  preregistration: []
+  data:
+  - https://osf.io/yvrfq/overview
+  code:
+  - https://osf.io/yvrfq/overview
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: page 1
+  passage: >-
+    Data availability statement: anonymized dataset, codebook and complete R Markdown analysis script
+    publicly available on OSF at printed link. OSF project public; dataset.xlsx, codebook.xlsx and script.Rmd
+    present.
+  url: https://osf.io/yvrfq/overview
+  verification: agent-verified
+  checked_at: '2026-10-31'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: Unpaywall by DOI; PDF p.1 copyright
+  passage: Unpaywall oa_status gold; publisher article freely accessible under CC BY licence, matching
+    DOI/title.
+  url: https://journals.plos.org/mentalhealth/article?id=10.1371/journal.pmen.0000524
+  verification: agent-verified
+  checked_at: '2026-10-31'
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Chi passa ore sullo smartphone o fatica a staccarsi da internet ha qualcosa in comune? Matilda Floris
+    e Claudio Gentili l'hanno chiesto a 420 adulti italiani con un questionario online.
+    Hanno misurato l'uso problematico di internet e del cellulare, il consumo di sostanze, il disagio
+    psicologico e i tratti autistici: caratteristiche come il modo di comunicare o di gestire i cambiamenti,
+    presenti in misura diversa in ognuno di noi. I più giovani, tra i 18 e i 24 anni, mostrano l'uso più
+    intenso di rete e telefono. Chi ha tratti autistici più marcati tende a usare internet e cellulare
+    in modo più problematico, mentre il disagio psicologico va di pari passo con tutti questi comportamenti,
+    compreso il consumo di sostanze. Per gli autori, dietro abitudini simili possono nascondersi strade
+    diverse: una pista preziosa per aiuti più mirati.
+  topics:
+  - uso di internet
+  - smartphone
+  - benessere psicologico
+  summary_review:
+    by: agent
+    at: '2026-10-31'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PLOS Ment Health 3(6) e0000524, published 2 June 2026; both authors DPG; CC BY.'
+    - 'PDF abstract, Methods and Discussion: online cross-sectional survey, 420 Italian adults aged 18-65;
+      AQ, UADI-2, MPPUS, ASSIST, K10; correlations, MANCOVA, multivariate regression.'
+    - >-
+      Results/Discussion: highest PIU/PMPU at 18-24 years; autistic traits associated with PIU and PMPU;
+      distress associated with all outcomes including substance use. Correlational design: associative
+      wording used.
+    review_note: Scientific claims checked against abstract, methods, results/discussion; separate editorial
+      pass for clarity and no overstatement.
+publication:
+  published: false
+  featured: false

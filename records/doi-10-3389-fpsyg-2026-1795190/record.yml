@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1795190
+doi: 10.3389/fpsyg.2026.1795190
+bibliography:
+  title: 'Guided tours in historical and religious sites: emotional restoration and
+    the role of individual differences'
+  authors: Laura Miola; Guido Furlan; Greta Montanari; Gianmario Guidarelli; Elena
+    Svalduz; Jacopo Bonetto; Andrea Giordano; Francesca Pazzaglia
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1795190'
+  year: 2026
+dpg:
+  authors:
+  - Laura Miola
+  - Francesca Pazzaglia
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (Miola, Pazzaglia, also CIRPA Sapienza); other authors at
+    Padova Departments of Cultural Heritage and of Civil, Environmental and Architectural
+    Engineering. Published 28 May 2026; Front. Psychol. 17:1795190.'
+source:
+  pdf_file: fpsyg.2026.1795190.pdf
+  pdf_path: .na.character
+  md5: 8b8a851b68fd67ce7908d6f5e74fea5a
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1795190/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:13:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): datasets declared on Zenodo
+    19582749 (community inest_spoke4); resource not opened, Enrico check pending.
+    Miola, Pazzaglia DPG; Front Psychol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1795190
+  preregistration: []
+  data: https://zenodo.org/records/19582749
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 9
+  passage: 'Data availability statement: datasets presented in the study declared
+    in online repositories, Zenodo community inest_spoke4 and record 19582749. No
+    code or materials declared. Declaration and link read; resource not opened.'
+  url: https://zenodo.org/records/19582749
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2026.1795190
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Una visita guidata in un luogo storico può farci sentire meglio,
+    come una passeggiata nel verde? Le ricercatrici e i ricercatori hanno chiesto
+    a 149 visitatori di compilare brevi questionari prima e dopo una visita guidata
+    di 45 minuti in due luoghi del Nord-Est: il sito archeologico di Aquileia e l''Abbazia
+    benedettina di Praglia, sui Colli Euganei. Hanno misurato emozioni, stress dell''ultimo
+    mese, legame con la natura e la sensazione di essersi ricaricati. In entrambi
+    i luoghi, dopo la visita, le emozioni erano più positive; ad Aquileia i visitatori
+    si sentivano anche più attivati, mentre a Praglia il livello di attivazione restava
+    stabile. Chi attribuiva alla visita un forte valore artistico, culturale e storico
+    si sentiva più rigenerato. Un suggerimento prezioso per progettare visite che
+    facciano bene anche alla mente.'
+  topics:
+  - benessere
+  - emozioni
+  - ambiente
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 149 participants completed questionnaires before and after
+      a 45-min guided tour at Aquileia or the Benedictine Abbey of Praglia.'
+    - 'PDF p.4: Praglia Abbey on the northern slopes of the Euganean Hills.'
+    - 'PDF p.1 abstract: valence increased at both sites; arousal stable at Praglia,
+      increased at Aquileia; restorativeness predicted by artistic, cultural and historical
+      significance, connectedness to nature (Aquileia) and perceived stress (Praglia).'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

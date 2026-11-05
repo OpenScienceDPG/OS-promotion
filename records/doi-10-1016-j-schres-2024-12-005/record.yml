@@ -1,0 +1,77 @@
+schema_version: 1.0
+id: doi-10-1016-j-schres-2024-12-005
+doi: 10.1016/j.schres.2024.12.005
+bibliography:
+  title: 'Choroid plexus morphology in schizophrenia and early-stage psychosis: A
+    cross-sectional study'
+  authors: Gina Brunner; Ruchika Gajwani; Joachim Gross; Andrew Gumley; Rhiannon H.
+    Timmerman; Rhiannon Taylor; Rajeev Krishnadas; Stephen M. Lawrie; Matthias Schwannauer;
+    Frauke Schultze-Lutter; Peter J. Uhlhaas; Alessio Fracasso
+  journal: Schizophrenia Research
+  volume: '275'
+  pages: 107-114
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final PDF p.1: Alessio Fracasso listed only at School of Psychology
+    and Neuroscience, University of Glasgow; no author has a DPG or Padova affiliation
+    printed. Inventory listing reflects later/current affiliation, not affiliation
+    at publication.'
+source:
+  pdf_file: j.schres.2024.12.005.pdf
+  pdf_path: .na.character
+  md5: 2b21274537191535a52eacffd387aca6
+  article_url: https://www.research.unipd.it/bitstream/11577/3550010/1/1-s2.0-S0920996424005073-main.pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source,
+    read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:01:32 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject (out of scope): no author has a DPG or any Padova affiliation
+    printed at publication (Fracasso listed only at University of Glasgow); also no
+    open practice declared beyond OA. Schizophr Res 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1016/j.schres.2024.12.005
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

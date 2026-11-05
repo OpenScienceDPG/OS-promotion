@@ -1,0 +1,128 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1670292
+doi: 10.3389/fpsyg.2026.1670292
+bibliography:
+  title: 'Dance to be creative: the creative beliefs, creativity ability and improvisation
+    performance in experts, amateurs, and non-dancers'
+  authors: Anahita Soltantouyeh; Tommaso Feraco; Benedetta Agostinis; Chiara Meneghetti
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1670292'
+  year: 2026
+dpg:
+  authors:
+  - Anahita Soltantouyeh
+  - Tommaso Feraco
+  - Benedetta Agostinis
+  - Chiara Meneghetti
+  verified: yes
+  verification_source: 'Final PDF p.1: single affiliation Department of General Psychology,
+    University of Padova for all authors. Published 2 July 2026; Front. Psychol. 17:1670292.'
+source:
+  pdf_file: fpsyg.2026.1670292.pdf
+  pdf_path: .na.character
+  md5: bf607218634b21fee3a16963d95639f4
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1670292/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:13:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): datasets declared on Figshare
+    10.6084/m9.figshare.29477996; resource not opened, Enrico check pending. All four
+    authors DPG; Front Psychol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1670292
+  preregistration: []
+  data: https://doi.org/10.6084/m9.figshare.29477996
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 8
+  passage: 'Data availability statement: datasets presented in the study declared
+    in online repositories, Figshare DOI 10.6084/m9.figshare.29477996. No code or
+    materials declared. Declaration and link read; resource not opened.'
+  url: https://doi.org/10.6084/m9.figshare.29477996
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2026.1670292
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Ballare va di pari passo con l''essere creativi? Le ricercatrici
+    e i ricercatori hanno messo a confronto 35 ballerini esperti di danza moderna,
+    45 ballerini amatoriali e 36 persone che non ballano. Tutti hanno svolto una prova
+    di creatività, inventando usi originali per oggetti comuni, e hanno risposto a
+    domande su quanto si sentono creativi. Ballerini esperti e amatori hanno anche
+    improvvisato una danza a partire da uno spunto poetico: il corpo è un orologio.
+    Gli esperti hanno ottenuto i risultati migliori sia nella prova di creatività
+    sia nell''improvvisazione, e anche gli amatori hanno trovato più idee di chi non
+    balla; solo gli esperti, però, si percepivano più creativi. Negli amatori, inoltre,
+    chi aveva più idee nella prova scritta improvvisava meglio. Un risultato che conferma
+    il legame tra danza e creatività, nella mente come nel corpo.'
+  topics:
+  - creatività
+  - danza
+  - movimento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 35 expert dancers, 45 amateurs, 36 non-dancers; creative
+      task and creative beliefs questionnaires; experts and amateurs also performed
+      an improvisation task.'
+    - 'PDF p.4: Alternative Uses Task; Dance Improvisation Task prompt ''The body
+      is a clock''.'
+    - 'PDF pp.1, 5: experts outperformed in creative and improvisation tasks; amateurs
+      higher than controls on creative fluency; only experts reported higher creative
+      beliefs; creative task predicted improvisation in amateurs, not experts.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

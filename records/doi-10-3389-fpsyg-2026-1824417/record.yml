@@ -1,0 +1,130 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1824417
+doi: 10.3389/fpsyg.2026.1824417
+bibliography:
+  title: The influence of foreign language and a word-color unitization strategy on
+    the age-related associative deficit
+  authors: Ricarda Endemann; Erika Borella; Elena Carbone; Enrico Sella; Siri-Maria
+    Kamp
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1824417'
+  year: 2026
+dpg:
+  authors:
+  - Erika Borella
+  - Elena Carbone
+  - Enrico Sella
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 2: Department of General Psychology,
+    University of Padua (Borella, Carbone, Sella, also IRCCS San Camillo); Endemann
+    and Kamp at Trier University. Published 28 July 2026; Front. Psychol. 17:1824417.'
+source:
+  pdf_file: fpsyg.2026.1824417.pdf
+  pdf_path: .na.character
+  md5: 10adc6dcc66e406270ddb458d444670d
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1824417/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:43:11 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): datasets declared on OSF sd27h;
+    resource not opened, Enrico check pending. Borella, Carbone, Sella DPG; Front
+    Psychol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1824417
+  preregistration: []
+  data: https://osf.io/sd27h/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 10
+  passage: 'Data availability statement: datasets presented in the study declared
+    in online repositories, OSF sd27h. No code or materials declared. Declaration
+    and link read; resource not opened.'
+  url: https://osf.io/sd27h/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the read version.
+  url: https://doi.org/10.3389/fpsyg.2026.1824417
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Ricordare un nome è una cosa, ricordare a quale volto apparteneva
+    è un''altra: con l''età è spesso il collegamento tra due informazioni a diventare
+    più difficile. Questo studio ha chiesto a 34 giovani e 17 anziani italiani in
+    buona salute di memorizzare parole abbinate a un colore, sia in italiano sia in
+    tedesco, una lingua straniera. In alcune prove ricevevano un suggerimento: immaginare
+    l''oggetto proprio di quel colore, per fondere le due informazioni in un''unica
+    immagine. Gli anziani, con una buona riserva cognitiva, cioè molte esperienze
+    stimolanti nel corso della vita, se la cavavano come i giovani quando il compito
+    era più semplice, nella propria lingua e senza suggerimenti. Con la lingua straniera
+    e con la strategia, invece, la differenza emergeva, anche perché i giovani traevano
+    maggior vantaggio dal suggerimento. Uno studio prezioso per capire quando l''età
+    pesa sulla memoria.'
+  topics:
+  - memoria
+  - invecchiamento
+  - lingua
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: Italian younger (n = 34) and healthy older (n = 17) adults;
+      word-color associative recognition in native language and German, with and without
+      a unitization instruction (imagine the object in the associated color).'
+    - 'PDF p.1 abstract: older adults with high cognitive reserve proxies showed no
+      relative associative deficit in the native language without instruction; deficit
+      emerged in the foreign language and with the strategy.'
+    - 'PDF p.1 abstract: strategy benefit larger for young than older adults; little
+      evidence of language modulation after proficiency matching.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

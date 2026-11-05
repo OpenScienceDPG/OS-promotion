@@ -1,0 +1,144 @@
+schema_version: 1.0
+id: doi-10-1098-rsos-252345
+doi: 10.1098/rsos.252345
+bibliography:
+  title: 'Predictions under sleep restriction: the effects of partial sleep deprivation on learning and
+    inhibitory control'
+  authors: Margherita Calderan; Antonino Visalli; Giorgia Degasperi; Lisa Toffoli; Roberta Sellaro; Nicola
+    Cellini
+  journal: Royal Society Open Science
+  volume: '13'
+  issue: '3'
+  pages: '252345'
+  year: 2026
+dpg:
+  authors:
+  - Margherita Calderan
+  - Giorgia Degasperi
+  - Lisa Toffoli
+  - Nicola Cellini
+  verified: true
+  verification_source: 'Publisher full-text HTML, author affiliations: Calderan, Degasperi, Toffoli and
+    Cellini, Department of General Psychology, University of Padua (Visalli: Modena and Reggio Emilia;
+    Sellaro: Developmental Psychology and Socialisation, not DPG). Published 18 March 2026, R. Soc. Open
+    Sci. 13(3): 252345.'
+source:
+  pdf_file: null
+  pdf_path: null
+  md5: null
+  article_url: https://royalsocietypublishing.org/rsos/article/13/3/252345/480969/Predictions-under-sleep-restriction-the-effects-of
+  note: Full text read as publisher HTML in Enrico's connected browser on 2026-11-05; automated PDF download
+    blocked by the publisher bot check (not circumvented). No PDF hash.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: null
+  algorithm_score: null
+  algorithm_suggestion: null
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based, full HTML): all data and scripts declared freely
+    available on OSF (reference 57 DOI); go/no-go task declared freely available on Pavlovia GitLab; resources
+    not opened, Enrico check pending. Four DPG authors; RSOS 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1098/rsos.252345
+  preregistration: []
+  data:
+  - https://doi.org/10.17605/OSF.IO/6FXMH
+  code:
+  - https://doi.org/10.17605/OSF.IO/6FXMH
+  materials:
+  - https://gitlab.pavlovia.org/mar.cald/cgng
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: article-html
+  location: Publisher HTML, Data accessibility section and reference 57
+  passage: All data and scripts explicitly declared freely available, citing the OSF project with DOI.
+    Declaration and actual link read in the article; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://doi.org/10.17605/OSF.IO/6FXMH
+  verification: unverified
+- claims:
+  - open_materials
+  source: article-html
+  location: Publisher HTML, Data accessibility section
+  passage: The go/no-go task explicitly declared freely available at the printed Pavlovia GitLab link.
+    Declaration and actual link read in the article; resource not opened; external content/access unverified,
+    manual Enrico check pending.
+  url: https://gitlab.pavlovia.org/mar.cald/cgng
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; publisher full text openly accessible.
+  url: https://doi.org/10.1098/rsos.252345
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari
+    e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Dopo una notte quasi in bianco ci sentiamo meno lucidi, ma che cosa cambia davvero nella nostra
+    mente? Margherita Calderan, Nicola Cellini e colleghi hanno chiesto a un gruppo di giovani
+    adulti di dormire solo quattro ore, mentre un altro gruppo riposava normalmente; un sensore
+    registrava il sonno di tutti. La mattina dopo tutti svolgevano un compito al computer: premere
+    un tasto quando appariva un certo segnale e trattenersi quando ne compariva un altro, mentre la
+    frequenza dei due segnali cambiava senza preavviso. Sorprendentemente, chi aveva dormito poco
+    non sbagliava più degli altri nel trattenersi. Un modello matematico dell'apprendimento ha però
+    rivelato una differenza: i partecipanti privati di sonno percepivano l'ambiente come meno
+    mutevole. Secondo gli autori, questo rende più difficile accorgersi dei cambiamenti e
+    aggiornare le proprie aspettative. Un motivo in più per difendere una buona notte di sonno.
+  topics:
+  - sonno
+  - controllo inibitorio
+  - apprendimento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Publisher HTML: R. Soc. Open Sci. 13(3) 252345, 18 March 2026; four DPG authors.'
+    - 'HTML abstract and Methods: adults 18-35 randomly assigned to 4 h sleep restriction (N=32) or well
+      rested (N=34); actigraphy; morning go/no-go with unannounced go probabilities 20/50/80%.'
+    - 'HTML abstract, Results, Conclusion: no group differences in inhibitory control; volatile Kalman
+      filter model shows diminished perceived volatility in sleep-restricted group; authors link to belief
+      updating.'
+    review_note: Null behavioural result presented as finding; model interpretation attributed to authors.
+      Scientific and editorial passes completed.
+publication:
+  published: false
+  featured: false

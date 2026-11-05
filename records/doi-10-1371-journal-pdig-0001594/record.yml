@@ -1,0 +1,132 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pdig-0001594
+doi: 10.1371/journal.pdig.0001594
+bibliography:
+  title: 'Transparency in healthcare AI: Testing EU regulatory provisions against
+    users'' transparency needs'
+  authors: Anna Spagnolli; Cecilia Tolomini; Elisa Beretta; Patrik Pluchino; Claudio
+    Sarra
+  journal: PLOS Digital Health
+  volume: '5'
+  issue: '7'
+  pages: e0001594
+  year: 2026
+dpg:
+  authors:
+  - Anna Spagnolli
+  - Elisa Beretta
+  - Patrik Pluchino
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Dipartimento di Psicologia Generale,
+    Universita degli Studi di Padova (Spagnolli, Beretta, Pluchino); Tolomini and
+    Sarra at Dipartimento di Diritto Privato e Critica del Diritto. Published 24 July
+    2026; PLOS Digit Health 5(7): e0001594.'
+source:
+  pdf_file: pdig.0001594.pdf
+  pdf_path: .na.character
+  md5: 08ff216adfe4b2f99a53b5aff4c2a06a
+  article_url: https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0001594&type=printable
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:43:11 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): survey dataset declared available
+    in Zenodo public repository 10.5281/zenodo.15663585; resource not opened, Enrico
+    check pending. Spagnolli, Beretta, Pluchino DPG; PLOS Digit Health 2026; gold
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1371/journal.pdig.0001594
+  preregistration: []
+  data: https://doi.org/10.5281/zenodo.15663585
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 1, 6
+  passage: 'Data availability statement (p.1): anonymous quantitative survey dataset
+    declared available in the Zenodo public repository 10.5281/zenodo.15663585; supporting
+    figures and tables in Zenodo 10.5281/zenodo.19451395 (not counted as materials).
+    Declaration and link read; resource not opened.'
+  url: https://doi.org/10.5281/zenodo.15663585
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the read version.
+  url: https://doi.org/10.1371/journal.pdig.0001594
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Se in ospedale un programma di intelligenza artificiale aiuta a
+    prendere decisioni, chi lo usa ha diritto a sapere come funziona, quanto è affidabile
+    e quali limiti ha. La legge europea prevede per questo un documento apposito,
+    le istruzioni per l''uso, con un elenco preciso di informazioni da fornire. Ma
+    risponde davvero alle domande di chi usa questi strumenti? Il gruppo di ricerca
+    ha chiesto a 813 persone, tra dirigenti, professionisti sanitari, pazienti ed
+    esperti informatici, di valutare l''importanza di 24 tipi di informazioni e di
+    indovinare in quale parte del documento trovarle. Le priorità cambiavano da un
+    gruppo all''altro e alcune informazioni risultavano difficili da rintracciare.
+    Da qui gli autori ricavano consigli concreti per scrivere istruzioni più chiare
+    e utili: un passo importante perché la tecnologia in medicina sia davvero trasparente
+    per tutti.'
+  topics:
+  - tecnologia
+  - salute
+  - intelligenza artificiale
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: EU AI Act requires transparency information in Instructions
+      for Use; online survey of managers (238), healthcare professionals (115), patients
+      (229) and IT workers (230); author summary 813 respondents, 24 types of transparency
+      information.'
+    - 'PDF p.1 abstract: differentiated priorities across user types; weaknesses in
+      locating some information.'
+    - 'PDF pp.12-13: design recommendations for transparency documentation; conclusions.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

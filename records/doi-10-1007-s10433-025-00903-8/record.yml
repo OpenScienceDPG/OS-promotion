@@ -1,0 +1,131 @@
+schema_version: 1.0
+id: doi-10-1007-s10433-025-00903-8
+doi: 10.1007/s10433-025-00903-8
+bibliography:
+  title: 'The effect of age on the architecture of psychological and cognitive dimensions:
+    a network perspective'
+  authors: Stefano Vicentin; Umberto Granziol; Daniele Romano; Michele Scandola; Giorgia
+    Cona
+  journal: European Journal of Ageing
+  volume: '23'
+  issue: .na
+  pages: '10'
+  year: 2026
+dpg:
+  authors:
+  - Stefano Vicentin
+  - Umberto Granziol
+  - Giorgia Cona
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padua (Vicentin, Granziol, Cona); Romano at Milano-Bicocca, Scandola
+    at Verona. Accepted 4 December 2025; European Journal of Ageing (2026) 23:10.'
+source:
+  pdf_file: s10433-025-00903-8.pdf
+  pdf_path: .na.character
+  md5: c361ce91a0c56dd0a2459e22da01693b
+  article_url: https://link.springer.com/content/pdf/10.1007/s10433-025-00903-8.pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:53:48 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): R analysis and visualization
+    code declared publicly available on OSF 9q74d; HCP raw data restricted (not open
+    data); resource not opened, Enrico check pending. Vicentin, Granziol, Cona DPG;
+    Eur J Ageing 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: no
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1007/s10433-025-00903-8
+  preregistration: []
+  data: []
+  code: https://osf.io/9q74d/
+  materials: []
+  protocol: []
+evidence:
+- claims: open_code
+  source: pdf
+  location: page 9
+  passage: 'Data availability: all R scripts and code used for analysis and visualization
+    declared publicly available on OSF; raw HCP data restricted by NIH licence and
+    not redistributed (open_data false). Declaration and link read; resource not opened.'
+  url: https://osf.io/9q74d/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY-NC-ND 4.0 open
+    access licence printed in the final PDF.
+  url: https://doi.org/10.1007/s10433-025-00903-8
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Invecchiando, memoria, carattere e umore cambiano ciascuno per
+    conto proprio, oppure si trasformano insieme, come pezzi di un unico sistema?
+    Per rispondere, i ricercatori hanno analizzato i dati di un grande progetto internazionale
+    su 681 adulti tra i 22 e i 79 anni, divisi in giovani, adulti di mezza età e anziani.
+    Per ogni gruppo hanno disegnato una sorta di mappa dei legami tra 19 caratteristiche:
+    capacità di ragionamento e memoria, tratti di personalità, benessere psicologico.
+    Nei giovani le abilità mentali più semplici e quelle più complesse formavano due
+    gruppi distinti, che con l''età si fondevano in un unico blocco. Negli anziani,
+    inoltre, il riconoscere le emozioni altrui e la scelta tra un premio subito o
+    uno più grande in futuro si avvicinavano alla sfera della personalità e dell''umore.
+    Secondo gli autori, invecchiare significa anche riorganizzarsi, non soltanto declinare.'
+  topics:
+  - invecchiamento
+  - cognizione
+  - personalità
+  - modelli
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: HCP-Young and HCP-Aging data, Young 22-39 (n=230), Middle-aged
+      40-59 (n=242), Older 60-79 (n=209); 19 cognitive, psychological and personality
+      variables; psychometric networks per age group.'
+    - 'PDF p.1 abstract: young adults'' cognitive variables split into lower and higher
+      functions, not in older groups; delay discounting and emotion recognition clustered
+      with personality and psychological factors in older adults.'
+    - 'PDF pp.1, 9: authors interpret structural transformation, dedifferentiation
+      and general reorganization with age; cross-sectional design.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

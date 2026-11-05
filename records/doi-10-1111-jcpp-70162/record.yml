@@ -1,0 +1,131 @@
+schema_version: 1.0
+id: doi-10-1111-jcpp-70162
+doi: 10.1111/jcpp.70162
+bibliography:
+  title: 'Learning-based cognitive control in ADHD: a multicentric study'
+  authors: Lisa Toffoli; Giulia Stefanelli; Fiorella Del Popolo Cristaldi; Gian Marco
+    Duma; Massimiliano Pastore; Vincenza Tarantino; Malida Franzoi; Marilena Vecchi;
+    Alberto Danieli; Federica Martinez; Agnes Blaye; Corentin Gonthier; CALM-1 Team;
+    Giovanni Mento
+  journal: Journal of Child Psychology and Psychiatry
+  volume: '67'
+  issue: '10'
+  pages: 1624-1638
+  year: 2026
+dpg:
+  authors:
+  - Lisa Toffoli
+  - Giulia Stefanelli
+  - Fiorella Del Popolo Cristaldi
+  - Giovanni Mento
+  verified: yes
+  verification_source: 'Final PDF p.1624, affiliation 1: Department of General Psychology
+    - DPG, University of Padova. Pastore printed at DPSS (not DPG). Online 5 May 2026;
+    issue 67(10) 2026.'
+source:
+  pdf_file: jcpp.70162.pdf
+  pdf_path: .na.character
+  md5: a108b36be2e89cf361ff6cabe22ea189
+  article_url: https://europepmc.org/articles/PMC13535711?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:31:15 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared openly available
+    on OSF via published view-only link; resource not opened, Enrico check pending.
+    Toffoli, Stefanelli, Del Popolo Cristaldi, Mento DPG (Pastore DPSS); J Child Psychol
+    Psychiatry 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/jcpp.70162
+  preregistration: []
+  data: https://osf.io/gae2c/?view_only=97462614f1b74214a8b451119428c604
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: PDF page 1636
+  passage: 'Data availability statement: data declared openly available in OSF at
+    published view-only link. Declaration read; resource not opened.'
+  url: https://osf.io/gae2c/?view_only=97462614f1b74214a8b451119428c604
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; Creative Commons
+    open access licence printed in the final PDF.
+  url: https://doi.org/10.1111/jcpp.70162
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Spesso si pensa che i bambini con ADHD, il disturbo da deficit
+    di attenzione e iperattività, fatichino in tutto ciò che richiede concentrazione.
+    Ma è davvero così? Grazie a dieci centri clinici e ad alcune scuole, oltre 240
+    bambini e ragazzi tra 7 e 14 anni, 145 dei quali con ADHD, hanno affrontato due
+    videogiochi: uno con frecce da seguire ignorando quelle vicine, l''altro con astronauti
+    da aiutare, trattenendosi dal rispondere quando appariva un alieno. Alcune parti
+    dei giochi erano più prevedibili di altre. Nel gioco più semplice, i bambini con
+    ADHD imparavano a sfruttare le regolarità come i coetanei. Nel compito più complesso
+    si adattavano in modo meno efficiente. Secondo gli autori, le difficoltà non dipendono
+    da una minore capacità di imparare dal contesto: un messaggio incoraggiante, utile
+    per pensare interventi mirati alle situazioni quotidiane più impegnative.'
+  topics:
+  - ADHD
+  - attenzione
+  - apprendimento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF abstract and Methods: multicentre study, 145 children with ADHD and 97
+      typically developing children aged 7-14; same flanker and astronaut go/no-go
+      tasks.'
+    - 'PDF pp.1629-1630: similar predictability effect in both groups in the flanker
+      task; less efficient adaptation in ADHD in the go/no-go task.'
+    - 'PDF Discussion: authors conclude difficulties are not due to impaired learning-based
+      control per se and suggest tailored interventions.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

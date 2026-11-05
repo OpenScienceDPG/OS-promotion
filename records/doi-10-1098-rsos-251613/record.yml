@@ -1,0 +1,124 @@
+schema_version: 1.0
+id: doi-10-1098-rsos-251613
+doi: 10.1098/rsos.251613
+bibliography:
+  title: 'Musical expertise and cognitive abilities: no advantage for professionals over amateurs'
+  authors: Francesca Talamini; E. Glenn Schellenberg; Massimo Grassi; César F. Lima
+  journal: Royal Society Open Science
+  volume: '13'
+  issue: '1'
+  pages: '251613'
+  year: 2026
+dpg:
+  authors:
+  - Massimo Grassi
+  verified: true
+  verification_source: 'Publisher full-text HTML, author affiliations: Massimo Grassi, Dipartimento di
+    Psicologia Generale, Università degli Studi di Padova. Other authors: Innsbruck, ISCTE Lisboa, Toronto
+    Mississauga. Published 21 January 2026, R. Soc. Open Sci. 13(1): 251613.'
+source:
+  pdf_file: null
+  pdf_path: null
+  md5: null
+  article_url: https://royalsocietypublishing.org/rsos/article/13/1/251613/479653/Musical-expertise-and-cognitive-abilities-no
+  note: Full text read as publisher HTML in Enrico's connected browser on 2026-11-05; automated PDF download
+    blocked by the publisher bot check (not circumvented). No PDF hash.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: null
+  algorithm_score: null
+  algorithm_suggestion: null
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based, full HTML): analysed dataset declared freely available
+    for public use on OSF (DOI in reference 66); resource not opened, Enrico check pending. Grassi DPG;
+    RSOS 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1098/rsos.251613
+  preregistration: []
+  data:
+  - https://doi.org/10.17605/OSF.IO/Y97T3
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article-html
+  location: Publisher HTML, Data accessibility section and reference 66
+  passage: The dataset analysed in the article (Music Ensemble project) explicitly declared freely available
+    for public use at the OSF platform, with OSF DOI in the cited reference. Declaration and actual link
+    read in the article; resource not opened; external content/access unverified, manual Enrico check
+    pending. No analysis code statement (analyses in JASP).
+  url: https://doi.org/10.17605/OSF.IO/Y97T3
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; Crossref licence metadata
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; Crossref lists CC BY 4.0 licence.
+  url: https://doi.org/10.1098/rsos.251613
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Chi suona uno strumento è anche più bravo in altre attività della mente? Spesso si pensa di sì,
+    e il merito viene dato agli anni di studio musicale. Se così fosse, i professionisti dovrebbero
+    superare anche i dilettanti. Francesca Talamini, Massimo Grassi e colleghi lo hanno verificato
+    rianalizzando i dati di un grande progetto internazionale, raccolti da 33 laboratori in 15
+    Paesi: quasi 1.250 persone tra non musicisti, musicisti amatoriali e professionisti. Come
+    previsto, le abilità musicali crescevano con l'esperienza. Le altre capacità, invece, no:
+    entrambi i gruppi di musicisti superavano i non musicisti, per esempio nel vocabolario e nella
+    memoria per le immagini, ma i professionisti non superavano mai i dilettanti. Per gli autori,
+    queste differenze potrebbero dipendere anche da chi sceglie di dedicarsi alla musica. Un
+    risultato che invita a guardare la musica con occhi nuovi.
+  topics:
+  - musica
+  - abilità cognitive
+  - competenza
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Publisher HTML: R. Soc. Open Sci. 13(1) 251613, 21 January 2026; Grassi DPG.'
+    - 'HTML abstract and Method: reanalysis of Music Ensemble data, 33 labs in 15 countries; 608 nonmusicians,
+      289 amateurs, 352 professionals; demographic controls; NHST plus Bayes factors.'
+    - 'HTML abstract and Discussion: musical abilities increase with expertise; both musician groups
+      outperform nonmusicians in visuospatial STM, vocabulary, executive functions; professionals never
+      exceed amateurs; authors point to selection effects.'
+    review_note: Scientific claims checked against abstract, method and discussion; associative wording
+      kept; separate editorial pass.
+publication:
+  published: false
+  featured: false

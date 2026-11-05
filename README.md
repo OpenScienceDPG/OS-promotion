@@ -34,21 +34,45 @@ Put new PDFs anywhere below `inbox/`, then ask an agent to **process inbox**. Th
 
 After finalization every PDF (kept, rejected or duplicate) is deleted from `inbox/`; keep originals outside the repository. Known hashes are recognized, and an existing human override is never replaced by automation.
 
-## Rapid mode
+Alternatively, ask **“proseguire il lavoro”**: the agent uses the latest dated
+`inbox/list-YYYY-MM-DD.xlsx` as the publication inventory, filters to 2025 onward,
+compares against accepted and rejected records, and searches for **5–7 new papers**,
+taken in priority order (2026 first) from the keyword shortlist built by
+`scripts/00-shortlist.R` (`reports/candidati-keyword-YYYY-MM-DD.csv`).
+Problems needing a human decision are logged in `notes/open-issues.md`.
+It may use the connected browser and existing university access when available.
+The workbook remains intact; it supplies bibliography and Unpaywall OA type,
+not evidence of other Open Science practices. OA badges accept gold, bronze or
+hybrid; OA never determines inclusion. Both workflows preserve decisions in
+records and the ledger; unavailable papers remain unresolved rather than rejected.
+See `AGENTS.md` for deduplication, access-attempt tracking and the batch workflow.
 
-An explicit request to work/proceed in **"modalità rapida"** accepts a paper's
-explicit declaration of public data, code, materials, protocol, preregistration
-or another substantive practice when the paper supplies an actual resource
-link, including view-only. The agent does not open or test these links.
-Declared practices receive their badges and the paper is included normally,
-with its Italian public summary. Enrico will manually double-check resources.
+## Review modes
 
-Records distinguish this basis with `screening.review_mode: rapid`, evidence
-`verification: unverified` and `curation.resource_review.status: pending`.
-Identity/scope, scientific-summary review and validation still apply.
-See [the agent protocol](AGENTS.md) and [record conventions](records/README.md).
-The exception applies to the requested unit; ordinary requests use ordinary
-verification.
+**Ordinary mode (default)** accepts a paper's explicit declaration that a
+specific resource (data, code, materials, protocol, preregistration or another
+qualifying practice) is openly available without access conditions, only if
+the paper also supplies an actual supporting resource link. Generic statements,
+bare links and availability on request do not qualify. Published view-only
+links qualify when presented as providing access without login or authorization.
+The agent reads the declaration and link in the paper but does not open or test
+the resource. Qualifying practices receive their badges and normal inclusion.
+
+Records use `screening.review_mode: ordinary`, evidence
+`verification: unverified` and `curation.resource_review.status: pending`,
+assigned to Enrico. Pending resource checks do not block `ready`.
+
+**In-depth mode ("modalità approfondita")**, explicitly requested for a unit
+of work, adds an independent check that the linked resources exist, correspond
+to the paper, support the claimed practice and are accessible without login,
+requests or further authorization. Records use `screening.review_mode: in_depth`
+and dated evidence of the actual checks.
+
+Identity/scope, deduplication, scientific-summary review and validation apply
+in both modes. Open Access is recorded separately and is neither necessary nor
+sufficient for inclusion. Historical `review_mode: rapid` records retain their
+original provenance. See [the agent protocol](AGENTS.md) and
+[record conventions](records/README.md).
 
 ## Manual commands
 

@@ -1,0 +1,128 @@
+schema_version: 1.0
+id: doi-10-1111-psyp-70259
+doi: 10.1111/psyp.70259
+bibliography:
+  title: 'Physical Proximity With Social Support Regulates Vigilance to Threat: Evidence
+    From Startle Reactivity During Emotional Stress Induction'
+  authors: Antonio Maffei; Fiorella Del Popolo Cristaldi; Alessia Tecchio; Terry D.
+    Blumenthal; Paola Sessa
+  journal: Psychophysiology
+  volume: '63'
+  issue: .na
+  pages: e70259
+  year: 2026
+dpg:
+  authors:
+  - Fiorella Del Popolo Cristaldi
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 3: Department of General Psychology,
+    University of Padova (Del Popolo Cristaldi); Maffei, Tecchio, Sessa at DPSS; Blumenthal
+    Wake Forest. Accepted 27 January 2026; Psychophysiology 2026; 63:e70259.'
+source:
+  pdf_file: psyp.70259.pdf
+  pdf_path: .na.character
+  md5: 49e69437f8b6ef8ccab904b5286cd2fa
+  article_url: https://europepmc.org/articles/PMC12888949?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:43:11 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared openly available
+    on OSF a52t7 (published view-only link); resource not opened, Enrico check pending.
+    Del Popolo Cristaldi DPG (Maffei, Tecchio, Sessa DPSS); Psychophysiology 2026;
+    hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/psyp.70259
+  preregistration: []
+  data: https://osf.io/a52t7/?view_only=c6eea061153945f5a720520d81c270e1
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 8
+  passage: 'Data Availability Statement: data supporting the findings declared openly
+    available in OSF via the published view-only link. Declaration and link read;
+    resource not opened.'
+  url: https://osf.io/a52t7/?view_only=c6eea061153945f5a720520d81c270e1
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY open access
+    licence printed in the read version.
+  url: https://doi.org/10.1111/psyp.70259
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Affrontare un momento difficile con qualcuno accanto ci fa sentire
+    più al sicuro: ma che cosa succede davvero nel nostro corpo? Le ricercatrici e
+    i ricercatori hanno sottoposto 70 giovani donne a una prova stressante, un finto
+    colloquio di lavoro davanti a una commissione. Alcune lo affrontavano da sole,
+    altre con il proprio partner accanto, altre ancora con una persona sconosciuta.
+    Durante la prova, brevi suoni improvvisi provocavano il riflesso di sussulto,
+    misurato dal battito delle palpebre, un indicatore di quanto siamo all''erta.
+    Lo stress era associato a un forte smorzamento di questo riflesso, ma avere qualcuno
+    vicino ne attenuava l''effetto, che si trattasse del partner o di uno sconosciuto.
+    Secondo gli autori, la vicinanza degli altri aiuta a gestire la minaccia condividendone
+    il peso: una conferma preziosa del valore del sostegno sociale.'
+  topics:
+  - stress
+  - emozioni
+  - psicofisiologia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 70 participants exposed to the Trier Social Stress Test alone,
+      with romantic partner or with a stranger; acoustic startle probes and self-reported
+      anxiety.'
+    - 'PDF p.3: 70 healthy young adult females; mock job interview in front of an
+      interviewing panel; eyeblink startle.'
+    - 'PDF pp.1, 6-7: stress induction associated with strong startle inhibition;
+      social resources buffered this inhibition; no difference between partner and
+      stranger; interpretation via Social Baseline Theory (load sharing).'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

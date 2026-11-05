@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-026-44401-y
+doi: 10.1038/s41598-026-44401-y
+bibliography:
+  title: Exploring the link between sensory habituation in everyday life and attentional
+    control abilities
+  authors: Vincenza Tarantino; Alessia Santostefano; Massimiliano Oliveri; Giovanni
+    Mento; Laura Mandolesi; Patrizia Turriziani
+  journal: Scientific Reports
+  volume: '16'
+  issue: .na
+  pages: '15260'
+  year: 2026
+dpg:
+  authors:
+  - Giovanni Mento
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 5: NeuroDev Lab, Department of
+    General Psychology, University of Padova (Mento, also IRCCS E. Medea); other authors
+    Palermo and Naples. Accepted 11 March 2026; Sci Rep (2026) 16:15260.'
+source:
+  pdf_file: s41598-026-44401-y.pdf
+  pdf_path: .na.character
+  md5: f4a6d3febed788cd328a76a5ab10d24f
+  article_url: https://www.nature.com/articles/s41598-026-44401-y.pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:47:22 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): dataset declared available
+    on OSF sgyx2 (published view-only link); resource not opened, Enrico check pending.
+    Mento DPG; Sci Rep 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1038/s41598-026-44401-y
+  preregistration: []
+  data: https://osf.io/sgyx2/?view_only=21c6971b1a254263b6048352434bb20e
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 8
+  passage: 'Data availability: the dataset of the article declared available in the
+    OSF repository via the published view-only link. Declaration and link read; resource
+    not opened.'
+  url: https://osf.io/sgyx2/?view_only=21c6971b1a254263b6048352434bb20e
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.1038/s41598-026-44401-y
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Alcune persone si abituano in fretta al ticchettio di un orologio
+    o al ronzio del frigorifero, altre continuano a sentirli a lungo. Questa differenza
+    ha a che fare con l''attenzione? Le ricercatrici e i ricercatori hanno chiesto
+    a 143 adulti quanto tempo impiegano ad abituarsi agli stimoli sensoriali della
+    vita di tutti i giorni, e li hanno messi alla prova con un compito al computer:
+    riconoscere lettere bersaglio in figure fatte di una lettera grande composta da
+    tante lettere piccole, ignorando ora i dettagli ora l''insieme. Chi dichiarava
+    di abituarsi più lentamente era meno preciso nel cogliere la forma d''insieme
+    quando doveva ignorare i dettagli, ma rispondeva più in fretta nelle prove senza
+    bersaglio. Secondo gli autori, abitudine e attenzione sono strettamente legate:
+    un tassello utile per capire le diverse sensibilità di ciascuno, anche nelle persone
+    neurodivergenti.'
+  topics:
+  - attenzione
+  - percezione
+  - sensibilità
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 143 adults completed the Sensory Habituation Questionnaire
+      (adaptation time to everyday sensory input) and an interference control task
+      with global/local features; sensory sensitivity and autistic traits also assessed.'
+    - 'PDF p.2: global-local task with target letters embedded at the global or local
+      level of hierarchical stimuli.'
+    - 'PDF p.1 abstract: slower self-reported habituation associated with lower accuracy
+      for global targets when local features had to be suppressed and faster responses
+      on non-target trials; authors stress association between habituation and attentional
+      control.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

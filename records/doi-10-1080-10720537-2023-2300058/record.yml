@@ -1,0 +1,76 @@
+schema_version: 1.0
+id: doi-10-1080-10720537-2023-2300058
+doi: 10.1080/10720537.2023.2300058
+bibliography:
+  title: 'Construing the COVID-19 Pandemic in the UK: A Qualitative Study'
+  authors: David A. Winter; Razan Hammoud; Irina Todorova; Sabrina Cipolletta
+  journal: Journal of Constructivist Psychology
+  volume: '38'
+  issue: '1'
+  pages: 53-65
+  year: 2025
+dpg:
+  authors:
+  - Razan Hammoud
+  - Sabrina Cipolletta
+  verified: yes
+  verification_source: 'Final PDF p.2, affiliation b: Department of General Psychology,
+    University of Padova (Hammoud, Cipolletta). Published online 21 January 2024;
+    issue 38(1) 2025.'
+source:
+  pdf_file: tandf.10720537.2023.2300058.pdf
+  pdf_path: .na.character
+  md5: e5b596283c19eaf35addad3be0c34b4a
+  article_url: https://www.tandfonline.com/doi/pdf/10.1080/10720537.2023.2300058
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source,
+    read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:01:32 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: no data, code or materials availability statement, supplement,
+    preregistration or links; OA only. Hammoud and Cipolletta DPG; J Constr Psychol
+    2025 (38:1, online 2024).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1080/10720537.2023.2300058
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

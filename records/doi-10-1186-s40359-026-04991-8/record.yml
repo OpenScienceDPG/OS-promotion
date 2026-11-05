@@ -1,0 +1,88 @@
+schema_version: 1.0
+id: doi-10-1186-s40359-026-04991-8
+doi: 10.1186/s40359-026-04991-8
+bibliography:
+  title: 'Phubbing in pregnancy as a predictor of postpartum depressive symptoms:
+    preliminary results'
+  authors: Malgorzata Sobol; Elisa Mancinelli; Alessandra Schiavo; Nicola Cellini;
+    Giovanna Mioni; Agata Blachnio; Silvia Salcuni
+  journal: BMC Psychology
+  volume: '14'
+  issue: .na.character
+  pages: '1410'
+  year: 2026
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final PDF p.1: Mancinelli, Cellini, Mioni, Salcuni listed
+    only under affiliation 2, ''Universita Degli Studi Di Padova, Via VIII Febbraio
+    2'' (no department); Sobol Warsaw, Schiavo private studio, Blachnio Lublin. Received
+    6 April 2026, accepted 8 June 2026; BMC Psychology (2026) 14:1410.'
+source:
+  pdf_file: s40359-026-04991-8.pdf
+  pdf_path: .na.character
+  md5: fd2df9ca2aaa5e47de85c7e4af21fd45
+  article_url: https://europepmc.org/articles/PMC13625377?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from Europe PMC (candidate from
+    the keyword shortlist), read locally, deleted after recording.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: .na.character
+  final_note: 'Needs review (scope and wording): all Padova authors printed only as
+    ''Universita Degli Studi Di Padova'' (no department); DPG affiliation at publication
+    unverified (inventory lists Cellini and Mioni at DPG). Candidate practice: data
+    stated ''deposited into the Open Science Framework'' osf.io/xfszc, without explicit
+    open-access wording. Next step: Enrico confirms affiliation and whether the deposit
+    wording qualifies; PDF re-downloadable from Europe PMC (gold OA).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: .na.character
+    reason: dpg-affiliation-unverified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1186/s40359-026-04991-8
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF p.7, Data availability
+  passage: 'Candidate evidence pending scope check: data stated deposited into the
+    Open Science Framework at osf.io/xfszc; no explicit statement of open access without
+    conditions; no preregistration, code or materials declared. Resource not opened.'
+  url: https://osf.io/xfszc
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

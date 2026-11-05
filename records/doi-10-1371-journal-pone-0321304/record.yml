@@ -1,0 +1,76 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0321304
+doi: 10.1371/journal.pone.0321304
+bibliography:
+  title: Cognitive cerebellum dominates motor cerebellum in functional decline of
+    older adults with mild cognitive impairment
+  authors: Maria Devita; Alessandra Coin; Chiara Ceolin; Giulia Debiasi; Mariagiulia
+    Anglani; Chiara Begliomini; Simone Cauzzo; Francesca Biasin; Carlo Gabelli; Alessandra
+    Codemo; Michela Sarlo; Marina De Rui; Giuseppe Sergi; Alessandra Bertoldo; Daniela
+    Mapelli
+  journal: PLOS One
+  volume: '20'
+  pages: e0321304
+  year: 2025
+dpg:
+  authors:
+  - Maria Devita
+  - Chiara Begliomini
+  - Daniela Mapelli
+  verified: yes
+  verification_source: 'Final PDF p.1 affiliation 1: Devita, Begliomini and Mapelli,
+    Department of General Psychology (DPG), University of Padua. Published 3 April
+    2025.'
+source:
+  pdf_file: pone.0321304.pdf
+  pdf_path: ~
+  md5: ea2758f3304999e6df03d339a05c8e78
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 11:22:10 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: data not publicly shared (ethical/legal restrictions, available
+    via Ethics Committee); paper states materials and analysis code not available
+    and study not preregistered. Devita, Begliomini, Mapelli DPG; PLoS One 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: no
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

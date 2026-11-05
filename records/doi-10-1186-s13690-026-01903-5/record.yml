@@ -1,0 +1,162 @@
+schema_version: 1.0
+id: doi-10-1186-s13690-026-01903-5
+doi: 10.1186/s13690-026-01903-5
+bibliography:
+  title: 'Testing nature-based biopsychosocial resilience theory: a research programme
+    protocol'
+  authors: Mathew P. White; Julia A. M. Egger; Giulia Amato; Thomas Astell-Burt; Stine
+    Bekke-Hansen; Angel Borja; Angel Burov; Svea Busse; Caroline Costongs; Donka Dimitrova;
+    Ilaria Doimo; Angel M. Dzhambov; Lewis R. Elliott; Alba Godfrey; James Grellier;
+    Terry Hartig; Arnulf Hartl; Patrik Karlsson Nyed; Cecil Konijnendijk; Melissa
+    Lem; Jill S. Litt; Rebecca Lovell; Freddie Lymeus; Aynur Mammadova; Leanne Martin;
+    Angelica Moè; Sarah Morgan Trimmer; Colm O'Driscoll; Johan Ostberg; Sabine Pahl;
+    Francesca Pazzaglia; Christina Pichler; Alexandria Poole; Sarai Pouso; Nooshin
+    Razani; Todora Rogelja; Laura Secco; Ulrika K. Stigsdotter; Sus Sola Corazon;
+    Georgina Sowman; Maria C. Uyarra; Agnes E. van den Berg; Thomas van Rompay; Martin
+    Voracek; Nancy M. Wells; Benedict W. Wheeler; Matilda van den Bosch
+  journal: Archives of Public Health
+  volume: '84'
+  issue: .na
+  pages: '90'
+  year: 2026
+dpg:
+  authors:
+  - Angelica Moè
+  - Francesca Pazzaglia
+  verified: yes
+  verification_source: 'Final PDF p.16, affiliation 26: Department of General Psychology,
+    University of Padua (Moè, Pazzaglia); Padua case study CS4 approved by the University
+    of Padua Psychological Research Ethics Committee. Archives of Public Health (2026)
+    84:90.'
+source:
+  pdf_file: s13690-026-01903-5.pdf
+  pdf_path: .na.character
+  md5: 4dfcc5f9e549f2fea4fc42ca54fd1b60
+  article_url: https://europepmc.org/articles/PMC13107860?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:47:22 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 7
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): published programme protocol;
+    case-study trials registered before data collection (CS4 Padua ISRCTN74582097
+    and others) and analysis pre-registrations on OSF/AsPredicted; resources not opened,
+    Enrico check pending. Moè and Pazzaglia DPG; Arch Public Health 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: yes
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: yes
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1186/s13690-026-01903-5
+  preregistration:
+  - https://doi.org/10.1186/ISRCTN74582097
+  - https://doi.org/10.1186/ISRCTN14169596
+  - https://clinicaltrials.gov/study/NCT06622629
+  - https://doi.org/10.1186/ISRCTN93192592
+  - https://clinicaltrials.gov/study/NCT06205940
+  - https://doi.org/10.17605/OSF.IO/Q53J6
+  - https://doi.org/10.17605/OSF.IO/AVYDM
+  - https://doi.org/10.17605/OSF.IO/9GF3J
+  - https://aspredicted.org/2zf3b.pdf
+  data: []
+  code: []
+  materials: []
+  protocol: https://doi.org/10.1186/s13690-026-01903-5
+evidence:
+- claims: preregistration
+  source: pdf
+  location: page 2, 16
+  passage: 'Trial registration (p.2) and Declarations (p.16): all intervention trials
+    registered before data collection with dated links (CS4 Padua ISRCTN74582097 22.07.2024;
+    CS5 ISRCTN14169596; CS6 NCT06622629; CS7 ISRCTN93192592; CS8 NCT06205940); analysis
+    pre-registrations on OSF for CS1-3 (Q53J6, AVYDM, 9GF3J) and AsPredicted 2zf3b
+    for CS9. Registrations read; resources not opened.'
+  url: https://doi.org/10.1186/ISRCTN74582097
+  verification: unverified
+- claims:
+  - open_protocol
+  source: pdf
+  location: Whole article (Study Protocol article type), PDF pp.1-16
+  passage: The open access article is itself the published research programme protocol
+    (aims, case-study designs, measures, analysis and implementation plans).
+  url: https://doi.org/10.1186/s13690-026-01903-5
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the final PDF.
+  url: https://doi.org/10.1186/s13690-026-01903-5
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; Il protocollo
+    dettagliato dello studio; L'articolo, gratuito sul sito della rivista
+  public_summary: Una passeggiata nel parco o qualche ora tra gli alberi possono aiutarci
+    ad affrontare meglio le difficoltà della vita? Questo articolo presenta un grande
+    programma di ricerca europeo, della durata di quattro anni, che mette alla prova
+    una teoria su come il contatto con la natura aiuti a costruire e mantenere la
+    resilienza, cioè la capacità di reagire allo stress. In nove Paesi, nove studi
+    coinvolgono l'intera popolazione, persone a rischio di problemi metabolici e persone
+    con stress cronico o difficoltà di movimento o di memoria. A Padova, per esempio,
+    un percorso di cinque settimane di attenzione consapevole nella natura viene confrontato
+    con un gruppo in lista d'attesa. Il programma valuterà anche costi, equità, impatto
+    sull'ambiente e ostacoli pratici, con guide finali per operatori, decisori e cittadini.
+    Un progetto ambizioso per portare la natura nella cura delle persone.
+  topics:
+  - natura
+  - benessere
+  - salute
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: four-year multi-country research programme (nine countries)
+      testing nature-based biopsychosocial resilience theory; nine case studies across
+      whole populations, people at risk of metabolic syndrome and people with chronic
+      stress, mobility challenges or cognitive impairments.'
+    - 'PDF pp.9-10: CS4 in Padua urban parks/woodlands, five-week nature-based mindfulness
+      intervention vs wait-list control.'
+    - 'PDF p.1 abstract: distributional issues, environmental impacts, financial implications,
+      acceptability and implementation barriers assessed; guides for practitioners,
+      policy makers and the public.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+  article_resources:
+    protocol: 'Entire article: published research programme protocol (Study Protocol),
+      sections Methods and Table 1, PDF pp.2-14.'
+publication:
+  published: no
+  featured: no

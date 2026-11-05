@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-026-47775-1
+doi: 10.1038/s41598-026-47775-1
+bibliography:
+  title: 'From expectation to strain: how pregnancy time perspective shapes postpartum
+    stress in Poland and Italy'
+  authors: Malgorzata Sobol; Elisa Mancinelli; Alessandra Schiavo; Silvia Salcuni;
+    Michal Meisner; Nicola Cellini; Giovanna Mioni
+  journal: Scientific Reports
+  volume: '16'
+  issue: .na
+  pages: '16669'
+  year: 2026
+dpg:
+  authors:
+  - Nicola Cellini
+  - Giovanna Mioni
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 5: Department of General Psychology,
+    University of Padova (Cellini, Mioni); Mancinelli and Salcuni at Department of
+    Developmental and Socialization Psychology; Sobol Warsaw, Meisner Sosnowiec, Schiavo
+    private studio. Sci Rep (2026) 16:16669.'
+source:
+  pdf_file: s41598-026-47775-1.pdf
+  pdf_path: .na.character
+  md5: 18218647c40609e9f9716487b1c16e0c
+  article_url: https://www.nature.com/articles/s41598-026-47775-1.pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:47:22 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared available on
+    OSF 5j9a6 (file hu86a); resource not opened, Enrico check pending. Cellini and
+    Mioni DPG (Mancinelli, Salcuni DPSS); Sci Rep 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1038/s41598-026-47775-1
+  preregistration: []
+  data: https://osf.io/5j9a6/files/hu86a
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 9
+  passage: 'Data availability: the data declared available at the OSF link 5j9a6/files/hu86a,
+    without access conditions. Declaration and link read; resource not opened.'
+  url: https://osf.io/5j9a6/files/hu86a
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.1038/s41598-026-47775-1
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: Il modo in cui guardiamo al passato, al presente e al futuro può
+    influire su come viviamo i mesi dopo la nascita di un figlio? Questo studio ha
+    seguito 57 coppie in attesa di un bambino, 28 in Italia e 29 in Polonia, dal primo
+    trimestre di gravidanza fino a sei mesi dopo il parto. Le future mamme e i futuri
+    papà hanno compilato un questionario sul proprio modo di vivere passato, presente
+    e futuro; le donne hanno indicato anche il proprio livello di stress dopo il parto.
+    Nelle donne polacche, un forte peso dei ricordi negativi durante la gravidanza
+    si associava a più stress dopo la nascita; nelle italiane contava di più la sensazione
+    di essere in balia degli eventi. Risultati utili, secondo gli autori, per sostegni
+    su misura per le coppie in attesa.
+  topics:
+  - gravidanza
+  - stress
+  - tempo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 57 heterosexual couples (Italy 28, Poland 29), assessed in
+      first and third trimesters and within six months postpartum; women completed
+      ZTPI and PSS-10, men the ZTPI.'
+    - 'PDF p.1 abstract: past-negative perspective predicted postpartum stress in
+      Polish women; present-fatalistic perspective in Italian women.'
+    - 'PDF p.1 abstract: authors discuss implications for time-perspective-based interventions
+      for expecting couples.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

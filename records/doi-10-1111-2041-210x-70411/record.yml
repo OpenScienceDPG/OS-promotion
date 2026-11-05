@@ -1,0 +1,145 @@
+schema_version: 1.0
+id: doi-10-1111-2041-210x-70411
+doi: 10.1111/2041-210x.70411
+bibliography:
+  title: 'Mind(the)Plant: An expandable multimodal facility for the integrated characterization
+    of plant behaviour'
+  authors: Valentina Simonetti; Bianca Bonato; Silvia Guerra; Sara Avesani; Luca Semenzato;
+    Maria Bulgheroni; Gabriela Gjinaj; Laura Ravazzolo; Marco Dadda; Umberto Castiello
+  journal: Methods in Ecology and Evolution
+  volume: '17'
+  issue: '11'
+  pages: 3260-3276
+  year: 2026
+dpg:
+  authors:
+  - Valentina Simonetti
+  - Bianca Bonato
+  - Silvia Guerra
+  - Sara Avesani
+  - Luca Semenzato
+  - Gabriela Gjinaj
+  - Marco Dadda
+  - Umberto Castiello
+  verified: yes
+  verification_source: 'Europe PMC author manuscript p.1, affiliation 1: Department
+    of General Psychology, University of Padova (Simonetti, Bonato, Guerra, Avesani,
+    Semenzato, Gjinaj, Dadda, Castiello); Bulgheroni Ab.Acus Milan; Ravazzolo DAFNAE
+    Padova. Final edited form: Methods Ecol Evol 2026 Nov; 17(11):3260-3276.'
+source:
+  pdf_file: 2041-210x.70411.pdf
+  pdf_path: .na.character
+  md5: de4b10925609a72fcb294a1f40dfc499
+  article_url: https://europepmc.org/articles/PMC7619469?pdf=render
+  note: Europe PMC funder author manuscript of the final edited article downloaded
+    2026-11-05 (Wiley final PDF blocked to scripted download), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:43:11 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data, code and processing
+    pipelines declared available on Zenodo 10.5281/zenodo.22095454; read from Europe
+    PMC author manuscript (Wiley final PDF blocked to scripted download); resource
+    not opened, Enrico check pending. Simonetti, Bonato, Guerra, Avesani, Semenzato,
+    Gjinaj, Dadda, Castiello DPG; Methods Ecol Evol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/2041-210x.70411
+  preregistration: []
+  data: https://doi.org/10.5281/zenodo.22095454
+  code: https://doi.org/10.5281/zenodo.22095454
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: europepmc-author-manuscript
+  location: page manuscript Data availability Statement
+  passage: 'Data availability Statement (Europe PMC funder author manuscript of the
+    final edited article): data, code and processing pipelines supporting the study
+    declared available at Zenodo 10.5281/zenodo.22095454. Declaration and link read;
+    resource not opened.'
+  url: https://doi.org/10.5281/zenodo.22095454
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the read version.
+  url: https://doi.org/10.1111/2041-210x.70411
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: 'Le piante si muovono, emettono sostanze odorose e reagiscono all''ambiente,
+    ma studiare tutto insieme è difficile: di solito i movimenti dei fusti, gli odori
+    e la crescita delle radici si osservano con strumenti separati, in momenti diversi.
+    Il gruppo di ricerca ha costruito Mind(the)Plant, un laboratorio su misura in
+    cui le piante crescono in condizioni controllate mentre telecamere tridimensionali
+    seguono i germogli, uno strumento di precisione analizza le sostanze emesse sopra
+    e sotto terra e speciali videocamere riprendono le radici. Tutto è sincronizzato
+    e i dati confluiscono in un unico sistema. Le prove, durate diverse settimane,
+    hanno mostrato che ogni componente funziona in modo stabile e affidabile, e una
+    giornata di registrazione continua ha fatto vedere che cosa si può scoprire combinando
+    i diversi segnali. Una nuova finestra sul comportamento delle piante, pensata
+    per crescere con nuovi moduli.'
+  topics:
+  - piante
+  - comportamento
+  - metodologia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Manuscript abstract: modular facility for synchronized long-term acquisition
+      of 3D shoot kinematics, above- and below-ground volatile organic compounds and
+      root imaging; controlled growth environment, stereovision, time-of-flight mass
+      spectrometry, rhizocameras, unified network.'
+    - 'Manuscript abstract: multi-week validation recordings showed temporal stability,
+      synchronization, VOC isolation and robust below-ground imaging; one-day multimodal
+      acquisition illustrates analytical potential.'
+    - 'Manuscript abstract: architecture designed to accommodate additional modules
+      such as electrophysiology.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

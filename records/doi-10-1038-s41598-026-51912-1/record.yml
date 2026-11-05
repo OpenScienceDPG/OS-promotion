@@ -1,0 +1,136 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-026-51912-1
+doi: 10.1038/s41598-026-51912-1
+bibliography:
+  title: 'Learning-based cognitive control: developmental trajectories in children
+    aged 5- to 14- years'
+  authors: Lisa Toffoli; Giulia Stefanelli; Fiorella Del Popolo Cristaldi; Gian Marco
+    Duma; Massimiliano Pastore; Vincenza Tarantino; Agnes Blaye; Corentin Gonthier;
+    Giovanni Mento
+  journal: Scientific Reports
+  volume: '16'
+  pages: '21238'
+  year: 2026
+dpg:
+  authors:
+  - Lisa Toffoli
+  - Giulia Stefanelli
+  - Fiorella Del Popolo Cristaldi
+  - Giovanni Mento
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology
+    - DPG, University of Padova. Pastore printed at DPSS (not DPG). Published 9 May
+    2026.'
+source:
+  pdf_file: s41598-026-51912-1.pdf
+  pdf_path: .na.character
+  md5: 6ff3a120b6a759e900e18f7a4a910c75
+  article_url: https://europepmc.org/articles/PMC13347041?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:31:15 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): materials, data and analysis
+    scripts declared openly accessible on OSF via published view-only link; not preregistered
+    (stated); resource not opened, Enrico check pending. Toffoli, Stefanelli, Del
+    Popolo Cristaldi, Mento DPG (Pastore DPSS); Sci Rep 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1038/s41598-026-51912-1
+  preregistration: []
+  data: https://osf.io/mw598/?view_only=e8dc3e90fa8e4e868c3c10e59bd71b92
+  code: https://osf.io/mw598/?view_only=e8dc3e90fa8e4e868c3c10e59bd71b92
+  materials: https://osf.io/mw598/?view_only=e8dc3e90fa8e4e868c3c10e59bd71b92
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: PDF page 10
+  passage: 'Methods (p.10) and Data availability (p.13): all materials, data and analysis
+    scripts declared openly accessible on OSF at published view-only link; study stated
+    not pre-registered. Declaration read; resource not opened.'
+  url: https://osf.io/mw598/?view_only=e8dc3e90fa8e4e868c3c10e59bd71b92
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; Creative Commons open
+    access licence printed in the final PDF.
+  url: https://doi.org/10.1038/s41598-026-51912-1
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio,
+    come questionari e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Un bambino di cinque anni sa già cogliere le regole nascoste di
+    un gioco e regolare di conseguenza la propria attenzione? Per scoprirlo, i ricercatori
+    hanno proposto a circa 150 bambini e ragazzi dai 5 ai 14 anni, nelle loro scuole,
+    due giochi al computer. Nel primo bisognava indicare la direzione di una freccia
+    centrale ignorando quelle ai lati; nel secondo si aiutavano due astronauti a ritrovare
+    stelle perdute, senza premere nulla quando compariva un alieno. Senza spiegazioni,
+    in ogni gioco una parte era più prevedibile dell''altra. Già i più piccoli si
+    adattavano al cambiamento. Nel gioco più impegnativo, però, dai 9 anni circa emergeva
+    un equilibrio migliore tra rapidità e precisione. Questa capacità nasce dunque
+    presto e continua a maturare durante l''infanzia: secondo gli autori, una conoscenza
+    preziosa per adattare l''insegnamento alle diverse età.'
+  topics:
+  - attenzione
+  - sviluppo
+  - bambini
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1, pp.11-12: 149 children aged 5-14 recruited in schools; flanker task
+      and cued go/no-go astronaut game, each with a predictable and an unpredictable
+      block.'
+    - 'PDF pp.4-6: predictability effect present at all ages in the flanker task;
+      in the go/no-go task better speed-accuracy balance from about 9 years.'
+    - 'PDF p.10: authors suggest relevance for adapting educational strategies.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

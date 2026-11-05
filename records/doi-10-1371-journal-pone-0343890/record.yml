@@ -1,0 +1,123 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0343890
+doi: 10.1371/journal.pone.0343890
+bibliography:
+  title: 'At the roots of Plant Awareness Disparity (PAD): Semantic processing and numerosity perception'
+  authors: Silvia Guerra; Marco Roccato; Carolina Maria Oletto; Andrea Ghiani; Marco Bertamini; Luca Battaglini
+  journal: PLOS One
+  volume: '21'
+  pages: e0343890
+  year: 2026
+dpg:
+  authors:
+  - Silvia Guerra
+  - Marco Roccato
+  - Carolina Maria Oletto
+  - Andrea Ghiani
+  - Marco Bertamini
+  - Luca Battaglini
+  verified: true
+  verification_source: 'Final PDF p.1: all listed authors affiliated with Department of General Psychology
+    (DPG), University of Padova.'
+source:
+  pdf_file: pone.0343890.pdf
+  pdf_path: null
+  md5: 356c1ec305645262668649eda8045459
+screening:
+  status: ready
+  first_screened_at: '2026-10-31'
+  last_screened_at: 2026-10-31 13:53:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Keep: public data and stimuli on OSF verified (algorithm missed link split by space); all
+    authors DPG; PLOS One 2026.'
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0343890
+  preregistration: []
+  data:
+  - https://osf.io/mzpr5/
+  code: []
+  materials:
+  - https://osf.io/mzpr5/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_materials
+  source: pdf
+  location: page 1
+  passage: >-
+    Data availability statement: all data available at printed OSF link (split by a line break in PDF).
+    OSF project public, same title; DATA folder with estimation, comparison and joint CSV datasets; EXPERIMENTS
+    folder with stimulus images for the three experiments.
+  url: https://osf.io/mzpr5/
+  verification: agent-verified
+  checked_at: '2026-10-31'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: Unpaywall by DOI; PDF p.1 copyright
+  passage: Unpaywall oa_status gold; publisher article freely accessible under CC BY licence, matching
+    DOI/title.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0343890
+  verification: agent-verified
+  checked_at: '2026-10-31'
+curation:
+  status: curated
+  why_open: I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: >-
+    Guardando un paesaggio, notate prima il cane o l'albero? Molti di noi trascurano le piante, al punto
+    che gli studiosi parlano di una vera «disattenzione verso le piante». Silvia Guerra e colleghi si
+    sono chiesti se questa svista arrivi fino a un'abilità di base come valutare quanti oggetti abbiamo
+    davanti. In tre esperimenti online, oltre 150 persone hanno osservato gruppi di alberi, animali o
+    minerali: dovevano dire quanti erano, oppure scegliere il gruppo più numeroso. A parità di numero,
+    gli alberi venivano sistematicamente sottostimati, anche con immagini in bianco e nero: il verde,
+    quindi, non c'entra. Con le immagini capovolte, più difficili da riconoscere, il divario si riduceva
+    molto. Per gli autori, la svista nasce da come diamo significato a ciò che vediamo. Un passo importante
+    per capire perché le piante, così essenziali, passano spesso inosservate.
+  topics:
+  - percezione
+  - piante
+  - numerosità
+  summary_review:
+    by: agent
+    at: '2026-10-31'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PLoS One 21(5) e0343890, published 15 May 2026; all six authors DPG; CC BY.'
+    - 'PDF Methods: three online jsPsych experiments (Color, Black and White, Upside down), 154 participants
+      recruited (51/51/52); estimation and comparison tasks with trees, animals, minerals.'
+    - >-
+      PDF Results/Discussion: consistent underestimation of trees in Exp. 1-2; effects strongly reduced
+      in Exp. 3 (animal-tree difference smaller but significant; mineral-tree difference disappears);
+      authors interpret a semantic origin.
+    review_note: Scientific claims checked against abstract, methods, results/discussion; separate editorial
+      pass for clarity and no overstatement.
+publication:
+  published: false
+  featured: false

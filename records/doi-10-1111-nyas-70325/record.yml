@@ -1,0 +1,128 @@
+schema_version: 1.0
+id: doi-10-1111-nyas-70325
+doi: 10.1111/nyas.70325
+bibliography:
+  title: 'Numbers Driving Space: Experience With Numerical Sequences Modulates Spatial
+    Behavior in Newborn Chicks (Gallus gallus)'
+  authors: Arianna Felisatti; Matteo Macchinizzi; Lucia Ronconi; Rosa Rugani
+  journal: Annals of the New York Academy of Sciences
+  volume: '1561'
+  issue: .na
+  pages: e70325
+  year: 2026
+dpg:
+  authors:
+  - Arianna Felisatti
+  - Matteo Macchinizzi
+  - Rosa Rugani
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padua (Felisatti, Macchinizzi, Rugani); Ronconi printed at Computer
+    and Statistical Services, Multifunctional Pole of Psychology. Accepted 4 May 2026;
+    Ann N Y Acad Sci 2026, 1561:e70325.'
+source:
+  pdf_file: nyas.70325.pdf
+  pdf_path: .na.character
+  md5: e94001a65aa15ebabe00dd1b535cbfca
+  article_url: https://europepmc.org/articles/PMC13366458?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:53:48 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared publicly available
+    on OSF ae72j (published view-only link); resource not opened, Enrico check pending.
+    Felisatti, Macchinizzi, Rugani DPG; Ann N Y Acad Sci 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/nyas.70325
+  preregistration: []
+  data: https://osf.io/ae72j/?view_only=e80116deb2d44f149e95d2755eafbe0d
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 12
+  passage: 'Data Availability Statement: data declared publicly available on OSF via
+    the published view-only link. Supplementary Material is a Word file with additional
+    analyses, not counted. Declaration and link read; resource not opened.'
+  url: https://osf.io/ae72j/?view_only=e80116deb2d44f149e95d2755eafbe0d
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY open access
+    licence printed in the final PDF.
+  url: https://doi.org/10.1111/nyas.70325
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Perché, quando pensiamo ai numeri, li immaginiamo in fila da sinistra
+    a destra? Per capire quanto conti l''esperienza, il gruppo di ricerca ha lavorato
+    con pulcini di un giorno, che hanno una naturale tendenza a esplorare partendo
+    da sinistra. In due esperimenti, 70 pulcini hanno imparato a cercare un vermetto
+    nascosto dietro tre pannelli disposti uno dietro l''altro, con un numero di elementi
+    che per alcuni cresceva (2, 5, 8) e per altri diminuiva. Alla prova, con i pannelli
+    messi in fila orizzontale, i pulcini abituati alle sequenze crescenti partivano
+    sempre da sinistra, mentre quelli abituati alle sequenze decrescenti non mostravano
+    alcuna preferenza. Secondo gli autori, anche una breve esperienza con i numeri
+    può modellare le inclinazioni spaziali del cervello fin dai primi giorni di vita:
+    un indizio prezioso sulle radici del nostro modo di pensare i numeri.'
+  topics:
+  - cognizione
+  - spazio
+  - animali
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: two experiments with day-old chicks (n = 70), sagittal training
+      with increasing (2-5-8) or decreasing (8-5-2) sequences, Experiment 2 with 8-20-32
+      and non-numerical controls; horizontal test arrangement.'
+    - 'PDF pp.3-4: chicks trained to circumnavigate panels to retrieve a hidden mealworm.'
+    - 'PDF pp.10-11: increasing group approached from the left regardless of arrangement;
+      decreasing group showed no directional preference; authors interpret early numerical
+      experience as modulating spontaneous left-side bias.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

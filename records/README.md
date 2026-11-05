@@ -13,6 +13,30 @@ Each processed publication has one `records/<stable-id>/record.yml`. A DOI-deriv
 
 Directory location never determines state. `screening.status` does.
 
+## Tracking online searches and exclusions
+
+Before retrieval, compare the latest inventory against all canonical records
+and ledger events, including rejects: normalized DOI first, otherwise IRIS
+ID/handle and title/authors/year. A previous exclusion is a completed decision;
+reassess only with new evidence, a materially different version or an explicit
+request. Same-hash PDF skips are automatic; changed hashes with the same DOI
+are flagged for version comparison, not automatically skipped.
+
+Every semantic or scope exclusion needs an identifiable `screened-reject`
+record, `final_decision: reject`, bibliography, dated reviewer/reason and a
+ledger event. Failed access or insufficient evidence instead uses
+`needs-review`, with no final rejection. Preserve article URLs, dated attempts,
+reason and next step in evidence/screening notes and append an attempt event
+using the existing ledger columns. Consult these attempts before retrying.
+
+Downloaded PDFs use the normal scripts. Full-HTML reviews and unsuccessful
+retrieval attempts are curated directly into the same schema and ledger;
+use the actual source URL/location and null/empty PDF-specific fields when no
+PDF exists, without inventing hashes. With no DOI, retain the IRIS identifier
+or handle in private provenance and use a stable record ID. Do not create a
+second screening catalog. The inventory is retained intact; historical
+unrecorded exclusions cannot be assumed to have been recovered.
+
 ## Compact schema
 
 Every record has:
@@ -36,25 +60,29 @@ checks it for all ready/published records.
 
 Controlled Open Science keys are `preregistration`, `registered_report`, `open_data`, `open_code`, `open_materials`, `open_protocol`, `open_access`, and `reusable_tool`; they are defined once in `config/badges.yml`, which the scripts read. Positive claims require a matching evidence item. Use `verification: unverified` rather than filling a gap by inference.
 
-## Rapid-mode evidence and pending manual checks
+## Review modes and pending resource checks
 
-When Enrico explicitly requests "modalità rapida", a paper's explicit statement
-that it performed/shared a practice publicly, accompanied by its resource link
-(including view-only), is accepted provisionally. Set the declared claim to
-`true`; the normal `ready` eligibility, badges and public summary apply (the summary does not mention the resources).
-Do not open the resource. Ordinary identity/scope and scientific-summary checks
-remain necessary. See `../AGENTS.md` for the full rule.
+Ordinary mode is the default. Accept a practice only when the paper explicitly
+declares its specific resource openly available without access conditions and
+provides an actual supporting resource link. A bare link, generic declaration,
+access on request, login or further authorization do not qualify. Published
+view-only links qualify when presented as allowing unconditional access.
+Set the qualifying claim to `true`; normal `ready` eligibility, badges and
+public summary apply (the summary does not mention the resources).
+Do not open or test the resource in ordinary mode. Identity/scope,
+deduplication and scientific-summary checks remain necessary in both modes.
+See `../AGENTS.md` for the full rule.
 
 Distinguish the checked paper declaration from the unchecked external resource:
 
 ```yaml
 screening:
-  review_mode: rapid
+  review_mode: ordinary
 evidence:
   - claims: [open_data]
     source: pdf
     location: "PDF page 9, Data availability"
-    passage: "Paper explicitly declares public study data and supplies a link. Declaration and link read; resource not opened. Manual check pending."
+    passage: "Paper explicitly declares study data openly available without access conditions and supplies a supporting link. Declaration and link read; resource not opened. Manual check pending."
     url: "<actual published resource URL, including any view-only parameter printed in the final PDF>"
     verification: unverified
 curation:
@@ -68,12 +96,24 @@ This is a partial schema example, not a record to copy verbatim. Preserve all
 other fields. `unverified` refers to external access/content, not an inferred
 declaration. Only practices expressly declared with links qualify. The current
 validator already accepts this evidence status; no validator bypass is needed.
-The ledger reason and corpus queue note must identify rapid-mode acceptance.
+The ledger reason and any corpus queue note must identify ordinary-mode
+acceptance based on the paper declaration.
 Use these canonical fields to recover Enrico's manual-check backlog without
 creating a second catalog. Pending manual checks do not block eligibility or
 completion of the corpus queue and must not be reported as already performed.
 After an actual manual check, record its outcome and dated evidence; preserve
 human decisions and append the appropriate ledger event when decisions change.
+
+In-depth mode ("modalità approfondita") is used when explicitly requested for
+a unit of work. Set `screening.review_mode: in_depth`; independently open the
+published links and check resource existence, correspondence to this paper,
+support for each claimed practice and accessibility without login, requests
+or further authorization. Record the actual outcome and dated evidence;
+`verification: agent-verified` applies only to claims actually checked.
+Update pending resource reviews to reflect the checks and report missing,
+inaccessible or mismatched resources without overriding human decisions.
+Historical `review_mode: rapid` values retain their original provenance and
+are not rewritten; their declaration-based procedure is now the default.
 
 Resource links must point to the actual data/code/materials/registration destination,
 including published view-only links (Enrico's corrective request, 2026-10-20).
@@ -87,12 +127,17 @@ combining labels when several categories share the same URL.
 ## Open Access badge criterion
 
 For the showcase, `open_science.open_access` refers to publisher-hosted access
-without a paywall, following Enrico's instruction of 2026-10-20. The Unpaywall
-OA type supports the badge for `gold`, `hybrid`, `bronze`, or `diamond`;
-`green` and `closed` do not. For the 2025–2026 corpus it came from the workbook
-`list.xlsx` (column `unpaywall: Tipologia Open Access (OA)`), kept outside the
-repository; the classification is retained in each record's evidence. For new
-papers, check Unpaywall by DOI.
+without a paywall. Following Enrico's updated instruction of 2026-11-05,
+the Unpaywall OA type supports the badge for `gold`, `hybrid`, or `bronze`;
+`green` and `closed` do not; missing/other values need clarification.
+For new work use the latest dated `inbox/list-YYYY-MM-DD.xlsx`, column
+`unpaywall: Tipologia Open Access (OA)`, matched by normalized DOI. Record the
+source version, classification and date in private evidence; if absent,
+consult Unpaywall by DOI. Preserve existing documented classifications unless
+explicitly reassessed. Historical evidence may cite the earlier `list.xlsx`.
+The inventory covers all years: only papers from 2025 onward enter the current
+search corpus, regardless of OA type. It provides no evidence of other Open
+Science practices. Open Access is neither necessary nor sufficient for inclusion.
 Green access remains an important sharing route, but repository access alone
 does not meet this badge's publisher-access criterion. An available local PDF
 or its licence statement alone must not override this classification.

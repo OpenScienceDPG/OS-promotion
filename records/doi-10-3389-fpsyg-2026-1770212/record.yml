@@ -1,0 +1,148 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1770212
+doi: 10.3389/fpsyg.2026.1770212
+bibliography:
+  title: 'Null hypothesis significance testing vs. Bayesian inference using generalized
+    linear mixed models with binary outcomes: a case study under practical design
+    constraints'
+  authors: Stefano Dalla Bona; Andrea Spoto; Marta Caserotti; Lorella Lotto; Michela
+    Sarlo; Nicola Cellini; Simone Cutini; Giovanni Bruno
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1770212'
+  year: 2026
+dpg:
+  authors:
+  - Stefano Dalla Bona
+  - Andrea Spoto
+  - Nicola Cellini
+  - Simone Cutini
+  - Giovanni Bruno
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    Universita degli Studi di Padova (Dalla Bona, Spoto, Cellini, Cutini, Bruno);
+    Caserotti and Lotto at DPSS; Sarlo at Urbino. Published 16 April 2026; Front.
+    Psychol. 17:1770212.'
+source:
+  pdf_file: fpsyg.2026.1770212.pdf
+  pdf_path: .na.character
+  md5: 396272e1718b911a1ac066423f8bc38c
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1770212/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:13:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared publicly available
+    on OSF ndcpf; original study declared preregistered prior to data analysis, publicly
+    available at 10.17605/OSF.IO/RXK6V; resources not opened, Enrico check pending.
+    Dalla Bona, Spoto, Cellini, Cutini, Bruno DPG; Front Psychol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: yes
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1770212
+  preregistration: https://doi.org/10.17605/OSF.IO/RXK6V
+  data: https://osf.io/ndcpf
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 7
+  passage: 'Data availability statement: the data used in this study declared publicly
+    available through the OSF repository ndcpf (supplementary materials also at the
+    same OSF page, p.4). Declaration and link read; resource not opened.'
+  url: https://osf.io/ndcpf
+  verification: unverified
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.2 Introduction and p.7 section 4.1 Preregistration declaration
+  passage: Original study declared preregistered on OSF prior to data analysis (research
+    questions, hypotheses, design, sample size, criteria, variables and planned analyses),
+    publicly available at 10.17605/OSF.IO/RXK6V. Timing stated as prior to data analysis,
+    not explicitly prior to data collection. Declaration and link read; resource not
+    opened.
+  url: https://doi.org/10.17605/OSF.IO/RXK6V
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2026.1770212
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati
+    raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Quando un esperimento non trova l''effetto cercato, che cosa possiamo
+    concludere davvero? Gli autori hanno ripreso uno studio sulle scelte morali in
+    cui 185 persone decidevano come dovrebbe comportarsi un''auto a guida autonoma
+    davanti a un incidente inevitabile, per esempio se sacrificare il proprio passeggero
+    per salvare tre pedoni. Si voleva capire se avere pochi secondi per decidere,
+    o l''ordine delle situazioni, cambiasse le risposte. Gli stessi dati sono stati
+    analizzati con due approcci statistici: quello tradizionale, che cerca prove contro
+    l''assenza di un effetto, e quello bayesiano, che valuta quanto è plausibile ciascuna
+    ipotesi. Entrambi hanno indicato che i fattori studiati non influenzavano in modo
+    apprezzabile le scelte, e il secondo ha mostrato prove a favore dell''assenza
+    di un effetto. Un esempio concreto e prezioso per chi deve interpretare un risultato
+    nullo.'
+  topics:
+  - metodologia
+  - statistica
+  - decisioni
+  - moralità
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.2-3: preregistered study on autonomous-vehicle moral dilemmas; sacrifice
+      of AV passenger (utilitarian) vs three individuals crossing the road; Pressure
+      (7 s), Delay and Control groups; final sample 185.'
+    - 'PDF pp.4-5: NHST found no significant fixed effects; Bayesian posteriors near
+      zero with wide intervals; Bayes factors favoured the intercept-only model.'
+    - 'PDF p.6: both frameworks converge on little to no evidence of effects; data
+      more consistent with absence of an effect.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-3389-fnut-2025-1622087
+doi: 10.3389/fnut.2025.1622087
+bibliography:
+  title: 'Nutritional habits, inhibitory control, and emotional reactivity to healthy
+    and unhealthy food cues in non-obese female students: insights from heart rate
+    variability'
+  authors: Michela Sarlo; Fiorella Del Popolo Cristaldi; Giulia Buodo; Carmen Belacchi
+  journal: Frontiers in Nutrition
+  volume: '12'
+  pages: '1622087'
+  year: 2025
+dpg:
+  authors:
+  - Fiorella Del Popolo Cristaldi
+  - Giulia Buodo
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 2: Department of General Psychology,
+    University of Padova (Del Popolo Cristaldi, Buodo). Published 3 September 2025.'
+source:
+  pdf_file: fnut.2025.1622087.pdf
+  pdf_path: .na.character
+  md5: 1aec39542d0590001cbf8cb510775fb6
+  article_url: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2025.1622087/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:21:28 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): datasets declared on OSF bjyx9;
+    stimuli on request only (not counted); resource not opened, Enrico check pending.
+    Del Popolo Cristaldi and Buodo DPG; Front Nutr 2025; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fnut.2025.1622087
+  preregistration: []
+  data: https://osf.io/bjyx9/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: PDF page 10
+  passage: 'Data availability statement: datasets declared found in online repository,
+    Open Science Framework https://osf.io/bjyx9/. Food images only on reasonable request
+    (not counted). Declaration read; resource not opened.'
+  url: https://osf.io/bjyx9/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fnut.2025.1622087
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: Perché una ciambella ci tenta molto più dei broccoli? Un gruppo
+    di ricerca ha coinvolto 42 studentesse universitarie, arrivate in laboratorio
+    dopo alcune ore di digiuno. Ognuna ha guardato foto di cibi, dalla frutta al pesce
+    fino a patatine e dolciumi, indicando quanto le piacessero e quanta voglia avesse
+    di mangiarli; poi ha svolto un gioco al computer in cui doveva premere un tasto
+    oppure trattenersi. Un braccialetto misurava le piccole variazioni naturali tra
+    un battito del cuore e l'altro, che gli autori considerano un segnale della capacità
+    di autoregolarsi. I cibi spazzatura sono risultati più attraenti di quelli sani.
+    Le studentesse con un battito più variabile, e quelle più attive fisicamente,
+    tendevano a mangiare meno dolci confezionati e più frutta e verdura. Un indizio
+    prezioso su come corpo e mente accompagnano le nostre scelte a tavola.
+  topics:
+  - alimentazione
+  - cuore
+  - autocontrollo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.3-4: 42 female students after at least 3 hours of fasting; resting heart
+      rate variability with a wristband; ratings of 120 food pictures and an emotional
+      Go/NoGo task.'
+    - 'PDF abstract and pp.7-9: junk foods rated more pleasant and craved; heart rate
+      variability and physical activity negatively predicted sweet junk food consumption
+      and positively predicted fruit/vegetables (cross-sectional regressions).'
+    - 'PDF p.1, discussion: authors interpret heart rate variability as an index of
+      self-regulation.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

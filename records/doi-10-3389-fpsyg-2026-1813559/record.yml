@@ -1,0 +1,135 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1813559
+doi: 10.3389/fpsyg.2026.1813559
+bibliography:
+  title: Recognition of facial expressions from minimal five-point-light displays
+  authors: Sara Costa; Arianna Schiano Lomoriello; Elisa Straulino; Sonia Betti; Anita
+    Ghislandi; Antonio Maffei; Fausto Caruana; Pier Francesco Ferrari; Luisa Sartori;
+    Paola Sessa
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1813559'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Straulino
+  - Sonia Betti
+  - Luisa Sartori
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 4: Department of General Psychology,
+    University of Padova (Straulino, Betti, Sartori); Schiano Lomoriello, Ghislandi,
+    Maffei, Sessa at DPSS; others Parma, CNR, Lyon. Published 23 July 2026; Front.
+    Psychol. 17:1813559.'
+source:
+  pdf_file: fpsyg.2026.1813559.pdf
+  pdf_path: .na.character
+  md5: bf3f59a85a2fd32ea9abdbc70d87cf6c
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1813559/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:43:11 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data and analysis scripts
+    declared available on OSF 9d4ca; resource not opened, Enrico check pending. Straulino,
+    Betti, Sartori DPG; Front Psychol 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1813559
+  preregistration: []
+  data: https://osf.io/9d4ca
+  code: https://osf.io/9d4ca
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: page 5, 10
+  passage: 'Statistical analysis section (p.5): exact model syntax available in the
+    analysis scripts deposited at OSF 9d4ca; Data availability statement (p.10): data
+    available on OSF 9d4ca. Point-light stimuli not declared shared. Declaration and
+    link read; resource not opened.'
+  url: https://osf.io/9d4ca
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the read version.
+  url: https://doi.org/10.3389/fpsyg.2026.1813559
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: 'Basta pochissimo per capire se qualcuno è felice o arrabbiato?
+    Le ricercatrici e i ricercatori hanno ridotto il volto a soli cinque puntini luminosi:
+    due sulle sopracciglia, due agli angoli della bocca e uno sul naso, una configurazione
+    che hanno chiamato Clessidra. Hanno ricavato i movimenti da espressioni autentiche
+    delle sei emozioni di base e li hanno mostrati a 91 persone, sia come semplici
+    puntini in movimento sia come volti completi. Anche con i soli cinque puntini,
+    i partecipanti hanno riconosciuto più spesso del caso felicità, sorpresa, rabbia,
+    disgusto e tristezza; la paura invece veniva confusa soprattutto con la sorpresa,
+    con cui condivide i movimenti della parte alta del viso. Un risultato sorprendente,
+    che mostra quanto racconta il solo movimento del volto, e uno strumento nuovo
+    per studiare come comprendiamo le emozioni altrui.'
+  topics:
+  - emozioni
+  - percezione
+  - volti
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: Clepsydra five-point configuration (eyebrows x2, mouth corners
+      x2, nose x1); stimuli derived from authentic facial expressions of six basic
+      emotions; 91 participants in point-light and full-light conditions.'
+    - 'PDF p.1 abstract: above-chance recognition for happiness, surprise, anger,
+      disgust, sadness in point-light condition; fear at chance and mainly confused
+      with surprise (shared upper-face Action Units).'
+    - 'PDF p.1 abstract: authors present the model as a promising tool for isolating
+      kinematic contributions.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

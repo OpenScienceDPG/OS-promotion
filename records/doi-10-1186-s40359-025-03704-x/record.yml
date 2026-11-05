@@ -1,0 +1,135 @@
+schema_version: 1.0
+id: doi-10-1186-s40359-025-03704-x
+doi: 10.1186/s40359-025-03704-x
+bibliography:
+  title: 'Adolescent road safety: pedestrian behavior in ADHD and typically developing
+    groups'
+  authors: Elizabeth Doerr; Andrea Baldassa; Agnese Capodieci; Massimiliano Gastaldi;
+    Chiara Meneghetti; Veronica Muffato; Federico Orsini; Riccardo Rossi; Mariaelena
+    Tagliabue; Barbara Carretti
+  journal: BMC Psychology
+  volume: '14'
+  issue: .na
+  pages: '47'
+  year: 2026
+dpg:
+  authors:
+  - Elizabeth Doerr
+  - Agnese Capodieci
+  - Chiara Meneghetti
+  - Veronica Muffato
+  - Mariaelena Tagliabue
+  - Barbara Carretti
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (Doerr, Capodieci, Meneghetti, Muffato, Tagliabue, Carretti);
+    Baldassa, Gastaldi, Orsini, Rossi at Department of Civil, Architectural and Environmental
+    Engineering (inventory lists Gastaldi and Rossi, not DPG at publication). Licence
+    (c) 2025; citation BMC Psychology (2026) 14:47.'
+source:
+  pdf_file: s40359-025-03704-x.pdf
+  pdf_path: .na.character
+  md5: 191dea319f35e7e0bb0dd5e0cc666c3d
+  article_url: https://europepmc.org/articles/PMC12801511?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:53:48 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): dataset declared available
+    on Figshare 10.6084/m9.figshare.28959368; resource not opened, Enrico check pending.
+    Doerr, Capodieci, Meneghetti, Muffato, Tagliabue, Carretti DPG; BMC Psychol 2026
+    (online 2025); gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1186/s40359-025-03704-x
+  preregistration: []
+  data: https://doi.org/10.6084/m9.figshare.28959368
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 9
+  passage: 'Data availability: the dataset analysed in the study declared available
+    on Figshare at DOI 10.6084/m9.figshare.28959368. No code or materials declared.
+    Declaration and link read; resource not opened.'
+  url: https://doi.org/10.6084/m9.figshare.28959368
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the final PDF.
+  url: https://doi.org/10.1186/s40359-025-03704-x
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Attraversare la strada sembra un gesto semplice, ma richiede attenzione
+    continua: un attimo di distrazione può costare caro, soprattutto a chi comincia
+    a muoversi da solo. Questo studio ha messo alla prova 42 ragazzi tra gli 11 e
+    i 16 anni, metà con disturbo da deficit di attenzione e iperattività (ADHD) e
+    metà senza, dentro una città in realtà virtuale: con un visore sugli occhi dovevano
+    attraversare la strada e camminare sul marciapiede, tra auto in arrivo, semafori
+    e imprevisti. I ragazzi con ADHD deviavano di più dal percorso, distoglievano
+    più spesso lo sguardo e impiegavano più tempo a evitare gli ostacoli; ma prima
+    di attraversare controllavano con cura entrambi i lati. Capire quali comportamenti
+    espongono al rischio, e quali buone abitudini sono già presenti, aiuta a pensare
+    un''educazione stradale su misura per ogni ragazzo.'
+  topics:
+  - ADHD
+  - adolescenza
+  - attenzione
+  - comportamento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: 21 adolescents with ADHD and 21 typically developing, 11-16
+      years, virtual road-crossing and sidewalk-walking scenarios.'
+    - 'PDF pp.4-5: immersive VR pedestrian simulator with headset; scenarios with
+      traffic lights, road markings, incoming vehicles and unexpected events.'
+    - 'PDF pp.1, 7: ADHD group showed more wandering, looking away and slower obstacle
+      avoidance, but also checked both sides before crossing.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,75 @@
+schema_version: 1.0
+id: doi-10-3390-bs15020122
+doi: 10.3390/bs15020122
+bibliography:
+  title: 'Interaction Between Social Support and Muscle Dysmorphia: The Role of Self-Efficacy
+    and Social Media Use'
+  authors: Fiorenza Giordano; Danilo Calaresi; Loriana Castellani; Valeria Verrastro;
+    Tommaso Feraco; Valeria Saladino
+  journal: Behavioral Sciences
+  volume: '15'
+  issue: '2'
+  pages: '122'
+  year: 2025
+dpg:
+  authors:
+  - Tommaso Feraco
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 3: Department of General Psychology,
+    University of Padova (Feraco). Published 24 January 2025.'
+source:
+  pdf_file: bs15020122.pdf
+  pdf_path: .na.character
+  md5: 5ada61f2a30277666cab752b3ef9eb8c
+  article_url: https://europepmc.org/articles/PMC11851406?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source,
+    read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:01:32 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: raw data will be made available by the authors upon request
+    only; no other open practice declared. Feraco DPG; Behav Sci 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.3390/bs15020122
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

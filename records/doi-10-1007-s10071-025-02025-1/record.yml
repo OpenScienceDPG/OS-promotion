@@ -1,0 +1,72 @@
+schema_version: 1.0
+id: doi-10-1007-s10071-025-02025-1
+doi: 10.1007/s10071-025-02025-1
+bibliography:
+  title: Environmental enrichment influences the relationship between lateralization
+    and neophobia in zebrafish larvae
+  authors: Gabriela Gjinaj; Elia Gatto; Marco Dadda
+  journal: Animal Cognition
+  volume: '29'
+  pages: '3'
+  year: 2026
+dpg:
+  authors:
+  - Gabriela Gjinaj
+  - Marco Dadda
+  verified: yes
+  verification_source: 'Final PDF p.1 affiliation 1: Gjinaj and Dadda, Department
+    of General Psychology, University of Padova. Online 2025; official citation Animal
+    Cognition (2026) 29:3.'
+source:
+  pdf_file: s10071-025-02025-1.pdf
+  pdf_path: ~
+  md5: 67de735acb0cb4eb4f9c40a286f38ef2
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 11:17:41 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: data provided by the corresponding author upon request; no
+    other open practice declared. Gjinaj and Dadda DPG; Animal Cognition 2026 (29:3,
+    online 2025).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

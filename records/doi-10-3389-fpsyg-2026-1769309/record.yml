@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1769309
+doi: 10.3389/fpsyg.2026.1769309
+bibliography:
+  title: 'New frontiers in the p-hacking practices: assessing the effect of data peeking
+    practice on type-I error rate through computational modeling'
+  authors: Francesca Freuli; Stefano Noventa; Luigi Lombardi
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1769309'
+  year: 2026
+dpg:
+  authors:
+  - Stefano Noventa
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 3: Department of General Psychology,
+    University of Padua (Noventa, also IRCCS San Camillo); Freuli and Lombardi at
+    University of Trento (Freuli also Vita-Salute San Raffaele). Published 8 September
+    2026; Front. Psychol. 17:1769309.'
+source:
+  pdf_file: fpsyg.2026.1769309.pdf
+  pdf_path: .na.character
+  md5: 63736f527d50d12970eb4c24ac0e8231
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1769309/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:13:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): generated (simulation) datasets
+    declared on GitHub FrancescaFreuli/New-Frontiers-P-hacking; resource not opened,
+    Enrico check pending. Noventa DPG (Freuli, Lombardi Trento); Front Psychol 2026;
+    gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1769309
+  preregistration: []
+  data: https://github.com/FrancescaFreuli/New-Frontiers-P-hacking
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: page 9
+  passage: 'Data availability statement: the datasets generated for this (simulation)
+    study declared available on GitHub repository FrancescaFreuli/New-Frontiers-P-hacking.
+    Code not explicitly declared (not counted). Declaration and link read; resource
+    not opened.'
+  url: https://github.com/FrancescaFreuli/New-Frontiers-P-hacking
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2026.1769309
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: Immaginate un ricercatore che, invece di raccogliere tutti i dati
+    previsti, controlla i risultati di continuo e si ferma appena trova qualcosa di
+    significativo. Questa abitudine, chiamata in gergo sbirciare i dati, aumenta il
+    rischio di annunciare scoperte che in realtà non esistono. Finora, per misurare
+    quanto, si ricorreva a lunghe simulazioni al computer, ripetendo moltissimi esperimenti
+    immaginari. Gli autori hanno costruito invece un modello matematico che calcola
+    direttamente quanto cresce la probabilità di un falso allarme, a seconda di quante
+    volte si sbircia e di quanto è grande il campione. Messo a confronto con le simulazioni
+    in molte situazioni diverse, il modello ha dato risultati concordanti, in modo
+    più rapido e con meno errori. Uno strumento prezioso per capire meglio una delle
+    cattive abitudini che minano l'affidabilità della ricerca scientifica.
+  topics:
+  - metodologia
+  - statistica
+  - modelli
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: data-peeking stops data collection once significant results
+      are obtained, increasing false positives; traditionally assessed through Monte-Carlo
+      simulations.'
+    - 'PDF p.1 abstract: computational model based on convolutions of normal and truncated
+      normal distributions estimates increased false-positive rates; compared with
+      simulations across alpha levels, sample sizes 40-320 and 1-10 interim analyses.'
+    - 'PDF p.1 abstract: computational values within two standard deviations of simulated
+      means; faster and error-reducing approach.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

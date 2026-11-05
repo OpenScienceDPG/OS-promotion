@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-3758-s13428-025-02743-x
+doi: 10.3758/s13428-025-02743-x
+bibliography:
+  title: 'Collecting behavioural data across countries during pandemics: Development of the COVID-19 Risk
+    Assessment Tool'
+  authors: Gjalt-Jorn Peters; Dominika Kwasnicka; et al. (69 authors, including Sabrina Cipolletta and
+    Silvia Caterina Maria Tomaino); Sylvia Roozen
+  journal: Behavior Research Methods
+  volume: '57'
+  pages: '223'
+  year: 2025
+dpg:
+  authors: []
+  verified: false
+  verification_source: 'Final PDF p.14: Cipolletta and Tomaino listed only under affiliation 15, "University
+    of Padua, Padova, Italy", without department. Inventory list-2026-11-04.xlsx lists Cipolletta under
+    DPG (affiliation start 03/03/2025), but per protocol the workbook does not replace affiliation at
+    publication and University of Padova alone is insufficient.'
+source:
+  pdf_file: s13428-025-02743-x.pdf
+  pdf_path: null
+  md5: 3b9ba13cf2a3eb17aab26caf4cdf51d2
+  article_url: https://link.springer.com/content/pdf/10.3758/s13428-025-02743-x.pdf
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: screen-2.0
+  algorithm_score: null
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: null
+  final_note: 'Needs review (scope, not practices): DPG affiliation at publication not stated in the paper
+    (University of Padua only). Open practices otherwise clearly declared with links (data, code, materials,
+    tool on GitLab and OSF; hybrid OA). Next step: Enrico confirms whether Cipolletta/Tomaino were DPG
+    in July 2025; if yes, keep in ordinary mode using the evidence below.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx)
+    eligible: null
+    reason: dpg-affiliation-at-publication-unverified
+    citation_year: 2025
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: null
+  open_code: null
+  open_materials: null
+  open_protocol: null
+  open_access: null
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3758/s13428-025-02743-x
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF pp.4-6, tool description; p.11, Availability of data, code, and material
+  passage: 'Candidate evidence, not yet applied pending scope check: materials, source code, analysis
+    scripts and data declared freely available under CC BY at https://gitlab.com/a-bc/your-covid-19-risk
+    and https://gitlab.com/a-bc/your-covid-19-risk-data, also via OSF https://osf.io/vkdyt/ (frozen registrations);
+    reusable, adaptable risk tool. Unpaywall OA type hybrid in inventory. Resources not opened.'
+  url: https://osf.io/vkdyt/
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: null
+  public_summary: null
+  topics: []
+publication:
+  published: false
+  featured: false

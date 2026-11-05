@@ -1,0 +1,71 @@
+schema_version: 1.0
+id: doi-10-1186-s40337-025-01280-4
+doi: 10.1186/s40337-025-01280-4
+bibliography:
+  title: 'Autobiographical memory and episodic future thinking in anorexia nervosa:
+    a three-year follow-up'
+  authors: Johanna Louise Keeler; Valentina Cardi; Georgia Peters-Gill; Hubertus Himmerich;
+    Kate Tchanturia; Janet Treasure
+  journal: Journal of Eating Disorders
+  volume: '13'
+  pages: '94'
+  year: 2025
+dpg:
+  authors:
+  - Valentina Cardi
+  verified: yes
+  verification_source: 'Final PDF author details, affiliation 2: Valentina Cardi,
+    Department of General Psychology, University of Padova.'
+source:
+  pdf_file: s40337-025-01280-4.pdf
+  pdf_path: ~
+  md5: 9d753d414a02515ac7d07ef7c406df53
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 11:17:41 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: data availability states no datasets were generated or analysed
+    (no shared data); no preregistration, code or materials declared. Cardi DPG; J
+    Eat Disord 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

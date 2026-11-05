@@ -1,0 +1,125 @@
+schema_version: 1.0
+id: doi-10-3390-vision9030079
+doi: 10.3390/vision9030079
+bibliography:
+  title: 'A Simulated Visual Field Defect Impairs Temporal Processing: An Effect Not
+    Modulated by Emotional Faces'
+  authors: Mohammad Ahsan Khodami; Luca Battaglini
+  journal: Vision
+  volume: '9'
+  issue: '3'
+  pages: '79'
+  year: 2025
+dpg:
+  authors:
+  - Mohammad Ahsan Khodami
+  - Luca Battaglini
+  verified: yes
+  verification_source: 'Final PDF p.1: both authors, Department of General Psychology,
+    University of Padua. Published 16 September 2025.'
+source:
+  pdf_file: vision9030079.pdf
+  pdf_path: .na.character
+  md5: 63584781756b39bc1895254958ee58eb
+  article_url: https://europepmc.org/articles/PMC12452418?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:31:15 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): dataset declared publicly
+    available on OSF VY4UH; resource not opened, Enrico check pending. Khodami and
+    Battaglini DPG; Vision 2025; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3390/vision9030079
+  preregistration: []
+  data: https://doi.org/10.17605/OSF.IO/VY4UH
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: PDF page 17
+  passage: 'Data Availability Statement: dataset for both experiments declared publicly
+    available in a publicly accessible repository, OSF VY4UH (DOI link). Declaration
+    read; resource not opened.'
+  url: https://doi.org/10.17605/OSF.IO/VY4UH
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; Creative Commons open
+    access licence printed in the final PDF.
+  url: https://doi.org/10.3390/vision9030079
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Se una parte della vista si oscura, vediamo peggio soltanto le
+    forme o anche il ritmo degli eventi? Per scoprirlo, i ricercatori hanno simulato
+    in laboratorio una "macchia cieca", coprendo metà dello schermo con un velo scuro
+    semitrasparente. Venticinque volontari dovevano dire se avevano visto uno o due
+    brevissimi lampi, separati da pochi millesimi di secondo, mentre uno strumento
+    controllava che tenessero lo sguardo fisso al centro. Sotto il velo, per distinguere
+    due lampi serviva in media una pausa di circa 52 millesimi di secondo, contro
+    i 35 della parte libera: la vista diventava meno precisa anche nel tempo. In un
+    secondo esperimento, mostrare prima un volto felice, arrabbiato o neutro non cambiava
+    questo risultato, un chiarimento utile. Secondo gli autori, capire questi meccanismi
+    è un passo verso aiuti migliori per chi convive con difetti del campo visivo.'
+  topics:
+  - percezione visiva
+  - tempo
+  - emozioni
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.4-5: 25 participants; semi-transparent dark overlay on half of the screen
+      simulating a visual field defect; two-flash fusion task with eye tracking.'
+    - 'PDF p.9 and abstract: fusion thresholds about 52 ms under the overlay vs 35
+      ms in intact field.'
+    - 'PDF pp.11-12, 16-17: emotional faces before flashes did not modulate thresholds;
+      authors note relevance for visual field defects.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,76 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2025-1607552
+doi: 10.3389/fpsyg.2025.1607552
+bibliography:
+  title: 'Comparing the benefits of Cognitive Stimulation Therapy with an adapted
+    collaborative version on traditional outcomes, loneliness, and socioemotional
+    skills: a pilot study'
+  authors: Riccardo Domenicucci; Elena Carbone; Enrico Sella; Carmen Belacchi; Michela
+    Sarlo; Erika Borella
+  journal: Frontiers in Psychology
+  volume: '16'
+  pages: '1607552'
+  year: 2025
+dpg:
+  authors:
+  - Riccardo Domenicucci
+  - Elena Carbone
+  - Enrico Sella
+  - Erika Borella
+  verified: yes
+  verification_source: 'Final PDF p.1 affiliation 1: Domenicucci, Carbone, Sella,
+    Borella, Department of General Psychology, University of Padova. Published 10
+    September 2025.'
+source:
+  pdf_file: fpsyg.2025.1607552.pdf
+  pdf_path: ~
+  md5: 3c369d0df8c65b785695b2caa278d2aa
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 11:22:10 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: raw data only ''will be made available by the authors'' (on
+    request/future); no other open practice declared. Domenicucci, Carbone, Sella,
+    Borella DPG; Front Psychol 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

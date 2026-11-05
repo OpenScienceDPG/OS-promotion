@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-026-47026-3
+doi: 10.1038/s41598-026-47026-3
+bibliography:
+  title: Preliminary evidence of kinematic overlap in posed, but not spontaneous,
+    facial expressions of fear and surprise
+  authors: Cristina Scarpazza; Elisa Straulino; Luisa Sartori; Fiorella Del Popolo
+    Cristaldi
+  journal: Scientific Reports
+  volume: '16'
+  pages: '17201'
+  year: 2026
+dpg:
+  authors:
+  - Cristina Scarpazza
+  - Elisa Straulino
+  - Luisa Sartori
+  - Fiorella Del Popolo Cristaldi
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padua (all four authors). Online 13 April 2026.'
+source:
+  pdf_file: s41598-026-47026-3.pdf
+  pdf_path: .na.character
+  md5: 3a662df649e89e79220ba20d5a397bcf
+  article_url: https://europepmc.org/articles/PMC13234171?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:31:15 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared publicly accessible
+    on OSF via published view-only link; not preregistered (stated); resource not
+    opened, Enrico check pending. All four authors DPG; Sci Rep 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1038/s41598-026-47026-3
+  preregistration: []
+  data: https://osf.io/8jp3y/?view_only=278bf139bd7a4292bd92c9dc192f43fb
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: PDF page 6
+  passage: 'Transparency and Openness (p.6) and Data availability (p.8): data necessary
+    to reproduce the analyses declared publicly accessible on OSF at published view-only
+    link; study stated not preregistered. Declaration read; resource not opened.'
+  url: https://osf.io/8jp3y/?view_only=278bf139bd7a4292bd92c9dc192f43fb
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; Creative Commons open
+    access licence printed in the final PDF.
+  url: https://doi.org/10.1038/s41598-026-47026-3
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Paura o sorpresa? Sopracciglia alzate, occhi spalancati, bocca
+    aperta: le due emozioni si somigliano tanto che, nei test di riconoscimento, la
+    paura viene spesso scambiata per sorpresa. I ricercatori hanno prima rianalizzato
+    le risposte di 432 persone che avevano guardato brevi video di volti: l''errore
+    capitava molto più spesso con le espressioni recitate a comando che con quelle
+    spontanee. Poi hanno applicato piccoli marcatori sulle sopracciglia e agli angoli
+    della bocca di 21 volontari, mentre telecamere speciali ne ricostruivano i movimenti
+    in tre dimensioni: prima guardando filmati che fanno sobbalzare o stupire, poi
+    imitando foto di volti spaventati o sorpresi. Recitate, paura e sorpresa si muovevano
+    in modo quasi identico; spontanee no, perché la paura vera apriva la bocca di
+    più e più in fretta. Secondo gli autori, per capire le emozioni bisogna osservarle
+    anche quando nascono spontanee.'
+  topics:
+  - emozioni
+  - espressioni del volto
+  - movimento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.2, 6: Study 1 reanalysed recognition data from 432 participants; fear
+      confused with surprise more often for posed than spontaneous expressions.'
+    - 'PDF pp.6-7: Study 2, 21 adults, 3D motion capture with markers on eyebrows
+      and mouth corners; spontaneous expressions elicited by clips, then posed imitations.'
+    - 'PDF pp.3, 5: posed fear and surprise overlapped kinematically; spontaneous
+      fear showed larger and faster mouth opening.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

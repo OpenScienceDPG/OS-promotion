@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-1080-15374416-2026-2660289
+doi: 10.1080/15374416.2026.2660289
+bibliography:
+  title: Triarchic Psychopathy Traits as Predictors of Antisocial Behavior, Socioemotional
+    Functioning, and Academic Performance in Adolescence
+  authors: Claudio Sica; Corrado Caudek; Gioia Bottesi; Ilaria Colpizzi; Anna Malerba;
+    Andrea Baroncelli; Sara Iannattone; Christopher J. Patrick
+  journal: Journal of Clinical Child & Adolescent Psychology
+  pages: 1-13
+  year: 2026
+dpg:
+  authors:
+  - Gioia Bottesi
+  - Sara Iannattone
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation c: Department of General Psychology,
+    University of Padua (Bottesi, Iannattone). Published online 17 April 2026; online
+    first, no volume/issue yet (recheck citation year when assigned).'
+source:
+  pdf_file: 15374416.2026.2660289.pdf
+  pdf_path: .na.character
+  md5: fedf830af651ee5862d1f6e348367532
+  article_url: https://www.tandfonline.com/doi/pdf/10.1080/15374416.2026.2660289
+  note: Final published PDF (OA copy located via OpenAlex) downloaded 2026-11-05,
+    candidate found by local keyword screen of open full texts; read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:40:35 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): all data declared publicly
+    available on OSF via published view-only link; resource not opened, Enrico check
+    pending. Bottesi and Iannattone DPG; J Clin Child Adolesc Psychol 2026 online
+    first (no issue yet); hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1080/15374416.2026.2660289
+  preregistration: []
+  data: https://osf.io/ek8jr/overview?view_only=c7505cb06c3646c28f6abb47d8222c17
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: PDF page 10
+  passage: 'Data Availability Statement: all data declared made publicly available
+    at OSF, accessible at published view-only link. Declaration read; resource not
+    opened.'
+  url: https://osf.io/ek8jr/overview?view_only=c7505cb06c3646c28f6abb47d8222c17
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY open access
+    licence printed in the final PDF.
+  url: https://doi.org/10.1080/15374416.2026.2660289
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Durante l''adolescenza alcuni ragazzi mostrano tratti come la freddezza
+    verso gli altri, l''impulsività o un''audacia senza paura. Che legame hanno con
+    il modo in cui i ragazzi stanno nel tempo? I ricercatori hanno seguito 698 studenti
+    di sei scuole superiori dell''Italia centrale, che hanno compilato questionari
+    tre volte nell''arco di circa nove mesi. Le domande riguardavano comportamenti
+    aggressivi o contro le regole, emozioni, rapporti con i compagni, gentilezza verso
+    gli altri e voti scolastici. Ne emergono tre profili distinti: la freddezza si
+    accompagnava a più comportamenti aggressivi e a meno gesti di aiuto; l''impulsività
+    a quasi tutte le difficoltà, compresi voti più bassi; l''audacia a meno ansia
+    e tristezza. Questi legami erano in gran parte simili tra ragazzi e ragazze. Secondo
+    gli autori, conoscere queste differenze può aiutare a progettare interventi mirati
+    a ciascun tratto.'
+  topics:
+  - adolescenza
+  - personalità
+  - comportamento
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.3-5: 698 students from six secondary schools in central Italy, questionnaires
+      at three waves 4.5 months apart.'
+    - 'PDF abstract and Table 2: meanness associated with antisocial behaviour and
+      less prosociality; disinhibition with most difficulties and lower grades; boldness
+      with fewer internalizing problems; patterns largely similar across sexes.'
+    - 'PDF Discussion: authors suggest interventions tailored to each trait.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

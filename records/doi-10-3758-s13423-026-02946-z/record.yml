@@ -1,0 +1,138 @@
+schema_version: 1.0
+id: doi-10-3758-s13423-026-02946-z
+doi: 10.3758/s13423-026-02946-z
+bibliography:
+  title: 'How do my distributions differ? Significance testing for the overlapping index using permutation
+    tests'
+  authors: Giulia Calignano; Ambra Perugini; Massimo Nucci; Livio Finos; Massimiliano Pastore
+  journal: Psychonomic Bulletin & Review
+  volume: '33'
+  pages: '189'
+  year: 2026
+dpg:
+  authors:
+  - Massimo Nucci
+  verified: true
+  verification_source: 'Final PDF p.1 affiliation 2: Massimo Nucci, Department of General Psychology,
+    University of Padova (also HIT centre). Other authors: Developmental and Social Psychology, Statistical
+    Sciences, not DPG. Published online 13 July 2026, PBR (2026) 33:189.'
+source:
+  pdf_file: s13423-026-02946-z.pdf
+  pdf_path: null
+  md5: baca855896602ae7066dd3019f633a9a
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 11:09:56 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data, materials and code declared openly available
+    at OSF via published view-only hyperlink; resource not opened, Enrico check pending. Nucci DPG; PBR
+    2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx)
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: null
+  registered_report: null
+  open_data: true
+  open_code: true
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.3758/s13423-026-02946-z
+  preregistration: []
+  data:
+  - https://osf.io/3jwsh/?view_only=37ba668675d5425a8681fe3b686c8507
+  code:
+  - https://osf.io/3jwsh/?view_only=37ba668675d5425a8681fe3b686c8507
+  materials:
+  - https://osf.io/3jwsh/?view_only=37ba668675d5425a8681fe3b686c8507
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_materials
+  source: pdf
+  location: PDF p.13, Availability of data and materials; p.13 Conclusion
+  passage: Data and materials to reproduce the work explicitly declared openly available at OSF; the
+    word OSF carries an embedded hyperlink to a view-only OSF link published in the final PDF. Simulation
+    and applied-example data (third-party reaction-time dataset also cited on OSF). Declaration and actual
+    link read locally; resource not opened; external content/access unverified, manual Enrico check pending.
+  url: https://osf.io/3jwsh/?view_only=37ba668675d5425a8681fe3b686c8507
+  verification: unverified
+- claims:
+  - open_code
+  source: pdf
+  location: PDF p.13, Code availability; p.2
+  passage: Code to reproduce the work explicitly declared openly available at OSF (same embedded view-only
+    hyperlink); p.2 states all code required to reproduce the analyses is openly available. Declaration
+    and actual link read locally; resource not opened; external content/access unverified, manual Enrico
+    check pending.
+  url: https://osf.io/3jwsh/?view_only=37ba668675d5425a8681fe3b686c8507
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF p.13 licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; article licensed CC BY 4.0, open access
+    funding via CRUI-CARE.
+  url: https://doi.org/10.3758/s13423-026-02946-z
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari
+    e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Due gruppi possono avere la stessa media ed essere comunque molto diversi: pensate a due classi
+    con lo stesso voto medio, una tutta di sei, l'altra di tre e di nove. Eppure molti studi di
+    psicologia confrontano soprattutto le medie. Giulia Calignano, Ambra Perugini e colleghi
+    propongono un test che guarda all'intera forma dei dati, misurando quanto i risultati di due
+    gruppi si sovrappongono: più si sovrappongono, più i gruppi si somigliano. Con ampie
+    simulazioni al computer, gli autori mostrano che il nuovo test non segnala differenze
+    inesistenti più spesso del dovuto e coglie bene i casi in cui i gruppi differiscono per più
+    aspetti insieme. Un esempio reale, con i tempi di lettura di parole comuni e rare, mostra
+    differenze che il solo confronto delle medie non vedeva. Uno strumento semplice per guardare i
+    dati con più attenzione.
+  topics:
+  - metodologia statistica
+  - distribuzioni
+  - test di permutazione
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: PBR (2026) 33:189, published online 13 July 2026; abstract; Nucci DPG.'
+    - 'PDF pp.1-3, 12-13: ov test, permutation test on the Overlapping Index; simulations varying mean,
+      variance, skewness, sample size; adequate Type I error control, high sensitivity to multi-parameter
+      differences.'
+    - 'PDF p.3 and abstract: applied example with reading times for high- and low-frequency English words
+      (29 participants), distributional overlap detects differences missed by mean-based analyses.'
+    review_note: Methods article; classroom example is a hypothetical illustration, not a study fact.
+      Scientific and editorial passes completed.
+publication:
+  published: false
+  featured: false

@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-3390-jintelligence13060069
+doi: 10.3390/jintelligence13060069
+bibliography:
+  title: 'Controlling Rater Effects in Divergent Thinking Assessment: An Item Response
+    Theory Approach to Individual Response and Snapshot Scoring'
+  authors: Gerardo Pellegrino; Janika Saretzki; Mathias Benedek
+  journal: Journal of Intelligence
+  volume: '13'
+  issue: '6'
+  pages: '69'
+  year: 2025
+dpg:
+  authors:
+  - Gerardo Pellegrino
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (Pellegrino). Published 17 June 2025.'
+source:
+  pdf_file: jintelligence13060069.pdf
+  pdf_path: .na.character
+  md5: c624bdcfcf200bf748fd9a22456cc179
+  article_url: https://europepmc.org/articles/PMC12194098?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:21:28 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): R analysis script declared
+    on OSF abpnr; reanalysed dataset is third-party (not counted as open data); resource
+    not opened, Enrico check pending. Pellegrino DPG; J Intell 2025; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3390/jintelligence13060069
+  preregistration: []
+  data: []
+  code: https://osf.io/abpnr/
+  materials: []
+  protocol: []
+evidence:
+- claims: open_code
+  source: pdf
+  location: PDF page 6
+  passage: 'Section 2.3 Analysis Strategy: R script for all analyses and Supplementary
+    Materials declared available at https://osf.io/abpnr/. Data URL osf.io/a9qnc is
+    the reanalysed third-party dataset (not counted). Declaration read; resource not
+    opened.'
+  url: https://osf.io/abpnr/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3390/jintelligence13060069
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Quanti usi diversi vi vengono in mente per una graffetta? Domande
+    così servono a misurare la creatività, ma qualcuno deve giudicare quanto ogni
+    idea sia originale, e c''è chi è più severo e chi più generoso. Gli autori hanno
+    ripreso dati raccolti e condivisi da altri ricercatori: 201 persone avevano inventato
+    usi per una corda, una graffetta e un sacco della spazzatura, producendo oltre
+    4.700 idee. Alcuni giudici avevano valutato ogni risposta, altri l''insieme delle
+    idee di ciascuno. Con un modello statistico che tiene conto della severità di
+    ogni giudice, gli autori hanno confrontato punteggi corretti e semplici, simulando
+    anche valutazioni affidate a meno persone. Con giudici molto concordi, i punteggi
+    sono risultati praticamente identici. Una buona notizia per chi misura la creatività,
+    e un modo in più per capire come giudicano i valutatori.'
+  topics:
+  - creatività
+  - valutazione
+  - metodi
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.5-6: reanalysis of an open third-party dataset, 201 participants, three
+      alternate uses tasks (garbage bag, paperclip, rope), 4752 responses; individual
+      ratings by 3 raters and snapshot scoring by 5 raters.'
+    - 'PDF pp.11-15: rater-adjusted and unadjusted scores correlated above .99; similar
+      results in simulated reduced-rater scenario.'
+    - 'PDF p.15: authors describe the approach as a valuable tool for examining rater
+      behaviour.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

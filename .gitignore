@@ -1,6 +1,6 @@
 reports/decisions.csv
 reports/screening.csv
-inbox/**/*.xml
+inbox/
 archive/
 /.quarto/
 *.RData
@@ -8,3 +8,6 @@ archive/
 
 # PDFs are never stored in the repository; inbox/ holds them only until finalized
 *.pdf
+
+# Local full-text cache for scripts/00-shortlist.R (never committed or uploaded)
+cache/

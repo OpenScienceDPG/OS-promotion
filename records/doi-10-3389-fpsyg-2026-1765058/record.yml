@@ -1,0 +1,138 @@
+schema_version: 1.0
+id: doi-10-3389-fpsyg-2026-1765058
+doi: 10.3389/fpsyg.2026.1765058
+bibliography:
+  title: 'Kicking the mental number line: a kinematic investigation of numerical processing
+    in childhood'
+  authors: Elisa Straulino; Silvia Benavides-Varela; Giovanni Bruno; Luisa Sartori;
+    Rosa Rugani
+  journal: Frontiers in Psychology
+  volume: '17'
+  issue: .na
+  pages: '1765058'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Straulino
+  - Giovanni Bruno
+  - Luisa Sartori
+  - Rosa Rugani
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (Straulino, Bruno, Sartori, Rugani); Benavides-Varela at
+    Department of Developmental Psychology and Socialization (Rugani also). Published
+    25 February 2026; Front. Psychol. 17:1765058.'
+source:
+  pdf_file: fpsyg.2026.1765058.pdf
+  pdf_path: .na.character
+  md5: f7b2e4d5ec2e0a9624fb3bae97584734
+  article_url: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1765058/pdf
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:13:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): dataset and R script declared
+    available on OSF unf9y (published view-only link); resource not opened, Enrico
+    check pending. Straulino, Bruno, Sartori, Rugani DPG; Front Psychol 2026; gold
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.3389/fpsyg.2026.1765058
+  preregistration: []
+  data: https://osf.io/unf9y/?view_only=780672a28ec947ba9fa469308c425ace
+  code: https://osf.io/unf9y/?view_only=780672a28ec947ba9fa469308c425ace
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: page 5, 10
+  passage: 'Statistical analyses section (p.5): the dataset and the R script declared
+    available in the OSF project folder via the published view-only link; Data availability
+    statement (p.10) repeats the OSF view-only link for the datasets. Declaration
+    and link read; resource not opened.'
+  url: https://osf.io/unf9y/?view_only=780672a28ec947ba9fa469308c425ace
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY open access licence
+    printed in the final PDF.
+  url: https://doi.org/10.3389/fpsyg.2026.1765058
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: 'Anche i bambini piccoli immaginano i numeri in fila, con i piccoli
+    a sinistra e i grandi a destra? Per scoprirlo, le ricercatrici e i ricercatori
+    hanno trasformato un esperimento in una minuscola partita di calcio: 21 bambini
+    tra i 4 e gli 11 anni infilavano il dito indice in una scarpetta giocattolo e
+    calciavano una pallina verso una porta, dopo aver visto sullo schermo 2 oppure
+    8 pallini. Speciali telecamere registravano con precisione ogni movimento. I bambini
+    in età prescolare, dopo aver visto pochi pallini, facevano movimenti più efficienti
+    e deviavano di più verso sinistra, in linea con quella fila immaginaria di numeri.
+    Nei bambini che già andavano a scuola, come negli adulti, l''effetto non compariva.
+    Secondo gli autori, il legame tra numeri e movimento nasce presto e si trasforma
+    con l''esperienza e lo studio della matematica.'
+  topics:
+  - cognizione
+  - sviluppo
+  - movimento
+  - spazio
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: finger-kick task with kinematic measures in preschool (4-6)
+      and school-age (7-11) children after small (2-Dots) or large (8-Dots) arrays
+      and a baseline stimulus.'
+    - 'PDF pp.3-4: 21 children (7 preschool, 14 school-age); index finger in a small
+      plastic soccer shoe kicking a ball toward a goal; optoelectronic cameras.'
+    - 'PDF p.1 abstract: preschoolers more efficient trajectories and greater leftward
+      deviations after small numerosities; no effect for large numerosities or in
+      school-age children; authors suggest reshaping with experience and formal education.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

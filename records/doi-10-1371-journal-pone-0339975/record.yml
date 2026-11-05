@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0339975
+doi: 10.1371/journal.pone.0339975
+bibliography:
+  title: 'Inside the world of non-suicidal self-injury e-communities: Language, identity
+    and need for belonging'
+  authors: Vinay Jagdish Sukhija; Elisa Mancinelli; Rachele Del Guerra; Silvia Salcuni
+  journal: PLOS One
+  volume: '20'
+  pages: e0339975
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final PDF p.1: all four authors listed under Department of
+    Developmental and Socialization Psychology (DPSS), University of Padova (Sukhija
+    also UNIMORE). Inventory list-2026-11-04.xlsx lists Mancinelli under DPG with
+    affiliation start 01/10/2024, before publication (3 December 2025): conflict between
+    printed affiliation and institutional record.'
+source:
+  pdf_file: pone.0339975.pdf
+  pdf_path: ~
+  md5: f777781bee21418d6a6f1b0150ea9863
+  article_url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339975
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: screen-2.0
+  algorithm_score: 5
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: ~
+  final_note: 'Needs review (scope, not practices): printed affiliation of all authors
+    is DPSS, while the inventory records Mancinelli at DPG since 01/10/2024. Practices:
+    minimum dataset (frequency counts, sentiment scores) declared public on figshare
+    with link; Python code only on request; not preregistered (stated). Next step:
+    Enrico decides whether Mancinelli counts as DPG at publication; if yes, keep with
+    open_data in ordinary mode.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (online search from inventory list-2026-11-04.xlsx; 2025
+      focus)
+    eligible: ~
+    reason: dpg-affiliation-conflict
+    citation_year: 2025
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0339975
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF p.1 Data availability statement; p.5 and p.6 Methods
+  passage: 'Candidate evidence pending scope check: minimum data set of frequency
+    counts and sentiment analysis scores declared made available on a public repository
+    (figshare link printed); raw Reddit data not shareable; Python code available
+    on reasonable request only (not counted); study stated not preregistered. Gold
+    OA in inventory. Resource not opened.'
+  url: https://figshare.com/articles/dataset/NSSI-Slang_Project-Data-Analysis/28344107
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

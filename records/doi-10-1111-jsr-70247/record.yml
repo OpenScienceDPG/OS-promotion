@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1111-jsr-70247
+doi: 10.1111/jsr.70247
+bibliography:
+  title: The Effect of Closed-Loop Auditory Stimulation on Memory Consolidation and
+    Sleep Physiology in an Ecological Setting
+  authors: Angie Baldassarri; Damiana Bergamo; Federico Salfi; Domenico Corigliano;
+    Michele Ferrara; Aurora D'Atri; Nicola Cellini
+  journal: Journal of Sleep Research
+  volume: '35'
+  issue: '3'
+  pages: e70247
+  year: 2026
+dpg:
+  authors:
+  - Angie Baldassarri
+  - Damiana Bergamo
+  - Nicola Cellini
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padua (Baldassarri, Bergamo, Cellini). Online 12 November 2025;
+    issue 35(3) 2026.'
+source:
+  pdf_file: jsr.70247.pdf
+  pdf_path: .na.character
+  md5: 2aa8895c2ac0c513bcf156140e825ce1
+  article_url: https://europepmc.org/articles/PMC13193352?pdf=render
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate found by local keyword screen of open full texts), read locally, deleted
+    after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 22:21:28 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared openly available
+    on OSF as7wg; resource not opened, Enrico check pending. Baldassarri, Bergamo,
+    Cellini DPG; J Sleep Res 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/jsr.70247
+  preregistration: []
+  data: https://osf.io/as7wg/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: PDF page 9
+  passage: 'Data availability statement: data declared openly available in OSF at
+    https://osf.io/as7wg/ (DOI 10.17605/OSF.IO/AS7WG). MATLAB scripts not declared
+    shared. Declaration read; resource not opened.'
+  url: https://osf.io/as7wg/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; PDF
+    p.1 licence
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY open access
+    licence printed in the final PDF.
+  url: https://doi.org/10.1111/jsr.70247
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Si può dare una mano alla memoria mentre dormiamo, semplicemente
+    con dei suoni? Nel sonno profondo il cervello produce onde lente che, secondo
+    molti studiosi, aiutano a fissare ciò che abbiamo imparato di giorno; in laboratorio
+    si è provato a rinforzarle con brevi fruscii sincronizzati con queste onde. I
+    ricercatori hanno portato la tecnica a casa: 34 giovani adulti hanno dormito con
+    una fascia elettronica che registrava l''attività del cervello e, per metà di
+    loro, emetteva i suoni al momento giusto. La sera imparavano la traduzione di
+    40 parole inventate, poi venivano rimessi alla prova il mattino dopo e due giorni
+    più tardi. I suoni hanno rinforzato le onde lente, senza peggiorare il sonno,
+    ma non hanno migliorato memoria né prontezza. Un risultato prezioso, che aiuta
+    a capire cosa aspettarsi da questi dispositivi nella vita reale.'
+  topics:
+  - sonno
+  - memoria
+  - tecnologia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-05'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.2-4: 34 young adults, between-subjects home study with a wearable headband
+      delivering pink-noise sounds phase-locked to slow oscillations; 40 pseudoword
+      translations learned in the evening, tested next morning and two days later.'
+    - 'PDF pp.6-7: stimulation enhanced slow oscillations; no group differences in
+      memory or vigilance; sleep architecture unchanged.'
+    - 'PDF p.9: authors conclude microstructure changed without negative effects on
+      sleep, but no performance benefit.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

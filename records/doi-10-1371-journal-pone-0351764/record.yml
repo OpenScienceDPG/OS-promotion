@@ -1,0 +1,139 @@
+schema_version: 1.0
+id: doi-10-1371-journal-pone-0351764
+doi: 10.1371/journal.pone.0351764
+bibliography:
+  title: 'Further evidence for embodied cognition: The link between spontaneous respiratory oscillations
+    and number processing'
+  authors: Sebastiano Cinetto; Hurcan Andrei Senyuva; Marco Zorzi; Mariagrazia Ranzini
+  journal: PLOS One
+  volume: '21'
+  pages: e0351764
+  year: 2026
+dpg:
+  authors:
+  - Hurcan Andrei Senyuva
+  - Marco Zorzi
+  - Mariagrazia Ranzini
+  verified: true
+  verification_source: 'Final PDF p.1: Senyuva, Zorzi and Ranzini affiliated with (2) Department of General
+    Psychology, University of Padova; Cinetto with Padova Neuroscience Center only.'
+source:
+  pdf_file: pone.0351764.pdf
+  pdf_path: null
+  md5: f9d93528a13f93e7e36e9b471a662fc0
+screening:
+  status: ready
+  first_screened_at: '2026-10-31'
+  last_screened_at: 2026-10-31 13:53:23 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: true
+  final_decision: keep
+  final_note: >-
+    Keep: Registered Report protocol (Stage 1) with preregistered hypotheses; experiment scripts on OSF
+    57etu added as materials; data/code only promised after completion (not counted). Zorzi and Ranzini
+    DPG.
+  scope:
+    corpus: DPG 2025-2026
+    eligible: true
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: null
+  by: null
+  at: null
+  note: null
+open_science:
+  preregistration: true
+  registered_report: true
+  open_data: null
+  open_code: null
+  open_materials: true
+  open_protocol: null
+  open_access: true
+  reusable_tool: null
+resources:
+  article:
+  - https://doi.org/10.1371/journal.pone.0351764
+  preregistration:
+  - https://doi.org/10.1371/journal.pone.0351764
+  data: []
+  code: []
+  materials:
+  - https://osf.io/57etu/overview
+  protocol:
+  - https://doi.org/10.1371/journal.pone.0351764
+evidence:
+- claims:
+  - registered_report
+  - preregistration
+  source: pdf
+  location: page 1
+  passage: Article type Registered Report Protocol (p.1); abstract states the three hypotheses and sample
+    size are preregistered before data collection. The published protocol is the article itself.
+  url: https://doi.org/10.1371/journal.pone.0351764
+  verification: agent-verified
+  checked_at: '2026-10-31'
+- claims:
+  - open_materials
+  source: pdf-and-resource
+  location: page 5, Procedure
+  passage: >-
+    Scripts to run the OpenSesame experiment stated publicly available at printed OSF link. OSF project
+    public, title Breathing and Random Number Generation; task.zip present. Raw data and analysis scripts
+    only promised after completion: not counted.
+  url: https://osf.io/57etu/overview
+  verification: agent-verified
+  checked_at: '2026-10-31'
+- claims:
+  - open_access
+  source: pdf-and-resource
+  location: Unpaywall by DOI; PDF p.1 copyright
+  passage: Unpaywall oa_status gold; publisher article freely accessible under CC BY licence, matching
+    DOI/title.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351764
+  verification: agent-verified
+  checked_at: '2026-10-31'
+curation:
+  status: curated
+  why_open: >-
+    Il piano dello studio, reso pubblico prima di raccogliere i dati; Il progetto, approvato dalla rivista
+    prima di conoscere i risultati; I materiali dello studio, come questionari e stimoli; L'articolo,
+    gratuito sul sito della rivista
+  public_summary: >-
+    Quando inspiriamo, i numeri che ci vengono in mente diventano più grandi? L'idea è meno strana di
+    quanto sembri: secondo la teoria della «cognizione incarnata», il corpo contribuisce a dare forma
+    anche ai pensieri più astratti, come quelli sui numeri. Sebastiano Cinetto e colleghi presentano qui
+    il piano dettagliato di un nuovo esperimento. Trenta adulti scriveranno su un tablet cifre da 1 a
+    9, cercando di metterle in fila il più possibile a caso, mentre una fascia sull'addome registrerà
+    il respiro. I ricercatori verificheranno se durante l'inspirazione si scelgono numeri più grandi,
+    se conta anche quanto si espande l'addome e se le cifre vengono addirittura scritte più grandi. Ricerche
+    precedenti avevano già suggerito un legame simile: questo studio lo metterà alla prova con misure
+    del respiro molto più fini. Un modo elegante per scoprire quanto mente e corpo lavorino insieme.
+  topics:
+  - cognizione numerica
+  - respirazione
+  - corpo e mente
+  article_resources:
+    preregistration: 'PDF p.1 and throughout: the article is the published Registered Report protocol,
+      with preregistered hypotheses, sample size and analysis plan.'
+    protocol: 'PDF p.1 and throughout: the article itself is the Registered Report protocol.'
+  summary_review:
+    by: agent
+    at: '2026-10-31'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: Registered Report Protocol, PLoS One 21(6) e0351764, published 26 June 2026; Senyuva,
+      Zorzi, Ranzini DPG; CC BY.'
+    - >-
+      PDF abstract and Methods: planned N=30 healthy adults; handwritten random number generation of digits
+      1-9 on tablet; abdominal piezoelectric belt; hypotheses on inhalation phase, abdominal expansion
+      and digit size; builds on Belli et al. (2021).
+    - 'Protocol without results: summary uses future tense and states no findings.'
+    review_note: Scientific claims checked against abstract, methods, results/discussion; separate editorial
+      pass for clarity and no overstatement.
+publication:
+  published: false
+  featured: false

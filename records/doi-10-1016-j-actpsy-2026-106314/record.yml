@@ -1,0 +1,77 @@
+schema_version: 1.0
+id: doi-10-1016-j-actpsy-2026-106314
+doi: 10.1016/j.actpsy.2026.106314
+bibliography:
+  title: 'Validity of a very short measure of character strengths: The Italian VIA-48'
+  authors: Nicole Casali; Tommaso Feraco; Lara Bellardita; Chiara Meneghetti; Daniela
+    Villani
+  journal: Acta Psychologica
+  volume: '263'
+  issue: .na
+  pages: '106314'
+  year: 2026
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Chiara Meneghetti
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation b: Department of General Psychology,
+    University of Padova (Feraco, Meneghetti). Available online 27 January 2026; Acta
+    Psychologica 263 (2026) 106314.'
+source:
+  pdf_file: j.actpsy.2026.106314.pdf
+  pdf_path: .na.character
+  md5: 404f0c5f986e34533000720ac4ddc4e8
+  article_url: OpenAlex open-access pdf_url for the DOI (cached by scripts/00-shortlist.R
+    on 2026-11-05)
+  note: Final published PDF downloaded 2026-11-05 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-05'
+  last_screened_at: 2026-11-05 23:47:22 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: data available from the corresponding author with VIA Institute
+    permission; VIA-48 items on request (figshare private review link only); no open
+    practice. Feraco and Meneghetti DPG; Acta Psychol 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

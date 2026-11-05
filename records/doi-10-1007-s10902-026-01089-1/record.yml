@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-1007-s10902-026-01089-1
+doi: 10.1007/s10902-026-01089-1
+bibliography:
+  title: 'Satisfying Basic Needs: The Effectiveness of Mindfulness-Based Strengths
+    Practice on Character Strengths, Mindfulness, and Well-being Across Two Samples'
+  authors: Nicole Casali; Chiara Meneghetti; Andreas Hirschi; Dandan Pang
+  journal: Journal of Happiness Studies
+  volume: '27'
+  issue: '7'
+  pages: '109'
+  year: 2026
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final PDF p.30: Meneghetti listed only under affiliation 2,
+    ''University of Padua, Padova, Italy'' (unipd email); Study 2 approved by University
+    of Padua ethics committee. Other authors Max Planck Freiburg, Bern. Inventory
+    lists Meneghetti at DPG; department not printed.'
+source:
+  pdf_file: s10902-026-01089-1.pdf
+  pdf_path: .na
+  md5: 16a2565b5c31b0b8b47c8c8c7ca297a1
+  article_url: https://link.springer.com/content/pdf/10.1007/s10902-026-01089-1.pdf
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-05'
+  last_screened_at: '2026-11-05'
+  algorithm_version: .na
+  algorithm_score: .na
+  algorithm_suggestion: .na
+  agent_reviewed: yes
+  final_decision: .na
+  final_note: 'Needs review (scope, not practices): Meneghetti printed only as ''University
+    of Padua'' (no department); DPG affiliation at publication unverified. Candidate
+    practices: Study 2 stated pre-registered on OSF cvp9w; dataset and analysis scripts
+    on OSF ge7ms. Next step: Enrico confirms affiliation; PDF re-downloadable from
+    Springer (hybrid OA).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-05.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: .na
+    reason: dpg-affiliation-unverified
+    citation_year: 2026
+human_override:
+  decision: .na
+  by: .na
+  at: .na
+  note: .na
+open_science:
+  preregistration: .na
+  registered_report: no
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1007/s10902-026-01089-1
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF p.6 section 4.1, p.14 section 10.1, p.26 Data Availability
+  passage: 'Candidate evidence pending scope check: Study 2 stated pre-registered
+    on OSF (cvp9w), deviations documented in Table S10; Study 1 not pre-registered;
+    dataset and analysis scripts declared available on OSF ge7ms. Resources not opened.'
+  url: https://osf.io/ge7ms/
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: .na
+  public_summary: .na
+  topics: []
+publication:
+  published: no
+  featured: no
