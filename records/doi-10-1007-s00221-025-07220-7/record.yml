@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1007-s00221-025-07220-7
+doi: 10.1007/s00221-025-07220-7
+bibliography:
+  title: 'The embodied digital divide: how sensorimotor experience shapes touchscreen
+    typing performance and strategy'
+  authors: Laila Craighero; Elisa Straulino; Alba Liso; Lorenzo Viviani; Davide Conte;
+    Alberto Morelli; Leonardo Bocchi; Luisa Sartori
+  journal: Experimental Brain Research
+  volume: '244'
+  issue: .na
+  pages: '39'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Straulino
+  - Davide Conte
+  - Luisa Sartori
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 2: Department of General Psychology,
+    University of Padova (Straulino, Conte, Sartori); others Ferrara, Florence. Published
+    online 3 Feb 2026; Exp Brain Res (2026) 244:39.'
+source:
+  pdf_file: s00221-025-07220-7.pdf
+  pdf_path: .na.character
+  md5: ce8509af40b2fba365f7b6eb13b7b142
+  article_url: https://link.springer.com/content/pdf/10.1007/s00221-025-07220-7.pdf
+  note: Final published PDF downloaded 2026-11-06 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:35:21 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared available on
+    OSF wcsp9; resource not opened, Enrico check pending. Straulino, Conte, Sartori
+    DPG; Exp Brain Res 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 2, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1007/s00221-025-07220-7
+  preregistration: []
+  data: https://osf.io/wcsp9
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF pp.4-5, Data analysis and results
+  passage: Data used in the study declared available on the Open Science Framework;
+    no access conditions stated; no separate data availability section. Declaration
+    and link read; resource not opened.
+  url: https://osf.io/wcsp9
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the read version.
+  url: https://doi.org/10.1007/s00221-025-07220-7
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Scrivere sul telefono sembra banale, ma i pollici di chi è cresciuto
+    con lo smartphone si muovono come quelli di chi l''ha scoperto da adulto? Le ricercatrici
+    e i ricercatori hanno confrontato 33 persone destrorse: giovani nati dal 1980
+    in poi e adulti nati prima. Con un sistema di telecamere hanno registrato i movimenti
+    del pollice mentre tutti scrivevano le stesse frasi in una chat su WhatsApp e
+    in una ricerca su Google. I più giovani hanno scritto più in fretta, in media
+    circa 76 secondi contro 131, con movimenti più rapidi e decisi. Gli adulti, però,
+    hanno usato di più i suggerimenti automatici della tastiera, soprattutto in chat,
+    senza commettere più errori. Secondo il gruppo di ricerca, la nostra storia di
+    gesti contribuisce a plasmare il modo in cui usiamo la tecnologia.'
+  topics:
+  - smartphone
+  - movimento
+  - invecchiamento
+  - tecnologia
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.3: 33 right-handed participants, born before 1980 (n=10) vs 1980 or later
+      (n=23).'
+    - 'PDF p.1/p.4: 3D motion capture of the thumb; same sentences typed in WhatsApp
+      and Google search.'
+    - 'PDF p.10: typing time 130.99 s vs 75.97 s; more predictive-text use in older
+      group, especially in WhatsApp; errors did not differ.'
+    - 'PDF pp.12-13: authors attribute differences to sensorimotor history.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

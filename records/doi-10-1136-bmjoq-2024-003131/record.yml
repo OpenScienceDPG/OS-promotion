@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1136-bmjoq-2024-003131
+doi: 10.1136/bmjoq-2024-003131
+bibliography:
+  title: 'COVID-19 advocacy bias in the BMJ: meta-research evaluation'
+  authors: Kasper P Kepp; Ioana Cristea; Taulant Muka; John P A Ioannidis
+  journal: BMJ Open Quality
+  volume: '14'
+  issue: '1'
+  pages: e003131
+  year: 2025
+dpg:
+  authors: Ioana Cristea
+  verified: yes
+  verification_source: 'Final article Europe PMC XML front/article-meta: Ioana Cristea
+    carries affiliations 1 and 3; affiliation 3 is Department of General Psychology,
+    Universita degli Studi di Padova, Padova, Italy. Electronic and collection publication
+    dates are 2025; volume 14 issue 1 e003131.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC11877234
+  note: Final article read locally from cached Europe PMC XML on 2026-11-06. No PDF
+    processed. Supporting supplement link resolved from the actual embedded media
+    href; supplement not opened or tested.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: authors explicitly provide
+    relevant raw study data in online supplementary information, with an actual linked
+    supplement in the article XML. Supporting supplement not opened, pending Enrico
+    verification. The study explicitly states no protocol was preregistered. DPG affiliation
+    and official citation year 2025 verified.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1136/bmjoq-2024-003131
+  preregistration: []
+  data: https://pmc.ncbi.nlm.nih.gov/articles/PMC11877234/bin/bmjoq-14-1-s001.pdf
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: article_xml
+  location: Data availability statement; back/fn-group Data availability free text;
+    body supplementary-material SP1, media href bmjoq-14-1-s001.pdf
+  passage: Data availability states all data relevant to the study are included in
+    the article or uploaded as supplementary information. The footnote explicitly
+    says relevant raw data are provided in online supplementary information. The article
+    supplies a linked supplemental file (SP1, media bmjoq-14-1-s001.pdf). Declaration
+    and link read; relative supplement target resolved against the canonical PMC article
+    source without opening or testing it. Manual review pending. Underlying third-party
+    Scopus availability is not the basis for the claim.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11877234/bin/bmjoq-14-1-s001.pdf
+  verification: unverified
+- claims: preregistration
+  source: article_xml
+  location: Methods, Design, opening sentence
+  passage: This is an exploratory meta-research analysis, and thus no protocol was
+    preregistered. No Registered Report, openly shared analysis code, study materials/protocol
+    or concrete reusable tool is declared elsewhere in the full text. Recommendations
+    about transparency and other studies are not this paper practices.
+  url: https://europepmc.org/articles/PMC11877234
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: One matched inventory row classifies this article as gold, qualifying for
+    the OA badge. Final XML independently prints a CC BY-NC 4.0 article licence.
+  url: https://doi.org/10.1136/bmjoq-2024-003131
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Durante la pandemia di COVID-19 le riviste mediche hanno dato voce a molti esperti, con idee
+    diverse su lockdown, chiusure e altre misure. Ma tutte le voci hanno avuto lo stesso spazio?
+    Gli autori hanno contato quanto avevano pubblicato sul British Medical Journal, una delle
+    riviste mediche più autorevoli al mondo, diversi gruppi di scienziati britannici: sostenitori
+    di misure molto rigorose, consulenti scientifici del governo, firmatari di una dichiarazione a
+    favore di misure più limitate, ricercatori molto citati e autori particolarmente prolifici sul
+    COVID. Negli anni della pandemia i sostenitori delle misure più rigorose hanno pubblicato sulla
+    rivista da circa 11 a 64 volte più degli altri gruppi, soprattutto brevi articoli d’opinione.
+    Secondo gli autori, nelle prossime crisi sanitarie un dibattito aperto ed equilibrato tra
+    opzioni diverse aiuterà a prendere decisioni migliori.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: open_data
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Europe PMC XML abstract: Scopus search to April 2024; BMJ items 2016-2019 vs 2020-2023 for indieSAGE/Vaccines-Plus advocates and four control groups (SAGE leaders, UK GBD signatories, highly cited and most COVID-prolific UK scientists), n = 16 each.'
+    - 'Results: advocates outperformed control groups by 10.7- to 64.2-fold during pandemic years, mainly short opinion pieces and analyses; conclusion on open and balanced debate.'
+    review_note: 'Scientific reread against abstract and Methods: comparison groups and fold range accurate; bias conclusion attributed to authors in neutral terms. Editorial reread: acronyms (SAGE, GBD) replaced by descriptions.'
+publication:
+  published: no
+  featured: no

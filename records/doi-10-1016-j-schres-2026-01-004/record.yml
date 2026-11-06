@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-1016-j-schres-2026-01-004
+doi: 10.1016/j.schres.2026.01.004
+bibliography:
+  title: 'Perceptual organization and its visual subcomponents in schizophrenia and
+    schizotypy: A systematic review'
+  authors: Roberta Cessa; Andrea Ghiani; Ezgi Cenk; Marco Bertamini
+  journal: Schizophrenia Research
+  volume: '289'
+  issue: .na
+  pages: 46-60
+  year: 2026
+dpg:
+  authors:
+  - Roberta Cessa
+  - Andrea Ghiani
+  - Marco Bertamini
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation a: Department of General Psychology
+    (DPG), University of Padua (Cessa, Ghiani, Bertamini); Cenk FISPPA. Online 16
+    Jan 2026; Schizophr Res 289 (2026) 46-60.'
+source:
+  pdf_file: 10.1016_j.schres.2026.01.004.pdf
+  pdf_path: .na.character
+  md5: 10dd30f1a1911d4852866c00a6e2223c
+  article_url: https://doi.org/10.1016/j.schres.2026.01.004
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: systematic review with no registration, data, code or materials
+    declared; OSF hit (osf.io/2gfrk) is a cited third-party preprint. Cessa, Ghiani,
+    Bertamini DPG; Schizophr Res 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF pp.3, 12-13
+  passage: No registration (PRISMA only), no data/code/materials statement; osf.io/2gfrk
+    is a cited third-party preprint reference.
+  url: .na
+  verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

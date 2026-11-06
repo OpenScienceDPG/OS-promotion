@@ -1,0 +1,91 @@
+schema_version: 1.0
+id: doi-10-1186-s12984-026-01928-5
+doi: 10.1186/s12984-026-01928-5
+bibliography:
+  title: 'Biomarkers of stroke recovery using EEG-based resting-state functional connectivity:
+    a systematic review'
+  authors: Ettore Napoli; Fabio Masina; Rachele Pezzetta; Federico Vanni; Giulia Oliva;
+    Maria Silvia Saccani; Daniele Marinazzo; Marco Zorzi; Dante Mantini; Giorgio Arcara
+  journal: Journal of NeuroEngineering and Rehabilitation
+  volume: '23'
+  issue: .na
+  pages: '142'
+  year: 2026
+dpg:
+  authors:
+  - Fabio Masina
+  - Maria Silvia Saccani
+  - Marco Zorzi
+  - Giorgio Arcara
+  verified: yes
+  verification_source: 'Final PDF p.33, affiliation 2: Department of General Psychology,
+    University of Padua (Masina, Saccani, Zorzi, Arcara); Oliva at another Padova
+    department; others San Camillo, Bologna, Ghent, Leuven. J NeuroEng Rehabil (2026)
+    23:142.'
+source:
+  pdf_file: s12984-026-01928-5.pdf
+  pdf_path: .na.character
+  md5: 8994d40210028b64621c8df80376c8ed
+  article_url: https://doi.org/10.1186/s12984-026-01928-5
+  note: Final published PDF downloaded 2026-11-06 from the publisher or located via
+    OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:46:27 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: systematic review not registered; data statement only says
+    data are within the article and supplements (summary, search-string and quality
+    tables), further information on request; no code or materials. Masina, Saccani,
+    Zorzi, Arcara DPG; J NeuroEng Rehabil 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 3, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: no
+  registered_report: .na
+  open_data: no
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - preregistration
+  source: pdf
+  location: PDF p.3 and p.33 Data availability
+  passage: Systematic review not registered (criteria set a priori only); data stated
+    within the article and supplements (summary, search-string and quality tables),
+    further information on reasonable request; no code or materials.
+  url: .na
+  verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

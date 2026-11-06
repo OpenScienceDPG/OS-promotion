@@ -1,0 +1,144 @@
+schema_version: 1.0
+id: doi-10-3758-s13428-025-02908-8
+doi: 10.3758/s13428-025-02908-8
+bibliography:
+  title: 'Unifying temporal preparation: The temporal preparation task (TEP-Task)'
+  authors: Mariagrazia Capizzi; Lucie Attout; Giovanna Mioni; Pom Charras
+  journal: Behavior Research Methods
+  volume: '58'
+  issue: '2'
+  pages: '52'
+  year: 2026
+dpg:
+  authors: Giovanna Mioni
+  verified: yes
+  verification_source: 'Final published PDF p.2 (article p.1): Giovanna Mioni linked
+    to affiliation 4, Department of General Psychology, University of Padova. Other
+    authors at Granada, Geneva and Montpellier. Printed 2026, 58:52; issue 2 confirmed
+    by PubMed and institutional metadata.'
+source:
+  pdf_file: 10.3758_s13428-025-02908-8.pdf
+  md5: 6d611dd3ee6202d941c822e8f8b1dc5c
+  article_url: https://access.archive-ouverte.unige.ch/access/metadata/83be3440-493f-4276-b3cd-a34fb80ae75c/download
+  note: Final published PDF downloaded from the public UNIGE institutional deposit
+    on 2026-11-06, including repository cover. Identity and resource declarations
+    read locally. Publisher offers subscription preview; Granada repository returned
+    bot challenge. Approved network escalation obtained the UNIGE article. No supporting
+    resource opened. Processed by 01-screen.R and 02-finalize.R on 2026-11-06; inbox
+    PDF deleted after record and ledger were written. Supporting external resources
+    not opened.
+  repository_url: https://archive-ouverte.unige.ch/unige:196143
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 10:28:43 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: final Open practices statement
+    explicitly makes all article code, data and materials publicly available at the
+    actual OSF link. Discussion explicitly makes the new customizable TEP-Task openly
+    available there, counted as reusable_tool. External resource not opened; Enrico
+    checks pending. Study explicitly not preregistered. Mioni DPG; official year 2026,
+    58(2):52. Inventory green OA means no OA badge.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 7, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: yes
+resources:
+  article: https://doi.org/10.3758/s13428-025-02908-8
+  preregistration: []
+  data: https://osf.io/rnc4v
+  code: https://osf.io/rnc4v
+  materials: https://osf.io/rnc4v
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: PDF p.17 (article p.16), Open practices statement
+  passage: All code, data, and materials mentioned in this article are publicly available
+    at https://osf.io/rnc4v. Specific resources explicitly public without access conditions.
+    Declaration and actual link read; supporting resource not opened, Enrico manual
+    check pending.
+  url: https://osf.io/rnc4v
+  verification: unverified
+- claims: reusable_tool
+  source: pdf
+  location: PDF p.14 (article p.13), Discussion final paragraphs; PDF p.17, Open practices
+    statement
+  passage: The new TEP-Task is explicitly described as openly available on OSF, readily
+    adaptable to include more trials, and customizable for diverse populations and
+    task demands. The final Open practices statement supplies the actual common code/data/materials
+    link. Declaration and link read; task resource not opened or tested.
+  url: https://osf.io/rnc4v
+  verification: unverified
+- claims: preregistration
+  source: pdf
+  location: PDF p.17 (article p.16), Open practices statement
+  passage: The study was not preregistered.
+  url: https://doi.org/10.3758/s13428-025-02908-8
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: One matching inventory row classifies the article as green; no publisher
+    OA badge under the current rule. Publisher also displays subscription preview.
+    UNIGE public repository access does not override inventory classification.
+  url: https://doi.org/10.3758/s13428-025-02908-8
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio,
+    come questionari e stimoli; Uno strumento che altri possono riutilizzare, come
+    un programma o un test
+  public_summary: >-
+    Il semaforo che sta per diventare verde, il conto alla rovescia prima di una gara: usiamo di
+    continuo indizi sul «quando» per prepararci e reagire più in fretta. In laboratorio questa
+    capacità si studia con prove diverse, ma mancava un test unico per misurarne i vari aspetti in
+    una sola seduta. Gli autori hanno creato il TEP-Task, un compito al computer di 35 minuti in
+    cui bisogna reagire appena compare un asterisco, preceduto da attese più o meno lunghe, da
+    segnali che indicano quando arriverà o da ritmi regolari di luci e suoni. Messo alla prova su
+    109 studenti universitari in Francia, il test ha ritrovato in una sola sessione tutti e quattro
+    gli effetti classici della preparazione temporale. Uno strumento pratico, pensato anche per
+    future ricerche con persone anziane e pazienti.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF abstract and Introduction: TEP-Task measures foreperiod, sequential, temporal orienting and rhythmic effects in one 35-min session; traffic light and countdown examples from the paper.'
+    - 'PDF Participants/Stimuli: 114 Montpellier psychology students, 109 analysed; asterisk target; visual and auditory cues and rhythms.'
+    - 'PDF Discussion: robust measure of each effect within one task; design intended for diverse populations such as older adults and patients; test-retest reliability poor to moderate (omitted as caveat).'
+    review_note: 'Scientific reread against abstract, Method and Discussion: four effects found at group level, future populations attributed to the design aim; reliability limits omitted per summary rules, no claim of individual-level precision. Editorial reread: effect names replaced by plain descriptions.'
+publication:
+  published: no
+  featured: no

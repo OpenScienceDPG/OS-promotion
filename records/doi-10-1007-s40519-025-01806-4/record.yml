@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-1007-s40519-025-01806-4
+doi: 10.1007/s40519-025-01806-4
+bibliography:
+  title: Is reduced self-esteem a necessary condition for eating disorder symptoms
+    in adolescence? Preliminary evidence from a necessary condition analysis study
+  authors: Igor Marchetti; Ilaria Colpizzi; Elide Francesca De Caro; Lavinia Miriam
+    Pedretti; Sara Iannattone; Lisa Di Blas; Gioia Bottesi
+  journal: Eating and Weight Disorders - Studies on Anorexia, Bulimia and Obesity
+  volume: '31'
+  issue: .na
+  pages: '5'
+  year: 2026
+dpg:
+  authors:
+  - Sara Iannattone
+  - Gioia Bottesi
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 4: Department of General Psychology,
+    University of Padua (Iannattone, Bottesi); others Florence, Trieste, Perugia.
+    Eat Weight Disord (2026) 31:5.'
+source:
+  pdf_file: s40519-025-01806-4.pdf
+  pdf_path: .na.character
+  md5: cc6d3104e3b89927a2cd0884b94d9ef7
+  article_url: https://doi.org/10.1007/s40519-025-01806-4
+  note: Final published PDF downloaded 2026-11-06 from the publisher (keyword shortlist),
+    read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:35:21 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: no qualifying Open Science practice; study explicitly not preregistered
+    (exploratory) and data available only on reasonable request. Iannattone, Bottesi
+    DPG; Eat Weight Disord 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 2, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: no
+  registered_report: .na
+  open_data: no
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  - open_data
+  source: pdf
+  location: PDF p.3 and p.7
+  passage: Study stated exploratory and not pre-registered; dataset available from
+    the corresponding author on reasonable request; no code, materials or other resources
+    shared.
+  url: .na
+  verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

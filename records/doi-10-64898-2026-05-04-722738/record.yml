@@ -1,0 +1,90 @@
+schema_version: 1.0
+id: doi-10-64898-2026-05-04-722738
+doi: 10.64898/2026.05.04.722738
+bibliography:
+  title: Where is ADHD in the brain? Evidence for a neurodevelopmental continuum of
+    brain dynamics
+  authors: Gian Marco Duma; Giulia Stefanelli; Lisa Toffoli; Giulia Ferri; Giovanni
+    Pellegrino; Alberto Danieli; Federica Martinez; Vincenza Tarantino; Duncan Astle;
+    Fiorella Del Popolo Cristaldi; Giovanni Mento
+  journal: bioRxiv (preprint)
+  volume: .na
+  issue: .na
+  pages: .na
+  year: 2026
+dpg:
+  authors:
+  - Giulia Stefanelli
+  - Lisa Toffoli
+  - Fiorella Del Popolo Cristaldi
+  - Giovanni Mento
+  verified: yes
+  verification_source: 'Preprint PDF p.1, affiliation 2: NeuroDev Lab, Department
+    of General Psychology, University of Padova (Stefanelli, Toffoli, Del Popolo Cristaldi,
+    Mento). Version posted 6 May 2026; not certified by peer review.'
+source:
+  pdf_file: 10.64898_2026.05.04.722738.pdf
+  pdf_path: .na
+  md5: 7a308d8b96ba01091c2c3001738e52fb
+  article_url: https://doi.org/10.64898/2026.05.04.722738
+  note: Preprint PDF located via OpenAlex (keyword shortlist cache), read locally,
+    deleted after recording.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: screen-2.0
+  algorithm_score: .na
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: .na
+  final_note: 'Needs review (scope: preprint): bioRxiv preprint, not peer reviewed,
+    listed in the inventory as a journal article; no published version named. Data
+    and all materials declared available on OSF fkhe9 (would qualify in ordinary mode).
+    Stefanelli, Toffoli, Del Popolo Cristaldi, Mento DPG. Next step: Enrico decides
+    whether preprints are in scope or to wait for the journal version.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: .na
+    reason: preprint-scope-undecided
+    citation_year: 2026
+human_override:
+  decision: .na
+  by: .na
+  at: .na
+  note: .na
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.64898/2026.05.04.722738
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Preprint PDF pp.26-27, Data availability
+  passage: 'Candidate evidence pending scope decision: all materials and data declared
+    available on OSF; no code or preregistration declared. Resource not opened.'
+  url: https://osf.io/fkhe9/overview
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: .na
+  public_summary: .na
+  topics: []
+publication:
+  published: no
+  featured: no

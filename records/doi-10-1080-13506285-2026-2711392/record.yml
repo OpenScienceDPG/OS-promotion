@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-1080-13506285-2026-2711392
+doi: 10.1080/13506285.2026.2711392
+bibliography:
+  title: Direct perception, heuristic reasoning, or Newtonian mechanics? A Bayesian
+    approach to naturalness and causality judgments in collision events
+  authors: Michele Vicovaro; Giovanni Bruno; Stefano Dalla Bona; Andrea Spoto
+  journal: Visual Cognition
+  volume: ~
+  issue: ~
+  pages: ~
+  year: 2026
+dpg:
+  authors:
+  - Michele Vicovaro
+  - Giovanni Bruno
+  - Stefano Dalla Bona
+  - Andrea Spoto
+  verified: yes
+  verification_source: 'Final publisher PDF p.2 (printed p.1): all four authors have
+    the single affiliation Department of General Psychology, University of Padova,
+    Padova, Italy. Cover p.1 gives online publication 30 July 2026 and the article
+    DOI.'
+source:
+  pdf_file: 10.1080_13506285.2026.2711392.pdf
+  md5: 313c8194cddd7992eee03eedecc72f3d
+  article_url: https://doi.org/10.1080/13506285.2026.2711392
+  note: Final publisher PDF read locally, processed by 01-screen.R and 02-finalize.R
+    on 2026-11-06; inbox PDF deleted after record and ledger were written. Supporting
+    external resources not opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 10:10:39 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): raw data and analysis code
+    explicitly available via a published OSF view-only link; external resource not
+    opened, pending Enrico review. Full task instructions are also printed in the
+    open article Appendix. All four authors DPG; official citation year 2026, online
+    first; inventory hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 5, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/13506285.2026.2711392
+  preregistration: []
+  data: https://osf.io/bhu7t/?view_only=2f983d19c7c64557a710f6c9ac140dea
+  code: https://osf.io/bhu7t/?view_only=2f983d19c7c64557a710f6c9ac140dea
+  materials: https://doi.org/10.1080/13506285.2026.2711392
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: PDF p.21 (printed p.20), Data and code availability statement
+  passage: Raw data and codes for the analyses are available on OSF at the following
+    link. Published view-only URL preserved in full. Declaration and link read and
+    visually checked; external resource not opened, manual check pending.
+  url: https://osf.io/bhu7t/?view_only=2f983d19c7c64557a710f6c9ac140dea
+  verification: unverified
+- claims: open_materials
+  source: pdf
+  location: PDF p.24 (printed p.23), Appendix, Instructions for the Naturalness task;
+    Instructions for the Causality AB task; Instructions for the Causality BA task
+  passage: The Appendix reproduces the complete participant-facing instructions for
+    all three experimental tasks, including response keys. Materials are contained
+    in the CC BY open article, rather than inferred from an external repository link.
+  url: https://doi.org/10.1080/13506285.2026.2711392
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type, matched by normalized
+    DOI; consulted 2026-11-06
+  passage: Unpaywall classification hybrid in the latest inventory; qualifies under
+    the gold/bronze/hybrid rule. Final PDF p.2 also prints CC BY 4.0.
+  url: https://doi.org/10.1080/13506285.2026.2711392
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio,
+    come questionari e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Quando una palla da biliardo ne colpisce un’altra, capiamo al volo se il rimbalzo «torna»
+    oppure no. Ma da dove viene questa sensazione: da ciò che vediamo, da una fisica intuitiva
+    approssimativa o da una conoscenza precisa delle leggi del moto? Gli autori hanno mostrato a 94
+    persone brevi animazioni di due quadratini che si scontrano, variando velocità, peso simulato e
+    forza del rimbalzo. Un gruppo doveva dire se l’urto sembrava naturale, gli altri se il
+    movimento di ciascun oggetto era causato dallo scontro. Hanno poi confrontato le risposte con
+    tre modelli matematici, tenendo conto che ognuno ha una propria soglia per decidere. I modelli
+    basati sulla conoscenza della fisica, precisa o approssimativa, spiegavano le risposte molto
+    meglio di quello fondato sulle sole impressioni visive. Uno sguardo affascinante su come la
+    nostra mente ragiona sul mondo fisico.
+  topics: []
+  article_resources:
+    materials: PDF p.24 (printed p.23), Appendix; complete participant instructions
+      for the Naturalness, Causality AB and Causality BA tasks.
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: three tasks (naturalness, causality AB, causality BA); Newtonian, Heuristic and Michottean models; Bayesian individual decision thresholds.'
+    - 'PDF Participants/Stimuli: 94 participants aged 19-76; two black squares colliding; two speeds, 13 restitution levels, three mass ratios.'
+    - 'PDF Results/Discussion: Newtonian and Heuristic models outperformed the Michottean model; slight Heuristic advantage only for unadjusted responses.'
+    review_note: 'Scientific reread against abstract, Method and Discussion: groups and tasks, model comparison and thresholds described correctly; billiard hook is illustrative, not stimulus. Editorial reread: restitution coefficient rendered as rebound strength.'
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,113 @@
+schema_version: 1.0
+id: doi-10-1121-10-0046098
+doi: 10.1121/10.0046098
+bibliography:
+  title: 'Assessment of age-related hearing loss and related everyday functional and
+    psychosocial consequences in older adults: A systematic review of self-report
+    instruments'
+  authors: Enrico Sella; Valentina Bastiani; Diletta Signori; Nicola Prodi; Chiara
+    Visentin; Erika Borella
+  journal: The Journal of the Acoustical Society of America
+  volume: '160'
+  issue: '2'
+  pages: 1859-1880
+  year: 2026
+dpg:
+  authors:
+  - Enrico Sella
+  - Valentina Bastiani
+  - Diletta Signori
+  - Erika Borella
+  verified: yes
+  verification_source: 'Final PDF p.2 (printed p.1859): affiliation 1 Department of
+    General Psychology, University of Padova; Sella, Bastiani, Signori and Borella
+    assigned to affiliation 1. Printed JASA 160(2), August 2026.'
+source:
+  pdf_file: 10.1121_10.0046098.pdf
+  pdf_path: inbox/10.1121_10.0046098.pdf
+  md5: a0c10ad16950a854edba3885e5aca32f
+  article_url: https://doi.org/10.1121/10.0046098
+  note: Final publisher PDF read locally on 2026-11-06 and screened by 01-screen.R.
+    Unresolved case curated directly; inbox PDF retained pending decision. Supporting
+    resources not opened.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: ~
+  reviewer: agent
+  final_note: 'Needs review: explicit PROSPERO preregistration CRD42023449606, but
+    no actual supporting registration URL in the text or PDF URI annotations. Reference
+    29 is a generic PROSPERO methods article. Strict ordinary-mode link requirement
+    not met; Enrico should decide whether a registry identifier can count, or supply
+    qualifying article evidence. Data sharing expressly not applicable. No other qualifying
+    practice established.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 keyword shortlist 2026-11-06 batch 5
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1121/10.0046098
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: preregistration
+  source: pdf
+  location: PDF p.2 abstract and p.3 Methods II.A (printed pp.1859-1860); reference
+    29 p.21
+  passage: The review protocol (CRD42023449606) was preregistered in PROSPERO. No
+    registration URL printed or embedded in PDF URI annotations. Reference 29 cites
+    Booth et al., The nuts and bolts of PROSPERO, Syst Rev 1, 2 (2012), not this registration.
+    Timing and external resource not independently verified; no link constructed.
+  url: ~
+  verification: unverified
+- claims: open_data
+  source: pdf
+  location: PDF p.20 (printed p.1877), Data availability
+  passage: Data sharing is not applicable to this article as no new data were created
+    or analyzed in this study.
+  url: https://doi.org/10.1121/10.0046098
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type, normalized DOI match;
+    assessed 2026-11-06
+  passage: Unpaywall OA classification hybrid in the latest dated inventory. Final
+    PDF p.2 also prints CC BY licence; badge based on inventory classification.
+  url: https://doi.org/10.1121/10.0046098
+  verification: unverified
+curation:
+  status: pending
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: preregistration
+  summary_review:
+    status: pending
+    review_note: Summary deliberately deferred at Enrico's explicit request; no summary
+      drafted.
+publication:
+  published: no
+  featured: no

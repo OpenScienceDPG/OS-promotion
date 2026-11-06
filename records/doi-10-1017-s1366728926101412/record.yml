@@ -1,0 +1,145 @@
+schema_version: 1.0
+id: doi-10-1017-s1366728926101412
+doi: 10.1017/s1366728926101412
+bibliography:
+  title: 'The foreign language effect in the illusion of causality: Evidence of absence'
+  authors: Stefano Dalla Bona; Eduardo Navarrete; Michele Vicovaro
+  journal: 'Bilingualism: Language and Cognition'
+  volume: .na
+  issue: .na
+  pages: 1-10
+  year: 2026
+dpg:
+  authors:
+  - Stefano Dalla Bona
+  - Michele Vicovaro
+  verified: yes
+  verification_source: 'Final PDF p.1: Dalla Bona and Vicovaro at Department of General
+    Psychology, University of Padua; Navarrete at DPSS. Accepted 8 Apr 2026; online
+    first, printed year 2026, no volume/issue yet.'
+source:
+  pdf_file: 10.1017_s1366728926101412.pdf
+  pdf_path: .na.character
+  md5: 478517c76d5d8d10121d186f7f9da015
+  article_url: https://doi.org/10.1017/s1366728926101412
+  note: Final published PDF located via OpenAlex (keyword shortlist cache), read locally,
+    deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:24:29 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 13
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): replication preregistered
+    on OSF PZX9N; raw data, materials and R analysis scripts declared openly available
+    on OSF HVGKX; resources not opened, Enrico check pending. Dalla Bona, Vicovaro
+    DPG (Navarrete DPSS); Biling Lang Cogn 2026 (online first); hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: yes
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1017/s1366728926101412
+  preregistration: https://doi.org/10.17605/OSF.IO/PZX9N
+  data: https://doi.org/10.17605/OSF.IO/HVGKX
+  code: https://doi.org/10.17605/OSF.IO/HVGKX
+  materials: https://doi.org/10.17605/OSF.IO/HVGKX
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.3 section 2.1, p.5, p.9 Data availability
+  passage: Replication pre-registered on OSF (design, hypotheses, exclusions, design
+    analysis, analysis plan); sample size and exclusions applied as specified in the
+    pre-registration. No registration date printed. Read; resource not opened.
+  url: https://doi.org/10.17605/OSF.IO/PZX9N
+  verification: unverified
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: PDF p.3 section 2.1 and p.9 Data availability
+  passage: Raw data, R extraction and analysis scripts, design analysis script, PsychoPy/PsychoJS
+    experiment script and questionnaires declared openly available in the associated
+    OSF project. Declaration and link read; resource not opened.
+  url: https://doi.org/10.17605/OSF.IO/HVGKX
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY-NC-SA 4.0 open
+    access licence printed in the read version.
+  url: https://doi.org/10.1017/s1366728926101412
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati
+    raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari
+    e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Pensare in una lingua straniera ci rende più razionali? Uno studio
+    aveva trovato che un''altra lingua riduce l''illusione di causalità, cioè la tendenza
+    a vedere un legame di causa ed effetto dove non c''è, come credere che un rimedio
+    funzioni solo perché dopo averlo preso si guarisce. Le ricercatrici e i ricercatori
+    lo hanno ripetuto con 220 adulti di madrelingua italiana, metà in italiano e metà
+    in inglese. Tutti vedevano casi di pazienti immaginari che prendevano o no una
+    medicina e poi guarivano o no; alla fine dovevano giudicare quanto la medicina
+    funzionasse. L''illusione è comparsa in entrambe le lingue con forza simile: l''inglese
+    non l''ha ridotta. È risultata invece più debole nelle persone con più anni di
+    studio. Un risultato solido, che chiarisce i limiti dell''effetto della lingua
+    sul ragionamento.'
+  topics:
+  - lingue
+  - ragionamento
+  - illusioni cognitive
+  - replicazione
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: replication, N = 220; foreign language did not reduce the
+      illusion of causality; illusion weaker with more years of education.'
+    - 'PDF p.5 section 2.4: native Italian speakers randomly assigned to Italian or
+      English version.'
+    - 'PDF p.6: fictional patient records (medicine taken or not, recovery or not),
+      then effectiveness rating.'
+    - 'PDF p.7 results: similar ratings in both language groups; Bayes factor strongly
+      favouring no difference.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,125 @@
+schema_version: 1.0
+id: doi-10-1126-sciadv-adu4098
+doi: 10.1126/sciadv.adu4098
+bibliography:
+  title: State-dependent associative plasticity highlights function-specific premotor-motor
+    pathways crucial for arbitrary visuomotor mapping
+  authors: Sonia Turrini; Francesca Fiori; Giorgio Arcara; Vincenzo Romei; Giuseppe
+    di Pellegrino; Alessio Avenanti
+  journal: Science Advances
+  volume: '11'
+  issue: '20'
+  pages: eadu4098
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final article XML front: all six authors assigned to Bologna,
+    Campus Bio-Medico Rome, IRCCS San Camillo Hospital Venice, Universidad Antonio
+    de Nebrija Madrid or Universidad Catolica del Maule Talca. Giorgio Arcara has
+    only affiliation 3, IRCCS San Camillo Hospital, Venice, Italy. No author printed
+    at DPG or University of Padova.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12077503
+  note: Final published article read locally from cached Europe PMC XML on 2026-11-06.
+    No PDF processed; no supporting resource opened or tested.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Out of scope: no author has a DPG affiliation at publication. Arcara
+    is printed only at IRCCS San Camillo Hospital, Venice; all other affiliations
+    are Bologna, Rome, Madrid or Talca. The article declares deposited study data/code
+    with an OSF link and a custom MATLAB script with a GitHub link, but this does
+    not remedy the missing DPG affiliation. Explicitly not preregistered. Official
+    citation year 2025, Science Advances 11(20):eadu4098.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 7)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1126/sciadv.adu4098
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_xml
+  location: Front, author list and affiliations 1-5
+  passage: Arcara is assigned only affiliation 3, IRCCS San Camillo Hospital, Venice,
+    Italy. Other authors have Bologna, Rome, Madrid or Talca affiliations. No author
+    is assigned DPG or University of Padova. Inventory membership does not establish
+    DPG at publication.
+  url: https://europepmc.org/articles/PMC12077503
+  verification: agent-verified
+- claims: preregistration
+  source: article_xml
+  location: Materials and Methods, Participants
+  passage: The study was not preregistered.
+  url: https://europepmc.org/articles/PMC12077503
+  verification: agent-verified
+- claims:
+  - open_data
+  - open_code
+  source: article_xml
+  location: Acknowledgments, Data and materials availability (XML sec25)
+  passage: The original datasets and code generated during this study have been deposited
+    to the Open Science Framework repository available at OSF, with the linked project.
+    All other data needed to evaluate conclusions are in the paper or supplement.
+    Declaration and link read; resource not opened. Specific unconditional public-access
+    qualification left unknown under strict ordinary wording; scope independently
+    fails.
+  url: https://osf.io/2p3t6/
+  verification: unverified
+- claims: open_code
+  source: article_xml
+  location: Materials and Methods, Data handling
+  passage: MEP amplitudes were measured using a custom-made MATLAB script available
+    at the linked GitHub repository. No explicit public-access wording for the script;
+    resource not opened or tested, claim left unknown. No inference from software
+    use alone.
+  url: https://github.com/SoniaTurrini/MEPautomatedanalysis
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: One matching inventory row classifies the article as gold, qualifying for
+    the OA badge. Final article XML independently prints CC BY 4.0.
+  url: https://doi.org/10.1126/sciadv.adu4098
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,124 @@
+schema_version: 1.0
+id: doi-10-1186-s12877-025-06472-w
+doi: 10.1186/s12877-025-06472-w
+bibliography:
+  title: 'Examining subjective views of the aging process in older adults: a systematic
+    review following the COSMIN methodology'
+  authors: Enrico Sella; Elena Carbone; Riccardo Domenicucci; Maria Letizia Tanturri;
+    Antonio Paoli; Erika Borella
+  journal: BMC Geriatrics
+  volume: '25'
+  issue: ~
+  pages: '897'
+  year: 2025
+dpg:
+  authors:
+  - Enrico Sella
+  - Elena Carbone
+  - Riccardo Domenicucci
+  - Erika Borella
+  verified: yes
+  verification_source: 'Final article XML front/article-meta: Sella, Carbone, Domenicucci
+    and Borella have affiliation 1, Department of General Psychology, University of
+    Padova. Tanturri is Statistical Sciences; Paoli Biomedical Sciences. Official
+    article metadata gives volume 25, article 897, publication 13 November 2025.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12616921
+  note: Final published article read locally as cached Europe PMC XML on 2026-11-06.
+    No PDF processed, no external supporting resources opened.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: 'Needs review: paper explicitly declares PROSPERO preregistration CRD42023407986,
+    but supplies no actual supporting registration URL; reference 25 is the generic
+    PROSPERO methods article. Strict ordinary-mode supporting-link rule is not met.
+    Data are available only on reasonable request. Supplementary search/extraction
+    descriptions were not counted as a separately declared open protocol/materials
+    resource. Enrico should decide whether the registry identifier is sufficient or
+    supply qualifying article evidence.'
+  review_mode: ordinary
+  next_step: Enrico to decide whether the printed PROSPERO identifier can satisfy
+    the actual-link rule; no URL constructed or checked. If qualifying evidence is
+    supplied, reassess preregistration.
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1186/s12877-025-06472-w
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: preregistration
+  source: article_xml
+  location: Abstract Methods; Methods paragraph Par16; reference CR25
+  passage: The review protocol (CRD42023407986) was preregistered in the PROSPERO
+    International Prospective Register of Systematic Reviews. No actual registry URL
+    supplied in XML links. Reference 25 cites Booth et al., The nuts and bolts of
+    PROSPERO (2012), not this registration. Declaration read, resource not opened;
+    qualifying preregistration claim remains unknown under actual-link rule.
+  url: ~
+  verification: unverified
+- claims: open_data
+  source: article_xml
+  location: Data availability, notes3
+  passage: The data that support the findings of this study are available from the
+    corresponding authors on reasonable request.
+  url: https://europepmc.org/articles/PMC12616921
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: Methods Par16-21; Supplementary Information
+  passage: Supplement contains inclusion criteria, search algorithms, eligibility
+    diagram and measurement characteristics. No analysis/source-code sharing declaration
+    or new reusable tool is stated; no separately declared unconditional open protocol/materials
+    resource with an actual supporting URL established. Supplementary files not opened.
+  url: https://europepmc.org/articles/PMC12616921
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, Unpaywall OA type matched by DOI; checked
+    2026-11-06
+  passage: Inventory classification gold qualifies under project OA rule. Final XML
+    also prints a CC BY 4.0 licence.
+  url: https://doi.org/10.1186/s12877-025-06472-w
+  verification: unverified
+curation:
+  status: pending
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: preregistration
+  summary_review:
+    status: pending
+    review_note: Summary intentionally deferred at Enrico request; placeholder only.
+publication:
+  published: no
+  featured: no

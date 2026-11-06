@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-1016-j-bpsgos-2025-100626
+doi: 10.1016/j.bpsgos.2025.100626
+bibliography:
+  title: Emotional Blunting and Time Estimation in Depression
+  authors: Francesca Mura; Vincenzo Catrambone; Gaetano Valenza; Virginie Van Wassenhove;
+    Giovanna Mioni; Claudio Gentili
+  journal: 'Biological Psychiatry: Global Open Science'
+  volume: '6'
+  issue: '1'
+  pages: '100626'
+  year: 2026
+dpg:
+  authors:
+  - Francesca Mura
+  - Giovanna Mioni
+  - Claudio Gentili
+  verified: yes
+  verification_source: 'Final article Europe PMC XML front/article-meta: Mura, Mioni
+    and Gentili carry affiliation a, Department of General Psychology, University
+    of Padua, Padua, Italy. Publisher issue header is Volume 6, Issue 1, January 2026,
+    100626; online date 10 October 2025 is not the official issue year.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12720045
+  note: Final article read locally as cached Europe PMC XML on 2026-11-06. Official
+    issue year independently checked on publisher article page https://www.sciencedirect.com/science/article/pii/S2667174325001806.
+    No PDF processed; external supporting resource links not opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: Methods explicitly states
+    the study was designed and preregistered prior to data collection and supplies
+    OSF hksz7. Registration link not opened; Enrico verification pending. No linked
+    open data/code/materials declaration; the second OSF link is only an earlier preprint.
+    Official issue year 2026, despite 2025 inventory and online date.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 5)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.bpsgos.2025.100626
+  preregistration: https://osf.io/hksz7
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: preregistration
+  source: article_xml
+  location: Methods and Materials, Participants, final sentence
+  passage: The current study was designed and preregistered prior to data collection
+    (https://osf.io/hksz7). Declaration and supporting link read; resource not opened.
+    Manual verification pending.
+  url: https://osf.io/hksz7
+  verification: unverified
+- claims: []
+  source: article_xml
+  location: Methods and Materials, Procedure and Data Analysis; Acknowledgments and
+    Disclosures
+  passage: Methods describes existing emotion movie clips, EEG processing and R packages
+    without declaring study data, scripts or materials openly available. The other
+    OSF link is explicitly an earlier preprint, not a data/code/materials repository.
+    No separate data-availability statement was found in the full article.
+  url: https://europepmc.org/articles/PMC12720045
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+    Final XML prints an open-access CC BY-NC-ND licence.
+  url: https://doi.org/10.1016/j.bpsgos.2025.100626
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; L'articolo,
+    gratuito sul sito della rivista
+  public_summary: >-
+    Quanto è durata quella pausa? Di solito le emozioni influenzano anche il modo in cui valutiamo
+    il tempo. E a chi si sente giù di morale? Gli autori hanno coinvolto 120 studenti
+    dell’Università di Padova, metà con sintomi depressivi. Dopo aver guardato un breve spezzone di
+    film, triste o neutro, i partecipanti fissavano una croce sullo schermo per quasi due minuti e
+    mezzo, senza sapere che poi avrebbero dovuto dire quanto era durata. Intanto, una cuffia con
+    128 sensori registrava la loro attività cerebrale. Negli studenti senza sintomi, le emozioni
+    più intense e negative andavano di pari passo con stime di durata più brevi; in chi aveva
+    sintomi depressivi questo legame non compariva, come se le emozioni avessero meno presa sul
+    senso del tempo. Un tassello prezioso per capire come la depressione cambia il nostro vissuto.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: preregistration
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Europe PMC XML abstract and Participants: 120 Padova university students, 60 with depressive symptoms (PHQ-9 >= 5) and 60 controls; 114 analysed.'
+    - 'Procedure: sad or neutral E-MOVIE clip, then unannounced 2 min 25 s fixation interval judged retrospectively; 128-channel EEG.'
+    - 'Results/Discussion: controls underestimated time with higher arousal and more negative valence; no emotion modulation in the depressive-symptoms group; beta-power link omitted as secondary.'
+    review_note: 'Scientific reread against abstract, Methods and Discussion: student sample with depressive symptoms (not clinical diagnosis), associative wording for emotion-time link, interpretation attributed loosely ("come se"). Editorial reread: EEG and PHQ-9 explained or omitted.'
+publication:
+  published: no
+  featured: no

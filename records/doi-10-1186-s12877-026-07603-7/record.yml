@@ -1,0 +1,156 @@
+schema_version: 1.0
+id: doi-10-1186-s12877-026-07603-7
+doi: 10.1186/s12877-026-07603-7
+bibliography:
+  title: 'Reframing Expectations about aging – Physical Activity and Inclusive Reappraisal
+    (RE-PAIR): Protocol of a randomized intervention promoting positive self-perceptions
+    of aging and physical activity in older couples'
+  authors: Serena Sabatini; Francesco Pagnini; Alice Martins Pederiva; Erik Henderson;
+    Boris Cheval; Erika Borella; Vânia de la Fuente-Núñez; Denis Gerstorf; Fabrizio
+    Mezza; Shevaun D. Neupert; Fiona S. Rupprecht; Feliciano Villar; Tim D. Windsor;
+    Susanne Wurm; Maria Mataró
+  journal: BMC Geriatrics
+  volume: '26'
+  issue: .na
+  pages: '931'
+  year: 2026
+dpg:
+  authors:
+  - Erika Borella
+  verified: yes
+  verification_source: 'Final PDF p.19, Author details: Borella at Department of General
+    Psychology, University of Padova (also IRCCS San Camillo, Venice); no other Padova
+    authors. Received 9 Aug 2025, accepted 29 Apr 2026; BMC Geriatr (2026) 26:931.'
+source:
+  pdf_file: s12877-026-07603-7.pdf
+  pdf_path: .na.character
+  md5: b9cd029086ee305ffc550881a3ab8000
+  article_url: https://bmcgeriatr.biomedcentral.com/counter/pdf/10.1186/s12877-026-07603-7.pdf
+  note: Final published PDF downloaded 2026-11-06 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:24:29 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 3
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): published open-access study
+    protocol (BMC Geriatr Study Protocol); trial registered on ClinicalTrials.gov
+    NCT07113860 (release 03-07-2025, before planned data collection); data only promised;
+    resources not opened, Enrico check pending. Borella DPG; BMC Geriatr 2026; gold
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: yes
+  registered_report: .na
+  open_data: no
+  open_code: .na
+  open_materials: .na
+  open_protocol: yes
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1186/s12877-026-07603-7
+  preregistration: https://clinicaltrials.gov/study/NCT07113860
+  data: []
+  code: []
+  materials: []
+  protocol: https://doi.org/10.1186/s12877-026-07603-7
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: PDF p.2 (Trial registration) and p.9 (timeline)
+  passage: 'Trial registration: ClinicalTrials.gov NCT07113860, release date 03-07-2025;
+    data collection planned from September 2025, so registration precedes data collection.
+    Registry ID printed without URL (URL built from the ID). Registration read; resource
+    not opened.'
+  url: https://clinicaltrials.gov/study/NCT07113860
+  verification: unverified
+- claims:
+  - open_protocol
+  source: pdf
+  location: Whole article (Study Protocol article type), PDF pp.1-17
+  passage: 'The open access article is itself the published trial protocol (SPIRIT/TIDieR:
+    design, eligibility, intervention, outcomes, sample size, analysis plan).'
+  url: https://doi.org/10.1186/s12877-026-07603-7
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.19, Data availability
+  passage: 'Data only promised: to be made public on OSF after all analyses are published;
+    no link. Intervention materials on request. OSF citations [101] resolve to a 2020
+    article, not an OSF project.'
+  url: .na
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the read version.
+  url: https://doi.org/10.1186/s12877-026-07603-7
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; Il protocollo
+    dettagliato dello studio; L'articolo, gratuito sul sito della rivista
+  public_summary: La vecchiaia fa pensare ad acciacchi e perdite. Ma chi ci vive accanto
+    può aiutarci a guardarla diversamente? Questo articolo presenta il piano di uno
+    studio a Barcellona che punta a coinvolgere 180 coppie con più di 65 anni. In
+    alcune coppie entrambi i partner seguiranno un percorso di dodici settimane, in
+    altre lo seguirà uno solo, altre ancora faranno da confronto. Il percorso unisce
+    tre incontri di gruppo, in cui si riconoscono i luoghi comuni sull'età e si impara
+    a sostituire i pensieri negativi con altri più realistici, e un programma di camminate
+    a passo svelto. Le ricercatrici e i ricercatori misureranno come cambiano il modo
+    di vedere il proprio invecchiamento, il movimento e l'umore, fino a sei mesi dopo.
+    Un progetto che guarda all'età che avanza come a un'esperienza da vivere in due.
+  topics:
+  - invecchiamento
+  - coppia
+  - attività fisica
+  - stereotipi
+  article_resources:
+    protocol: 'Entire article: published trial protocol (Study Protocol), sections
+      Methods/Design and intervention description, PDF pp.2-17.'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_protocol
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-2 abstract: three-arm randomized trial; 12-week psychoeducational
+      plus walking intervention for partners aged 65+; dual-partner, single-partner
+      and control arms; follow-ups at 3 and 6 months.'
+    - 'PDF pp.4, 9: single centre at the University of Barcelona; target 360 participants
+      (180 couples).'
+    - 'PDF pp.15-16: three group sessions (age stereotypes, replacing negative automatic
+      thoughts) and brisk walking programme.'
+    - 'PDF pp.1-2: outcomes self-perceptions of aging, physical activity, mood.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

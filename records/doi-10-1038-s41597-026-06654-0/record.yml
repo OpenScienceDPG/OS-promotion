@@ -1,0 +1,161 @@
+schema_version: 1.0
+id: doi-10-1038-s41597-026-06654-0
+doi: 10.1038/s41597-026-06654-0
+bibliography:
+  title: 'Music Ensemble: a large dataset on musicianship, cognition, and personality
+    in musicians and nonmusicians'
+  authors: Francesca Talamini; Massimo Grassi; Gianmarco Altoè; Elvira Brattico; Anne
+    Caclin; Barbara Carretti; Véronique Drai-Zerbib; Laura Ferreri; Filippo Gambarota;
+    Jessica Grahn; Lucrezia Guiotto Nai Fovino; Marco Roccato; Antoni Rodriguez-Fornells;
+    Swathi Swaminathan; Barbara Tillmann; Peter Vuust; Jonathan Wilbiks; Marcel Zentner;
+    Karla Aguilar; Christ B. Aryanto; Frederico C. Assis Leite; Aíssa M. Baldé; Deniz
+    Başkent; Laura Bishop; Graziela Bortz; Fleur L. Bouwer; Axelle Calcus; Giulio
+    Carraturo; Antonia Čerič; Antonio Criscuolo; Léo Dairain; Simone Dalla Bella;
+    Oscar Daniel; Anne Danielsen; Anne-Isabelle de Parcevaux; Delphine Dellacherie;
+    Verónica Detlefsen; Tor Endestad; Victor Cepero-Escribano; Juliana L. d. B. Fialho;
+    Caitlin Fitzpatrick; Anna Fiveash; Juliette Fortier; Noah R. Fram; Eleonora Fullone;
+    Stefanie Gloggengießer; Lucia Gonzalez Sanchez; Reyna L. Gordon; Mathilde Groussard;
+    Assal Habibi; Heidi M. U. Hansen; Eleanor E. Harding; Kirsty Hawkins; Steffen
+    A. Herff; Veikka P. Holma; Kelly Jakubowski; Maria G. Jol; Aarushi Kalsi; Veronica
+    Kandro; Rosaliina Kelo; Sonja A. Kotz; Gangothri S. Ladegam; Bruno Laeng; André
+    Lee; Miriam Lense; César F. Lima; Simon P. Limmer; Chengran K. Liu; Paulina d.
+    C. Martín Sánchez; Langley McEntyre; Jessica P. Michael; Daniel Mirman; Julieta
+    Moltrasio; Daniel Müllensiefen; Niloufar Najafi; Jaakko Nokkala; Ndassi Nzonlang;
+    Maria Gabriela M. Oliveira; Katie Overy; Andrew J. Oxenham; Edoardo Passarotto;
+    Marie-Elisabeth Plasse; Herve Platel; Alice Poissonnier; Vasiliki Provias; Neha
+    Rajappa; Pablo Ripolles; Michaela Ritchie; Italo R. Rodrigues Menezes; Rafael
+    Román-Caballero; Paula Roncaglia; Wanda Rubinstein; Farrah Y.-A. Sa'adullah; Suvi
+    Saarikallio; Daniela Sammler; Séverine Samson; E. Glenn Schellenberg; Nora R.
+    Serres; L. Robert Slevc; Ragnya-Norasoa Souffiane; Florian J. Strauch; Hannah
+    Strauss; Nicholas Tantengco; Mari Tervaniemi; Rachel Thompson; Renee Timmers;
+    Petri Toiviainen; Laurel J. Trainor; Clara Tuske; Jed Villanueva; Claudia C. von
+    Bastian; Kelly L. Whiteford; Emily A. Wood; Florian Worschech; Ana Zappa
+  journal: Scientific Data
+  volume: '13'
+  issue: .na
+  pages: '473'
+  year: 2026
+dpg:
+  authors:
+  - Massimo Grassi
+  - Barbara Carretti
+  - Lucrezia Guiotto Nai Fovino
+  - Marco Roccato
+  verified: yes
+  verification_source: 'Typeset PDF p.16, affiliation 2: Department of General Psychology,
+    University of Padua (Grassi, Carretti, Guiotto Nai Fovino, Roccato); Altoè and
+    Gambarota at DPSS. 115 authors; accepted 19 Jan 2026; Sci Data 13:473 (2026).'
+source:
+  pdf_file: s41597-026-06654-0.pdf
+  pdf_path: .na.character
+  md5: 3f2c76cb84922ecffcdd72cd71878c27
+  article_url: https://www.nature.com/articles/s41597-026-06654-0
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data, processing code and
+    experiment materials declared publicly hosted on OSF 10.17605/OSF.IO/Y97T3; resource
+    not opened, Enrico check pending. Grassi, Carretti, Guiotto Nai Fovino, Roccato
+    DPG; Sci Data 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1038/s41597-026-06654-0
+  preregistration: []
+  data: https://doi.org/10.17605/OSF.IO/Y97T3
+  code: https://doi.org/10.17605/OSF.IO/Y97T3
+  materials: https://doi.org/10.17605/OSF.IO/Y97T3
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: PDF pp.4, 6, 7 (Data Records), p.13 (Data and Code availability)
+  passage: Raw and processed data with dictionary, processing code and jsPsych experiment
+    scripts declared publicly hosted on OSF; stimuli and questionnaire translations
+    shared there. Preregistration belongs to the companion Registered Report (record
+    doi-10-1177-25152459251379432). Declaration and link read; resource not opened.
+  url: https://doi.org/10.17605/OSF.IO/Y97T3
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY-NC-ND 4.0 open
+    access licence printed in the read version.
+  url: https://doi.org/10.1038/s41597-026-06654-0
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio,
+    come questionari e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Chi suona uno strumento da tanti anni ha una memoria migliore,
+    o ragiona in modo diverso? Per rispondere servono molti partecipanti e regole
+    uguali per tutti, una combinazione rara. Le ricercatrici e i ricercatori di trentacinque
+    gruppi in sedici Paesi hanno raccolto con la stessa procedura i dati di 1438 giovani
+    tra i 18 e i 30 anni: musicisti con almeno dieci anni di studio e persone che
+    la musica non l''hanno quasi mai praticata. In laboratorio ciascuno ha svolto
+    prove di memoria per numeri, posizioni e melodie, test di ragionamento e di vocabolario,
+    e ha risposto a domande su personalità e piacere per la musica. Molti musicisti
+    sono abbinati a non musicisti della stessa età, genere e istruzione. Questa grande
+    raccolta, descritta in ogni dettaglio, permette a chiunque di studiare il legame
+    tra musica e mente.'
+  topics:
+  - musica
+  - memoria
+  - personalità
+  - dataset
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-2: 1438 participants aged 18-30 from 35 research units in 16 countries,
+      same in-person procedure.'
+    - 'PDF p.3: musicians at least 10 years of formal training; nonmusicians at most
+      2 years; pairs matched on age, gender, education.'
+    - 'PDF pp.3-6: digit, spatial and melody span, 2-back, Raven, vocabulary, Mini-PROMS;
+      personality, musical sophistication and music reward questionnaires.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

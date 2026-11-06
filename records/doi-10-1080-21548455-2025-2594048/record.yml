@@ -1,0 +1,136 @@
+schema_version: 1.0
+id: doi-10-1080-21548455-2025-2594048
+doi: 10.1080/21548455.2025.2594048
+bibliography:
+  title: 'AMACA: Astronomy education with a Multi-sensory, Accessible, and Circular
+    Approach'
+  authors: Rachele Toniolo; Anita Zanella; Andrea Cottinelli; Giovanni Liuzzi; Sara
+    Ricciardi; Massimo Grassi; Stefano Delle Monache
+  journal: 'International Journal of Science Education, Part B: Communication and
+    Public Engagement'
+  volume: .na
+  issue: .na
+  pages: 1-25
+  year: 2026
+dpg:
+  authors:
+  - Massimo Grassi
+  verified: yes
+  verification_source: 'arXiv original manuscript 2601.13326v1 p.1, affiliation g:
+    Grassi at Department of General Psychology, University of Padua; Cottinelli and
+    Liuzzi at INAF Padova (not University). Published online 7 Jan 2026 (Taylor &
+    Francis); year 2026 and pages per inventory/IRIS.'
+source:
+  pdf_file: 10.1080_21548455.2025.2594048.pdf
+  pdf_path: .na.character
+  md5: 0e52683d9d118b90f90b35a6362838b6
+  article_url: https://doi.org/10.1080/21548455.2025.2594048
+  note: arXiv original manuscript (2601.13326v1) of the T&F article, located via OpenAlex
+    (keyword shortlist cache), read locally on 2026-11-06, deleted after finalization;
+    final version not read (green OA).
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:35:21 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): templates and questionnaires
+    declared downloadable on OSF 7q69z (activities also on PlayINAF); read in arXiv
+    original manuscript, final version not checked; resource not opened, Enrico check
+    pending. Grassi DPG; Int J Sci Educ B 2026; green OA (no badge).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 2, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: yes
+  open_protocol: .na
+  open_access: no
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1080/21548455.2025.2594048
+  preregistration: []
+  data: []
+  code: []
+  materials:
+  - https://osf.io/7q69z/
+  - https://play.inaf.it/tag/universo-in-tutti-i-sensi/
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: pdf
+  location: Manuscript p.9 section 3; p.34 Appendix B; p.3 footnote 6, p.21
+  passage: Activity templates (Design Canvas, Feedback Wheel, ICEBAGS) and questionnaires
+    declared downloadable from the OSF repository; activities also declared freely
+    available on PlayINAF. Read in the arXiv original manuscript, not the final version.
+    Declaration and links read; resources not opened.
+  url: https://osf.io/7q69z/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI
+  passage: 'Unpaywall OA type green in the 2026-11-04 inventory: repository copy only,
+    no publisher open access; badge not assigned.'
+  url: https://doi.org/10.1080/21548455.2025.2594048
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli
+  public_summary: 'Come si fa a far scoprire le stelle a chi non può vederle? Questo
+    progetto trasforma l''astronomia in un''esperienza da toccare e ascoltare, oltre
+    che da guardare. Le ricercatrici e i ricercatori hanno creato una vera catena
+    di insegnamento: dottorandi in astrofisica progettano laboratori pratici insieme
+    a psicologi e ad associazioni di persone cieche e sorde, poi li insegnano a studenti
+    delle superiori, che li presentano al pubblico di un festival e infine li trasmettono
+    agli insegnanti delle scuole. In quattro edizioni il festival ha accolto oltre
+    diecimila visitatori. Tra quelli che hanno risposto ai questionari, più di tre
+    su quattro si sono detti più fiduciosi che l''astronomia sia accessibile anche
+    alle persone cieche o ipovedenti. Le attività, costruite con materiali economici,
+    sono pensate per essere riproposte da insegnanti e divulgatori, anche senza un
+    astronomo presente.'
+  topics:
+  - astronomia
+  - accessibilità
+  - scuola
+  - divulgazione scientifica
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Manuscript p.1: four-phase circular path (PhD course, high-school students,
+      festival public, teachers) with psychologists and organisations of blind and
+      deaf people.'
+    - 'Manuscript p.4: four festival editions, more than 10,000 visitors.'
+    - 'Manuscript p.18: 77.5% of responding visitors (141 questionnaires) more confident
+      about accessibility for blind and visually impaired people.'
+    - 'Manuscript p.3/p.21: low-cost materials; activities can be run without astronomy
+      experts.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

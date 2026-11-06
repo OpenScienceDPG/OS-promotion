@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-3389-fnagi-2026-1683562
+doi: 10.3389/fnagi.2026.1683562
+bibliography:
+  title: 'Neural correlates of prospective memory in Parkinson''s disease: a high-density
+    EEG study'
+  authors: Paola Santacesaria; Stefano Vicentin; Giorgia Cona
+  journal: Frontiers in Aging Neuroscience
+  volume: '18'
+  issue: .na
+  pages: '1683562'
+  year: 2026
+dpg:
+  authors:
+  - Stefano Vicentin
+  - Giorgia Cona
+  verified: yes
+  verification_source: 'Final PDF p.1: Vicentin and Cona at Department of General
+    Psychology, University of Padua; Santacesaria at Padova Neuroscience Center only.
+    Published 9 Feb 2026; Front Aging Neurosci 18:1683562.'
+source:
+  pdf_file: fnagi.2026.1683562.pdf
+  pdf_path: .na.character
+  md5: 028ce1559890dbb97e2bfc34e94db5f4
+  article_url: https://doi.org/10.3389/fnagi.2026.1683562
+  note: Final published PDF downloaded 2026-11-06 from the publisher (keyword shortlist),
+    read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:35:21 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: no qualifying Open Science practice; hypotheses explicitly
+    not preregistered (exploratory) and data only on reasonable request. Vicentin,
+    Cona DPG (Santacesaria Padova Neuroscience Center); Front Aging Neurosci 2026;
+    gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 2, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: no
+  registered_report: .na
+  open_data: no
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  - open_data
+  source: pdf
+  location: PDF p.3 and p.9
+  passage: Exploratory design, no hypotheses preregistered; data may be provided by
+    the authors upon reasonable request; only third-party stimuli/illustration sources
+    linked.
+  url: .na
+  verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

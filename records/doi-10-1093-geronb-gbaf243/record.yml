@@ -1,0 +1,112 @@
+schema_version: 1.0
+id: doi-10-1093-geronb-gbaf243
+doi: 10.1093/geronb/gbaf243
+bibliography:
+  title: Effect of cognitive training on cortisol levels in patients with neurocognitive
+    disorders
+  authors: Marina De Rui; Giulia Salerno Trapella; Chiara Ceolin; Filippo Ceccato;
+    Giorgia Antonelli; Adele Ravelli; Rita Andreuzza; Enrico Conti; Michela Sarlo;
+    Alessandra Coin; Bruno Micael Zanforlini; Anna Bertocco; Chiara Curreri; Irene
+    Tizianel; Daniela Mapelli; Giuseppe Sergi; Maria Devita
+  journal: 'The Journals of Gerontology, Series B: Psychological Sciences and Social
+    Sciences'
+  volume: '81'
+  issue: '2'
+  pages: gbaf243
+  year: 2026
+dpg:
+  authors:
+  - Daniela Mapelli
+  - Maria Devita
+  verified: yes
+  verification_source: 'Europe PMC final article XML, front/article-meta/contrib-group:
+    Daniela Mapelli and Maria Devita explicitly affiliated with Department of General
+    Psychology (DPG), University of Padua. Other inventory names are at DIMED; Michela
+    Sarlo is at Urbino.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12795603
+  note: Final article read locally from cached Europe PMC full-text XML on 2026-11-06.
+    No PDF processed; no external supporting resources opened.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. The Data Availability section explicitly says the
+    dataset is available from the corresponding author upon request and that the study
+    was not preregistered. No open code, linked study materials/protocol or new reusable
+    tool is declared. Supplementary material is described in Results as additional
+    analysis tables and figures, not shared study data or analysis code. The keyword
+    preregistration hit is a negation.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 5)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1093/geronb/gbaf243
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  - open_data
+  source: article_xml
+  location: Data Availability section
+  passage: The dataset used and analyzed during the current study is available from
+    the corresponding author upon request. This study was not preregistered.
+  url: https://europepmc.org/articles/PMC12795603
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: 'Methods: Group-specific interventions for cognitive decline; Statistical
+    analyses; Results; Supplementary material'
+  passage: Training exercises came from the existing book Dementia. 100 Exercises
+    (Bergamaschi et al., 2007). Analyses used SPSS version 29; no shared code was
+    declared. The supplement is referenced as additional ANCOVA tables and cortisol
+    figures, not participant data or code. No open study materials/protocol or newly
+    shared reusable tool was declared.
+  url: https://europepmc.org/articles/PMC12795603
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    matched by normalized DOI; checked 2026-11-06'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+    Article XML also prints a CC BY 4.0 licence.
+  url: https://doi.org/10.1093/geronb/gbaf243
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

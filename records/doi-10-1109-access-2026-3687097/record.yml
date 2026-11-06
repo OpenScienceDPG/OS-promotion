@@ -1,0 +1,139 @@
+schema_version: 1.0
+id: doi-10-1109-access-2026-3687097
+doi: 10.1109/access.2026.3687097
+bibliography:
+  title: 'Capturing Shared Actions and Coordination in Collaborative Workspaces: A
+    Markerless Pipeline for Synchronized Human–Robot 3D Pose Estimation'
+  authors: Egle Maria Orlando; Federica Nenna; Federico Maria Lorusso; Michele Mingardi;
+    Giulia Buodo; Luciano Gamberini
+  journal: IEEE Access
+  volume: '14'
+  issue: .na
+  pages: 67101-67114
+  year: 2026
+dpg:
+  authors:
+  - Egle Maria Orlando
+  - Federica Nenna
+  - Federico Maria Lorusso
+  - Michele Mingardi
+  - Giulia Buodo
+  - Luciano Gamberini
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (all six authors; Nenna and Gamberini also HIT centre). Published
+    28 Apr 2026; IEEE Access vol. 14, 2026.'
+source:
+  pdf_file: 10.1109_access.2026.3687097.pdf
+  pdf_path: .na.character
+  md5: 0af6d066413b9a6a5d9d9fa96dd97627
+  article_url: https://doi.org/10.1109/access.2026.3687097
+  note: Final published PDF downloaded 2026-11-06 from the listed legitimate source
+    (candidate from the keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:35:21 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): open-source pipeline code/tool
+    declared on GitHub egleorl/Markerless-3D-Human-Cobot-Pose-Estimation; dataset
+    claimed public without a specific link (open_data null); resource not opened,
+    Enrico check pending. Orlando, Nenna, Lorusso, Mingardi, Buodo, Gamberini DPG;
+    IEEE Access 2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 2, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: yes
+resources:
+  article: https://doi.org/10.1109/access.2026.3687097
+  preregistration: []
+  data: []
+  code: https://github.com/egleorl/Markerless-3D-Human-Cobot-Pose-Estimation
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_code
+  - reusable_tool
+  source: pdf
+  location: PDF p.1 abstract, p.2, p.3 contributions, p.5, p.10
+  passage: GitHub link to the authors' markerless human-cobot 3D pose estimation pipeline,
+    presented as an accessible open-source tool; deployment details in the repository.
+    Dataset/model said publicly available without a specific link (not counted). Ultralytics
+    is third-party. Declaration and link read; resource not opened.
+  url: https://github.com/egleorl/Markerless-3D-Human-Cobot-Pose-Estimation
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type gold in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the read version.
+  url: https://doi.org/10.1109/access.2026.3687097
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista;
+    Uno strumento che altri possono riutilizzare, come un programma o un test
+  public_summary: 'Immaginate di lavorare accanto a un braccio robotico che vi passa
+    viti e pezzi da montare: come capire se la squadra tra persona e macchina funziona
+    bene? Le ricercatrici e i ricercatori hanno costruito un sistema che, con una
+    sola telecamera capace di misurare anche la distanza, segue nello stesso momento
+    i movimenti della persona e del robot, senza sensori sul corpo. Per riconoscere
+    il braccio robotico hanno addestrato un programma su oltre mille immagini, poi
+    ne hanno controllato la precisione confrontandolo con le posizioni registrate
+    dal robot stesso, sia durante un montaggio insieme a una persona sia in un movimento
+    ripetuto da solo. Nel movimento semplice l''errore medio è stato di circa due
+    centimetri, nel lavoro condiviso di poco meno di sei. Ne nasce uno strumento accessibile
+    per studiare come persone e robot si coordinano, per un lavoro più sicuro.'
+  topics:
+  - robotica collaborativa
+  - movimento
+  - tecnologia
+  - lavoro
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1/p.4: single RGB-D camera tracks human and UR10e cobot simultaneously,
+      markerless.'
+    - 'PDF p.6: cobot model trained on 1131 images, validated against robot internal
+      joint data in collaborative assembly and solo trajectory.'
+    - 'PDF pp.8-9: mean absolute error 18.1 mm (solo) vs 57.3 mm (collaborative assembly).'
+    - 'PDF p.2/p.10: presented as accessible open-source tool for coordination and
+      safety research.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

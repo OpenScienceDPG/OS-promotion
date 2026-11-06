@@ -1,0 +1,149 @@
+schema_version: 1.0
+id: doi-10-1136-bmjopen-2025-111686
+doi: 10.1136/bmjopen-2025-111686
+bibliography:
+  title: 'Efficacy and moderators of cognitive behavioural therapy versus interpersonal
+    psychotherapy for adult depression: study protocol of a systematic review and
+    individual participant data meta-analysis'
+  authors: Tao Lin; Zachary D Cohen; Simona Stefan; Radu Șoflău; Liviu A Fodor; Raluca
+    Georgescu; Sanne J E Bruijniks; Lotte Lemmens; Michael Bagby; Lena Quilty; Annika
+    Ekeblad; Rolf Holmqvist; Jonathan Evans; Heather A O’Mahen; Jennifer E Johnson;
+    Caron Zlotnick; Peter Hilpert; Janet Carter; Carolina McBride; Michael Constantino;
+    Alice E Coyne; Holly A Swartz; Lauren M Bylsma; Eirini Karyotaki; Clara Miguel;
+    Pandora Pantazi; Madison R Schmidt; Frederik J Wienicke; Jasmijn Breunese; Steven
+    D Hollon; Pim Cuijpers; Ioana-Alina Cristea; Ellen Driessen
+  journal: BMJ Open
+  volume: '15'
+  issue: '12'
+  pages: e111686
+  year: 2025.0
+dpg:
+  authors: Ioana-Alina Cristea
+  verified: yes
+  verification_source: 'Final article XML front/article-meta, Cristea linked to affiliation
+    25: Department of General Psychology, University of Padova, Padova, Italy. Publication
+    date 10 December 2025; volume 15 issue 12 e111686.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12699710
+  note: Final article read locally from cached Europe PMC XML on 2026-11-06. No PDF
+    processed and no supporting external resource links opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode: the complete study protocol is openly published
+    in the article itself, with eligibility, search, data collection and planned analyses
+    specified. Prospective registration is promised but not yet reported, so preregistration
+    is not counted. No data/code/materials sharing claim established. DPG and 2025
+    citation year verified.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025.0
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: yes
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1136/bmjopen-2025-111686
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: https://doi.org/10.1136/bmjopen-2025-111686
+evidence:
+- claims: open_protocol
+  source: article_xml
+  location: Abstract; Method, sections Design and registration through Ethics and
+    dissemination (XML s2, subsections s2-1 to s2-12)
+  passage: This article describes the protocol for a systematic review and individual
+    participant data meta-analysis. The open article specifies eligibility, outcomes,
+    search methods, risk-of-bias assessment, data collection and integrity, synthesis,
+    sensitivity analyses and meta-bias assessment. Protocol read in the article itself
+    under its CC BY licence; no external supporting resource opened.
+  url: https://doi.org/10.1136/bmjopen-2025-111686
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: Method, Design and registration (XML s2-1)
+  passage: This systematic review and IPD meta-analysis will be registered in PROSPERO
+    after peer review of this study protocol article is completed; data extraction
+    will start after registration is finalised. This is a future registration promise,
+    without a registration identifier or supporting link, so no preregistration badge
+    assigned.
+  url: https://doi.org/10.1136/bmjopen-2025-111686
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: 'Method: Data collection, Data synthesis, Ethics and dissemination; Supplementary
+    material'
+  passage: Participant data will be requested from trial authors under data-sharing
+    agreements. Analyses are planned in R with lme4, but study-specific code is not
+    declared shared. No public dataset or study materials declaration is established.
+    The supplement is described as PRISMA-P table and preliminary moderator list;
+    it was not opened.
+  url: https://doi.org/10.1136/bmjopen-2025-111686
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type, normalized DOI match;
+    checked 2026-11-06
+  passage: Both matching inventory rows classify the article as gold, qualifying for
+    the OA badge. Read article XML also contains a CC BY 4.0 licence.
+  url: https://doi.org/10.1136/bmjopen-2025-111686
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito
+    della rivista
+  public_summary: >-
+    Contro la depressione esistono diverse psicoterapie efficaci. Due delle più studiate sono la
+    terapia cognitivo-comportamentale, che lavora su pensieri e comportamenti, e la terapia
+    interpersonale, che si concentra sulle relazioni con gli altri. Ma quale funziona meglio, e per
+    chi? Questo articolo presenta il piano di un grande studio per scoprirlo. Gli autori
+    cercheranno tutte le sperimentazioni che hanno confrontato le due terapie negli adulti e
+    chiederanno ai ricercatori di condividere i dati, resi anonimi, di ogni singolo partecipante.
+    Mettendoli insieme potranno confrontare le due terapie non solo sui sintomi depressivi, ma
+    anche su ansia, qualità della vita e benessere a distanza di tempo, e capire se caratteristiche
+    come età o gravità della depressione rendano una terapia più adatta dell’altra. Un passo verso
+    cure sempre più su misura per ogni persona.
+  topics: []
+  article_resources:
+    protocol: Method (XML s2), subsections Design and registration (s2-1), Eligibility
+      criteria (s2-2), Outcomes and prioritisation (s2-3), Search methods (s2-4),
+      Risk of bias assessment (s2-5), Data collection (s2-6), Data integrity checks,
+      Data preparation, Data synthesis, Sensitivity analyses, Meta-biases and Ethics
+      and dissemination (s2-12). Full protocol is contained in this article.
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Europe PMC XML abstract: protocol for systematic review and IPD meta-analysis comparing CBT and IPT for adult depression, outcomes short and long term, moderators.'
+    - 'Methods: researchers invited to share anonymised participant-level data; secondary outcomes include anxiety, social functioning and quality of life at 6-18 month follow-up; moderators include age and depression severity.'
+    review_note: 'Scientific reread against abstract and Methods: future tense for a protocol, no results claimed, outcome and moderator examples taken from the paper; therapy descriptions are generic plain-language glosses. Editorial reread: IPD explained.'
+publication:
+  published: no
+  featured: no

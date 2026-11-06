@@ -1,0 +1,141 @@
+schema_version: 1.0
+id: doi-10-1007-s12144-026-09136-z
+doi: 10.1007/s12144-026-09136-z
+bibliography:
+  title: Psychometric properties of the Expanded Exercise Addiction Inventory 3 (EAI-3)
+    in a Danish sample
+  authors: Umberto Granziol; Mia Beck Lichtenstein; Greta Baldanzini; Zeynep Gokcen
+    Ozer; Mark D. Griffiths; Attila Szabo
+  journal: Current Psychology
+  volume: '45'
+  issue: '5'
+  pages: '544'
+  year: 2026
+dpg:
+  authors:
+  - Umberto Granziol
+  - Greta Baldanzini
+  - Zeynep Gokcen Ozer
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation 1: Department of General Psychology,
+    University of Padova (Granziol, Baldanzini, Ozer); others Southern Denmark, Nottingham
+    Trent, Szechenyi Istvan. Published online 18 Feb 2026; Curr Psychol (2026) 45:544.'
+source:
+  pdf_file: 10.1007_s12144-026-09136-z.pdf
+  pdf_path: .na.character
+  md5: 87b182b637cdbaa3a1f781bf654ba275
+  article_url: https://doi.org/10.1007/s12144-026-09136-z
+  note: Final published PDF located via OpenAlex (keyword shortlist cache), read locally,
+    deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:24:29 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, borderline): EAI-3 scale items (English and Danish)
+    printed in the article Appendix, counted as open materials; data on request only;
+    no preregistration or code. Granziol, Baldanzini, Ozer DPG; Curr Psychol 2026;
+    hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv
+      from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: no
+  open_code: .na
+  open_materials: yes
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1007/s12144-026-09136-z
+  preregistration: []
+  data: []
+  code: []
+  materials: https://doi.org/10.1007/s12144-026-09136-z
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.4 (Measures) and p.10 (Appendix)
+  passage: English and Danish EAI-3 items stated available in the Appendix; the Appendix
+    prints all 8 items with subscale keys in the CC BY article. Borderline in-article
+    materials claim (precedent doi-10-1016-j-tele-2025-102262).
+  url: https://doi.org/10.1007/s12144-026-09136-z
+  verification: unverified
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.10, Data availability
+  passage: Data can be shared upon reasonable request to the corresponding author
+    (not open). PsychArchives DOI is a cited reference.
+  url: .na
+  verification: agent-verified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY 4.0 open access
+    licence printed in the read version.
+  url: https://doi.org/10.1007/s12144-026-09136-z
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: Allenarsi fa bene, ma quando l'esercizio fisico diventa un bisogno
+    incontrollabile può trasformarsi in un problema. Come accorgersene in tempo? Le
+    ricercatrici e i ricercatori hanno messo alla prova in Danimarca un breve questionario
+    di otto domande, pensato per individuare chi rischia una vera dipendenza dall'allenamento,
+    per esempio chi si sente in colpa se salta una sessione o si allena anche da infortunato.
+    Lo hanno fatto compilare a 392 adulti che fanno sport con regolarità, insieme
+    ad altri questionari già conosciuti. Il test si è dimostrato affidabile e ha funzionato
+    allo stesso modo per uomini e donne; un punteggio di circa 34 su 48 permette di
+    riconoscere bene le persone a rischio. Chi si occupa di salute e sport in Danimarca
+    può così contare su uno strumento semplice e rapido per cogliere presto i segnali
+    di allarme.
+  topics:
+  - sport
+  - dipendenza
+  - questionari
+  - salute mentale
+  article_resources:
+    materials: 'PDF p.10, Appendix: English and Danish items of the EAI-3 printed
+      in the article itself.'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1 abstract: EAI-3 (8 items) validated in 392 regularly exercising Danish
+      adults, with other established questionnaires.'
+    - 'PDF results: good reliability and measurement invariance across men and women.'
+    - 'PDF results/discussion: cut-off around 34 (33.5) on a 48-point maximum identifies
+      at-risk individuals.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

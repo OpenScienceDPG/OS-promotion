@@ -1,0 +1,143 @@
+schema_version: 1.0
+id: doi-10-2196-73896
+doi: 10.2196/73896
+bibliography:
+  title: 'Exploring Subjective Well-Being in Human-Machine Interaction: Protocol for
+    a Mixed Methods, Cross-Sectional Analysis in Manufacturing 5.0'
+  authors: Giulia Bassi; Valeria Orso; Silvia Salcuni; Luciano Gamberini
+  journal: JMIR Research Protocols
+  volume: '14'
+  issue: ~
+  pages: e73896
+  year: 2025.0
+dpg:
+  authors:
+  - Valeria Orso
+  - Luciano Gamberini
+  verified: yes
+  verification_source: 'Final article XML front/article-meta: Orso and Gamberini carry
+    affiliation 3, Department of General Psychology, University of Padova. Bassi and
+    Salcuni carry affiliation 1, Department of Developmental Psychology and Socialization,
+    not DPG. Publication date 14 November 2025; volume 14 e73896.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12663708
+  note: Final article read locally from cached Europe PMC XML on 2026-11-06. No PDF
+    processed and no supporting external resource opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode: detailed study protocol is openly published
+    in the article itself, specifying recruitment, questionnaires, interview dimensions
+    and planned quantitative/qualitative analyses. No dated prospective registration
+    or Registered Report acceptance established; IRRID is not treated as such evidence.
+    Data sharing declared not applicable; no open code/materials or completed reusable
+    tool claim established. DPG and 2025 year verified.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025.0
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: yes
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.2196/73896
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: https://doi.org/10.2196/73896
+evidence:
+- claims: open_protocol
+  source: article_xml
+  location: Methods (XML sec15), Overview through Ethical Considerations; Study Population
+    and Recruitment; Quantitative Data Collection; Qualitative Data Collection; Statistical
+    Analysis (sec36)
+  passage: The published protocol describes the mixed methods cross-sectional study,
+    recruitment and inclusion criteria, questionnaires, semistructured interview dimensions,
+    planned path analysis and text-mining analysis. The protocol is contained in the
+    CC BY article and was read locally; no supporting external resource opened.
+  url: https://doi.org/10.2196/73896
+  verification: agent-verified
+- claims: open_data
+  source: article_xml
+  location: Data Availability (XML sec43); Results (sec38)
+  passage: Data sharing is not applicable to this article as no datasets were generated
+    or analyzed during this study. Results separately states that data collection
+    had begun with 12 participants; no public dataset or supporting dataset link supplied.
+  url: https://europepmc.org/articles/PMC12663708
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: Front abstract IRRID; Statistical Analysis (sec36); Objective and Conclusions
+  passage: IRRID DERR1-10.2196/73896 is printed, without evidence of prospective registration
+    or Registered Report in-principle acceptance. Planned R custom code is described
+    but not declared shared. The future consensus report is a promised output, not
+    an existing reusable tool. Existing scales and interview protocol are referenced,
+    without a specific current open study-materials declaration.
+  url: https://europepmc.org/articles/PMC12663708
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type, normalized DOI match;
+    checked 2026-11-06
+  passage: Inventory classifies the article as gold, qualifying for OA badge. Read
+    XML also prints CC BY 4.0 licence.
+  url: https://doi.org/10.2196/73896
+  verification: unverified
+curation:
+  status: curated
+  public_summary: >-
+    Nelle fabbriche di oggi sempre più operai lavorano fianco a fianco con robot collaborativi,
+    telecamere intelligenti e sistemi automatici. Ma come si sentono? Questo articolo presenta il
+    piano di uno studio che vuole scoprirlo, coinvolgendo operai di aziende manifatturiere del
+    Nord-Est. I partecipanti compileranno un questionario online di circa venti minuti sul proprio
+    benessere, sull’intesa con le macchine e sui rapporti con i colleghi, e racconteranno la
+    propria esperienza in interviste di circa un’ora. Gli autori si aspettano che un lavoro ben
+    sincronizzato con la macchina protegga il benessere, mentre un atteggiamento negativo verso le
+    nuove tecnologie possa favorire lo stress. Dai risultati nascerà un documento condiviso con
+    indicazioni pratiche per le aziende e per la formazione. Un passo per mettere davvero le
+    persone al centro della fabbrica del futuro.
+  topics: []
+  article_resources:
+    protocol: 'Methods (XML sec15): Overview; Funding; Study Population and Recruitment;
+      Quantitative Data Collection: Self-Reported Questionnaires; Qualitative Data
+      Collection: Audio-Recorded Semistructured Interviews; Statistical Analysis (sec36);
+      Ethical Considerations (sec37). Full planned study protocol is contained in
+      this article.'
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Europe PMC XML abstract: mixed-methods cross-sectional protocol on operators'' subjective well-being, HMI fluency, negative attitudes, coworker relations; expected protective role of fluency and distress role of negative attitudes; consensus report.'
+    - 'Methods: operators in Northeastern Italy manufacturing companies; Qualtrics survey about 20 min; semistructured interviews about 60 min; technologies include cobots, machine vision, pick-to-light.'
+    review_note: 'Scientific reread against abstract and Methods: future tense for protocol, expectations attributed to authors, no results claimed (12 participants collected not mentioned). Editorial reread: HMI rendered as intesa con le macchine.'
+  why_open: Il protocollo dettagliato dello studio; L'articolo, gratuito sul sito
+    della rivista
+publication:
+  published: no
+  featured: no

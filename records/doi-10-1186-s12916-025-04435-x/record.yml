@@ -1,0 +1,170 @@
+schema_version: 1.0
+id: doi-10-1186-s12916-025-04435-x
+doi: 10.1186/s12916-025-04435-x
+bibliography:
+  title: 'Efficacy and safety of esketamine for “treatment resistant depression”:
+    registered report for a systematic review with an individual patient data meta-analysis
+    of randomized, double-blind, placebo-controlled trials'
+  authors: Florian Naudet; Claude Pellen; Liviu A. Fodor; Chiara Gastaldon; Corrado
+    Barbui; Erick H. Turner; Estelle Le Pabic; Ioana A. Cristea
+  journal: BMC Medicine
+  volume: '23'
+  issue: ~
+  pages: '677'
+  year: 2025
+dpg:
+  authors: Ioana A. Cristea
+  verified: yes
+  verification_source: 'Final Europe PMC XML front/article-meta: Cristea carries affiliation
+    8, Department of General Psychology, University of Padova, Padova, Italy. Published
+    28 November 2025, volume 23 article 677.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12690855
+  note: Final published article read locally as cached Europe PMC XML on 2026-11-06.
+    No PDF processed and no supporting resource opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep: explicitly identified completed Registered Report, with in-principle
+    acceptance dated 2021-11-15. Analysis code and detailed statistical analysis plan
+    declared shared on OSF with actual links, but no explicit public-access wording
+    for these specific linked resources; open_code/open_protocol left unknown under
+    strict ordinary mode, links not opened, Enrico wording review pending. YODA participant
+    data require a request and approval, so not open data. Prospective protocol registration
+    dates stated but no actual registry URL supplied; preregistration left unknown
+    rather than assuming the linked SAP is the registered version.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: yes
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1186/s12916-025-04435-x
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: https://doi.org/10.1186/s12916-025-04435-x
+evidence:
+- claims: registered_report
+  source: article_xml
+  location: Title; Abstract Methods; Methods, Design (XML Par38); Changes to the initial
+    protocol
+  passage: This study follows a registered report format, with in-principle acceptance
+    granted on 2021-11-15. Article reports the completed review and analyses, explicitly
+    distinguishes changes from the initial protocol, and refers to stage 2 peer review.
+    Report status read directly in the article.
+  url: https://doi.org/10.1186/s12916-025-04435-x
+  verification: agent-verified
+- claims:
+  - open_code
+  - open_protocol
+  source: article_xml
+  location: Data availability; Methods, Design and Analysis strategy (XML Par38, Par50)
+  passage: The detailed SAP (https://osf.io/hmcas), the code to reproduce our analyses
+    (https://osf.io/z2bna/files/osfstorage) are shared on the OSF. Design additionally
+    says the full protocol is publicly available on OSF but does not link that dated
+    protocol. The specific linked code and SAP lack explicit public-access wording;
+    claims left unknown under strict ordinary mode. Analysis plan finalized 21 October
+    2022 before any analyses. Declaration and links read; resources not opened, manual
+    wording review pending.
+  url: https://osf.io/z2bna/files/osfstorage
+  verification: unverified
+- claims: open_protocol
+  source: article_xml
+  location: Data availability
+  passage: Detailed statistical analysis plan specifically declared shared on OSF
+    at this supporting link, without explicit public-access wording. Claim left unknown;
+    link and declaration read without opening the resource. This URL is not assumed
+    to identify the dated OSF registration.
+  url: https://osf.io/hmcas
+  verification: unverified
+- claims: open_data
+  source: article_xml
+  location: Methods, Data collection and assessment of risk of bias (XML Par49); Results,
+    Study characteristics; Data availability
+  passage: Data requests were submitted on January 5, 2022, and access was granted
+    on February 8, 2022. The individual patient datasets were obtained through the
+    YODA request/approval route; one monotherapy dataset remained unavailable despite
+    a request. The availability statement points to YODA, not an unconditional dataset
+    download.
+  url: https://yoda.yale.edu/
+  verification: agent-verified
+- claims: preregistration
+  source: article_xml
+  location: Methods, Design (XML Par38); Study registration
+  passage: OSF protocol registration dated 2021-11-15 and PROSPERO CRD42021290721
+    dated 2021-12-11, before data access in 2022. Neither registration has an actual
+    supporting URL in the paper. The separately linked SAP is not assumed to be the
+    registered protocol. Claim left unknown under the actual-link requirement; no
+    registry URL constructed.
+  url: ~
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type, normalized DOI match;
+    assessed 2026-11-06
+  passage: Inventory classification gold qualifies for the OA badge. Final article
+    XML also prints a CC BY-NC-ND 4.0 licence.
+  url: https://doi.org/10.1186/s12916-025-04435-x
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il progetto, approvato dalla rivista prima di conoscere i risultati; L'articolo,
+    gratuito sul sito della rivista
+  public_summary: >-
+    Nel 2019 le autorità sanitarie di Stati Uniti ed Europa hanno approvato l’esketamina, uno spray
+    nasale per la depressione che non migliora con le cure abituali. Quanto funziona davvero? Per
+    scoprirlo, gli autori hanno rianalizzato i dati dei singoli pazienti degli studi usati per
+    l’approvazione: sette sperimentazioni con oltre 1.500 persone, in cui né i pazienti né i medici
+    sapevano chi riceveva il farmaco e chi un placebo. Aggiunta a un antidepressivo, l’esketamina
+    riduceva i sintomi più del placebo, ma di poco: circa 3 punti su una scala da 0 a 60, meno
+    della soglia di 6,5 punti considerata rilevante quando gli studi originali furono progettati.
+    Aumentavano sonnolenza e sensazioni di distacco dalla realtà, senza un aumento degli effetti
+    avversi gravi. Un’analisi trasparente, preziosa per pazienti e medici chiamati a scegliere.
+  topics: []
+  article_resources:
+    protocol: Title, Abstract Methods, Methods Design (XML Par38), and Changes to
+      the initial protocol establish this article as the completed Registered Report,
+      with dated in-principle acceptance and stage 2 review. This article destination
+      supports Registered Report status, not an inferred open_protocol badge.
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+    - open_protocol
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Europe PMC XML abstract: FDA/EMA approval 2019; IPD from 7 double-blind placebo-controlled RCTs, 1505 patients, via YODA.'
+    - 'Results: initiation trials MD -2.94 MADRS points at 4 weeks; benchmark 6.5-point threshold used in pivotal trial design; sedation and dissociation increased; serious adverse events not increased.'
+    - 'Methods: MADRS primary outcome (0-60 scale); registered report with in-principle acceptance.'
+    review_note: 'Scientific reread against abstract, Methods and Discussion: combination-therapy result, threshold comparison and safety findings accurate; monotherapy and continuation results omitted. Editorial reread: MADRS described as a 0-60 scale, no acronyms.'
+publication:
+  published: no
+  featured: no

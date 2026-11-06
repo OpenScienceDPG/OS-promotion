@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1186-s40337-025-01509-2
+doi: 10.1186/s40337-025-01509-2
+bibliography:
+  title: 'Perceived carer skills and psychological distress in fathers and mothers
+    of adults with anorexia nervosa: a longitudinal study'
+  authors: Melahat Nur Akkese; Johanna Keeler; John Hodsoll; Suman Ambwani; Hubertus
+    Himmerich; Katie Rowlands; Valentina Cardi; Janet Treasure
+  journal: Journal of Eating Disorders
+  volume: '14'
+  issue: ~
+  pages: '35'
+  year: 2026
+dpg:
+  authors: Valentina Cardi
+  verified: yes
+  verification_source: 'Final article XML front/article-meta: Valentina Cardi has
+    affiliations 1 and 5; affiliation 5 explicitly Department of General Psychology,
+    University of Padova. Publisher Cite this article gives Journal of Eating Disorders
+    14, 35 (2026), version of record 28 January 2026, despite original online publication
+    25 December 2025.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12849123
+  note: Final article read locally from cached Europe PMC XML on 2026-11-06. Publisher
+    citation independently checked via article search result at https://link.springer.com/article/10.1186/s40337-025-01509-2.
+    No PDF processed or supporting resource opened.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: exploratory secondary analysis of TRIANGLE parental data, with
+    no preregistration declaration for the present father/mother comparisons. The
+    linked ISRCTN preregistration belongs to the original trial, not an established
+    preregistration of this secondary analysis. Participant-level data require future
+    reasonable request and an ethically approved proposal; supplemental aggregate
+    statistics are not treated as shared raw data. No open study code, new materials/protocol
+    or reusable tool declared. OA alone insufficient. Official citation year 2026,
+    not inventory/online year 2025.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 7, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1186/s40337-025-01509-2
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: preregistration
+  source: article_xml
+  location: Abstract Trial registration; Methods Study design and participants; Declarations
+    Ethics approval and consent to participate
+  passage: Article explicitly describes the present work as an exploratory secondary
+    analysis. Registration statement identifies the TRIANGLE trial whose parental
+    data were used, with ISRCTN14644379 and its DOI link. It does not establish preregistration
+    of the current secondary comparisons. Original trial preregistration not assigned
+    to this paper; resource not opened.
+  url: https://doi.org/10.1186/ISRCTN14644379
+  verification: unverified
+- claims: open_data
+  source: article_xml
+  location: Data availability; Supplementary Information descriptions, Additional
+    files 1-15
+  passage: Participant-level anonymised data will become available three years after
+    publication of primary trial outcomes on reasonable request to VC for an ethically
+    approved proposal. Data supporting findings are included in the article/additional
+    files, but listed files are trial-arm description, demographic/comparison tables,
+    missing-data summaries, coefficients, raw means, estimated marginal means and
+    pairwise comparisons; these aggregate results do not establish openly shared participant-level
+    data.
+  url: https://europepmc.org/articles/PMC12849123
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: Full article Methods, Statistical analysis, Supplementary Information,
+    and availability/declaration sections
+  passage: No study-specific code sharing, openly distributed new materials/protocol
+    or reusable tool declaration identified. Descriptions of the prior ECHOMANTRA
+    intervention and trial protocol concern the original TRIANGLE study. Supplemental
+    results and trial-arm descriptions not counted as a new materials/protocol contribution.
+  url: https://europepmc.org/articles/PMC12849123
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type, normalized DOI match;
+    checked 2026-11-06
+  passage: One matching inventory row classifies the article as gold, qualifying for
+    the OA badge. Read article XML also prints CC BY-NC-ND 4.0 licence.
+  url: https://doi.org/10.1186/s40337-025-01509-2
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+  summary_review:
+    status: pending
+    review_note: Summary intentionally deferred at Enrico request; rejected record
+      not eligible for display.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,124 @@
+schema_version: 1.0
+id: doi-10-1111-bjep-70084
+doi: 10.1111/bjep.70084
+bibliography:
+  title: 'Reciprocal links between student disengagement and teacher–student relationships:
+    A four-wave longitudinal study'
+  authors: Claudia Pérez-Salas; Angélica Moé; Patricio Cumsille
+  journal: British Journal of Educational Psychology
+  volume: .na
+  issue: .na
+  pages: 1-14
+  year: 2026
+dpg:
+  authors:
+  - Angélica Moé
+  verified: yes
+  verification_source: 'Final Wiley PDF (Early View) p.1: Moé (as printed; Angelica
+    Moè in other records) at General Psychology Department, Padua University; others
+    Universidad de Concepción and PUC Chile. Br J Educ Psychol 2026;00:1-14.'
+source:
+  pdf_file: 10.1111_bjep.70084.pdf
+  pdf_path: .na.character
+  md5: 37fe102287c7a1869a6be7a979034e18
+  article_url: https://doi.org/10.1111/bjep.70084
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared openly available
+    on OSF ezjsr (published view-only link); resource not opened, Enrico check pending.
+    Moe DPG; Br J Educ Psychol 2026 (Early View); hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/bjep.70084
+  preregistration: []
+  data: https://osf.io/ezjsr/overview?view_only=25ea89e0232d4f83ba1f3b88e29a4820
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.12, Data Availability Statement
+  passage: Data supporting the findings declared openly available in OSF (published
+    view-only link). Declaration and link read; resource not opened.
+  url: https://osf.io/ezjsr/overview?view_only=25ea89e0232d4f83ba1f3b88e29a4820
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY open access
+    licence printed in the read version.
+  url: https://doi.org/10.1111/bjep.70084
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: 'Un buon rapporto con l''insegnante aiuta i ragazzi a restare coinvolti
+    a scuola? E uno studente svogliato finisce per allontanarsi dal suo professore?
+    Per capirlo, le ricercatrici e i ricercatori hanno seguito per un intero anno
+    scolastico 1031 studenti cileni di undici scuole, dai dieci anni fino all''ultimo
+    anno delle superiori. Quattro volte, a circa due mesi di distanza, i ragazzi hanno
+    compilato un questionario su quanto si sentissero distaccati dalla scuola e su
+    quanto apprezzassero un loro insegnante. Entrambi gli aspetti sono risultati piuttosto
+    stabili: chi partiva con un buon rapporto tendeva a mantenerlo. I piccoli cambiamenti
+    nell''uno non anticipavano cambiamenti nell''altro, ma a fine anno maggiore distacco
+    e rapporto meno buono andavano di pari passo. Un risultato che chiarisce con quali
+    tempi la relazione con gli insegnanti si intreccia con la voglia di partecipare.'
+  topics:
+  - scuola
+  - insegnanti
+  - adolescenti
+  - motivazione
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1, 5: 1031 students, grades 5-12, aged 10-20, 11 schools in Chile.'
+    - 'PDF pp.5-6: four questionnaire waves about two months apart within one school
+      year.'
+    - 'PDF pp.1, 10-11: relationship quality stable; no significant cross-lagged effects;
+      concurrent association only at wave 4.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

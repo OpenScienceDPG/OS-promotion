@@ -1,0 +1,133 @@
+schema_version: 1.0
+id: doi-10-1037-xan0000433
+doi: 10.1037/xan0000433
+bibliography:
+  title: The role of outcome affective value in driving human Pavlovian learning
+  authors: Daniela Dalbagno; Yoann Stussi; Eva R. Pool; Sonia Betti; Sara Garofalo;
+    David Sander; Giuseppe di Pellegrino; Francesca Starita
+  journal: 'Journal of Experimental Psychology: Animal Learning and Cognition'
+  volume: .na
+  issue: .na
+  pages: .na
+  year: 2026
+dpg:
+  authors:
+  - Sonia Betti
+  verified: yes
+  verification_source: 'Submitted manuscript (UNIGE archive) p.2: Betti at Department
+    of General Psychology, University of Padova; others Bologna and Geneva. Online
+    first 2026 (Crossref), no volume/issue yet.'
+source:
+  pdf_file: 10.1037_xan0000433.pdf
+  pdf_path: .na.character
+  md5: 8336422ab16c23ad45ae0ba2e0cb2558
+  article_url: https://doi.org/10.1037/xan0000433
+  note: Author submitted (pre-review) manuscript from Archive ouverte UNIGE, located
+    via OpenAlex (keyword shortlist cache), read locally on 2026-11-06, deleted after
+    finalization; final APA version not read (green OA).
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:46:27 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data, analysis code and materials
+    declared available on OSF kszft; read from UNIGE submitted (pre-review) manuscript;
+    resource not opened, Enrico check pending. Betti DPG; J Exp Psychol Anim Learn
+    Cogn 2026 (online first); green OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 3, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: .na
+  open_access: no
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1037/xan0000433
+  preregistration: []
+  data: https://osf.io/kszft/
+  code: https://osf.io/kszft/
+  materials: https://osf.io/kszft/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: Submitted manuscript p.13 (printed p.12)
+  passage: All data, analysis code and research materials declared available at the
+    OSF link. Read in the pre-review manuscript. mfit toolbox is third-party. Declaration
+    and link read; resource not opened.
+  url: https://osf.io/kszft/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI
+  passage: 'Unpaywall OA type green in the 2026-11-04 inventory: repository copy only,
+    no publisher open access; badge not assigned.'
+  url: https://doi.org/10.1037/xan0000433
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio,
+    come questionari e stimoli
+  public_summary: 'Perché impariamo in fretta a temere ciò che ci ha fatto male, ma
+    non ciò che ci ha appena sfiorato? Le ricercatrici e i ricercatori hanno chiesto
+    a 20 adulti di osservare dei cerchi colorati su uno schermo: un colore era spesso
+    seguito da una leggera scossa sul polso, un altro da una scossa dolorosa, regolata
+    sul limite di sopportazione di ciascuno, il terzo da nulla. Intanto misuravano
+    la sudorazione della pelle, un segnale involontario di allerta. Solo il colore
+    legato al dolore ha iniziato a provocare una reazione di attesa, e una risposta
+    più forte quando la scossa prevista non arrivava, come un segnale di sorpresa.
+    Un modello al computer ha mostrato che le persone davano al dolore un peso maggiore,
+    pur imparando con velocità simile. Un tassello prezioso per capire come impariamo
+    dalle esperienze spiacevoli.'
+  topics:
+  - apprendimento
+  - emozioni
+  - dolore
+  - paura
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Manuscript p.6: 20 healthy adults.'
+    - 'Manuscript pp.7-8: three coloured cues paired with mild wrist shock, painful
+      shock at individual tolerance, or nothing; skin conductance recorded.'
+    - 'Manuscript abstract: only the painful outcome elicited anticipatory responses
+      and responses to its unexpected omission.'
+    - 'Manuscript abstract: computational model showed higher outcome sensitivity
+      for pain than touch, similar learning rates.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

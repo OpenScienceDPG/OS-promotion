@@ -1,0 +1,134 @@
+schema_version: 1.0
+id: doi-10-1016-j-sleep-2026-108858
+doi: 10.1016/j.sleep.2026.108858
+bibliography:
+  title: 'Psychobiological personality traits in adults with disorders of arousal:
+    A case–control study'
+  authors: Angie Baldassarri; Elena Zambrelli; Katherine Turner; Andrea Galbiati;
+    Nicola Cellini; Giulio Perrotta; Romano Bianchi; Marco De Pieri; Luigi Ferini
+    Strambi; Michele Terzaghi; Raffaele Manni; Paola Proserpio; Lino Nobili; Mauro
+    Manconi; Maria Paola Canevini; Anna Castelnovo
+  journal: Sleep Medicine
+  volume: '142'
+  issue: .na
+  pages: '108858'
+  year: 2026
+dpg:
+  authors:
+  - Angie Baldassarri
+  - Nicola Cellini
+  - Romano Bianchi
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation a: Department of General Psychology,
+    University of Padova (Baldassarri, Cellini, Bianchi); others Milan, Pavia, Genoa,
+    Lugano. Online 19 Feb 2026; Sleep Med 142 (2026) 108858.'
+source:
+  pdf_file: 10.1016_j.sleep.2026.108858.pdf
+  pdf_path: .na.character
+  md5: 4b63fe9184d83a9737024051b27301c1
+  article_url: https://doi.org/10.1016/j.sleep.2026.108858
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data and code declared publicly
+    available on OSF rsm27; resource not opened, Enrico check pending. Baldassarri,
+    Cellini, Bianchi DPG; Sleep Med 2026; hybrid OA (inventory; no CC licence printed).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1016/j.sleep.2026.108858
+  preregistration: []
+  data: https://osf.io/rsm27
+  code: https://osf.io/rsm27
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: PDF p.7, Data and code availability statement
+  passage: All datasets and code underlying the results declared publicly available
+    in the OSF repository. Declaration and link read; resource not opened.
+  url: https://osf.io/rsm27
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; the read PDF prints
+    only an Elsevier copyright line, no CC licence (classification kept per inventory,
+    flagged in open-issues).
+  url: https://doi.org/10.1016/j.sleep.2026.108858
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: Alcune persone, di notte, si alzano e camminano, parlano o gridano
+    spaventate senza svegliarsi davvero, e al mattino spesso non ricordano nulla.
+    Sonnambulismo e terrori notturni hanno a che fare con il carattere? Per capirlo,
+    le ricercatrici e i ricercatori hanno coinvolto cinque centri del sonno tra Italia
+    e Svizzera, confrontando 39 adulti con questi disturbi e 40 persone senza, simili
+    per età e sesso. Tutti hanno compilato un lungo questionario sulla personalità
+    e alcune scale sul sonno. Presi uno per uno, i tratti di personalità non distinguevano
+    i due gruppi. Considerati insieme, però, una maggiore tendenza a preoccuparsi,
+    un forte bisogno di legami affettivi e una spiccata perseveranza si associavano
+    a una maggiore probabilità di avere questi episodi. Il lavoro aiuta a conoscere
+    meglio chi vive queste notti agitate e apre la strada a nuovi studi.
+  topics:
+  - sonno
+  - parasonnie
+  - personalità
+  - sonnambulismo
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF pp.1-2: disorders of arousal include sleepwalking, sleep terrors and confusional
+      arousals, with partial or complete amnesia.'
+    - 'PDF p.2: five sleep centres (three in Milan, Pavia, Lugano).'
+    - 'PDF p.3: 39 patients and 40 age- and sex-matched controls; TCI-R personality
+      questionnaire and sleep scales.'
+    - 'PDF p.4: no group differences on single scales; in the logistic model higher
+      Harm Avoidance, Reward Dependence and Persistence associated with patient group.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

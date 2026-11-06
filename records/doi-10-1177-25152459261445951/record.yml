@@ -1,0 +1,118 @@
+schema_version: 1.0
+id: doi-10-1177-25152459261445951
+doi: 10.1177/25152459261445951
+bibliography:
+  title: 'Common Evidence, Multiple Interpretations: Commentaries on a Multilab Study
+    on Musicians’ Short-Term Memory'
+  authors: Rafael Román-Caballero; Deniz Başkent; Anne Caclin; Laura Ferreri; Anna
+    Fiveash; Clément François; Massimo Grassi; Eleanor E. Harding; César F. Lima;
+    Katie Overy; Antoni Rodriguez-Fornells; M. Paula Roncaglia; E. Glenn Schellenberg;
+    L. Robert Slevc; Francesca Talamini; Barbara Tillmann; Laurel J. Trainor; Ana
+    Zappa
+  journal: Advances in Methods and Practices in Psychological Science
+  volume: '9'
+  issue: '2'
+  pages: 1-14
+  year: 2026
+dpg:
+  authors: Massimo Grassi
+  verified: yes
+  verification_source: 'Published PDF p.1: Grassi has affiliation 12, Department of
+    General Psychology, University of Padua. Talamini has affiliation 23, University
+    of Innsbruck. Printed issue April-June 2026, volume 9, number 2, pages 1-14.'
+source:
+  pdf_file: 10.1177_25152459261445951.pdf
+  md5: 91dc8b094bd84d46de2e5c995fb5c14a
+  article_url: https://www.cesarflima.com/files/pub/Roman-CaballeroEtAl_2026.pdf
+  note: Published article downloaded from coauthor César Lima laboratory website on
+    2026-11-06 and read locally. Publisher HTML timed out and publisher PDF/Edinburgh
+    repository PDF returned Cloudflare challenges; coauthor PDF succeeded after approved
+    network escalation. No supporting resource opened. Root handles inbox workflow.
+    Processed by 01-screen.R and 02-finalize.R on 2026-11-06; inbox PDF deleted after
+    record and ledger were written. Supporting external resources not opened.
+  bibliography_url: https://www.research.ed.ac.uk/en/publications/common-evidence-multiple-interpretations-commentaries-on-a-multil/
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 10:28:43 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject in ordinary mode: this commentary discusses the preregistration,
+    Registered Report, data and materials of earlier Music Ensemble publications,
+    not newly declared practices of this commentary. Its additional keyboard-player
+    analysis supplies only an OSF link for more details, without explicitly declaring
+    any specific data/code/materials resource openly available. No other qualifying
+    contribution established. OA alone insufficient; DPG Grassi and official 2026
+    year verified.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 7, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/25152459261445951
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF pp.1-3, abstract and introduction; pp.9-11, Multilab Research in Cognitive
+    Science
+  passage: Article explicitly presents six independent commentaries on Grassi et al.
+    (2025). Discussion of registered design, shared procedures, open data and materials
+    concerns that earlier multilab project and its separate publications, not a new
+    Registered Report, protocol or sharing declaration for this commentary.
+  url: https://doi.org/10.1177/25152459261445951
+  verification: agent-verified
+- claims: []
+  source: pdf
+  location: PDF p.4, How Far Does Music Go?, right column, additional keyboard-player
+    analysis
+  passage: A new additional analysis contrasts keyboard and nonkeyboard musicians.
+    The only associated repository wording is for more details, see the OSF link.
+    This does not identify specific data, code or materials as openly available, so
+    no practice inferred from a bare link. Declaration and link read and visually
+    confirmed; resource not opened.
+  url: https://osf.io/rukgm/
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: One inventory DOI row classifies the article as gold. Published PDF p.1
+    independently prints a CC BY-NC 4.0 licence. OA badge based on inventory classification.
+  url: https://doi.org/10.1177/25152459261445951
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+  summary_review:
+    status: pending
+    review_note: Summary intentionally deferred at Enrico request; placeholder only.
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,86 @@
+schema_version: 1.0
+id: doi-10-33009-fsop-jpss139649
+doi: 10.33009/fsop_jpss139649
+bibliography:
+  title: 'Involving Girls in STEM: A Study on Gender Bias from Schooling to University'
+  authors: Valentina Fietta; Ombretta Gaggi; Nicolò Navarin; Merylin Monaro
+  journal: Journal of Postsecondary Student Success
+  volume: '5'
+  issue: '3'
+  pages: 101-127
+  year: 2026
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final PDF p.1: all four authors printed only as ''University
+    of Padova, Italy'' (no department); Department of Mathematics named as partner/funder
+    only. J Postsecond Stud Success 5(3), 2026.'
+source:
+  pdf_file: 10.33009_fsop_jpss139649.pdf
+  pdf_path: .na
+  md5: 2921de84b3af9daa47a61c4d53dac406
+  article_url: https://doi.org/10.33009/fsop_jpss139649
+  note: Final published PDF located via OpenAlex (keyword shortlist cache), read locally
+    on 2026-11-06, deleted after recording.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: screen-2.0
+  algorithm_score: .na
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: .na
+  final_note: 'Needs review (scope: DPG affiliation): all authors printed only as
+    ''University of Padova''; DPG affiliation of Fietta/Monaro unverified. Candidate
+    practice: complete questionnaire in Supplementary Information on Zenodo 10.5281/zenodo.18187015
+    (open_materials, ordinary mode), although p.6 also says materials available by
+    emailing; data on request; explicitly not preregistered. Next step: Enrico confirms
+    affiliation and the materials wording.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 3, from inventory list-2026-11-04.xlsx)
+    eligible: .na
+    reason: dpg-affiliation-unverified
+    citation_year: 2026
+human_override:
+  decision: .na
+  by: .na
+  at: .na
+  note: .na
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.33009/fsop_jpss139649
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF p.6-8, p.21
+  passage: 'Candidate evidence pending scope check: questionnaire and interview report
+    declared in the Supplementary Information on Zenodo; p.6 says research materials
+    available by emailing the corresponding author; data on request; not preregistered.
+    Resource not opened.'
+  url: https://doi.org/10.5281/zenodo.18187015
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: .na
+  public_summary: .na
+  topics: []
+publication:
+  published: no
+  featured: no

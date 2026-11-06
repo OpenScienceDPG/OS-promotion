@@ -1,0 +1,118 @@
+schema_version: 1.0
+id: doi-10-3390-bs15020107
+doi: 10.3390/bs15020107
+bibliography:
+  title: 'Development and Validation of a Rapid Tool to Measure Pragmatic Abilities:
+    The Brief Assessment of Pragmatic Abilities and Cognitive Substrates (APACS Brief)'
+  authors: Luca Bischetti; Federico Frau; Veronica Pucci; Giulia Agostoni; Chiara
+    Pompei; Veronica Mangiaterra; Chiara Barattieri di San Pietro; Biagio Scalingi;
+    Francesca Dall'Igna; Ninni Mangiaracina; Sara Lago; Sonia Montemurro; Sara Mondini;
+    Marta Bosia; Giorgio Arcara; Valentina Bambini
+  journal: Behavioral Sciences
+  volume: '15'
+  issue: '2'
+  pages: '107'
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Final article XML affiliations: Sara Mondini (2,6) is printed
+    at FI.S.P.P.A. Department, University of Padua, and IRCCS San Camillo Hospital.
+    Giorgio Arcara (6,7) is printed at IRCCS San Camillo Hospital and generic University
+    of Padua. No author has an explicit DPG affiliation. Confirm whether Arcara was
+    DPG at publication; inventory membership alone is insufficient.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC11851650
+  note: Final article read locally from cached Europe PMC XML on 2026-11-06. No PDF
+    processed and no supporting resource opened.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: 'Unresolved scope: open data declared with an actual OSF URL, but no
+    printed DPG affiliation. Mondini is at FISPPA; Arcara has only hospital and generic
+    University of Padua affiliations. Confirm DPG affiliation at publication before
+    inclusion. Data Availability also promises future test/software distribution whereas
+    Discussion says freely distributed; materials/tool claims remain unknown pending
+    clarification.'
+  review_mode: ordinary
+  next_step: Enrico to confirm or exclude DPG affiliation at publication for Giorgio
+    Arcara. If DPG confirmed, retain open_data declaration-based keep; clarify conflicting
+    test-distribution wording before adding materials/tool claims.
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 5)
+    eligible: ~
+    reason: DPG-affiliation-not-explicit-in-article
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.3390/bs15020107
+  preregistration: []
+  data: https://osf.io/cenx8/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: article_xml
+  location: Data Availability Statement
+  passage: The data generated and analyzed during the current study are available
+    in the OSF repository, https://osf.io/cenx8/ (accessed on 1 January 2025). Specific
+    study data and link declared without access conditions; declaration and link read,
+    resource not opened. Manual resource review pending.
+  url: https://osf.io/cenx8/
+  verification: unverified
+- claims: []
+  source: article_xml
+  location: Data Availability Statement; Discussion final paragraph; Methods 2.3 Statistical
+    Analysis
+  passage: Data Availability says the APACS Brief test will be distributed freely
+    under CC BY-NC-ND 4.0 and the NEPLab site will also host scoring software. Discussion
+    instead calls test, manual, scoring sheets and cut-offs freely distributed. Because
+    current versus future availability is inconsistent, no materials/tool badge assigned.
+    Methods says R 3.6.2 was used but no analysis code sharing is declared. OSF auhgm,
+    5xevt and dfcjg links in Results point to additional results/cut-offs, not declared
+    raw data or code.
+  url: https://www.neplab.it/apacs/
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    matched by DOI; 2026-11-06'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+    Read XML includes the CC BY 4.0 article licence.
+  url: https://doi.org/10.3390/bs15020107
+  verification: unverified
+curation:
+  status: pending
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: open_data
+  summary_review:
+    status: pending
+    note: Summary intentionally deferred at Enrico request.
+publication:
+  published: no
+  featured: no

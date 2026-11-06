@@ -1,0 +1,113 @@
+schema_version: 1.0
+id: doi-10-3390-ani15131936
+doi: 10.3390/ani15131936
+bibliography:
+  title: Visual Discrimination Task in Guppies Using a Simultaneous Matching-to-Sample
+    Procedure
+  authors: Gabriela Gjinaj; Marco Dadda; Maria Elena Miletto Petrazzini
+  journal: Animals
+  volume: '15'
+  issue: '13'
+  pages: '1936'
+  year: 2025
+dpg:
+  authors:
+  - Gabriela Gjinaj
+  - Marco Dadda
+  verified: yes
+  verification_source: 'Final article XML front matter, affiliation 1: Department
+    of General Psychology, University of Padova, for Gjinaj and Dadda. Miletto Petrazzini
+    is affiliated with Department of Biomedical Sciences, University of Padova (affiliation
+    2), not DPG.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12248816
+  note: Final article read locally from cached Europe PMC XML on 2026-11-06. No PDF
+    processed. No supporting resource URLs opened.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA alone. Raw data are available on request. No study preregistration,
+    Registered Report, shared analysis code, open study materials or separately reusable
+    protocol is declared. The GitHub-linked GetShapeArea plugin is an existing third-party
+    Adobe Illustrator tool, accessed in 2022, used to calculate stimulus areas; it
+    is not a reusable tool contributed by this paper. Ordinary methods and stimulus
+    illustrations alone are not treated as an explicit open-resource declaration.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 5)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.3390/ani15131936
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: article_xml
+  location: Data Availability Statement
+  passage: The raw data supporting the conclusions of this article will be made available
+    by the authors on request.
+  url: https://europepmc.org/articles/PMC12248816
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: Section 2.2, Experimental Apparatus and Stimuli
+  passage: The authors used the GetShapeArea plugin of Adobe Illustrator to calculate
+    stimulus areas; the printed URL is https://gist.github.com/bryanbuchanan/11387501,
+    accessed on 10 May 2022. This is an existing third-party tool used in the study,
+    not a tool developed and shared by this paper. Link read, resource not opened.
+  url: https://gist.github.com/bryanbuchanan/11387501
+  verification: unverified
+- claims: []
+  source: article_xml
+  location: Sections 2.2-2.4; Figures 1-3; back matter
+  passage: The article describes a new matching-to-sample experimental procedure,
+    stimulus specifications and R analyses, but supplies no explicit open-resource
+    declaration or supporting link for shared code, stimulus files or a separately
+    reusable protocol. No preregistration or Registered Report is declared.
+  url: https://europepmc.org/articles/PMC12248816
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by normalized
+    DOI; reviewed 2026-11-06
+  passage: Inventory classification gold qualifies for the OA badge. Final article
+    XML also prints the Creative Commons Attribution 4.0 licence.
+  url: https://doi.org/10.3390/ani15131936
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

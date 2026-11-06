@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1192-bjo-2025-10876
+doi: 10.1192/bjo.2025.10876
+bibliography:
+  title: Enhancing the quality of systematic reviews and meta-analyses
+  authors: Rebecca Strawbridge; Deepika Sharma; Steve Kisely; Ioana A. Cristea; Allan
+    H. Young; Kenneth R. Kaufman
+  journal: BJPsych Open
+  volume: '11'
+  issue: '6'
+  pages: e266
+  year: 2025
+dpg:
+  authors: Ioana A. Cristea
+  verified: yes
+  verification_source: 'Final Europe PMC XML front/article-meta: Cristea is assigned
+    affiliation a4, Department of General Psychology, University of Padua, Padua,
+    Italy. Collection date November 2025; publication 4 November 2025; volume 11 issue
+    6 e266.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12641421
+  note: Final published article read locally from cached Europe PMC XML on 2026-11-06.
+    No PDF processed and no supporting external resource opened.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: 'Needs review: the paper supplies a consensus-informed meta checklist
+    in Box 1, adapted from Kisely and Siskind, and explicitly presents the proposed
+    framework as a practical tool. Enrico should decide whether this embedded methodological
+    checklist is a concrete reusable_tool within showcase scope. No new data; no study
+    registration or shared study code/materials is declared. Preregistration and OSF
+    mentions are recommendations to future review authors. Do not treat possible checklist
+    eligibility as confirmed absence or count generic recommendations as this paper
+    practices.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 5)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1192/bjo.2025.10876
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: reusable_tool
+  source: article_xml
+  location: Abstract; Aims; Methods for developing our systematic review criteria;
+    Box 1, Steps to undertake a systematic review and meta-analysis (XML box1, table
+    d67e587)
+  passage: Authors propose a meta checklist, based on existing guidelines and tools,
+    refined through iterative written feedback and a consensus meeting. Aims calls
+    the framework a coherent and practical tool. Box 1 reproduces 19 actionable steps,
+    adapted from Kisely and Siskind, covering planning, independent screening/extraction,
+    bias appraisal, analysis and reporting. Checklist is directly contained in the
+    CC BY article. Its eligibility as a concrete reusable tool is unresolved; no positive
+    badge assigned.
+  url: https://doi.org/10.1192/bjo.2025.10876
+  verification: agent-verified
+- claims: open_data
+  source: article_xml
+  location: Data availability
+  passage: Data sharing is not applicable to this article as no new data were created
+    or analysed in the course of this study.
+  url: https://europepmc.org/articles/PMC12641421
+  verification: agent-verified
+- claims: []
+  source: article_xml
+  location: Introduction; Box 1; Registration/protocol discussion; Reporting; Further
+    considerations
+  passage: PROSPERO and OSF are recommended registries for systematic reviews, not
+    registrations of this article. Data/code transparency is discussed as good practice
+    and in cited research. No study-specific registration, dataset, code or external
+    open study materials is declared. No supporting external resources opened.
+  url: https://europepmc.org/articles/PMC12641421
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by normalized
+    DOI; assessed 2026-11-06
+  passage: Inventory classification gold qualifies for the OA badge. Final article
+    XML independently prints a CC BY 4.0 licence.
+  url: https://doi.org/10.1192/bjo.2025.10876
+  verification: unverified
+curation:
+  status: pending
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  article_resources:
+    reusable_tool: Box 1, Steps to undertake a systematic review and meta-analysis,
+      XML box1/table d67e587; full 19-step methodological checklist. Eligibility pending,
+      no resource badge assigned.
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: reusable_tool
+  summary_review:
+    status: pending
+    review_note: Summary deferred at Enrico's explicit request; placeholder only.
+publication:
+  published: no
+  featured: no

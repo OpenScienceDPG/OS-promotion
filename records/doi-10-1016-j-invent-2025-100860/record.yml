@@ -1,0 +1,146 @@
+schema_version: 1.0
+id: doi-10-1016-j-invent-2025-100860
+doi: 10.1016/j.invent.2025.100860
+bibliography:
+  title: 'Effectiveness of digital interventions for eight mental disorders: A meta-analytic
+    synthesis'
+  authors: Mathias Harrer; Clara Miguel; Lingyao Tong; Paula Kuper; Antonia A Sprenger;
+    Yuki Furukawa; Yingying Wang; Wouter van Ballegooijen; Marketa Ciharova; Olga
+    M Panagiotopoulou; Ioana Cristea; Jessica L Hamblen; Paula P Schnurr; Heleen Riper;
+    Marit Sijbrandij; Eirini Karyotaki; Annemieke van Straten; Toshi A Furukawa; Davide
+    Papola; Stefan Leucht; Pim Cuijpers
+  journal: Internet Interventions
+  volume: '41'
+  issue: .na.character
+  pages: '100860'
+  year: 2025.0
+dpg:
+  authors: Ioana Cristea
+  verified: yes
+  verification_source: 'Final article XML front/article-meta: Ioana Cristea is linked
+    to affiliation f, Department of General Psychology, University of Padova, Italy.
+    Final article collection date September 2025, volume 41, article 100860; published
+    online 11 July 2025.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://europepmc.org/articles/PMC12284662
+  note: Final published article read locally from cached Europe PMC XML on 2026-11-06.
+    No PDF processed; no supporting external resource links opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-xml-ordinary
+  algorithm_score: .na.real
+  algorithm_suggestion: .na.character
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: Methods explicitly declares
+    study protocol/SAP preregistered on OSF with a registration link and open data/materials
+    available on GitHub. No code inferred from analyses or repository location. External
+    resources unopened, Enrico review pending. Registration timing not printed; counted
+    from explicit preregistration wording. DPG and official citation year 2025 verified.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025.0
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: yes
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1016/j.invent.2025.100860
+  preregistration: https://osf.io/nf7dz
+  data: http://github.com/mathiasharrer/meta-dtx
+  code: []
+  materials: http://github.com/mathiasharrer/meta-dtx
+  protocol: []
+evidence:
+- claims: preregistration
+  source: article_xml
+  location: Materials and methods, Search strategy & selection criteria (XML s0015),
+    opening paragraph; Footnotes, Study Registration
+  passage: A protocol and statistical analysis plan (SAP) for this study was preregistered
+    using the Open Science Framework (OSF; osf.io/nf7dz). Exact declaration and link
+    read, but no registration date printed. Resource not opened; manual verification
+    pending.
+  url: https://osf.io/nf7dz
+  verification: unverified
+- claims:
+  - open_data
+  - open_materials
+  source: article_xml
+  location: Materials and methods, Search strategy & selection criteria (XML s0015),
+    opening paragraph; Footnotes, Open Materials
+  passage: Open data and materials were made available on Github (github.com/mathiasharrer/meta-dtx).
+    Paper explicitly identifies open study data and materials, without access conditions.
+    Declaration and supporting link read; external resource not opened, manual review
+    pending.
+  url: http://github.com/mathiasharrer/meta-dtx
+  verification: unverified
+- claims: []
+  source: article_xml
+  location: Materials and methods; Footnotes; Associated Data
+  passage: No explicit study analysis-code sharing declaration identified. GitHub
+    location and descriptions of statistical analyses do not establish open_code.
+    Metapsy is an existing infrastructure, and a new insomnia tool is only promised
+    for future release. Protocol/SAP is identified as preregistered but not separately
+    declared openly available; open_protocol left unknown.
+  url: https://europepmc.org/articles/PMC12284662
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Matched inventory DOI row classifies the article as gold, qualifying for
+    the OA badge. Article XML also prints CC BY licence.
+  url: https://doi.org/10.1016/j.invent.2025.100860
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati
+    raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: >-
+    Un programma online o un’app possono aiutare davvero chi soffre di un disturbo psicologico? Per
+    rispondere, gli autori hanno riunito in un’unica grande analisi 168 studi sperimentali, con
+    oltre 22.000 persone a cui era stato diagnosticato un disturbo: dalla depressione all’insonnia,
+    dall’ansia sociale al disturbo da stress post-traumatico, otto condizioni in tutto. Hanno
+    confrontato chi seguiva un percorso digitale, via internet o smartphone, con gruppi che non lo
+    ricevevano, distinguendo i programmi accompagnati da un professionista da quelli da seguire in
+    autonomia. I benefici sono risultati da moderati a grandi per tutti e otto i disturbi, con gli
+    effetti più ampi per le fobie specifiche e il disturbo di panico. Alcuni di questi programmi
+    sono ormai prescrivibili come vere e proprie terapie digitali. Una fotografia ampia e
+    aggiornata di quanto la psicologia digitale può offrire.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Europe PMC XML abstract: 168 studies, 22,144 patients with interview-confirmed diagnoses, eight disorders, digital interventions vs inactive controls, guided and unguided analysed separately.'
+    - 'Results: moderate effects for PTSD, depression, OCD; large for GAD, social anxiety, insomnia, panic, specific phobias (largest g = 1.18 phobias, 1.05 panic); 16 trials of prescribable digital therapeutics.'
+    - 'Introduction: digital interventions defined as web-based, mobile or smartphone-delivered.'
+    review_note: 'Scientific reread against abstract, Results and Discussion: pooled effects vs inactive controls described without causal overreach; robustness caveats (risk of bias, CAU) omitted per summary rules, not contradicted. Editorial reread: no statistics shown, terms explained.'
+publication:
+  published: no
+  featured: no

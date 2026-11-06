@@ -1,0 +1,125 @@
+schema_version: 1.0
+id: doi-10-1111-nyas-70194
+doi: 10.1111/nyas.70194
+bibliography:
+  title: Periodic and Aperiodic Electroencephalographic Rhythms During Vigilance Transitions
+    in Alzheimer's Disease Mild Cognitive Impairment
+  authors: Carpi M.; Henao Isaza V.; Noce G.; Salamone E.M.; Del Percio C.; Lopez
+    S.; Carducci F.; Lizio R.; De Bartolo M.; Jakhar D.; Afragola A.P.; Rossi C.;
+    Barjami L.; Soricelli A.; Salvatore M.; Giubilei F.; Güntekin B.; Yener G.; Massa
+    F.; Arnaldi D.; Famà F.; Pardini M.; Ferri R.; Lanuzza B.; Stocchi F.; Vacca L.;
+    Coletti C.; Marizzoni M.; Taylor J.P.; Hanoğlu L.; Yırıkoğulları H.; Frisoni G.B.;
+    Cuoco S.; Cappiello A.; Barone P.; Bonanni L.; D'Anselmo A.; Biundo R.; Cauzzo
+    S.; Fiorenzato E.; Antonini A.; D'Antonio F.; Bruno G.; Infarinato F.; Marziali
+    S.; De Pandis M.F.; Babiloni C.
+  journal: Annals of the New York Academy of Sciences
+  volume: '1555'
+  issue: '1'
+  pages: e70194
+  year: 2026.0
+dpg:
+  authors: Roberta Biundo
+  verified: yes
+  verification_source: Publisher article front matter, Roberta Biundo author affiliations
+    explicitly Department of General Psychology, University of Padua. Other Padua
+    authors printed at Neuroscience; publisher citation and history verify 2026, 1555(1):e70194,
+    version of record 27 January 2026.
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.70194
+  note: Publisher abstract and author affiliations read on 2026-11-06, not full article.
+    No PDF obtained; no university browser access available in this session and no
+    supporting resources opened.
+  iris_handle: 11577/3579446
+  access_attempts:
+  - date: '2026-11-06'
+    url: https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.70194
+    outcome: Redirected to abstract; Methods, Results and availability statement absent.
+  - date: '2026-11-06'
+    url: https://nyaspubs.onlinelibrary.wiley.com/doi/epdf/10.1111/nyas.70194
+    outcome: Redirected to abstract; no PDF obtained.
+  - date: '2026-11-06'
+    url: https://eprints.ncl.ac.uk/310361
+    outcome: Repository explicitly states full text not currently held.
+  - date: '2026-11-06'
+    url: https://iris.uniroma1.it/handle/11573/1759921
+    outcome: Final publisher PDF listed as restricted to archive managers; no download
+      attempted through restricted route.
+  - date: '2026-11-06'
+    url: https://research.unipd.it/handle/11577/3579446
+    outcome: Web connector returned 403; HTTP initially blocked by sandbox network,
+      then approved network escalation retrieved public metadata page. Page states
+      no attached files.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: 'Unresolved access: publisher provides abstract and affiliations but
+    full/epdf routes return abstract only. Newcastle holds no text, Rome final PDF
+    is restricted, Padova has no attached files. Identity, official 2026 citation
+    year and Biundo DPG affiliation verified, but substantive practices remain unknown
+    without full article. This is not a completed screening or rejection.'
+  review_mode: ordinary
+  next_step: Obtain full article through available institutional access or a supplied
+    lawful copy, then read its methods and availability statements. Do not retry the
+    same routes without new access or version evidence.
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 7, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026.0
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1111/nyas.70194
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Publisher author list and citation/publication history
+  passage: Roberta Biundo explicitly affiliated with DPG; final citation year 2026
+    and article number e70194. Full article body not accessible in the retrieved page.
+  url: https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.70194
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, normalized DOI match; assessed 2026-11-06
+  passage: One matching row classifies OA as green. This does not qualify for the
+    publisher-access badge.
+  url: https://doi.org/10.1111/nyas.70194
+  verification: unverified
+curation:
+  status: pending
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: []
+  summary_review:
+    status: pending
+    review_note: Summary intentionally deferred at Enrico request; no summary drafted.
+publication:
+  published: no
+  featured: no

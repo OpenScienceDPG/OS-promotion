@@ -1,0 +1,122 @@
+schema_version: 1.0
+id: doi-10-1109-tnsre-2025-3621769
+doi: 10.1109/tnsre.2025.3621769
+bibliography:
+  title: Impaired Functional Brain-Heart Interplay Sustains Depressive Symptomatology
+  authors: Vincenzo Catrambone; Francesca Mura; Elisabetta Patron; Claudio Gentili;
+    Gaetano Valenza
+  journal: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  volume: '33'
+  issue: ~
+  pages: 4315-4324
+  year: 2025
+dpg:
+  authors:
+  - Francesca Mura
+  - Elisabetta Patron
+  - Claudio Gentili
+  verified: yes
+  verification_source: Accepted article manuscript p.1 prints Mura, Patron and Gentili
+    with affiliation 2, Department of General Psychology, University of Padua. Actual
+    IEEE DOI printed in the page header. Official journal citation year 2025, volume
+    33, pages 4315-4324 confirmed by PubMed PMID 41091608 and institutional IRIS record
+    11577/3564589.
+source:
+  pdf_file: 10.1109_tnsre.2025.3621769.pdf
+  md5: 6ebb59a9a8d77de035817e800dcd7f84
+  article_url: https://research.unipd.it/retrieve/235409a7-5467-4817-b9a9-a663f214d721/Impaired_functional_brain-heart_interplay_sustains_depressive_symptomatology-1.pdf
+  note: Accepted author manuscript downloaded from the institutional repository and
+    read locally on 2026-11-06; header explicitly says accepted but not fully edited.
+    The shortlist cached PDF was instead a 2024 bioRxiv preprint with a different
+    title, DOI 10.1101/2024.03.14.585023. The article manuscript was obtained before
+    any final decision. No supporting resource opened. Processed by 01-screen.R and
+    02-finalize.R on 2026-11-06; inbox PDF deleted after record and ledger were written.
+    Supporting external resources not opened.
+  prior_versions:
+  - doi: 10.1101/2024.03.14.585023
+    md5: 411ed493871fbe61e81f4b86cce0dd57
+    version: bioRxiv preprint posted 18 March 2024; superseded for this screening
+      by the accepted IEEE article
+  bibliography_url: https://pubmed.ncbi.nlm.nih.gov/41091608/
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 10:19:14 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: data require reasonable request and ethical verification; the
+    sole GitHub resource is the co-authors pre-existing Brain-Heart-Interaction-Indexes
+    toolbox, not analysis/source code or a new tool contributed by this article. No
+    other substantive linked Open Science practice declared. Read the accepted IEEE
+    manuscript, replacing the unrelated DOI extraction from the earlier bioRxiv version.
+    Official citation 2025, volume 33, 4315-4324; Mura, Patron and Gentili DPG. OA
+    gold alone insufficient.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 6)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1109/tnsre.2025.3621769
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: Accepted IEEE manuscript p.3, II.A Dataset description
+  passage: Due to the informed consent forms signed by the subjects, data might be
+    made available upon reasonable request and verification of ethical aspects. This
+    is conditional access, not openly shared data.
+  url: https://research.unipd.it/retrieve/235409a7-5467-4817-b9a9-a663f214d721/Impaired_functional_brain-heart_interplay_sustains_depressive_symptomatology-1.pdf
+  verification: agent-verified
+- claims: []
+  source: pdf
+  location: Accepted IEEE manuscript p.4, II.D Brain-Heart Interplay Estimation and
+    footnote 1; reference 39
+  passage: The authors describe a freely available open-source MATLAB implementation
+    at the GitHub URL, referring back to the pre-existing SDG methodology and their
+    2021 book (reference 39). This is an existing analysis tool used by the article,
+    not a new resource or study-specific analysis script shared here. The supporting
+    resource was not opened. No study preregistration, openly distributed stimuli/protocol
+    or study-specific shared code declared elsewhere in the full article.
+  url: https://github.com/CatramboneVincenzo/Brain-Heart-Interaction-Indexes
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by normalized
+    article DOI; checked 2026-11-06
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+    Manuscript also prints a CC BY-NC-ND 4.0 licence; badge follows the inventory
+    classification.
+  url: https://doi.org/10.1109/tnsre.2025.3621769
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

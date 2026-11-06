@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuroimage-2026-121695
+doi: 10.1016/j.neuroimage.2026.121695
+bibliography:
+  title: 'Brain–heart interplay modulation during biofeedback: A new frontier in understanding
+    self-regulation'
+  authors: Francesca Mura; Vanessa Ruggiero; Vincenzo Catrambone; Elisabetta Patron
+  journal: NeuroImage
+  volume: '326'
+  issue: .na
+  pages: '121695'
+  year: 2026
+dpg:
+  authors:
+  - Francesca Mura
+  - Vanessa Ruggiero
+  - Elisabetta Patron
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation b: Department of General Psychology,
+    University of Padova (Mura, Ruggiero, Patron; Mura and Patron also Padova Neuroscience
+    Center); Catrambone Pisa. Online 5 Jan 2026; NeuroImage 326 (2026) 121695.'
+source:
+  pdf_file: 10.1016_j.neuroimage.2026.121695.pdf
+  pdf_path: .na.character
+  md5: 19b6e95afb1f3f8da1dee1bd8c778088
+  article_url: https://doi.org/10.1016/j.neuroimage.2026.121695
+  note: Final published PDF downloaded 2026-11-06 from the publisher or located via
+    OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:46:27 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: data only on request; GitHub Brain-Heart-Interaction-Indexes
+    is co-author Catrambone''s pre-existing toolbox (Catrambone et al. 2019), not
+    this paper''s code; no preregistration. Mura, Ruggiero, Patron DPG; NeuroImage
+    2026; gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 3, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: no
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.4 footnote 1 and p.7 Data and code availability
+  passage: Data can be shared upon request; GitHub Brain-Heart-Interaction-Indexes
+    is the pre-existing SDG toolbox of Catrambone et al. 2019, not this paper's code;
+    no preregistration mentioned.
+  url: .na
+  verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

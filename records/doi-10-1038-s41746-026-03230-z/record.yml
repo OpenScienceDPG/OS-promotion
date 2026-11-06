@@ -1,0 +1,105 @@
+schema_version: 1.0
+id: doi-10-1038-s41746-026-03230-z
+doi: 10.1038/s41746-026-03230-z
+bibliography:
+  title: 'DARE to wear: digital health promotion and disease prevention using wearable
+    devices'
+  authors: Ilaria D’Ascanio; Serena Moscato; Jose Albites-Sanabria; Maria Giulia Bacalini;
+    Marianna Bellafiore; Laura Belli; Lisa Berti; Mohammad Junayed Bhuyan; Elisa Cainelli;
+    Giacomo Cappon; Paolo Caravaggi; Antonella Carbonaro; Barbara Carretti; Nicola
+    Cellini; Stefano Cianfarani; Giorgio Davico; Luca Davoli; Paola Di Florio; Marco
+    Domenicali; Andrea Facchinetti; Giuseppina Mariagrazia Farella; Massimo Federici;
+    Gianluigi Ferrari; Luciano Gamberini; Loreto Gesualdo; Dario Gregori; Alberto
+    Leardini; Raffaele Lodi; Marcello Maggio; Irene Mammarella; Veronica Mattioli;
+    Walter Mazzucco; Sabato Mellone; Luca Menghini; Giovanna Mioni; Merylin Monaro;
+    Silvia Orlandi; Francesco Palmese; Pierpaolo Palumbo; Giovanni Piscopo; Paola
+    Pontrelli; Tiziana Pozzoli; Giulia Rogati; Marco Salvi; Marcello Sicbaldi; Alessandro
+    Silvani; Giovanni Sparacino; Garden Tabacchi; Enrico Toffalini; Luca Vedovelli;
+    Andrea Zangrossi; Luca Palmerini; Lorenzo Chiari
+  journal: npj Digital Medicine
+  volume: .na
+  issue: .na
+  pages: .na
+  year: 2026
+dpg:
+  authors:
+  - Elisa Cainelli
+  - Barbara Carretti
+  - Nicola Cellini
+  - Luciano Gamberini
+  - Luca Menghini
+  - Giovanna Mioni
+  - Merylin Monaro
+  - Enrico Toffalini
+  - Andrea Zangrossi
+  verified: yes
+  verification_source: 'Article in Press PDF p.17, affiliation 9: Department of General
+    Psychology, University of Padova (Cainelli, Carretti, Cellini, Gamberini, Menghini,
+    Mioni, Monaro, Toffalini, Zangrossi; full names in bibliography from Crossref).
+    Accepted 30 Aug 2026; 53 authors.'
+source:
+  pdf_file: 10.1038_s41746-026-03230-z.pdf
+  pdf_path: .na.character
+  md5: dc5a436d9386fe9f54420899d6ca1d08
+  article_url: https://doi.org/10.1038/s41746-026-03230-z
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 4
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: reject
+  final_note: 'Reject: no substantive Open Science practice of its own; overview of
+    DARE wearable protocols, data sharing not applicable; GitHub link is the third-party
+    Mobilise-D MobGap pipeline. Cainelli, Carretti, Cellini, Gamberini, Menghini,
+    Mioni, Monaro, Toffalini, Zangrossi DPG; npj Digit Med 2026 (article in press);
+    gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article: []
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF p.7, p.15, p.16 ref 34
+  passage: Data sharing not applicable (no datasets generated); GitHub MobGap is the
+    third-party Mobilise-D pipeline to be applied in future pilots; device raw data
+    on request from the manufacturer.
+  url: .na
+  verification: agent-verified
+curation:
+  status: needs-curation
+  why_open: .na.character
+  public_summary: .na.character
+  topics: []
+publication:
+  published: no
+  featured: no

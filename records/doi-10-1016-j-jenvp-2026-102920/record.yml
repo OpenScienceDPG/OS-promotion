@@ -1,0 +1,89 @@
+schema_version: 1.0
+id: doi-10-1016-j-jenvp-2026-102920
+doi: 10.1016/j.jenvp.2026.102920
+bibliography:
+  title: 'Beyond nature: Investigating the restorative properties of environments
+    through the comparison of historical, modern urban, and natural image exposures'
+  authors: Laura Miola; Nicola Cellini; Silvia Bellini; Francesca Pazzaglia
+  journal: Journal of Environmental Psychology
+  volume: '110'
+  issue: .na
+  pages: '102920'
+  year: 2026
+dpg:
+  authors:
+  - Laura Miola
+  - Nicola Cellini
+  - Silvia Bellini
+  - Francesca Pazzaglia
+  verified: yes
+  verification_source: 'Final PDF p.1: all four authors at Department of General Psychology,
+    University of Padova. Online 19 Jan 2026; J Environ Psychol 110 (2026) 102920.'
+source:
+  pdf_file: 10.1016_j.jenvp.2026.102920.pdf
+  pdf_path: .na
+  md5: 5835b7c1cdaad0d59c92d0987818b612
+  article_url: https://doi.org/10.1016/j.jenvp.2026.102920
+  note: Final published PDF located via OpenAlex (keyword shortlist cache), read locally
+    on 2026-11-06, deleted after recording.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: screen-2.0
+  algorithm_score: .na
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: .na
+  final_note: 'Needs review (wording): data availability statement in the final version
+    is future tense (''will be available'') on the Zenodo community inest_spoke4 and
+    dataset DOI 10.5281/zenodo.18280821; no other practice. Next step: Enrico decides
+    whether a printed dataset DOI with future wording qualifies (keep: open_data)
+    or is a promise (reject). All four authors DPG; J Environ Psychol 2026; hybrid
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 3, from inventory list-2026-11-04.xlsx)
+    eligible: .na
+    reason: data-statement-future-tense
+    citation_year: 2026
+human_override:
+  decision: .na
+  by: .na
+  at: .na
+  note: .na
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: .na
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: .na
+  reusable_tool: .na
+resources:
+  article:
+  - https://doi.org/10.1016/j.jenvp.2026.102920
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF p.10, Data availability
+  passage: 'Candidate evidence: data ''will be available'' on the Zenodo community
+    page and through a printed dataset DOI; no preregistration, code or open stimuli
+    declared. Resource not opened.'
+  url: https://doi.org/10.5281/zenodo.18280821
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: .na
+  public_summary: .na
+  topics: []
+publication:
+  published: no
+  featured: no

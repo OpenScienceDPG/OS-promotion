@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1016-j-physbeh-2026-115385
+doi: 10.1016/j.physbeh.2026.115385
+bibliography:
+  title: Arousal contribution on valence-driven affective modulations of time perception
+  authors: Luigi Micillo; Nicola Cellini; Jacopo Barbiero; Fiorella Del Popolo Cristaldi;
+    Erika Sampaolo; Luca Cecchetti; Giovanna Mioni
+  journal: Physiology & Behavior
+  volume: '315'
+  issue: .na
+  pages: '115385'
+  year: 2026
+dpg:
+  authors:
+  - Luigi Micillo
+  - Nicola Cellini
+  - Fiorella Del Popolo Cristaldi
+  - Giovanna Mioni
+  verified: yes
+  verification_source: 'Final PDF p.1, affiliation a: Department of General Psychology,
+    University of Padua (Micillo, Cellini, Del Popolo Cristaldi, Mioni). Online 22
+    May 2026; Physiol Behav 315 (2026) 115385.'
+source:
+  pdf_file: 10.1016_j.physbeh.2026.115385.pdf
+  pdf_path: .na.character
+  md5: ecec31d280eff29267a3f75ca854ee3a
+  article_url: https://doi.org/10.1016/j.physbeh.2026.115385
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 2
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data declared available on
+    OSF zhf3d (published view-only link); resource not opened, Enrico check pending.
+    Micillo, Cellini, Del Popolo Cristaldi, Mioni DPG; Physiol Behav 2026; hybrid
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: .na
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1016/j.physbeh.2026.115385
+  preregistration: []
+  data: https://osf.io/zhf3d/overview?view_only=3e605bd072a14067a9df4011fc18ec87
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: PDF p.14, Data availability
+  passage: Data declared available in the OSF repository (published view-only link).
+    Declaration and link read; resource not opened.
+  url: https://osf.io/zhf3d/overview?view_only=3e605bd072a14067a9df4011fc18ec87
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY-NC-ND 4.0 open
+    access licence printed in the read version.
+  url: https://doi.org/10.1016/j.physbeh.2026.115385
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: Vi è mai capitato che un pomeriggio tra amici voli via, mentre un'attesa
+    in coda sembra non finire mai? Le ricercatrici e i ricercatori hanno voluto capire
+    se le emozioni cambiano il nostro senso del tempo. In due esperimenti, 79 giovani
+    adulti hanno guardato scene di film allegre, tristi o neutre, proiettate in una
+    stanza che avvolge chi guarda con immagini e suoni. Intanto battevano il dito
+    a un ritmo spontaneo, premevano un tasto quando pensavano fosse passato un minuto
+    e poi stimavano quanto era durato il video; sensori registravano battito del cuore
+    e sudorazione della pelle. Dopo le scene emozionanti, allegre o tristi, il ritmo
+    del dito tendeva ad accelerare e la pelle restava più attivata; la stima del minuto
+    cambiava invece solo in alcune condizioni. Un passo importante per capire come
+    le emozioni modellano il tempo vissuto.
+  topics:
+  - percezione del tempo
+  - emozioni
+  - corpo
+  - film
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: two experiments (N = 41 and 38) with positive, negative and neutral
+      immersive clips; heart and skin recordings; three timing tasks.'
+    - 'PDF p.3: immersive CAVE room; 5-minute clips selected by online pilot.'
+    - 'PDF pp.1, 13: tapping accelerated after emotional videos regardless of valence,
+      skin conductance stayed activated; one-minute production effects only for specific
+      orders; retrospective judgements largely unaffected.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no

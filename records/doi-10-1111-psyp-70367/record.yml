@@ -1,0 +1,133 @@
+schema_version: 1.0
+id: doi-10-1111-psyp-70367
+doi: 10.1111/psyp.70367
+bibliography:
+  title: 'Affective Processing in Depression Risk: Insights From Event-Related Potentials'
+  authors: Carola Dell'Acqua; Claudio Imperatori; Valentina Mologni; Rita Bianca Ardito;
+    Letizia Soliman; Mauro Adenzato; Giuseppe Alessio Carbone; Aurelia Lo Presti;
+    Benedetto Farina; Simone Messerotti Benvenuti
+  journal: Psychophysiology
+  volume: '63'
+  issue: .na
+  pages: e70367
+  year: 2026
+dpg:
+  authors:
+  - Carola Dell'Acqua
+  - Valentina Mologni
+  - Letizia Soliman
+  - Simone Messerotti Benvenuti
+  verified: yes
+  verification_source: 'Final Wiley PDF (via Europe PMC) p.1, affiliation 1: Department
+    of General Psychology, University of Padua (Dell''Acqua, Mologni, Soliman, Messerotti
+    Benvenuti); others Rome European University, Turin. Psychophysiology 2026, 63:e70367.'
+source:
+  pdf_file: psyp.70367.pdf
+  pdf_path: .na.character
+  md5: 6f886434433ee32a7951590ce159378a
+  article_url: https://europepmc.org/articles/PMC13408224
+  note: Final published PDF downloaded 2026-11-06 from the publisher, Europe PMC or
+    located via OpenAlex (keyword shortlist), read locally, deleted after finalization.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-06 09:58:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  final_decision: keep
+  final_note: 'Keep (ordinary mode, declaration-based): data and analysis code declared
+    provided on OSF sybdu; resource not opened, Enrico check pending. Dell''Acqua,
+    Mologni, Soliman, Messerotti Benvenuti DPG; Psychophysiology 2026; hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist reports/candidati-keyword-2026-11-06.csv,
+      batch 4, from inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: .na.character
+  by: .na.character
+  at: .na.character
+  note: .na.character
+open_science:
+  preregistration: .na
+  registered_report: .na
+  open_data: yes
+  open_code: yes
+  open_materials: .na
+  open_protocol: .na
+  open_access: yes
+  reusable_tool: .na
+resources:
+  article: https://doi.org/10.1111/psyp.70367
+  preregistration: []
+  data: https://osf.io/sybdu/overview/
+  code: https://osf.io/sybdu/overview/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: PDF p.13, Data availability
+  passage: Data and analytical code declared provided in the OSF project; no access
+    conditions stated. Declaration and link read; resource not opened.
+  url: https://osf.io/sybdu/overview/
+  verification: unverified
+- claims:
+  - open_access
+  source: inventory
+  location: Inventory list-2026-11-04.xlsx, unpaywall OA type matched by DOI; licence
+    in the read version
+  passage: Unpaywall OA type hybrid in the 2026-11-04 inventory; CC BY open access
+    licence printed in the read version.
+  url: https://doi.org/10.1111/psyp.70367
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: 'Perché alcune persone sono più esposte di altre alla depressione,
+    anche quando oggi stanno bene? Le ricercatrici e i ricercatori hanno coinvolto
+    92 giovani adulti, in gran parte studenti universitari: alcuni avevano un genitore,
+    un fratello o una sorella che aveva sofferto di depressione, altri avevano lievi
+    sintomi depressivi, altri nessuna delle due condizioni. Con sensori appoggiati
+    sulla testa hanno registrato l''attività elettrica del cervello mentre un segnale
+    annunciava l''arrivo di un''immagine piacevole, neutra o spiacevole. Nei due gruppi
+    più vulnerabili, il cervello si preparava meno alle immagini emozionanti in arrivo
+    e, nei primissimi istanti, dedicava meno attenzione a quelle piacevoli, anche
+    se le persone le giudicavano come tutti gli altri. Secondo il gruppo di ricerca,
+    queste tracce sottili potrebbero diventare segnali preziosi per riconoscere presto
+    chi è più vulnerabile.'
+  topics:
+  - depressione
+  - emozioni
+  - cervello
+  - prevenzione
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'PDF p.1: three groups (23 family history, 39 subclinical symptoms, 30 controls);
+      cued affective pictures with EEG.'
+    - 'PDF pp.3-4: mainly University of Padua students; family history = first-degree
+      relative with depression.'
+    - 'PDF pp.1, 10, 13: both at-risk groups showed reduced anticipatory responses
+      and reduced early responses to pleasant pictures; ratings intact.'
+    review_note: Scientific claims checked against abstract, methods and results;
+      separate editorial pass for lay clarity, associative wording and no overstatement.
+publication:
+  published: no
+  featured: no
