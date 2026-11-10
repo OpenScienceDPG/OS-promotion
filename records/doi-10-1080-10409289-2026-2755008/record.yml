@@ -1,0 +1,86 @@
+schema_version: 1.0
+id: doi-10-1080-10409289-2026-2755008
+doi: 10.1080/10409289.2026.2755008
+bibliography:
+  title: 'The Early Number Knowledge Scale (ENKS): A Tool for Assessing Early Numeracy'
+  authors: Francesco Sella; Annamaria Porru; Rosanna Arpino; Monica Besuschio; Eleonora
+    Bonin; Andrea Carolina Carducci; Maria Lidia Mascia; Lucia Pacetta; Maria Pietronilla
+    Penna; Cristina Semeraro; Daniela Lucangeli
+  journal: Early Education and Development
+  volume: ~
+  issue: ~
+  pages: 1-32
+  year: 2026
+dpg:
+  authors: []
+  verified: yes
+  verification_source: 'Publisher HTML author block: Sella at Loughborough University;
+    Porru, Besuschio and Lucangeli at DPSS, University of Padova; Bonin, Carducci and
+    Pacetta at FISPPA; other authors outside Padova. No author printed at the Department
+    of General Psychology. Online first 4 November 2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/10409289.2026.2755008
+  note: Publisher version of record HTML read through the connected browser on 2026-11-06.
+    No PDF processed; no external supporting resources opened.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Out of scope: no author has a printed DPG affiliation at publication
+    (inventory names Sella, Porru, Lucangeli printed at Loughborough and DPSS). The
+    paper declares R code, data and study materials available on OSF (https://osf.io/wqxda),
+    which would qualify in ordinary mode, but this does not remedy the missing DPG affiliation.
+    Online first 2026, no volume yet.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 9, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-dpg-affiliation-at-publication
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/10409289.2026.2755008
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Author and affiliation block; Data availability and Data deposition statements
+  passage: No DPG affiliation printed. Data, R code and materials declared available
+    at an OSF link (not opened); scale planned for commercial publication, no instrument
+    download link. Practices recorded for reference only, not assessed for inclusion.
+  url: https://www.tandfonline.com/doi/full/10.1080/10409289.2026.2755008
+  verification: agent-verified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,102 @@
+schema_version: 1.0
+id: doi-10-1016-j-biopsycho-2026-109235
+doi: 10.1016/j.biopsycho.2026.109235
+bibliography:
+  title: 'Linking individual behavioral architecture to brain topological structure:
+    A combined network analysis approach'
+  authors: Arianna Menardi; Zeynep Gökçen Özer; Antonino Vallesi; Giorgia Cona; Umberto
+    Granziol
+  journal: Biological Psychology
+  volume: '205'
+  issue: ~
+  pages: '109235'
+  year: 2026
+dpg:
+  authors:
+  - Zeynep Gökçen Özer
+  - Giorgia Cona
+  - Umberto Granziol
+  verified: yes
+  verification_source: 'Final publisher PDF p.1, affiliation c: Department of General
+    Psychology, University of Padova (Cona also Padova Neuroscience Center). Menardi
+    and Vallesi (listed as DPG in the inventory) printed at Department of Neuroscience
+    and Padova Neuroscience Center. Biological Psychology 205 (2026) 109235, online
+    6 March 2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.research.unipd.it/retrieve/67c2a328-8102-4b33-8241-a3d4401439ab/1-s2.0-S0301051126000487-main.pdf
+  note: Final version of record read from Padova IRIS on 2026-11-06, with supplement
+    mmc1; ScienceDirect HTML Data availability section and links checked in the connected
+    browser the same day. PDF not processed by the repository scripts; no external
+    supporting resources opened.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Data availability states that links to codes and data
+    are provided, but neither the final PDF, the supplement nor the ScienceDirect HTML
+    prints any authors'' data or code link; a generic statement without supporting
+    link does not qualify. Data are the third-party Human Connectome Project release.
+    No preregistration, materials, protocol or tool. Enrico may overturn if the authors
+    supply the missing links. Three DPG authors; official citation year 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 8, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.biopsycho.2026.109235
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Data availability (final PDF back matter and ScienceDirect HTML); Methods
+    2.1; supplement mmc1
+  passage: Statement says the links to the codes and data used in the article are
+    provided, but no own data or code link is printed anywhere; the only links are
+    the third-party Human Connectome Project site and an unrelated statistics course
+    page. Generic statement without supporting link.
+  url: https://www.sciencedirect.com/science/article/pii/S0301051126000487
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as hybrid; final article prints CC BY.
+  url: https://doi.org/10.1016/j.biopsycho.2026.109235
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

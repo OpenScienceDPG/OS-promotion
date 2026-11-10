@@ -1,0 +1,108 @@
+schema_version: 1.0
+id: doi-10-1016-j-biopsycho-2026-109216
+doi: 10.1016/j.biopsycho.2026.109216
+bibliography:
+  title: Modulating implicit food-related tendencies via repetitive TMS of the intraparietal
+    sulcus. A proof-of-concept study for a novel therapeutic target in eating disorders
+  authors: Valentina Meregalli; Giorgia Cona; Giulia Brizzi; Umberto Granziol; Sofia
+    Gentili; Denys Guante Henriquez; David Antonio Grimaldi; Alessio A. Gugliotta; Margherita
+    Salvucci; Angela Favaro; Enrico Collantoni
+  journal: Biological Psychology
+  volume: '205'
+  issue: ~
+  pages: '109216'
+  year: 2026
+dpg:
+  authors:
+  - Giorgia Cona
+  - Umberto Granziol
+  verified: yes
+  verification_source: 'Publisher article author block: Cona and Granziol at Department
+    of General Psychology, University of Padua. Meregalli, Grimaldi, Favaro and Collantoni
+    (listed as DPG in the inventory) printed at Department of Neurosciences and/or Padua
+    Neuroscience Center. Biological Psychology 205 (March 2026) 109216, online 13 February
+    2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0301051126000293
+  iris_handle: 11577/3588022
+  note: Final publisher full text read on ScienceDirect through the connected browser
+    on 2026-11-06 (bot check not interacted with; page loaded). IRIS has no file; Europe
+    PMC has no full text. No external supporting resources opened.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Data availability says data will be made available
+    on request. No preregistration, code, materials or protocol statement; stimuli come
+    from a third-party database. The mobile approach-avoidance task app declared publicly
+    available on a University of Padova website was described in an earlier paper (Collantoni
+    et al. 2023) and is used here as an instrument, not a new reusable tool of this
+    paper. Borderline; Enrico may overturn. Two DPG authors; official citation year
+    2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 8, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.biopsycho.2026.109216
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: article_html
+  location: Data availability
+  passage: Data will be made available on request; no link.
+  url: https://www.sciencedirect.com/science/article/pii/S0301051126000293
+  verification: agent-verified
+- claims: []
+  source: article_html
+  location: Methods 2.3, Approach-avoidance task
+  passage: Mobile approach-avoidance task app, previously described in Collantoni et
+    al. (2023), declared publicly available on a University of Padova website (http://aatmobile.neuroscienze.unipd.it/,
+    not opened). Pre-existing instrument from an earlier paper, not counted as this
+    paper's reusable tool.
+  url: https://www.sciencedirect.com/science/article/pii/S0301051126000293
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as hybrid; publisher prints CC BY 4.0.
+  url: https://doi.org/10.1016/j.biopsycho.2026.109216
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

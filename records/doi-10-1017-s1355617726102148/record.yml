@@ -1,0 +1,128 @@
+schema_version: 1.0
+id: doi-10-1017-s1355617726102148
+doi: 10.1017/s1355617726102148
+bibliography:
+  title: 'The Stroop Color-Word Test - Short Form (SCWT-SF): Updated norms and validity in an Italian population sample'
+  authors: "Paolo Caffarra; Thomas Rasi; Edoardo Nicolò Aiello; Francesca Frisco; Giulia De Luca; Beatrice Curti; Arianna Moreschi; Aurora Corso; Teresa Difonzo; Lorenzo Lorusso; Anna Formenti; Antonio Tetto; Elisa Di Rosa; Barbara Poletti; Nadia Bolognini; Stefano Zago"
+  journal: "Journal of the International Neuropsychological Society"
+  volume: ~
+  issue: ~
+  pages: '1-9'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Di Rosa
+  verified: yes
+  verification_source: "Final publisher HTML (Cambridge Core, read 2026-11-10), author affiliations: Di Rosa at Department of General Psychology, University of Padua, and IRCCS San Camillo Hospital, Venice. Published online 2026-09-23, no volume."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://doi.org/10.1017/s1355617726102148
+  iris_handle: 11577/3617478
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    through the University of Padova network; PDF not downloaded. Supplementary material
+    not opened.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3617478
+    outcome: Padova IRIS metadata only, no public file.
+  - date: '2026-11-07'
+    url: https://doi.org/10.1017/s1355617726102148
+    outcome: Cambridge paywalled; browser extension not connected.
+  - date: '2026-11-10'
+    url: https://doi.org/10.1017/s1355617726102148
+    outcome: Full HTML readable through University of Padova institutional access in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, borderline: updated regression-based norms for the Italian Stroop short form, with a spreadsheet for automated computation of adjusted scores and equivalent scores stated to be provided in Supplementary Material 1 (supplement at the article DOI); counted as reusable_tool via curation.article_resources. Supplement not opened. Record form and stimuli only on request (open_materials false); data not public (request plus data transfer agreement). Di Rosa printed at DPG and San Camillo; online first 2026. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: no
+  open_protocol: ~
+  open_access: no
+  reusable_tool: yes
+resources:
+  article: https://doi.org/10.1017/s1355617726102148
+  preregistration: []
+  data: []
+  code: https://doi.org/10.1017/s1355617726102148
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - reusable_tool
+  source: article_html
+  location: Results, normative data (adjusted-score thresholds, Table 4); Supplementary material section
+  passage: A spreadsheet for the automated computation of adjusted scores and equivalent
+    scores is stated to be provided within Supplementary Material 1, available at the
+    article page. Statement read; supplement not opened, manual check pending.
+  url: https://doi.org/10.1017/s1355617726102148
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Supplementary materials paragraph; Data availability statement
+  passage: Record form and stimuli available upon request; datasets not public, available
+    on reasonable request subject to a data transfer agreement.
+  url: https://doi.org/10.1017/s1355617726102148
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1017/s1355617726102148
+  verification: unverified
+curation:
+  status: curated
+  why_open: Uno strumento che altri possono riutilizzare, come un programma o un test
+  public_summary: >-
+    Il test di Stroop è un classico della psicologia: si vedono nomi di colori stampati in
+    un altro colore, come la parola «rosso» scritta in verde, e bisogna dire il colore
+    dell'inchiostro senza farsi ingannare dalla parola. Una versione breve si usa spesso
+    in ambulatorio per valutare quanto sappiamo frenare le risposte automatiche, ma i valori
+    di riferimento italiani avevano più di vent'anni. Il gruppo di ricerca ha fatto svolgere
+    il test a 317 adulti sani tra i 40 e gli 89 anni, insieme ad altre prove di rapidità
+    e controllo mentale. Ne sono nate tabelle aggiornate che tengono conto di età,
+    istruzione e sesso, e nuove conferme che il test è legato alle capacità che dovrebbe
+    misurare. Agli specialisti viene offerto anche un foglio di calcolo che fa i conti in
+    automatico: uno strumento pratico per valutazioni più precise.
+  topics: []
+  article_resources:
+    code: 'Supplementary Material 1 of the article: spreadsheet for automated computation
+      of adjusted scores and equivalent scores (stated in Results, normative data).'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-11-10'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: Italian SCWT-SF norms over two decades old; 317 healthy adults aged 40-89 completed the SCWT-SF and processing-speed and executive tests.'
+    - 'Abstract Results: age and lower education worsened scores, female sex associated with faster colour naming; conditions associated with processing speed or inhibitory control, working memory and set-shifting.'
+    - 'Results: spreadsheet for automated computation of adjusted scores provided in Supplementary Material 1.'
+    review_note: 'Scientific reread: validity described as associations with related tests, sex effect limited to one condition so mentioned only as a correction factor. Editorial reread: test explained by example, no statistics.'
+publication:
+  published: no
+  featured: no

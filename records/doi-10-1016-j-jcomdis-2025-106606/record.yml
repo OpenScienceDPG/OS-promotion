@@ -1,0 +1,93 @@
+schema_version: 1.0
+id: doi-10-1016-j-jcomdis-2025-106606
+doi: 10.1016/j.jcomdis.2025.106606
+bibliography:
+  title: 'Insights into the multi-factorial nature of reading difficulties: exploring phonological, visual, and attentional challenges in children'
+  authors: "Martina Mancarella; Jan Wouters; Andrea Facoetti; Pol Ghesquière"
+  journal: "Journal of Communication Disorders"
+  volume: '119'
+  issue: ~
+  pages: '106606'
+  year: 2026
+dpg:
+  authors:
+  - Andrea Facoetti
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-10), author affiliations: Facoetti at Department of General Psychology, University of Padua; other authors KU Leuven. Volume 119 (2026); version of record 2025-12-05."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0021992425001133
+  iris_handle: 11577/3578018
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    (Enrico passed the ScienceDirect human check himself); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3578018
+    outcome: Padova IRIS submitted version under embargo until 2026-11-29.
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11383/2207156
+    outcome: Insubria IRIS publisher PDF restricted (request-item only).
+  - date: '2026-11-07'
+    url: https://doi.org/10.1016/j.jcomdis.2025.106606
+    outcome: ScienceDirect not retrieved by script (bot protection); browser extension not connected.
+  - date: '2026-11-10'
+    url: https://www.sciencedirect.com/science/article/pii/S0021992425001133
+    outcome: Full HTML read in the connected browser through University of Padova access after Enrico passed the human check.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: raw data will be made available by the authors upon reasonable request; no preregistration, public data/code/materials link or reusable tool declared. Facoetti printed at DPG; official citation year 2026, vol. 119. Inventory green OA, no badge."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jcomdis.2025.106606
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Data availability
+  passage: Raw data will be made available by the authors upon reasonable request;
+    no other availability statement or registration.
+  url: https://www.sciencedirect.com/science/article/pii/S0021992425001133
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as green.
+  url: https://doi.org/10.1016/j.jcomdis.2025.106606
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

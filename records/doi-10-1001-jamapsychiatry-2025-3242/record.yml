@@ -1,0 +1,102 @@
+schema_version: 1.0
+id: doi-10-1001-jamapsychiatry-2025-3242
+doi: 10.1001/jamapsychiatry.2025.3242
+bibliography:
+  title: Esketamine for Treatment-Resistant Depression
+  authors: Ioana A. Cristea; Martin Plöderl; Florian Naudet
+  journal: JAMA Psychiatry
+  volume: '83'
+  issue: '1'
+  pages: '103'
+  year: 2026
+dpg:
+  authors:
+  - Ioana A. Cristea
+  verified: yes
+  verification_source: 'Final publisher HTML (JAMA Network, read 2026-11-10): corresponding
+    author Cristea at Department of General Psychology, University of Padova. Comment
+    and Response item, JAMA Psychiatry 2026;83(1):103, published online 2025-11-05.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://doi.org/10.1001/jamapsychiatry.2025.3242
+  iris_handle: 11577/3582220
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    through the University of Padova network.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3582220
+    outcome: Padova IRIS metadata only, no attached file.
+  - date: '2026-11-07'
+    url: https://hal.science/hal-05802459
+    outcome: Unpaywall green copy (submitted version); HAL presented a bot check, not
+      bypassed.
+  - date: '2026-11-07'
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1001/jamapsychiatry.2025.3242
+    outcome: Not in Europe PMC full text; not open access.
+  - date: '2026-11-10'
+    url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2840629
+    outcome: Full HTML readable through University of Padova institutional access in
+      the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: letter to the editor (Comment and Response) on the design of
+    another group''s esketamine trial; no own study, data, code, materials, registration
+    or tool. Cristea printed at DPG; official citation year 2026, 83(1):103. Closed
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 11, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1001/jamapsychiatry.2025.3242
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Full letter (Comment and Response section)
+  passage: Letter to the editor on the lead-in design and functional unblinding of
+    another group's trial; no availability statement or own resources.
+  url: https://doi.org/10.1001/jamapsychiatry.2025.3242
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed (Unpaywall API green, HAL submitted
+    version); does not qualify for the OA badge.
+  url: https://doi.org/10.1001/jamapsychiatry.2025.3242
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

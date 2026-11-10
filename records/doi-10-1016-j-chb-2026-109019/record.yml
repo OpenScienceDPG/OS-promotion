@@ -97,6 +97,12 @@ evidence:
     printed in the author manuscript read.
   url: https://doi.org/10.1016/j.chb.2026.109019
   verification: unverified
+- claims: []
+  source: article_html
+  location: "Final publisher HTML (ScienceDirect), Method, read 2026-11-10"
+  passage: "Final version confirms the AsPredicted preregistration and the OSF 28avp data, materials and code statement read in the author manuscript; volume 182."
+  url: https://doi.org/10.1016/j.chb.2026.109019
+  verification: agent-verified
 curation:
   status: curated
   why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati

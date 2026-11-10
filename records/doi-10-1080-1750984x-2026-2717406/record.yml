@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1080-1750984x-2026-2717406
+doi: 10.1080/1750984x.2026.2717406
+bibliography:
+  title: 'Acute depression following sport-related concussion: a systematic review
+    and meta-analysis'
+  authors: Valentina Tomaselli; Fabio Masina; Marco Lunghi; Francesca Argirò; Veronica
+    Baioccato; Andrea Ermolao; Silvia Bressan; Alessandra Simonelli; Irene Leo
+  journal: International Review of Sport and Exercise Psychology
+  volume: ~
+  issue: ~
+  pages: ~
+  year: 2026
+dpg:
+  authors:
+  - Fabio Masina
+  verified: yes
+  verification_source: 'Publisher PDF title page: Masina linked to affiliation b,
+    Department of General Psychology, University of Padua. Tomaselli, Lunghi, Argirò,
+    Simonelli and Leo at DPSS; Baioccato and Ermolao at the University Hospital sports
+    medicine centre; Bressan at Women''s and Children''s Health. Published online 16
+    Aug 2026, no volume/issue yet.'
+source:
+  pdf_file: 10.1080_1750984x.2026.2717406.pdf
+  pdf_path: ~
+  md5: 023eec0f238c8b2b7b434b846c246769
+  article_url: https://www.research.unipd.it/handle/11577/3607798
+  iris_handle: 11577/3607798
+  note: Publisher version (CC BY) downloaded from Padova IRIS on 2026-11-07 and read
+    locally. Processed by 01-screen.R and 02-finalize.R on 2026-11-07; inbox PDF deleted
+    after record and ledger were written. Supporting external resources not opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 08:49:59 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based and borderline wording: Methods
+    supply the OSF link stated to contain all relevant scripts used in the study,
+    counted as open_code. Resource not opened; Enrico check pending. No preregistration
+    or data statement; search strategy, PRISMA checklist and quality table only in
+    supplement, not counted. Masina DPG; official citation year 2026, online first;
+    inventory hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 10, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/1750984X.2026.2717406
+  preregistration: []
+  data: []
+  code: https://osf.io/xs2zr/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_code
+  source: pdf
+  location: Methods, effect size computation (PDF page 8)
+  passage: Methods direct readers to the printed OSF link, stated to contain all relevant
+    scripts used in this study. Declaration and link read; resource not opened. Manual
+    check pending; wording does not say "publicly available" explicitly.
+  url: https://osf.io/xs2zr/
+  verification: unverified
+- claims: []
+  source: pdf
+  location: Methods; Results; Supplementary Materials references
+  passage: No preregistration or data availability statement; search strategy, PRISMA
+    checklist and quality table referred to the publisher supplement, not counted
+    as separately declared open materials or protocol.
+  url: https://www.research.unipd.it/handle/11577/3607798
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge;
+    article prints CC BY.
+  url: https://doi.org/10.1080/1750984X.2026.2717406
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Un colpo alla testa durante una partita può lasciare il segno anche sull'umore? Un gruppo
+    di ricercatori padovani ha raccolto e rianalizzato insieme dieci studi su atleti che avevano
+    appena subito una commozione cerebrale durante lo sport, confrontandoli con atleti sani o
+    con chi si era fatto male a muscoli e articolazioni. In tutto 645 persone, valutate entro
+    il primo mese dall'incidente. Gli atleti con commozione mostravano in media più sintomi
+    depressivi. La differenza però emergeva soprattutto nel confronto con gli atleti sani, non
+    con chi aveva un altro tipo di infortunio: secondo gli autori, il calo dell'umore sembra
+    legato più all'esperienza dell'infortunio in sé, con lo stop forzato dallo sport, che alla
+    botta alla testa in particolare. Un risultato prezioso per ricordare che, dopo un
+    infortunio, anche il benessere emotivo degli sportivi merita attenzione fin dai primi giorni.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-07'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: ten studies, total N = 645, concussed athletes vs healthy or musculoskeletal-injured controls, acute phase.'
+    - 'Methods: inclusion required depression assessment within 30 days of the concussion.'
+    - 'Results/Discussion: small-to-moderate pooled increase; effect stronger vs healthy controls, not vs musculoskeletal controls; authors suggest a general response to injury, citing withdrawal from sport.'
+    review_note: 'Scientific reread: associative wording, interpretation attributed to authors, no causal claim. Editorial reread: no statistics or jargon, one number, positive closing.'
+publication:
+  published: no
+  featured: no

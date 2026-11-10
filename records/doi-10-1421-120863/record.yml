@@ -1,0 +1,95 @@
+schema_version: 1.0
+id: doi-10-1421-120863
+doi: 10.1421/120863
+bibliography:
+  title: 'The study of attention in sport: The contribution of Carlo Umiltà'
+  authors: Umberto Castiello
+  journal: Giornale Italiano di Psicologia
+  volume: '53'
+  issue: '2'
+  pages: 375-381
+  year: 2026
+dpg:
+  authors:
+  - Umberto Castiello
+  verified: yes
+  verification_source: 'Final publisher PDF p. 381: correspondence address at Dipartimento
+    di Psicologia Generale, Università di Padova. Fascicolo 2, giugno 2026.'
+source:
+  pdf_file: 10.1421_120863.pdf
+  pdf_path: ~
+  md5: 6abc1b6582e4dd62d4118f1cf76e7baf
+  article_url: https://www.rivisteweb.it/doi/10.1421/120863
+  iris_handle: 11577/3615098
+  note: Final publisher PDF downloaded from Rivisteweb through the University of Padova
+    network on 2026-11-10 and read locally. Processed by 01-screen.R and 02-finalize.R;
+    inbox PDF deleted after record and ledger were written.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://www.rivisteweb.it/doi/10.1421/120863
+    outcome: Landing page and first-page preview only; PDF requires institutional
+      login (401 on a sibling article). Connected browser extension not available
+      this session.
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3615098
+    outcome: Padova IRIS metadata only, no attached file.
+  - date: '2026-11-07'
+    url: https://api.openalex.org/works/doi:10.1421/120863
+    outcome: Closed, no repository full text.
+  - date: '2026-11-10'
+    url: https://www.rivisteweb.it/doi/10.1421/120863
+    outcome: Full PDF downloaded under the University of Padova institutional licence.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-10 17:30:36 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: narrative review of Carlo Umiltà''s contribution to the study
+    of attention in sport (commemorative issue); no new data, preregistration, shared
+    data/code/materials or reusable tool. Castiello printed at DPG (correspondence).
+    Giornale italiano di psicologia 2026, issue 2. Full text obtained from Rivisteweb
+    through the University of Padova network on 2026-11-10.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 10, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: no
+  open_data: no
+  open_code: no
+  open_materials: no
+  open_protocol: no
+  open_access: no
+  reusable_tool: no
+resources:
+  article: https://www.rivisteweb.it/doi/10.1421/120863
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Full article (PDF pages 3-9)
+  passage: Narrative review of earlier experimental work on attention in athletes;
+    no new study, availability statement or registration.
+  url: https://www.rivisteweb.it/doi/10.1421/120863
+  verification: agent-verified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,96 @@
+schema_version: 1.0
+id: doi-10-1016-j-ijlp-2025-102164
+doi: 10.1016/j.ijlp.2025.102164
+bibliography:
+  title: 'Addressing insanity in paedophilic disorder: The need for a cognitive approach
+    for forensic assessment to correctly identify idiopathic, acquired and iatrogenic
+    forms'
+  authors: Alexa Schincariol; Liisa Camilla Gatto; Georgia Zara; Pietro Pietrini; Giuseppe
+    Sartori; Stefano Ferracuti; Cristina Scarpazza
+  journal: International Journal of Law and Psychiatry
+  volume: '104'
+  issue: ~
+  pages: '102164'
+  year: 2026
+dpg:
+  authors:
+  - Alexa Schincariol
+  - Giuseppe Sartori
+  - Cristina Scarpazza
+  verified: yes
+  verification_source: 'Publisher PDF p.1: Department of General Psychology, University
+    of Padova printed for Schincariol, Sartori and Scarpazza (corresponding author);
+    Gatto at Padova Neuroscience Center only. International Journal of Law and Psychiatry
+    104 (2026) 102164, online 21 November 2025.'
+source:
+  pdf_file: 10.1016_j.ijlp.2025.102164.pdf
+  pdf_path: ~
+  md5: 09f27a717fddf765eb870d3dd5ef6982
+  article_url: https://www.research.unipd.it/handle/11577/3583238
+  iris_handle: 11577/3583238
+  note: Publisher version (CC BY) downloaded from Padova IRIS on 2026-11-07 and read
+    locally. Processed by 01-screen.R and 02-finalize.R; inbox PDF deleted after record
+    and ledger were written.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 08:49:59 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Narrative/theoretical forensic paper; Data and Code
+    availability both N/A; no preregistration, materials or protocol resource. Proposed
+    forensic assessment steps are a conceptual framework, not a shared tool. Schincariol,
+    Sartori, Scarpazza DPG; official citation year 2026, vol. 104.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 10, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: no
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.ijlp.2025.102164
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: Code availability and Data availability (PDF page 9)
+  passage: Both statements read N/A; no registration, materials, protocol or tool
+    link. Numbered forensic assessment steps in the Discussion are a proposed framework,
+    not a shared resource.
+  url: https://www.research.unipd.it/handle/11577/3583238
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as hybrid; article prints CC BY.
+  url: https://doi.org/10.1016/j.ijlp.2025.102164
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,129 @@
+schema_version: 1.0
+id: doi-10-1177-00222194261417592
+doi: 10.1177/00222194261417592
+bibliography:
+  title: 'University Students With Specific Learning Disabilities: Do Soft Skills and Study-Related Factors Make a Difference to Their Academic Outcomes?'
+  authors: "Gerardo Pellegrino; Tommaso Feraco; Francesca De Vita; Maria Grazia Martino; Maria Cristina Matteucci; Lorena Montesano; Maria Chiara Passolunghi; Anna Maria Re; Barbara Sini; Carla Tinti; Antonella Valenti; Chiara Meneghetti; Barbara Carretti"
+  journal: "Journal of Learning Disabilities"
+  volume: '59'
+  issue: '6'
+  pages: '387-401'
+  year: 2026
+dpg:
+  authors:
+  - Gerardo Pellegrino
+  verified: yes
+  verification_source: "Final publisher HTML (Sage, read 2026-11-10), author notes: corresponding author Pellegrino at Department of General Psychology, University of Padova. Per-author affiliations of the other twelve authors not exposed in the HTML; Feraco, Meneghetti and Carretti not listed until printed DPG evidence is seen. Volume 59, Issue 6, first published online 2026-02-12."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/00222194261417592
+  iris_handle: 11577/3607781
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    through the University of Padova network; PDF not downloaded (scripted Sage download
+    returns 403). Supporting resources not opened.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3607781
+    outcome: Padova IRIS metadata only, no public file.
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11368/3126858
+    outcome: Trieste, Bologna (11585/1056790), Turin (2318/2125479) and Calabria (20.500.11770/396617) IRIS records show no public file.
+  - date: '2026-11-07'
+    url: https://doi.org/10.1177/00222194261417592
+    outcome: Sage paywalled; browser extension not connected.
+  - date: '2026-11-10'
+    url: https://journals.sagepub.com/doi/full/10.1177/00222194261417592
+    outcome: Full HTML readable through University of Padova institutional access in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Data Analysis section states that data and analysis code are available at OSF 69q84. Resource not opened; Enrico check pending. No preregistration or materials statement. Pellegrino printed at DPG (corresponding author); official citation year 2026, 59(6). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/00222194261417592
+  preregistration: []
+  data: https://osf.io/69q84/
+  code: https://osf.io/69q84/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: article_html
+  location: Method, Data Analysis (first paragraph)
+  passage: Data and analysis code are declared available at the linked OSF project.
+    Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/69q84/
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Method; end matter (Declaration of Conflicting Interests, Funding)
+  passage: No preregistration, materials or protocol statement.
+  url: https://journals.sagepub.com/doi/full/10.1177/00222194261417592
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1177/00222194261417592
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi
+  public_summary: >-
+    All'università, chi ha un disturbo specifico dell'apprendimento, come la dislessia,
+    deve spesso faticare più dei compagni per stare al passo. Ma conta solo il modo di
+    studiare, o anche abilità personali come organizzarsi, collaborare e gestire le
+    emozioni? Il gruppo di ricerca ha raccolto con un questionario online le risposte di
+    752 studenti universitari, 125 dei quali con una diagnosi di questo tipo, confrontando
+    fiducia nelle proprie capacità, strategie di studio, abilità personali, voti,
+    soddisfazione e senso di esaurimento. Gli studenti con disturbo si sentivano meno sicuri
+    nello studio, usavano meno strategie efficaci, si descrivevano meno organizzati e
+    avevano voti un po' più bassi. In entrambi i gruppi, però, il coinvolgimento negli studi
+    e la capacità di gestire le emozioni andavano di pari passo con più benessere. Per gli
+    autori, sostenere queste risorse può aiutare tutti gli studenti.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-10'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract/Sample: 752 university students, 125 with self-reported SLD diagnosis; online Qualtrics survey.'
+    - 'Results Table 5: students with SLD lower academic self-efficacy, SRL strategies, self-management and achievement.'
+    - 'Results Table 6: engagement associated with academic and life satisfaction and lower burnout; emotional resilience with life satisfaction and lower burnout; associations largely invariant across groups.'
+    review_note: 'Scientific reread: associative wording ("andavano di pari passo"), group comparison descriptive, recommendation attributed to authors. Editorial reread: SLD explained via dyslexia example, no statistics.'
+publication:
+  published: no
+  featured: no

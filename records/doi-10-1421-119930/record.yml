@@ -1,0 +1,143 @@
+schema_version: 1.0
+id: doi-10-1421-119930
+doi: 10.1421/119930
+bibliography:
+  title: 'Resilience and mental health among male prisoners in an Italian context:
+    A comparison study'
+  authors: Valentina Fietta; Annachiara Sarpato; Merylin Monaro; Giordano Bruno Padovan
+  journal: Giornale Italiano di Psicologia
+  volume: '53'
+  issue: '1'
+  pages: 267-296
+  year: 2026
+dpg:
+  authors:
+  - Valentina Fietta
+  verified: yes
+  verification_source: 'Final publisher PDF p. 296: correspondence address for Fietta
+    at Dipartimento di Psicologia Generale, Università degli Studi di Padova. Byline
+    prints only generic Università di Padova for all four authors, so co-authors are
+    not listed as DPG. Fascicolo 1, marzo 2026.'
+source:
+  pdf_file: 10.1421_119930.pdf
+  pdf_path: ~
+  md5: 1d879541a5918f964f92524cdc6ab3d2
+  article_url: https://www.rivisteweb.it/doi/10.1421/119930
+  iris_handle: 11577/3596541
+  note: Final publisher PDF downloaded from Rivisteweb through the University of Padova
+    network on 2026-11-10 and read locally. Processed by 01-screen.R and 02-finalize.R;
+    inbox PDF deleted after record and ledger were written.
+  access_attempts:
+  - date: '2026-11-06'
+    url: https://api.unpaywall.org/v2/10.1421/119930
+    outcome: 404, DOI not found (mEDRA DOI; doi.org and Crossref also unresolved).
+  - date: '2026-11-06'
+    url: https://www.rivisteweb.it/doi/10.1421/119930
+    outcome: Paywalled in plain HTTP and connected browser; no institution authenticated.
+      IDEM login not attempted (requires authentication).
+  - date: '2026-11-06'
+    url: https://hdl.handle.net/11577/3596541
+    outcome: Padova IRIS metadata only, no attached file.
+  - date: '2026-11-06'
+    url: https://openalex.org/W7162217188
+    outcome: Closed, no repository copy.
+  - date: '2026-11-10'
+    url: https://www.rivisteweb.it/doi/10.1421/119930
+    outcome: Full PDF downloaded under the University of Padova institutional licence.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: 2026-11-10 17:30:36 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode: the full Italian translation of the RMS-25 resilience
+    scale (instructions, legend and 25 items, Table 2) is printed in the article,
+    counted as open_materials following the appendix-items precedent (EAI-3). No data/code
+    statement or preregistration. Fietta printed at DPG (correspondence); co-authors
+    generic Università di Padova. Giornale italiano di psicologia 2026, issue 1. Full
+    text obtained from Rivisteweb through the University of Padova network on 2026-11-10.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 9, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1421/119930
+  preregistration: []
+  data: []
+  code: []
+  materials: https://doi.org/10.1421/119930
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: pdf
+  location: Results 3.1 and Table 2 (PDF page 14)
+  passage: The complete Italian adaptation of the RMS-25 (instructions, response legend
+    and all 25 items) is printed in the article itself. No separate availability statement.
+  url: https://doi.org/10.1421/119930
+  verification: agent-verified
+- claims: []
+  source: pdf
+  location: Method; end matter
+  passage: No preregistration, data or analysis-code availability statement.
+  url: https://www.rivisteweb.it/doi/10.1421/119930
+  verification: agent-verified
+- claims: []
+  source: publisher
+  location: Rivisteweb PDF licence page; inventory OA field empty; checked 2026-11-10
+  passage: Article supplied under a personal-use institutional licence; inventory has
+    no Unpaywall class. Not counted as Open Access.
+  url: https://www.rivisteweb.it/doi/10.1421/119930
+  verification: agent-verified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli
+  public_summary: >-
+    Come si resiste, psicologicamente, alla vita in carcere? Questa ricerca mette al centro
+    la resilienza, cioè la capacità di affrontare le difficoltà senza farsi travolgere. Gli
+    autori hanno tradotto in italiano un questionario di 25 frasi che la misura e lo hanno
+    proposto a 48 uomini: 24 detenuti della casa di reclusione Due Palazzi di Padova e 24
+    persone che frequentano lo stesso carcere per lavoro o volontariato, come agenti ed
+    educatori. La versione italiana si è dimostrata affidabile. I detenuti riferivano più
+    malessere psicologico, e tra loro chi si sentiva più resiliente mostrava meno segni di
+    depressione. Secondo gli autori la resilienza è una risorsa preziosa per la salute
+    mentale in carcere, e misurarla può aiutare a riconoscere per tempo chi ha più bisogno
+    di sostegno.
+  topics: []
+  article_resources:
+    materials: 'PDF p.14, Results 3.1 and Table 2: complete Italian adaptation of the
+      RMS-25 (instructions, response legend and 25 items) printed in the article itself.'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-10'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Method: 24 male detainees of the Due Palazzi prison (Padova) and 24 controls recruited among prison police, staff such as educators and volunteers; RMS-25 translated into Italian.'
+    - 'Results: Italian RMS-25 Cronbach alpha .82; detainees higher GHQ-12 distress; in detainees RMS-25 negatively correlated with depression (r = -.58).'
+    - 'Abstract/discussion: authors stress the importance of psychological support and early identification of those most at risk.'
+    review_note: 'Scientific reread: associative wording for the resilience-depression link, restricted to detainees as in the paper; recommendation attributed to authors. Editorial reread: no jargon or statistics.'
+publication:
+  published: no
+  featured: no

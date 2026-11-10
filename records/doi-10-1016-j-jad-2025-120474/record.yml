@@ -1,0 +1,97 @@
+schema_version: 1.0
+id: doi-10-1016-j-jad-2025-120474
+doi: 10.1016/j.jad.2025.120474
+bibliography:
+  title: 'Brain dynamics and depressive symptoms in young adults: Evidence from EEG'
+  authors: Elisa Cainelli; Giulia Stramucci; Luca Vedovelli; Sara Guglielmi; Maria
+    Devita; Elisabetta Patron
+  journal: Journal of Affective Disorders
+  volume: '393'
+  issue: ~
+  pages: '120474'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Cainelli
+  - Sara Guglielmi
+  - Maria Devita
+  - Elisabetta Patron
+  verified: yes
+  verification_source: 'Final publisher PDF p.1 (image-only, read via local OCR):
+    affiliation a Department of General Psychology, University of Padova; b University
+    of Siena; c Biostatistics unit, Department of Cardiac, Thoracic, Vascular and Public
+    Health Sciences, Padova. OCR superscripts partly illegible: Cainelli, Guglielmi,
+    Devita and Patron read as a, Stramucci b, Vedovelli c. Header Journal of Affective
+    Disorders 393 (2026) 120474, available online 14 October 2025.'
+source:
+  pdf_file: 10.1016_j.jad.2025.120474.pdf
+  pdf_path: ~
+  md5: b95f6e3fb4a47885a4e0f311f0c25846
+  article_url: https://www.research.unipd.it/handle/11577/3567018
+  iris_handle: 11577/3567018
+  note: Publisher version downloaded from Padova IRIS on 2026-11-07; PDF has no text
+    layer and was read locally via tesseract OCR. Processed by 01-screen.R (DOI not
+    extracted, corrected in decisions) and 02-finalize.R; inbox PDF deleted after
+    record and ledger were written.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 13:32:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Final publisher PDF (image-only, read via local OCR)
+    prints no data availability, preregistration, code, materials or protocol statement;
+    supplement holds additional results. DPG authors per affiliation a; official citation
+    year 2026, vol. 393; inventory hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 11, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jad.2025.120474
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Methods; Results; end matter (CRediT, competing interests, acknowledgments,
+    supplementary data)
+  passage: No data availability section, registration, code, materials, protocol or
+    tool statement or resource link found in the OCR text; supplementary data hold
+    additional results only.
+  url: https://www.research.unipd.it/handle/11577/3567018
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.jad.2025.120474
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

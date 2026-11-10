@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-1016-j-cognition-2026-106633
+doi: 10.1016/j.cognition.2026.106633
+bibliography:
+  title: Evidence for abstract spatial concept learning in young animals
+  authors: Orsola Rosa-Salva; Rosa Rugani; Arianna Felisatti; Lucia Regolin
+  journal: Cognition
+  volume: '275'
+  issue: ~
+  pages: '106633'
+  year: 2026
+dpg:
+  authors:
+  - Rosa Rugani
+  - Arianna Felisatti
+  - Lucia Regolin
+  verified: yes
+  verification_source: 'Final publisher PDF title page, affiliation b: Department
+    of General Psychology, University of Padova, Italy (Rugani corresponding, Via Venezia
+    8). Rosa-Salva printed at CIMeC, University of Trento. Header Cognition 275 (2026)
+    106633, available online 30 June 2026. Inventory omits Felisatti.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.research.unipd.it/handle/11577/3602218
+  iris_handle: 11577/3602218
+  note: Final publisher version of record read from Padova IRIS on 2026-11-06 (ScienceDirect
+    showed a bot check, not bypassed). PDF not processed by the repository scripts;
+    no external supporting resources opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: the article states three
+    times that the data are publicly available and prints an OSF view-only link; the
+    Data availability statement points to it. Resource not opened; Enrico check pending.
+    No preregistration, code, materials, protocol or tool declared. Three DPG authors;
+    official citation year 2026; inventory hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 8, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.cognition.2026.106633
+  preregistration: []
+  data: https://osf.io/cjgdx/overview?view_only=eecf8d173fe74bbb893178c8702a50ac
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: End of Results of Experiment 1 (2.2) and Experiment 2 (3.2), after General
+    Discussion; Data availability statement
+  passage: Data are publicly available at the printed OSF view-only link; Data availability
+    refers to the link in the main text. Specific study data declared public without
+    access conditions. Declaration and link read; resource not opened, manual check
+    pending. Link is line-wrapped in the PDF and was reconstructed identically at three
+    places.
+  url: https://osf.io/cjgdx/overview?view_only=eecf8d173fe74bbb893178c8702a50ac
+  verification: unverified
+- claims: []
+  source: pdf
+  location: Methods, Results, Supplementary material, back matter
+  passage: No preregistration, analysis-code, protocol or tool statement. Stimulus
+    parameter tables in the supplement are not declared as shared study materials.
+  url: https://www.research.unipd.it/handle/11577/3602218
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+    Final article prints CC BY licence.
+  url: https://doi.org/10.1016/j.cognition.2026.106633
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Per riconoscere una croce «sopra» un disco non importa quanto in alto siano o di che colore:
+    conta solo come sono disposti tra loro. Ma un pulcino di pochi giorni coglie questa
+    differenza? Le ricercatrici hanno insegnato a pulcini di pollo domestico a cercare una larva,
+    il loro cibo preferito, dietro un cartoncino con la croce sopra il disco, oppure il contrario.
+    Poi hanno variato i disegni: figure più vicine o più lontane, disegni spostati in alto o in
+    basso, perfino una forma nuova di un altro colore al posto della croce. I pulcini sceglievano
+    ancora la disposizione giusta, in genere tra 14 e 17 volte su 20, mentre con il solo disco
+    andavano a caso. Per le autrici è un segno che, nei primi giorni di vita, un pulcino afferra
+    già un concetto astratto come «sopra» e «sotto».
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Methods: day-old domestic chicks trained to find a mealworm behind the board with cross above or below the disk (half of chicks each).'
+    - 'Experiments 1-3: novel spacing, novel absolute heights, new element of different shape and colour; disk-only control at chance.'
+    - 'Results: mean correct choices about 13.8-17.1 out of 20 in successful tests; authors interpret as abstract spatial concept learning in young animals.'
+    review_note: 'Scientific reread: animals, generalization tests, chance-level control and authors'' interpretation match the paper; range rounds reported means. Editorial reread: hook is illustrative, no jargon or statistics.'
+publication:
+  published: no
+  featured: no

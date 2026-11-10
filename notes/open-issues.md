@@ -14,6 +14,56 @@ already hold.
 
 ## Open
 
+### 2026-11-10 access recovery (university network + connected browser)
+
+- 2026-11-10 `doi-10-1177-09388982261452122` (Feraco et al., LDRP 2026, SEB skills and SLD): `ready` with preregistration, data, code and materials (OSF BJ4E5, registration 8CWJ6). No registration date printed and data come from an existing MUR school project: confirm prospective timing.
+- 2026-11-10 `doi-10-1016-j-jad-2026-122148` (Dell'Acqua et al., EMA suicide risk): `ready` with preregistration, data and code (OSF t3uvw); no registration date printed, confirm timing. OA badge assigned from the publisher page (Open access, Creative Commons) and Unpaywall hybrid, although the inventory says closed.
+- 2026-11-10 `doi-10-1017-s1355617726102148` (Stroop short-form norms, Di Rosa DPG): borderline `ready` as reusable_tool only, for the scoring spreadsheet stated to be in Supplementary Material 1 (article resource; supplement not opened). Record form, stimuli and data on request. Reject if updated norms plus a supplement spreadsheet should not qualify.
+- 2026-11-10 `doi-10-1421-119930` (Fietta et al., GIP 2026, resilience in prison): `ready` with open_materials only, for the complete Italian RMS-25 printed in Table 2 (same appendix-items convention as EAI-3, `doi-10-1007-s12144-026-09136-z`). Confirm or reject together with that precedent.
+- 2026-11-10 `doi-10-1421-120866` (Ruffo, Aleotti, Priftis, SNARC): `ready` with open_materials; the OSF view-only link is line-wrapped in the PDF and was reconstructed. Confirm the token during the resource check. Only Priftis printed at DPG (correspondence address); co-authors generic Università di Padova.
+- 2026-11-10 `doi-10-1177-00222194261417592` (Pellegrino et al., JLD 2026): `ready` with data/code (OSF 69q84). Sage HTML exposes only the corresponding author's affiliation, so only Pellegrino is listed as DPG; add Feraco, Meneghetti, Carretti if the PDF prints them at DPG.
+- 2026-11-10 `doi-10-1111-lcrp-70074` (Preti et al., Melis and Sartori DPG): `ready` with open_data (Zenodo DOI). Inventory closed vs Unpaywall bronze; Wiley showed only institutional access, so no OA badge. Online first, no volume yet.
+- 2026-11-10 `doi-10-1016-j-jad-2026-122176` (Filippi, Mancinelli): scope reject, both printed only at DPSS (inventory lists them at DPG). Override only with publication-time DPG evidence.
+- 2026-11-10 session: Sage, Wiley, Cambridge, JAMA read as HTML in the connected browser; Rivisteweb PDFs downloaded by script from the university network (GARR); ScienceDirect required a human check, which Enrico passed in the browser. `data/` rebuilt and validated; `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-07 batch 12 (shortlist priority 4)
+
+- 2026-11-07 `doi-10-1016-j-lindif-2026-102988` (Pellegrino et al., SEB skills and engagement): `ready` with open_data/open_code (OSF hrws7, "available on OSF"). T1/T3 data reused from two earlier papers by the team; resource check pending.
+- 2026-11-07 batch 12: the remaining shortlist is all priority 4-5 (no open full text); with the browser connected and the university network available (2026-11-10) these can now be read. `data/` rebuilt and validated; `docs/` not rendered and stale.
+
+### 2026-11-07 batch 11 (shortlist priority 4)
+
+- 2026-11-07 `doi-10-1016-j-jad-2026-121539` (LPP meta-analysis, Dell'Acqua et al.): `ready` with data/code/materials (OSF y946c, "provided in" wording). Stated "entirely preregistered" in PROSPERO CRD420251023748 but no registry URL: preregistration left null, pending your decision on identifier-only registrations (same question as `doi-10-1121-10-0046098` and `doi-10-1186-s12877-025-06472-w`).
+- 2026-11-07 `doi-10-1016-j-jad-2025-120474`: IRIS publisher PDF is image-only; read via local OCR (tesseract), superscripts partly illegible, so the DPG author list (Cainelli, Guglielmi, Devita, Patron) is approximate. Rejected as OA only.
+- 2026-11-07 batch 11: connected Chrome extension not available; scripted ScienceDirect PDF download refused by the permission classifier (bot protection), so Elsevier articles without an IRIS file stay unresolved. `data/` rebuilt and validated; `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-07 batch 10 (shortlist priority 4)
+
+- 2026-11-07 `doi-10-1080-1750984x-2026-2717406` (concussion meta-analysis, Masina DPG): `ready` with open_code only; Methods point to an OSF link "containing all relevant scripts" without explicit "publicly available" wording. Confirm during the resource check (compare `doi-10-1002-pmh-70056`, left null). Online first, no volume/issue; recheck when assigned.
+- 2026-11-07 `doi-10-1016-j-ijlp-2025-102164`: rejected as OA only; the numbered forensic assessment steps were not counted as a reusable tool/protocol. Enrico may overturn.
+- 2026-11-07 `inbox/10.1121_10.0046098.pdf` (already `needs-review`, batch 5) was left out of `decisions.csv` so the finalizer did not delete it; still retained pending Enrico's decision.
+- 2026-11-07 batch 10: connected Chrome extension not available; `data/` rebuilt and validated; `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-06 batch 9 (shortlist priority 4)
+
+- 2026-11-06 `doi-10-1177-21676968251390953` (ASA-27, Emerging Adulthood 2026): `needs-review`; raw data and R scripts stated to be in the Supplemental Materials of a closed article, without explicit public wording. Decide whether this qualifies (then keep with open_data/open_code and write summary) or reject. The screener requested the supplement once (403, contents not read); no further attempt.
+- 2026-11-06 `doi-10-3390-forensicsci6020047`: `ready`; open_materials rests on the full item pool printed in Appendix Table A1, without a separate availability statement (EAI-3 precedent). Confirm. Bobbio printed at FISPPA; Polver DPG missing from inventory. Minor internal inconsistency in Study 1 sample size (349 vs 355).
+- 2026-11-06 `doi-10-1177-08902070261467477` (Living SEB): `ready`; preregistration is a GitHub Pages document, not a time-stamped registry; confirm prospective timing. Protocol left unknown to avoid double counting; app URL recorded only in evidence (no tool resource field). Inventory closed vs Unpaywall green: no OA badge.
+- 2026-11-06 `doi-10-1080-10409289-2026-2755008` (ENKS): scope reject; no author printed at DPG (inventory Sella, Porru, Lucangeli at Loughborough/DPSS). Open data/code/materials declared on OSF. Override only with publication-time DPG evidence.
+- 2026-11-06 `doi-10-1080-0163853x-2026-2692885`: `ready`; volume/issue/pages from Crossref (read PDF is online first). Materials left unknown (landmark qualities in appendix, no shared descriptions declared).
+- 2026-11-06 `doi-10-1016-j-exger-2026-113123`: rejected; of eight inventory DPG names only Devita is printed at DPG.
+- 2026-11-06 batch 9: `data/` rebuilt and validated; `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-06 batch 8 (shortlist priority 4: 2026 without open full text)
+
+- 2026-11-06 `doi-10-1016-j-chbr-2026-101183`: `ready`, open_materials based solely on stimulus lists and placement grids in the article's own Supplementary Materials (article DOI link), following the `doi-10-1016-j-jenvp-2025-102734` precedent. Confirm the interpretation and check the supplement; data on request.
+- 2026-11-06 `doi-10-1016-j-cognition-2026-106633`: `ready`; OSF view-only link is line-wrapped in the PDF and was reconstructed. Confirm the exact token during the resource check.
+- 2026-11-06 `doi-10-1016-j-cortex-2026-02-002`: `ready`; two OSF links printed (plain project link and view-only data link), both recorded. Resource check pending.
+- 2026-11-06 `doi-10-1016-j-biopsycho-2026-109216`: rejected; the public mobile approach-avoidance task app (University of Padova site) is from Collantoni et al. 2023 and was not counted as a reusable tool of this paper. Enrico may overturn.
+- 2026-11-06 `doi-10-1016-j-biopsycho-2026-109235`: rejected; Data availability says links to code and data are provided, but none is printed in final PDF, supplement or ScienceDirect HTML. Override if the authors supply the links.
+- 2026-11-06 batch 8 inventory inconsistencies: DPG names wrong or incomplete for 109216 (Neurosciences authors), 109235 (Menardi, Vallesi not DPG; Özer missing), 101043 (Navarin at Mathematics), 101183 (Puccio, Franceschini missing), 106633 (Felisatti missing). Records use printed affiliations. Unpaywall labels IRIS final PDFs as submittedVersion for 101043 and 101183.
+- 2026-11-06 batch 8: `data/` rebuilt and validated; `docs/` not rendered and stale until the next `render.bat`. Visual check deferred.
+
 ### 2026-11-06 summaries pass
 
 - 2026-11-06 `doi-10-1177-10731911261469521`: public summary written from the final abstract plus the earlier record reading of the author manuscript; ResearchGate and Sage returned 403 this session, so the manuscript was not reread. Check the summary against the full text when convenient.
@@ -27,9 +77,7 @@ already hold.
 - 2026-11-06 `doi-10-1126-sciadv-adu4098`: scope reject; Arcara printed only at San Camillo and other authors at institutions outside DPG. Override only with publication-time DPG evidence. Data/code links preserved privately, with public-access wording left unknown; no resource checked.
 - 2026-11-06 `doi-10-1038-s41598-025-96784-z`: `ready` for data/materials; preregistration left unknown because the statement mentions a first experiment while the article describes one, and provides no specific registration link. Enrico to clarify registration identity and check declared resources.
 - 2026-11-06 `doi-10-1177-25152459261445951`: rejected; earlier Music Ensemble practices not attributed to this commentary. Its own additional analysis supplies a bare OSF link without a specific open-resource declaration. Enrico may overturn this judgement. Grassi printed at DPG, Talamini at Innsbruck.
-- 2026-11-06 `doi-10-1111-nyas-70194`: `needs-review`; no full article obtained from publisher or repositories. Biundo DPG and official 2026 citation verified; practices remain unknown. Obtain a lawful full copy or new institutional access before retrying documented failed routes.
 - 2026-11-06 `doi-10-1177-10731911261469521`: `ready` despite closed OA classification. Final publisher declarations support data/code/materials; separate preregistration link read in the author manuscript. No registration date printed; confirm timing and final-version registration wording during Enrico resource review. OnlineFirst 2026, no volume/issue; recheck when assigned.
-- 2026-11-06 batch 7: connected browser host unavailable, with no browsers exposed; university browser access could not be used. Full-text access remains unresolved for `doi-10-1111-nyas-70194`; use another lawful copy or restore access for a later reassessment.
 
 ### 2026-11-06 batch 6
 
@@ -144,10 +192,6 @@ already hold.
 - `doi-10-3389-fpsyg-2026-1769309` (Freuli et al. 2026, Noventa only DPG):
   simulation paper; "datasets generated" on GitHub counted as open_data;
   code not explicitly declared, open_code left null.
-- `doi-10-1111-2041-210x-70411` (Simonetti et al., Methods Ecol Evol 2026):
-  read from the Europe PMC funder author manuscript (Wiley final PDF blocked
-  to scripted download); data and code on Zenodo. Check the final version's
-  data statement if convenient.
 - `doi-10-3389-fpsyg-2026-1813559` (Costa et al. 2026): analysis scripts
   "deposited at" OSF 9d4ca, with data declared available there; counted as
   open_code. Clepsydra stimuli not declared shared.
@@ -169,9 +213,8 @@ already hold.
   `doi-10-1016-j-tele-2025-102262`); data on request. Reject if appendix
   items alone should not qualify.
 - 2026-11-06 `doi-10-1016-j-chb-2026-109019` (Loconte et al., CHB 2026,
-  Monaro DPG): read from the accepted author manuscript (no journal metadata
-  printed; volume/article from Crossref and inventory); AsPredicted timing not
-  printed, counted as preregistration. Check the final version if convenient.
+  Monaro DPG): AsPredicted timing not printed, counted as preregistration
+  (final version checked 2026-11-10, see Resolved).
 - 2026-11-06 `doi-10-3390-brainsci16090899` (Marson and Cona, Brain Sci 2026):
   read as Europe PMC XML (MDPI PDF not scriptable); code and stimulus list in
   the publisher supplement counted as open_code/open_materials; data withheld
@@ -196,9 +239,6 @@ already hold.
   2026, Betti DPG): read only in the UNIGE submitted (pre-review)
   manuscript; OSF data/code/materials statement to confirm in the final
   version. Online first, no volume yet.
-- 2026-11-06 `doi-10-1016-j-sleep-2026-108858` (Baldassarri et al., Sleep Med
-  2026): OA badge from inventory "hybrid", but the PDF read prints only an
-  Elsevier copyright line, no CC licence. Recheck Unpaywall.
 - 2026-11-06 `doi-10-1038-s41597-026-06654-0` (Talamini et al., Sci Data
   2026, Music Ensemble): data, code, materials counted; preregistration not
   counted here (it belongs to the companion Registered Report
@@ -270,6 +310,9 @@ already hold.
   `grep -l "status: pending" records/*/record.yml`).
 
 ## Resolved
+
+- 2026-11-10 access recovery: full texts read through the University of Padova network/browser for 16 records previously blocked or judged from preliminary versions. Former `needs-review` now keep: `doi-10-1177-00222194261417592`, `doi-10-1177-09388982261452122`, `doi-10-1111-lcrp-70074`, `doi-10-1017-s1355617726102148`, `doi-10-1016-j-jad-2026-122148`, `doi-10-1421-120866`, `doi-10-1421-119930` (flags in Open above). Former `needs-review` now reject: `doi-10-1177-09388982261422712` (data on request), `doi-10-1016-j-jcomdis-2025-106606` (data on request), `doi-10-1016-j-jad-2026-122176` (no DPG author), `doi-10-1001-jamapsychiatry-2025-3242` (letter to the editor), `doi-10-1111-nyas-70194` (no resources declared), `doi-10-1421-120863` (narrative tribute). Earlier rejects confirmed on the final version: `doi-10-1421-120881`, `doi-10-1016-j-jad-2026-121397`, `doi-10-1016-j-dr-2026-101263`. Records and ledger updated; validation passed.
+- 2026-11-10 final-version checks: `doi-10-1111-2041-210x-70411` (Zenodo data/code statement confirmed in the Wiley version), `doi-10-1016-j-chb-2026-109019` (AsPredicted and OSF 28avp statements confirmed, vol. 182), `doi-10-1016-j-sleep-2026-108858` (publisher page Open access under Creative Commons: hybrid OA badge confirmed). Evidence added to the records.
 
 - 2026-11-06 summaries pass: public summaries written and reviewed for the ten deferred `ready` records of batches 5-7 (`doi-10-1016-j-bpsgos-2025-100626`, `doi-10-1016-j-invent-2025-100860`, `doi-10-1038-s41598-025-96784-z`, `doi-10-1080-13506285-2026-2711392`, `doi-10-1136-bmjopen-2025-111686`, `doi-10-1136-bmjoq-2024-003131`, `doi-10-1177-10731911261469521`, `doi-10-1186-s12916-025-04435-x`, `doi-10-2196-73896`, `doi-10-3758-s13428-025-02908-8`); summary_review updated, validation passed.
 

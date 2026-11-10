@@ -1,0 +1,95 @@
+schema_version: 1.0
+id: doi-10-1016-j-chbr-2026-101043
+doi: 10.1016/j.chbr.2026.101043
+bibliography:
+  title: 'Identifying critical areas for safer mental health chatbot interactions:
+    a eDelphi study on high-risk content monitoring'
+  authors: Marco Bolpagni; Valentina Fietta; Nicolò Navarin; Merylin Monaro; Silvia
+    Gabrielli
+  journal: Computers in Human Behavior Reports
+  volume: '22'
+  issue: ~
+  pages: '101043'
+  year: 2026
+dpg:
+  authors:
+  - Marco Bolpagni
+  - Valentina Fietta
+  - Merylin Monaro
+  verified: yes
+  verification_source: 'Final publisher PDF p.1, affiliation a: Department of General
+    Psychology, University of Padova (Bolpagni and Fietta also Fondazione Bruno Kessler).
+    Navarin (listed as DPG in the inventory) printed at Department of Mathematics, University
+    of Padova. Computers in Human Behavior Reports 22 (2026) 101043, online 2 April
+    2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.research.unipd.it/handle/11577/3615904
+  iris_handle: 11577/3615904
+  note: Final publisher typeset version read from Padova IRIS on 2026-11-06 (Unpaywall
+    labels the copy submittedVersion). PDF not processed by the repository scripts.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Data availability says data will be made available
+    on request. No preregistration, code, materials, protocol or tool declared; appendix
+    supplementary tables report results, not shared study materials. Three DPG authors;
+    official citation year 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 8, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.chbr.2026.101043
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: open_data
+  source: pdf
+  location: Data availability
+  passage: Data will be made available on request; no link.
+  url: https://www.research.unipd.it/handle/11577/3615904
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as gold; final article prints CC BY-NC-ND.
+  url: https://doi.org/10.1016/j.chbr.2026.101043
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

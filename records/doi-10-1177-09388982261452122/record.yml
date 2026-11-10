@@ -1,0 +1,135 @@
+schema_version: 1.0
+id: doi-10-1177-09388982261452122
+doi: 10.1177/09388982261452122
+bibliography:
+  title: 'Social, Emotional, and Behavioral Skills of Students With Specific Learning Disabilities: A Replication, Extension, and Synthesis of Existing Research'
+  authors: "Tommaso Feraco; Gerardo Pellegrino; Roberta Bonelli; Lorenza Da Re; Barbara Carretti; Chiara Meneghetti"
+  journal: "Learning Disabilities Research & Practice"
+  volume: '41'
+  issue: '4'
+  pages: '237-248'
+  year: 2026
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Gerardo Pellegrino
+  - Barbara Carretti
+  - Chiara Meneghetti
+  verified: yes
+  verification_source: "Final publisher HTML (Sage, read 2026-11-10), authors and affiliations panel: Feraco, Pellegrino, Carretti and Meneghetti at Department of General Psychology, University of Padova; Bonelli and Da Re at FISPPA, University of Padova. Volume 41, Issue 4."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/09388982261452122
+  iris_handle: 11577/3612799
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    through the University of Padova network; PDF not downloaded. Supporting resources
+    not opened.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3612799
+    outcome: Padova IRIS file with restricted access (accesso riservato).
+  - date: '2026-11-07'
+    url: https://doi.org/10.1177/09388982261452122
+    outcome: Sage paywalled; browser extension not connected.
+  - date: '2026-11-10'
+    url: https://journals.sagepub.com/doi/full/10.1177/09388982261452122
+    outcome: Full HTML readable through University of Padova institutional access in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: all data, analysis code and research materials declared available on OSF BJ4E5; design, analysis and hypotheses declared preregistered (OSF 8CWJ6), with a preregistered power analysis. No registration date printed and data came from an existing large school project, so prospective timing is flagged for Enrico. Resources not opened. Four DPG authors; official citation year 2026, 41(4). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/09388982261452122
+  preregistration: https://doi.org/10.17605/OSF.IO/8CWJ6
+  data: https://doi.org/10.17605/OSF.IO/BJ4E5
+  code: https://doi.org/10.17605/OSF.IO/BJ4E5
+  materials: https://doi.org/10.17605/OSF.IO/BJ4E5
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: article_html
+  location: Method, transparency paragraph
+  passage: All data, analysis code and research materials are declared available on
+    the linked OSF project. Declaration and link read; resource not opened, manual
+    check pending.
+  url: https://doi.org/10.17605/OSF.IO/BJ4E5
+  verification: unverified
+- claims:
+  - preregistration
+  source: article_html
+  location: Method, transparency paragraph; Participants (preregistered power analysis)
+  passage: The study's design, analysis and hypotheses are declared preregistered at
+    the linked OSF registration; no registration date printed. Registration not opened.
+  url: https://doi.org/10.17605/OSF.IO/8CWJ6
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1177/09388982261452122
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli
+  public_summary: >-
+    Chi ha un disturbo specifico dell'apprendimento, come la dislessia, a scuola fatica con
+    lettura, scrittura o calcolo. Ma come se la cava con le abilità di tutti i giorni, come
+    organizzarsi, collaborare o fare amicizia? Il gruppo di ricerca ha analizzato le risposte
+    di oltre cinquemila studenti delle superiori, 243 dei quali con una diagnosi di questo
+    tipo, raccolte in un ampio progetto tra università e scuole. Gli
+    studenti con disturbo si descrivevano in media meno capaci di organizzarsi, di proporre
+    idee nuove, di stare in mezzo agli altri e di cooperare. Gli autori hanno poi unito
+    questi risultati a quelli di studi precedenti, ottenendo un quadro più solido. Inoltre,
+    per questi ragazzi le capacità di organizzazione sembravano tradursi meno in voti
+    migliori. Un lavoro accurato che rende più affidabili le conoscenze su
+    un tema che riguarda molte famiglie.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-10'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 5,075 high school students, 243 with SLD; SLD lower self-management, innovation, social engagement and cooperation.'
+    - 'Abstract: findings meta-analysed with previous data; descriptive analyses suggested SEB skills, especially self-management, may translate less strongly into grades in the SLD group.'
+    - 'Method: data collected within a large university-school collaboration (MUR DM 934/2022) on soft skills, self-regulated learning and future educational choices.'
+    review_note: 'Scientific reread: self-reported differences described as self-descriptions; grade link hedged as in the paper; replication framed as a contribution. Editorial reread: no statistics, one number.'
+publication:
+  published: no
+  featured: no

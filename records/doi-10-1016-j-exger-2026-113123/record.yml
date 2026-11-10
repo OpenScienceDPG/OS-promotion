@@ -1,0 +1,96 @@
+schema_version: 1.0
+id: doi-10-1016-j-exger-2026-113123
+doi: 10.1016/j.exger.2026.113123
+bibliography:
+  title: 'Blood neurodegeneration biomarkers and the muscle–brain axis in older adults:
+    physical performance as a functional mediator of cognition'
+  authors: Chiara Ceolin; Marianna Noale; Giulia Musso; Silvia Sturani; Adele Ravelli;
+    Cristina Simonato; Luca Busetto; Angelo Antonini; Eleonora Fiorenzato; Martina
+    Montagnana; Alessandra Coin; Maria Devita; Giuseppe Sergi; Marina De Rui; on behalf
+    of the OPA working group
+  journal: Experimental Gerontology
+  volume: '218'
+  issue: ~
+  pages: '113123'
+  year: 2026
+dpg:
+  authors:
+  - Maria Devita
+  verified: yes
+  verification_source: 'Final publisher PDF p.1: Devita printed at Geriatric Unit,
+    University Hospital of Padua and Department of General Psychology (DPG), University
+    of Padua. Other inventory names printed at DIMED, Neuroscience or hospital units.
+    Experimental Gerontology 218 (June 2026) 113123, online 1 April 2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.research.unipd.it/handle/11577/3589286
+  iris_handle: 11577/3589286
+  note: Final publisher PDF read from Padova IRIS on 2026-11-06 (Unpaywall labels it
+    submittedVersion). PDF not processed by the repository scripts.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Data will be made available on request; trial registration
+    not applicable; no code, materials, protocol or tool statement; supplementary tables
+    report results. Devita printed at DPG; official citation year 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 9, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.exger.2026.113123
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - preregistration
+  source: pdf
+  location: Abstract (Trial registration); Data availability (p. 8)
+  passage: Trial registration not applicable; data will be made available on request,
+    no link.
+  url: https://www.research.unipd.it/handle/11577/3589286
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as gold; final article prints CC BY.
+  url: https://doi.org/10.1016/j.exger.2026.113123
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

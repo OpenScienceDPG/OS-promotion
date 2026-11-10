@@ -1,0 +1,131 @@
+schema_version: 1.0
+id: doi-10-3390-forensicsci6020047
+doi: 10.3390/forensicsci6020047
+bibliography:
+  title: Preliminary Construction and Validation of the Stalking Assessment Questionnaire
+    (SAQ) in a Sample of Male University Students
+  authors: Silvia Polver; Andrea Bobbio; Alessandro Angrilli
+  journal: Forensic Sciences
+  volume: '6'
+  issue: '2'
+  pages: '47'
+  year: 2026
+dpg:
+  authors:
+  - Silvia Polver
+  - Alessandro Angrilli
+  verified: yes
+  verification_source: 'Publisher HTML header, affiliation 1: Department of General
+    Psychology, University of Padova (Polver also INSERM UMR 1105, Amiens). Bobbio
+    (listed as DPG in the inventory) printed at FISPPA. Forensic Sciences 6(2):47,
+    published 27 May 2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.mdpi.com/2673-6756/6/2/47
+  iris_handle: 11577/3598339
+  note: Final published HTML read through the connected browser on 2026-11-06 (plain
+    HTTP returned 403). No PDF processed; no external supporting resources opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, borderline: the new Stalking Assessment Questionnaire
+    is printed in full in Appendix A, Table A1 of the CC BY article (all 64 items with
+    fillers, deletion markers and loadings; response scale in Section 3.1), counted
+    as open_materials as an in-article resource following the EAI-3 and tele-2025-102262
+    precedents, without a separate availability statement. Data only on qualified request.
+    Polver and Angrilli DPG; official citation year 2026; inventory gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 9, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.3390/forensicsci6020047
+  preregistration: []
+  data: []
+  code: []
+  materials:
+  - https://doi.org/10.3390/forensicsci6020047
+  protocol: []
+evidence:
+- claims: open_materials
+  source: article_html
+  location: Appendix A, Table A1; Sections 3.1-4.1.3
+  passage: Table A1 prints the full wording of all 64 questionnaire items (55 items
+    plus 9 fillers) with domain tags, deletion markers and factor loadings; the response
+    scale is given in Section 3.1. Instrument printed in the open-licence article itself.
+  url: https://doi.org/10.3390/forensicsci6020047
+  verification: unverified
+- claims: open_data
+  source: article_html
+  location: Data Availability Statement
+  passage: Datasets not readily available because of ongoing studies; access upon qualified
+    request to the corresponding author.
+  url: https://www.mdpi.com/2673-6756/6/2/47
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge; article
+    prints CC BY.
+  url: https://doi.org/10.3390/forensicsci6020047
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: >-
+    Quando l'insistenza smette di essere romantica e diventa qualcosa di preoccupante? Per lo
+    stalking, cioè le attenzioni ripetute e indesiderate che spaventano chi le subisce, mancavano
+    strumenti capaci di cogliere i primi segnali prima che si arrivi al reato. I ricercatori hanno
+    costruito un nuovo questionario: cinque psicologi hanno scritto le prime 55 frasi, un gruppo di
+    studenti le ha rese più chiare e poi oltre 700 universitari maschi, in due gruppi, hanno
+    indicato quanto si riconoscevano in ciascuna. Ne sono rimaste 15, raggruppate in due tendenze:
+    l'insistenza e la gelosia esagerata. I punteggi più alti andavano di pari passo con la paura di
+    essere abbandonati, il rimuginare sulle relazioni e gli atteggiamenti sessisti. Il risultato è
+    un questionario breve e rapido da compilare, che secondo gli autori può aiutare la ricerca e i
+    percorsi educativi rivolti ai giovani.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  article_resources:
+    materials: 'Appendix A, Table A1 (HTML full text): full wording of all 64 SAQ items
+      (55 + 9 fillers) with domain tags, deletion markers and loadings, printed in the
+      article itself; response scale in Section 3.1.'
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract and Section 3: five psychologists wrote 55 items; pilot with students for clarity; Study 1 (349) and Study 2 (380) male university students.'
+    - 'Sections 4.1.3 and 4.2.5: 15 items retained on two correlated factors, Insistence and Exaggerated Jealousy, confirmed in Study 2.'
+    - 'Abstract and Table 1: higher scores associated with anxious attachment, relational rumination and sexism; authors suggest use in research and psycho-educational interventions.'
+    review_note: 'Scientific reread: associative wording, human male students, applications attributed to authors. Editorial reread: stalking defined in plain words, no acronyms or statistics.'
+publication:
+  published: no
+  featured: no

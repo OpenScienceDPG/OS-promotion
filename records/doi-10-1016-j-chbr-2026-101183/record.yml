@@ -1,0 +1,139 @@
+schema_version: 1.0
+id: doi-10-1016-j-chbr-2026-101183
+doi: 10.1016/j.chbr.2026.101183
+bibliography:
+  title: Brief digital and traditional gameplay transiently reallocate attentional
+    resources in preschool children
+  authors: Giovanna Puccio; Sandro Franceschini; Simona Carbone; Chiara Filotto; Simone
+    Gori; Telmo Pievani; Viviana Trezza; Sara Mascheretti; Andrea Facoetti; Sara Bertoni
+  journal: Computers in Human Behavior Reports
+  volume: '23'
+  issue: ~
+  pages: '101183'
+  year: 2026
+dpg:
+  authors:
+  - Giovanna Puccio
+  - Sandro Franceschini
+  - Simona Carbone
+  - Chiara Filotto
+  - Andrea Facoetti
+  - Sara Bertoni
+  verified: yes
+  verification_source: 'Final publisher PDF p.1, affiliation a: University of Padova,
+    Department of General Psychology, Developmental Cognitive Neuroscience Lab (Facoetti
+    and Bertoni corresponding; Bertoni also Bergamo). Gori, Pievani (Padova Biology),
+    Trezza and Mascheretti not DPG. Header Computers in Human Behavior Reports 23 (2026)
+    101183, online 24 June 2026. Inventory omits Puccio and Franceschini.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.research.unipd.it/handle/11577/3616478
+  iris_handle: 11577/3616478
+  note: Final publisher typeset version read from Padova IRIS on 2026-11-06 (Unpaywall
+    labels the copy submittedVersion; ScienceDirect showed a bot check, not bypassed).
+    PDF not processed by the repository scripts; supplement not opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based and borderline: Methods and
+    Appendix A explicitly state that the full stimulus lists (including newly created
+    pseudoword lists) and visual-search placement grids are available in the open-access
+    article Supplementary Materials (Figs. S1-S9), linked at the article DOI. Counted
+    as open_materials following the jenvp-2025-102734 precedent; supplement not opened,
+    Enrico check pending. Data only on request; no preregistration or code. Six DPG
+    authors; official citation year 2026; inventory gold OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 8, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.chbr.2026.101183
+  preregistration: []
+  data: []
+  code: []
+  materials:
+  - https://doi.org/10.1016/j.chbr.2026.101183
+  protocol: []
+evidence:
+- claims: open_materials
+  source: pdf
+  location: Methods 2.2.1.1-2.2.1.2 (pp. 3-4); Appendix A, Supplementary data (p. 8)
+  passage: Full pseudoword lists, including two new lists created by the authors, and
+    the visual-search sheets with placement grids declared available in the article
+    Supplementary Materials (Figs. S1-S9), which Appendix A links at the article DOI.
+    Declaration read; supplement not opened, manual check pending.
+  url: https://doi.org/10.1016/j.chbr.2026.101183
+  verification: unverified
+- claims: open_data
+  source: pdf
+  location: Data availability (p. 8)
+  passage: Datasets available upon request from the corresponding authors; no link.
+  url: https://www.research.unipd.it/handle/11577/3616478
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge. Final
+    article prints CC BY-NC-ND licence.
+  url: https://doi.org/10.1016/j.chbr.2026.101183
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: >-
+    Mezz'ora di gioco può cambiare il modo in cui un bambino presta attenzione? I ricercatori
+    hanno incontrato 48 bambini dell'ultimo anno della scuola dell'infanzia tre volte, a una
+    settimana di distanza: senza giocare, dopo mezz'ora di Mario Kart, il videogioco di corse, e
+    dopo mezz'ora di Tangram, il rompicapo di forme colorate. Ogni volta ascoltavano parole
+    inventate, cercavano animali disegnati su un foglio e lanciavano un sacchetto su un tappeto.
+    Dopo entrambi i giochi distinguevano meglio i suoni e trovavano più in fretta gli animali
+    isolati, ma faticavano di più quando erano nascosti tra molti altri e facevano meno centri.
+    Videogioco e rompicapo hanno avuto effetti simili. Secondo gli autori, il gioco coinvolgente
+    orienta per un po' l'attenzione verso ciò che colpisce subito: un tassello utile per inserire
+    il gioco, digitale e non, nella giornata dei più piccoli.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  article_resources:
+    materials: Methods 2.2.1.1-2.2.1.2 and Appendix A, Supplementary Materials (Figs.
+      S1-S9) of the article itself, holding pseudoword lists and visual-search placement
+      grids; no separate resource URL is printed.
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Methods: 48 children in the last kindergarten year, three sessions one week apart: no play, 30 min Mario Kart, 30 min Tangram.'
+    - 'Measures: same/different pseudoword pairs, visual search for animals with 0-34 distractors, beanbag aiming.'
+    - 'Results/Discussion: after both games better phonemic discrimination and isolated-target search, worse crowded search and aiming; no difference between games; authors interpret as transient shift toward stimulus-driven attention.'
+    review_note: 'Scientific reread: effects described relative to no-play session, game types equivalent, interpretation attributed to authors. Editorial reread: no jargon or statistics, concrete tasks, positive closing without invented applications.'
+publication:
+  published: no
+  featured: no

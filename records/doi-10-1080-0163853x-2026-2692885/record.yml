@@ -1,0 +1,137 @@
+schema_version: 1.0
+id: doi-10-1080-0163853x-2026-2692885
+doi: 10.1080/0163853x.2026.2692885
+bibliography:
+  title: 'Mental representation derived from path descriptions: can natural-based
+    landmarks make a difference?'
+  authors: Chiara Meneghetti; Veronica Muffato; Laura Miola; Francesca Pazzaglia
+  journal: Discourse Processes
+  volume: '63'
+  issue: 6-7
+  pages: 637-655
+  year: 2026
+dpg:
+  authors:
+  - Chiara Meneghetti
+  - Veronica Muffato
+  - Laura Miola
+  - Francesca Pazzaglia
+  verified: yes
+  verification_source: 'Publisher online-first PDF title page: all four authors at
+    Department of General Psychology, University of Padova, and CIRPA, Sapienza University.
+    Published online 9 July 2026; Crossref gives 63(6-7):637-655, 2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.research.unipd.it/handle/11577/3608758
+  iris_handle: 11577/3608758
+  note: Publisher version of record (online first) read from Padova IRIS on 2026-11-06;
+    volume/issue/pages from Crossref. PDF not processed by the repository scripts;
+    no external supporting resources opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: Open practices statement explicitly
+    declares the study preregistered on OSF (DOI link) and data available on Figshare
+    (DOI link); abstract and analyses refer to the preregistration and flag additions
+    beyond it. Resources not opened; Enrico check pending. Materials left unknown. All
+    four authors DPG; official citation year 2026; inventory hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 9, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/0163853X.2026.2692885
+  preregistration: https://doi.org/10.17605/OSF.IO/G5BUX
+  data: https://doi.org/10.6084/m9.figshare.30024868.v1
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: preregistration
+  source: pdf
+  location: Open practices statement (p. 16); Abstract; Analysis section
+  passage: The study was preregistered in OSF, with the printed registration DOI;
+    abstract calls it a preregistered study and analyses distinguish preregistered
+    from added hypotheses/models. Declaration and link read; registration not opened,
+    manual check of timing pending.
+  url: https://doi.org/10.17605/OSF.IO/G5BUX
+  verification: unverified
+- claims: open_data
+  source: pdf
+  location: Open practices statement (p. 16)
+  passage: Data are available on Figshare at the printed DOI, without access conditions.
+    Declaration and link read; resource not opened, manual check pending.
+  url: https://doi.org/10.6084/m9.figshare.30024868.v1
+  verification: unverified
+- claims: []
+  source: pdf
+  location: Appendix 1; Supplementary Materials
+  passage: Landmark qualities and correlation tables reported, but no explicit declaration
+    that the route descriptions or other study materials are openly shared; materials
+    left unknown.
+  url: https://www.research.unipd.it/handle/11577/3608758
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge;
+    article prints CC BY 4.0.
+  url: https://doi.org/10.1080/0163853X.2026.2692885
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati
+    raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Quando qualcuno ci spiega a voce come arrivare in un posto, riusciamo a farcene una mappa
+    nella testa? E aiuta se lungo la strada ci sono elementi naturali, come una strada sterrata o
+    un cartello di legno? Le ricercatrici hanno fatto ascoltare a 160 giovani adulti tre
+    descrizioni di percorsi: in una i punti di riferimento erano naturali, in un'altra
+    artificiali, come asfalto e cemento, nella terza descritti per la loro funzione. Dopo ogni
+    ascolto i partecipanti disegnavano la mappa del luogo. Le descrizioni «naturali» sono state
+    giudicate più piacevoli, ma non hanno portato a mappe più precise. A fare la differenza era
+    soprattutto la persona: chi ricordava meglio le caratteristiche dei punti di riferimento e li
+    immaginava in modo vivido disegnava mappe più accurate. Un risultato prezioso per capire come
+    costruiamo lo spazio a partire dalle parole.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-06'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract and Methods: 160 young adults aged 19-35 listened to three route descriptions (natural, artificial, function-based landmarks) and drew maps.'
+    - 'Table 1: landmark examples such as dirt road, wooden sign, paved road, concrete houses.'
+    - 'Results/Discussion: natural descriptions rated more pleasant, no map-accuracy advantage; accuracy predicted by recall of landmark characteristics and vividness.'
+    review_note: 'Scientific reread: null result presented as finding, individual differences stated associatively, examples taken from study texts. Editorial reread: no jargon or statistics, one number, positive closing.'
+publication:
+  published: no
+  featured: no

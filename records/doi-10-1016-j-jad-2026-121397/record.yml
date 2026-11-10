@@ -1,0 +1,100 @@
+schema_version: 1.0
+id: doi-10-1016-j-jad-2026-121397
+doi: 10.1016/j.jad.2026.121397
+bibliography:
+  title: 'Developmental influences on neural responses to emotional stimuli: The role
+    of family history, parental bonding, and adverse childhood experiences'
+  authors: Romina Angeleri; Michele Grassi; Simone Messerotti Benvenuti; Carola Dell'Acqua;
+    Paolo Bernardis; Igor Marchetti
+  journal: Journal of Affective Disorders
+  volume: '402'
+  issue: ~
+  pages: '121397'
+  year: 2026
+dpg:
+  authors:
+  - Simone Messerotti Benvenuti
+  - Carola Dell'Acqua
+  verified: yes
+  verification_source: 'First submitted author manuscript title page: Messerotti Benvenuti
+    and Dell''Acqua at affiliation 3, Department of General Psychology, University
+    of Padua; other authors Trieste, eCampus, Florence. Volume 402 (2026) from Crossref;
+    final version not read.'
+source:
+  pdf_file: 10.1016_j.jad.2026.121397.pdf
+  pdf_path: ~
+  md5: ab7feb3f7b19426f719c630a109d2edc
+  article_url: https://www.research.unipd.it/handle/11577/3582298
+  iris_handle: 11577/3582298
+  note: First submitted version (author manuscript) downloaded from Padova IRIS on
+    2026-11-07 and read locally; final publisher version not obtained (ScienceDirect
+    not scripted). Processed by 01-screen.R (DOI not extracted, corrected in decisions)
+    and 02-finalize.R; inbox PDF deleted after record and ledger were written.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 13:32:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only (green). Read from the first submitted author manuscript;
+    no data availability, preregistration, code, materials or protocol statement or
+    resource link. Final version end matter unseen. Messerotti Benvenuti and Dell''Acqua
+    DPG; official citation year 2026, vol. 402. Recheck only if a statement is suspected.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 11, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jad.2026.121397
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Author note; Methods; end of manuscript
+  passage: Submitted manuscript prints no data availability, registration, code, materials,
+    protocol or tool statement or link. Final publisher end matter not seen.
+  url: https://www.research.unipd.it/handle/11577/3582298
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as green; repository access does not
+    qualify for the OA badge.
+  url: https://doi.org/10.1016/j.jad.2026.121397
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Final publisher HTML (ScienceDirect), full text and end matter, read 2026-11-10
+  passage: Final version checked in the connected browser; no data availability section,
+    preregistration or shared-resource link. Reject confirmed.
+  url: https://doi.org/10.1016/j.jad.2026.121397
+  verification: agent-verified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

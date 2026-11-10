@@ -1,0 +1,99 @@
+schema_version: 1.0
+id: doi-10-1421-120881
+doi: 10.1421/120881
+bibliography:
+  title: Il nostro ricordo di Carlo Umiltà
+  authors: Annamaria Berti; Andrea Bobbio; Lucia Colombo; Cesare Cornoldi; Elisabetta
+    Làdavas; Carlo Alberto Marzi; PsicoStat; Paola Ricciardelli; Mariaelena Tagliabue;
+    Massimo Turatto; Giulio Cesare Zavattini
+  journal: Giornale Italiano di Psicologia
+  volume: '53'
+  issue: '2'
+  pages: 535-552
+  year: 2026
+dpg:
+  authors: []
+  verified: no
+  verification_source: 'Publisher first-page preview (p. 535): Bobbio, Colombo, Cornoldi,
+    PsicoStat and Tagliabue printed only as generic Università di Padova; others at
+    Torino, Bologna, Verona, Milano-Bicocca, Trento, Sapienza. Running foot a. LIII,
+    n. 2, giugno 2026. DPG not verified; not needed for the genre-based reject.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.rivisteweb.it/doi/10.1421/120881
+  iris_handle: 11577/3599760
+  note: Only the free first-page preview read on 2026-11-07. Full text paywalled;
+    no PDF obtained. IRIS Padova and Milano-Bicocca records hold no file.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://www.rivisteweb.it/doi/10.1421/120881
+    outcome: Landing page and first-page preview only; PDF requires institutional
+      login.
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3599760
+    outcome: Padova IRIS metadata only, no attached file.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-07'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Out of scope by genre: commemorative collection of personal recollections
+    (section "In ricordo di Carlo Umiltà") by eleven colleagues, not a research publication;
+    no study whose data, code, materials or registration could be shared. Judged from
+    the first-page preview; full text paywalled. DPG not verified (generic Università
+    di Padova). Official citation year 2026. Enrico may overturn. 2026-11-10: genre
+    confirmed on the full publisher PDF (Rivisteweb, University of Padova network);
+    personal recollections throughout, no shared resources; PDF not retained.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 10, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: non-research-commemorative-text
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://www.rivisteweb.it/doi/10.1421/120881
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Publisher first-page preview (p. 535)
+  passage: Section heading "In ricordo di Carlo Umiltà" followed by first-person personal
+    recollections; authors' affiliations listed; no study described.
+  url: https://www.rivisteweb.it/doi/10.1421/120881
+  verification: agent-verified
+- claims: []
+  source: pdf
+  location: Full article, read 2026-11-10
+  passage: Eleven sections of personal recollections of Carlo Umiltà; no study, data,
+    availability statement or registration.
+  url: https://www.rivisteweb.it/doi/10.1421/120881
+  verification: agent-verified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

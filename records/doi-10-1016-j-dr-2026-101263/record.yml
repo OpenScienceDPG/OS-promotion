@@ -1,0 +1,101 @@
+schema_version: 1.0
+id: doi-10-1016-j-dr-2026-101263
+doi: 10.1016/j.dr.2026.101263
+bibliography:
+  title: 'Evolution and development of Spatial-Numerical Association: a comparative
+    review'
+  authors: Arianna Felisatti; Martin Giurfa; Rosa Rugani
+  journal: Developmental Review
+  volume: '80'
+  issue: ~
+  pages: '101263'
+  year: 2026
+dpg:
+  authors:
+  - Arianna Felisatti
+  - Rosa Rugani
+  verified: yes
+  verification_source: 'Author manuscript title page (HAL) and publisher metadata:
+    Felisatti and Rugani at Department of General Psychology, University of Padova;
+    Giurfa at Sorbonne/CNRS. Crossref and Elsevier metadata: Developmental Review 80,
+    101263, cover date June 2026.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://hal.science/hal-05731046v1
+  iris_handle: 11577/3587778
+  note: Author manuscript read from HAL on 2026-11-06 (key pages rendered locally,
+    hyperlinks of the whole PDF scanned). Final version not read; ScienceDirect showed
+    a bot check, not bypassed; Elsevier API returned metadata only.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-pdf-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Narrative comparative review with no preregistration,
+    data, code, materials, protocol or reusable tool declared and no resource link
+    in the author manuscript; end matter has only contributions, conflicts and funding.
+    Final version end matter not seen. Two DPG authors; official citation year 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 8, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.dr.2026.101263
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Author manuscript title page, conclusions, end matter; full hyperlink scan
+  passage: Narrative review; no availability, registration or tool statement and no
+    resource links beyond references.
+  url: https://hal.science/hal-05731046v1
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory classifies the article as hybrid; publisher metadata CC BY 4.0.
+  url: https://doi.org/10.1016/j.dr.2026.101263
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Final publisher HTML (ScienceDirect), end matter, read 2026-11-10
+  passage: Final version states that no data were used; OSF mentions are cited preprints
+    of other studies. Reject confirmed.
+  url: https://doi.org/10.1016/j.dr.2026.101263
+  verification: agent-verified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+  resource_review:
+    status: not-required
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,102 @@
+schema_version: 1.0
+id: doi-10-1177-21676968251390953
+doi: 10.1177/21676968251390953
+bibliography:
+  title: 'Psychometric Properties of the ASA-27 in Emerging Adults: Toward a Shortened,
+    Culturally Adapted Measure'
+  authors: Silvia Spaggiari; Giovanni Bruno; Virginia Forlini; Silvia Salcuni; Gioia
+    Bottesi; Daniela Di Riso
+  journal: Emerging Adulthood
+  volume: '14'
+  issue: '1'
+  pages: 195-212
+  year: 2026
+dpg:
+  authors:
+  - Giovanni Bruno
+  - Gioia Bottesi
+  verified: yes
+  verification_source: 'SAGE author/affiliation panel: Bruno (also IRCCS San Camillo)
+    and Bottesi at Department of General Psychology, University of Padova. Salcuni,
+    Di Riso, Spaggiari and Forlini printed at DPSS. Emerging Adulthood 14(1):195-212,
+    February 2026; online 22 October 2025.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/21676968251390953
+  iris_handle: 11577/3574836
+  note: Final SAGE full text read through the connected browser on 2026-11-06. The
+    article supplement was requested once by the screener and returned 403; its contents
+    were not read. No PDF processed.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-06'
+  last_screened_at: '2026-11-06'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: 'Ambiguous evidence: Method states that raw data, R scripts and additional
+    information are available in the Supplemental Materials (single supplement PDF
+    on the publisher page), but the article is closed access, the statement does not
+    declare the resources publicly available without conditions, and supplement access
+    is unconfirmed. Two DPG authors; official citation year 2026 (online 2025). Decide
+    whether a supplement of a closed article qualifies as open data/code.'
+  review_mode: ordinary
+  next_step: Enrico to decide whether the supplement statement qualifies and, if so,
+    check that the supplement holds raw data and R scripts and opens without subscription;
+    then keep with open_data/open_code and write the public summary, or reject.
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 9, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/21676968251390953
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Method, end of Analytic Plan; Supplementary Material section
+  passage: Raw data, R scripts and additional information declared available in the
+    Supplemental Materials; one supplement PDF listed at https://journals.sagepub.com/doi/suppl/10.1177/21676968251390953/suppl_file/sj-pdf-1-eax-10.1177_21676968251390953.pdf.
+    No explicit public-availability wording; closed article; supplement contents not
+    read.
+  url: https://journals.sagepub.com/doi/full/10.1177/21676968251390953
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-06'
+  passage: Inventory and Unpaywall classify the article as closed; no OA badge.
+  url: https://doi.org/10.1177/21676968251390953
+  verification: unverified
+curation:
+  status: pending
+  why_open: ~
+  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices: []
+publication:
+  published: no
+  featured: no

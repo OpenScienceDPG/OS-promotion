@@ -1,0 +1,95 @@
+schema_version: 1.0
+id: doi-10-1016-j-jad-2026-122176
+doi: 10.1016/j.jad.2026.122176
+bibliography:
+  title: 'Maternal depression and paternity leave-taking in Italy: the mediating role
+    of coparenting and parenting stress'
+  authors: Bianca Filippi; Elisa Mancinelli
+  journal: Journal of Affective Disorders
+  volume: '412'
+  issue: ~
+  pages: '122176'
+  year: 2026
+dpg:
+  authors: []
+  verified: yes
+  verification_source: 'Final publisher HTML (ScienceDirect, read 2026-11-10), author
+    affiliations: both authors only at Department of Developmental Psychology and Socialization
+    (DPSS), University of Padova; no DPG affiliation printed. Inventory lists both
+    as DPG.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0165032726010281
+  iris_handle: 11577/3610263
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    (Enrico passed the ScienceDirect human check himself); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3610263
+    outcome: Padova IRIS metadata only, no attached file.
+  - date: '2026-11-07'
+    url: https://api.elsevier.com/content/article/PII:S0165032726010281
+    outcome: Metadata stub only, no body text.
+  - date: '2026-11-07'
+    url: https://doi.org/10.1016/j.jad.2026.122176
+    outcome: ScienceDirect not retrieved by script (bot protection, not bypassed); browser
+      extension not connected.
+  - date: '2026-11-10'
+    url: https://www.sciencedirect.com/science/article/pii/S0165032726010281
+    outcome: Full HTML read in the connected browser after Enrico passed the human
+      check.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Scope reject: both authors printed only at DPSS, no DPG author at publication
+    (inventory lists them at DPG). Also no qualifying practice: datasets available
+    from the corresponding author on reasonable request. Official citation year 2026,
+    vol. 412. Override only with publication-time DPG evidence (compare doi-10-1371-journal-pone-0339975).'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 11, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jad.2026.122176
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Author affiliations; Data availability
+  passage: Both authors at DPSS only; datasets available from the corresponding author
+    on reasonable request.
+  url: https://www.sciencedirect.com/science/article/pii/S0165032726010281
+  verification: agent-verified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

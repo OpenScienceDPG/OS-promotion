@@ -1,0 +1,136 @@
+schema_version: 1.0
+id: doi-10-1016-j-jad-2026-121539
+doi: 10.1016/j.jad.2026.121539
+bibliography:
+  title: A meta-analysis of the late positive potential for assessing affective processing
+    in depression and depression vulnerability
+  authors: Carola Dell'Acqua; Valentina Mologni; Tommaso Feraco; Simone Messerotti
+    Benvenuti
+  journal: Journal of Affective Disorders
+  volume: '405'
+  issue: ~
+  pages: '121539'
+  year: 2026
+dpg:
+  authors:
+  - Carola Dell'Acqua
+  - Valentina Mologni
+  - Tommaso Feraco
+  - Simone Messerotti Benvenuti
+  verified: yes
+  verification_source: 'Final publisher PDF p.1: all four authors linked to affiliation
+    a, Department of General Psychology, University of Padua (Mologni and Messerotti
+    Benvenuti also Padova Neuroscience Center). Header Journal of Affective Disorders
+    405 (2026) 121539, available online 3 March 2026.'
+source:
+  pdf_file: 10.1016_j.jad.2026.121539.pdf
+  pdf_path: ~
+  md5: ea2182becd50c3802eea6c1cd758acbf
+  article_url: https://www.research.unipd.it/handle/11577/3591220
+  iris_handle: 11577/3591220
+  note: Publisher version (CC BY-NC-ND) downloaded from Padova IRIS on 2026-11-07
+    and read locally. Processed by 01-screen.R and 02-finalize.R; inbox PDF deleted
+    after record and ledger were written. Supporting external resources not opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 13:32:52 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: all materials, data and analytic
+    code declared provided in OSF y946c (Methods and Data availability), counted as
+    open data/code/materials. Resource not opened; Enrico check pending. PROSPERO
+    CRD420251023748 printed without registry URL; preregistration left unknown pending
+    Enrico''s decision on identifier-only registrations. All four authors DPG; official
+    citation year 2026, vol. 405; inventory hybrid OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 11, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jad.2026.121539
+  preregistration: []
+  data: https://osf.io/y946c/
+  code: https://osf.io/y946c/
+  materials: https://osf.io/y946c/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: Methods opening paragraph (PDF page 2); Data availability (PDF page 11)
+  passage: Methods and Data availability declare that all materials, data and analytical
+    code are provided in the linked OSF project associated with this meta-analysis.
+    Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/y946c/
+  verification: unverified
+- claims: []
+  source: pdf
+  location: Abstract; Methods opening paragraph (PDF page 2)
+  passage: Meta-analysis stated entirely preregistered in PROSPERO with identifier
+    CRD420251023748, but no registry URL printed; preregistration left unknown pending
+    Enrico's decision on identifier-only registrations.
+  url: https://www.research.unipd.it/handle/11577/3591220
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge;
+    article prints CC BY-NC-ND.
+  url: https://doi.org/10.1016/j.jad.2026.121539
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio,
+    come questionari e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Quando l'umore è a terra, una bella foto o una scena spiacevole ci colpiscono come sempre?
+    Un gruppo di ricercatori padovani ha raccolto e rianalizzato insieme 23 studi, con quasi
+    2.200 partecipanti, che avevano registrato l'attività elettrica del cervello mentre le
+    persone guardavano immagini piacevoli, neutre o spiacevoli. L'attenzione era su un segnale
+    che cresce quando un'immagine ci cattura e ci coinvolge emotivamente. Nel complesso, nelle
+    persone con sintomi depressivi questo segnale risultava in media più debole. Negli adulti la
+    differenza riguardava le immagini cariche di emozione e non quelle neutre, mentre per
+    bambini e ragazzi gli studi sono ancora pochi. Per gli autori la depressione si accompagna a
+    un coinvolgimento emotivo più spento in generale, non solo verso ciò che è triste: una pista
+    preziosa per comprenderla meglio e, in futuro, misurarla in modo più oggettivo.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-07'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 23 studies (N = 2190) comparing late positive potential amplitudes to emotional pictures in depressive, remitted or familial-risk groups vs controls.'
+    - 'Results: reduced amplitudes in depressive/at-risk groups overall; in adults for pleasant and unpleasant but not neutral stimuli; youth studies few and heterogeneous.'
+    - 'Within-group analysis (11 studies): larger responses to emotional than neutral pictures preserved; authors interpret as generalized attenuation of emotional engagement, consistent with emotion context insensitivity, and suggest the measure as a possible objective marker.'
+    review_note: 'Scientific reread: associative wording, at-risk findings not overstated, interpretation attributed to authors. Editorial reread: hook is illustrative, no jargon or statistics, one number.'
+publication:
+  published: no
+  featured: no

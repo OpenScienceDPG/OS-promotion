@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1111-lcrp-70074
+doi: 10.1111/lcrp.70074
+bibliography:
+  title: 'The lie in the eyes: Ocular indicators and machine-learning models with a cognitive load paradigm to detect lying'
+  authors: "Alice Naomi Preti; Giulia Melis; Barbara Barbieri; Giuseppe Sartori; Franca Crippa; Stefano Zago; Nadia Bolognini"
+  journal: "Legal and Criminological Psychology"
+  volume: ~
+  issue: ~
+  pages: 'e70074'
+  year: 2026
+dpg:
+  authors:
+  - Giulia Melis
+  - Giuseppe Sartori
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley, read 2026-11-10), author information: Melis and Sartori at Department of General Psychology, University of Padova. First published 2026-10-22, Early View, no volume."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://onlinelibrary.wiley.com/doi/full/10.1111/lcrp.70074
+  iris_handle: 11577/3620458
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    through the University of Padova network (Wiley shows institutional Full Access);
+    PDF not downloaded. Supporting resources not opened.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3620458
+    outcome: Padova IRIS metadata only, no public file.
+  - date: '2026-11-07'
+    url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/lcrp.70074
+    outcome: Unpaywall bronze publisher PDF returned 403 to scripted download; browser extension not connected.
+  - date: '2026-11-10'
+    url: https://onlinelibrary.wiley.com/doi/full/10.1111/lcrp.70074
+    outcome: Full HTML readable through University of Padova institutional access in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Data Availability Statement says raw eye-tracking and behavioural data are openly available at Zenodo 10.5281/zenodo.21451382. Resource not opened; Enrico check pending. No code statement; the Discussion states the study was not preregistered. Melis and Sartori printed at DPG; online 2026, no volume yet. Inventory closed vs Unpaywall bronze: OA badge not assigned."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1111/lcrp.70074
+  preregistration: []
+  data: https://doi.org/10.5281/zenodo.21451382
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data Availability Statement
+  passage: Raw eye-tracking and behavioural data are declared openly available at the
+    printed Zenodo DOI. Declaration and DOI read; resource not opened, manual check
+    pending.
+  url: https://doi.org/10.5281/zenodo.21451382
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Discussion, limitations paragraph
+  passage: The authors state that the study was not preregistered and call for a future
+    preregistered replication. No code availability statement.
+  url: https://onlinelibrary.wiley.com/doi/full/10.1111/lcrp.70074
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed (Unpaywall reported bronze on 2026-11-07); Wiley showed institutional access only.
+  url: https://doi.org/10.1111/lcrp.70074
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti
+  public_summary: >-
+    Si può capire se qualcuno mente guardandolo negli occhi? Il gruppo di ricerca ha chiesto
+    a 57 adulti di rispondere a una serie di domande su sé stessi; a una parte di loro era
+    stato chiesto di sostenere un'identità inventata. Mentre rispondevano, uno strumento
+    registrava la dilatazione della pupilla e i battiti di ciglia, insieme ai tempi di
+    risposta. Il segnale più chiaro è stato il tempo: chi mentiva impiegava di più a
+    rispondere, soprattutto alle domande inattese, quelle a cui non poteva essersi preparato.
+    Anche la pupilla si comportava in modo diverso tra chi diceva il vero e chi mentiva,
+    mentre i battiti di ciglia non cambiavano. Un programma che impara dagli esempi ha
+    riconosciuto chi mentiva fino a 84 volte su 100. Per gli autori, la pupilla può offrire
+    un'informazione in più accanto ai tempi di risposta.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-10'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Methods: 57 healthy adults, induced fake identity task, randomised to lying or truth-telling; Control, Expected and Unexpected questions; pupil, blinks, reaction times and errors recorded.'
+    - 'Abstract Results: liars slower especially on Unexpected questions; pupil responses differed between groups; no group difference in blink rate or errors; machine learning up to 84% accuracy, reaction times strongest predictor.'
+    - 'Abstract Conclusions: pupillary responses may provide complementary information.'
+    review_note: 'Scientific reread: accuracy reported as "up to", pupil role attributed to authors as complementary, no claim of practical lie detection. Editorial reread: machine learning explained in plain words, one number besides sample size.'
+publication:
+  published: no
+  featured: no

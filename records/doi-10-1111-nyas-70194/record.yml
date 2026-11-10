@@ -29,9 +29,9 @@ source:
   pdf_path: ~
   md5: ~
   article_url: https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.70194
-  note: Publisher abstract and author affiliations read on 2026-11-06, not full article.
-    No PDF obtained; no university browser access available in this session and no
-    supporting resources opened.
+  note: Publisher abstract and author affiliations read on 2026-11-06; full article
+    read as publisher HTML on 2026-11-10 in Enrico's connected browser through the
+    University of Padova network. No PDF obtained.
   iris_handle: 11577/3579446
   access_attempts:
   - date: '2026-11-06'
@@ -52,25 +52,26 @@ source:
     outcome: Web connector returned 403; HTTP initially blocked by sandbox network,
       then approved network escalation retrieved public metadata page. Page states
       no attached files.
+  - date: '2026-11-10'
+    url: https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.70194
+    outcome: Full HTML readable through University of Padova institutional access in
+      the connected browser.
 screening:
-  status: needs-review
+  status: screened-reject
   first_screened_at: '2026-11-06'
-  last_screened_at: '2026-11-06'
-  algorithm_version: online-access-ordinary
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
   algorithm_score: ~
   algorithm_suggestion: ~
   agent_reviewed: yes
   reviewer: agent
-  final_decision: ~
-  final_note: 'Unresolved access: publisher provides abstract and affiliations but
-    full/epdf routes return abstract only. Newcastle holds no text, Rome final PDF
-    is restricted, Padova has no attached files. Identity, official 2026 citation
-    year and Biundo DPG affiliation verified, but substantive practices remain unknown
-    without full article. This is not a completed screening or rejection.'
+  final_decision: reject
+  final_note: 'Reject: full article has no data availability statement, preregistration,
+    shared code or materials; the GitHub links point to third-party tools (specparam
+    and its EEGLAB plugin) used in the analysis. Supporting Information not counted
+    as an open resource. Biundo printed at DPG; official citation year 2026, 1555(1):e70194.
+    Inventory green OA, no badge.'
   review_mode: ordinary
-  next_step: Obtain full article through available institutional access or a supplied
-    lawful copy, then read its methods and availability statements. Do not retry the
-    same routes without new access or version evidence.
   scope:
     corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 7, inventory list-2026-11-04.xlsx)
     eligible: yes
@@ -101,6 +102,14 @@ evidence:
     and article number e70194. Full article body not accessible in the retrieved page.
   url: https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.70194
   verification: agent-verified
+- claims: []
+  source: article_html
+  location: Full article (Methods 2.5; end sections Author Contributions to Supporting
+    Information), read 2026-11-10
+  passage: No data availability section or registration; GitHub links are to existing
+    third-party analysis tools; no own resources declared.
+  url: https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.70194
+  verification: agent-verified
 - claims: open_access
   source: inventory
   location: Inventory list-2026-11-04.xlsx, normalized DOI match; assessed 2026-11-06
@@ -109,17 +118,10 @@ evidence:
   url: https://doi.org/10.1111/nyas.70194
   verification: unverified
 curation:
-  status: pending
+  status: not-selected
   why_open: ~
-  public_summary: SINTESI DIVULGATIVA DA SCRIVERE
+  public_summary: ~
   topics: []
-  resource_review:
-    status: pending
-    assigned_to: Enrico
-    practices: []
-  summary_review:
-    status: pending
-    review_note: Summary intentionally deferred at Enrico request; no summary drafted.
 publication:
   published: no
   featured: no

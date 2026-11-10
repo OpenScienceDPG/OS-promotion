@@ -1,0 +1,91 @@
+schema_version: 1.0
+id: doi-10-1177-09388982261422712
+doi: 10.1177/09388982261422712
+bibliography:
+  title: Use and Coherence of Study Skills and Learning-Strategy Knowledge in Typically Developing Children and Children With Specific Learning Disabilities
+  authors: "Tommaso Feraco; Chiara Meneghetti; Cesare Cornoldi"
+  journal: "Learning Disabilities Research & Practice"
+  volume: '41'
+  issue: '3'
+  pages: '162-171'
+  year: 2026
+dpg:
+  authors:
+  - Tommaso Feraco
+  - Chiara Meneghetti
+  - Cesare Cornoldi
+  verified: yes
+  verification_source: "Final publisher HTML (Sage, read 2026-11-10), authors and affiliations panel: single printed affiliation, Department of General Psychology, University of Padova. Volume 41, Issue 3; first published online 2026-02-19."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/09388982261422712
+  iris_handle: 11577/3601619
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    through the University of Padova network; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3601619
+    outcome: Padova IRIS file with restricted access (accesso riservato).
+  - date: '2026-11-07'
+    url: https://doi.org/10.1177/09388982261422712
+    outcome: Sage paywalled; browser extension not connected.
+  - date: '2026-11-10'
+    url: https://journals.sagepub.com/doi/full/10.1177/09388982261422712
+    outcome: Full HTML readable through University of Padova institutional access in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: Data availability statement says data, code and materials are available on request from the corresponding author; no preregistration, public resource link or reusable tool. All three authors printed at DPG; official citation year 2026, 41(3). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: no
+  open_materials: no
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/09388982261422712
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Data availability statement (end matter)
+  passage: Data, code and materials available on request from the corresponding author.
+  url: https://journals.sagepub.com/doi/full/10.1177/09388982261422712
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1177/09388982261422712
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

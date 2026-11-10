@@ -88,6 +88,12 @@ evidence:
     flagged in open-issues).
   url: https://doi.org/10.1016/j.sleep.2026.108858
   verification: unverified
+- claims: []
+  source: article_html
+  location: "ScienceDirect article header, read 2026-11-10"
+  passage: "Publisher page labels the article Open access under a Creative Commons licence (copyright The Authors), confirming the hybrid OA badge."
+  url: https://doi.org/10.1016/j.sleep.2026.108858
+  verification: agent-verified
 curation:
   status: curated
   why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito

@@ -1,0 +1,130 @@
+schema_version: 1.0
+id: doi-10-1016-j-lindif-2026-102988
+doi: 10.1016/j.lindif.2026.102988
+bibliography:
+  title: 'Social, emotional, and behavioral skills as resources for student engagement:
+    A one-year longitudinal study in high school students'
+  authors: Gerardo Pellegrino; Tommaso Feraco; Chiara Meneghetti; Barbara Carretti
+  journal: Learning and Individual Differences
+  volume: '131'
+  issue: ~
+  pages: '102988'
+  year: 2026
+dpg:
+  authors:
+  - Gerardo Pellegrino
+  - Tommaso Feraco
+  - Chiara Meneghetti
+  - Barbara Carretti
+  verified: yes
+  verification_source: 'Final publisher PDF p.1: all four authors linked to affiliation
+    a, Department of General Psychology, University of Padova. Header Learning and
+    Individual Differences 131 (2026) 102988, available online 7 August 2026.'
+source:
+  pdf_file: 10.1016_j.lindif.2026.102988.pdf
+  pdf_path: ~
+  md5: e6a317fc4ee9eda4d9392658d30e0eb3
+  article_url: https://www.research.unipd.it/handle/11577/3607782
+  iris_handle: 11577/3607782
+  note: Publisher version downloaded from Padova IRIS on 2026-11-07 and read locally.
+    Processed by 01-screen.R and 02-finalize.R; inbox PDF deleted after record and
+    ledger were written. Supporting external resources not opened.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 13:40:32 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 6
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: dataset and data analysis
+    script declared available on OSF hrws7 (Method 2.1 and Data availability). Resource
+    not opened; Enrico check pending. No preregistration, materials or protocol statement.
+    All four authors DPG; official citation year 2026, vol. 131; inventory hybrid
+    OA.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 12, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.lindif.2026.102988
+  preregistration: []
+  data: https://osf.io/hrws7
+  code: https://osf.io/hrws7
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: Method 2.1 Openness and transparency (PDF page 3); Data availability (PDF
+    page 9)
+  passage: The dataset and data analysis code are declared available on the linked
+    OSF project, without access conditions. Declaration and link read; resource not
+    opened, manual check pending.
+  url: https://osf.io/hrws7
+  verification: unverified
+- claims: []
+  source: pdf
+  location: Method; end matter
+  passage: No preregistration, materials or protocol statement; T1 and T3 data previously
+    analysed in two earlier papers by the same team.
+  url: https://www.research.unipd.it/handle/11577/3607782
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.lindif.2026.102988
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
+    sul sito della rivista
+  public_summary: >-
+    Settembre, primo giorno di scuola: zaino nuovo e buoni propositi. Ma quella voglia di
+    impegnarsi arriva fino a giugno? Un gruppo di ricercatori padovani ha seguito per un intero
+    anno scolastico 1.555 studenti delle superiori, chiedendo loro all'inizio, a metà e alla
+    fine dell'anno quanto si sentissero coinvolti nello studio e come se la cavassero in alcune
+    abilità personali: organizzarsi e portare a termine gli impegni, stare con gli altri,
+    collaborare, avere idee nuove, gestire le emozioni. In media il coinvolgimento calava con il
+    passare dei mesi, soprattutto nella prima parte dell'anno. Chi a settembre si descriveva più
+    organizzato, più creativo e più socievole mostrava però un calo più contenuto. Per gli
+    autori queste abilità sono una risorsa che aiuta i ragazzi a restare motivati, e insegnarle
+    a scuola potrebbe sostenerli lungo tutto l'anno.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-07'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 1555 Italian high school students, self-reports of five skill domains and four engagement dimensions at start, middle and end of the school year.'
+    - 'Results: engagement generally declined, especially between T1 and T2; higher self-management, innovation and social engagement at T1 associated with smaller declines.'
+    - 'Educational relevance statement: authors suggest integrating these skills into school curricula to help sustain engagement.'
+    review_note: 'Scientific reread: associative wording (students who reported more skills showed smaller declines), recommendation attributed to authors. Editorial reread: hook is illustrative, no jargon, one number.'
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,156 @@
+schema_version: 1.0
+id: doi-10-1016-j-jad-2026-122148
+doi: 10.1016/j.jad.2026.122148
+bibliography:
+  title: 'Proximal contributors to suicide risk in college students: A multidimensional
+    ecological momentary assessment'
+  authors: Carola Dell'Acqua; Libera Ylenia Mastromatteo; Giorgia Degasperi; Nicola
+    Cellini; Letizia Soliman; Letizia Oppioli; Daniela Palomba; Sara Scrimin; Simone
+    Messerotti Benvenuti
+  journal: Journal of Affective Disorders
+  volume: '412'
+  issue: ~
+  pages: '122148'
+  year: 2026
+dpg:
+  authors:
+  - Carola Dell'Acqua
+  - Giorgia Degasperi
+  - Nicola Cellini
+  - Letizia Soliman
+  - Letizia Oppioli
+  - Daniela Palomba
+  - Simone Messerotti Benvenuti
+  verified: yes
+  verification_source: 'Final publisher HTML (ScienceDirect, read 2026-11-10), author
+    affiliations: seven authors at affiliation a, Department of General Psychology,
+    University of Padua (Palomba and Messerotti Benvenuti also Padova Neuroscience
+    Center); Mastromatteo and Scrimin at DPSS. Volume 412 (2026), article 122148.'
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0165032726010001
+  iris_handle: 11577/3610378
+  note: Full text read as publisher HTML on 2026-11-10 in Enrico's connected browser
+    (Enrico passed the ScienceDirect human check himself); PDF not downloaded. Supporting
+    resources not opened.
+  access_attempts:
+  - date: '2026-11-07'
+    url: https://hdl.handle.net/11577/3610378
+    outcome: Padova IRIS shows no public file (inventory reports one file awaiting
+      validation).
+  - date: '2026-11-07'
+    url: https://api.elsevier.com/content/article/PII:S0165032726010001
+    outcome: Metadata stub only, no body text.
+  - date: '2026-11-07'
+    url: https://doi.org/10.1016/j.jad.2026.122148
+    outcome: ScienceDirect not retrieved by script (bot protection, not bypassed); browser
+      extension not connected.
+  - date: '2026-11-10'
+    url: https://www.sciencedirect.com/science/article/pii/S0165032726010001
+    outcome: Full HTML read in the connected browser after Enrico passed the human
+      check; page labelled Open access under a Creative Commons licence.
+screening:
+  status: ready
+  first_screened_at: '2026-11-07'
+  last_screened_at: '2026-11-10'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: 'Keep in ordinary mode, declaration-based: methods and hypotheses declared
+    preregistered and data and R scripts declared openly available on OSF t3uvw (Method;
+    Data availability). No registration date printed, timing flagged. Resources not
+    opened; Enrico check pending. Seven DPG authors; official citation year 2026, vol.
+    412. OA badge from publisher Open access label and Unpaywall hybrid, although the
+    inventory says closed.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-07, batch 11, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jad.2026.122148
+  preregistration: https://osf.io/t3uvw/overview
+  data: https://osf.io/t3uvw/overview
+  code: https://osf.io/t3uvw/overview
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  - open_data
+  - open_code
+  source: article_html
+  location: Introduction (hypotheses); Method, sample size paragraph; Data availability
+  passage: Methods and hypotheses are declared preregistered and data and R scripts
+    declared openly available on the linked OSF project; no registration date printed.
+    Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/t3uvw/overview
+  verification: unverified
+- claims:
+  - open_access
+  source: article_html
+  location: ScienceDirect article header, read 2026-11-10
+  passage: Article labelled Open access under a Creative Commons licence (Unpaywall
+    hybrid, publisher CC BY-NC-ND, on 2026-11-07), qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.jad.2026.122148
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as closed, contradicted by the publisher
+    page and the Unpaywall API (hybrid).
+  url: https://doi.org/10.1016/j.jad.2026.122148
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Nei giovani il rischio di pensieri suicidi non è sempre uguale: può salire o scendere
+    da un giorno all'altro. Che cosa lo fa oscillare? Il gruppo di ricerca ha seguito per
+    otto giorni 104 studenti universitari, che quattro volte al giorno rispondevano a brevi
+    domande sul proprio stato d'animo, mentre un braccialetto registrava sonno, movimento e
+    battito del cuore. Dopo notti più corte del solito, il giorno seguente il rischio
+    risultava più alto; lo stesso accadeva dopo giornate con il battito più accelerato del
+    normale. Il legame con battito e movimento era più forte nei giorni segnati da eventi
+    negativi, mentre quelli positivi proteggevano poco. Per gli autori, il rischio negli
+    studenti è legato ai cambiamenti quotidiani di sonno, attività e attivazione del corpo,
+    soprattutto nei giorni di stress: un'indicazione preziosa per capire quando offrire
+    aiuto.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-10'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 104 university students, 8-day ecological momentary assessment with four daily prompts; actigraphy for sleep and activity, wearable heart rate.'
+    - 'Abstract/Highlights: shorter-than-usual sleep and higher-than-usual heart rate predicted higher next-day suicide risk; negative daily events amplified activity- and heart-rate-related risk; positive events limited buffering.'
+    - 'Abstract conclusion: suicide risk linked to day-to-day changes in sleep, activity and arousal, especially with daily stressors.'
+    review_note: 'Scientific reread: predictive (within-person, next-day) associations, no causal wording; weaker activity effect not highlighted; conclusion attributed to authors, closing phrase kept general. Editorial reread: no jargon, one number.'
+publication:
+  published: no
+  featured: no

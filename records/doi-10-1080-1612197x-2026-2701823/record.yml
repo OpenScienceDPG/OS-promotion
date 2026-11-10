@@ -1,0 +1,93 @@
+schema_version: 1.0
+id: doi-10-1080-1612197x-2026-2701823
+doi: 10.1080/1612197x.2026.2701823
+bibliography:
+  title: 'Unveiling the links between intuitive exercise, exercise addiction, and body
+    image: a latent profile analysis'
+  authors: Paolo Mancin; Alice Valdesalici; Marta Ghisi; Umberto Granziol; Silvia Cerea
+  journal: International Journal of Sport and Exercise Psychology
+  volume: ~
+  issue: ~
+  pages: ~
+  year: 2026
+dpg:
+  authors:
+  - Paolo Mancin
+  - Alice Valdesalici
+  - Marta Ghisi
+  - Umberto Granziol
+  - Silvia Cerea
+  verified: yes
+  verification_source: 'Publisher PDF title page: all five authors at Department of
+    General Psychology, University of Padua (Ghisi also University-Hospital of Padua).
+    Published online 15 Jul 2026, no volume/issue yet.'
+source:
+  pdf_file: 10.1080_1612197x.2026.2701823.pdf
+  pdf_path: ~
+  md5: de6f0a2a851d0f12a23a68f2d15069cb
+  article_url: https://www.research.unipd.it/handle/11577/3611599
+  iris_handle: 11577/3611599
+  note: Publisher version (CC BY) downloaded from Padova IRIS on 2026-11-07 and read
+    locally. Processed by 01-screen.R and 02-finalize.R; inbox PDF deleted after record
+    and ledger were written.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 08:49:59 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Data available from the corresponding author upon reasonable
+    request; no preregistration, code, materials, protocol or tool. Supplement holds
+    additional tables only. Mancin, Valdesalici, Ghisi, Granziol, Cerea DPG; official
+    citation year 2026, online first.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 10, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/1612197X.2026.2701823
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: Data availability statement (end matter)
+  passage: Data available from the corresponding author upon reasonable request, no
+    link; no registration, code, materials or tool statement.
+  url: https://www.research.unipd.it/handle/11577/3611599
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as hybrid; article prints CC BY.
+  url: https://doi.org/10.1080/1612197X.2026.2701823
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

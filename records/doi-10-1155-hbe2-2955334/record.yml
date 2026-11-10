@@ -1,0 +1,91 @@
+schema_version: 1.0
+id: doi-10-1155-hbe2-2955334
+doi: 10.1155/hbe2/2955334
+bibliography:
+  title: 'Virtual and Augmented Reality in Sensory Marketing: A Systematic Review'
+  authors: Merylin Monaro; Valeria Orso; Alice Bettelli; Leonardo Pierobon; Giovanni
+    Portello; Luciano Gamberini
+  journal: Human Behavior and Emerging Technologies
+  volume: '2026'
+  issue: ~
+  pages: '2955334'
+  year: 2026
+dpg:
+  authors:
+  - Merylin Monaro
+  - Valeria Orso
+  - Luciano Gamberini
+  verified: yes
+  verification_source: 'Publisher PDF p.1: Monaro, Orso and Gamberini linked to affiliation
+    2, Department of General Psychology, University of Padova; other authors at the
+    HIT Research Centre only. Human Behavior and Emerging Technologies 2026:2955334,
+    accepted 7 February 2026.'
+source:
+  pdf_file: 10.1155_hbe2_2955334.pdf
+  pdf_path: ~
+  md5: b4de38b109947ff3f9ad7b2ee3fe1a14
+  article_url: https://www.research.unipd.it/handle/11577/3591063
+  iris_handle: 11577/3591063
+  note: Publisher version (CC BY) downloaded from Padova IRIS on 2026-11-07 and read
+    locally. Processed by 01-screen.R and 02-finalize.R; inbox PDF deleted after record
+    and ledger were written.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-07'
+  last_screened_at: 2026-11-07 08:49:59 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: 'Reject: OA only. Unregistered PRISMA systematic review; data sharing
+    not applicable; no preregistration, code, materials, protocol or tool. Monaro,
+    Orso, Gamberini DPG; official citation year 2026.'
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-06, batch 10, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1155/hbe2/2955334
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: pdf
+  location: Data Availability Statement (end matter)
+  passage: Data sharing not applicable, no datasets generated or analysed; no registration,
+    code, materials or tool statement or link found.
+  url: https://www.research.unipd.it/handle/11577/3591063
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA),
+    normalized DOI match; checked 2026-11-07'
+  passage: Inventory classifies the article as gold; article prints CC BY.
+  url: https://doi.org/10.1155/hbe2/2955334
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

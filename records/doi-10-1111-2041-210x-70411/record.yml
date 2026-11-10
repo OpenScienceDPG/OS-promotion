@@ -97,6 +97,12 @@ evidence:
     licence printed in the read version.
   url: https://doi.org/10.1111/2041-210x.70411
   verification: unverified
+- claims: []
+  source: article_html
+  location: "Final publisher HTML (Wiley), Data Availability Statement, read 2026-11-10"
+  passage: "Final version confirms data, code and processing pipelines available at the Zenodo DOI read in the author manuscript; 17(11):3260-3276."
+  url: https://doi.org/10.1111/2041-210X.70411
+  verification: agent-verified
 curation:
   status: curated
   why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito
