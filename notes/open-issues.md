@@ -14,6 +14,53 @@ already hold.
 
 ## Open
 
+### 2026-11-13 batch 18 (shortlist priority 5, 2025)
+
+- 2026-11-13 Taylor & Francis access: `doi-10-1080-10888691-2025-2498730` (RIBES-C scale, Moè) and `doi-10-1080-07420528-2025-2490499` (sleep and time perspective, Cellini/Mioni) are `needs-review`; the university subscription does not cover these T&F journals (as for Work & Stress) and the IRIS files are private. Supply the PDFs; several later shortlist items are T&F too.
+- 2026-11-13 `doi-10-1111-bjop-70042` (Venus effect, Bertamini): `ready` with open_data (OSF gaznd) and open_materials for the artwork catalogue on OSF 4pxhc (stimulus source). Official citation 2026, 117(3) although the inventory says 2025.
+- 2026-11-13 `doi-10-1016-j-clinph-2025-2110929` (tACS and aperiodic EEG): `ready` with open_data/open_code from "all R scripts, and data, are available at" OSF 6cft4 in Methods (no separate availability statement).
+- 2026-11-13 batch 18: `data/` rebuilt and validated (two new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-13 batch 17 (last 2026 shortlist items + first 2025)
+
+- 2026-11-13 `doi-10-1016-s2215-0366-25-00330-x` (antidepressant deprescribing NMA, Lancet Psychiatry, Cristea DPG): `ready` with preregistration (OSF 9bsxz, "prospectively registered") read only from the ScienceDirect preview; Padova does not subscribe. Data/code/materials unknown: check the full text if you can get it.
+- 2026-11-13 `doi-10-1016-j-applanim-2025-106788` (zebrafish larvae, Agrillo/Dadda/Bisazza): borderline `ready` as open_data, "datasets are available as supplementary material" (article resource, not opened). Decide together with `doi-10-1126-science-adq7188`.
+- 2026-11-13 `doi-10-1080-02678373-2026-2631986` (Work & Stress, workaholism): `needs-review`, T&F full text not covered by the university subscription and IRIS has no file. Supply the PDF (or ask Menghini).
+- 2026-11-13 `doi-10-1007-s40299-024-00963-x`: inventory has two rows (handles 11577/3544289 year 2024 and 11577/3596999 year 2026) for the same DOI; official citation 2026, vol. 35. Rejected (data on request).
+- 2026-11-13 batch 17: the 2026 part of the shortlist is now exhausted; next batches are 2025 priority 5. `data/` rebuilt and validated (two new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-13 batch 16 (shortlist priority 4)
+
+- 2026-11-13 `doi-10-1016-j-ridd-2025-105182` (time processing and dyscalculia, Mioni and Toffalini DPG): `needs-review`; PROSPERO CRD42024525843 declared without URL, data on request. Decide with the other identifier-only cases (`doi-10-1186-s12877-025-06472-w`, `doi-10-1121-10-0046098`); keep only if the identifier suffices.
+- 2026-11-13 `doi-10-1037-rep0000645` (VR prospective-memory RCT in Parkinson): borderline `ready` as open_materials, from "CONSORT checklist and relevant study materials are provided in the Online Supplemental Material" with printed supplement link (not opened). ClinicalTrials.gov NCT06801782 identifier only, timing unknown: preregistration null. Check that the supplement actually holds the training materials.
+- 2026-11-13 `doi-10-1126-science-adq7188` (bouba-kiki in chicks): borderline `ready` as open_data, from "all data are available in the main text or supplementary materials" with Data S1-S2 listed (article resource, not opened). Movies on request; Audio S1-S4 stimuli not counted as materials because the authors state no new materials were generated.
+- 2026-11-13 `doi-10-1177-09226028261480542` (eye-tracking perimetry): `ready` with open_data and reusable_tool (perimetry software on OSF view-only link); software not also counted as open_code. Confirm during the resource check.
+- 2026-11-13 `doi-10-1016-j-puhe-2025-106108`: scope reject; Mancinelli and Salcuni printed only at DPSS (inventory lists them as DPG). Override only with publication-time DPG evidence.
+- 2026-11-13 batch 16: APA PDF obtained by saving it from the connected browser after PsycNet institutional access (direct script download 403). `data/` rebuilt and validated (three new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-13 batch 15 (shortlist priority 4)
+
+- 2026-11-13 `doi-10-1111-papt-70106` (nature and body image focus groups, Mancin et al.): borderline `ready` as open_materials only, for the complete focus-group guide printed in Table 2 (article resource); transcripts on request. Decide with the appendix-items precedents (`doi-10-1421-119930`, `doi-10-1007-s12144-026-09136-z`). Minor inconsistency: abstract age range 22-35 vs Table 1 ages 20-35 (summary omits ages). Early View, no volume yet.
+- 2026-11-13 `doi-10-14605-pcc3212601` (MBSR protocol, Psicoterapia cognitiva e comportamentale): `needs-review`, Erickson full text requires a subscriber login (university network not enough) and IRIS has no file. Supply the PDF (or ask Moret/Patron) to screen it.
+- 2026-11-13 `doi-10-1016-j-psychsport-2026-103079` (overtraining review): rejected as OA only; PROSPERO preregistration stated with no identifier or link, data on request. Override if the registration should count.
+- 2026-11-13 `doi-10-1016-j-paid-2026-113979`: `ready` with open_data (OSF vq2hg, "data are available at"); only Moè printed at DPG, Voci and Fuochi at FISPPA. Resource check pending.
+- 2026-11-13 batch 15: ScienceDirect captcha passed by Enrico in three tabs (it reappears on each automated navigation). `data/` rebuilt and validated (two new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-11 batch 14 (shortlist priority 4)
+
+- 2026-11-11 `doi-10-1007-s10072-026-09385-7` (language-executive norms, Neurol Sci 2026, Di Rosa DPG): borderline `ready` as reusable_tool only, for the scoring spreadsheet stated to be in Supplementary Material 2 (supplement not opened). Same team and same question as the SCWT-SF precedent `doi-10-1017-s1355617726102148`: decide both together.
+- 2026-11-11 `doi-10-1016-j-neubiorev-2026-106821` (hypersexuality review): `ready` with data/materials (OSF e9tqf, "available in the OSF repository" wording). PROSPERO CRD42023446088 without URL: preregistration left null, pending the identifier-only decision.
+- 2026-11-11 `doi-10-1016-j-neuropsychologia-2025-109343` (schizophrenia MMN): scope reject; Arcara and Zago printed only at San Camillo (inventory lists Arcara at DPG). Group-level grand averages declared on OSF 3y2kw. Override only with publication-time DPG evidence.
+- 2026-11-11 `doi-10-1097-j-pain-0000000000003962`: DOI and LWW links redirect to the Ovid journal home; the letter was found through the Ovid journal search. Rejected (letter, no practices).
+- 2026-11-11 batch 14: `data/` rebuilt and validated (three new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-11 batch 13 (shortlist priority 4)
+
+- 2026-11-11 `doi-10-1016-j-neunet-2025-108029` (Neural Networks, Testolin and Zorzi DPG): rejected; no availability statement or repository, only reuse of third-party public fMRI datasets. Override if the code is published elsewhere by the authors.
+- 2026-11-11 `doi-10-1177-13524585261442777` (MSJ narrative review): rejected; inventory closed but Sage shows the article as free access, so OA classification may be stale (irrelevant to the reject).
+- 2026-11-11 `doi-10-1002-mds-70392`: inventory DPG names (Fiorenzato, Cauzzo, Musso, others) not printed at DPG; only Biundo is. Early View, no volume yet.
+- 2026-11-11 batch 13: six papers read as publisher HTML in Enrico's browser (Wiley, Sage, ScienceDirect without human check), all rejected (data on request or no resources). `data/` rebuilt and validated, unchanged; `docs/` not rendered and stale. Visual check deferred.
+
 ### 2026-11-10 access recovery (university network + connected browser)
 
 - 2026-11-10 `doi-10-1177-09388982261452122` (Feraco et al., LDRP 2026, SEB skills and SLD): `ready` with preregistration, data, code and materials (OSF BJ4E5, registration 8CWJ6). No registration date printed and data come from an existing MUR school project: confirm prospective timing.

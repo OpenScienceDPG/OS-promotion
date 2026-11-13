@@ -1,0 +1,121 @@
+schema_version: 1.0
+id: doi-10-1016-j-paid-2025-113523
+doi: 10.1016/j.paid.2025.113523
+bibliography:
+  title: "Reciprocal longitudinal relations between reinforcement sensitivity constructs and triarchic psychopathy traits in Italian adolescents: A Bayesian random intercept cross-lagged panel model"
+  authors: "Claudio Sica; Corrado Caudek; Gioia Bottesi; Ilaria Colpizzi; Anna Malerba; Sara Iannattone; Christopher J. Patrick"
+  journal: "Personality and Individual Differences"
+  volume: '249'
+  issue: ~
+  pages: '113523'
+  year: 2026
+dpg:
+  authors:
+  - Gioia Bottesi
+  - Sara Iannattone
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-11): Bottesi and Iannattone at Department of General Psychology, University of Padua; other authors Florence, Trieste, Sapienza, Florida State. Vol. 249 (February 2026), 113523; online 2025-11-01."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0191886925004854
+  iris_handle: 11577/3574838
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser
+    (University of Padova access, no human check required); PDF not downloaded. Supporting
+    resource not opened.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://www.sciencedirect.com/science/article/pii/S0191886925004854
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: all data declared publicly available at OSF uek96 (Data availability statement). Resource not opened, Enrico check pending. No preregistration, code or materials statement. Bottesi and Iannattone printed at DPG; official citation year 2026, vol. 249. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 14, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.paid.2025.113523
+  preregistration: []
+  data: https://osf.io/uek96/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data availability statement
+  passage: All data are declared publicly available on the Open Science Framework at
+    the printed link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/uek96/
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Method; end matter
+  passage: No preregistration, analysis code or materials availability statement.
+  url: https://www.sciencedirect.com/science/article/pii/S0191886925004854
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge; publisher page shows Open access under a Creative Commons license.
+  url: https://doi.org/10.1016/j.paid.2025.113523
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Che cosa ci spinge verso ciò che desideriamo, e che cosa ci trattiene davanti a un
+    rischio? Secondo una nota teoria, nel nostro carattere convivono un
+    acceleratore, sensibile alle ricompense, e un freno, sensibile a minacce e punizioni.
+    Un gruppo di ricerca italiano ha seguito per nove mesi 698 studenti delle superiori,
+    che tre volte hanno compilato questionari su questi due sistemi e su tre tratti di
+    personalità che, quando sono molto marcati, caratterizzano la psicopatia: audacia,
+    scarso autocontrollo e freddezza verso gli altri. Chi aveva un acceleratore più forte
+    mostrava in seguito un po' di più tutti e tre i tratti. Il freno, invece, si
+    legava nel tempo a meno audacia e a meno autocontrollo, in un'influenza
+    reciproca. Per gli autori, conoscere questi percorsi può aiutare a riconoscere presto
+    i ragazzi in difficoltà e a sostenerli.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-11'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 698 Italian adolescents assessed at three time points with BIS/BAS and triarchic psychopathy measures (boldness, disinhibition, meanness).'
+    - 'Method 2.1-2.2: six secondary schools, mean age 16.5; three waves 4.5 months apart over nine months.'
+    - 'Abstract: BAS consistently predicted higher boldness, meanness and disinhibition, with no reciprocal effects.'
+    - 'Abstract: boldness and BIS negative bidirectional associations; disinhibition and BIS positive reciprocal associations, a novel effect.'
+    - 'Abstract: authors suggest the patterns may inform early identification and intervention.'
+    review_note: 'Scientific reread: predictive associations worded as tendencies, not causes; more disinhibition rendered as less self-control; application attributed to authors. Editorial reread: accelerator/brake is an illustrative metaphor of the theory, no statistics.'
+publication:
+  published: no
+  featured: no

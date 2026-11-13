@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-1449-120764
+doi: 10.1449/120764
+bibliography:
+  title: "\"Social media\" e strategie di gestione dell'incertezza in adolescenza ed \"emerging adulthood\". Una revisione sistematica della letteratura"
+  authors: "Beatrice Battaglia; Alessandra Farina; Gioia Bottesi"
+  journal: "Psicologia clinica dello sviluppo"
+  volume: '30'
+  issue: '1'
+  pages: '13-53'
+  year: 2026
+dpg:
+  authors:
+  - Beatrice Battaglia
+  - Alessandra Farina
+  - Gioia Bottesi
+  verified: yes
+  verification_source: "Final publisher PDF (Rivisteweb, read 2026-11-13): all three authors with correspondence address at Dipartimento di Psicologia Generale, Università degli Studi di Padova. Fascicolo 1, aprile 2026, pp. 13-53."
+source:
+  pdf_file: 10.1449_120764.pdf
+  pdf_path: ~
+  md5: 77ca61823ce320827ba59efd3b51b9e3
+  article_url: https://www.rivisteweb.it/doi/10.1449/120764
+  iris_handle: 11577/3611263
+  note: Publisher PDF downloaded from Rivisteweb on 2026-11-13 through the University of Padova network, screened with 01/02 scripts and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.rivisteweb.it/doi/10.1449/120764
+    outcome: Publisher PDF downloaded through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: systematic literature review with no protocol registration, data, code or materials statement; only the PRISMA-style search is reported. Battaglia, Farina and Bottesi printed at DPG; Psicologia clinica dello sviluppo 30(1), April 2026, pp. 13-53. No OA classification in the inventory; Rivisteweb access is subscription-based."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 15, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1449/120764
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: "PDF pp. 13-53 (Method, end matter)"
+  passage: "Systematic review of published studies; no registration, data, code or materials availability statement and no repository link."
+  url: https://www.rivisteweb.it/doi/10.1449/120764
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: No OA classification in the inventory; publisher licence is for private personal use (subscription access). OA left unknown, irrelevant to the reject.
+  url: https://doi.org/10.1449/120764
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

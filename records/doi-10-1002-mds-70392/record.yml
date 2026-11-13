@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1002-mds-70392
+doi: 10.1002/mds.70392
+bibliography:
+  title: "Plasma p-tau217 Versus p-tau181 in Parkinson's Disease: Differential Associations with Alzheimer's Disease-Related Neurostructural Changes and Cognitive Function"
+  authors: "Eleonora Fiorenzato; Simone Cauzzo; Giulia Musso; Roberta Biundo; Chiara Ceolin; Chiara Cosma; Carmelo Alessandro Fogliano; Wassilios G. Meissner; Valentina Misenti; Stefania Moz; Maria Laura Nasi; Francesca Vianello; Renzo Manara; Martina Montagnana; Giuseppe Sergi; Angelo Antonini"
+  journal: "Movement Disorders"
+  volume: ~
+  issue: ~
+  pages: ~
+  year: 2026
+dpg:
+  authors:
+  - Roberta Biundo
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley Online Library Early View, read 2026-11-11): Biundo printed at Department of General Psychology, University of Padua; the other inventory names are printed at other Padova departments or outside. First published online 2026-06-15, no volume/issue yet."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70392
+  iris_handle: 11577/3600900
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70392
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: data and materials only on reasonable request; no preregistration, public resource link or reusable tool. Biundo printed at DPG; Early View 2026, no volume yet. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 13, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1002/mds.70392
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data Availability Statement"
+  passage: "All study data, including raw and analyzed data, and materials are available on reasonable request; no preregistration or public resource link."
+  url: https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70392
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as hybrid.
+  url: https://doi.org/10.1002/mds.70392
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

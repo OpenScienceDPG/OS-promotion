@@ -1,0 +1,75 @@
+schema_version: 1.0
+id: doi-10-14605-pcc3212601
+doi: 10.14605/pcc3212601
+bibliography:
+  title: "Protocollo MBSR per ridurre la disregolazione emozionale (The MBSR Protocol for Reducing Emotional Dysregulation: The Role of Self-Compassion)"
+  authors: "Beatrice Moret; Elisabetta Patron; Alessia Lazzaretto; Veronica Griguoli; Federica Galvan; Annalisa D'Errico; Sandra Sassaroli; Valeria Valbusa; Roberto Framba; Giovanni Mansueto; Alessia Minniti"
+  journal: "Psicoterapia cognitiva e comportamentale"
+  volume: '32'
+  issue: '1'
+  pages: '15-36'
+  year: 2026
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Not verified: full text not accessible. Erickson landing page (2026-11-13) lists the authors, vol. 32 n. 1, February 2026; inventory lists Moret and Patron as DPG, unconfirmed against printed affiliations."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://rivistedigitali.erickson.it/psicoterapia-cognitiva-comportamentale/archivio/vol-32-n-1/protocollo-mbsr-per-ridurre-la-disregolazione-emozionale/
+  iris_handle: 11577/3616325
+  note: Full text not accessible on 2026-11-13; practices not assessed.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://doi.org/10.14605/pcc3212601
+    outcome: Erickson landing page shows only title, authors and one-sentence summary; full text requires a subscriber login (not available through the university network).
+  - date: '2026-11-13'
+    url: https://rivistedigitali.erickson.it/psicoterapia-cognitiva-comportamentale/it/visualizza/pdf/1750
+    outcome: PDF link redirects to the subscription page.
+  - date: '2026-11-13'
+    url: https://hdl.handle.net/11577/3616325
+    outcome: Padova IRIS record has no associated file.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Unresolved access: Erickson full text behind subscriber login, IRIS without file. Practices, DPG affiliation and official year not assessed from the article. Next step: Enrico or the authors (Moret, Patron) supply the PDF, or an Erickson subscription route. Not a completed screening or rejection."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 15, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: full-text-not-accessible
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.14605/pcc3212601
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

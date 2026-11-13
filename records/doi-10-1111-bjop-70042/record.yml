@@ -1,0 +1,119 @@
+schema_version: 1.0
+id: doi-10-1111-bjop-70042
+doi: 10.1111/bjop.70042
+bibliography:
+  title: "On how people describe paintings with mirrors"
+  authors: "Marco Bertamini; Mariapia Lucia; Sophia Diaz; Alessandro Soranzo"
+  journal: "British Journal of Psychology"
+  volume: '117'
+  issue: '3'
+  pages: '957-980'
+  year: 2026
+dpg:
+  authors:
+  - Marco Bertamini
+  - Mariapia Lucia
+  - Sophia Diaz
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley Online Library, read 2026-11-13): Bertamini, Lucia and Diaz at Department of General Psychology, University of Padova; Soranzo at University of Calabria. Volume 117, Issue 3 (August 2026), pp. 957-980; first published 2025-11-21. Inventory lists 2025; official citation year 2026."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjop.70042
+  iris_handle: 11577/3580999
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (University of Padova access); PDF not downloaded. Supporting resources not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjop.70042
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: data declared openly available at OSF gaznd (Data availability statement); the Catalogue of Artworks and Mirrors, used to select the stimuli, declared freely available at OSF 4pxhc (counted as open_materials). Resources not opened, Enrico check pending. No preregistration statement. Three DPG authors; official citation year 2026, 117(3), although the inventory says 2025. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 18, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1111/bjop.70042
+  preregistration: []
+  data: https://osf.io/gaznd/
+  code: []
+  materials: https://osf.io/4pxhc/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data availability statement
+  passage: The data supporting the findings are declared openly available on OSF at the printed link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/gaznd/
+  verification: unverified
+- claims:
+  - open_materials
+  source: article_html
+  location: First part of the study (catalogue of artworks); table note
+  passage: The Catalogue of Artworks and Mirrors (CAM), from which the stimulus artworks were drawn, is declared freely available on OSF at the printed link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/4pxhc/
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed; no OA badge.
+  url: https://doi.org/10.1111/bjop.70042
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; I materiali dello studio, come questionari e stimoli
+  public_summary: >-
+    Nei quadri in cui Venere si guarda allo specchio, quasi tutti diciamo che la dea
+    sta ammirando sé stessa. Eppure, dal suo punto di vista, spesso non potrebbe
+    vedersi: a vedere il suo volto nello specchio è chi osserva il quadro. Un gruppo
+    di ricerca italiano ha prima raccolto un catalogo di opere d'arte con specchi,
+    dai mosaici antichi agli affreschi, e poi ne ha mostrate 21 a circa duecento
+    persone online. La maggior parte cadeva nell'errore, chiamato "effetto Venere".
+    Chi se la cavava meglio in un test su che cosa si vede da un certo punto di vista
+    sbagliava meno, mentre la capacità di mettersi nei panni degli altri non faceva
+    differenza. Per gli autori, l'errore nasce dalla difficoltà di immaginare una
+    scena da un'altra posizione: un piccolo enigma dell'arte che svela come
+    funziona la nostra mente.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: observers claim a character is looking at themselves when their reflection is visible, despite not sharing the viewpoint (Venus effect).'
+    - 'Abstract: part 1 survey and catalogue of artworks with mirrors (mosaics, painted pottery, frescos); part 2 online with 21 artworks, N = 97, effect in most participants; part 3 N = 101.'
+    - 'Abstract: AQ (cognitive/emotional perspective-taking) did not predict the effect, ROMP (visual perspective-taking) did; authors conclude the effect arises from failing to understand what can be seen from a viewpoint.'
+    review_note: 'Scientific reread: association with test scores worded as doing better/worse, not causation; conclusion attributed to the authors; "circa duecento" sums parts 2 and 3. Editorial reread: test acronyms replaced by plain descriptions.'
+publication:
+  published: no
+  featured: no

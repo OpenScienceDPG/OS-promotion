@@ -1,0 +1,118 @@
+schema_version: 1.0
+id: doi-10-1126-science-adq7188
+doi: 10.1126/science.adq7188
+bibliography:
+  title: "Matching sounds to shapes: Evidence of the bouba-kiki effect in naïve baby chicks"
+  authors: "Maria Loconsole; Silvia Benavides-Varela; Lucia Regolin"
+  journal: "Science"
+  volume: '391'
+  issue: '6787'
+  pages: '836-839'
+  year: 2026
+dpg:
+  authors:
+  - Maria Loconsole
+  - Lucia Regolin
+  verified: yes
+  verification_source: "Final publisher HTML (Science, read 2026-11-13): Loconsole and Regolin at Department of General Psychology, University of Padova; Benavides-Varela at DPSS and Padova Neuroscience Center. Vol. 391, Issue 6787, pp. 836-839 (February 2026; correction 2026-03-18 replaced Fig. 3C)."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.science.org/doi/10.1126/science.adq7188
+  iris_handle: 11577/3596959
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (University of Padova access); PDF not downloaded. Supplementary files not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.science.org/doi/10.1126/science.adq7188
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Borderline keep in ordinary mode: Data, code and materials availability states that all data are available in the main text or supplementary materials, and the article lists Data S1 and S2 as a supplementary download (article resource, not opened). Original movies only on request; authors state no new materials were generated. Loconsole and Regolin printed at DPG; official citation year 2026, 391(6787). Inventory green OA, no badge."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 16, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1126/science.adq7188
+  preregistration: []
+  data: https://doi.org/10.1126/science.adq7188
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data, code, and materials availability; Supplementary Materials (Data S1 and S2)
+  passage: All data are declared available in the main text or supplementary materials; the article lists Data S1 and S2 as a supplementary download. Declaration read; supplementary files not opened, manual check pending.
+  url: https://www.science.org/doi/10.1126/science.adq7188
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Data, code, and materials availability
+  passage: Original experimental movies available upon request through a link; no new materials generated; no preregistration.
+  url: https://www.science.org/doi/10.1126/science.adq7188
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as green; no publisher OA badge.
+  url: https://doi.org/10.1126/science.adq7188
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti
+  article_resources:
+    data: 'Supplementary Materials: Data S1 and S2 (ZIP), declared to contain the data together with the main text.'
+  public_summary: >-
+    Perché la parola inventata "kiki" ci fa pensare a una forma spigolosa e "bouba"
+    a una tondeggiante? Persone di lingue diverse fanno lo stesso abbinamento, e da
+    tempo ci si chiede se dipenda dal linguaggio. Un gruppo di ricerca dell'Università
+    di Padova lo ha verificato con pulcini di tre giorni e, in un secondo esperimento,
+    con pulcini nati da meno di un giorno, senza alcun addestramento. Ogni pulcino
+    vedeva una figura tonda e una a punte, una accanto all'altra, mentre sentiva per
+    la prima volta "bouba" o "kiki". Proprio come noi, i pulcini si avvicinavano
+    spontaneamente alla forma a punte quando sentivano "kiki" e a quella rotonda con
+    "bouba". Per gli autori, questa capacità di collegare suoni e forme potrebbe
+    essere innata e diffusa in molte specie, molto più antica del linguaggio umano.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: humans across languages associate kiki with spiky and bouba with round shapes; tested in domestic chicks.'
+    - 'Abstract and Results: 3-day-old (Exp. 1) and 1-day-old (Exp. 2) chicks; Exp. 2 within 24 h of hatching, individual housing, no prior training or reward; round and spiky shapes side by side while bouba or kiki played for the first time.'
+    - 'Abstract: chicks spontaneously chose the spiky shape with kiki and the round shape with bouba.'
+    - 'Abstract and editor summary: a predisposed mechanism possibly widespread across species, which may not depend on language and may be older than previously believed.'
+    review_note: 'Scientific reread: animal study, choice behaviour as reported; evolutionary interpretation attributed to the authors and editor summary. Editorial reread: no statistics or jargon.'
+publication:
+  published: no
+  featured: no

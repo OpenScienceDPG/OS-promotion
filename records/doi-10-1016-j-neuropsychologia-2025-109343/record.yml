@@ -1,0 +1,81 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuropsychologia-2025-109343
+doi: 10.1016/j.neuropsychologia.2025.109343
+bibliography:
+  title: "Profiling electrophysiological and linguistic markers: implications for clinical and functional outcome in schizophrenia"
+  authors: "G. Agostoni; S. Zago; F. Repaci; M. Bechi; F. Pacchioni; M. Spangaro; J. Sapienza; Michele Francesco D'Incalci; A. Rosini; M. Ceresi; M. Buonocore; F. Martini; F. Cuoco; C. Guglielmino; F. Cocchi; R. Cavallaro; V. Bambini; G. Arcara; M. Bosia"
+  journal: "Neuropsychologia"
+  volume: '221'
+  issue: ~
+  pages: '109343'
+  year: 2026
+dpg:
+  authors: []
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-11): Arcara and Zago printed only at IRCCS San Camillo Hospital, Venice; other authors San Raffaele and IUSS Pavia; no DPG affiliation printed. Inventory lists Arcara at DPG. Vol. 221 (30 January 2026), 109343."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0028393225002787
+  iris_handle: 11577/3575381
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://www.sciencedirect.com/science/article/pii/S0028393225002787
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Scope reject: no author printed at DPG (Arcara and Zago only at IRCCS San Camillo; inventory lists Arcara at DPG). Group-level grand averages declared shared on OSF 3y2kw, not assessed as a practice. Official citation year 2026, vol. 221. Override only with publication-time DPG evidence (compare doi-10-1126-sciadv-adu4098)."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 14, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.neuropsychologia.2025.109343
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "Protocol folder with group-level grand averages (MMN waveforms, aperiodic components) declared shared on OSF (https://osf.io/3y2kw, not opened); not assessed further because no author is printed at DPG."
+  url: https://www.sciencedirect.com/science/article/pii/S0028393225002787
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as green.
+  url: https://doi.org/10.1016/j.neuropsychologia.2025.109343
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

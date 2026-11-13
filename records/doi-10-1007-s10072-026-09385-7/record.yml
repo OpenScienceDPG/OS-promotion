@@ -1,0 +1,122 @@
+schema_version: 1.0
+id: doi-10-1007-s10072-026-09385-7
+doi: 10.1007/s10072-026-09385-7
+bibliography:
+  title: "Brief tests for the assessment of language-executive functions: normative data for the Italian population"
+  authors: "Stefano Zago; Thomas Rasi; Edoardo Nicolò Aiello; Francesca Frisco; Arianna Moreschi; Giulia De Luca; Beatrice Curti; Aurora Corso; Teresa Difonzo; Lorenzo Lorusso; Anna Formenti; Antonio Tetto; Elisa Di Rosa; Barbara Poletti; Nadia Bolognini; Paolo Caffarra"
+  journal: "Neurological Sciences"
+  volume: '47'
+  issue: '10'
+  pages: '781'
+  year: 2026
+dpg:
+  authors:
+  - Elisa Di Rosa
+  verified: yes
+  verification_source: "Final publisher HTML (Springer Nature Link, read 2026-11-11), Authors and Affiliations: Di Rosa at Department of General Psychology, University of Padova, and IRCCS San Camillo Hospital, Venice; other authors outside DPG. Vol. 47, issue 10 (October 2026), article 781; online 2026-09-12."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://link.springer.com/article/10.1007/s10072-026-09385-7
+  iris_handle: 11577/3614718
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser
+    (University of Padova access); PDF not downloaded. Supplementary material not opened.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://link.springer.com/article/10.1007/s10072-026-09385-7
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, borderline: updated regression-based Italian norms for five brief language-executive tests, with a spreadsheet for automatic computation of adjusted and equivalent scores stated to be provided in Supplementary Material 2 (supplement at the article page); counted as reusable_tool via curation.article_resources, following the SCWT-SF precedent doi-10-1017-s1355617726102148 (same team, same pending question). Supplement not opened. Data not public (request plus data transfer agreement). Di Rosa printed at DPG and San Camillo; 2026, vol. 47(10). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 14, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: yes
+resources:
+  article: https://doi.org/10.1007/s10072-026-09385-7
+  preregistration: []
+  data: []
+  code: https://doi.org/10.1007/s10072-026-09385-7
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - reusable_tool
+  source: article_html
+  location: Results, normative data (adjustment equations and equivalent scores, Table 4); Supplementary Information
+  passage: A spreadsheet for the automatic computation of adjusted scores and equivalent
+    scores from demographic features and raw scores is stated to be provided in Supplementary
+    Material 2, listed at the article page. Statement read; supplement not opened, manual check pending.
+  url: https://doi.org/10.1007/s10072-026-09385-7
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Data availability
+  passage: Datasets not publicly available because of sensitive information; available
+    on reasonable request subject to a data transfer agreement. No preregistration.
+  url: https://link.springer.com/article/10.1007/s10072-026-09385-7
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1007/s10072-026-09385-7
+  verification: unverified
+curation:
+  status: curated
+  why_open: Uno strumento che altri possono riutilizzare, come un programma o un test
+  public_summary: >-
+    Provate a dire, in un minuto, tutte le parole che vi vengono in mente e che iniziano
+    con una certa lettera, oppure tutti gli animali che conoscete. Sembra un gioco, ma
+    è una prova che neurologi e neuropsicologi usano spesso per capire come lavorano
+    insieme linguaggio e capacità di controllo mentale. Servono però valori di riferimento
+    aggiornati, e in Italia molti avevano decenni. Il gruppo di ricerca ha proposto cinque prove
+    brevi di questo tipo, tra cui una in cui bisogna dare un nome a delle azioni, a 317
+    adulti sani tra i 40 e gli 89 anni. Ne sono nate tabelle nuove che tengono conto di
+    età e istruzione, accompagnate da un foglio di calcolo che fa i conti in automatico:
+    uno strumento pronto per la pratica clinica e la ricerca.
+  topics: []
+  article_resources:
+    code: 'Supplementary Material 2 of the article: spreadsheet for automatic computation
+      of adjusted scores and equivalent scores (stated in Results, normative data).'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-11-11'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Aim: updated Italian norms for phonemic, semantic, alternate and verb fluency and a short action verb-naming test.'
+    - 'Abstract Methods: 317 healthy Italian adults aged 40-89; regression-based norms via the Equivalent Score method.'
+    - 'Abstract Results: age and education predicted all measures, sex only semantic fluency.'
+    - 'Results: spreadsheet for automatic computation of adjusted and equivalent scores in Supplementary Material 2.'
+    - 'Introduction: most Italian fluency norms are 10 to 40 years old.'
+    review_note: 'Scientific reread: opening is an illustrative description of fluency tasks, not a study fact; sex effect limited to one test so omitted. Editorial reread: no acronyms or statistics, one number for the sample.'
+publication:
+  published: no
+  featured: no

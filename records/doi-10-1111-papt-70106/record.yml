@@ -1,0 +1,115 @@
+schema_version: 1.0
+id: doi-10-1111-papt-70106
+doi: 10.1111/papt.70106
+bibliography:
+  title: "'Merge my breath with the one of nature': Qualitative analysis on focus groups exploring how nature exposure could improve positive body image in young women"
+  authors: "Paolo Mancin; Sara Iannattone; Fidan Turk; Marta Ghisi; Silvia Cerea"
+  journal: "Psychology and Psychotherapy: Theory, Research and Practice"
+  volume: ~
+  issue: ~
+  pages: ~
+  year: 2026
+dpg:
+  authors:
+  - Paolo Mancin
+  - Sara Iannattone
+  - Marta Ghisi
+  - Silvia Cerea
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley Online Library, read 2026-11-13): Mancin, Iannattone, Ghisi and Cerea at Department of General Psychology, University of Padua (Ghisi also University-Hospital of Padua); Turk at University of Exeter. Early View, first published 2026-09-04, no volume yet."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/papt.70106
+  iris_handle: 11577/3611601
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (open access article); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/papt.70106
+    outcome: Full HTML read in the connected browser; page labelled Open Access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Borderline keep: open_materials rests on the complete semi-structured focus-group guide printed in Table 2 of the open-access article (article resource, same convention as the appendix-items precedents). Transcripts and codes only on request (open_data false). Four DPG authors; Early View 2026, no volume yet. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 15, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1111/papt.70106
+  preregistration: []
+  data: []
+  code: []
+  materials: https://doi.org/10.1111/papt.70106
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: article_html
+  location: "Methods, Dataset generation, Table 2"
+  passage: "Table 2 prints the final semi-structured focus-group guide (steps, core and probe questions) in the open-access article itself."
+  url: https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/papt.70106
+  verification: agent-verified
+- claims: []
+  source: article_html
+  location: Data availability statement
+  passage: Pseudonymized transcripts and codes available from the corresponding author on request; no preregistration or code.
+  url: https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/papt.70106
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge; publisher page shows Open Access.
+  url: https://doi.org/10.1111/papt.70106
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista
+  article_resources:
+    materials: 'Methods, Dataset generation, Table 2: complete semi-structured focus-group guide (introduction, core and probe questions, conclusion) printed in the article itself.'
+  public_summary: >-
+    Una passeggiata in montagna o un pomeriggio al mare possono cambiare il modo in
+    cui guardiamo il nostro corpo? Per scoprirlo, un gruppo di ricerca ha riunito 19
+    giovani donne italiane che amano stare all'aria aperta, in sei piccoli gruppi di
+    discussione guidati da una ricercatrice, e ha analizzato con cura i loro racconti.
+    Ne sono emersi tre temi. In natura le partecipanti dicevano di ascoltare meglio il
+    proprio corpo e di apprezzarlo per ciò che sa fare, come raggiungere una vetta.
+    Lontano dagli sguardi e dai confronti con gli altri, l'aspetto fisico perdeva
+    importanza. Infine, la natura le aiutava a staccare dallo stress e a ritrovare sé
+    stesse. Secondo gli autori, queste esperienze indicano piste preziose per nuovi
+    studi e per interventi che aiutino le giovani donne a volersi bene, anche grazie
+    al tempo trascorso nella natura.
+  topics: []
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract and Methods: six focus groups with 19 young Italian women who expose themselves to nature, moderated by the same researcher (SI); reflexive thematic analysis.'
+    - 'Results: three themes - nature strengthens a connection with the body (body signals, appreciating what the body does, e.g. climbing a mountain; unity with nature); nature reduces emphasis on appearance (no judging gaze, fewer comparisons); nature as a catalyst for self-(re)connection (mental release, self-rediscovery).'
+    - 'Abstract conclusions: directions for future quantitative studies and for prevention and intervention using nature exposure.'
+    review_note: 'Scientific reread: qualitative perceptions reported as what participants said; mountain/sea opening is a rhetorical question, not a study fact; implications attributed to the authors. Age range not stated because abstract (22-35) and Table 1 (20-35) differ. Editorial reread: no jargon.'
+publication:
+  published: no
+  featured: no

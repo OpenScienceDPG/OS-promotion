@@ -1,0 +1,109 @@
+schema_version: 1.0
+id: doi-10-1016-s2215-0366-25-00330-x
+doi: 10.1016/s2215-0366(25)00330-x
+bibliography:
+  title: "Comparison of antidepressant deprescribing strategies in individuals with clinically remitted depression: a systematic review and network meta-analysis"
+  authors: "Chiara Gastaldon; Lorenzo Benedetti; Carolina Gottardi; Davide Papola; Ottavia Ponzi; Marianna Purgato; Florian Naudet; Ioana Alina Cristea; Corrado Barbui; Giovanni Ostuzzi"
+  journal: "The Lancet Psychiatry"
+  volume: '13'
+  issue: '1'
+  pages: '24-36'
+  year: 2026
+dpg:
+  authors:
+  - Ioana Alina Cristea
+  verified: yes
+  verification_source: "Publisher page (ScienceDirect article preview, read 2026-11-13): Cristea at Department of General Psychology, University of Padova; other authors Verona and Rennes. Volume 13, Issue 1, January 2026, pp. 24-36; online 2025-12-10."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S221503662500330X
+  iris_handle: 11577/3582219
+  note: Only the article preview (full structured abstract, author affiliations and section snippets) was readable on 2026-11-13; University of Padova does not subscribe to this journal on ScienceDirect. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/abs/pii/S221503662500330X
+    outcome: Article preview only (no subscription); abstract and Methods snippet read.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based, from the article preview: abstract states the study was registered with OSF and the Methods snippet states the protocol was prospectively registered at https://osf.io/9bsxz/ (changes to the protocol reported). Full text not accessible, so data/code/materials remain unknown. Resource not opened, Enrico check pending. Cristea printed at DPG; official citation year 2026, 13(1). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 17, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/S2215-0366(25)00330-X
+  preregistration: https://osf.io/9bsxz/
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: article_html
+  location: Abstract (Methods); Methods, Search strategy and selection criteria (preview snippet)
+  passage: The study protocol is declared prospectively registered with the Open Science Framework at the printed link, with protocol changes reported. Declaration and link read; registration not opened, manual check pending.
+  url: https://osf.io/9bsxz/
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed; no OA badge.
+  url: https://doi.org/10.1016/S2215-0366(25)00330-X
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati
+  public_summary: >-
+    Chi sta meglio dopo una depressione curata con gli antidepressivi prima o poi si
+    chiede: posso smettere? E come? Un gruppo di ricerca italiano e francese ha
+    riunito e confrontato 76 studi clinici con più di 17 mila persone che stavano
+    bene dopo una depressione o un disturbo d'ansia. Nei diversi studi la terapia
+    veniva sospesa di colpo, ridotta in fretta o molto lentamente, con o senza un
+    sostegno psicologico, oppure proseguita. Nella depressione, ridurre il farmaco
+    gradualmente, in più di un mese, affiancando un aiuto psicologico, proteggeva
+    dalle ricadute quanto continuare la cura, e meglio che smettere all'improvviso o
+    in poche settimane. Per gli autori, le linee guida dovrebbero promuovere percorsi
+    di sospensione su misura, graduali e accompagnati da un sostegno psicologico
+    strutturato.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Methods: systematic review and network meta-analysis of RCTs comparing abrupt discontinuation, fast tapering (4 weeks or less), slow tapering (over 4 weeks), dose reduction or continuation, with or without psychological support, in adults with remitted depressive or anxiety disorders.'
+    - 'Abstract Findings: 76 trials, 17 379 participants; continuation and slow tapering plus psychological support outperformed abrupt discontinuation and fast tapering for relapse prevention.'
+    - 'Abstract Interpretation: in remitted depression slow tapering plus psychological support is as effective as continuation and superior to abrupt or rapid discontinuation; guidelines should promote individualised gradual deprescribing with structured psychological support.'
+    review_note: 'Scientific reread: comparative claim limited to depression, as in the authors interpretation; guideline recommendation attributed to the authors; no individual medical advice. Summary based on the full structured abstract because the full text was not accessible. Editorial reread: no statistics.'
+publication:
+  published: no
+  featured: no

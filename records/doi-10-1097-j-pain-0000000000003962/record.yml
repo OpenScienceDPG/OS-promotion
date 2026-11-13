@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1097-j-pain-0000000000003962
+doi: 10.1097/j.pain.0000000000003962
+bibliography:
+  title: "Response to Shala: Temporal predictability of pain shapes motor system inhibition"
+  authors: "Daniela Dalbagno; Sonia Betti; Sara Garofalo; Vanessa Mannari; Giuseppe di Pellegrino; Francesca Starita"
+  journal: "PAIN"
+  volume: '167'
+  issue: '6'
+  pages: 'e204-e205'
+  year: 2026
+dpg:
+  authors:
+  - Sonia Betti
+  verified: yes
+  verification_source: "Final publisher HTML (Ovid, read 2026-11-11) and Crossref affiliations: Betti at Department of General Psychology, University of Padova; other authors University of Bologna. Vol. 167, issue 6 (June 2026), pp. e204-e205."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.ovid.com/jnls/pain/fulltext/10.1097/j.pain.0000000000003962~response-to-shala-temporal-predictability-of-pain-shapes
+  iris_handle: 11577/3606700
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://www.ovid.com/jnls/pain/fulltext/10.1097/j.pain.0000000000003962~response-to-shala-temporal-predictability-of-pain-shapes
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: two-page reply to a letter to the editor; no preregistration, data, code, materials or reusable tool. Betti printed at DPG; 2026, vol. 167(6). DOI and LWW links redirect to the Ovid journal home; full text found through the Ovid journal search. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 14, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1097/j.pain.0000000000003962
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Full text (letter to the editor)"
+  passage: "Two-page reply to a letter to the editor; no data, code, materials, registration or availability statement."
+  url: https://www.ovid.com/jnls/pain/fulltext/10.1097/j.pain.0000000000003962~response-to-shala-temporal-predictability-of-pain-shapes
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1097/j.pain.0000000000003962
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

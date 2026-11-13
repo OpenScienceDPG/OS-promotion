@@ -1,0 +1,72 @@
+schema_version: 1.0
+id: doi-10-1080-10888691-2025-2498730
+doi: 10.1080/10888691.2025.2498730
+bibliography:
+  title: "Malleability of emotions: Developing the robust incremental beliefs about emotion scale for elementary school children (RIBES-C)"
+  authors: "Daniela Raccanello; Giada Vicentini; Angelica Moè; Stephanie Lichtenfeld; Roberto Burro"
+  journal: "Applied Developmental Science"
+  volume: ~
+  issue: ~
+  pages: ~
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Not verified: full text not accessible. Taylor & Francis landing page (2026-11-13) gives authors and online publication 2025-05-06, no volume yet; inventory lists Moè as DPG, unconfirmed against printed affiliations."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/10888691.2025.2498730
+  iris_handle: 11577/3554619
+  note: Full text not accessible on 2026-11-13; practices not assessed.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.tandfonline.com/doi/full/10.1080/10888691.2025.2498730
+    outcome: Abstract only; University of Padova access does not include the full text.
+  - date: '2026-11-13'
+    url: https://hdl.handle.net/11577/3554619
+    outcome: Padova IRIS file is private (restricted access).
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Unresolved access: Taylor & Francis full text not covered by the university subscription; IRIS file private. Scale-development paper: items may be printed in the article. Next step: Enrico or Moè supply the PDF. Not a completed screening or rejection."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 18, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: full-text-not-accessible
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/10888691.2025.2498730
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

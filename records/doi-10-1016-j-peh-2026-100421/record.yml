@@ -1,0 +1,85 @@
+schema_version: 1.0
+id: doi-10-1016-j-peh-2026-100421
+doi: 10.1016/j.peh.2026.100421
+bibliography:
+  title: "Unpacking muscle dysmorphia symptoms in competitive powerlifters: gender differences and the role of psychological features, instagram use, and objective performance indicators"
+  authors: "Silvia Cerea; Hillary Pontalto; Paolo Mancin; Scott Griffiths; Antonio Paoli; Marta Ghisi"
+  journal: "Performance Enhancement & Health"
+  volume: '14'
+  issue: '2'
+  pages: '100421'
+  year: 2026
+dpg:
+  authors:
+  - Silvia Cerea
+  - Hillary Pontalto
+  - Paolo Mancin
+  - Marta Ghisi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-11): Cerea, Pontalto, Mancin and Ghisi at Department of General Psychology, University of Padova; Paoli at Biomedical Sciences; Griffiths at Melbourne. Vol. 14, issue 2 (May 2026), 100421."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S2211266926000095
+  iris_handle: 11577/3597404
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://www.sciencedirect.com/science/article/pii/S2211266926000095
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: data only on request from the corresponding author; no preregistration, public resource or reusable tool. Cerea, Pontalto, Mancin and Ghisi printed at DPG (Paoli at Biomedical Sciences, listed in inventory); 2026, vol. 14(2). Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 14, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.peh.2026.100421
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability statement"
+  passage: "Data available on request from the corresponding author; no preregistration or public resource link."
+  url: https://www.sciencedirect.com/science/article/pii/S2211266926000095
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as hybrid.
+  url: https://doi.org/10.1016/j.peh.2026.100421
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

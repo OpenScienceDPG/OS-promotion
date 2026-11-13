@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1016-j-biopsycho-2025-109083
+doi: 10.1016/j.biopsycho.2025.109083
+bibliography:
+  title: "Unveiling the neural correlates of prospective memory: An ecological EEG study"
+  authors: "Paola Santacesaria; Stefano Vicentin; Sara Zago; Giorgio Arcara; Giorgia Cona"
+  journal: "Biological Psychology"
+  volume: '199'
+  issue: ~
+  pages: '109083'
+  year: 2025
+dpg:
+  authors:
+  - Stefano Vicentin
+  - Giorgia Cona
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-13): Vicentin and Cona at Department of General Psychology, University of Padua (Cona also Padua Neuroscience Center); Santacesaria at Padua Neuroscience Center; Zago and Arcara at IRCCS San Camillo. Vol. 199 (July 2025), 109083."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0301051125001012
+  iris_handle: 11577/3560521
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S0301051125001012
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: data will be made available on request; no registration or public resource. Vicentin and Cona printed at DPG; citation year 2025, vol. 199. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 18, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.biopsycho.2025.109083
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Data availability
+  passage: Data will be made available on request; no registration or repository link.
+  url: https://www.sciencedirect.com/science/article/pii/S0301051125001012
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as hybrid.
+  url: https://doi.org/10.1016/j.biopsycho.2025.109083
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

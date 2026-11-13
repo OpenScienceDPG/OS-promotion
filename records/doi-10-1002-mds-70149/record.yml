@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1002-mds-70149
+doi: 10.1002/mds.70149
+bibliography:
+  title: "Author Response to Comment on “Neuropsychological Tests of Memory, Visuospatial, and Language Function in Parkinson's Disease: Review, Critique, and Recommendations”"
+  authors: "Ondrej Bezdicek; Roberta Biundo; Matej Skorvanek; Daniel Weintraub; Gert J. Geurtsen"
+  journal: "Movement Disorders"
+  volume: '41'
+  issue: '1'
+  pages: '283'
+  year: 2026
+dpg:
+  authors:
+  - Roberta Biundo
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley Online Library, read 2026-11-11), author affiliations: Biundo at Department of General Psychology, University of Padua (also Department of Neuroscience); other authors outside Padova. Vol. 41, issue 1 (January 2026), first published online 2025-12-16."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70149
+  iris_handle: 11577/3583022
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70149
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: one-page author reply to a comment on a published review; no preregistration, data, code, materials or reusable tool. Biundo printed at DPG; official citation year 2026, vol. 41(1). Inventory closed OA, no badge."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 13, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1002/mds.70149
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Full text (author reply letter)"
+  passage: "One-page author reply to a published comment; no data, code, materials, registration or availability statement."
+  url: https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.70149
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1002/mds.70149
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,86 @@
+schema_version: 1.0
+id: doi-10-1016-j-psychsport-2026-103079
+doi: 10.1016/j.psychsport.2026.103079
+bibliography:
+  title: "Effects of non-functional overreaching and overtraining syndrome on psychological and cognitive functioning in elite athletes: A systematic review"
+  authors: "Alice Valdesalici; Enrico Sella; Riccardo Domenicucci; Marta Ghisi; Erika Borella"
+  journal: "Psychology of Sport and Exercise"
+  volume: '84'
+  issue: ~
+  pages: '103079'
+  year: 2026
+dpg:
+  authors:
+  - Alice Valdesalici
+  - Enrico Sella
+  - Riccardo Domenicucci
+  - Marta Ghisi
+  - Erika Borella
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-13): all five authors at Department of General Psychology, University of Padova (Ghisi also University-Hospital of Padova). Vol. 84 (May 2026), 103079."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S1469029226000191
+  iris_handle: 11577/3582379
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (Enrico passed the ScienceDirect human check himself); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S1469029226000191
+    outcome: Full HTML read in the connected browser after Enrico passed the human check; page labelled Open access under a Creative Commons licence.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: data available on request; protocol stated pre-registered with PROSPERO but neither identifier nor link printed, so no qualifying preregistration evidence. Five DPG authors; official citation year 2026, vol. 84. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 15, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.psychsport.2026.103079
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Section 2.1; Data availability"
+  passage: "Review protocol stated pre-registered with PROSPERO, without registration number or URL; data stated available on request."
+  url: https://www.sciencedirect.com/science/article/pii/S1469029226000191
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as hybrid; publisher page shows Open access under a Creative Commons license.
+  url: https://doi.org/10.1016/j.psychsport.2026.103079
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

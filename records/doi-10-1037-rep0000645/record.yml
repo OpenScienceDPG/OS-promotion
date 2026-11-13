@@ -1,0 +1,118 @@
+schema_version: 1.0
+id: doi-10-1037-rep0000645
+doi: 10.1037/rep0000645
+bibliography:
+  title: "The effectiveness of i-virtual reality and telemedicine based cognitive approach for rehabilitation of prospective memory in individuals with Parkinson's disease and mild cognitive impairment: A randomized-controlled trial"
+  authors: "Silvia Zabberoni; Maria Stefania De Simone; Sara Taglieri; Gaetano Tieri; Giorgia Cona; Eleonora Fiorenzato; Antonella Peppe; Valentina Massimi; Gian Daniele Zannino; Giovanni Augusto Carlesimo; Angelo Antonini; Carlo Caltagirone; Alberto Costa"
+  journal: "Rehabilitation Psychology"
+  volume: '71'
+  issue: '3'
+  pages: '417-430'
+  year: 2026
+dpg:
+  authors:
+  - Giorgia Cona
+  - Eleonora Fiorenzato
+  verified: yes
+  verification_source: "Final publisher PDF (APA PsycNet, read 2026-11-13): Cona and Fiorenzato at affiliation 4, Department of General Psychology, University of Padua; Antonini at Padova clinical/neuroscience affiliations, not DPG; other authors Niccolò Cusano, IRCCS Santa Lucia, Unitelma Sapienza. 2026, Vol. 71, No. 3, 417-430."
+source:
+  pdf_file: 10.1037_rep0000645.pdf
+  pdf_path: ~
+  md5: 14c7d06f66bf195e648f3183a1bef7fe
+  article_url: https://psycnet.apa.org/record/2027-30460-001
+  iris_handle: 11577/3587038
+  note: Publisher PDF obtained on 2026-11-13 through APA PsycNet institutional access (University of Padova) in Enrico's connected browser, screened with 01/02 scripts and deleted after finalization. Supplement not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://psycnet.apa.org/fulltext/2027-30460-001.pdf
+    outcome: Direct script download refused (403); PDF saved from the connected browser after institutional access was verified.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Borderline keep in ordinary mode: CONSORT checklist and relevant study materials declared provided in the Online Supplemental Material, with printed supplement link (not opened). Data only on request (open_data false). Trial registered at ClinicalTrials.gov NCT06801782, identifier only and no registration timing printed: preregistration left null. Cona and Fiorenzato printed at DPG; official citation year 2026, 71(3). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 16, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1037/rep0000645
+  preregistration: []
+  data: []
+  code: []
+  materials: https://doi.org/10.1037/rep0000645.supp
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: pdf
+  location: PDF p.3 (article p.419), Method
+  passage: CONSORT checklist and relevant study materials are declared provided in the Online Supplemental Material; the supplement link is printed on the first page. Declaration and link read; resource not opened, manual check pending.
+  url: https://doi.org/10.1037/rep0000645.supp
+  verification: unverified
+- claims: []
+  source: pdf
+  location: PDF p.3, Method; author note
+  passage: Data derived from the study available upon request. Trial registered at ClinicalTrials.gov with identifier NCT06801782, without URL or registration date.
+  url: https://doi.org/10.1037/rep0000645
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed; no OA badge.
+  url: https://doi.org/10.1037/rep0000645
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli
+  public_summary: >-
+    Ricordarsi di prendere una medicina all'ora giusta o di fare una telefonata dopo
+    cena: è la memoria "per il futuro", che nel Parkinson con lievi difficoltà
+    cognitive spesso vacilla. Un gruppo di ricerca italiano ha messo alla prova un
+    allenamento a distanza in realtà virtuale: 30 pazienti, con un visore, si
+    muovevano in un supermercato virtuale a grandezza naturale. Metà svolgeva esercizi
+    via via più impegnativi di pianificazione e di attenzione flessibile, l'altra metà
+    attività quotidiane simili ma più semplici, con tre sedute a settimana per un
+    mese, seguite a distanza dai clinici. Chi aveva seguito l'allenamento più
+    impegnativo ricordava meglio di eseguire le azioni programmate, e il miglioramento
+    si manteneva ancora due mesi dopo. Per gli autori, realtà virtuale e telemedicina
+    aprono strade nuove e promettenti per allenare la memoria anche senza spostarsi
+    da casa.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 30 PD-MCI patients randomized to training or active placebo; training with planning, shifting and updating exercises of increasing difficulty in an immersive virtual environment; placebo with similar daily tasks of lower demand; all remotely via telemedicine with iVR headsets.'
+    - 'Method: life-size virtual supermarket as setting; sessions three times per week over 4 weeks; headset delivered at the clinic, then remote sessions.'
+    - 'Abstract results: training group improved on prospective memory tasks versus placebo, with effects lasting at the 2-month follow-up.'
+    - 'Abstract conclusion: authors highlight the potential of iVR and telemedicine for cognitive interventions.'
+    review_note: 'Scientific reread: RCT result stated as group difference; executive-task null result omitted as a caveat; application attributed to authors. Medicine/phone examples illustrate prospective memory, not study tasks. Editorial reread: no statistics or acronyms.'
+publication:
+  published: no
+  featured: no

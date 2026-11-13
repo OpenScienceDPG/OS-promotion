@@ -1,0 +1,113 @@
+schema_version: 1.0
+id: doi-10-1016-j-applanim-2025-106788
+doi: 10.1016/j.applanim.2025.106788
+bibliography:
+  title: "Preference for complex environments in larval zebrafish"
+  authors: "Elia Gatto; Christian Agrillo; Marco Dadda; Angelo Bisazza"
+  journal: "Applied Animal Behaviour Science"
+  volume: '292'
+  issue: ~
+  pages: '106788'
+  year: 2025
+dpg:
+  authors:
+  - Christian Agrillo
+  - Marco Dadda
+  - Angelo Bisazza
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-13): Agrillo, Dadda and Bisazza at Department of General Psychology, University of Padova (Agrillo and Bisazza also Padova Neuroscience Center); Gatto at University of Ferrara. Vol. 292 (November 2025), 106788."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0168159125002862
+  iris_handle: 11577/3583467
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (open access); PDF not downloaded. Supplementary file not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S0168159125002862
+    outcome: Full HTML read in the connected browser; page labelled Open access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Borderline keep in ordinary mode: Data availability states datasets are available as supplementary material, and Appendix A lists the supplementary file (article resource, not opened). Same convention as doi-10-1126-science-adq7188. Agrillo, Dadda and Bisazza printed at DPG; citation year 2025, vol. 292. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 17, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.applanim.2025.106788
+  preregistration: []
+  data: https://doi.org/10.1016/j.applanim.2025.106788
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data availability; Appendix A. Supplementary material
+  passage: Datasets are declared available as supplementary material of the open-access article. Declaration read; supplementary file not opened, manual check pending.
+  url: https://www.sciencedirect.com/science/article/pii/S0168159125002862
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge; publisher page shows Open access.
+  url: https://doi.org/10.1016/j.applanim.2025.106788
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  article_resources:
+    data: 'Appendix A. Supplementary material: file declared in the Data availability statement to contain the datasets.'
+  public_summary: >-
+    Anche un pesciolino appena nato ha i suoi gusti in fatto di casa? Un gruppo di
+    ricerca delle università di Padova e Ferrara lo ha chiesto alle larve di pesce
+    zebra, un piccolo pesce molto studiato nei laboratori, a pochi giorni dalla
+    schiusa. Le larve potevano scegliere tra una zona vuota e una arredata con oggetti
+    di forme e colori diversi. All'inizio esitavano davanti alle novità, ma entro
+    un'ora e mezza cominciavano a preferire la zona arredata, e il giorno dopo la
+    preferenza era ancora più netta. Anche le fotografie degli oggetti le attiravano,
+    ma meno di quelli veri, mentre oggetti trasparenti o tutti bianchi le lasciavano
+    indifferenti: contavano soprattutto la vista e il colore. Per gli autori, questi
+    risultati invitano a ripensare l'allevamento delle larve, con ambienti più ricchi
+    fin dai primi giorni di vita.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Exp. 1: larvae aged 4-6 days post-fertilization preferred an environment with objects of varying shape and colour over a barren one; preference emerged within 90 min and peaked the following day, after an initial neophobic response.'
+    - 'Abstract Exp. 2-3: photographs of objects attracted larvae but less than real objects; transparent and white objects were ineffective.'
+    - 'Highlights and abstract: visual input, especially colour, is key; authors call for reassessing husbandry practices and research protocols.'
+    review_note: 'Scientific reread: animal behaviour reported as observed; neophobia rendered as initial hesitation; husbandry implication attributed to the authors. Editorial reread: no jargon or statistics.'
+publication:
+  published: no
+  featured: no

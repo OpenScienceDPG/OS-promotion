@@ -1,0 +1,85 @@
+schema_version: 1.0
+id: doi-10-1016-j-trpro-2026-02-078
+doi: 10.1016/j.trpro.2026.02.078
+bibliography:
+  title: "Conceptualizing Social Sustainability in Urban Mobility: A Framework for Future Questionnaire Development"
+  authors: "Marilina Pellegrini; Lucia Bosone; Andrea Spoto; Mariaelena Tagliabue; Riccardo Ceccato; Massimiliano Gastaldi; Riccardo Rossi"
+  journal: "Transportation Research Procedia"
+  volume: '95'
+  issue: ~
+  pages: '616-623'
+  year: 2026
+dpg:
+  authors:
+  - Marilina Pellegrini
+  - Andrea Spoto
+  - Mariaelena Tagliabue
+  - Massimiliano Gastaldi
+  verified: yes
+  verification_source: "Final publisher PDF (ScienceDirect open access, read 2026-11-13): Pellegrini, Spoto, Tagliabue and Gastaldi at affiliation a, Department of General Psychology, University of Padova; Ceccato and Rossi at Civil, Environmental and Architectural Engineering; Bosone at Gustave Eiffel. Vol. 95 (2026), pp. 616-623."
+source:
+  pdf_file: 10.1016_j.trpro.2026.02.078.pdf
+  pdf_path: ~
+  md5: 134ca69fdbe83406bfdb7acc7379815c
+  article_url: https://www.sciencedirect.com/science/article/pii/S2352146526001407
+  iris_handle: 11577/3589578
+  note: Open-access publisher PDF saved from Enrico's connected browser on 2026-11-13 (the HTML page shows only the abstract), screened with 01/02 scripts and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S2352146526001407
+    outcome: HTML abstract only; open-access PDF saved from the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: screen-2.0
+  algorithm_score: ~
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: conference literature review proposing a conceptual framework for a future questionnaire; no data, code, materials, registration or released tool. Four DPG authors; official citation year 2026, vol. 95. Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 17, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.trpro.2026.02.078
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: "PDF pp. 616-623 (Method, end matter)"
+  passage: "Narrative literature review and conceptual model; the questionnaire is announced as future work; no availability statement or repository link."
+  url: https://www.sciencedirect.com/science/article/pii/S2352146526001407
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as gold; publisher page shows Open access under a Creative Commons license.
+  url: https://doi.org/10.1016/j.trpro.2026.02.078
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

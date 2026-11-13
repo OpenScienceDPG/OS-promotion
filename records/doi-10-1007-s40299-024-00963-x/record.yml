@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1007-s40299-024-00963-x
+doi: 10.1007/s40299-024-00963-x
+bibliography:
+  title: "Teacher Emotion Regulation in Chinese Rural and Urban Schools: Impact on Burnout and Teaching Styles"
+  authors: "Jiawei Wang; Qiang Xing; Angelica Moè"
+  journal: "The Asia-Pacific Education Researcher"
+  volume: '35'
+  issue: ~
+  pages: '79-92'
+  year: 2026
+dpg:
+  authors:
+  - Angelica Moè
+  verified: yes
+  verification_source: "Final publisher HTML (Springer Nature Link, read 2026-11-13): Moè at Department of General Psychology, University of Padua; Wang and Xing at Shenzhen and Guangzhou. Published online 2024-12-28; Volume 35, pages 79-92 (2026)."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://link.springer.com/article/10.1007/s40299-024-00963-x
+  iris_handle: 11577/3596999
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (University of Padova access); PDF not downloaded. Inventory has two rows (handles 11577/3544289 with year 2024 and 11577/3596999 with year 2026) for the same DOI.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://link.springer.com/article/10.1007/s40299-024-00963-x
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: data available on request to the first author; no registration or public resource. Moè printed at DPG; official citation year 2026, vol. 35 (online 2024). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 17, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1007/s40299-024-00963-x
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Data availability
+  passage: Data available on request to the first author; no registration or repository link.
+  url: https://link.springer.com/article/10.1007/s40299-024-00963-x
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1007/s40299-024-00963-x
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

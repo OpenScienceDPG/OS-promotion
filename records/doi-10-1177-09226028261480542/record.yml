@@ -1,0 +1,119 @@
+schema_version: 1.0
+id: doi-10-1177-09226028261480542
+doi: 10.1177/09226028261480542
+bibliography:
+  title: "Complementary Visual Assessment: Validation of a High-Precision Eye-Tracking Kinetic Perimetry in the Evaluation of Visual Field Deficits in Hemianopia"
+  authors: "Carolina Maria Oletto; Francesco Costalunga; Eric Altieri; Cecilia Pugliese; Luca Semenzato; Sara Errigo; Davide Cantavenera; Luca Battaglini"
+  journal: "Restorative Neurology and Neuroscience"
+  volume: '44'
+  issue: '4'
+  pages: '465-476'
+  year: 2026
+dpg:
+  authors:
+  - Carolina Maria Oletto
+  - Francesco Costalunga
+  - Eric Altieri
+  - Cecilia Pugliese
+  - Luca Semenzato
+  - Sara Errigo
+  - Davide Cantavenera
+  - Luca Battaglini
+  verified: yes
+  verification_source: "Final publisher HTML (Sage, read 2026-11-13): all eight authors at Department of General Psychology, University of Padova (Costalunga, Altieri and Battaglini also Neuro.Vis.U.S. Laboratory). Vol. 44, Issue 4, pp. 465-476; first published online 2026-09-02."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/10.1177/09226028261480542
+  iris_handle: 11577/3613200
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (University of Padova access); PDF not downloaded. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://journals.sagepub.com/doi/10.1177/09226028261480542
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: perimetry software and collected data declared freely available on OSF 47rgt (view-only link printed in Data analysis and Data availability statement). Software counted as reusable_tool, not as analysis code. Resource not opened, Enrico check pending. Eight DPG authors; official citation year 2026, 44(4). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 16, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: yes
+resources:
+  article: https://doi.org/10.1177/09226028261480542
+  preregistration: []
+  data: https://osf.io/47rgt/?view_only=77deb925838041609b7b46a7d19236d2
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - reusable_tool
+  source: article_html
+  location: Methods, Data Analysis; Discussion; Data availability statement
+  passage: The software for this perimetry is declared available at the printed OSF view-only link together with the collected data, and made freely available so others can implement, adapt or extend the method. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/47rgt/?view_only=77deb925838041609b7b46a7d19236d2
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed; no OA badge.
+  url: https://doi.org/10.1177/09226028261480542
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Uno strumento che altri possono riutilizzare, come un programma o un test
+  public_summary: >-
+    Dopo un ictus o un trauma alla testa, alcune persone smettono di vedere metà di
+    ciò che hanno davanti, pur avendo gli occhi sani. Per capire se una riabilitazione
+    funziona bisogna misurare con precisione dove finisce la parte che si vede e dove
+    comincia quella cieca. Un gruppo di ricerca dell'Università di Padova ha messo a
+    punto un nuovo test al computer: un puntino bianco attraversa lo schermo e la
+    persona preme un tasto quando lo vede comparire e scomparire, mentre un apparecchio
+    controlla che lo sguardo resti fisso al centro. Il test è stato ripetuto due volte
+    su 17 pazienti e su 20 volontari con una perdita di vista simulata. Le due
+    misure coincidevano quasi perfettamente, ancora di più dopo un accorgimento che
+    ripulisce i dati. Un aiuto prezioso per capire se un miglioramento dopo la
+    riabilitazione è reale.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - reusable_tool
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Introduction: homonymous hemianopia from post-chiasmatic lesions, mostly stroke, then trauma and tumours; visual field assessment needed to monitor rehabilitation.'
+    - 'Methods: white dot crossing the screen, button press at appearance and disappearance; Tobii eye tracker monitoring fixation; test and retest in 17 patients and 20 controls with simulated defects.'
+    - 'Results: adjusted ICC above 0.90 in all conditions; LOESS noise reduction raised ICC to 0.996 and 0.988.'
+    - 'Discussion: authors propose changes above 5 degrees as beyond measurement variability, to judge improvements after training.'
+    review_note: 'Scientific reread: reliability described as agreement between two sessions; closing sentence reflects the authors stated purpose. Editorial reread: ICC, LOESS and eye tracker described in everyday words.'
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,127 @@
+schema_version: 1.0
+id: doi-10-1016-j-neubiorev-2026-106821
+doi: 10.1016/j.neubiorev.2026.106821
+bibliography:
+  title: "Hypersexuality across neurological disorders: A systematic review of aetiologies, clinical manifestations, assessment methods, and management strategies"
+  authors: "Alexa Schincariol; Rachele Pezzetta; Maria Devita; Huan Wan; Ping Yan; Stefano Ferracuti; Giuseppe Sartori; Matilde Ferrari Amorotti; Matilde Massara; Giovanna Parmigiani; Cristina Scarpazza"
+  journal: "Neuroscience and Biobehavioral Reviews"
+  volume: '188'
+  issue: ~
+  pages: '106821'
+  year: 2026
+dpg:
+  authors:
+  - Alexa Schincariol
+  - Maria Devita
+  - Giuseppe Sartori
+  - Matilde Ferrari Amorotti
+  - Matilde Massara
+  - Cristina Scarpazza
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-11): Schincariol (also Padova Neuroscience Center), Devita, Sartori, Ferrari Amorotti, Massara and Scarpazza (also San Camillo) at Department of General Psychology, University of Padova; other authors San Camillo, Wuhan, Sapienza, Modena-Reggio Emilia. Vol. 188 (September 2026), 106821."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0149763426002782
+  iris_handle: 11577/3601318
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser
+    (University of Padova access, no human check required); PDF not downloaded. Supporting
+    resource not opened.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://www.sciencedirect.com/science/article/pii/S0149763426002782
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: ready
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: datasets and materials supporting the review declared available in the OSF repository at osf.io/e9tqf (Data availability). Resource not opened, Enrico check pending. Abstract declares a preregistered review (PROSPERO CRD42023446088) but no registry URL is printed: preregistration left null, pending the identifier-only decision (compare doi-10-1016-j-jad-2026-121539). Six DPG authors; 2026, vol. 188. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 14, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.neubiorev.2026.106821
+  preregistration: []
+  data: https://osf.io/e9tqf
+  code: []
+  materials: https://osf.io/e9tqf
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_materials
+  source: article_html
+  location: Data availability
+  passage: Datasets and materials supporting the conclusions of the review are declared
+    available in the OSF repository at the printed link, without access conditions.
+    Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/e9tqf
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Abstract
+  passage: Review declared preregistered with PROSPERO identifier CRD42023446088; no
+    registry URL printed, so the claim is left unknown pending the identifier-only decision.
+  url: https://www.sciencedirect.com/science/article/pii/S0149763426002782
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge; publisher page shows Open access under a Creative Commons license.
+  url: https://doi.org/10.1016/j.neubiorev.2026.106821
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; I materiali dello studio, come questionari e stimoli; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Alcune persone con malattie neurologiche, come il Parkinson, vanno incontro a un
+    cambiamento poco conosciuto: un interesse per il sesso molto più forte di prima, a
+    volte difficile da controllare. Un gruppo di ricerca internazionale ha raccolto e confrontato tutto
+    ciò che gli studi scientifici dicono su questo fenomeno: 394 ricerche, con oltre 46.000
+    persone. In circa sei casi su dieci il cambiamento era legato ai farmaci, soprattutto
+    quelli usati per il Parkinson; negli altri a lesioni o malattie del cervello. Gli autori
+    indicano come filo comune uno squilibrio nei circuiti cerebrali che fanno da freno e da
+    spinta verso le ricompense, e notano che spesso il problema non viene indagato in modo
+    sistematico. Propongono quindi di riconoscerlo come un disturbo a sé e di cercarlo
+    attivamente durante le visite: un passo concreto per aiutare pazienti e familiari.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-11'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: systematic review of 394 studies and 46,516 participants on hypersexuality in neurological disorders.'
+    - 'Abstract: about 61% of cases iatrogenic, mostly dopaminergic therapy in Parkinson''s disease; about 25% acquired from lesions, brain injury or neurodegeneration; about 4% linked to deep brain stimulation.'
+    - 'Abstract: evidence implicates fronto-striatal-limbic dysfunction reducing inhibitory control and amplifying reward drive.'
+    - 'Abstract: assessment inconsistent, nearly half of studies relied on unstructured notes; authors propose a distinct diagnostic entity and structured screening.'
+    review_note: 'Scientific reread: mechanism and proposals attributed to the authors; proportions rounded as in the abstract. Editorial reread: no acronyms, two numbers plus one proportion in words.'
+publication:
+  published: no
+  featured: no

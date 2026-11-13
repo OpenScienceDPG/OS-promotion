@@ -1,0 +1,115 @@
+schema_version: 1.0
+id: doi-10-1016-j-clinph-2025-2110929
+doi: 10.1016/j.clinph.2025.2110929
+bibliography:
+  title: "Transcranial alternating current stimulation selectively modulates aperiodic EEG component: Unveiling alternative mechanisms of modulation"
+  authors: "Fabio Masina; Ettore Napoli; Paola Santacesaria; Andreina Giustiniani; Sara Zago; Marco Marino; Rachele Pezzetta; Sonia Montemurro; Nicoletta Manzo; Giorgia Cona; Daniela Mapelli; Giorgio Arcara"
+  journal: "Clinical Neurophysiology"
+  volume: '177'
+  issue: ~
+  pages: '2110929'
+  year: 2025
+dpg:
+  authors:
+  - Fabio Masina
+  - Marco Marino
+  - Giorgia Cona
+  - Daniela Mapelli
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-13): Masina, Marino, Cona and Mapelli at Department of General Psychology, University of Padua; Arcara, Napoli, Zago, Pezzetta, Manzo at IRCCS San Camillo; Santacesaria at Padova Neuroscience Center; Montemurro at FISPPA; Giustiniani at Messina. Vol. 177 (September 2025), 2110929."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S1388245725007813
+  iris_handle: 11577/3575479
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (open access); PDF not downloaded. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S1388245725007813
+    outcome: Full HTML read in the connected browser; page labelled Open access under a Creative Commons licence.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Methods state that all R scripts and data are available at OSF 6cft4 ('available at' wording, as accepted for doi-10-1016-j-paid-2026-113979). Resource not opened, Enrico check pending. No preregistration statement. Four DPG authors; citation year 2025, vol. 177. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 18, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.clinph.2025.2110929
+  preregistration: []
+  data: https://osf.io/6cft4/
+  code: https://osf.io/6cft4/
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: article_html
+  location: Methods, statistical analysis
+  passage: Further details on the statistical models, as well as all R scripts and data, are declared available at the printed OSF link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/6cft4/
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge; publisher page shows Open access under a Creative Commons license.
+  url: https://doi.org/10.1016/j.clinph.2025.2110929
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Una debole corrente elettrica che oscilla a un ritmo preciso, applicata sulla
+    testa con alcuni elettrodi, può cambiare il modo in cui lavora il cervello? Su
+    questa idea si basa una tecnica di stimolazione molto studiata, il cui
+    funzionamento però resta poco chiaro. Un gruppo di ricerca di Padova e Venezia ha
+    coinvolto 34 adulti in due sedute: una con 20 minuti di vera stimolazione, a 40
+    oscillazioni al secondo, sulle aree che controllano il movimento, e una finta.
+    Prima e dopo ha registrato l'attività elettrica del cervello a riposo e durante
+    due compiti. La stimolazione non modificava i ritmi cerebrali, come ci si sarebbe
+    potuti aspettare, ma abbassava in modo uniforme l'attività di fondo. Per gli
+    autori, questo indica un meccanismo d'azione diverso e aiuta a capire meglio
+    come funzionano queste tecniche.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Objective: tACS mechanisms poorly understood; 20-minute 40-Hz tACS over C3/C4 tested on periodic and aperiodic EEG components.'
+    - 'Abstract Methods: paired, counterbalanced, sham-controlled design with two sessions; EEG before and after in resting state, serial reaction time task and 40-Hz auditory stimulation.'
+    - 'Methods: 34 participants (32 right-handed).'
+    - 'Abstract Results and Conclusion: selective reduction of the aperiodic offset (broadband downward shift), no effect on periodic activity; may reflect a general effect on neural spiking; clearer interpretation of tACS mechanisms.'
+    review_note: 'Scientific reread: sham-controlled finding stated as observed; mechanism attributed to the authors; aperiodic component rendered as background activity. Editorial reread: acronyms removed.'
+publication:
+  published: no
+  featured: no

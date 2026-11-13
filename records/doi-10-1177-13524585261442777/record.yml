@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1177-13524585261442777
+doi: 10.1177/13524585261442777
+bibliography:
+  title: "Transcranial magnetic stimulation in multiple sclerosis: Targeting symptoms through neuroplasticity"
+  authors: "Claudio Nazzi; Sonia Turrini; Rachele Pezzetta; Cristina Scarpazza; Alessio Avenanti; Simone Battaglia"
+  journal: "Multiple Sclerosis Journal"
+  volume: '32'
+  issue: '8'
+  pages: '773-786'
+  year: 2026
+dpg:
+  authors:
+  - Cristina Scarpazza
+  verified: yes
+  verification_source: "Final publisher HTML (Sage, read 2026-11-11): Scarpazza at IRCCS San Camillo and Department of General Psychology, University of Padua; other authors Bologna, San Camillo, eCampus. Vol. 32, issue 8 (2026), pp. 773-786."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/13524585261442777
+  iris_handle: 11577/3597780
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://journals.sagepub.com/doi/full/10.1177/13524585261442777
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: narrative review; data sharing not applicable, preregistration only recommended for future trials; no public resource or reusable tool. Scarpazza printed at DPG; 2026, vol. 32(8). Inventory closed OA (publisher page shows free access); no badge."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 13, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/13524585261442777
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability statement"
+  passage: "Narrative review: data sharing not applicable, no data sets generated or analysed; preregistration mentioned only as a recommendation for future trials."
+  url: https://journals.sagepub.com/doi/full/10.1177/13524585261442777
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1177/13524585261442777
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

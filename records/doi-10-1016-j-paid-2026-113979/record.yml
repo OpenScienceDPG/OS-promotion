@@ -1,0 +1,119 @@
+schema_version: 1.0
+id: doi-10-1016-j-paid-2026-113979
+doi: 10.1016/j.paid.2026.113979
+bibliography:
+  title: "Self-compassion is associated with hedonic and eudaimonic well-being through basic psychological needs: The key roles of autonomy and competence"
+  authors: "Ulyana Sirotina; Angelica Moè; Alberto Voci; Elettra Cini; Giulia Fuochi"
+  journal: "Personality and Individual Differences"
+  volume: '262'
+  issue: ~
+  pages: '113979'
+  year: 2026
+dpg:
+  authors:
+  - Angelica Moè
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-13): Moè at Department of General Psychology, University of Padova; Voci and Fuochi at FISPPA (Applied Psychology), University of Padova; Sirotina at Reykjavik University; Cini at Vita-Salute San Raffaele. Vol. 262 (November 2026), 113979."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0191886926003430
+  iris_handle: 11577/3613133
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (Enrico passed the ScienceDirect human check himself); PDF not downloaded. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://hdl.handle.net/11577/3613133
+    outcome: Padova IRIS file is private (restricted access).
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S0191886926003430
+    outcome: Full HTML read in the connected browser after Enrico passed the human check.
+screening:
+  status: ready
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: data declared available at OSF vq2hg (Data availability statement). Resource not opened, Enrico check pending. No preregistration, code or materials statement. Moè printed at DPG (Voci and Fuochi at FISPPA); official citation year 2026, vol. 262. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 15, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.paid.2026.113979
+  preregistration: []
+  data: https://osf.io/vq2hg/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data availability statement
+  passage: The data are declared available on the Open Science Framework at the printed link, without access conditions. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/vq2hg/
+  verification: unverified
+- claims: []
+  source: article_html
+  location: Method; end matter
+  passage: No preregistration, analysis code or materials availability statement; analyses run in jamovi.
+  url: https://www.sciencedirect.com/science/article/pii/S0191886926003430
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed; no OA badge.
+  url: https://doi.org/10.1016/j.paid.2026.113979
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti
+  public_summary: >-
+    Quando sbagliamo, c'è chi si tratta con gentilezza e chi invece si rimprovera
+    senza pietà. Questo modo di stare dalla propria parte, chiamato autocompassione,
+    va di pari passo con una vita più soddisfacente: ma perché? Un gruppo di ricerca
+    italiano lo ha chiesto a 517 adulti, dai 18 agli 84 anni, con un questionario
+    online su come si trattano nei momenti difficili, su quanto si sentono soddisfatti
+    e realizzati, e su tre bisogni di fondo: sentirsi liberi nelle proprie scelte,
+    capaci e legati agli altri. Chi era più gentile con sé stesso riferiva anche di
+    soddisfare meglio questi bisogni, soprattutto i primi due, che a loro volta si
+    accompagnavano a un maggiore benessere. Secondo gli autori, aiutare le persone a
+    sentirsi più libere e capaci potrebbe rendere ancora più efficaci gli interventi
+    che insegnano a essere gentili con sé stessi.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-13'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract and 2.1: online questionnaire, N = 517 Italian adults aged 18-84, general population.'
+    - '1 and 2.2: self-compassion (compassionate and uncompassionate self-responding), life satisfaction (hedonic) and psychological well-being (eudaimonic), satisfaction/frustration of autonomy, competence and relatedness.'
+    - 'Abstract and 3: need satisfaction and frustration acted as potential links between self-compassion and both forms of well-being; autonomy and competence emerged as the primary pathways.'
+    - 'Abstract and 4: authors suggest designing self-compassion interventions that also support need satisfaction.'
+    review_note: 'Scientific reread: cross-sectional associations worded as going together, no causal claim; mediation framed as association pattern; application attributed to the authors. Editorial reread: no statistics or jargon; needs explained in everyday terms.'
+publication:
+  published: no
+  featured: no

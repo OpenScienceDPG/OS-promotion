@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1016-j-neunet-2025-108029
+doi: 10.1016/j.neunet.2025.108029
+bibliography:
+  title: "On the application of neural networks for structured domains to fMRI data"
+  authors: "Giovanni Donghi; Luca Pasa; Michele De Filippo De Grazia; Alberto Testolin; Marco Zorzi; Alessandro Sperduti; Nicolò Navarin"
+  journal: "Neural Networks"
+  volume: '193'
+  issue: ~
+  pages: '108029'
+  year: 2026
+dpg:
+  authors:
+  - Alberto Testolin
+  - Marco Zorzi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-11): Testolin and Zorzi at Department of General Psychology, University of Padua; Donghi, Pasa, Sperduti, Navarin at Department of Mathematics; De Filippo De Grazia at San Camillo. Vol. 193 (January 2026), 108029; online 2025-08-24."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0893608025009098
+  iris_handle: 11577/3566040
+  note: Full text read as publisher HTML on 2026-11-11 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-11'
+    url: https://www.sciencedirect.com/science/article/pii/S0893608025009098
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-11'
+  last_screened_at: '2026-11-11'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: no data/code availability statement or repository link; reuse of existing third-party public datasets is not an open practice of this paper. Testolin and Zorzi printed at DPG; official citation year 2026, vol. 193. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-11, batch 13, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.neunet.2025.108029
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Full text (no data or code availability section)"
+  passage: "Analyses use existing public third-party fMRI datasets; no data or code availability statement, no repository link for this paper's code or derived data, no preregistration."
+  url: https://www.sciencedirect.com/science/article/pii/S0893608025009098
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-11'
+  passage: Inventory classifies the article as hybrid.
+  url: https://doi.org/10.1016/j.neunet.2025.108029
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

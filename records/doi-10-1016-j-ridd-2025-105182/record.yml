@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1016-j-ridd-2025-105182
+doi: 10.1016/j.ridd.2025.105182
+bibliography:
+  title: "Time processing skills in individuals with math impairment and Developmental Dyscalculia"
+  authors: "Federica Cortesi; Ilaria Polenghi; Andrea Gambarini; Gian Marco Marzocchi; Giovanna Mioni; Anna Ogliari; Enrico Toffalini; Valentina Tobia"
+  journal: "Research in Developmental Disabilities"
+  volume: '168'
+  issue: ~
+  pages: '105182'
+  year: 2026
+dpg:
+  authors:
+  - Giovanna Mioni
+  - Enrico Toffalini
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-13): Mioni and Toffalini at Department of General Psychology, University of Padua; other authors Vita-Salute San Raffaele, Milano-Bicocca, Bergamo. Vol. 168 (January 2026), 105182; online 2025-12-23."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0891422225002665
+  iris_handle: 11577/3579438
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser (University of Padova access); PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://www.sciencedirect.com/science/article/pii/S0891422225002665
+    outcome: Full HTML read in the connected browser through University of Padova access.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Needs review: systematic review explicitly preregistered in PROSPERO with identifier CRD42024525843 but no registry URL printed; data only on request. Same identifier-only question as doi-10-1186-s12877-025-06472-w and doi-10-1121-10-0046098: keep with preregistration if the identifier suffices, otherwise reject. Mioni and Toffalini printed at DPG; official citation year 2026, vol. 168. Inventory green OA, no badge."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 16, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.ridd.2025.105182
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Section 2 (Method); Data availability
+  passage: Study stated preregistered in PROSPERO with registration number CRD42024525843, no URL printed; data available on request.
+  url: https://www.sciencedirect.com/science/article/pii/S0891422225002665
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as green; no publisher OA badge.
+  url: https://doi.org/10.1016/j.ridd.2025.105182
+  verification: unverified
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

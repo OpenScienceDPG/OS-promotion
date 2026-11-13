@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1017-s0140525x25100691
+doi: 10.1017/s0140525x25100691
+bibliography:
+  title: "Challenging the central brain dogma: new experimental insights from the moon jellyfish (Aurelia spp.)"
+  authors: "Christian Agrillo; Alessandra Pecunioso; Gregorio Motta; Massimo Avian; Cinzia Chiandetti"
+  journal: "Behavioral and Brain Sciences"
+  volume: '48'
+  issue: ~
+  pages: 'e78'
+  year: 2025
+dpg:
+  authors:
+  - Christian Agrillo
+  - Alessandra Pecunioso
+  verified: yes
+  verification_source: "Final publisher HTML (Cambridge Core, read 2026-11-13): Agrillo and Pecunioso at Department of General Psychology, University of Padova; Motta, Avian and Chiandetti at University of Trieste. Open Peer Commentary, Volume 48, 2025, e78."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/challenging-the-central-brain-dogma-new-experimental-insights-from-the-moon-jellyfish-aurelia-spp/53F6194E516B7968EA28A2A3AB05A59A
+  iris_handle: 11577/3583462
+  note: Full text read as publisher HTML on 2026-11-13 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-13'
+    url: https://doi.org/10.1017/s0140525x25100691
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-13'
+  last_screened_at: '2026-11-13'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: short open peer commentary reporting jellyfish observations without data, code or materials statement or repository link. Agrillo and Pecunioso printed at DPG; 2025, vol. 48, e78. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 18, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1017/s0140525x25100691
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Full text (commentary)
+  passage: Commentary with new behavioural observations; no availability statement or repository link.
+  url: https://doi.org/10.1017/s0140525x25100691
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-13'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1017/s0140525x25100691
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no
