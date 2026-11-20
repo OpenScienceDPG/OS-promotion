@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1016-j-inpsyc-2025-100155
+doi: 10.1016/j.inpsyc.2025.100155
+bibliography:
+  title: "Changes in Geriatric Depression Scale scores in relation to physical performance, inflammatory status, and hippocampal atrophy over a 7-year follow-up: Data from the Pro.V.A. study"
+  authors: "Chiara Ceolin; Caterina Trevisan; Marianna Noale; Adele Ravelli; Benedetta Di Marzio; Sabrina Pigozzo; Chiara Curreri; Alessandra Coin; Maria Devita; Giuseppe Sergi; Marina De Rui"
+  journal: "International Psychogeriatrics"
+  volume: ~
+  issue: ~
+  pages: '100155'
+  year: 2025
+dpg:
+  authors:
+  - Maria Devita
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Devita at Department of General Psychology (DPG), University of Padua (also Geriatric Unit); Coin, Sergi, Pigozzo and others at DIMED/Geriatric Unit (inventory lists Pigozzo, Coin, Sergi as DPG). In Press, Corrected Proof, available online 2025-10-16, 100155; no volume yet."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S104161022500393X
+  iris_handle: 11577/3574236
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S104161022500393X
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: no data availability statement, repository or registration; only a supplementary file. Devita printed at DPG; in press (online October 2025), no volume yet, so the citation year may become 2026. Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 21, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.inpsyc.2025.100155
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article (no Data availability section; Appendix A Supplementary material)"
+  passage: "No data availability statement, repository or registration; supplementary material attached to the article."
+  url: https://www.sciencedirect.com/science/article/pii/S104161022500393X
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.inpsyc.2025.100155
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

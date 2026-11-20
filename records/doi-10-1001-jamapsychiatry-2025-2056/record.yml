@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1001-jamapsychiatry-2025-2056
+doi: 10.1001/jamapsychiatry.2025.2056
+bibliography:
+  title: "Questionable Data and Design in Esketamine Study"
+  authors: "Florian Naudet; Ioana A. Cristea; Andre Gillibert"
+  journal: "JAMA Psychiatry"
+  volume: '82'
+  issue: ~
+  pages: '1053-1054'
+  year: 2025
+dpg:
+  authors:
+  - Ioana A. Cristea
+  verified: yes
+  verification_source: "Final publisher HTML (JAMA Network, read 2026-11-20): Cristea at Department of General Psychology, University of Padova; Naudet at Rennes, Gillibert at Rouen. JAMA Psychiatry 2025;82(10):1053-1054, published online 2025-08-20."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2837470
+  iris_handle: 11577/3583561
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2837470
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: letter to the editor criticising another study; no data, code, materials or registration of its own. Cristea printed at DPG; 2025, 82(10). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 22, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1001/jamapsychiatry.2025.2056
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole letter"
+  passage: "Letter to the editor; no shared resources."
+  url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2837470
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1001/jamapsychiatry.2025.2056
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,75 @@
+schema_version: 1.0
+id: doi-10-1016-j-jbct-2025-100525
+doi: 10.1016/j.jbct.2025.100525
+bibliography:
+  title: "Healthier and earlier through digital technology: Towards a transdiagnostic staging model of eating and sleep disorders in adolescence (S.A.N.A.): A study protocol"
+  authors: "Silvia Cerolini; Debora Meneo; Valentina Meregalli; Chiara Tosi; Elisabetta Baldi; Chiara Baglioni; Valentina Cardi"
+  journal: "Journal of Behavioral and Cognitive Therapy"
+  volume: '35'
+  issue: '2'
+  pages: '100525'
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Not verified: full text not accessible. ScienceDirect preview (2026-11-20) gives Volume 35, Issue 2, May 2025, 100525; inventory lists Meregalli, Tosi and Cardi as DPG, OpenAlex lists them as University of Padua; printed department unconfirmed."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/abs/pii/S2589979125000058
+  iris_handle: 11577/3597939
+  note: Full text not accessible on 2026-11-20; practices not assessed. As a study protocol it may qualify as open_protocol (precedents doi-10-1186-s13690-026-01903-5, doi-10-1186-s12877-026-07603-7) once read.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/abs/pii/S2589979125000058
+    outcome: Article preview only; University of Padua does not subscribe to this content on ScienceDirect.
+  - date: '2026-11-20'
+    url: https://hdl.handle.net/11577/3597939
+    outcome: Padova IRIS record without attached files.
+  - date: '2026-11-20'
+    url: https://freidok.uni-freiburg.de/data/268779
+    outcome: FreiDok record (Freiburg, Baglioni) indicates an embargo on the files; not retrieved.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Unresolved access: ScienceDirect preview only (no Padova subscription), IRIS without file, FreiDok copy embargoed. Practices and printed DPG affiliation not assessed; as a study protocol it could qualify for open_protocol if the full text is read. Next step: Enrico or Cardi/Meregalli supply the PDF. Not a completed screening or rejection."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 23, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: full-text-not-accessible
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jbct.2025.100525
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

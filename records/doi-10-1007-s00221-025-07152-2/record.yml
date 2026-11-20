@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-1007-s00221-025-07152-2
+doi: 10.1007/s00221-025-07152-2
+bibliography:
+  title: "Visual performance fields in saccadic suppression of image displacement"
+  authors: "Rosanne H. Timmerman; Antimo Buonocore; Alessio Fracasso"
+  journal: "Experimental Brain Research"
+  volume: '243'
+  issue: '10'
+  pages: '210'
+  year: 2025
+dpg:
+  authors:
+  - Alessio Fracasso
+  verified: yes
+  verification_source: "Final Springer PDF (read 2026-11-20): Fracasso listed with present address Department of General Psychology, University of Padua, and a unipd e-mail (also University of Glasgow); Timmerman at Dundee/Glasgow, Buonocore at Suor Orsola Benincasa. Experimental Brain Research (2025) 243:210, issue 10. Inventory row carries the bioRxiv preprint DOI 10.1101/2025.07.14.664707 (IRIS 11577/3582102)."
+source:
+  pdf_file: 10.1007_s00221-025-07152-2.pdf
+  pdf_path: ~
+  md5: 32eafdd809622f3caea867b449bc2e5d
+  article_url: https://link.springer.com/article/10.1007/s00221-025-07152-2
+  iris_handle: 11577/3582102
+  inventory_doi: 10.1101/2025.07.14.664707
+  note: Journal version located through OpenAlex from the inventory preprint DOI; open-access publisher PDF downloaded on 2026-11-20, screened locally and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://link.springer.com/content/pdf/10.1007/s00221-025-07152-2.pdf
+    outcome: Final publisher PDF downloaded (open access, CRUI-CARE agreement).
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: 2026-11-20 12:02:58 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: final Springer PDF read; Data availability says original data will be made available on reasonable request; no registration, code or materials resource. Fracasso printed at DPG (present address) with unipd e-mail; 2025, 243:210. Inventory lists the bioRxiv preprint DOI 10.1101/2025.07.14.664707. Shortlist 2026-11-13 priority 5."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 19, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1007/s00221-025-07152-2
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: PDF page 15, Data availability
+  passage: Original data will be made available on reasonable request; no repository, registration or code link.
+  url: https://doi.org/10.1007/s00221-025-07152-2
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), matched on the preprint DOI 10.1101/2025.07.14.664707; checked 2026-11-20'
+  passage: Inventory classifies the preprint DOI as green; the journal PDF is published open access under the CRUI-CARE agreement, but no classification for the journal DOI was recorded, so the OA badge is left unknown (irrelevant to the reject).
+  url: https://doi.org/10.1007/s00221-025-07152-2
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

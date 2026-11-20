@@ -1,0 +1,86 @@
+schema_version: 1.0
+id: doi-10-1421-116148
+doi: 10.1421/116148
+bibliography:
+  title: "La debole relazione fra teorie di intelligenza e test di intelligenza"
+  authors: "Cesare Cornoldi; Enrico Toffalini"
+  journal: "Giornale Italiano di Psicologia"
+  volume: '52'
+  issue: '1'
+  pages: '139-161'
+  year: 2025
+dpg:
+  authors:
+  - Cesare Cornoldi
+  verified: yes
+  verification_source: "Rivisteweb PDF (read 2026-11-20): authors printed as Università di Padova; correspondence to Cornoldi at Dipartimento di Psicologia Generale. Toffalini (inventory DPG) printed only generically. Fascicolo 1, marzo 2025, pp. 139-161 (target article)."
+source:
+  pdf_file: 10.1421_116148.pdf
+  pdf_path: ~
+  md5: 9f4edcde1f33313b08cc97940eda588f
+  article_url: https://www.rivisteweb.it/doi/10.1421/116148
+  iris_handle: 11577/3559366
+  note: Publisher PDF downloaded from Rivisteweb on 2026-11-20 through the University of Padova network, screened locally and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.rivisteweb.it/doi/10.1421/116148
+    outcome: Publisher PDF downloaded (university network access).
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: 2026-11-20 12:08:55 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: Rivisteweb PDF read; theoretical target article on intelligence models and tests, no data, code, materials or registration. Cornoldi printed at DPG (correspondence address), Toffalini generic Universita di Padova; GIP 2025, 52(1), 139-161. Shortlist 2026-11-13 priority 5."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 20, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1421/116148
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Whole article
+  passage: "Target article (theoretical); no data availability statement, repository, registration or new materials."
+  url: https://www.rivisteweb.it/doi/10.1421/116148
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: No OA classification in the inventory; Rivisteweb PDF carries a personal-use licence. OA badge left unknown (irrelevant to the reject).
+  url: https://doi.org/10.1421/116148
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

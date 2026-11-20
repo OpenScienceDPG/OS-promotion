@@ -1,0 +1,81 @@
+schema_version: 1.0
+id: doi-10-1080-17482798-2025-2463675
+doi: 10.1080/17482798.2025.2463675
+bibliography:
+  title: "Validation of the Italian version of the problematic media use measure long and short forms: A parent-report screening tool"
+  authors: "Valeria Rega; Giulia Bassi; Elisa Mancinelli; Vinay Jagdish Sukhija; Valentina Boursier; Silvia Salcuni"
+  journal: "Journal of Children and Media"
+  volume: '19'
+  issue: ~
+  pages: '717-734'
+  year: 2025
+dpg:
+  authors: []
+  verified: yes
+  verification_source: "Final publisher HTML (Taylor & Francis, read 2026-11-20): Bassi, Mancinelli, Sukhija, Salcuni at DPSS Department of Developmental and Social Psychology, University of Padova (some also FBK or CHIMOMO); Rega and Boursier at Naples. No author printed at DPG (inventory lists Bassi, Mancinelli, Salcuni as DPG). Vol. 19, Issue 4, pp. 717-734, online 2025-02-11."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/17482798.2025.2463675
+  iris_handle: 11577/3554590
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.tandfonline.com/doi/full/10.1080/17482798.2025.2463675
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Scope reject: no author printed at DPG (Padova authors at DPSS). Data and code available from the first author on request only. Citation year 2025, 19(4). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 23, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/17482798.2025.2463675
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Acknowledgments and Data availability statement"
+  passage: "Data and code necessary to reproduce the analyses are available from the first author upon reasonable request; no repository or registration."
+  url: https://www.tandfonline.com/doi/full/10.1080/17482798.2025.2463675
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1080/17482798.2025.2463675
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

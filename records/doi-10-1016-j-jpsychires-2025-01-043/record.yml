@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1016-j-jpsychires-2025-01-043
+doi: 10.1016/j.jpsychires.2025.01.043
+bibliography:
+  title: "Eyes on the body: Assessing attentional bias toward body-related stimuli in Anorexia Nervosa"
+  authors: "Valentina Meregalli; Serena Giovannini; Alessia Trevisan; Marco Romanelli; Sanberk Ugur; Elena Tenconi; Paolo Meneguzzo; Valentina Cardi; Enrico Collantoni"
+  journal: "Journal of Psychiatric Research"
+  volume: '182'
+  issue: ~
+  pages: '506-512'
+  year: 2025
+dpg:
+  authors:
+  - Valentina Meregalli
+  - Valentina Cardi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Meregalli and Cardi at Department of General Psychology, University of Padua; other authors at Department of Neuroscience and Padua Neuroscience Center (inventory lists Giovannini, Tenconi, Meneguzzo, Collantoni as DPG). Vol. 182 (February 2025), 506-512."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0022395625000512
+  iris_handle: 11577/3550382
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S0022395625000512
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: no data availability statement, repository or registration. Meregalli and Cardi printed at DPG; 2025, vol. 182. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 24, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jpsychires.2025.01.043
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article (no Data availability section)"
+  passage: "No data availability statement, repository or registration; supplementary materials report additional results."
+  url: https://www.sciencedirect.com/science/article/pii/S0022395625000512
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.jpsychires.2025.01.043
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

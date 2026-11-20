@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1016-j-jpsychires-2025-05-038
+doi: 10.1016/j.jpsychires.2025.05.038
+bibliography:
+  title: "Depressive symptoms interact with CSF levels of p-tau in predicting cognitive performance in the early stages of Parkinson's disease"
+  authors: "Ainara Jauregi-Zinkunegi; Lucia Ronconi; Davide Bruno; Elisa Di Rosa"
+  journal: "Journal of Psychiatric Research"
+  volume: '188'
+  issue: ~
+  pages: '87-93'
+  year: 2025
+dpg:
+  authors:
+  - Elisa Di Rosa
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Di Rosa at Department of General Psychology, University of Padua; Ronconi at Computer and Statistical Services, University of Padua; Jauregi-Zinkunegi and Bruno at Liverpool John Moores. Vol. 188 (August 2025), 87-93."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0022395625003383
+  iris_handle: 11577/3554321
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S0022395625003383
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: data from the PPMI database (Tier 3 data obtained upon request after Data Access Committee approval); no own open resource or registration. Di Rosa printed at DPG; 2025, vol. 188. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 24, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jpsychires.2025.05.038
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "2.6. Data availability"
+  passage: "Data obtained from the third-party PPMI database upon request after Data Access Committee approval; no data, code or registration shared by the authors."
+  url: https://www.sciencedirect.com/science/article/pii/S0022395625003383
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.jpsychires.2025.05.038
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

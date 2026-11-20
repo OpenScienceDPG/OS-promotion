@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1016-j-jmp-2025-102926
+doi: 10.1016/j.jmp.2025.102926
+bibliography:
+  title: "Toward a unified perspective on assessment models, part II: Dichotomous latent variables"
+  authors: "Stefano Noventa; Jürgen Heller; Sangbeak Ye; Augustin Kelava"
+  journal: "Journal of Mathematical Psychology"
+  volume: '125'
+  issue: ~
+  pages: '102926'
+  year: 2025
+dpg:
+  authors:
+  - Stefano Noventa
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Noventa at Department of General Psychology, University of Padova (also Methods Center, Tübingen); Heller, Ye and Kelava at Tübingen. Vol. 125 (2025), 102926."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0022249625000276
+  iris_handle: 11577/3561420
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S0022249625000276
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: theoretical mathematical paper unifying assessment models; no data, code, materials or registration. Noventa printed at DPG; 2025, vol. 125. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 24, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jmp.2025.102926
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article"
+  passage: "Theoretical mathematical paper; no data availability statement, repository or code."
+  url: https://www.sciencedirect.com/science/article/pii/S0022249625000276
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.jmp.2025.102926
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

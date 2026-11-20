@@ -1,0 +1,122 @@
+schema_version: 1.0
+id: doi-10-1016-j-jenvp-2025-102840
+doi: 10.1016/j.jenvp.2025.102840
+bibliography:
+  title: "Embracing nature: Psychometric properties of the Italian version of the preferences for nature questionnaire"
+  authors: "M. Spinoni; P. Mancin; S. Cerea; C. Di Gesto; G.R. Policardo; M. Ghisi; C. Matera; A. Nerini; C. Grano"
+  journal: "Journal of Environmental Psychology"
+  volume: '108'
+  issue: ~
+  pages: '102840'
+  year: 2025
+dpg:
+  authors:
+  - P. Mancin
+  - S. Cerea
+  - M. Ghisi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Mancin, Cerea and Ghisi at Department of General Psychology, University of Padua (Cerea also Biomedical Sciences, Ghisi also Hospital Psychology Unit); Spinoni, Di Gesto, Grano at Sapienza; Policardo, Matera, Nerini at Florence. Vol. 108 (December 2025), 102840. Authors printed with initials only; Mancin missing from the inventory DPG list."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0272494425003238
+  iris_handle: 11577/3573707
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S0272494425003238
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Transparency and Openness paragraph states that the data and the R analysis script are available at the OSF repository (view-only link printed). Resource not opened, Enrico check pending. The complete Italian item set of the I-PNQ is printed in Table 2 (open_materials as article resource, same convention as doi-10-1421-119930 and doi-10-1007-s12144-026-09136-z). Mancin, Cerea, Ghisi printed at DPG; 2025, vol. 108. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 24, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.jenvp.2025.102840
+  preregistration: []
+  data: https://osf.io/snx6c/?view_only=e6d400e898864f05b273a880841df2de
+  code: https://osf.io/snx6c/?view_only=e6d400e898864f05b273a880841df2de
+  materials: https://doi.org/10.1016/j.jenvp.2025.102840
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: article_html
+  location: Methods, Transparency and Openness paragraph
+  passage: Data supporting the findings and the R script used for the analyses are declared available at the OSF repository via the printed view-only link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/snx6c/?view_only=e6d400e898864f05b273a880841df2de
+  verification: unverified
+- claims:
+  - open_materials
+  source: article_html
+  location: Table 2
+  passage: Table 2 prints all items of the PNQ in English and in the Italian version (I-PNQ) with descriptive statistics.
+  url: https://www.sciencedirect.com/science/article/pii/S0272494425003238
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1016/j.jenvp.2025.102840
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli
+  public_summary: >-
+    Meglio una passeggiata nel bosco o un giro in centro città? Le preferenze per la
+    natura o per la città orientano il nostro tempo libero, ma per studiarle serve
+    uno strumento affidabile. Un gruppo di ricerca delle Università di Roma Sapienza,
+    Padova e Firenze ha tradotto in italiano un breve questionario statunitense di
+    dieci affermazioni e lo ha proposto a 582 adulti. Le risposte si raggruppano in
+    due dimensioni distinte: il gusto per gli ambienti naturali e quello per gli
+    ambienti urbani. Chi preferiva la natura si sentiva anche più legato a essa e più
+    attento all'ambiente, e le preferenze aiutavano a prevedere quanto spesso le
+    persone frequentavano la natura, per quanto tempo e con quanto piacere. Il
+    questionario funziona allo stesso modo per uomini e donne: uno strumento semplice
+    e solido, ora anche in italiano.
+  topics: []
+  article_resources:
+    materials: 'Table 2: complete item set of the PNQ in English and in the Italian version (I-PNQ), printed in the article itself.'
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: PNQ evaluates preferences for natural versus urban environments; properties not explored outside the US.'
+    - 'Abstract and Methods 2.1: 582 Italian adults completed the Italian PNQ; Table 3 reports 10 items.'
+    - 'Abstract: two-factor structure (preferences for natural and for urban environments); PNQ-N correlated with connectedness to nature and environmental concern; incremental validity for nature visitation frequency, time spent and enjoyment; sex invariance.'
+    review_note: 'Scientific reread: correlational and predictive wording; translation and validation described without technical terms. Editorial reread: no acronyms or statistics.'
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,124 @@
+schema_version: 1.0
+id: doi-10-1037-edu0001008
+doi: 10.1037/edu0001008
+bibliography:
+  title: "Stability of Math Anxiety and Its Relation With Math Performance Over Time: A Meta-Analysis of Longitudinal Studies"
+  authors: "Santiago Pelegrina; Enrico Toffalini; M. Eva Martín-Puga"
+  journal: "Journal of Educational Psychology"
+  volume: '118'
+  issue: '5'
+  pages: '677-702'
+  year: 2026
+dpg:
+  authors:
+  - Enrico Toffalini
+  verified: yes
+  verification_source: "Final APA PDF (PsycNet institutional access, read 2026-11-20): Toffalini at Department of General Psychology, University of Padova; Pelegrina and Martín-Puga at University of Jaén. Journal of Educational Psychology 2026, Vol. 118, No. 5, 677-702 (copyright 2025; inventory year 2025)."
+source:
+  pdf_file: 10.1037_edu0001008.pdf
+  pdf_path: ~
+  md5: 550bf5ade241e83f028aef8b05a7d0f1
+  article_url: https://psycnet.apa.org/doiLanding?doi=10.1037/edu0001008
+  iris_handle: 11577/3579439
+  note: Publisher PDF saved on 2026-11-20 from PsycNet after institutional access was verified in Enrico's connected browser; screened locally and deleted after finalization. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://psycnet.apa.org/doiLanding?doi=10.1037/edu0001008
+    outcome: Institutional access verified (Università di Padova); PDF saved and read.
+screening:
+  status: ready
+  first_screened_at: '2026-11-20'
+  last_screened_at: 2026-11-20 12:40:31 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 5
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: APA PDF read; data, codebook, analysis code publicly available and materials available at OSF fr7h2. Not preregistered (stated). Toffalini printed at DPG; official citation 2026, 118(5), 677-702. Shortlist 2026-11-13 priority 5."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 23, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1037/edu0001008
+  preregistration: []
+  data: https://osf.io/fr7h2/
+  code: https://osf.io/fr7h2/
+  materials: https://osf.io/fr7h2/
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  - open_materials
+  source: pdf
+  location: PDF page 1, author note; page 11, Method
+  passage: Data, codebook and analysis code declared publicly available on the OSF repository; data and experimental materials stated available at the printed OSF link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/fr7h2/
+  verification: unverified
+- claims: []
+  source: pdf
+  location: PDF page 11, Method
+  passage: The study's design and analysis plan are stated as not preregistered.
+  url: https://doi.org/10.1037/edu0001008
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1037/edu0001008
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi; I materiali dello studio, come questionari e stimoli
+  public_summary: >-
+    Chi da bambino prova ansia davanti a un esercizio di matematica se la porterà
+    dietro anche da grande? E l'ansia peggiora i risultati, o sono i brutti voti a
+    farla crescere? Un gruppo di ricerca delle Università di Jaén e di Padova ha
+    riunito 62 ricerche che hanno seguito nel tempo quasi 40.000 studenti, misurando
+    più volte sia l'ansia per la matematica sia il rendimento. L'ansia si è rivelata
+    piuttosto stabile, simile a un tratto del carattere, e sempre più radicata con il
+    crescere dell'età. Il legame funziona poi in entrambe le direzioni, con forza
+    simile: chi è più in ansia tende in seguito ad andare peggio, e chi va peggio
+    tende a diventare più ansioso. Per gli autori, intervenire presto, quando l'ansia
+    è meno radicata, può aiutare a spezzare questo circolo, senza dimenticare gli
+    studenti più grandi.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 67 independent samples across 62 reports, 39,935 participants, 948 effect sizes.'
+    - 'Abstract: high rank-order stability of math anxiety that increased with age; trait-like construct.'
+    - 'Abstract: bidirectional prospective links of similar magnitude between anxiety and performance in a cross-lagged model.'
+    - 'Educational impact statement: early intervention may help prevent consolidation and break the reciprocal cycle; some malleability at older ages.'
+    review_note: 'Scientific reread: cross-lagged links stated as tendencies over time, not proven causation; implications attributed to the authors. Editorial reread: no statistics or acronyms.'
+publication:
+  published: no
+  featured: no

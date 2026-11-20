@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-1007-s10339-025-01291-8
+doi: 10.1007/s10339-025-01291-8
+bibliography:
+  title: "Does injury proneness aid or impair navigation ability? A study on self-reported errors, risk and evaluation behaviors in relation to sense of direction"
+  authors: "Elizabeth Maria Doerr; Veronica Muffato; Erika Borella; Elena Carbone; Agnese Capodieci; Barbara Carretti; Chiara Meneghetti"
+  journal: "Cognitive Processing"
+  volume: '26'
+  issue: '4'
+  pages: '865-876'
+  year: 2025
+dpg:
+  authors:
+  - Elizabeth Maria Doerr
+  - Veronica Muffato
+  - Erika Borella
+  - Elena Carbone
+  - Barbara Carretti
+  - Chiara Meneghetti
+  verified: yes
+  verification_source: "Final publisher HTML (Springer, read 2026-11-20): all authors at Department of General Psychology, University of Padova, except Capodieci (IUSVE, Mestre). Vol. 26, issue 4 (November 2025), pp. 865-876; online 2025-07-22."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://link.springer.com/article/10.1007/s10339-025-01291-8
+  iris_handle: 11577/3558699
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://link.springer.com/article/10.1007/s10339-025-01291-8
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: data available from the corresponding author on reasonable request; no registration or public resource. Six authors printed at DPG; citation year 2025, 26(4). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 19, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: no
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1007/s10339-025-01291-8
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Data availability
+  passage: Data supporting the findings are available from the corresponding author on reasonable request; no registration or repository link.
+  url: https://link.springer.com/article/10.1007/s10339-025-01291-8
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as closed.
+  url: https://doi.org/10.1007/s10339-025-01291-8
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

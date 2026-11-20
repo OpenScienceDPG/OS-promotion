@@ -1,0 +1,124 @@
+schema_version: 1.0
+id: doi-10-1016-j-heliyon-2025-e44279
+doi: 10.1016/j.heliyon.2025.e44279
+bibliography:
+  title: "Foveal masking impairs orientation discrimination of peripheral low-level stimuli"
+  authors: "Carolina Maria Oletto; Giulio Contemori; Roberta Cessa; Luca Battaglini; Marco Bertamini"
+  journal: "Heliyon"
+  volume: '12'
+  issue: '1'
+  pages: 'e44279'
+  year: 2026
+dpg:
+  authors:
+  - Carolina Maria Oletto
+  - Giulio Contemori
+  - Roberta Cessa
+  - Luca Battaglini
+  - Marco Bertamini
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): all five authors at University of Padova, Department of General Psychology. Volume 12, Issue 1 (January 2026), e44279; inventory year 2025. Oletto and Cessa missing from the inventory DPG list."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S2405844025026830
+  iris_handle: 11577/3580998
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser (open access); PDF not downloaded. Supporting resources not opened.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S2405844025026830
+    outcome: Full HTML read in the connected browser; page labelled Open access under a Creative Commons licence.
+screening:
+  status: ready
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Data availability statement says all datasets have been deposited at OSF z5qh3 ('deposited at' wording, as accepted for doi-10-3389-fpsyg-2026-1813559) and that Experiments 2a and 2b were pre-registered (OSF registration DOI K9NPC; no registration date printed, data collected from October 2022; the Experiment 1 exclusion criterion is also stated as pre-registered). Resources not opened, Enrico check pending. Code not declared. All five authors at DPG; official citation 2026, 12(1). Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 20, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.heliyon.2025.e44279
+  preregistration: https://doi.org/10.17605/OSF.IO/K9NPC
+  data: https://osf.io/z5qh3/
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data availability statement
+  passage: All datasets are declared deposited at the printed OSF repository link. Declaration and link read; resource not opened, manual check pending.
+  url: https://osf.io/z5qh3/
+  verification: unverified
+- claims:
+  - preregistration
+  source: article_html
+  location: Data availability statement; Methods 2.1 Participants and 3.2 Data analysis
+  passage: Experiments 2a and 2b are stated to be pre-registered with a printed OSF registration DOI; Methods refer to the preregistered sample size and analysis plan and report a deviation. No registration date printed. Registration not opened, manual check pending.
+  url: https://doi.org/10.17605/OSF.IO/K9NPC
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge; publisher page shows Open access under a Creative Commons license.
+  url: https://doi.org/10.1016/j.heliyon.2025.e44279
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; L'articolo, gratuito sul sito della rivista
+  public_summary: >-
+    Quando fissiamo un punto, riusciamo comunque a distinguere che cosa compare ai
+    lati dello sguardo. Secondo un'ipotesi recente, per farlo il cervello chiede
+    aiuto anche alla zona che elabora il centro della vista. Un gruppo di ricerca di
+    Padova l'ha messa alla prova con tre esperimenti, ciascuno con 25 persone.
+    Mentre guardavano il centro dello schermo, comparivano per un istante ai lati
+    due piccole macchie a righe: bisognava dire se le righe avevano la stessa
+    inclinazione oppure quale macchia era più contrastata. A intervalli diversi, al
+    centro lampeggiava una chiazza colorata. Se arrivava con un breve ritardo, il
+    giudizio sull'inclinazione peggiorava, con righe sia fitte sia larghe, mentre
+    per il contrasto non emergeva un effetto chiaro. Per gli autori, il centro della
+    vista aiuta ad analizzare anche forme semplicissime: un risultato che chiarisce
+    come collaborano visione centrale e laterale.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Introduction: foveal feedback hypothesis, peripheral shape information fed back to foveal cortex.'
+    - 'Methods 2.1: final samples of 25 participants in each of Experiments 1, 2a, 2b.'
+    - 'Methods 3 and 3.1: two Gabor patches presented peripherally for 100 ms; same/different orientation (Exp 1, 2a) or higher-contrast location (Exp 2b); dynamic coloured foveal mask at varying SOAs.'
+    - 'Results: dip in orientation discrimination at 182 ms (Exp 1) and 63 ms (Exp 2a), not dependent on 1 vs 7 cpd condition; no clear mask effect for contrast discrimination (Exp 2b).'
+    - 'Conclusion: foveal cortex recruited for shape-related features also with low-level stimuli; not modulated by visual pathway.'
+    review_note: 'Scientific reread: magno/parvo conditions rendered as fine or coarse stripes; feedback interpretation attributed to the authors; null contrast result stated as no clear effect. Editorial reread: no jargon or acronyms.'
+publication:
+  published: no
+  featured: no

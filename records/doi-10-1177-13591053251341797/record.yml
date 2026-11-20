@@ -1,0 +1,81 @@
+schema_version: 1.0
+id: doi-10-1177-13591053251341797
+doi: 10.1177/13591053251341797
+bibliography:
+  title: "Stories of life during the COVID-19 pandemic: Personal growth among individuals living in the Italian speaking part of Switzerland"
+  authors: "Zlatina Kostova; Chloe Michoud; María del Río Carral; Sabrina Cipolletta; Irina Todorova"
+  journal: "Journal of Health Psychology"
+  volume: '31'
+  issue: ~
+  pages: '817-831'
+  year: 2026
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Final publisher HTML (Sage, read 2026-11-20): Cipolletta printed only as Università degli Studi di Padova (no department); other authors at UMass Chan, Lausanne and Northeastern. DPG affiliation not printed. Vol. 31, Issue 2 (February 2026), 817-831; inventory year 2025."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/13591053251341797
+  iris_handle: 11577/3579638
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://journals.sagepub.com/doi/full/10.1177/13591053251341797
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: qualitative study; data availability statement refers to full data tables in an earlier main paper (Todorova et al., 2021), no repository or registration of its own. Cipolletta printed only as generic Università di Padova, DPG not confirmed; reject holds regardless. Official citation 2026, 31(2). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 24, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: dpg-affiliation-not-printed
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/13591053251341797
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability statement"
+  passage: "Full data tables stated to be in an earlier main paper; no repository, registration or new materials."
+  url: https://journals.sagepub.com/doi/full/10.1177/13591053251341797
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1177/13591053251341797
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

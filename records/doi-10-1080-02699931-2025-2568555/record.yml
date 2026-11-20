@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1080-02699931-2025-2568555
+doi: 10.1080/02699931.2025.2568555
+bibliography:
+  title: "Emotional prospective memory in traumatic brain injury: task characteristics matter"
+  authors: "Gyula Demeter; Bernadett Mikula; Giovanna Mioni; Zoltán Dénes; Anita Lencsés"
+  journal: "Cognition and Emotion"
+  volume: '40'
+  issue: '6'
+  pages: '1501-1511'
+  year: 2026
+dpg:
+  authors:
+  - Giovanna Mioni
+  verified: yes
+  verification_source: "Final publisher HTML (Taylor & Francis, read 2026-11-20): Mioni at Dipartimento di Psicologia Generale, Università di Padova; other authors at Semmelweis University Rehabilitation Clinic and Budapest University of Technology and Economics. Volume 40, 2026, Issue 6, pp. 1501-1511; published online 2025-11-17 (inventory year 2025)."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/02699931.2025.2568555
+  iris_handle: 11577/3583039
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded. Supplementary Word file not opened.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.tandfonline.com/doi/full/10.1080/02699931.2025.2568555
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: no data availability statement, registration or repository. The Supplementary Material describes the PM tasks with their emotional photos (from the third-party OASIS set) and screenshots of the Virtual Week; not declared as a shared materials resource and the task software is not shared, so not counted (same call as doi-10-3390-ani15131936; compare doi-10-1016-j-chbr-2026-101183). Mioni printed at DPG; official citation 2026, 40(6). Inventory bronze OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 19, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/02699931.2025.2568555
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Methods (Procedure) and Supplemental material
+  passage: Task descriptions with accompanying photos and Virtual Week screenshots are provided in the Supplementary Material; no data availability statement, repository or registration.
+  url: https://www.tandfonline.com/doi/full/10.1080/02699931.2025.2568555
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as bronze, qualifying for the OA badge.
+  url: https://doi.org/10.1080/02699931.2025.2568555
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

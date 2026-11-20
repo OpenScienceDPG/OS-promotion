@@ -14,6 +14,49 @@ already hold.
 
 ## Open
 
+### 2026-11-20 batch 24 (shortlist priority 5, 2025)
+
+- 2026-11-20 `doi-10-1177-02698811251375895` (cannabinoids in dementia, systematic review, Devita DPG): `needs-review`; PROSPERO CRD42025635299 printed without URL or date, data on request. Decide together with the other identifier-only registrations (`doi-10-1121-10-0046098`, `doi-10-1186-s12877-025-06472-w`, `doi-10-1016-j-ridd-2025-105182`). Official citation 2026, 40(3).
+- 2026-11-20 `doi-10-1016-j-jenvp-2025-102840` (Italian Preferences for Nature Questionnaire): `ready` with open_data/open_code (OSF view-only link, "available at") and open_materials for the Italian items printed in Table 2 (article resource, appendix-items convention). Resource check pending.
+- 2026-11-20 `doi-10-1177-13591053251341797` (COVID life stories, J Health Psychol 2026): rejected; Cipolletta printed only as generic Università di Padova, DPG not confirmed.
+- 2026-11-20 batch 24 inventory inconsistencies: Giovannini, Tenconi, Meneguzzo, Collantoni (`doi-10-1016-j-jpsychires-2025-01-043`) printed at Neuroscience; Papa, Simioni, Sergi, Coin (`doi-10-1177-02698811251375895`) at Medicine. Records use printed affiliations.
+- 2026-11-20 batch 24: `data/` rebuilt and validated (one new card); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-20 batch 23 (shortlist priority 5, 2025)
+
+- 2026-11-20 `doi-10-1016-j-jbct-2025-100525` (S.A.N.A. study protocol, Meregalli, Tosi, Cardi): `needs-review`; Padova does not subscribe to this ScienceDirect journal, IRIS has no file, the FreiDok copy is embargoed. Supply the PDF; as a protocol article it may qualify for open_protocol (precedents `doi-10-1186-s13690-026-01903-5`, `doi-10-1186-s12877-026-07603-7`).
+- 2026-11-20 `doi-10-1037-edu0001008` (math anxiety meta-analysis, Pelegrina, Toffalini, Martín-Puga): `ready` with open_data, open_code, open_materials (OSF fr7h2, "publicly available"); preregistration recorded as false (stated not preregistered). Official citation 2026, 118(5). Resource check pending.
+- 2026-11-20 `doi-10-1080-17482798-2025-2463675` (problematic media use measure): scope reject; Bassi, Mancinelli, Salcuni printed at DPSS (inventory lists them as DPG). Data and code on request anyway.
+- 2026-11-20 batch 23: APA PDF saved from PsycNet via the connected browser; a duplicate copy `10.1037_edu0001008.pdf` remains in Enrico's Downloads folder, locked by another process when deletion was attempted. Delete it manually. `data/` rebuilt and validated (one new card); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-20 batch 22 (shortlist priority 5, 2025)
+
+- 2026-11-20 `doi-10-1001-jamapsychiatry-2024-2854` (suicide psychotherapy meta-analysis) and `doi-10-1001-jamapsychiatry-2025-0482` (CBT unified meta-analyses), both Cuijpers/Metapsy team with Cristea at DPG: `ready` with open_data only, from the JAMA Data Sharing Statements (Supplement 2, "anyone"/"completely open") pointing to Metapsy databases. The 0482 statement used future wording ("will be made available ... with publication"). No preregistration stated; metapsyTools not counted as a tool of these papers. Inventory green, no OA badge. Resource check pending.
+- 2026-11-20 batch 22: JAMA supplements read as signed CDN PDFs downloaded to a temporary folder and deleted. `data/` rebuilt and validated (two new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-20 batch 21 (shortlist priority 5, 2025)
+
+- 2026-11-20 `doi-10-1016-j-ijpsycho-2025-112524` (NCANDA sleep and substance use): scope reject; Menghini (inventory DPG) printed only at University of Trento. Override only with publication-time DPG evidence (no own open resource anyway).
+- 2026-11-20 `doi-10-1016-j-inpsyc-2025-100155` (Pro.V.A. depression follow-up, Devita): rejected as OA only; in press without volume, recorded as 2025; recheck the year when assigned. Inventory DPG names Pigozzo, Coin, Sergi printed at DIMED/Geriatric Unit.
+- 2026-11-20 batch 21 inventory inconsistencies: Scrimin (`doi-10-1016-j-ijer-2025-102603`) printed at DPSS; Bettelli (`doi-10-1016-j-ijhcs-2025-103553`) printed only at the HIT Centre. Records use printed affiliations.
+- 2026-11-20 batch 21: six ScienceDirect articles read as HTML without a human check, all rejected (no new cards). `data/` rebuilt and validated; `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-20 batch 20 (shortlist priority 5, 2025)
+
+- 2026-11-20 `doi-10-1016-j-heliyon-2025-e44279` (foveal masking, Oletto, Contemori, Cessa, Battaglini, Bertamini): `ready` with preregistration (Experiments 2a-2b, OSF registration DOI K9NPC, no date printed; data collected from October 2022) and open_data ("all datasets have been deposited at" OSF z5qh3, same "deposited at" convention as `doi-10-3389-fpsyg-2026-1813559`). Confirm timing and wording during the resource check. Official citation 2026, 12(1).
+- 2026-11-20 `doi-10-1421-117926` (forensic neuropsychology review, GIP 2025): rejected for no practices; Preschern, Sartori, Scarpazza printed only as Università di Padova (correspondence at SCUP), so DPG affiliation not confirmed (`dpg.verified: no`). Irrelevant to the reject.
+- 2026-11-20 `doi-10-1421-116148` (Cornoldi and Toffalini target article): only Cornoldi printed at DPG via the correspondence address; Toffalini printed generically. Rejected (theoretical).
+- 2026-11-20 `doi-10-1016-j-gerinurse-2025-103440`: inventory DPG names Coin and Sergi printed at DIMED; only Mapelli and Devita at DPG. Rejected as OA only.
+- 2026-11-20 batch 20: four GIP PDFs downloaded from Rivisteweb (university network), two ScienceDirect articles read in the browser without a human check. `data/` rebuilt and validated (one new card); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-20 batch 19 (shortlist priority 5, 2025)
+
+- 2026-11-20 `doi-10-1080-02699931-2025-2568555` (emotional prospective memory in TBI, Mioni): rejected; the supplement describes the tasks with their emotional photos (third-party OASIS set) and Virtual Week screenshots, not declared as shared materials. Overturn as open_materials if you follow the `doi-10-1016-j-chbr-2026-101183` precedent rather than `doi-10-3390-ani15131936`. Official citation 2026, 40(6), although the inventory says 2025.
+- 2026-11-20 `doi-10-1007-s00221-025-07152-2` (Exp Brain Res, Fracasso): the inventory row carries the bioRxiv preprint DOI 10.1101/2025.07.14.664707; the journal version was screened (data on request, rejected) and a `duplicate` ledger event links the preprint DOI so the shortlist drops it. Fracasso printed at DPG only as "present address".
+- 2026-11-20 `doi-10-1080-03007995-2025-2458530` (CMRO perspective, Cristea): rejected from the Helda accepted manuscript; the final T&F text is not covered by the university subscription.
+- 2026-11-20 `doi-10-1016-j-comppsych-2025-152613`: of the five inventory DPG names only Bottesi is printed at DPG (Marino, Sacchi, Vieno, Canale at DPSS). Rejected as OA only.
+- 2026-11-20 batch 19: six papers, all rejected (no new cards); ScienceDirect captcha passed by Enrico in two tabs. `data/` rebuilt and validated, unchanged; `docs/` not rendered and stale. Visual check deferred.
+
 ### 2026-11-13 batch 18 (shortlist priority 5, 2025)
 
 - 2026-11-13 Taylor & Francis access: `doi-10-1080-10888691-2025-2498730` (RIBES-C scale, Moè) and `doi-10-1080-07420528-2025-2490499` (sleep and time perspective, Cellini/Mioni) are `needs-review`; the university subscription does not cover these T&F journals (as for Work & Stress) and the IRIS files are private. Supply the PDFs; several later shortlist items are T&F too.

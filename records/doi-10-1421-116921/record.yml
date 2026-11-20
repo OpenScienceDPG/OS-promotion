@@ -1,0 +1,86 @@
+schema_version: 1.0
+id: doi-10-1421-116921
+doi: 10.1421/116921
+bibliography:
+  title: "Gli psicologi devono opporsi all'uso di test senza norme in chiaro"
+  authors: "Federico Zanon; Konstantinos Priftis"
+  journal: "Giornale Italiano di Psicologia"
+  volume: '52'
+  issue: '2'
+  pages: '291-308'
+  year: 2025
+dpg:
+  authors:
+  - Konstantinos Priftis
+  verified: yes
+  verification_source: "Rivisteweb PDF (read 2026-11-20): Zanon at Azienda ULSS 3 Serenissima; Priftis at Università di Padova with correspondence at Dipartimento di Psicologia Generale. Fascicolo 2, giugno 2025, pp. 291-308."
+source:
+  pdf_file: 10.1421_116921.pdf
+  pdf_path: ~
+  md5: 5f185ae3e42b49e69d33f901e416bec6
+  article_url: https://www.rivisteweb.it/doi/10.1421/116921
+  iris_handle: 11577/3581260
+  note: Publisher PDF downloaded from Rivisteweb on 2026-11-20 through the University of Padova network, screened locally and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.rivisteweb.it/doi/10.1421/116921
+    outcome: Publisher PDF downloaded (university network access).
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: 2026-11-20 12:08:55 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: Rivisteweb PDF read; position paper arguing against tests without accessible norms; mentions OSF only generically, no resources of its own. Priftis printed at DPG (correspondence address); GIP 2025, 52(2), 291-308. Shortlist 2026-11-13 priority 5."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 20, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1421/116921
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Whole article
+  passage: "Position paper on test norms; OSF and the Padova data policy cited only as general examples, no resources of the authors."
+  url: https://www.rivisteweb.it/doi/10.1421/116921
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: No OA classification in the inventory; Rivisteweb PDF carries a personal-use licence. OA badge left unknown (irrelevant to the reject).
+  url: https://doi.org/10.1421/116921
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

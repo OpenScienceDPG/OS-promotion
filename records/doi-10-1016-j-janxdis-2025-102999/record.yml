@@ -1,0 +1,85 @@
+schema_version: 1.0
+id: doi-10-1016-j-janxdis-2025-102999
+doi: 10.1016/j.janxdis.2025.102999
+bibliography:
+  title: "Is intolerance of uncertainty a necessary condition for anxiety symptoms in adolescents? A necessary condition analysis study"
+  authors: "Igor Marchetti; Lavinia Miriam Pedretti; Sara Iannattone; Ilaria Colpizzi; Alessandra Farina; Lisa Di Blas; Marta Ghisi; Gioia Bottesi"
+  journal: "Journal of Anxiety Disorders"
+  volume: '112'
+  issue: ~
+  pages: '102999'
+  year: 2025
+dpg:
+  authors:
+  - Sara Iannattone
+  - Alessandra Farina
+  - Marta Ghisi
+  - Gioia Bottesi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Iannattone, Farina, Ghisi and Bottesi at Department of General Psychology, University of Padua (Ghisi also University-Hospital); other authors at Trieste. Vol. 112 (June 2025), 102999. Farina missing from the inventory DPG list."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0887618525000350
+  iris_handle: 11577/3553082
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S0887618525000350
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: data will be made available on request; no registration or public resource. Four authors printed at DPG; 2025, vol. 112. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 22, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.janxdis.2025.102999
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "Data will be made available on request; no repository or registration."
+  url: https://www.sciencedirect.com/science/article/pii/S0887618525000350
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.janxdis.2025.102999
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

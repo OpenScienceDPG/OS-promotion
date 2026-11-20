@@ -1,0 +1,109 @@
+schema_version: 1.0
+id: doi-10-1001-jamapsychiatry-2024-2854
+doi: 10.1001/jamapsychiatry.2024.2854
+bibliography:
+  title: "Suicidal Ideation and Suicide Attempts After Direct or Indirect Psychotherapy: A Systematic Review and Meta-Analysis"
+  authors: "Wouter van Ballegooijen; Josine Rawee; Christina Palantza; Clara Miguel; Mathias Harrer; Ioana Cristea; Remco de Winter; Renske Gilissen; Merijn Eikelenboom; Aartjan Beekman; Pim Cuijpers"
+  journal: "JAMA Psychiatry"
+  volume: '82'
+  issue: '1'
+  pages: '31-37'
+  year: 2025
+dpg:
+  authors:
+  - Ioana Cristea
+  verified: yes
+  verification_source: "Final publisher HTML (JAMA Network, read 2026-11-20): Cristea at Department of General Psychology, University of Padova; other authors at Amsterdam, Bristol, Munich and Dutch institutions. JAMA Psychiatry 2025;82(1):31-37, published online 2024-09-25."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2824096
+  iris_handle: 11577/3545721
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; the one-page Data Sharing Statement (Supplement 2, part of the article) was read locally and deleted. Supporting database not opened.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2824096
+    outcome: Full HTML and Data Sharing Statement supplement read.
+screening:
+  status: ready
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Methods state that the extracted data and documentation are online (refs 19-20, Metapsy suicide-prevention database), and the Data Sharing Statement says study characteristics and outcomes are available to anyone without investigator support at metapsy.org. Resource not opened, Enrico check pending. Part of the authors' living review (protocol published 2020 for the wider database), not counted as preregistration of this analysis. Cristea printed at DPG; 2025, 82(1). Inventory green OA (no badge)."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 22, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1001/jamapsychiatry.2024.2854
+  preregistration: []
+  data: https://www.metapsy.org/suicide-prevention
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Methods (refs 19-20) and Supplement 2, Data Sharing Statement
+  passage: Extracted data and documentation declared online; Data Sharing Statement says study characteristics and outcomes are available to anyone, without investigator support, at the printed Metapsy link (database documentation also at docs.metapsy.org/databases/suicide-psyctr). Declaration and link read; resource not opened, manual check pending.
+  url: https://www.metapsy.org/suicide-prevention
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as green, which does not qualify for the OA badge.
+  url: https://doi.org/10.1001/jamapsychiatry.2024.2854
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti
+  public_summary: >-
+    Chi ha pensieri suicidi non sempre chiede aiuto per questo: spesso si rivolge a
+    uno psicologo per la depressione, l'ansia o altri problemi. Le psicoterapie
+    pensate per altri disturbi possono ridurre anche il rischio di suicidio? Un
+    gruppo di ricerca internazionale, con la partecipazione dell'Università di
+    Padova, ha riunito i risultati di 147 studi controllati, con circa 11.000
+    persone in tutto. Ha confrontato le terapie rivolte direttamente ai pensieri e ai
+    comportamenti suicidari con quelle dedicate ad altri disturbi. Entrambi i tipi di
+    intervento erano associati a una diminuzione dei pensieri suicidi e a circa il
+    30% di tentativi di suicidio in meno rispetto ai gruppi di confronto, con effetti
+    simili. Secondo gli autori, anche le cure per altri disturbi possono così aiutare
+    chi difficilmente chiederebbe aiuto per il suicidio.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Importance: suicidal ideation often treated with indirect psychotherapy focused on other problems.'
+    - 'Abstract Results: 147 studies, 193 comparisons, 11 001 participants; direct and indirect psychotherapy associated with reduced suicidal ideation and suicide attempts (RR 0.72 and 0.68).'
+    - 'Abstract Conclusions: similar effect sizes; indirect treatments could reach people who would not seek treatment for suicidal ideation.'
+    review_note: 'Scientific reread: associative wording kept; RR 0.68-0.72 rendered as about 30% fewer attempts; implication attributed to the authors. Editorial reread: no statistics or acronyms.'
+publication:
+  published: no
+  featured: no

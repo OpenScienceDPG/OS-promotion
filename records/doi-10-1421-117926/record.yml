@@ -1,0 +1,85 @@
+schema_version: 1.0
+id: doi-10-1421-117926
+doi: 10.1421/117926
+bibliography:
+  title: "Neuroscienze cognitive e giustizia penale: il contributo della neuropsicologia alla valutazione dell'imputabilità"
+  authors: "Giulia Preschern; Giuseppe Sartori; Cristina Scarpazza; Francesca Gnoato"
+  journal: "Giornale Italiano di Psicologia"
+  volume: '52'
+  issue: '3'
+  pages: '529-541'
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Rivisteweb PDF (read 2026-11-20): Preschern, Sartori, Scarpazza printed only as Università di Padova (correspondence to Preschern at SCUP, Centro di Ateneo dei Servizi Clinici Universitari Psicologici); Gnoato at IUSVE. DPG affiliation not printed (inventory lists Scarpazza as DPG). Fascicolo 3, settembre 2025, pp. 529-541."
+source:
+  pdf_file: 10.1421_117926.pdf
+  pdf_path: ~
+  md5: 127163560dbe372e2f3eb2f59fbec5cd
+  article_url: https://www.rivisteweb.it/doi/10.1421/117926
+  iris_handle: 11577/3560839
+  note: Publisher PDF downloaded from Rivisteweb on 2026-11-20 through the University of Padova network, screened locally and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.rivisteweb.it/doi/10.1421/117926
+    outcome: Publisher PDF downloaded (university network access).
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: 2026-11-20 12:08:55 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: 0
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: Rivisteweb PDF read; narrative review on forensic neuropsychology and criminal responsibility, no data, code, materials or registration. Preschern, Sartori, Scarpazza printed only as Universita di Padova (correspondence at SCUP), so DPG affiliation not confirmed; reject holds regardless. GIP 2025, 52(3), 529-541. Shortlist 2026-11-13 priority 5."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 20, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: dpg-affiliation-not-printed
+    citation_year: 2025
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1421/117926
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Whole article
+  passage: "Narrative review; no data, code, materials or registration."
+  url: https://www.rivisteweb.it/doi/10.1421/117926
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: No OA classification in the inventory; Rivisteweb PDF carries a personal-use licence. OA badge left unknown (irrelevant to the reject).
+  url: https://doi.org/10.1421/117926
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

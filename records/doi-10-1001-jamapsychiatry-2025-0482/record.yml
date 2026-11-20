@@ -1,0 +1,111 @@
+schema_version: 1.0
+id: doi-10-1001-jamapsychiatry-2025-0482
+doi: 10.1001/jamapsychiatry.2025.0482
+bibliography:
+  title: "Cognitive Behavior Therapy for Mental Disorders in Adults: A Unified Series of Meta-Analyses"
+  authors: "Pim Cuijpers; Mathias Harrer; Clara Miguel; Marketa Ciharova; Davide Papola; Djordje Basic; Cristina Botella; Ioana Cristea; Nino de Ponti; Tara Donker; Ellen Driessen; Pamela Franco; Irene Gómez-Gómez; Jessica Hamblen; Noelia Jiménez-Orenga; Eirini Karyotaki; Aaron Keshen; Jake Linardon; Emma Motrico; Minoo Matbouriahi; Olga M. Panagiotopoulou; Rory A. Pfund; Constantin Yves Plessen; Heleen Riper; Paula P. Schnurr; Marit Sijbrandij; Marieke B. J. Toffolo; Lingyao Tong; Wouter van Ballegooijen; Els van der Ven; Annemieke van Straten; Yingying Wang; Toshi A. Furukawa"
+  journal: "JAMA Psychiatry"
+  volume: '82'
+  issue: '6'
+  pages: '563-571'
+  year: 2025
+dpg:
+  authors:
+  - Ioana Cristea
+  - Minoo Matbouriahi
+  verified: yes
+  verification_source: "Final publisher HTML (JAMA Network, read 2026-11-20): Cristea and Matbouriahi at Department of General Psychology, University of Padova (affiliation 6); other authors at Vrije Universiteit Amsterdam and many international institutions. JAMA Psychiatry 2025;82(6):563-571, published online 2025-04-16."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2832696
+  iris_handle: 11577/3562147
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; the one-page Data Sharing Statement (Supplement 2, part of the article) was read locally and deleted. Supporting database not opened.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2832696
+    outcome: Full HTML and Data Sharing Statement supplement read.
+screening:
+  status: ready
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: the Data Sharing Statement (Supplement 2) says the meta-analytic data are made available with publication on the Metapsy project website (docs.metapsy.org/databases), accessible to anyone and completely open except for commercial use. Resource not opened, Enrico check pending. The metapsyTools R package was developed earlier for the project and is not counted as a tool of this paper; no registration stated. Cristea and Matbouriahi printed at DPG; 2025, 82(6). Inventory green OA (no badge)."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 22, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1001/jamapsychiatry.2025.0482
+  preregistration: []
+  data: https://docs.metapsy.org/databases
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Supplement 2, Data Sharing Statement
+  passage: Data of the meta-analyses declared available with publication at the project website, to anyone, completely open except for commercial use, with no additional restrictions. Declaration and link read; resource not opened, manual check pending.
+  url: https://docs.metapsy.org/databases
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as green, which does not qualify for the OA badge.
+  url: https://doi.org/10.1001/jamapsychiatry.2025.0482
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti
+  public_summary: >-
+    La terapia cognitivo-comportamentale, che aiuta a modificare pensieri e abitudini
+    che alimentano il disagio, è tra le cure psicologiche più diffuse al mondo. Ma
+    quanto funziona, disturbo per disturbo? Un ampio gruppo di ricerca
+    internazionale, con la partecipazione dell'Università di Padova, ha analizzato
+    con lo stesso metodo 375 studi controllati su quasi 33.000 adulti: depressione,
+    vari disturbi d'ansia, disturbo ossessivo-compulsivo, stress post-traumatico,
+    disturbi alimentari, psicosi e disturbo bipolare. La terapia è risultata
+    probabilmente efficace per la maggior parte di questi disturbi, con benefici più
+    ampi per le fobie specifiche e lo stress post-traumatico e più contenuti, ma
+    possibili, per psicosi e disturbo bipolare. Gli autori mostrano anche che il
+    beneficio stimato dipende dal confronto scelto: è più ampio rispetto alla lista
+    d'attesa che rispetto alle cure abituali. Un quadro d'insieme che finora mancava.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-20'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract Importance: no meta-analysis had integrated CBT trials across disorders with uniform methods.'
+    - 'Abstract Results: 375 trials, 423 comparisons, 32 968 patients; g < 0.5 for bipolar and psychotic disorders, > 1.0 for PTSD and specific phobias; larger effects in waitlist-controlled trials, more modest versus care as usual.'
+    - 'Abstract Conclusions: CBT probably effective for depression, anxiety disorders, PTSD, OCD, eating disorders; possibly effective in psychotic and bipolar disorders; effect sizes depend on control condition.'
+    review_note: 'Scientific reread: authors hedging (probably/possibly effective) preserved; dependence on control condition stated. Editorial reread: no statistics or acronyms.'
+publication:
+  published: no
+  featured: no

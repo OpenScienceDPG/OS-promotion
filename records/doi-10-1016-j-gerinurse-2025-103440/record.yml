@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1016-j-gerinurse-2025-103440
+doi: 10.1016/j.gerinurse.2025.103440
+bibliography:
+  title: "The interplay of caregiver-patient interactions: Investigating the relationship between burden, anosognosia, and coping strategies"
+  authors: "Chiara Ceolin; Giulia Salerno Trapella; Annachiara Pisetta; Marina De Rui; Adele Ravelli; Alessandra Coin; Giuseppe Sergi; Daniela Mapelli; Maria Devita"
+  journal: "Geriatric Nursing"
+  volume: '64'
+  issue: ~
+  pages: '103440'
+  year: 2025
+dpg:
+  authors:
+  - Daniela Mapelli
+  - Maria Devita
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-20): Mapelli and Devita at Department of General Psychology (DPG), University of Padua (Devita also DIMED); Coin, Sergi and the other authors at DIMED Geriatric Unit (inventory lists Coin and Sergi as DPG); Ceolin also Karolinska. Vol. 64 (2025), 103440."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0197457225002836
+  iris_handle: 11577/3561968
+  note: Full text read as publisher HTML on 2026-11-20 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.sciencedirect.com/science/article/pii/S0197457225002836
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: '2026-11-20'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: no data availability statement, repository or registration (clinical trial registration: not applicable). Mapelli and Devita printed at DPG; citation year 2025, vol. 64. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 20, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.gerinurse.2025.103440
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: Statements and declarations
+  passage: No data availability statement or repository link; clinical trial registration stated as not applicable.
+  url: https://www.sciencedirect.com/science/article/pii/S0197457225002836
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.gerinurse.2025.103440
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

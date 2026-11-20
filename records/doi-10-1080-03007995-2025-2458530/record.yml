@@ -1,0 +1,89 @@
+schema_version: 1.0
+id: doi-10-1080-03007995-2025-2458530
+doi: 10.1080/03007995.2025.2458530
+bibliography:
+  title: "Communicating scientific evidence: drugs for Alzheimer's disease as a case study"
+  authors: "Kasper P. Kepp; Poul F. Høilund-Carlsen; Ioana A. Cristea; Robert G. Cumming; Timothy Daly; Louise Emilsson; Maria E. Flacco; Lars G. Hemkens; Perrine Janiaud; Kasper B. Johnsen; Tea Lallukka; Taulant Muka; Florian Naudet; Mona-Elisabeth R. Revheim; Rosanna Squitti; Madhav Thambisetty"
+  journal: "Current Medical Research and Opinion"
+  volume: '41'
+  issue: '2'
+  pages: '347-354'
+  year: 2025
+dpg:
+  authors:
+  - Ioana A. Cristea
+  verified: yes
+  verification_source: "Accepted manuscript (Helda, University of Helsinki repository, read 2026-11-20): Cristea at Department of General Psychology, University of Padova. Taylor & Francis landing page: Vol. 41, No. 2, pp. 347-354, published online 2025-02-05."
+source:
+  pdf_file: 10.1080_03007995.2025.2458530.pdf
+  pdf_path: ~
+  md5: 183edb2969ec962279177f740b949c9e
+  article_url: https://www.tandfonline.com/doi/full/10.1080/03007995.2025.2458530
+  iris_handle: 11577/3562166
+  note: Final T&F full text not covered by the university subscription (abstract only); accepted manuscript from Helda read locally on 2026-11-20 and deleted after finalization.
+  access_attempts:
+  - date: '2026-11-20'
+    url: https://www.tandfonline.com/doi/full/10.1080/03007995.2025.2458530
+    outcome: Abstract and Get Access only.
+  - date: '2026-11-20'
+    url: http://hdl.handle.net/10138/627535
+    outcome: Accepted manuscript PDF downloaded and read.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-20'
+  last_screened_at: 2026-11-20 12:02:58 +0100
+  algorithm_version: screen-2.0
+  algorithm_score: -1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: accepted manuscript (Helda) read, final T&F full text not covered; perspective/review on communicating evidence about Alzheimer drugs, no data, code, materials or registration of its own. Cristea printed at DPG; 2025, 41(2), 347-354. Shortlist 2026-11-13 priority 5."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 19, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override:
+  decision: ~
+  by: ~
+  at: ~
+  note: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/03007995.2025.2458530
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: pdf
+  location: Accepted manuscript, whole text
+  passage: Perspective proposing guidelines for communicating evidence, using anti-amyloid antibodies as a case study; no data availability statement, repository, registration or new materials.
+  url: http://hdl.handle.net/10138/627535
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-20'
+  passage: Inventory classifies the article as green, which does not qualify for the OA badge.
+  url: https://doi.org/10.1080/03007995.2025.2458530
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no
