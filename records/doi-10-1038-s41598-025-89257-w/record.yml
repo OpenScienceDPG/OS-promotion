@@ -1,0 +1,81 @@
+schema_version: 1.0
+id: doi-10-1038-s41598-025-89257-w
+doi: 10.1038/s41598-025-89257-w
+bibliography:
+  title: "Bias in data-driven replicability analysis of univariate brain-wide association studies"
+  authors: "Charles D. G. Burns; Alessio Fracasso; Guillaume A. Rousselet"
+  journal: "Scientific Reports"
+  volume: '15'
+  issue: ~
+  pages: '6105'
+  year: 2025
+dpg:
+  authors: []
+  verified: yes
+  verification_source: "Final publisher HTML (Nature, read 2026-11-24): all three authors printed only at School of Psychology and Neuroscience, University of Glasgow; no author printed at DPG. Vol. 15 (2025), 6105, published 19 February 2025. The inventory row (IRIS 11577/3582105) carries the bioRxiv preprint DOI 10.1101/2023.09.21.558661 and lists Fracasso as DPG."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.nature.com/articles/s41598-025-89257-w
+  iris_handle: 11577/3582105
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.nature.com/articles/s41598-025-89257-w
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Scope reject: full Nature HTML read; no author printed at DPG (Fracasso at Glasgow at publication). The paper declares R and MATLAB code available on GitHub (simulation study, no human data), so it would qualify for open_code with DPG evidence. 2025, vol. 15. Inventory row uses the bioRxiv DOI."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 27, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1038/s41598-025-89257-w
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "No human data collected; R and MATLAB code declared available on GitHub (link printed). Not counted: no DPG affiliation at publication."
+  url: https://www.nature.com/articles/s41598-025-89257-w
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory row (preprint DOI) is green; OpenAlex classifies the journal DOI as gold (checked 2026-11-24), qualifying for the OA badge.
+  url: https://doi.org/10.1038/s41598-025-89257-w
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

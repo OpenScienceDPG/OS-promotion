@@ -14,6 +14,44 @@ already hold.
 
 ## Open
 
+### 2026-11-24 batch 30 (last items of shortlist 2026-11-13)
+
+- 2026-11-24 `doi-10-1007-s12311-025-01878-z` (Italian CCAS-S standardization, Devita, Panzeri, Ghisi, Mapelli): borderline `ready` as open_materials, final Italian versions A and B of the scale stated to be in the supplementary materials (cut-offs too; not opened). Could be reusable_tool instead: decide with the Di Rosa precedents (`doi-10-1017-s1355617726102148`, `doi-10-1007-s10072-026-09385-7`).
+- 2026-11-24 `doi-10-1080-00220973-2025-2530006` (working memory and writing, J Exp Educ, Carretti): `needs-review`; T&F not covered by the subscription, no IRIS file (Padova or Turin); Padova authors printed as generic University of Padua on the abstract page. Supply the PDF.
+- 2026-11-24 batch 30: Lancet Psychiatry Comment `doi-10-1016-s2215-0366-25-00030-6` read from the UvA-DARE author copy and Correspondence `doi-10-1016-s2215-0366-25-00168-3` on thelancet.com, both rejected (no own resources); three Transportation Research Procedia conference papers rejected (no statements). The shortlist of 2026-11-13 is now exhausted: regenerate it with `Rscript scripts/00-shortlist.R` for the next batch. `data/` rebuilt and validated (one new card); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-24 batch 29 (shortlist priority 5, 2025)
+
+- 2026-11-24 `doi-10-1080-10503307-2025-2455470` (countertransference awareness measures, Spoto DPG): borderline `ready` as open_materials only; the 24 items of both new scales are stated to be in Appendix A of the online supplement (not opened), without a data statement. Decide with the supplement precedents (`doi-10-1037-rep0000645`, `doi-10-1016-j-chbr-2026-101183`). Rocco printed at DPSS (inventory DPG). Official citation 2026, 36(1).
+- 2026-11-24 `doi-10-3390-sym17071030` (lateralization and boldness in eight fish species, Agrillo): borderline `ready` as open_data, "data are available in the Supplemental Material" (MDPI supplement link, not opened). Decide with `doi-10-1016-j-applanim-2025-106788` and `doi-10-1126-science-adq7188`.
+- 2026-11-24 batch 29: four rejects (Psychology of Music without statement, RRQ and Sustainability data on request, SSM Mental Health case study). `data/` rebuilt and validated (two new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-24 batch 28 (shortlist priority 5, 2025; partial)
+
+- 2026-11-24 `doi-10-1098-rstb-2023-0495` (APACS ten-year analysis, Phil Trans B): scope reject; Arcara and Lago printed only at IRCCS San Camillo and generic University of Padua (`dpg.verified: no`). Analysis code declared in the figshare supplement: override to keep with open_code if the affiliation is accepted.
+- 2026-11-24 `doi-10-1037-bul0000465` (Metapsy psychotherapy meta-analytic domain, Cristea and Matbouriahi DPG): `ready` with preregistration (OSF ha745, cited as Harrer 2023, no date printed; analyses added at peer review not registered: confirm timing), open_data (Zenodo) and open_code (GitHub). The paper presents the Metapsy open databases and open-source R packages: not counted as reusable_tool for consistency with the earlier Metapsy records; add it if you consider the infrastructure this paper's tool.
+- 2026-11-24 `doi-10-1037-per0000703` (personality functioning and psychopathology, Bottesi, Iannattone): `ready` with open_data/open_code (OSF QBNC5); stated not preregistered. The local screen scored it 1 because the two-column layout scrambled the OSF statement.
+- 2026-11-24 `doi-10-1080-1047840x-2025-2482358` (Moè commentary, Psychological Inquiry): `needs-review`; T&F not covered by the university subscription, IRIS file restricted. Supply the PDF (probably a reject: short commentary).
+- 2026-11-24 batch 28: Chrome disconnected mid-batch and was reopened by Enrico; two APA PDFs saved from PsycNet and finalized with 01/02; PNPBP rejected (third-party HCP data). `data/` rebuilt and validated (two new cards); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-24 batch 27 (shortlist priority 5, 2025)
+
+- 2026-11-24 `doi-10-1038-s41598-025-89257-w` (Sci Rep, replicability bias in brain-wide association studies, Burns, Fracasso, Rousselet): scope reject; the inventory row carries the bioRxiv DOI 10.1101/2023.09.21.558661 (a `duplicate` ledger event links it) and Fracasso is printed only at Glasgow. The paper declares R/MATLAB code on GitHub, so override to keep with open_code if publication-time DPG affiliation is accepted.
+- 2026-11-24 batch 27: `doi-10-1016-j-paid-2025-113274` and `doi-10-1016-j-paid-2025-113410` (Toffalini) rejected because the authors state they lack permission to share data. `data/` rebuilt and validated, unchanged; `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-24 batch 26 (shortlist priority 5, 2025)
+
+- 2026-11-24 `doi-10-1080-09658211-2025-2599401` (mouse dynamics and lies about holidays, Monaro, Melis): borderline `ready` with open_data; Results declare the dataset "publicly available" on Zenodo (DOI printed, cited twice), but the closing Data availability statement says materials, data and code are available upon request. Confirm during the resource check or reject. Official citation 2026, 34(9), although the inventory says 2025.
+- 2026-11-24 `doi-10-23736-s0026-4806-25-09709-5` (GLP-1 agonists systematic review, Minerva Medica, Devita DPG): `needs-review`; full text and supplement require purchase, IRIS has no file. Supply the PDF.
+- 2026-11-24 `doi-10-1016-j-nbd-2025-106807` (EEG rhythms and sex in dementia): scope reject; Biundo and Antonini printed only at Neuroscience (inventory lists them as DPG). Data on request anyway.
+- 2026-11-24 batch 26: Taylor & Francis Memory was readable as HTML on the university network; Wiley, Nature, ScienceDirect (no captcha) too. `data/` rebuilt and validated (one new card); `docs/` not rendered and stale. Visual check deferred.
+
+### 2026-11-24 batch 25 (shortlist priority 5, 2025)
+
+- 2026-11-24 `doi-10-1016-j-lindif-2025-102726` (test anxiety and INVALSI performance, Feraco and Toffalini DPG): rejected; data are third-party INVALSI data accessible only with INVALSI permission, no code or materials shared. Overturn only if you consider the INVALSI service open data.
+- 2026-11-24 batch 25 inventory inconsistencies: Pigozzo, Coin, Sergi (`doi-10-1016-j-jamda-2025-105764`) printed only at DIMED; Fiorenzato, Musso, Misenti, Cauzzo and others (`doi-10-1016-j-jns-2025-123617`) not printed at DPG (only Biundo is). Records use printed affiliations.
+- 2026-11-24 batch 25: six papers read as publisher HTML in Enrico's browser (ScienceDirect opened without a human check, MDPI), all rejected (no new cards). `data/` rebuilt and validated; `docs/` not rendered and stale. Visual check deferred.
+
 ### 2026-11-20 batch 24 (shortlist priority 5, 2025)
 
 - 2026-11-20 `doi-10-1177-02698811251375895` (cannabinoids in dementia, systematic review, Devita DPG): `needs-review`; PROSPERO CRD42025635299 printed without URL or date, data on request. Decide together with the other identifier-only registrations (`doi-10-1121-10-0046098`, `doi-10-1186-s12877-025-06472-w`, `doi-10-1016-j-ridd-2025-105182`). Official citation 2026, 40(3).

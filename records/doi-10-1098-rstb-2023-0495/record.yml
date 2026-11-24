@@ -1,0 +1,81 @@
+schema_version: 1.0
+id: doi-10-1098-rstb-2023-0495
+doi: 10.1098/rstb.2023.0495
+bibliography:
+  title: "Ten years of using the APACS test: a multistudy cross-diagnostic analysis of pragmatic profiles"
+  authors: "Federico Frau; Marta Bosia; Luca Bischetti; Gloria Cappelli; Antonio Carotenuto; Luca Diamanti; Sonia Montemurro; Giulia Agostoni; Margherita Bechi; Daniela D'Imperio; Sara Lago; Sabrina Noccetti; Nicoletta Simi; Mauro Ceroni; Rosa Iodice; Matteo Signorini; Giorgio Arcara; Valentina Bambini"
+  journal: "Philosophical Transactions of the Royal Society B: Biological Sciences"
+  volume: '380'
+  issue: '1932'
+  pages: '20230495'
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Final published version in PubMed Central (read 2026-11-24): Arcara and Lago printed at IRCCS San Camillo Hospital, Venice, and generic University of Padua; no author printed at the Department of General Psychology. 2025 Aug 14; 380(1932): 20230495."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12351325/
+  iris_handle: 11577/3575300
+  note: Full text read as PubMed Central HTML (final published version) fetched from the university network on 2026-11-24; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12351325/
+    outcome: Full HTML fetched and read (connected browser unavailable).
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Scope reject: PMC full text read; DPG affiliation not confirmed (Arcara and Lago printed only as San Camillo and generic University of Padua). The paper declares the analysis code available in the electronic supplementary material on figshare, so it would qualify for open_code with DPG evidence; data from previous studies or on request. 2025, 380(1932). Inventory green."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 28, inventory list-2026-11-04.xlsx)
+    eligible: no
+    reason: no-DPG-affiliation-at-publication
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1098/rstb.2023.0495
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data accessibility"
+  passage: "Data from previously published studies or on request via the Ethics Committee; analysis code declared available in the electronic supplementary material (figshare DOI printed). Not counted: DPG affiliation not confirmed."
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12351325/
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as green, which does not qualify for the OA badge.
+  url: https://doi.org/10.1098/rstb.2023.0495
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

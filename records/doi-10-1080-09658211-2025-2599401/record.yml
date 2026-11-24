@@ -1,0 +1,113 @@
+schema_version: 1.0
+id: doi-10-1080-09658211-2025-2599401
+doi: 10.1080/09658211.2025.2599401
+bibliography:
+  title: "Investigating the truthfulness of autobiographical events through mouse dynamics"
+  authors: "Merylin Monaro; Alessandra Guiotto; Valentina Fietta; Giulia Melis"
+  journal: "Memory"
+  volume: '34'
+  issue: '9'
+  pages: '1031-1046'
+  year: 2026
+dpg:
+  authors:
+  - Merylin Monaro
+  - Alessandra Guiotto
+  - Valentina Fietta
+  - Giulia Melis
+  verified: yes
+  verification_source: "Final publisher HTML (Taylor & Francis, read 2026-11-24): all four authors at Department of General Psychology, University of Padova (Monaro also Department of Mathematics). Published online 11 Dec 2025; official citation Volume 34, 2026, Issue 9, pp. 1031-1046 (inventory year 2025)."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/09658211.2025.2599401
+  iris_handle: 11577/3570739
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.tandfonline.com/doi/full/10.1080/09658211.2025.2599401
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: Results state that the dataset is publicly available in a Zenodo repository (DOI 10.5281/zenodo.10822639), cited again for the data and ML parameters needed to replicate the classification. Borderline: the closing Data availability statement says materials, data and analysis code are available upon request. Resource not opened, Enrico check pending. All four authors printed at DPG; official citation 2026, 34(9). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 26, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2026
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/09658211.2025.2599401
+  preregistration: []
+  data: https://doi.org/10.5281/zenodo.10822639
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: "Results, Preliminary analysis of trajectories; Predictive (ML) models"
+  passage: "Paper states that the dataset is publicly available in a Zenodo repository (DOI printed) and points to the same repository for data and ML parameters to replicate the classification. The final Data availability statement instead says data are available upon request. Declaration and link read; resource not opened, manual check pending."
+  url: https://doi.org/10.5281/zenodo.10822639
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1080/09658211.2025.2599401
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti
+  public_summary: >-
+    Si può capire se qualcuno mente su una vacanza osservando come muove il mouse?
+    Un gruppo di ricerca dell'Università di Padova ha chiesto a 90 volontari di
+    rispondere sì o no, con un clic, a frasi su una loro vacanza recente. Un terzo
+    raccontava la vacanza vera, un terzo una vacanza del tutto inventata, imparata
+    il giorno prima, e un terzo una vacanza vera con alcuni dettagli cambiati. Il
+    computer registrava ogni percorso del cursore sullo schermo. Chi mentiva muoveva
+    il mouse più lentamente, e chi aveva ritoccato solo alcuni dettagli cambiava
+    direzione più spesso. Programmi che imparano dagli esempi hanno riconosciuto chi
+    mentiva in tre o quattro casi su cinque. Secondo gli autori, inventare tutto
+    potrebbe richiedere meno sforzo che alterare un ricordo vero: un passo verso
+    strumenti semplici ed economici per valutare i racconti.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-24'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract and Method: 90 participants answered binary questions about an autobiographical event (recent holiday) with a computer mouse; three groups of 30 (truthful, completely faked holiday learned the day before, real holiday with falsified details).'
+    - 'Abstract and Results: deceptive responses slower; details-faked group made more direction changes (x-flips and y-flips).'
+    - 'Abstract: machine learning classified deceptive vs truthful responses with average accuracy of 75% (completely faked) and 80% (details faked).'
+    - 'Abstract and Discussion: authors suggest fabricating an entire event may be less demanding than modifying real details; mouse tracking is cheap and needs only a standard computer.'
+    review_note: 'Scientific reread: lies were instructed in the laboratory, accuracy reported as 3-4 out of 5 (75-80%), interpretation attributed to the authors. Editorial reread: no acronyms or statistics.'
+publication:
+  published: no
+  featured: no

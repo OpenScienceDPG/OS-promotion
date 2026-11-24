@@ -1,0 +1,90 @@
+schema_version: 1.0
+id: doi-10-1016-j-neuropsychologia-2025-109121
+doi: 10.1016/j.neuropsychologia.2025.109121
+bibliography:
+  title: "Motor markers of congenital cerebellar hypoplasia"
+  authors: "Elisa Straulino; Maria Devita; Luisa Sartori; Adele Ravelli; Marina De Rui; Matteo Bendini; Lorenzo Pini; Andrea Spoto; Sonia Betti; Erika Marinuzzi; Daniela Mapelli; Umberto Castiello; Chiara Begliomini"
+  journal: "Neuropsychologia"
+  volume: '211'
+  issue: ~
+  pages: '109121'
+  year: 2025
+dpg:
+  authors:
+  - Elisa Straulino
+  - Maria Devita
+  - Luisa Sartori
+  - Andrea Spoto
+  - Sonia Betti
+  - Erika Marinuzzi
+  - Daniela Mapelli
+  - Umberto Castiello
+  - Chiara Begliomini
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-24): nine authors at Department of General Psychology, University of Padua; Ravelli and De Rui at Geriatrics DIMED; Pini at Neuroscience. Vol. 211 (3 May 2025), 109121."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0028393225000569
+  iris_handle: 11577/3549388
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.sciencedirect.com/science/article/pii/S0028393225000569
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full ScienceDirect HTML read; data will be made available on request; only third-party OpenNeuro control data and CAT12 toolbox cited. Nine authors printed at DPG; 2025, vol. 211. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 27, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.neuropsychologia.2025.109121
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "Data will be made available on request; reused control data come from a third-party OpenNeuro dataset."
+  url: https://www.sciencedirect.com/science/article/pii/S0028393225000569
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.neuropsychologia.2025.109121
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

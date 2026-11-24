@@ -1,0 +1,73 @@
+schema_version: 1.0
+id: doi-10-23736-s0026-4806-25-09709-5
+doi: 10.23736/s0026-4806.25.09709-5
+bibliography:
+  title: "Glucagon-like peptide-1 receptor agonists and its possible nephroprotective role: a systematic review"
+  authors: "Alessandro Perencin; Chiara Ceolin; Mario V. Papa; Benedetta Di Marzio; Bruno M. Zanforlini; Maria Devita; Chiara Curreri; Giulia Gasparini; Giuseppe Sergi; Marina De Rui"
+  journal: "Minerva Medica"
+  volume: '116'
+  issue: '6'
+  pages: '454-460'
+  year: 2025
+dpg:
+  authors:
+  - Maria Devita
+  verified: yes
+  verification_source: "Publisher abstract page (Minerva Medica, read 2026-11-24): Devita at DIMED Geriatrics Division and Department of General Psychology (DPG), University of Padua; other authors at DIMED or Karolinska. 2025 December; 116(6): 454-60. Inventory DPG names Papa and Sergi printed only at DIMED."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.minervamedica.it/en/journals/minerva-medica/article.php?cod=R10Y2025N06A0454
+  iris_handle: 11577/3561238
+  note: Full text not accessible on 2026-11-24; practices not assessed. As a systematic review it may report a PROSPERO registration.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.minervamedica.it/en/journals/minerva-medica/article.php?cod=R10Y2025N06A0454
+    outcome: Abstract only; HTML, PDF and Supplementary Materials links lead to purchase (university network not sufficient).
+  - date: '2026-11-24'
+    url: https://hdl.handle.net/11577/3561238
+    outcome: Padova IRIS record without attached files.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Unresolved access: Minerva Medica abstract only (full text and supplement require purchase), IRIS without file. Practices not assessed; systematic review, possible registration. Devita printed at DPG in the abstract page. Next step: Enrico or Devita supply the PDF. Not a completed screening or rejection."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 26, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: full-text-not-accessible
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.23736/s0026-4806.25.09709-5
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

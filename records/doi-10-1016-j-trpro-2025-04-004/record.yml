@@ -1,0 +1,85 @@
+schema_version: 1.0
+id: doi-10-1016-j-trpro-2025-04-004
+doi: 10.1016/j.trpro.2025.04.004
+bibliography:
+  title: "Validation of a bicycle simulator for cyclist-vehicle interaction analysis"
+  authors: "Andrea Baldassa; Federico Orsini; Giorgia Bono; Mariaelena Tagliabue; Massimiliano Gastaldi; Riccardo Rossi"
+  journal: "Transportation Research Procedia"
+  volume: '86'
+  issue: ~
+  pages: '24-31'
+  year: 2025
+dpg:
+  authors:
+  - Federico Orsini
+  - Giorgia Bono
+  - Mariaelena Tagliabue
+  - Massimiliano Gastaldi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-24): Orsini, Bono, Tagliabue and Gastaldi list the Department of General Psychology, University of Padova (with Civil Engineering ICEA and MoBe); Baldassa and Rossi at ICEA. Vol. 86 (2025), pp. 24-31."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S2352146525002510
+  iris_handle: 11577/3573160
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.sciencedirect.com/science/article/pii/S2352146525002510
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full ScienceDirect HTML read (conference paper); no data availability statement, repository or registration. Four authors list DPG; 2025, vol. 86. Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 30, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.trpro.2025.04.004
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article (no Data availability section)"
+  passage: "No data availability statement, repository or registration."
+  url: https://www.sciencedirect.com/science/article/pii/S2352146525002510
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.trpro.2025.04.004
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

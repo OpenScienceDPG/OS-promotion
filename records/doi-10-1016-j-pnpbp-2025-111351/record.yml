@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1016-j-pnpbp-2025-111351
+doi: 10.1016/j.pnpbp.2025.111351
+bibliography:
+  title: "Functional connectivity between subgenual anterior cingulate cortex and dorsomedial prefrontal cortex predicts clinical symptom improvement following total sleep deprivation in treatment resistant depression"
+  authors: "Zhiliang Long; Jiao Li; Marco Marino"
+  journal: "Progress in Neuro-Psychopharmacology and Biological Psychiatry"
+  volume: '138'
+  issue: ~
+  pages: '111351'
+  year: 2025
+dpg:
+  authors:
+  - Marco Marino
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-24): Marino at Department of General Psychology, University of Padua (also KU Leuven); Long at Southwest University, Li at UESTC Chengdu. Vol. 138 (2 April 2025), 111351."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0278584625001058
+  iris_handle: 11577/3565241
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.sciencedirect.com/science/article/pii/S0278584625001058
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full ScienceDirect HTML read; reanalysis of third-party Human Connectome Project data (link to the HCP release given); no own data, code, registration or materials shared. Marino printed at DPG; 2025, vol. 138. Inventory closed."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 28, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.pnpbp.2025.111351
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "Data are a third-party Human Connectome Project release (link printed); no new data, code or registration of the authors."
+  url: https://www.sciencedirect.com/science/article/pii/S0278584625001058
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1016/j.pnpbp.2025.111351
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

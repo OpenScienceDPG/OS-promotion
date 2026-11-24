@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-1177-03057356251320975
+doi: 10.1177/03057356251320975
+bibliography:
+  title: "Musicians are faster to process hierarchical Navon letters"
+  authors: "Erica Pomini; Alessandra Pecunioso; Christian Agrillo"
+  journal: "Psychology of Music"
+  volume: '53'
+  issue: '4'
+  pages: '643-652'
+  year: 2025
+dpg:
+  authors:
+  - Erica Pomini
+  - Alessandra Pecunioso
+  - Christian Agrillo
+  verified: yes
+  verification_source: "Final publisher HTML (Sage, read 2026-11-24): all three authors at Department of General Psychology, University of Padova (Agrillo also Padova Neuroscience Center). Vol. 53, issue 4 (July 2025), pp. 643-652; online 12 April 2025."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://journals.sagepub.com/doi/full/10.1177/03057356251320975
+  iris_handle: 11577/3583464
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://journals.sagepub.com/doi/full/10.1177/03057356251320975
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: full Sage HTML read; no data availability statement, repository, registration or shared materials. Three authors printed at DPG; 2025, 53(4). Inventory closed."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 29, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1177/03057356251320975
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article (no Data availability section)"
+  passage: "No data availability statement, repository, registration or shared materials."
+  url: https://journals.sagepub.com/doi/full/10.1177/03057356251320975
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1177/03057356251320975
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

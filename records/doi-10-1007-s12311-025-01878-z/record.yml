@@ -1,0 +1,115 @@
+schema_version: 1.0
+id: doi-10-1007-s12311-025-01878-z
+doi: 10.1007/s12311-025-01878-z
+bibliography:
+  title: "The Italian Standardization of the Cerebellar Cognitive Affective/Schmahmann Syndrome Scale: Cognitive Profiling in a Healthy, Heterogeneous Population"
+  authors: "Maria Devita; Adele Ravelli; Anna Panzeri; Anna Castaldo; Maria Arioli; Giusi Olivito; Angela Berardi; Alessandro Miscioscia; Chiara Ferrari; Libera Siciliano; Caterina Mariotti; Marina De Rui; Marta Ghisi; Zaira Cattaneo; Giuseppe Sergi; Daniela Mapelli; Maria Leggio"
+  journal: "The Cerebellum"
+  volume: '24'
+  issue: '5'
+  pages: '138'
+  year: 2025
+dpg:
+  authors:
+  - Maria Devita
+  - Anna Panzeri
+  - Marta Ghisi
+  - Daniela Mapelli
+  verified: yes
+  verification_source: "Final publisher HTML (Springer, read 2026-11-24): Devita, Panzeri, Ghisi and Mapelli at Department of General Psychology (DPG), University of Padua; Ravelli, De Rui, Sergi at DIMED; other authors at Besta, Bergamo, Sapienza, Santa Lucia and Padua Neurosciences/Neurology. 2025, 24(5), 138."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://link.springer.com/article/10.1007/s12311-025-01878-z
+  iris_handle: 11577/3561770
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded. Supplementary materials not opened.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://link.springer.com/article/10.1007/s12311-025-01878-z
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Borderline keep in ordinary mode, declaration-based: Methods state that the final Italian versions A and B of the CCAS-S, approved by the authors of the original scale, are available in the supplementary materials (Supplementary Figs. 1 and 2); cut-offs are also in the supplement. Counted as open_materials (test forms as article resource); the norms/cut-offs could alternatively qualify as reusable_tool (cf. Di Rosa precedents doi-10-1017-s1355617726102148, doi-10-1007-s10072-026-09385-7). No datasets generated or shared (stated). Supplement not opened, Enrico check pending. Four authors printed at DPG; 2025, 24(5). Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 30, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: yes
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1007/s12311-025-01878-z
+  preregistration: []
+  data: []
+  code: []
+  materials: https://doi.org/10.1007/s12311-025-01878-z
+  protocol: []
+evidence:
+- claims:
+  - open_materials
+  source: article_html
+  location: Methods (CCAS-S description); Supplementary Figs. 1 and 2
+  passage: The final Italian versions A and B of the scale are stated to be presented and available in the supplementary materials of the article; cut-offs are also given in the supplement. Statement read; supplementary files not opened, manual check pending.
+  url: https://link.springer.com/article/10.1007/s12311-025-01878-z
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1007/s12311-025-01878-z
+  verification: unverified
+curation:
+  status: curated
+  why_open: I materiali dello studio, come questionari e stimoli
+  article_resources:
+    materials: 'Supplementary Figs. 1 and 2: final Italian versions A and B of the CCAS-S, with cut-offs in the supplementary materials.'
+  public_summary: >-
+    Il cervelletto, una piccola struttura alla base del cervello, non serve solo a
+    coordinare i movimenti: quando è danneggiato può alterare anche il pensiero e
+    le emozioni, ma questi disturbi spesso passano inosservati. Per riconoscerli
+    esiste un breve test ideato negli Stati Uniti, con prove come elencare parole,
+    ripetere sequenze di numeri e copiare un cubo. Un gruppo di ricerca guidato
+    dalle Università di Padova e Roma Sapienza lo ha tradotto in italiano, in due
+    versioni equivalenti, e lo ha proposto a 671 adulti sani di età, regioni e
+    livelli di istruzione diversi. Il test si è dimostrato affidabile: dà risultati
+    molto simili se ripetuto a distanza di mesi o valutato da esaminatori diversi.
+    È la prima standardizzazione italiana dello strumento, che secondo gli autori
+    potrà aiutare a riconoscere prima questi disturbi.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_materials
+  summary_review:
+    by: agent
+    at: '2026-11-24'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: CCAS (Schmahmann syndrome) affects cognitive and emotional functioning yet remains underdiagnosed; study standardizes the CCAS-S in Italy.'
+    - 'Methods: scale items include semantic and phonemic fluency, digit span, cube draw and copy, similarities, go/no-go; parallel form B translated.'
+    - 'Abstract: 671 healthy Italian volunteers from various geographical, educational and social backgrounds; version B given to 51 people.'
+    - 'Abstract: optimal test-retest and inter-rater reliability, minimal practice effects after 1-3 months; first Italian standardization; authors advocate integration into routine assessment.'
+    review_note: 'Scientific reread: healthy normative sample, reliability results only; clinical use attributed to the authors; "guidato da" reflects first (Devita, Padova) and last (Leggio, Sapienza) authors. Editorial reread: no acronyms or statistics.'
+publication:
+  published: no
+  featured: no

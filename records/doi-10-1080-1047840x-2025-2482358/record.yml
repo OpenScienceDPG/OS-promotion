@@ -1,0 +1,73 @@
+schema_version: 1.0
+id: doi-10-1080-1047840x-2025-2482358
+doi: 10.1080/1047840x.2025.2482358
+bibliography:
+  title: "Beliefs to Behavior or Behavior to Beliefs? On What Makes Intentions Reality"
+  authors: "Angelica Moè"
+  journal: "Psychological Inquiry"
+  volume: '36'
+  issue: '1'
+  pages: '45-48'
+  year: 2025
+dpg:
+  authors:
+  - Angelica Moè
+  verified: yes
+  verification_source: "Taylor & Francis abstract page (read 2026-11-24): Moè at Department of General Psychology, University of Padova (correspondence). Vol. 36, No. 1, pp. 45-48, published online 13 May 2025."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/1047840X.2025.2482358
+  iris_handle: 11577/3554618
+  note: Full text not accessible on 2026-11-24; practices not assessed. Short commentary (4 pages), likely without own resources.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.tandfonline.com/doi/full/10.1080/1047840X.2025.2482358
+    outcome: Abstract and Get Access only in the connected browser; university subscription does not cover this journal; script request 403.
+  - date: '2026-11-24'
+    url: https://hdl.handle.net/11577/3554618
+    outcome: Padova IRIS record with restricted-access file only.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Unresolved access: T&F abstract page only (no Padova subscription to Psychological Inquiry), IRIS file restricted. Practices not assessed; short commentary, probably no own resources. Moè printed at DPG. Next step: Enrico or Moè supply the PDF. Not a completed screening or rejection."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 28, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: full-text-not-accessible
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/1047840x.2025.2482358
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

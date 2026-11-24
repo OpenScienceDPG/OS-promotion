@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-1007-s00426-025-02146-9
+doi: 10.1007/s00426-025-02146-9
+bibliography:
+  title: "Flickering lenses enhance reading performance through placebo effect"
+  authors: "Sandro Franceschini; Giovanna Puccio; Sara Bertoni; Sara Mascheretti; Andrea Cappellini; Simone Gori; Andrea Facoetti"
+  journal: "Psychological Research"
+  volume: '89'
+  issue: '4'
+  pages: '120'
+  year: 2025
+dpg:
+  authors:
+  - Sandro Franceschini
+  - Giovanna Puccio
+  - Andrea Facoetti
+  verified: yes
+  verification_source: "Final publisher HTML (Springer, fetched from the university network 2026-11-24): Franceschini, Puccio and Facoetti at Developmental and Cognitive Neuroscience Lab, Department of General Psychology, University of Padua; Bertoni and Gori at Bergamo. 2025, 89(4), 120."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://link.springer.com/article/10.1007/s00426-025-02146-9
+  iris_handle: 11577/3560645
+  note: Full text read as publisher HTML fetched from the university network on 2026-11-24; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://link.springer.com/article/10.1007/s00426-025-02146-9
+    outcome: Full HTML fetched and read (connected browser unavailable).
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full Springer HTML read; datasets available upon request from the corresponding authors; no registration or shared resources. Three authors printed at DPG; 2025, 89(4). Inventory closed."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 28, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1007/s00426-025-02146-9
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "The datasets are available upon request from the corresponding authors."
+  url: https://link.springer.com/article/10.1007/s00426-025-02146-9
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1007/s00426-025-02146-9
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,114 @@
+schema_version: 1.0
+id: doi-10-3390-sym17071030
+doi: 10.3390/sym17071030
+bibliography:
+  title: "Behavioral Lateralization and Boldness Traits Across Eight Teleost Fish Species"
+  authors: "Alessandra Pecunioso; Elisa Rotondi; Christian Agrillo"
+  journal: "Symmetry"
+  volume: '17'
+  issue: '7'
+  pages: '1030'
+  year: 2025
+dpg:
+  authors:
+  - Alessandra Pecunioso
+  - Elisa Rotondi
+  - Christian Agrillo
+  verified: yes
+  verification_source: "Final publisher HTML (MDPI, read 2026-11-24): authors at Department of General Psychology, University of Padova (affiliation 1; Padova Neuroscience Center as affiliation 2). 2025, 17(7), 1030."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.mdpi.com/2073-8994/17/7/1030
+  iris_handle: 11577/3583466
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded. Supplementary file not opened.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.mdpi.com/2073-8994/17/7/1030
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: ready
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Borderline keep in ordinary mode, declaration-based: Data Availability Statement says data are available in the Supplemental Material, with the supplement link printed (article resource of an open-access article; same convention as doi-10-1016-j-applanim-2025-106788). Supplement not opened, Enrico check pending. Three authors printed at DPG; 2025, 17(7). Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 29, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: yes
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.3390/sym17071030
+  preregistration: []
+  data: https://www.mdpi.com/article/10.3390/sym17071030/s1
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  source: article_html
+  location: Data Availability Statement; Supplementary Materials
+  passage: Data are declared available in the Supplemental Material, downloadable from the printed supplement link of the open-access article. Declaration read; supplementary file not opened, manual check pending.
+  url: https://www.mdpi.com/article/10.3390/sym17071030/s1
+  verification: unverified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+  url: https://doi.org/10.3390/sym17071030
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; L'articolo, gratuito sul sito della rivista
+  article_resources:
+    data: 'Supplementary Materials: file declared in the Data Availability Statement to contain the data.'
+  public_summary: >-
+    Messi in un ambiente mai visto, alcuni pesci partono subito a esplorare, altri
+    restano immobili: è solo una questione di specie? Un gruppo di ricerca
+    dell'Università di Padova ha messo alla prova otto specie di piccoli pesci
+    d'acqua dolce, tra cui pesci zebra, guppy e pesci gatto trasparenti, sempre con
+    la stessa procedura per rendere i confronti affidabili. Ognuno dei 165 pesci
+    veniva lasciato da solo in una vasca circolare nuova, osservando quanto tempo
+    impiegava a muoversi, quanto restava fermo e come nuotava. Il coraggio
+    nell'esplorare cambiava molto da specie a specie, e in generale i pesci
+    preferivano nuotare in cerchio piuttosto che in linea retta. Nessuna specie, però,
+    mostrava di girare più spesso in un verso che nell'altro. Una base di partenza
+    preziosa per chi studia il comportamento spontaneo di questi animali.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+  summary_review:
+    by: agent
+    at: '2026-11-24'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: standardized procedure, eight fish species (including Danio rerio, Poecilia reticulata, Kryptopterus bicirrhis) in a novel circular environment.'
+    - 'Methods: 165 freshwater fish, about 21 per species, inserted individually into the circular environment.'
+    - 'Abstract: boldness (latency to explore, freezing time) differed significantly between species; fish preferred circular over linear swimming; no clockwise/counterclockwise bias in any species.'
+    - 'Abstract: findings may establish a baseline for future research on spontaneous behaviour.'
+    review_note: 'Scientific reread: null lateralization result presented as a finding; circular-swimming preference stated as a general tendency. Editorial reread: no technical terms beyond common species names.'
+publication:
+  published: no
+  featured: no

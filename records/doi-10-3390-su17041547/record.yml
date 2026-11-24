@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-3390-su17041547
+doi: 10.3390/su17041547
+bibliography:
+  title: "Redefining Coworking for Sustainable Communities: Insights from Small Cities Amid COVID-19"
+  authors: "Gabriella Francesca Amalia Pernice; Valeria Orso; Luciano Gamberini"
+  journal: "Sustainability"
+  volume: '17'
+  issue: '4'
+  pages: '1547'
+  year: 2025
+dpg:
+  authors:
+  - Gabriella Francesca Amalia Pernice
+  - Valeria Orso
+  - Luciano Gamberini
+  verified: yes
+  verification_source: "Final publisher HTML (MDPI, read 2026-11-24): authors at Department of General Psychology, University of Padova, and Human Inspired Research Center. 2025, 17(4), 1547."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.mdpi.com/2071-1050/17/4/1547
+  iris_handle: 11577/3551222
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.mdpi.com/2071-1050/17/4/1547
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full MDPI HTML read; data available on request due to ethical restrictions. Three authors printed at DPG; 2025, 17(4). Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 29, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.3390/su17041547
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data Availability Statement"
+  passage: "Data available on request due to ethical restrictions."
+  url: https://www.mdpi.com/2071-1050/17/4/1547
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+  url: https://doi.org/10.3390/su17041547
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,115 @@
+schema_version: 1.0
+id: doi-10-1037-per0000703
+doi: 10.1037/per0000703
+bibliography:
+  title: "Advancing understanding of the relation between criterion A of the alternative model for personality disorders and hierarchical taxonomy of psychopathology: Insights from an external validity analysis"
+  authors: "Gioia Bottesi; Corrado Caudek; Ilaria Colpizzi; Sara Iannattone; Giulia Palmieri; Claudio Sica"
+  journal: "Personality Disorders: Theory, Research, and Treatment"
+  volume: '16'
+  issue: '2'
+  pages: '198-204'
+  year: 2025
+dpg:
+  authors:
+  - Gioia Bottesi
+  - Sara Iannattone
+  verified: yes
+  verification_source: "Final APA PDF (PsycNet institutional access, read 2026-11-24): Bottesi and Iannattone at Department of General Psychology, University of Padua; Caudek and Palmieri, Sica at Florence, Colpizzi at Trieste. Copyright 2024, official citation 2025, Vol. 16, No. 2, 198-204."
+source:
+  pdf_file: 10.1037_per0000703.pdf
+  pdf_path: ~
+  md5: 3587de7c1f094fcb4955bdbd943781c7
+  article_url: https://psycnet.apa.org/doiLanding?doi=10.1037%2Fper0000703
+  iris_handle: 11577/3542513
+  note: Final PDF saved from PsycNet through the connected browser (Padova institutional access) on 2026-11-24, screened with 01/02 and deleted after finalization. The local screen missed the two-column OSF statement; corrected on review. Supporting resource not opened.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://psycnet.apa.org/doiLanding?doi=10.1037%2Fper0000703
+    outcome: Institutional access verified; final PDF saved and read.
+screening:
+  status: ready
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24 14:14:37 +0100'
+  algorithm_version: screen-2.0
+  algorithm_score: 1
+  algorithm_suggestion: reject
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: author note states all data have been made publicly available at the Open Science Framework (DOI 10.17605/OSF.IO/QBNC5), and Method states that the deidentified processed data and analytic codes are available there. Stated not preregistered. Resource not opened, Enrico check pending. Bottesi and Iannattone printed at DPG; 2025, 16(2), 198-204. Inventory closed OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 28, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: no
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1037/per0000703
+  preregistration: []
+  data: https://doi.org/10.17605/OSF.IO/QBNC5
+  code: https://doi.org/10.17605/OSF.IO/QBNC5
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: "PDF page 1, author note; page 3, Method (transparency statement)"
+  passage: "Paper declares all data publicly available at the Open Science Framework (DOI link printed) and states that the deidentified processed data and analytic codes are available there; the study is stated not preregistered. Declaration and link read; resource not opened, manual check pending."
+  url: https://doi.org/10.17605/OSF.IO/QBNC5
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1037/per0000703
+  verification: unverified
+curation:
+  status: curated
+  why_open: I dati raccolti; Il codice usato per le analisi
+  public_summary: >-
+    Le difficoltà nel sapere chi siamo o nel creare legami con gli altri
+    riguardano solo chi ha un disturbo di personalità, oppure accompagnano molte
+    forme di disagio psicologico? Un gruppo di ricerca delle Università di Padova,
+    Firenze e Trieste ha chiesto a 1.183 adulti italiani di compilare questionari
+    sul proprio modo di essere, cioè senso di identità, capacità
+    di darsi obiettivi, empatia e intimità, e su molti sintomi, dall'ansia
+    all'umore basso, dall'uso di sostanze ai comportamenti antisociali. Le
+    difficoltà di funzionamento risultano legate a tutte le famiglie di sintomi,
+    in particolare ad ansia e umore. Un senso di identità fragile accompagnava ogni
+    tipo di disagio, la scarsa empatia si associava soprattutto all'ostilità verso
+    gli altri e i problemi di intimità al ritiro sociale. Secondo gli autori,
+    valutare il funzionamento della personalità può aiutare a capire e curare molti
+    disturbi.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-24'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: 1,183 participants from the Italian community completed self-report measures of personality functioning (identity, self-direction, empathy, intimacy) and psychopathology symptoms.'
+    - 'Abstract: LPF facets consistently associated with all HiTOP domains, measures more reflective of internalizing than externalizing symptoms.'
+    - 'Abstract: identity uniquely associated with all outcomes; empathy most associated with antagonism; intimacy most with detachment.'
+    - 'Abstract: authors suggest relevance of personality functioning in assessment and treatment of mental disorders.'
+    review_note: 'Scientific reread: correlational wording (legate, accompagnava, si associava); interpretation attributed to the authors; antagonism and detachment rendered as hostility and social withdrawal. Editorial reread: no acronyms or statistics.'
+publication:
+  published: no
+  featured: no

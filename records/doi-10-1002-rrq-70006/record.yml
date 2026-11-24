@@ -1,0 +1,83 @@
+schema_version: 1.0
+id: doi-10-1002-rrq-70006
+doi: 10.1002/rrq.70006
+bibliography:
+  title: "Integrating Executive Function Activities Into a Computerized Cognitive Training to Enhance Reading Comprehension in Primary Students"
+  authors: "Costanza Ruffini; Eleonora Pizzigallo; Chiara Pecini; Laura Bertolo; Barbara Carretti"
+  journal: "Reading Research Quarterly"
+  volume: '60'
+  issue: '2'
+  pages: 'e70006'
+  year: 2025
+dpg:
+  authors:
+  - Eleonora Pizzigallo
+  - Barbara Carretti
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley, read 2026-11-24): Pizzigallo and Carretti at Dipartimento di Psicologia Generale, Università di Padova; Ruffini and Pecini at Florence, Bertolo at ASL 5 La Spezia. Vol. 60, issue 2 (2025), e70006."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://ila.onlinelibrary.wiley.com/doi/full/10.1002/rrq.70006
+  iris_handle: 11577/3562272
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://ila.onlinelibrary.wiley.com/doi/full/10.1002/rrq.70006
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full Wiley HTML read; data available on request from the corresponding author; no registration or shared training materials. Pizzigallo and Carretti printed at DPG; 2025, 60(2). Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 29, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1002/rrq.70006
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data Availability Statement"
+  passage: "The data presented in this study are available on request from the corresponding author."
+  url: https://ila.onlinelibrary.wiley.com/doi/full/10.1002/rrq.70006
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1002/rrq.70006
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

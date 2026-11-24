@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1002-mds-30172
+doi: 10.1002/mds.30172
+bibliography:
+  title: "Conversion between NMSS and MDS-NMS in Parkinson's Disease"
+  authors: "Michela Garon; José-Manuel Rojo-Albuin; K. Ray Chaudhuri; Alexandra Rizos; Carmen Rodriguez-Blazquez; Eugenia Mamikonyan; Roberta Biundo; Anette Schrag; Daniel Weintraub; Angelo Antonini; Per Odin; Pablo Martinez-Martin"
+  journal: "Movement Disorders"
+  volume: '40'
+  issue: '5'
+  pages: '813-820'
+  year: 2025
+dpg:
+  authors:
+  - Roberta Biundo
+  verified: yes
+  verification_source: "Final publisher HTML (Wiley, read 2026-11-24): Biundo at Department of General Psychology, University of Padua; Garon and Antonini at Padua Neuroscience Center and Department of Neurosciences. Vol. 40, issue 5 (May 2025), pp. 813-820."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.30172
+  iris_handle: 11577/3568064
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.30172
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full Wiley HTML read; data available from the corresponding author upon reasonable request. Biundo printed at DPG; 2025, 40(5). Inventory bronze OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 26, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1002/mds.30172
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data Availability Statement"
+  passage: "Data available from the corresponding author upon reasonable request."
+  url: https://movementdisorders.onlinelibrary.wiley.com/doi/10.1002/mds.30172
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as bronze, qualifying for the OA badge.
+  url: https://doi.org/10.1002/mds.30172
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

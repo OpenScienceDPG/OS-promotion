@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1016-j-ssmmh-2025-100464
+doi: 10.1016/j.ssmmh.2025.100464
+bibliography:
+  title: "Advocacy by nonprofit scientific institutions needs to be evidence-based: a case study"
+  authors: "François Gonon; Henri Gouraud; André Gillibert; Bruno Falissard; Lisa Cosgrove; Kasper P. Kepp; Ioana A. Cristea; Florian Naudet"
+  journal: "SSM - Mental Health"
+  volume: '7'
+  issue: ~
+  pages: '100464'
+  year: 2025
+dpg:
+  authors:
+  - Ioana A. Cristea
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-24): Cristea at Department of General Psychology, University of Padova; other authors in France, USA, Switzerland. Vol. 7 (June 2025), 100464."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S2666560325000763
+  iris_handle: 11577/3562165
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.sciencedirect.com/science/article/pii/S2666560325000763
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full ScienceDirect HTML read; case study without data availability statement, repository or registration (supplementary data only). Cristea printed at DPG; 2025, vol. 7. Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 29, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.ssmmh.2025.100464
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article (no Data availability section)"
+  passage: "Case study; no data availability statement, repository or registration; only an article supplement."
+  url: https://www.sciencedirect.com/science/article/pii/S2666560325000763
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.ssmmh.2025.100464
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

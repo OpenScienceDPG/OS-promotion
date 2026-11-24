@@ -1,0 +1,82 @@
+schema_version: 1.0
+id: doi-10-1016-s2215-0366-25-00030-6
+doi: 10.1016/s2215-0366(25)00030-6
+bibliography:
+  title: "From clinical trials to real-world effectiveness: evaluating guided iCBT for depression in routine care"
+  authors: "Clara Miguel; Ioana A Cristea; Eirini Karyotaki"
+  journal: "The Lancet Psychiatry"
+  volume: '12'
+  issue: '3'
+  pages: '163-165'
+  year: 2025
+dpg:
+  authors:
+  - Ioana A Cristea
+  verified: yes
+  verification_source: "ScienceDirect preview and UvA-DARE copy (read 2026-11-24): Cristea at Department of General Psychology, University of Padova; Miguel and Karyotaki at Amsterdam. Comment, Vol. 12, issue 3 (March 2025), pp. 163-165."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://pure.uva.nl/ws/files/306993223/From_clinical_trials_to_real-world_effectiveness.pdf
+  iris_handle: 11577/3562174
+  note: Comment read in full from the UvA-DARE repository PDF (fetched to a temporary folder and deleted) on 2026-11-24; ScienceDirect showed only a preview.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://pure.uva.nl/ws/files/306993223/From_clinical_trials_to_real-world_effectiveness.pdf
+    outcome: Repository copy of the comment read in full.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: Comment read in full via the UvA-DARE repository copy (no Padova subscription to the journal); commentary on another study, no own data, code or registration. Cristea printed at DPG; 2025, 12(3). Inventory green."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 30, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/s2215-0366(25)00030-6
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole comment"
+  passage: "Commentary on another team's study; no own data, code, registration or materials."
+  url: https://pure.uva.nl/ws/files/306993223/From_clinical_trials_to_real-world_effectiveness.pdf
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as green, which does not qualify for the OA badge.
+  url: https://doi.org/10.1016/s2215-0366(25)00030-6
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

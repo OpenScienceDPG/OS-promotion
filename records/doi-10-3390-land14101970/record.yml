@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-3390-land14101970
+doi: 10.3390/land14101970
+bibliography:
+  title: "Linking Acoustic Indices to Vegetation and Microclimate in a Historical Urban Garden: Setting the Stage for a Restorative Soundscape"
+  authors: "Alessia Portaccio; Francesco Chianucci; Francesco Pirotti; Marco Piragnolo; Marco Sozzi; Andrea Zangrossi; Miriam Celli; Marta Mazzella di Bosco; Monica Bolognesi; Enrico Sella; Maurizio Corbetta; Francesca Pazzaglia; Raffaele Cavalli"
+  journal: "Land"
+  volume: '14'
+  issue: '10'
+  pages: '1970'
+  year: 2025
+dpg:
+  authors:
+  - Andrea Zangrossi
+  - Marta Mazzella di Bosco
+  - Monica Bolognesi
+  verified: yes
+  verification_source: "Final publisher HTML (MDPI, read 2026-11-24): Zangrossi, Mazzella di Bosco and Bolognesi at Department of General Psychology, University of Padua (affiliations of later authors collapsed in the page view, not checked); Pirotti, Piragnolo, Sozzi, Cavalli at TESAF. 2025, 14(10), 1970."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.mdpi.com/2073-445X/14/10/1970
+  iris_handle: 11577/3567081
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.mdpi.com/2073-445X/14/10/1970
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full MDPI HTML read; raw data available on request. Three authors printed at DPG; 2025, 14(10). Inventory gold OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 25, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.3390/land14101970
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data Availability Statement"
+  passage: "Raw data supporting the conclusions will be made available by the authors on request."
+  url: https://www.mdpi.com/2073-445X/14/10/1970
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as gold, qualifying for the OA badge.
+  url: https://doi.org/10.3390/land14101970
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

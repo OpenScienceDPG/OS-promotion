@@ -1,0 +1,126 @@
+schema_version: 1.0
+id: doi-10-1037-bul0000465
+doi: 10.1037/bul0000465
+bibliography:
+  title: "Effectiveness of psychotherapy: Synthesis of a \"meta-analytic research domain\" across world regions and 12 mental health problems"
+  authors: "Mathias Harrer; Clara Miguel; Wouter van Ballegooijen; Marketa Ciharova; Constantin Yves Plessen; Paula Kuper; Antonia A. Sprenger; Claudia Buntrock; Davide Papola; Ioana A. Cristea; Nino de Ponti; Đorđe Bašić; Darin Pauley; Ellen Driessen; Soledad Quero; Jorge Grimaldos; Sara Fernández Buendía; Cristina Botella; Jessica L. Hamblen; Paula P. Schnurr; Sadie E. Larsen; Rory A. Pfund; Emma Motrico; Irene Gómez-Gómez; Kim Setkowski; Minoo Matbouriahi; Yingying Wang; Josine Rawee; Heleen Riper; Annemieke van Straten; Marit Sijbrandij; Stefan Leucht; Toshi A. Furukawa; Eirini Karyotaki; Pim Cuijpers"
+  journal: "Psychological Bulletin"
+  volume: '151'
+  issue: '5'
+  pages: '600-667'
+  year: 2025
+dpg:
+  authors:
+  - Ioana A. Cristea
+  - Minoo Matbouriahi
+  verified: yes
+  verification_source: "Final APA PDF (PsycNet institutional access, read 2026-11-24): Cristea and Matbouriahi at affiliation 7, Department of General Psychology, University of Padua. 2025, Vol. 151, No. 5, 600-667."
+source:
+  pdf_file: 10.1037_bul0000465.pdf
+  pdf_path: ~
+  md5: aba2a6b19719d693985e26a60b763b0c
+  article_url: https://psycnet.apa.org/doiLanding?doi=10.1037%2Fbul0000465
+  iris_handle: 11577/3562160
+  note: Final PDF saved from PsycNet through the connected browser (Padova institutional access) on 2026-11-24, screened with 01/02 and deleted after finalization. Supporting resources not opened.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://research.vu.nl/files/426354444/Effectiveness_of_Psychotherapy_Synthesis_of_a_Meta_3_.pdf
+    outcome: Repository copies (VU, RUG) behind a Cloudflare human check, Radboud 403; not used.
+  - date: '2026-11-24'
+    url: https://psycnet.apa.org/doiLanding?doi=10.1037%2Fbul0000465
+    outcome: Institutional access verified; final PDF saved and read.
+screening:
+  status: ready
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24 14:14:37 +0100'
+  algorithm_version: screen-2.0
+  algorithm_score: 10
+  algorithm_suggestion: review
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: keep
+  final_note: "Keep in ordinary mode, declaration-based: author note states the study was registered with OSF (osf.io/ha745; cited as Harrer 2023 and indexed in the Metapsy preregistration directory; LMIC and non-Western analyses were added at peer review and are not in the registration) and that open data and code are publicly available on Zenodo (10.5281/zenodo.11116214) and on GitHub. Resources not opened, Enrico check pending; registration date not printed, confirm prospective timing. Metapsy open-source packages (metapsyData, metapsyTools) not counted as reusable_tool, consistent with the earlier Metapsy-team records. Cristea and Matbouriahi printed at DPG; 2025, 151(5), 600-667. Inventory green OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 28, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: yes
+  registered_report: ~
+  open_data: yes
+  open_code: yes
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1037/bul0000465
+  preregistration: https://osf.io/ha745
+  data: https://doi.org/10.5281/zenodo.11116214
+  code: https://github.com/MathiasHarrer/supersizing-meta-analysis
+  materials: []
+  protocol: []
+evidence:
+- claims:
+  - preregistration
+  source: pdf
+  location: "PDF page 1, author note; Method section on the analysis registration"
+  passage: "Paper states the study (analysis) was registered with the Open Science Framework at the printed link and indexed in the Metapsy preregistration directory; analyses in low- and middle-income and non-Western countries were added at peer review and are not in the registration. Registration date not printed. Declaration and link read; resource not opened, manual check pending."
+  url: https://osf.io/ha745
+  verification: unverified
+- claims:
+  - open_data
+  - open_code
+  source: pdf
+  location: "PDF page 1, author note"
+  passage: "Paper declares open data and code publicly available on Zenodo (DOI printed) and all code and data openly available on a GitHub repository (link printed). Declaration and links read; resources not opened, manual check pending."
+  url: https://doi.org/10.5281/zenodo.11116214
+  verification: unverified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as green, which does not qualify for the OA badge.
+  url: https://doi.org/10.1037/bul0000465
+  verification: unverified
+curation:
+  status: curated
+  why_open: Il piano dello studio, reso pubblico prima di raccogliere i dati; I dati raccolti; Il codice usato per le analisi
+  public_summary: >-
+    La psicoterapia funziona davvero, e funziona allo stesso modo in ogni parte del
+    mondo? Per rispondere, un grande gruppo internazionale, con ricercatrici
+    dell'Università di Padova, ha costruito Metapsy: un sistema di banche dati
+    aperte e di programmi che raccoglie e tiene aggiornati i risultati degli studi
+    sulle cure psicologiche. Grazie a questo sistema, gli autori hanno riunito più
+    di mille studi, con quasi 86 mila pazienti e dodici problemi di salute mentale,
+    dalla depressione alle fobie. I benefici risultano da modesti a moderati per
+    problemi come le psicosi o i pensieri suicidi, e ampi per depressione, attacchi
+    di panico, ansia e fobie. Gran parte delle ricerche viene da paesi ricchi e
+    occidentali, ma non è emerso alcun segno che la psicoterapia funzioni meno
+    altrove. Un'infrastruttura che permette di ottenere rapidamente prove
+    aggiornate per curare meglio.
+  topics: []
+  resource_review:
+    status: pending
+    assigned_to: Enrico
+    practices:
+    - preregistration
+    - open_data
+    - open_code
+  summary_review:
+    by: agent
+    at: '2026-11-24'
+    scientific_check: pass
+    editorial_check: pass
+    fact_sources:
+    - 'Abstract: authors developed the Metapsy meta-analytic research domain, a system of open databases and tailored software for rapid evidence generation.'
+    - 'Abstract: 1,029 studies with 85,952 patients across 12 mental health problems.'
+    - 'Abstract: small to moderate benefits for psychosis, suicidal ideation, borderline personality disorder and prolonged grief; large effects for depression, problem gambling, panic, generalized anxiety, social anxiety, OCD, PTSD and phobias.'
+    - 'Abstract: most evidence from high-income and Western countries (83.4-86.1%); no indication that psychotherapy is less effective in low- and middle-income or non-Western countries.'
+    - 'Public Significance Statement: open databases and software tools could enable rapid, reproducible tailored evidence.'
+    review_note: 'Scientific reread: meta-analytic averages described without causal overstatement; no-difference finding worded as "no sign". Editorial reread: no effect sizes or acronyms; 85,952 rounded to "quasi 86 mila".'
+publication:
+  published: no
+  featured: no

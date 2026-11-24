@@ -1,0 +1,72 @@
+schema_version: 1.0
+id: doi-10-1080-00220973-2025-2530006
+doi: 10.1080/00220973.2025.2530006
+bibliography:
+  title: "Working Memory and Transcription in a Written Composition Task in Second-Grade Children"
+  authors: "Anna Maria Re; Francesca De Vita; Gerardo Pellegrino; Eleonora Pizzigallo; Barbara Carretti"
+  journal: "The Journal of Experimental Education"
+  volume: ~
+  issue: ~
+  pages: '1-15'
+  year: 2025
+dpg:
+  authors: []
+  verified: no
+  verification_source: "Taylor & Francis abstract page (read 2026-11-24): Pellegrino, Pizzigallo and Carretti printed only as generic University of Padua; Re at Turin, De Vita at Palermo. Online first 13 July 2025, no volume yet. DPG department not confirmed from the visible page."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.tandfonline.com/doi/full/10.1080/00220973.2025.2530006
+  iris_handle: 11577/3562275
+  note: Full text not accessible on 2026-11-24; practices and DPG affiliation not assessed.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.tandfonline.com/doi/full/10.1080/00220973.2025.2530006
+    outcome: Abstract and Get Access only in the connected browser (also with the IRIS src link); university subscription does not cover this journal.
+  - date: '2026-11-24'
+    url: https://hdl.handle.net/2318/2123132
+    outcome: Turin IRIS record without attached files.
+screening:
+  status: needs-review
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-access-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: ~
+  final_note: "Unresolved access: T&F abstract only (no Padova subscription to this journal), Turin IRIS without file. Practices not assessed; Padova authors printed only as generic University of Padua on the abstract page. Online first 2025, no volume yet. Next step: Enrico or Carretti supply the PDF. Not a completed screening or rejection."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 30, inventory list-2026-11-04.xlsx)
+    eligible: ~
+    reason: full-text-not-accessible
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: ~
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1080/00220973.2025.2530006
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence: []
+curation:
+  status: needs-curation
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,84 @@
+schema_version: 1.0
+id: doi-10-1016-j-paid-2025-113274
+doi: 10.1016/j.paid.2025.113274
+bibliography:
+  title: "Intellectual giftedness in adult lifespan: just a dimensional account or are there areas especially sensitive to high potential?"
+  authors: "Enrico Toffalini; Erika Borella; Lina Pezzuti; James Dawe; Cesare Cornoldi"
+  journal: "Personality and Individual Differences"
+  volume: '245'
+  issue: ~
+  pages: '113274'
+  year: 2025
+dpg:
+  authors:
+  - Enrico Toffalini
+  - Erika Borella
+  - Cesare Cornoldi
+  verified: yes
+  verification_source: "Final publisher HTML (ScienceDirect, read 2026-11-24): Toffalini, Borella and Cornoldi at Department of General Psychology, University of Padova; Pezzuti and Dawe at Sapienza. Vol. 245 (October 2025), 113274."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.sciencedirect.com/science/article/pii/S0191886925002363
+  iris_handle: 11577/3555446
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.sciencedirect.com/science/article/pii/S0191886925002363
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject as OA only: full ScienceDirect HTML read; authors do not have permission to share data (normative sample). Three authors printed at DPG; 2025, vol. 245. Inventory hybrid OA."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 27, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: yes
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1016/j.paid.2025.113274
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "The authors do not have permission to share data."
+  url: https://www.sciencedirect.com/science/article/pii/S0191886925002363
+  verification: agent-verified
+- claims: open_access
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as hybrid, qualifying for the OA badge.
+  url: https://doi.org/10.1016/j.paid.2025.113274
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

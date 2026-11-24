@@ -1,0 +1,87 @@
+schema_version: 1.0
+id: doi-10-1038-s44159-025-00480-8
+doi: 10.1038/s44159-025-00480-8
+bibliography:
+  title: "Numerical cognition in birds"
+  authors: "L. Regolin; M. Loconsole; O. Rosa-Salva; K. Brosche; M. Macchinizzi; A. Felisatti; R. Rugani"
+  journal: "Nature Reviews Psychology"
+  volume: '4'
+  issue: '9'
+  pages: '576-590'
+  year: 2025
+dpg:
+  authors:
+  - L. Regolin
+  - M. Loconsole
+  - K. Brosche
+  - M. Macchinizzi
+  - A. Felisatti
+  - R. Rugani
+  verified: yes
+  verification_source: "Final publisher HTML (Nature, read 2026-11-24): all authors except Rosa-Salva (CIMeC, University of Trento) at Department of General Psychology, University of Padua. Vol. 4, issue 9 (September 2025), pp. 576-590."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://www.nature.com/articles/s44159-025-00480-8
+  iris_handle: 11577/3562422
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://www.nature.com/articles/s44159-025-00480-8
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: full Nature HTML read; narrative review article without data, code or other shared resources. Six authors printed at DPG; 2025, 4(9). Inventory closed."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 26, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1038/s44159-025-00480-8
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Whole article (review)"
+  passage: "Narrative review; no data availability statement, repository or registration."
+  url: https://www.nature.com/articles/s44159-025-00480-8
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1038/s44159-025-00480-8
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no

@@ -1,0 +1,85 @@
+schema_version: 1.0
+id: doi-10-1007-s00779-025-01846-8
+doi: 10.1007/s00779-025-01846-8
+bibliography:
+  title: "Under the camera eye: effects of video-surveillance technology on users' performance and anxiety levels"
+  authors: "Luciano Gamberini; Roberto Barattini; Patrik Pluchino; Valeria Orso"
+  journal: "Personal and Ubiquitous Computing"
+  volume: '29'
+  issue: '3'
+  pages: '181-192'
+  year: 2025
+dpg:
+  authors:
+  - Luciano Gamberini
+  - Roberto Barattini
+  - Patrik Pluchino
+  - Valeria Orso
+  verified: yes
+  verification_source: "Final publisher HTML (Springer, read 2026-11-24): all four authors at Department of General Psychology, University of Padova (three also HIT Research Center). Vol. 29, issue 3 (December 2025), pp. 181-192."
+source:
+  pdf_file: ~
+  pdf_path: ~
+  md5: ~
+  article_url: https://link.springer.com/article/10.1007/s00779-025-01846-8
+  iris_handle: 11577/3581038
+  note: Full text read as publisher HTML on 2026-11-24 in Enrico's connected browser; PDF not downloaded.
+  access_attempts:
+  - date: '2026-11-24'
+    url: https://link.springer.com/article/10.1007/s00779-025-01846-8
+    outcome: Full HTML read in the connected browser.
+screening:
+  status: screened-reject
+  first_screened_at: '2026-11-24'
+  last_screened_at: '2026-11-24'
+  algorithm_version: online-html-ordinary
+  algorithm_score: ~
+  algorithm_suggestion: ~
+  agent_reviewed: yes
+  reviewer: agent
+  final_decision: reject
+  final_note: "Reject: full Springer HTML read; raw data available upon specific request; no registration or shared resources. All authors printed at DPG; 2025, 29(3). Inventory closed."
+  review_mode: ordinary
+  scope:
+    corpus: DPG 2025-2026 (keyword shortlist 2026-11-13, batch 27, inventory list-2026-11-04.xlsx)
+    eligible: yes
+    reason: year-and-DPG-affiliation-verified
+    citation_year: 2025
+human_override: ~
+open_science:
+  preregistration: ~
+  registered_report: ~
+  open_data: ~
+  open_code: ~
+  open_materials: ~
+  open_protocol: ~
+  open_access: no
+  reusable_tool: ~
+resources:
+  article: https://doi.org/10.1007/s00779-025-01846-8
+  preregistration: []
+  data: []
+  code: []
+  materials: []
+  protocol: []
+evidence:
+- claims: []
+  source: article_html
+  location: "Data availability"
+  passage: "Raw data will be made available by the authors upon specific request."
+  url: https://link.springer.com/article/10.1007/s00779-025-01846-8
+  verification: agent-verified
+- claims: []
+  source: inventory
+  location: 'Inventory list-2026-11-04.xlsx, unpaywall: Tipologia Open Access (OA), normalized DOI match; checked 2026-11-24'
+  passage: Inventory classifies the article as closed, which does not qualify for the OA badge.
+  url: https://doi.org/10.1007/s00779-025-01846-8
+  verification: unverified
+curation:
+  status: not-selected
+  why_open: ~
+  public_summary: ~
+  topics: []
+publication:
+  published: no
+  featured: no
